@@ -46,7 +46,7 @@ export function render(root, ctx) {
     recuadro('aclaracion', 'Cómo leerlo',
       h('p', null, 'Es un cardiograma de nombres, no de personas: cuenta el año que fija cada término de NeuroLab (una obra, una persona, una ley, un manual). La línea plana no significa que no pasara nada, sino que ese año no nació ninguna de las palabras que recogemos. Y que haya pocos picos en los últimos años no quiere decir que el tema se calme: a muchas palabras les cuesta años llegar a los libros.')),
     recuadro('atencion', `Ojo con el salto: ${salto.de.toLowerCase()} ${salto.a}`,
-      h('p', null, `Un pico de nombres nuevos no es un pico de personas ni una explicación. Nombrar algo no lo explica: ${salto.ej} repite lo observado con otra palabra. Las etiquetas sirven para ordenar, investigar o pedir apoyos; los mecanismos hay que probarlos aparte.`),
+      h('p', null, `Un pico de nombres nuevos no es un pico de personas ni una explicación. Nombrar algo no lo explica: decir ${salto.ej.replace(/\.$/, '')} repite lo observado con otra palabra. Las etiquetas sirven para ordenar, investigar o pedir apoyos; los mecanismos hay que probarlos aparte.`),
       h('p', { class: 'small' }, h('b', null, 'Lo que falta para cruzar: '), salto.falta)),
     fechados.length ? recuadro('sabias', null, sabias()) : null,
     antiguos.length ? h('div', { class: 'chips' }, antiguos.map(t => h('a', { class: 'chip', href: `#/termino/${encodeURIComponent(t.id)}` }, t.lema, h('span', { class: 'muted' }, anio(t.anio))))) : null,
@@ -56,7 +56,7 @@ export function render(root, ctx) {
     const p = fechados[0];
     const pre = fechados.filter(t => t.anio < 1900).length, post = fechados.length - pre;
     if (p.anio >= 1900) return `El latido más antiguo de NeuroLab es de ${p.anio}: ${p.lema}. Desde entonces, ${plural(fechados.length - 1, 'término más', 'términos más')}.`;
-    return `El latido más antiguo de NeuroLab es de ${anio(p.anio)}: ${p.lema}. Antes de 1900 hay ${plural(pre, 'latido', 'latidos')} en total; desde 1900, ${post}.${post > pre * 2 ? ' Casi todos los nombres llegan con el siglo XX, cuando la infancia empieza a mirarse en consultas y escuelas.' : ''}`;
+    return `El latido más antiguo de NeuroLab es de ${anio(p.anio)}: ${p.lema}. Antes de 1900 hay ${plural(pre, 'latido', 'latidos')} en total; desde 1900, ${post}.${post > pre * 2 ? ' Casi todos los nombres llegan con el siglo XX.' : ''}`;
   }
 
   function pintarUso() {

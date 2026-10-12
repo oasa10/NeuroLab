@@ -1,4 +1,4 @@
-import { h, FAMILIAS, FAM_CORTA, SALTOS, famVar, famColor, tip, plural, recuadro, poner, inline } from '../lib.js';
+import { h, FAMILIAS, FAM_CORTA, SALTOS, famVar, tip, plural, recuadro, poner, inline } from '../lib.js';
 
 // Tendencias: las cifras que cambian con los años (con su unidad y su fuente) y los términos de NeuroLab por década y familia
 const num = (v, max = 2) => (typeof v === 'number' ? v.toLocaleString('es-ES', { maximumFractionDigits: max }) : '—');
