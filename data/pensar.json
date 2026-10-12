@@ -515,7 +515,7 @@
     "por": "Un promedio describe a un grupo, no a cada persona. Muchas niñas con TDAH sacan buenas notas, y el promedio no dice cuál será el caso de tu hija."
    }
   ],
-  "nota": "Se cazan frases, no personas: no hace falta apuntar quién lo dijo, y la caza no consiste en reírse de nadie. Todos damos saltos; la gracia está en verlos."
+  "nota": "No hace falta apuntar quién lo dijo, y la caza no consiste en reírse de nadie. Todos damos saltos; la gracia está en verlos (empezando por los nuestros)."
  },
  "situaciones": [
   {
@@ -563,10 +563,10 @@
    "titulo": "El que se aburre",
    "termino": "altas-capacidades",
    "salto": "cosa",
-   "escena": "En la sala de profesores, un compañero comenta el caso de Lucas, de 2.º de ESO, que hace meses que no entrega los deberes.",
+   "escena": "En la sala de profesores, Andrés, un compañero, comenta el caso de Lucas, de 2.º de ESO, que hace meses que no entrega los deberes.",
    "dialogo": [
     [
-     "Un compañero",
+     "Andrés",
      "Lucas tiene altas capacidades, ya lo sabemos. No hace los deberes porque se aburre. No hay nada que hacer."
     ]
    ],
@@ -631,10 +631,10 @@
    "titulo": "Los auriculares de Ana",
    "termino": "ajustes-razonables",
    "salto": "trampa",
-   "escena": "Ana, que tiene un diagnóstico de TDAH, ha pedido trabajar con auriculares que aíslan del ruido y recibir por escrito los acuerdos de las reuniones. En la reunión de coordinación, un responsable de equipo levanta la mano.",
+   "escena": "Ana, que tiene un diagnóstico de TDAH, ha pedido trabajar con auriculares que aíslan del ruido y recibir por escrito los acuerdos de las reuniones. En la reunión de coordinación, Raúl, responsable de otro equipo, levanta la mano.",
    "dialogo": [
     [
-     "Un responsable",
+     "Raúl",
      "Si se lo damos a ella, mañana todo el mundo dirá que tiene TDAH para pedir privilegios."
     ]
    ],
@@ -665,10 +665,10 @@
    "titulo": "Diez señales",
    "termino": "redes-sociales",
    "salto": "rasgo",
-   "escena": "Un vídeo con millones de visitas: «10 señales de que eres autista y no lo sabes». Algunas: odiar las llamadas, perder las llaves, necesitar ratos a solas. Tu primo lo comparte en el grupo de la familia.",
+   "escena": "Un vídeo con millones de visitas: «10 señales de que eres autista y no lo sabes». Algunas: odiar las llamadas, perder las llaves, necesitar ratos a solas. Dani, tu primo, lo comparte en el grupo de la familia.",
    "dialogo": [
     [
-     "Tu primo",
+     "Dani",
      "Me pasan ocho de diez. Lo sabía."
     ]
    ],
@@ -679,7 +679,7 @@
     {
      "t": "Respondes en el grupo: «Pues entonces todos somos autistas».",
      "ok": false,
-     "fb": "La broma deja en evidencia a tu primo y, de paso, trivializa una experiencia real de mucha gente. Además da otro salto: de que muchos se reconozcan a que sea una moda."
+     "fb": "La broma deja en evidencia a Dani y, de paso, trivializa una experiencia real de mucha gente. Además da otro salto: de que muchos se reconozcan a que sea una moda."
     },
     {
      "t": "Le escribes en privado: «Si te ves ahí, puede merecer la pena mirarlo con calma. Ojo: casi todo el mundo tiene alguna de esas señales; lo que cuenta es cuánto te cuestan en tu vida. ¿Lo hablamos?»",
@@ -704,10 +704,10 @@
    "titulo": "La cena de amigas",
    "termino": "inflacion-diagnostica",
    "salto": "moda",
-   "escena": "En una cena, tu amiga Lucía cuenta que le han diagnosticado TDAH a los 34 años. Le ha costado decirlo. Antes de que termine, otra amiga la interrumpe.",
+   "escena": "En una cena, tu amiga Lucía cuenta que le han diagnosticado TDAH a los 34 años. Le ha costado decirlo. Antes de que termine, Bea, otra amiga, la interrumpe.",
    "dialogo": [
     [
-     "Otra amiga",
+     "Bea",
      "Ahora a todo el mundo le diagnostican algo. Es la moda."
     ]
    ],
