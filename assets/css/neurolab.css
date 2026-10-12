@@ -683,7 +683,8 @@ blockquote.jg-clue { margin: 0; }
 .jg-uso, .jg-ver { display: flex; flex-direction: column; gap: 4px; min-height: 52px; padding: 10px 12px; }
 .jg-uso b, .jg-ver b { display: block; font-size: .98rem; }
 .jg-uso small, .jg-ver small { display: block; color: var(--text-2); font-size: .82rem; line-height: 1.35; }
-.jg-letra { font: 700 1.5rem/1 var(--serif); color: var(--c); }
+.jg .vbtn span { font-family: var(--sans); font-style: normal; color: inherit; font-size: inherit; }
+.jg .vbtn .jg-letra { font: 700 1.5rem/1 var(--serif); color: var(--c); }
 .jg-prueba { border-left: 4px solid var(--c); padding-left: 10px; }
 @media (max-width: 760px) { .jg-usos { grid-template-columns: repeat(2, minmax(0, 1fr)); } .jg-usos .jg-uso:last-child { grid-column: 1 / -1; } }
 @media (max-width: 560px) {

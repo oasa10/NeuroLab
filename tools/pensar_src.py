@@ -341,7 +341,7 @@ relato = {
     {"k": "contexto", "n": "Recontextualizar", "q": "Abre la ficha relacionada y apunta un dato o un contexto que no tenías en cuenta. ¿Qué faltaba en la foto?",
      "ej": "Por ejemplo: «No sabía que hasta 2013 el manual no permitía diagnosticar a la vez autismo y TDAH»."},
     {"k": "sentido", "n": "Resignificar", "q": "Con esa pieza nueva, ¿qué significa ahora para ti? ¿Qué harás distinto la próxima vez que oigas esa idea?",
-     "ej": "Por ejemplo: «Cuando alguien diga "es una moda", preguntaré qué uso de la etiqueta le preocupa»."},
+     "ej": "Por ejemplo: «Cuando alguien diga “es una moda”, preguntaré qué uso de la etiqueta le preocupa»."},
   ],
   "crear": {
     "q": "Con lo que has reencuadrado, recontextualizado y resignificado, escribe lo que crees ahora sobre las etiquetas. Cinco líneas bastan: más informado, más realista y más tuyo que lo que traías.",

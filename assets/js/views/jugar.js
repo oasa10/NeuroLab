@@ -241,6 +241,11 @@ function tapar(texto, t) {
   rangos.sort((a, b) => a[0] - b[0]);
   const unidos = [];
   for (const r of rangos) { const u = unidos.at(-1); if (u && r[0] <= u[1]) u[1] = Math.max(u[1], r[1]); else unidos.push(r.slice()); }
+  // si lo tapado abre un paréntesis, se tapa también el que lo cierra
+  for (const u of unidos) {
+    const seg = texto.slice(u[0], u[1]);
+    if ((seg.match(/\(/g) || []).length > (seg.match(/\)/g) || []).length && texto[u[1]] === ')') u[1]++;
+  }
   const out = [];
   let k = 0;
   for (const [a, b] of unidos) {

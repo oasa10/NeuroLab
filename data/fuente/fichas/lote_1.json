@@ -1,0 +1,1082 @@
+[
+ {
+  "id": "dsm",
+  "lema": "DSM (Manual diagnóstico y estadístico de los trastornos mentales)",
+  "variantes": [
+   "DSM",
+   "Diagnostic and Statistical Manual of Mental Disorders",
+   "manual de la APA"
+  ],
+  "tipo": "documento",
+  "familia": "Clasificar y medir",
+  "anio": 1952,
+  "anio_nota": "Publicación de la primera edición (DSM-I)",
+  "obra": "Asociación Americana de Psiquiatría (APA), DSM-I (1952); ediciones posteriores en 1968, 1980, 1987, 1994, 2000, 2013 y 2022",
+  "figuras": [
+   "Robert Spitzer",
+   "Allen Frances",
+   "David Kupfer",
+   "Maria Oquendo"
+  ],
+  "definicion": "Manual de la Asociación Americana de Psiquiatría que define y clasifica los trastornos mentales mediante criterios consensuados. Se usa en la clínica, la investigación y la administración, sobre todo en Estados Unidos. No explica causas: describe patrones para que profesionales distintos hablen de lo mismo.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "A"
+  ],
+  "controversia": "Se discute si sus categorías describen entidades naturales o convenciones útiles, si cada edición amplía demasiado los diagnósticos y cuánto pesan intereses profesionales, aseguradores y farmacéuticos en su elaboración.",
+  "contexto": "Tras la Segunda Guerra Mundial, la psiquiatría estadounidense convivía con varias clasificaciones, entre ellas la militar y la de la Administración de Veteranos. En 1952 la APA publicó el DSM-I, basado en esta última: 106 diagnósticos descritos en prosa y ordenados según sus supuestas causas. El DSM-II (1968) se acercó a la CIE-8 de la OMS. El gran giro llegó con el DSM-III (1980), que sustituyó las descripciones por criterios explícitos para mejorar el acuerdo entre profesionales y llegó a 265 diagnósticos. Después vinieron el DSM-IV (1994), que generalizó el requisito de malestar o deterioro clínicamente significativo, el DSM-5 (2013) y el DSM-5-TR (2022). Cada edición responde a nuevas investigaciones, pero también a necesidades de aseguradoras, ensayos clínicos y estadísticas. En enero de 2026 la APA presentó una hoja de ruta para un futuro manual digital y actualizable, un «documento vivo».",
+  "ejemplos": [
+   "En consulta, una psiquiatra comprueba si las dificultades de un adolescente cumplen los criterios del DSM-5-TR para el TDAH antes de proponer un plan.",
+   "Un ensayo clínico usa criterios del DSM como requisito de entrada para que todos los participantes tengan un diagnóstico comparable.",
+   "En Estados Unidos, un diagnóstico con criterios definidos suele ser condición para que el seguro reembolse una terapia.",
+   "Un informe clínico con diagnóstico DSM acompaña la petición de apoyos en un colegio español, aunque el centro hace su propia evaluación psicopedagógica.",
+   "En redes, alguien comparte una lista de síntomas del DSM y miles de personas se preguntan si «encajan»: el manual sale de la consulta."
+  ],
+  "implicaciones": "En España conviven dos referencias: muchos profesionales diagnostican con el DSM-5-TR, mientras que el sistema sanitario codifica con la CIE-10-ES. Para la escuela o el certificado de discapacidad, el diagnóstico es un dato más, no una llave automática: cada institución aplica sus propios procedimientos. Saber qué es el DSM ayuda a leer titulares del tipo «el DSM ya reconoce…» o «el DSM se inventa trastornos». No es una biblia ni un catálogo arbitrario: es un acuerdo revisable entre expertos, con pruebas de calidad desigual detrás de cada categoría. La próxima versión, anunciada como documento digital y actualizable, hará aún más importante preguntar qué edición y qué criterio se citan.",
+  "sabias": "En 1973 la APA retiró la homosexualidad del DSM-II tras un intenso debate científico y social. Es un recordatorio de que las categorías del manual se revisan y de que, a veces, desaparecen.",
+  "piensalo": "Si un manual cambia de edición en edición, ¿qué debería cambiar y qué debería mantenerse para que siga siendo fiable y útil?",
+  "paso": "Busca en un informe, un artículo o una noticia qué edición del DSM se cita. Si no lo dice, anótalo: es la primera pregunta que conviene hacer.",
+  "frase": "«Si no está en el DSM, no existe.»",
+  "veredicto": "mito",
+  "matiz": "El DSM recoge acuerdos revisables, no un inventario de la realidad. Hay sufrimientos sin categoría propia y categorías retiradas, como la homosexualidad en 1973. Además, la referencia internacional de la OMS es la CIE-11.",
+  "salto": "de la etiqueta al mecanismo (reificación)",
+  "relacionados": [
+   "dsm-iii",
+   "dsm-5",
+   "dsm-5-tr",
+   "cie-11",
+   "categoria-diagnostica",
+   "allen-frances"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Surís A, Holliday R, North CS (2016). The Evolution of the Classification of Psychiatric Disorders. Behavioral Sciences, 6(1), 5",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4810039"
+   },
+   {
+    "titulo": "Drescher J (2015). Out of DSM: Depathologizing Homosexuality. Behavioral Sciences, 5(4), 565-575",
+    "url": "https://doi.org/10.3390/bs5040565"
+   },
+   {
+    "titulo": "Villamarín S (2026). La APA traza la hoja de ruta del futuro DSM: hacia un manual más científico, dinámico e inclusivo. Infocop, Consejo General de la Psicología de España",
+    "url": "https://www.infocop.es/la-apa-traza-la-hoja-de-ruta-del-futuro-dsm-hacia-un-manual-mas-cientifico-dinamico-e-inclusivo/"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "dsm-iii",
+  "lema": "DSM-III",
+  "variantes": [
+   "DSM III",
+   "tercera edición del DSM",
+   "DSM-III-R (revisión de 1987)"
+  ],
+  "tipo": "documento",
+  "familia": "Clasificar y medir",
+  "anio": 1980,
+  "anio_nota": "Publicación de la tercera edición",
+  "obra": "APA, DSM-III (1980), elaborado por un grupo de trabajo dirigido por Robert Spitzer",
+  "figuras": [
+   "Robert Spitzer",
+   "John Feighner",
+   "Eli Robins",
+   "Samuel Guze"
+  ],
+  "definicion": "Tercera edición del DSM, publicada en 1980. Introdujo criterios diagnósticos explícitos y un sistema multiaxial para que profesionales distintos coincidieran en sus diagnósticos. Evitó clasificar por causas salvo cuando estas eran claramente conocidas.",
+  "usos": [
+   "I",
+   "D",
+   "A"
+  ],
+  "controversia": "Se debate si mejoró la fiabilidad a costa de la validez, si facilitó confundir listas de síntomas con enfermedades y cuánto influyeron aseguradoras, investigación farmacológica y política profesional en su diseño.",
+  "contexto": "En los años setenta la psiquiatría estadounidense tenía un problema de credibilidad: dos profesionales podían dar diagnósticos distintos al mismo paciente, y el reanálisis de Spitzer y Fleiss (1974) mostró una fiabilidad baja. A la vez, aseguradoras, organismos públicos e investigadores pedían categorías claras para pagar, financiar y comparar. Spitzer, nombrado en 1974 para dirigir la revisión, se apoyó en los criterios de Feighner (1972) y en los Criterios Diagnósticos de Investigación. El resultado, en 1980, fue un manual de 494 páginas y 265 diagnósticos que definía cada trastorno con listas operativas, umbrales y exclusiones, y dejaba la causa fuera salvo que estuviera clara. Fue un éxito editorial y profesional, y su modelo influyó en la CIE de la OMS. Con él entraron como categorías oficiales el autismo infantil y el trastorno por déficit de atención, con o sin hiperactividad.",
+  "ejemplos": [
+   "Gracias a criterios explícitos, dos equipos de investigación en ciudades distintas pueden seleccionar pacientes comparables para un mismo estudio.",
+   "El autismo infantil entró en 1980 como categoría oficial propia, un cambio que reordenó la investigación y los servicios durante décadas.",
+   "El trastorno por déficit de atención se dividió en «con» y «sin» hiperactividad, una distinción que ediciones posteriores reorganizaron.",
+   "Las aseguradoras estadounidenses empezaron a apoyarse en diagnósticos con criterios definidos para decidir qué tratamientos reembolsaban.",
+   "Cuando alguien dice hoy que el DSM es «un listado de síntomas», describe, para bien y para mal, la herencia del DSM-III."
+  ],
+  "implicaciones": "Casi todo lo que hoy se discute sobre etiquetas empieza aquí. El DSM-III hizo posible la investigación comparable, los ensayos clínicos y muchas de las estadísticas que se usan en España y en el resto del mundo. También dejó un riesgo: tratar una lista consensuada como si describiera un mecanismo cerebral. Cuando leas «el TDAH es una enfermedad del cerebro» o «el TDAH es un invento del DSM», recuerda que el manual de 1980 no pretendía ni lo uno ni lo otro: buscaba que los profesionales coincidieran. La pregunta útil es qué pruebas existen, además del acuerdo, para cada categoría y para cada uso que se le da.",
+  "sabias": "Según los historiadores Mayes y Horwitz, en los seis meses siguientes a su publicación el DSM-III recibió más pedidos que todas las ediciones anteriores del manual juntas.",
+  "piensalo": "¿Es preferible un diagnóstico en el que todos coinciden aunque explique poco, o uno más rico en el que cada profesional ve algo distinto?",
+  "paso": "Pregunta a un profesional sanitario qué cambió en su práctica gracias a los criterios explícitos. Anota una ventaja y un inconveniente que mencione.",
+  "frase": "«El DSM-III demostró que los trastornos mentales son enfermedades del cerebro.»",
+  "veredicto": "mito",
+  "matiz": "El DSM-III buscaba fiabilidad, no demostrar causas: su grupo de trabajo decidió usar la etiología como principio de clasificación solo cuando fuera claramente conocida. Las pruebas biológicas llegaron, y siguen llegando, por otros caminos.",
+  "salto": "de la etiqueta al mecanismo (reificación)",
+  "relacionados": [
+   "dsm",
+   "criterio-diagnostico",
+   "fiabilidad",
+   "categoria-diagnostica",
+   "reificacion",
+   "dsm-5"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Mayes R, Horwitz AV (2005). DSM-III and the revolution in the classification of mental illness. Journal of the History of the Behavioral Sciences, 41(3), 249-267",
+    "url": "https://facultystaff.richmond.edu/~bmayes/pdf/dsmiii.pdf"
+   },
+   {
+    "titulo": "Spitzer RL, Fleiss JL (1974). A re-analysis of the reliability of psychiatric diagnosis. British Journal of Psychiatry, 125, 341-347",
+    "url": "https://doi.org/10.1192/bjp.125.4.341"
+   },
+   {
+    "titulo": "Rosen NE, Lord C, Volkmar FR (2021). The Diagnosis of Autism: From Kanner to DSM-III to DSM-5 and Beyond. Journal of Autism and Developmental Disorders, 51(12), 4253-4270",
+    "url": "https://doi.org/10.1007/s10803-021-04904-1"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "dsm-5",
+  "lema": "DSM-5",
+  "variantes": [
+   "DSM 5",
+   "DSM-V",
+   "quinta edición del DSM"
+  ],
+  "tipo": "documento",
+  "familia": "Clasificar y medir",
+  "anio": 2013,
+  "anio_nota": "Publicación de la quinta edición",
+  "obra": "APA, DSM-5 (2013); grupo de trabajo presidido por David Kupfer",
+  "figuras": [
+   "David Kupfer",
+   "Darrel Regier",
+   "Allen Frances",
+   "Thomas Insel"
+  ],
+  "definicion": "Quinta edición del DSM, publicada en 2013. Unificó el autismo en un único trastorno del espectro autista, eliminó el sistema multiaxial y modificó los criterios del TDAH, entre otros cambios. Es la base de la versión vigente, el DSM-5-TR.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "A",
+   "R"
+  ],
+  "controversia": "Se discute si amplió en exceso algunos diagnósticos, como el TDAH en adultos, si la fusión del autismo borró perfiles distintos y si la fiabilidad medida en sus ensayos de campo fue suficiente para algunos trastornos.",
+  "contexto": "El DSM-5 nació con el encargo de incorporar casi dos décadas de investigación, incluida la neurobiológica, acumuladas desde el DSM-IV (1994). Su elaboración fue larga y muy pública: borradores en línea, ensayos de campo en centros de Estados Unidos y Canadá y críticas de figuras como Allen Frances, que había dirigido el DSM-IV. En abril de 2013, poco antes de su publicación, el director del NIMH, Thomas Insel, anunció que el instituto reorientaría su investigación lejos de las categorías del DSM. Para NeuroLab, los cambios más visibles fueron dos. En autismo, el trastorno autista, el síndrome de Asperger y otros diagnósticos se integraron en el trastorno del espectro autista. En TDAH, la edad de inicio pasó de antes de los 7 a antes de los 12 años, se exigieron cinco síntomas a partir de los 17 y se permitió diagnosticarlo junto al autismo.",
+  "ejemplos": [
+   "Una persona diagnosticada de Asperger en 2005 descubre que la categoría ya no figura en el DSM-5: hoy su perfil se describiría dentro del espectro autista.",
+   "Un niño autista con dificultades marcadas de atención puede recibir también el diagnóstico de TDAH, algo que el DSM-IV excluía.",
+   "Una mujer de 30 años es evaluada con el umbral de cinco síntomas, en lugar de los seis exigidos antes de los 17 años.",
+   "Un informe indica el nivel de ayuda que necesita una persona autista en comunicación social y en conductas repetitivas, una novedad de esta edición.",
+   "Un titular dice «el DSM-5 disparó los diagnósticos»; la pregunta útil es cuánto se debe a criterios, cuánto a detección y cuánto a servicios."
+  ],
+  "implicaciones": "Muchos diagnósticos que se hacen hoy en España en salud mental infantil y de adultos se apoyan en criterios del DSM-5 o de su revisión. Sus cambios explican situaciones cotidianas: adultos que reciben por primera vez un diagnóstico de TDAH, familias que no entienden qué pasó con el «Asperger» o informes que hablan de niveles de ayuda. También alimentan debates en redes y medios sobre si «ahora todo es TDAH o autismo». Conviene separar tres cosas: qué cambió en el texto, qué cambió en la práctica y qué cambió en los servicios. Atribuirlo todo al manual es tan simplista como negar que sus cambios importaran.",
+  "sabias": "El DSM-5 eliminó el sistema multiaxial, la evaluación por ejes que el DSM-III había estrenado en 1980. Una revisión histórica de 2016 lo describe como «un cambio fundamental» del manual.",
+  "piensalo": "Cuando una categoría se fusiona con otra, ¿qué se gana en coherencia y qué se pierde para quienes se reconocían en la antigua?",
+  "paso": "Si conoces un informe que use el término «Asperger», mira su fecha y su manual de referencia. Observa cómo cambia su lectura según la edición.",
+  "frase": "«Con el DSM-5 ya no hace falta que los síntomas afecten a tu vida para diagnosticar TDAH.»",
+  "veredicto": "mito",
+  "matiz": "El DSM-5 sigue exigiendo pruebas claras de que los síntomas interfieren en la vida social, escolar o laboral, o reducen su calidad. La redacción es menos estricta que el «deterioro clínicamente significativo» del DSM-IV, pero el requisito existe.",
+  "salto": "del aumento de diagnósticos a «es una moda»",
+  "relacionados": [
+   "dsm",
+   "dsm-5-tr",
+   "umbral",
+   "sindrome-asperger",
+   "autismo",
+   "tdah"
+  ],
+  "fuentes": [
+   {
+    "titulo": "SAMHSA (2016). DSM-5 Changes: Implications for Child Serious Emotional Disturbance, tabla 7: comparación DSM-IV y DSM-5 del TDAH. NCBI Bookshelf",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK519712/table/ch3.t3/"
+   },
+   {
+    "titulo": "Surís A, Holliday R, North CS (2016). The Evolution of the Classification of Psychiatric Disorders. Behavioral Sciences, 6(1), 5",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4810039"
+   },
+   {
+    "titulo": "Doherty JL, Owen MJ (2014). The Research Domain Criteria: moving the goalposts to change the game. British Journal of Psychiatry, 204(3), 171-173",
+    "url": "https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/research-domain-criteria-moving-the-goalposts-to-change-thegame/511DFB66003F2DC59C94B53519F42D22"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "dsm-5-tr",
+  "lema": "DSM-5-TR",
+  "variantes": [
+   "DSM-5 texto revisado",
+   "DSM-5-Text Revision"
+  ],
+  "tipo": "documento",
+  "familia": "Clasificar y medir",
+  "anio": 2022,
+  "anio_nota": "Publicación, el 18 de marzo de 2022",
+  "obra": "APA, DSM-5-TR, revisión de texto del DSM-5 (2022)",
+  "figuras": [],
+  "definicion": "Revisión de texto del DSM-5 publicada en 2022. Actualiza descripciones y referencias, aclara criterios de más de 70 trastornos y añade un diagnóstico nuevo, el trastorno de duelo prolongado. Es la versión vigente del manual de la APA.",
+  "usos": [
+   "I",
+   "D",
+   "A"
+  ],
+  "controversia": "Se discute la inclusión del duelo prolongado como trastorno, si una revisión de texto debe tocar criterios y cómo gestionar actualizaciones frecuentes sin que la práctica pierda la pista de la versión vigente.",
+  "contexto": "Entre 2013 y 2022 se acumularon estudios nuevos, erratas y propuestas de cambio presentadas por un procedimiento en línea que la APA abrió tras el DSM-5. En lugar de esperar a un DSM-6, la asociación optó por una revisión de texto, como ya había hecho con el DSM-IV-TR en 2000. Participaron más de 200 especialistas, 29 expertos en psiquiatría cultural, psicología y antropología, y un grupo de 14 profesionales de distintos orígenes étnicos que revisó las referencias a raza y etnia para evitar estereotipos. El resultado, publicado el 18 de marzo de 2022, añadió el trastorno de duelo prolongado, códigos para la conducta suicida y la autolesión no suicida, y aclaraciones en más de 70 trastornos. Desde entonces la APA publica actualizaciones periódicas, ha anunciado cambios de criterios y texto para comienzos de 2027 y prepara un futuro DSM digital.",
+  "ejemplos": [
+   "Una psicóloga escribe «DSM-5-TR» en su informe para indicar que aplica la versión vigente, con los textos y criterios aclarados.",
+   "Un servicio de salud mental incorpora el trastorno de duelo prolongado a su protocolo para valorar duelos especialmente persistentes e incapacitantes.",
+   "Un equipo de investigación comprueba si una actualización de la APA ha cambiado el criterio que usó para seleccionar a sus participantes.",
+   "La APA aprobó estudiar una aclaración de los especificadores de gravedad del autismo y abrió comentarios públicos hasta el 30 de abril de 2026.",
+   "Un estudiante de Psicología aprende que «DSM-5» y «DSM-5-TR» no son sinónimos exactos y que conviene citar la edición precisa."
+  ],
+  "implicaciones": "Para quien lee informes en España, la etiqueta «DSM-5-TR» indica que el profesional usa la versión vigente del manual estadounidense; para codificar en el sistema sanitario se usa otra herramienta, la CIE-10-ES. La revisión muestra cómo funciona hoy la clasificación: no por grandes saltos cada veinte años, sino por ajustes, propuestas y periodos de comentarios públicos. Eso tiene ventajas, porque corrige errores antes, y riesgos, porque obliga a comprobar qué versión exacta se citó. El propio proyecto Neurowokismo encontró en la web de la APA propuestas pendientes cuyo estado final no podía fijar. Moraleja práctica: fecha, edición y fuente, siempre juntas.",
+  "sabias": "Para el DSM-5-TR, un grupo de 14 profesionales de distintos orígenes étnicos revisó las referencias a raza y etnia del texto, con el fin de evitar estereotipos e información clínica sesgada.",
+  "piensalo": "¿Prefieres un manual que cambie poco y envejezca, o uno que se actualice a menudo aunque cueste saber qué versión se usó?",
+  "paso": "Abre la página de actualizaciones del DSM en la web de la APA y apunta la fecha del último cambio publicado. Comprueba si un informe que conozcas lo recoge.",
+  "frase": "«El DSM-5-TR es un manual nuevo lleno de trastornos nuevos.»",
+  "veredicto": "mito",
+  "matiz": "Es una revisión del texto del DSM-5. Añadió un solo diagnóstico, el trastorno de duelo prolongado, más códigos para conducta suicida y autolesión, y aclaró criterios de más de 70 trastornos que ya existían.",
+  "salto": "",
+  "relacionados": [
+   "dsm",
+   "dsm-5",
+   "cie-11",
+   "criterio-diagnostico"
+  ],
+  "fuentes": [
+   {
+    "titulo": "American Psychiatric Association (2022). APA releases Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (nota de prensa, 18 de marzo de 2022). APA",
+    "url": "https://psychiatry.org/news-room/news-releases/apa-releases-diagnostic-and-statistical-manual-of"
+   },
+   {
+    "titulo": "American Psychiatric Association (2026). DSM: actualizaciones y propuestas. APA",
+    "url": "https://www.psychiatry.org/psychiatrists/practice/dsm"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "cie-11",
+  "lema": "CIE-11",
+  "variantes": [
+   "ICD-11",
+   "Clasificación Internacional de Enfermedades, 11.ª revisión",
+   "CIE"
+  ],
+  "tipo": "documento",
+  "familia": "Clasificar y medir",
+  "anio": 2019,
+  "anio_nota": "Aprobación por la 72.ª Asamblea Mundial de la Salud; en vigor desde el 1 de enero de 2022",
+  "obra": "Organización Mundial de la Salud, CIE-11; manual clínico CDDR para trastornos mentales, del comportamiento y del neurodesarrollo (2024)",
+  "figuras": [],
+  "definicion": "Undécima revisión de la Clasificación Internacional de Enfermedades de la OMS, estándar mundial para registrar diagnósticos y causas de muerte. Su capítulo de trastornos mentales, del comportamiento y del neurodesarrollo incluye el autismo (6A02) y el TDAH (6A05). Es totalmente digital.",
+  "usos": [
+   "I",
+   "D",
+   "A"
+  ],
+  "controversia": "Se discute el ritmo de implantación en cada país, su convivencia con el DSM y algunas decisiones de frontera: qué se clasifica como enfermedad y qué como factor o fenómeno que influye en la salud.",
+  "contexto": "La CIE tiene un origen estadístico: en 1893 Jacques Bertillon presentó una lista internacional de causas de muerte, y en 1948 la recién creada OMS asumió la sexta revisión, que ya servía para registrar enfermedades además de defunciones. Desde entonces la CIE se usa para comparar la salud entre países, organizar servicios y elaborar estadísticas. La undécima revisión, aprobada por la Asamblea Mundial de la Salud en 2019 y en vigor desde el 1 de enero de 2022, es la primera completamente digital y contiene unos 17.000 códigos. En trastornos mentales y del neurodesarrollo, la OMS optó por descripciones clínicas con requisitos esenciales y margen para el juicio profesional, recogidas en el manual CDDR publicado en 2024. En autismo, en lugar de niveles de gravedad, especifica si hay trastorno del desarrollo intelectual y cómo es el lenguaje funcional.",
+  "ejemplos": [
+   "Un hospital de otro país codifica un TDAH como 6A05 para que su estadística sanitaria sea comparable con la de otros países.",
+   "La CIE-11 describe el autismo según haya o no trastorno del desarrollo intelectual y según el lenguaje funcional, por ejemplo 6A02.0 o 6A02.5.",
+   "El «burnout» aparece en la CIE-11 como fenómeno ocupacional, no como enfermedad: figurar en la clasificación no equivale a estar enfermo.",
+   "Un equipo de investigación compara criterios de la CIE-11 y del DSM-5-TR para comprobar si identifican a las mismas personas.",
+   "Un médico de familia consulta en línea las descripciones clínicas de la OMS antes de derivar a un niño a salud mental infantojuvenil."
+  ],
+  "implicaciones": "En España, el sistema sanitario codifica los diagnósticos con la CIE-10-ES, cuya 6.ª edición es de 2026; la CIE-11 rige en el ámbito internacional, pero la página de clasificaciones del Ministerio de Sanidad no recoge todavía su implantación. En la práctica clínica conviven, además, criterios del DSM-5-TR. Esto importa porque cifras, informes y estadísticas pueden hablar de «lo mismo» con reglas distintas. Para quien lee, la CIE recuerda algo útil: una clasificación sirve, sobre todo, para contar, comparar y organizar la atención. Que una condición tenga código no dice por sí solo qué la causa ni qué apoyo necesita cada persona.",
+  "sabias": "La CIE-11 incluye el «burnout», pero la OMS aclara que no lo clasifica como enfermedad, sino como fenómeno ocupacional. Estar en la clasificación no equivale a ser un trastorno.",
+  "piensalo": "Si un código sirve para contar casos y organizar servicios, ¿qué riesgos aparecen cuando se usa también para definir quién es alguien?",
+  "paso": "Entra en el navegador en línea de la CIE-11 de la OMS y busca «6A05». Lee qué incluye y qué excluye, y compáralo con lo que oyes en redes.",
+  "frase": "«En España ya se diagnostica con la CIE-11 desde 2022.»",
+  "veredicto": "matiz",
+  "matiz": "La CIE-11 rige internacionalmente desde 2022, pero la codificación sanitaria española sigue usando la CIE-10-ES (6.ª edición, 2026). En consulta, muchos profesionales emplean también criterios del DSM-5-TR.",
+  "salto": "",
+  "relacionados": [
+   "dsm",
+   "dsm-5-tr",
+   "categoria-diagnostica",
+   "autismo",
+   "tdah",
+   "certificado-discapacidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Organización Mundial de la Salud (2022). ICD-11 2022 release. OMS",
+    "url": "https://www.who.int/news/item/11-02-2022-icd-11-2022-release"
+   },
+   {
+    "titulo": "Organización Mundial de la Salud (2024). Clinical descriptions and diagnostic requirements for ICD-11 mental, behavioural and neurodevelopmental disorders (CDDR). OMS",
+    "url": "https://www.who.int/publications/i/item/9789240077263"
+   },
+   {
+    "titulo": "Ministerio de Sanidad (2026). Clasificaciones y normalización estadística: CIE-10-ES, 6.ª edición. Gobierno de España",
+    "url": "https://www.sanidad.gob.es/estadEstudios/estadisticas/normalizacion/home.htm"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "categoria-diagnostica",
+  "lema": "Categoría diagnóstica",
+  "variantes": [
+   "categoría clínica",
+   "entidad diagnóstica",
+   "diagnóstico categorial"
+  ],
+  "tipo": "concepto",
+  "familia": "Clasificar y medir",
+  "anio": 2003,
+  "anio_nota": "Publicación de un artículo de referencia que distingue validez y utilidad de las categorías psiquiátricas",
+  "obra": "Kendell R, Jablensky A (2003). Distinguishing between the validity and utility of psychiatric diagnoses. American Journal of Psychiatry",
+  "figuras": [
+   "Robert Kendell",
+   "Assen Jablensky",
+   "Emil Kraepelin"
+  ],
+  "definicion": "Grupo con nombre propio en el que una clasificación sitúa a quienes cumplen ciertos criterios. Sirve para comunicar, investigar y decidir. No implica por sí sola una causa común ni una frontera natural con la normalidad o con otros trastornos.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "A",
+   "R"
+  ],
+  "controversia": "Se discute si las categorías psiquiátricas son clases naturales, convenciones útiles o algo intermedio, y cómo evitar a la vez la reificación y el escepticismo que niega que describan problemas reales.",
+  "contexto": "Clasificar es una vieja tarea médica. A finales del siglo XIX, Emil Kraepelin agrupó cuadros psiquiátricos por su curso y su evolución, y esa idea de entidades separadas inspiró buena parte de la psiquiatría del siglo XX. El DSM-III (1980) la recuperó con criterios explícitos. Pronto apareció una pregunta incómoda: ¿están estas categorías separadas por huecos naturales, como muchas enfermedades infecciosas, o se difuminan unas en otras y en la normalidad? En 2003, Robert Kendell y Assen Jablensky concluyeron que hay poca evidencia de esos huecos para la mayoría de los trastornos mentales, pero que muchas categorías tienen gran utilidad porque informan sobre evolución, respuesta al tratamiento y causas. Desde entonces el debate se plantea menos como «real o inventado» y más como «válido para qué». Esa es también la pregunta que ordena NeuroLab.",
+  "ejemplos": [
+   "«Trastorno del espectro autista» agrupa a personas muy distintas que comparten dos dominios de dificultades: la categoría orienta, pero no describe a cada una.",
+   "Un estudio compara a niños con y sin diagnóstico de TDAH: la diferencia de medias dice algo del grupo, no de cada niño concreto.",
+   "En la escuela, la categoría NEAE agrupa situaciones tan distintas como el TDAH, las altas capacidades o la incorporación tardía al sistema educativo.",
+   "Una persona usa «autista» para describirse y encontrar comunidad, sin que eso equivalga a un informe clínico ni lo pretenda.",
+   "El certificado de discapacidad no se concede por la categoría, sino valorando funcionamiento y contexto según el baremo del Real Decreto 888/2022."
+  ],
+  "implicaciones": "Casi todos los debates de NeuroLab tienen aquí su raíz. Cuando alguien dice «el TDAH no existe» o «el autismo es una cosa en el cerebro», está discutiendo qué es una categoría. Ni lo uno ni lo otro: una categoría puede ser útil y estar bien delimitada sin ser una entidad con una sola causa. En España la misma palabra circula por la consulta, el expediente escolar, el certificado de discapacidad y las redes, y en cada sitio cumple una función distinta. Preguntar «¿categoría para qué?» evita dos errores: tomarla como la esencia de la persona y despreciarla como si no ayudara a nadie.",
+  "sabias": "Kendell y Jablensky usaron la expresión «zonas de rareza» para los huecos que deberían separar los trastornos si fueran entidades naturales. Para la mayoría de los trastornos mentales no hallaron pruebas claras de ellos.",
+  "piensalo": "¿Puede una categoría ser útil para ayudar a alguien aunque sus límites sean borrosos? ¿Dónde pondrías el límite de esa utilidad?",
+  "paso": "Elige una etiqueta que oigas esta semana y escribe en una línea para qué la usaba quien la dijo: investigar, diagnosticar, educar, acceder o reconocerse.",
+  "frase": "«Si tiene nombre en un manual, es una enfermedad igual que la gripe.»",
+  "veredicto": "mito",
+  "matiz": "Para la mayoría de los trastornos mentales no se han demostrado fronteras naturales ni una causa única, a diferencia de una infección. Aun así, muchas categorías son útiles porque informan sobre evolución, tratamiento y necesidades.",
+  "salto": "de la etiqueta al mecanismo (reificación)",
+  "relacionados": [
+   "criterio-diagnostico",
+   "validez-constructo",
+   "validez-uso",
+   "modelo-dimensional",
+   "reificacion",
+   "heterogeneidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Kendell R, Jablensky A (2003). Distinguishing between the validity and utility of psychiatric diagnoses. American Journal of Psychiatry, 160(1), 4-12",
+    "url": "https://doi.org/10.1176/appi.ajp.160.1.4"
+   },
+   {
+    "titulo": "Real Decreto 888/2022, de 18 de octubre, por el que se establece el procedimiento para el reconocimiento, declaración y calificación del grado de discapacidad. BOE",
+    "url": "https://www.boe.es/eli/es/rd/2022/10/18/888/con"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "criterio-diagnostico",
+  "lema": "Criterio diagnóstico",
+  "variantes": [
+   "criterios diagnósticos",
+   "criterios operativos",
+   "criterios de Feighner"
+  ],
+  "tipo": "concepto",
+  "familia": "Clasificar y medir",
+  "anio": 1972,
+  "anio_nota": "Publicación de los criterios de Feighner, primeros criterios operativos de amplia difusión en psiquiatría",
+  "obra": "Feighner JP, Robins E, Guze SB, Woodruff RA, Winokur G, Munoz R (1972). Diagnostic criteria for use in psychiatric research. Archives of General Psychiatry",
+  "figuras": [
+   "John Feighner",
+   "Eli Robins",
+   "Samuel Guze",
+   "George Winokur",
+   "Robert Spitzer"
+  ],
+  "definicion": "Regla explícita que indica qué debe cumplirse para asignar un diagnóstico: síntomas, número mínimo, duración, edad de inicio, contextos, impacto y exclusiones. Permite que profesionales distintos apliquen la misma definición, pero no sustituye el juicio clínico ni la historia de la persona.",
+  "usos": [
+   "I",
+   "D",
+   "A"
+  ],
+  "controversia": "Se discute si los criterios operativos simplifican en exceso, si sus umbrales son arbitrarios y si favorecen usarlos como lista de comprobación fuera de una evaluación completa.",
+  "contexto": "Hasta finales de los años sesenta, muchos diagnósticos psiquiátricos se describían en prosa y dependían de la escuela de cada profesional. En la Universidad de Washington en San Luis, un grupo encabezado por Eli Robins, Samuel Guze y George Winokur trabajaba desde finales de los cincuenta en una psiquiatría más empírica. En 1972 John Feighner firmó como primer autor un artículo que definía catorce trastornos con criterios explícitos para investigación. La idea era sencilla y potente: si queremos estudiar un trastorno, primero hay que acordar a quién incluimos. Los Criterios Diagnósticos de Investigación ampliaron la propuesta y el DSM-III de 1980 la llevó a la clínica. Desde entonces casi todos los diagnósticos combinan síntomas, duración, inicio y repercusión. El TDAH en el DSM-5, por ejemplo, exige síntomas en varios contextos, presentes antes de los 12 años y que interfieran en la vida diaria.",
+  "ejemplos": [
+   "Para el TDAH, el DSM-5 pide seis síntomas antes de los 17 años y cinco desde esa edad, además de requisitos de inicio, contextos e impacto.",
+   "Un equipo de investigación usa criterios explícitos para que su muestra de Barcelona sea comparable con otra de Toronto.",
+   "Una neuropediatra descarta otras explicaciones, como un problema de audición o de sueño, antes de concluir que se cumplen los criterios.",
+   "En redes circula una lista de criterios del autismo sin el inicio en el desarrollo ni el impacto: parece un test, pero está incompleta.",
+   "Un ensayo clínico fija sus criterios de inclusión con el DSM para que otros equipos puedan replicar los resultados."
+  ],
+  "implicaciones": "Los criterios son la parte del diagnóstico que más se ve y más se malinterpreta. En España, cuando un informe dice que una persona «cumple criterios», debería indicar de qué manual y cómo se comprobaron: entrevistas, varios informantes, historia del desarrollo y descarte de otras causas. El problema aparece cuando los criterios viajan solos, sin ese contexto, a una lista de redes, a un cuestionario escolar o a un titular. Entonces parecen más fáciles de cumplir, o más arbitrarios, de lo que son. Recordarlo protege de dos atajos: «si marco cinco casillas, lo tengo» y «son cuatro preguntas, todo es subjetivo».",
+  "sabias": "Según el departamento de Psiquiatría de la Universidad de Washington en San Luis, el artículo de Feighner y colaboradores de 1972 llegó a ser, durante un tiempo, el más citado de la psiquiatría.",
+  "piensalo": "¿Qué parte de un diagnóstico se puede escribir como regla y qué parte depende necesariamente de conocer la historia de cada persona?",
+  "paso": "Busca en una fuente oficial los criterios completos de un diagnóstico y cuenta cuántos requisitos no son síntomas: duración, edad, contextos, impacto o exclusiones.",
+  "frase": "«Para diagnosticar basta con marcar cinco o seis síntomas de una lista.»",
+  "veredicto": "mito",
+  "matiz": "Los criterios exigen también duración, edad de inicio, presencia en varios contextos, impacto en la vida y descartar otras explicaciones. Se aplican dentro de una evaluación clínica completa, no como un test de casillas.",
+  "salto": "del síntoma suelto al diagnóstico",
+  "relacionados": [
+   "dsm-iii",
+   "categoria-diagnostica",
+   "umbral",
+   "escalas-valoracion",
+   "diagnostico-diferencial",
+   "fiabilidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Feighner JP, Robins E, Guze SB, Woodruff RA, Winokur G, Munoz R (1972). Diagnostic criteria for use in psychiatric research. Archives of General Psychiatry, 26(1), 57-63",
+    "url": "https://doi.org/10.1001/archpsyc.1972.01750190059011"
+   },
+   {
+    "titulo": "Washington University School of Medicine, Department of Psychiatry. Feighner Criteria for Psychiatric Diagnosis",
+    "url": "https://psychiatry.wustl.edu/items/feighner-criteria-for-psychiatric-diagnosis/"
+   },
+   {
+    "titulo": "SAMHSA (2016). DSM-5 Changes: Implications for Child Serious Emotional Disturbance, tabla 7 (TDAH). NCBI Bookshelf",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK519712/table/ch3.t3/"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "validez-constructo",
+  "lema": "Validez de constructo",
+  "variantes": [
+   "construct validity",
+   "validez del constructo",
+   "red nomológica"
+  ],
+  "tipo": "concepto",
+  "familia": "Clasificar y medir",
+  "anio": 1955,
+  "anio_nota": "Publicación del artículo que desarrolló el concepto",
+  "obra": "Cronbach LJ, Meehl PE (1955). Construct validity in psychological tests. Psychological Bulletin, 52, 281-302",
+  "figuras": [
+   "Lee J. Cronbach",
+   "Paul E. Meehl",
+   "Eli Robins",
+   "Samuel Guze"
+  ],
+  "definicion": "Grado en que una medida refleja de verdad el atributo teórico que pretende medir, como la inteligencia, la atención o la ansiedad, que no se observan directamente. Se establece acumulando pruebas de que las puntuaciones se relacionan con otras variables tal como predice la teoría.",
+  "usos": [
+   "I",
+   "D"
+  ],
+  "controversia": "Se discute si los constructos psicológicos son entidades reales o herramientas teóricas, y si muchas escalas se usan sin pruebas suficientes de que miden lo que dicen medir.",
+  "contexto": "A mediados del siglo XX los tests psicológicos se multiplicaban en escuelas, ejércitos y clínicas, pero no estaba claro cómo demostrar que medían algo como la «inteligencia» o la «ansiedad». Un comité de la Asociación Americana de Psicología preparó unas recomendaciones técnicas para los tests, y su principal novedad fue un término: validez de constructo. En 1955 Lee Cronbach y Paul Meehl lo desarrollaron. Un constructo es un atributo que no se define con una simple operación de medida; validarlo exige una red de predicciones teóricas, a la que llamaron «red nomológica», y comprobar si las puntuaciones la cumplen. La idea pasó de la psicología a la psiquiatría: en 1970, Eli Robins y Samuel Guze propusieron validar los diagnósticos con descripción clínica, pruebas de laboratorio, delimitación respecto a otros trastornos, seguimiento y estudios familiares.",
+  "ejemplos": [
+   "Una escala de atención para adultos debería relacionarse con dificultades de la vida diaria y no solo con el cansancio del día de la prueba.",
+   "Si un cuestionario de camuflaje social puntúa alto en personas no autistas muy tímidas, hay que preguntarse qué está midiendo exactamente.",
+   "Un test de CI se valida comprobando, entre otras cosas, que predice el rendimiento académico; eso no prueba que capte todo el talento.",
+   "Un equipo comprueba si la estructura de un cuestionario traducido se mantiene en español antes de usarlo en colegios de España.",
+   "Ante un nuevo «test de neurodivergencia» en internet, la pregunta es qué pruebas de validez tiene y en qué población se obtuvieron."
+  ],
+  "implicaciones": "Muchas decisiones educativas y clínicas en España se apoyan en puntuaciones: cocientes intelectuales, escalas de atención, cuestionarios de autismo o de ansiedad. Su valor depende de que midan lo que dicen medir en personas como la evaluada, con su edad, su idioma y su contexto. La validez de constructo no es un sello que se gana de una vez: se acumula, se discute y puede fallar en otra población. También ayuda a desactivar un atajo frecuente: que una puntuación con decimales parezca más real que la observación de un profesional o el relato de una familia. Precisión no es lo mismo que validez.",
+  "sabias": "Según Cronbach y Meehl, la expresión «validez de constructo» fue la principal novedad del informe del comité de tests de la Asociación Americana de Psicología. Ellos aclararon que su propia interpretación no era oficial.",
+  "piensalo": "¿Cómo sabrías si un test mide la atención y no la motivación, el cansancio o las ganas de agradar a quien lo pasa?",
+  "paso": "Busca la ficha técnica de un cuestionario que conozcas y localiza en qué población se validó. Comprueba si se parece a la de las personas con quienes se usa.",
+  "frase": "«Si el test da un número, está midiendo algo real.»",
+  "veredicto": "mito",
+  "matiz": "Un número puede ser preciso y medir otra cosa. La validez de constructo exige pruebas de que la puntuación se comporta como predice la teoría y en la población evaluada; sin ellas, la cifra solo aparenta objetividad.",
+  "salto": "de la etiqueta al mecanismo (reificación)",
+  "relacionados": [
+   "validez-uso",
+   "fiabilidad",
+   "escalas-valoracion",
+   "ci",
+   "categoria-diagnostica",
+   "reificacion"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Cronbach LJ, Meehl PE (1955). Construct validity in psychological tests. Psychological Bulletin, 52, 281-302 (Classics in the History of Psychology, York University)",
+    "url": "https://psychclassics.yorku.ca/Cronbach/construct.htm"
+   },
+   {
+    "titulo": "Robins E, Guze SB (1970). Establishment of diagnostic validity in psychiatric illness: its application to schizophrenia. American Journal of Psychiatry, 126(7), 983-987",
+    "url": "https://doi.org/10.1176/ajp.126.7.983"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "validez-uso",
+  "lema": "Validez de uso",
+  "variantes": [
+   "validez para un uso",
+   "justificación de uso"
+  ],
+  "tipo": "concepto",
+  "familia": "Clasificar y medir",
+  "anio": 2026,
+  "anio_nota": "Propuesta del término en el proyecto Neurowokismo (borrador condicionado, octubre de 2026)",
+  "obra": "Proyecto Neurowokismo, «Borrador condicionado sobre validez de las categorías» (v1.0 a v1.3, 2026); se inspira en la definición de validez de los Standards for Educational and Psychological Testing (AERA, APA y NCME, 2014)",
+  "figuras": [],
+  "definicion": "Término propio de este proyecto: la justificación que conecta una etiqueta y su forma de identificarla con una decisión concreta. Lo que valida una etiqueta para investigar, diagnosticar, educar, dar acceso o reconocerse no la valida automáticamente para los demás usos.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "A",
+   "R"
+  ],
+  "controversia": "Es una herramienta de análisis propuesta por el proyecto, no una escala validada ni un consenso. Queda por discutir cuánta evidencia exigir a cada uso sin bloquear apoyos necesarios ni aceptar transferencias injustificadas.",
+  "contexto": "El proyecto Neurowokismo empezó con vídeos que denunciaban una «nueva ideología» de la neurodiversidad y desembocó en una pregunta más precisa: ¿cuándo está justificado usar una etiqueta para algo? Al revisar estudios, normas y debates, comprobó que las mismas palabras circulan entre la investigación, la consulta, la escuela, las instituciones y la identidad, y que los problemas aparecen en los saltos entre esos usos. Para nombrarlo propuso «validez de uso». La idea tiene raíces conocidas: los estándares de evaluación psicológica y educativa de 2014 definen la validez como el grado en que las pruebas y la teoría apoyan una interpretación para un uso propuesto, y advierten que es incorrecto hablar de «la validez del test» sin más. El proyecto aplica esa lógica a las categorías y pide pesar por igual dos errores: ampliar sin justificación y dejar fuera a quien necesita apoyo.",
+  "ejemplos": [
+   "Un cuestionario útil para investigar rasgos autistas en población general no basta para diagnosticar a una persona concreta.",
+   "Un diagnóstico de TDAH bien hecho no decide por sí solo qué adaptación necesita un alumno en Matemáticas: eso exige valorar su situación escolar.",
+   "Que alguien se reconozca autista y encuentre comunidad tiene valor propio, pero no equivale a una evaluación clínica, ni la necesita para ese uso.",
+   "Una cifra de alumnado con NEAE sirve para planificar recursos, no para calcular la prevalencia clínica de un trastorno.",
+   "Una diferencia media de neuroimagen entre grupos no autoriza a usar un escáner para diagnosticar a un niño."
+  ],
+  "implicaciones": "En España, una misma etiqueta puede abrir una consulta, un plan de apoyo escolar, un certificado de discapacidad o una comunidad en redes. Cada puerta tiene sus reglas: el diagnóstico clínico, la evaluación psicopedagógica y la valoración de discapacidad del Real Decreto 888/2022 persiguen fines distintos. La validez de uso propone hacer en cada puerta la misma pregunta: ¿qué pruebas justifican usar esta etiqueta para esta decisión? Así se evitan dos atajos frecuentes: «tiene diagnóstico, luego le corresponde todo» y «no hay prueba biológica, luego no le corresponde nada». El proyecto no encontró pruebas de que más inclusión produzca necesariamente más error, pero sí saltos que conviene vigilar.",
+  "sabias": "Los estándares de evaluación de la AERA, la APA y el NCME de 2014 advierten expresamente que es incorrecto hablar de «la validez del test» sin más: la validez se refiere siempre a una interpretación para un uso.",
+  "piensalo": "Piensa en una etiqueta que conozcas bien. ¿Para qué uso tiene buenas pruebas y para cuál se está usando sin ellas?",
+  "paso": "La próxima vez que oigas una etiqueta en una conversación o una noticia, pregúntate: «¿para qué se está usando aquí?». Anota la respuesta.",
+  "frase": "«Si el diagnóstico es válido, vale para todo.»",
+  "veredicto": "mito",
+  "matiz": "La validez depende de la interpretación y del uso. Un diagnóstico fiable puede orientar la atención clínica sin decidir por sí solo un apoyo escolar, un recurso administrativo o una identidad: cada uso necesita su propia justificación.",
+  "salto": "de un uso a otro (p. ej., del diagnóstico al recurso o de la identidad al diagnóstico)",
+  "relacionados": [
+   "validez-constructo",
+   "categoria-diagnostica",
+   "configuraciones-multiples",
+   "incentivos",
+   "autoadscripcion",
+   "errores-simetricos"
+  ],
+  "fuentes": [
+   {
+    "titulo": "AERA, APA, NCME (2014). Standards for Educational and Psychological Testing, cap. 1 «Validity». American Educational Research Association",
+    "url": "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf"
+   },
+   {
+    "titulo": "Real Decreto 888/2022, de 18 de octubre, procedimiento para el reconocimiento, declaración y calificación del grado de discapacidad. BOE",
+    "url": "https://www.boe.es/eli/es/rd/2022/10/18/888/con"
+   }
+  ],
+  "estado": "propia",
+  "nucleo": false
+ },
+ {
+  "id": "fiabilidad",
+  "lema": "Fiabilidad interjueces",
+  "variantes": [
+   "fiabilidad interevaluadores",
+   "acuerdo entre evaluadores",
+   "kappa de Cohen",
+   "fiabilidad test-retest"
+  ],
+  "tipo": "concepto",
+  "familia": "Clasificar y medir",
+  "anio": 1960,
+  "anio_nota": "Publicación del coeficiente kappa de Cohen, medida clásica del acuerdo entre evaluadores",
+  "obra": "Cohen J (1960). A coefficient of agreement for nominal scales. Educational and Psychological Measurement, 20(1), 37-46",
+  "figuras": [
+   "Jacob Cohen",
+   "Robert Spitzer",
+   "Joseph Fleiss"
+  ],
+  "definicion": "Grado en que evaluadores distintos llegan al mismo diagnóstico o puntuación ante la misma persona. Se suele medir con el coeficiente kappa, que descuenta el acuerdo esperable por azar. Es necesaria para la validez, pero no suficiente: se puede coincidir y estar equivocados juntos.",
+  "usos": [
+   "I",
+   "D"
+  ],
+  "controversia": "Se discute qué valores de kappa son aceptables, si los ensayos de campo del DSM-5 usaron una escala de interpretación más indulgente que los anteriores y por qué diagnósticos muy comunes, como la depresión, muestran un acuerdo modesto.",
+  "contexto": "En los años sesenta y setenta, varios estudios mostraron que el diagnóstico psiquiátrico era poco fiable: profesionales distintos ponían etiquetas distintas a los mismos pacientes. En 1960 Jacob Cohen había propuesto el coeficiente kappa, que mide el acuerdo descontando el que se daría por pura casualidad, y en 1974 Robert Spitzer y Joseph Fleiss reanalizaron estudios previos con resultados poco halagüeños. Mejorar esa cifra fue el gran objetivo del DSM-III. Décadas después, los ensayos de campo del DSM-5 midieron el acuerdo entre dos clínicos que entrevistaban por separado al mismo paciente en once centros de Estados Unidos y Canadá. El trastorno del espectro autista (0,69) y el TDAH en menores (0,61) quedaron en el rango «muy bueno»; la depresión mayor en adultos (0,28) y la ansiedad generalizada (0,20), en el «cuestionable».",
+  "ejemplos": [
+   "Dos psicólogas evalúan por separado a la misma niña y comparan sus conclusiones para comprobar si el protocolo de su servicio es fiable.",
+   "Un equipo de investigación entrena a sus evaluadores con vídeos hasta alcanzar un kappa aceptable antes de empezar a recoger datos.",
+   "Un hospital revisa por qué dos de sus unidades diagnostican TDAH en adultos con frecuencias muy distintas.",
+   "Un estudio comprueba si un cuestionario da resultados parecidos cuando la misma familia lo rellena dos semanas después: fiabilidad test-retest.",
+   "Ante la frase «cada psicólogo dice una cosa», alguien recuerda que la fiabilidad varía mucho según el diagnóstico y el método."
+  ],
+  "implicaciones": "Para familias y pacientes en España, la fiabilidad se nota cuando se pide una segunda opinión. Si dos profesionales discrepan, no siempre hay un error: pueden usar métodos distintos, ver momentos diferentes o contar con información incompleta. Pero la discrepancia es un dato que merece explicación. Las pruebas disponibles desmontan dos tópicos a la vez: no es cierto que el diagnóstico psiquiátrico sea pura opinión, porque algunos, como el autismo, alcanzan un acuerdo alto en condiciones reales; tampoco es cierto que todos lo sean, porque otros muy frecuentes muestran un acuerdo modesto. Y conviene recordar que coincidir no garantiza acertar: fiable no es lo mismo que válido.",
+  "sabias": "En los ensayos de campo del DSM-5, el autismo obtuvo un kappa de 0,69 y el TDAH infantil de 0,61, mientras que la depresión mayor en adultos se quedó en 0,28.",
+  "piensalo": "Si dos expertos coinciden siempre en un diagnóstico, ¿basta eso para saber que el diagnóstico describe bien lo que le pasa a la persona?",
+  "paso": "Si alguna vez pides una segunda opinión, pregunta a cada profesional qué información usó y qué método siguió. Compara antes de concluir quién acierta.",
+  "frase": "«Los diagnósticos psiquiátricos son una opinión: cada profesional dice una cosa.»",
+  "veredicto": "matiz",
+  "matiz": "La fiabilidad varía según el diagnóstico. En los ensayos del DSM-5, el autismo y el TDAH infantil lograron un acuerdo «muy bueno», mientras que la depresión y la ansiedad generalizada quedaron en un rango «cuestionable».",
+  "salto": "de la coincidencia a la verdad (fiable no es lo mismo que válido)",
+  "relacionados": [
+   "dsm-iii",
+   "dsm-5",
+   "criterio-diagnostico",
+   "validez-constructo",
+   "escalas-valoracion"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Regier DA, Narrow WE, Clarke DE y cols. (2013). DSM-5 field trials in the United States and Canada, Part II: test-retest reliability of selected categorical diagnoses. American Journal of Psychiatry, 170(1), 59-70",
+    "url": "https://ajp.psychiatryonline.org/doi/10.1176/appi.ajp.2012.12070999"
+   },
+   {
+    "titulo": "Cohen J (1960). A coefficient of agreement for nominal scales. Educational and Psychological Measurement, 20(1), 37-46",
+    "url": "https://journals.sagepub.com/doi/10.1177/001316446002000104"
+   },
+   {
+    "titulo": "Spitzer RL, Fleiss JL (1974). A re-analysis of the reliability of psychiatric diagnosis. British Journal of Psychiatry, 125, 341-347",
+    "url": "https://doi.org/10.1192/bjp.125.4.341"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "umbral",
+  "lema": "Umbral diagnóstico (punto de corte)",
+  "variantes": [
+   "punto de corte",
+   "umbral clínico",
+   "cut-off",
+   "baremo"
+  ],
+  "tipo": "concepto",
+  "familia": "Clasificar y medir",
+  "anio": 2013,
+  "anio_nota": "El DSM-5 rebaja a cinco los síntomas exigidos para el TDAH desde los 17 años y amplía hasta los 12 la edad de inicio: ejemplo de cómo se mueve un umbral",
+  "obra": "APA, DSM-5 (2013): cambios en los umbrales del TDAH respecto al DSM-IV, resumidos por SAMHSA (2016)",
+  "figuras": [],
+  "definicion": "Punto a partir del cual una puntuación o un número de síntomas se considera suficiente para una decisión: derivar, diagnosticar o conceder un recurso. Es una elección razonada sobre dónde cortar un continuo, no el descubrimiento de una frontera natural.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "A"
+  ],
+  "controversia": "Se discute dónde situar los cortes, quién decide moverlos y con qué pruebas, y cómo equilibrar el coste de dejar fuera a quien necesita ayuda con el de etiquetar a quien no la necesita.",
+  "contexto": "Muchas características humanas se distribuyen de forma gradual, pero las decisiones suelen ser de sí o no: derivar o no, tratar o no, apoyar o no. El umbral es el puente entre ambas cosas. En psiquiatría se consolidó con el DSM-III (1980), que tradujo los diagnósticos a recuentos de síntomas, y el DSM-IV (1994) añadió de forma sistemática el requisito de malestar o deterioro clínicamente significativo. El DSM-5 (2013) movió varios cortes del TDAH: cinco síntomas en lugar de seis a partir de los 17 años, inicio antes de los 12 en lugar de antes de los 7 y una redacción menos exigente del impacto. Cada cambio de umbral modifica cuántas personas quedan dentro y, por tanto, las cifras y la demanda de servicios. Por eso un umbral debería justificarse según su finalidad: no es lo mismo seleccionar a quién evaluar que diagnosticar o conceder un recurso.",
+  "ejemplos": [
+   "Una chica de 17 años con cinco síntomas de inatención puede cumplir el umbral del DSM-5; con el DSM-IV habría necesitado seis.",
+   "En un cribado se fija un corte bajo para no dejar escapar casos, sabiendo que habrá falsos positivos que una evaluación posterior descartará.",
+   "Un baremo rígido de CI 130 para identificar altas capacidades dejaría fuera a una alumna con 128 y un razonamiento excepcional.",
+   "En España, un grado de discapacidad del 33 % abre determinados derechos: es un umbral administrativo, distinto del clínico.",
+   "Si en un estudio se baja un punto el corte de una escala, la proporción de «casos» puede subir sin que haya cambiado nadie."
+  ],
+  "implicaciones": "En España conviven umbrales de naturaleza muy distinta: criterios clínicos del DSM o la CIE, cortes de cribado en pediatría o en la escuela, baremos de altas capacidades que varían entre comunidades autónomas y el 33 % de grado de discapacidad que abre derechos. Confundirlos genera injusticias en ambas direcciones: alguien puede necesitar apoyo sin llegar a un corte clínico, y alguien puede superar un corte sin necesitar un recurso concreto. Ante cualquier umbral, la pregunta útil es triple: ¿para qué decisión se fijó?, ¿con qué pruebas? y ¿qué errores se aceptan a cambio? Un corte bien justificado no es arbitrario; uno trasladado sin justificar a otra finalidad, quizá sí.",
+  "sabias": "El DSM-IV (1994) añadió de forma sistemática a sus criterios el requisito de malestar o deterioro clínicamente significativo: un umbral de impacto en la vida, no solo de número de síntomas.",
+  "piensalo": "Si tuvieras que fijar un umbral para un apoyo escolar, ¿preferirías equivocarte dejando fuera a alguien o incluyendo a quien no lo necesita? ¿Por qué?",
+  "paso": "Cuando leas una cifra de casos, busca qué punto de corte se usó. Si no aparece, anota que esa cifra no se puede comparar con otras.",
+  "frase": "«O tienes TDAH o no lo tienes: no hay término medio.»",
+  "veredicto": "matiz",
+  "matiz": "Los síntomas varían de forma gradual en la población, pero las decisiones clínicas requieren un corte. El diagnóstico es un umbral razonado sobre un continuo, con requisitos de inicio, contexto e impacto, no una frontera natural.",
+  "salto": "del punto de corte a la frontera natural",
+  "relacionados": [
+   "criterio-diagnostico",
+   "modelo-dimensional",
+   "sensibilidad-especificidad",
+   "cribado",
+   "prevalencia",
+   "dsm-5"
+  ],
+  "fuentes": [
+   {
+    "titulo": "SAMHSA (2016). DSM-5 Changes: Implications for Child Serious Emotional Disturbance, tabla 7: comparación DSM-IV y DSM-5 del TDAH. NCBI Bookshelf",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK519712/table/ch3.t3/"
+   },
+   {
+    "titulo": "Surís A, Holliday R, North CS (2016). The Evolution of the Classification of Psychiatric Disorders. Behavioral Sciences, 6(1), 5",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4810039"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "modelo-dimensional",
+  "lema": "Modelo dimensional",
+  "variantes": [
+   "enfoque dimensional",
+   "continuo",
+   "dimensiones frente a categorías",
+   "taxometría"
+  ],
+  "tipo": "concepto",
+  "familia": "Clasificar y medir",
+  "anio": 2020,
+  "anio_nota": "Publicación del primer metaanálisis de la investigación taxométrica",
+  "obra": "Haslam N, McGrath MJ, Viechtbauer W, Kuppens P (2020). Dimensions over categories: a meta-analysis of taxometric research. Psychological Medicine, 50(9), 1418-1432",
+  "figuras": [
+   "Nick Haslam",
+   "Paul E. Meehl",
+   "Roman Kotov"
+  ],
+  "definicion": "Forma de describir los problemas psicológicos como grados a lo largo de uno o varios continuos, en lugar de como categorías de «sí» o «no». No niega que haya personas que necesitan atención: obliga a explicar dónde y por qué se pone el corte.",
+  "usos": [
+   "I",
+   "D"
+  ],
+  "controversia": "Se discute si todo es dimensional o si algunas condiciones, como el autismo, tienen componentes más discretos, y si los modelos dimensionales son prácticos en la consulta, donde las decisiones son de sí o no.",
+  "contexto": "La medicina clásica pensaba en enfermedades presentes o ausentes. La psicología, en cambio, siempre midió rasgos como la inteligencia o la personalidad en escalas continuas. Para decidir qué modelo encaja mejor con cada fenómeno, Paul Meehl impulsó los métodos taxométricos, que comprueban si los datos se parecen más a una mezcla de grupos o a un continuo. En 2020, Nick Haslam y colaboradores revisaron 317 hallazgos de 183 artículos: los resultados dimensionales superaron a los categoriales en una proporción de cinco a uno, y la psicopatología no fue una excepción. Aun así, señalaron seis candidatos plausibles a ser «tipos» discretos, entre ellos el autismo. Marcos como HiTOP y RDoC se apoyan en esta visión, y el propio DSM-5 introdujo niveles de gravedad y especificadores. La discusión actual va de combinaciones: decisiones discretas apoyadas en información dimensional.",
+  "ejemplos": [
+   "Un informe describe la intensidad de la inatención de un alumno con una puntuación en percentiles, además de indicar si cumple criterios.",
+   "Un equipo de investigación analiza los síntomas de atención como puntuación continua, en lugar de partir la muestra en «con» y «sin» TDAH, para no perder información.",
+   "En autismo, el DSM-5 añade niveles de ayuda: una manera de introducir grados dentro de una misma categoría.",
+   "Un psicólogo explica a una familia que su hijo está en la zona alta de un rasgo, sin que eso implique por sí solo un diagnóstico.",
+   "En redes, «todos somos un poco TDAH» usa mal la idea dimensional: que un rasgo sea continuo no convierte a todo el mundo en un caso."
+  ],
+  "implicaciones": "Entender los modelos dimensionales ayuda a leer mejor los debates sobre el «espectro». En España muchas evaluaciones combinan ya ambas lógicas: puntuaciones en escalas y una conclusión diagnóstica. El riesgo está en los extremos del razonamiento. Si todo es continuo, parece que cualquier diferencia es un trastorno, o que ninguno existe; si todo es categoría, se pierden matices útiles para planificar apoyos. La evidencia sugiere que la mayor parte de las diferencias psicológicas son graduales y que eso no impide tomar decisiones razonadas. Lo que sí exige es justificar los cortes y no confundir un rasgo frecuente en la población con un diagnóstico completo.",
+  "sabias": "En el metaanálisis de Haslam y colaboradores, los hallazgos dimensionales superaron a los categoriales cinco a uno, pero el autismo apareció entre los seis candidatos más plausibles a tener una estructura de «tipo».",
+  "piensalo": "¿Te parece más útil decir «tiene TDAH» o «tiene mucha inatención en estas situaciones»? ¿Para quién y para qué decisión?",
+  "paso": "Si tienes un informe con puntuaciones, pide que te expliquen qué significa el percentil y dónde está el corte. Anota la diferencia entre ambas cosas.",
+  "frase": "«Si es un espectro, todos somos un poco autistas.»",
+  "veredicto": "mito",
+  "matiz": "Que algunos rasgos varíen en la población no convierte a todos en autistas: el diagnóstico exige dificultades persistentes, de inicio temprano y con impacto. Además, el autismo figura entre los candidatos a estructura discreta.",
+  "salto": "del continuo al «todos somos un poco…»",
+  "relacionados": [
+   "umbral",
+   "hitop",
+   "rdoc",
+   "categoria-diagnostica",
+   "fenotipo-ampliado",
+   "heterogeneidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Haslam N, McGrath MJ, Viechtbauer W, Kuppens P (2020). Dimensions over categories: a meta-analysis of taxometric research. Psychological Medicine, 50(9), 1418-1432",
+    "url": "https://doi.org/10.1017/S003329172000183X"
+   },
+   {
+    "titulo": "Kotov R, Krueger RF, Watson D y cols. (2017). The Hierarchical Taxonomy of Psychopathology (HiTOP): A dimensional alternative to traditional nosologies. Journal of Abnormal Psychology, 126(4), 454-477",
+    "url": "https://doi.org/10.1037/abn0000258"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "sensibilidad-especificidad",
+  "lema": "Sensibilidad y especificidad",
+  "variantes": [
+   "sensibilidad",
+   "especificidad",
+   "valor predictivo positivo",
+   "falsos positivos y negativos"
+  ],
+  "tipo": "concepto",
+  "familia": "Clasificar y medir",
+  "anio": 1947,
+  "anio_nota": "Jacob Yerushalmy usa los términos para evaluar la lectura de radiografías; su origen se remonta a la serología de principios del siglo XX",
+  "obra": "Yerushalmy J (1947). Statistical problems in assessing methods of medical diagnosis, with special reference to X-ray techniques. Public Health Reports, 62(40), 1432-1449",
+  "figuras": [
+   "Jacob Yerushalmy"
+  ],
+  "definicion": "Dos medidas del rendimiento de una prueba. La sensibilidad es la proporción de personas con la condición a las que la prueba detecta; la especificidad, la proporción de personas sin ella a las que descarta correctamente. Ninguna indica por sí sola qué probabilidad tiene alguien con un resultado positivo.",
+  "usos": [
+   "I",
+   "D"
+  ],
+  "controversia": "Sin controversia relevante sobre los conceptos. Se discute qué estándar de referencia usar en autismo o TDAH, donde no hay prueba biológica, y cómo comunicar un positivo sin alarmar ni tranquilizar en exceso.",
+  "contexto": "Tras la Segunda Guerra Mundial, los programas de radiografías de tórax para detectar tuberculosis plantearon una pregunta práctica: ¿cuántos casos se escapan y cuántas personas sanas se alarman sin motivo? En 1947 Jacob Yerushalmy usó los términos sensibilidad y especificidad para analizar estas pruebas, y a menudo se le atribuye su invención. Una revisión histórica de 2021 matizó que ya se medían a principios del siglo XX, ligados a las pruebas serológicas de la sífilis. Desde entonces son el lenguaje básico para evaluar pruebas y cribados. En salud mental y neurodesarrollo su uso es más delicado, porque no existe un análisis de sangre que sirva de referencia: la comparación se hace con una evaluación clínica completa. Por eso conviene combinarlas con el valor predictivo, que depende de cuántas personas tienen realmente la condición en el grupo evaluado.",
+  "ejemplos": [
+   "En el M-CHAT-R/F, de los niños positivos tras la entrevista de seguimiento, el 47,5 % recibió diagnóstico de autismo y el 94,6 % tenía algún retraso o preocupación del desarrollo.",
+   "Una prueba con un 90 % de sensibilidad y un 90 % de especificidad, aplicada donde solo un 5 % tiene la condición, da más falsos positivos que verdaderos.",
+   "Una pediatra explica a una familia que un cribado positivo significa «hay que evaluar», no «tiene autismo».",
+   "Si un test de atención por ordenador también marca a niños cansados o ansiosos, su especificidad baja y aumentan las falsas alarmas.",
+   "Un «test de autismo» de veinte preguntas en redes no informa de su sensibilidad ni de su especificidad: no hay forma de saber cuánto acierta."
+  ],
+  "implicaciones": "En España se usan cribados en pediatría y en la escuela, y abundan los test en internet. Entender estas dos medidas ayuda a reaccionar con calma: un positivo invita a evaluar, no es un diagnóstico; un negativo no garantiza que todo esté bien si las preocupaciones siguen. También permite leer con espíritu crítico las noticias sobre «pruebas objetivas» del TDAH o del autismo basadas en neuroimagen, inteligencia artificial o electroencefalograma: la pregunta es con qué estándar se compararon, en qué población y qué proporción de positivos resultó correcta. Una prueba que funciona en un hospital especializado puede rendir mucho peor en la población general, donde la condición es menos frecuente.",
+  "sabias": "Aunque se suele atribuir a Jacob Yerushalmy la definición de sensibilidad y especificidad en 1947, una revisión histórica de 2021 mostró que ya se medían a principios del siglo XX en las pruebas de la sífilis.",
+  "piensalo": "Si un test acierta casi siempre con quien tiene la condición, ¿por qué podría equivocarse tanto al aplicarlo a toda una clase?",
+  "paso": "Antes de compartir un «test» de redes, mira si publica su sensibilidad, su especificidad y la población donde se probó. Si no, no lo presentes como diagnóstico.",
+  "frase": "«Si el test ha dado positivo, es que lo tiene.»",
+  "veredicto": "mito",
+  "matiz": "Un positivo indica más probabilidad, no certeza: depende de la prueba y de cuántas personas tienen la condición en ese grupo. En el M-CHAT-R/F, de los positivos tras el seguimiento, el 47,5 % tuvo diagnóstico de autismo.",
+  "salto": "del resultado positivo al diagnóstico (olvidar la prevalencia de base)",
+  "relacionados": [
+   "cribado",
+   "umbral",
+   "prevalencia",
+   "errores-simetricos",
+   "biomarcador",
+   "cpt"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Binney N, Hyde C, Bossuyt PM (2021). On the Origin of Sensitivity and Specificity. Annals of Internal Medicine, 174(3), 401-407",
+    "url": "https://doi.org/10.7326/M20-5028"
+   },
+   {
+    "titulo": "Robins DL, Casagrande K, Barton M y cols. (2014). Validation of the Modified Checklist for Autism in Toddlers, Revised with Follow-up (M-CHAT-R/F). Pediatrics, 133(1), 37-45",
+    "url": "https://doi.org/10.1542/peds.2013-1813"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "escalas-valoracion",
+  "lema": "Escalas y cuestionarios de valoración",
+  "variantes": [
+   "escalas de valoración",
+   "cuestionarios",
+   "rating scales",
+   "Conners",
+   "SDQ",
+   "Vanderbilt"
+  ],
+  "tipo": "concepto",
+  "familia": "Clasificar y medir",
+  "anio": 1969,
+  "anio_nota": "Publicación de la escala de Conners para profesorado, una de las primeras escalas de conducta infantil de amplia difusión",
+  "obra": "Conners CK (1969). A teacher rating scale for use in drug studies with children. American Journal of Psychiatry, 126(6), 884-888",
+  "figuras": [
+   "C. Keith Conners",
+   "Robert Goodman",
+   "Diana L. Robins"
+  ],
+  "definicion": "Cuestionarios estandarizados que rellenan la propia persona, su familia o el profesorado para puntuar conductas o síntomas. Ayudan a reunir información de varios contextos y a seguir cambios, pero no diagnostican por sí solos: sus resultados se integran en una evaluación clínica.",
+  "usos": [
+   "I",
+   "D",
+   "E"
+  ],
+  "controversia": "Se discute su dependencia de quién responde, el peso de las expectativas, su validación en distintas culturas y edades, y su uso indebido como atajo diagnóstico en escuelas, consultas rápidas o internet.",
+  "contexto": "A finales de los años sesenta, la psicofarmacología infantil necesitaba medir si un fármaco cambiaba la conducta de los niños en clase. En 1969 Keith Conners publicó una escala para profesorado pensada precisamente para estudios con medicamentos. Le siguieron muchas otras: escalas para familias, autoinformes para adultos, cuestionarios generales como el de capacidades y dificultades (SDQ) de Robert Goodman, de 1997, o listas de cribado del autismo en niños pequeños como el M-CHAT. Su éxito se explica por su bajo coste, su rapidez y su capacidad para reunir la mirada de distintas personas. Con los años, guías clínicas y manuales de corrección han insistido en lo mismo: son instrumentos de apoyo. Por ejemplo, las instrucciones de las escalas Vanderbilt advierten que no deben usarse solas para diagnosticar el TDAH sin confirmar y ampliar la información.",
+  "ejemplos": [
+   "La tutora y la familia rellenan la misma escala: si la inatención aparece en casa y en clase, el dato es más sólido que si surge en un solo lugar.",
+   "Un servicio de salud mental repite un cuestionario a los tres meses para ver si un tratamiento o un apoyo está cambiando algo.",
+   "Un adulto puntúa alto en un autoinforme de TDAH en una época de mucho estrés: la escala recoge ese momento, no toda su historia.",
+   "Un estudio usa el SDQ para describir problemas emocionales y de conducta en miles de escolares sin diagnosticar a ninguno.",
+   "Una web ofrece un «diagnóstico de TDAH en diez minutos» con un cuestionario en línea: lo que entrega es una puntuación, no un diagnóstico."
+  ],
+  "implicaciones": "En España, escalas y cuestionarios están en todas partes: en la evaluación psicopedagógica de los equipos de orientación, en consultas de pediatría y salud mental, en investigaciones y en test de redes. Bien usados, suman voces distintas y permiten seguir la evolución. Mal usados, convierten una puntuación en una identidad o en una sospecha. Antes de dar peso a una cifra, conviene preguntar quién respondió, en qué contexto, con qué versión validada en español y para qué edad, y qué otras pruebas la acompañan. También influyen las expectativas: una escala de profesorado refleja la conducta del alumno y, en parte, la mirada de quien la observa.",
+  "sabias": "La escala de Conners de 1969, antecesora de una de las familias de escalas más usadas en TDAH, nació para medir efectos de fármacos en estudios con niños, como indica su propio título.",
+  "piensalo": "Si la misma escala da puntuaciones distintas en casa y en clase, ¿qué te dice eso del niño y qué te dice de cada contexto?",
+  "paso": "Si te piden rellenar un cuestionario sobre alguien, anota al margen ejemplos concretos de tus respuestas. Ayudará a quien evalúe a interpretarlas.",
+  "frase": "«Le han pasado un cuestionario y ya tiene diagnóstico.»",
+  "veredicto": "mito",
+  "matiz": "Un cuestionario aporta información útil, pero no diagnostica solo. Las instrucciones de las escalas Vanderbilt, por ejemplo, advierten que no deben usarse aisladamente para diagnosticar TDAH sin confirmar y ampliar la información.",
+  "salto": "de la puntuación al diagnóstico",
+  "relacionados": [
+   "cribado",
+   "criterio-diagnostico",
+   "validez-constructo",
+   "fiabilidad",
+   "evaluacion-psicopedagogica",
+   "efecto-expectativa"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Conners CK (1969). A teacher rating scale for use in drug studies with children. American Journal of Psychiatry, 126(6), 884-888",
+    "url": "https://doi.org/10.1176/ajp.126.6.884"
+   },
+   {
+    "titulo": "NICHQ. Scoring Instructions for NICHQ Vanderbilt Assessment Scales (documento alojado por Tulane University School of Medicine)",
+    "url": "https://medicine.tulane.edu/sites/default/files/Scoring%20Instructions_NICHQ%20Vanderbilt%20Assessment%20Scale.pdf"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "rdoc",
+  "lema": "RDoC (Research Domain Criteria)",
+  "variantes": [
+   "RDoC",
+   "Criterios de Dominio de Investigación",
+   "marco RDoC del NIMH"
+  ],
+  "tipo": "documento",
+  "familia": "Clasificar y medir",
+  "anio": 2009,
+  "anio_nota": "Lanzamiento de la iniciativa por el NIMH (presentada en 2010 en el American Journal of Psychiatry)",
+  "obra": "National Institute of Mental Health (EE. UU.), iniciativa Research Domain Criteria (2009); Insel T, Cuthbert B y cols. (2010), American Journal of Psychiatry",
+  "figuras": [
+   "Thomas Insel",
+   "Bruce Cuthbert"
+  ],
+  "definicion": "Marco de investigación del Instituto Nacional de Salud Mental de Estados Unidos que estudia funciones como la cognición, la recompensa o los procesos sociales a través de las fronteras diagnósticas y en varios niveles, de los genes a la conducta. No es una guía diagnóstica ni pretende sustituir al DSM o la CIE.",
+  "usos": [
+   "I"
+  ],
+  "controversia": "Se discute si el enfoque prioriza en exceso la biología, si ha producido resultados clínicamente útiles y si sus dominios captan bien los problemas sociales y del desarrollo.",
+  "contexto": "A principios del siglo XXI, la investigación biológica en psiquiatría tenía un problema: genes, circuitos y tratamientos no respetaban las fronteras entre diagnósticos del DSM, y cada categoría reunía a personas muy distintas. El NIMH, gran financiador de la investigación en salud mental, lanzó en 2009 la iniciativa RDoC para estudiar funciones básicas, como el miedo, la recompensa, la memoria de trabajo o la comunicación social, en todas las personas y no solo dentro de cada etiqueta. En 2010 Thomas Insel y colaboradores la presentaron en el American Journal of Psychiatry. En abril de 2013, poco antes del DSM-5, Insel anunció que el NIMH reorientaría su investigación lejos de las categorías del DSM, algo que muchos leyeron como un ataque al diagnóstico clínico. En 2019 se añadió un sexto dominio, el sensoriomotor, a los cinco existentes.",
+  "ejemplos": [
+   "Un estudio recluta a niños con TDAH, con autismo y sin diagnóstico para estudiar la memoria de trabajo como dimensión común.",
+   "Un proyecto investiga la sensibilidad a la recompensa en personas con depresión, adicciones o TDAH, en lugar de estudiar cada trastorno por separado.",
+   "Un equipo combina cuestionarios, tareas de ordenador, fisiología y genética para describir una misma función en varios niveles.",
+   "Un clínico sigue diagnosticando con el DSM-5-TR aunque lea artículos basados en RDoC: son herramientas para usos distintos.",
+   "Investigadores en autismo estudian el procesamiento sensorial dentro del dominio sensoriomotor añadido al marco en 2019."
+  ],
+  "implicaciones": "RDoC no cambia directamente lo que pasa en una consulta española, pero influye en la investigación que llega a los titulares. Cuando leas que «un estudio encuentra un circuito común al TDAH y al autismo», es probable que detrás haya una lógica transdiagnóstica de este tipo. Eso es valioso para entender mecanismos compartidos, pero no autoriza a diagnosticar con un escáner ni a decir que las categorías «ya no existen». El propio NIMH insiste en que RDoC no es una guía diagnóstica. La lección para NeuroLab es clara: una herramienta pensada para investigar necesita una justificación distinta para usarse en la clínica, en la escuela o en la identidad.",
+  "sabias": "En abril de 2013, poco antes de que se publicara el DSM-5, el director del NIMH escribió en su blog que el instituto reorientaría su investigación lejos de las categorías del DSM.",
+  "piensalo": "¿Qué se gana y qué se pierde cuando la investigación estudia funciones comunes a todo el mundo en lugar de grupos con un diagnóstico?",
+  "paso": "Cuando leas una noticia sobre «el cerebro del TDAH», mira si el estudio comparó diagnósticos o funciones. Anota qué decisión clínica permite y cuál no.",
+  "frase": "«La psiquiatría ya ha abandonado el DSM: ahora todo es RDoC.»",
+  "veredicto": "mito",
+  "matiz": "RDoC es un marco de investigación. El NIMH aclara que no es una guía diagnóstica ni pretende sustituir a los sistemas actuales; de hecho, permite usar categorías clínicas como criterio de inclusión en los estudios.",
+  "salto": "del marco de investigación a la consulta",
+  "relacionados": [
+   "hitop",
+   "transdiagnostico",
+   "modelo-dimensional",
+   "dsm-5",
+   "neuroimagen",
+   "biomarcador"
+  ],
+  "fuentes": [
+   {
+    "titulo": "National Institute of Mental Health (s. f.). About RDoC. NIMH",
+    "url": "https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/about-rdoc"
+   },
+   {
+    "titulo": "Insel T, Cuthbert B, Garvey M y cols. (2010). Research Domain Criteria (RDoC): toward a new classification framework for research on mental disorders. American Journal of Psychiatry, 167(7), 748-751",
+    "url": "https://doi.org/10.1176/appi.ajp.2010.09091379"
+   },
+   {
+    "titulo": "National Institute of Mental Health (2019). Sensorimotor Domain Added to the RDoC Framework. NIMH",
+    "url": "https://www.nimh.nih.gov/news/science-updates/2019/sensorimotor-domain-added-to-the-rdoc-framework"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "hitop",
+  "lema": "HiTOP (taxonomía jerárquica de la psicopatología)",
+  "variantes": [
+   "HiTOP",
+   "Hierarchical Taxonomy of Psychopathology",
+   "factor p"
+  ],
+  "tipo": "documento",
+  "familia": "Clasificar y medir",
+  "anio": 2017,
+  "anio_nota": "Publicación del artículo fundacional del consorcio HiTOP",
+  "obra": "Kotov R, Krueger RF, Watson D y cols. (2017). The Hierarchical Taxonomy of Psychopathology (HiTOP): A dimensional alternative to traditional nosologies. Journal of Abnormal Psychology, 126(4), 454-477",
+  "figuras": [
+   "Roman Kotov",
+   "Robert F. Krueger",
+   "David Watson",
+   "Avshalom Caspi",
+   "Terrie E. Moffitt"
+  ],
+  "definicion": "Propuesta de clasificación que ordena los problemas de salud mental en dimensiones jerárquicas, desde síntomas hasta grandes espectros, según cómo se agrupan en los datos. Busca resolver la comorbilidad y la heterogeneidad de las categorías tradicionales; sus autores la presentan como trabajo en curso.",
+  "usos": [
+   "I",
+   "D"
+  ],
+  "controversia": "Se discute si la covariación estadística basta para clasificar, cómo usarla en la consulta y su cobertura todavía incompleta del neurodesarrollo, donde se ha propuesto un espectro propio aún en estudio.",
+  "contexto": "Los estudios epidemiológicos mostraban algo incómodo para las clasificaciones tradicionales: los trastornos aparecen juntos con mucha frecuencia, cambian con el tiempo y cada uno agrupa a personas muy distintas. Durante décadas, investigadores en psicometría y psicopatología analizaron cómo se agrupan los síntomas en muestras grandes y encontraron dimensiones amplias, como la internalización y la externalización. En 2014, Avshalom Caspi, Terrie Moffitt y su equipo describieron incluso un factor general de psicopatología. Un consorcio de investigadores reunió estos hallazgos en HiTOP, presentado en 2017 por Roman Kotov y una cuarentena de coautores. Su lógica es jerárquica: síntomas que se agrupan en componentes, síndromes y espectros. Los autores sostienen que varios dominios están listos para aplicaciones clínicas y de investigación, pero reconocen que la clasificación sigue en desarrollo.",
+  "ejemplos": [
+   "Un estudio sitúa la ansiedad y la depresión en un mismo espectro de internalización, lo que ayuda a entender por qué aparecen juntas tan a menudo.",
+   "Un equipo investiga si la hipersensibilidad sensorial se comporta como un rasgo común a varias dificultades del neurodesarrollo, dentro del espectro propuesto en HiTOP.",
+   "Un clínico describe a un paciente por su nivel en varias dimensiones, además de con un diagnóstico, para planificar el tratamiento.",
+   "Una investigadora usa el factor p para estudiar por qué algunos factores de riesgo se asocian con muchos trastornos a la vez.",
+   "En un debate, alguien cita HiTOP para decir que «los diagnósticos no existen»; otra persona recuerda que sus autores lo presentan como trabajo en curso."
+  ],
+  "implicaciones": "HiTOP no forma parte, por ahora, de los procedimientos habituales de la sanidad o la escuela españolas, pero influye en cómo se investiga y se discute la comorbilidad. Ayuda a entender por qué tantas personas reúnen varios diagnósticos: quizá no tienen «muchas enfermedades», sino niveles altos en dimensiones compartidas. Esa idea puede aliviar y también confundir, porque una agrupación estadística no demuestra una causa común ni dice qué apoyo necesita cada persona. Su cobertura del neurodesarrollo es aún parcial, y las altas capacidades no forman parte de su objeto. Si alguien usa HiTOP como prueba de que las categorías sobran, conviene preguntar qué decisión concreta pretende justificar con ello.",
+  "sabias": "El «factor p», un factor general de psicopatología descrito en 2014 por Caspi y colaboradores, se bautizó así por analogía con el «factor g» de la inteligencia general.",
+  "piensalo": "Si muchos problemas comparten una dimensión común, ¿ayuda eso a quien los vive o corre el riesgo de difuminar lo específico de cada uno?",
+  "paso": "Lee el resumen del artículo de HiTOP de 2017 y localiza la frase en la que sus autores reconocen que la clasificación sigue en desarrollo.",
+  "frase": "«HiTOP ha demostrado que los diagnósticos no existen: solo hay dimensiones.»",
+  "veredicto": "mito",
+  "matiz": "HiTOP organiza los síntomas según cómo se agrupan en los datos y sostiene que eso mejora la clasificación, pero sus autores lo presentan como trabajo en curso. Que haya dimensiones no impide decidir con categorías.",
+  "salto": "de la asociación a la causa",
+  "relacionados": [
+   "modelo-dimensional",
+   "rdoc",
+   "comorbilidad",
+   "transdiagnostico",
+   "heterogeneidad",
+   "categoria-diagnostica"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Kotov R, Krueger RF, Watson D y cols. (2017). The Hierarchical Taxonomy of Psychopathology (HiTOP): A dimensional alternative to traditional nosologies. Journal of Abnormal Psychology, 126(4), 454-477",
+    "url": "https://doi.org/10.1037/abn0000258"
+   },
+   {
+    "titulo": "Caspi A, Houts RM, Belsky DW y cols. (2014). The p Factor: One General Psychopathology Factor in the Structure of Psychiatric Disorders? Clinical Psychological Science, 2(2), 119-137",
+    "url": "https://doi.org/10.1177/2167702613497473"
+   },
+   {
+    "titulo": "Jussila K, Korkiakoski A, Jussila A y cols. (2025). Sensory over responsivity (SOR) as a transdiagnostic marker of neurodevelopmental risk. Nordic Journal of Psychiatry, 79(8), 632-641",
+    "url": "https://doi.org/10.1080/08039488.2025.2572330"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": false
+ },
+ {
+  "id": "prevalencia",
+  "lema": "Prevalencia",
+  "variantes": [
+   "prevalencia",
+   "tasa de prevalencia",
+   "frecuencia poblacional"
+  ],
+  "tipo": "concepto",
+  "familia": "Clasificar y medir",
+  "anio": 2014,
+  "anio_nota": "Publicación de una metarregresión que separa cambios reales y cambios de método en las cifras de TDAH",
+  "obra": "Polanczyk GV, Willcutt EG, Salum GA, Kieling C, Rohde LA (2014). ADHD prevalence estimates across three decades: an updated systematic review and meta-regression analysis. International Journal of Epidemiology, 43(2), 434-442",
+  "figuras": [
+   "Guilherme V. Polanczyk",
+   "Luis Augusto Rohde"
+  ],
+  "definicion": "Proporción de personas de una población que tienen una condición en un momento o periodo determinado. Depende de cómo se define y se mide esa condición. No es lo mismo que el número de diagnósticos registrados, de tratamientos dispensados o de alumnos que reciben apoyo.",
+  "usos": [
+   "I",
+   "A"
+  ],
+  "controversia": "Se discute si los aumentos de las cifras reflejan más casos, mejor detección, criterios más amplios o más servicios, y cómo comparar estudios con métodos y poblaciones distintos.",
+  "contexto": "La prevalencia es una herramienta básica de la epidemiología, la disciplina que estudia cómo se distribuyen los problemas de salud en las poblaciones. En neurodesarrollo se volvió central cuando los diagnósticos de TDAH y autismo empezaron a crecer en muchos países y surgió la pregunta: ¿hay más casos o los vemos más? Responder exige distinguir cifras. Los estudios comunitarios evalúan muestras con criterios estandarizados; los registros cuentan diagnósticos hechos en los servicios; las estadísticas educativas, alumnado con apoyos. En 2014, Guilherme Polanczyk y colaboradores revisaron 154 estudios de TDAH: las diferencias entre cifras se explicaban sobre todo por el método, y en tres décadas no había pruebas de que hubieran aumentado los niños que cumplen criterios con procedimientos estandarizados. En autismo, la vigilancia de los CDC pasó de identificar a 1 de cada 150 niños de 8 años en 2000 a 1 de cada 31 en 2022.",
+  "ejemplos": [
+   "Un metaanálisis de 2012 estimó una prevalencia de TDAH del 6,8 % en menores de España, a partir de catorce estudios epidemiológicos.",
+   "Un estudio mundial calculó un 2,58 % de adultos con TDAH persistente desde la infancia y un 6,76 % con TDAH sintomático: la definición cambia la cifra.",
+   "Si una noticia habla del «doble de alumnos con TDAH», conviene comprobar si cuenta alumnado con apoyos registrados, que no es una prevalencia clínica.",
+   "Un servicio de salud planifica plazas de evaluación con estimaciones de prevalencia, no solo con los diagnósticos ya hechos.",
+   "La OMS estima que en 2021 alrededor de 1 de cada 127 personas en el mundo era autista, con grandes variaciones entre estudios."
+  ],
+  "implicaciones": "En España circulan cifras muy distintas sobre TDAH, autismo o altas capacidades, y a menudo se comparan sin saber qué miden. Un estudio comunitario, un registro sanitario y una estadística educativa responden a preguntas diferentes: cuántas personas cumplen criterios, cuántas han sido diagnosticadas y cuántas reciben apoyo. Las diferencias entre comunidades autónomas pueden reflejar criterios, recursos o prácticas de identificación, y no necesariamente más o menos casos. Ante un titular sobre una «epidemia» o una «moda», pregunta qué se contó, con qué definición, en qué población y en qué año. A veces un aumento revela necesidades antes desatendidas; otras, criterios ampliados. Hay que comprobarlo, no suponerlo.",
+  "sabias": "Según la red de vigilancia de los CDC, la proporción de niños de 8 años identificados con autismo en las zonas estudiadas pasó de 1 de cada 150 en 2000 a 1 de cada 31 en 2022.",
+  "piensalo": "Si una cifra se duplica en diez años, ¿qué tres explicaciones distintas podrías imaginar antes de concluir que hay «más casos»?",
+  "paso": "Busca una noticia con una cifra de TDAH o autismo y anota qué se contó: personas evaluadas, diagnósticos, tratamientos o alumnos con apoyo.",
+  "frase": "«Hay una epidemia de TDAH: antes no había tantos niños así.»",
+  "veredicto": "mito",
+  "matiz": "Han aumentado diagnósticos y tratamientos, pero una revisión de tres décadas no halló más niños que cumplieran criterios cuando se usaban métodos estandarizados. Las diferencias entre cifras dependen sobre todo del método.",
+  "salto": "del aumento de diagnósticos a «es una epidemia»",
+  "relacionados": [
+   "sobrediagnostico",
+   "infradiagnostico",
+   "inflacion-diagnostica",
+   "diferencias-autonomicas",
+   "umbral",
+   "tdah"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Polanczyk GV, Willcutt EG, Salum GA, Kieling C, Rohde LA (2014). ADHD prevalence estimates across three decades. International Journal of Epidemiology, 43(2), 434-442",
+    "url": "https://doi.org/10.1093/ije/dyt261"
+   },
+   {
+    "titulo": "Centers for Disease Control and Prevention (s. f.). Data and Statistics on Autism Spectrum Disorder (red ADDM). CDC",
+    "url": "https://www.cdc.gov/autism/data-research/index.html"
+   },
+   {
+    "titulo": "Catalá-López F, Peiró S, Ridao M y cols. (2012). Prevalence of attention deficit hyperactivity disorder among children and adolescents in Spain: a systematic review and meta-analysis. BMC Psychiatry, 12, 168",
+    "url": "https://doi.org/10.1186/1471-244X-12-168"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ }
+]

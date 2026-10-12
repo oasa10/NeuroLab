@@ -1,0 +1,1068 @@
+[
+ {
+  "id": "errores-simetricos",
+  "lema": "Los dos errores: falsos positivos y falsos negativos",
+  "variantes": [
+   "falso positivo",
+   "falso negativo",
+   "error de tipo I",
+   "error de tipo II",
+   "errores simétricos"
+  ],
+  "tipo": "concepto",
+  "familia": "Saltos de inferencia",
+  "anio": 1933,
+  "anio_nota": "Neyman y Pearson formalizaron los errores «de primera y de segunda clase» al contrastar hipótesis estadísticas",
+  "obra": "Neyman, J. y Pearson, E. S. (1933). «On the problem of the most efficient tests of statistical hypotheses». Philosophical Transactions of the Royal Society of London, Serie A, 231",
+  "figuras": [
+   "Jerzy Neyman",
+   "Egon Pearson",
+   "William Blackstone"
+  ],
+  "definicion": "Toda decisión de clasificar puede fallar de dos maneras: poner una etiqueta a quien no cumple el criterio (falso positivo) o dejar fuera a quien sí lo cumple (falso negativo). Reducir uno suele aumentar el otro. Hablar de errores simétricos significa pesar ambos por igual, en lugar de vigilar solo uno.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "A"
+  ],
+  "controversia": "Qué error pesa más depende del uso: en un cribado escolar, dejar fuera puede costar más; ante un tratamiento con efectos secundarios, etiquetar de más. El debate público suele mirar solo uno de los dos.",
+  "contexto": "La idea de que una decisión puede fallar en dos direcciones es antigua. En el siglo XVIII, el jurista inglés William Blackstone defendió que era mejor que escaparan diez culpables a que sufriera un inocente: una forma explícita de decidir qué error se tolera más. En 1933, los estadísticos Jerzy Neyman y Egon Pearson formalizaron los dos tipos de error al contrastar hipótesis: rechazar una hipótesis verdadera o aceptar una falsa. A mediados del siglo XX, la medicina trasladó esa lógica a las pruebas diagnósticas y a los cribados. En neurodesarrollo, el debate público oscila entre dos alarmas, «se diagnostica de más» y «se diagnostica tarde o nunca», sobre todo en niñas y adultos, que rara vez se presentan juntas. El proyecto en que se basa esta web propone pesarlas por igual: ampliar una etiqueta sin justificación es un error, y dejar fuera a quien necesita apoyo, también.",
+  "ejemplos": [
+   "Un cuestionario de cribado de TDAH con un punto de corte bajo detecta a casi todos los casos, pero también señala a muchos niños inquietos que no lo tienen.",
+   "Una niña autista que disimula bien sus dificultades supera los filtros escolares y nadie la deriva a orientación: un falso negativo que puede durar años.",
+   "Un titular alerta del «sobrediagnóstico» y no menciona a quienes esperan meses una evaluación: mira un error y se olvida del otro.",
+   "Un equipo de orientación decide si un alumno recibe apoyo: exigir pruebas muy estrictas evita apoyos indebidos, pero deja sin ayuda a alumnado que la necesita.",
+   "En un ensayo clínico, el equipo fija de antemano cuánto riesgo de cada error acepta antes de concluir que un tratamiento funciona."
+  ],
+  "implicaciones": "En España conviven titulares sobre el aumento de diagnósticos de TDAH y autismo con listas de espera de meses para una evaluación. Cada lado del debate suele señalar un solo error. Esta ficha propone preguntar siempre por los dos: ¿cuántas personas reciben una etiqueta que no les corresponde y cuántas se quedan sin la que necesitan? La respuesta cambia según el uso. En la escuela, no detectar a un alumno puede costarle años de frustración; en una prestación, conceder sin criterios puede restar recursos a otras personas. El proyecto no encontró pruebas de que ampliar la inclusión produzca necesariamente más error clínico. Por eso cada umbral, cada cuestionario y cada norma de acceso deberían explicar qué equilibrio eligen y por qué.",
+  "sabias": "En 1933, Neyman y Pearson escribieron que cuál de los dos errores es más grave «dependerá de las consecuencias», y dejaron esa decisión en manos de quien investiga. La estadística calcula los riesgos; elegir cuál aceptar es una cuestión de valores.",
+  "piensalo": "Cuando alguien denuncia que «ahora se diagnostica demasiado», ¿qué datos debería mostrar también sobre quienes se quedan sin diagnóstico?",
+  "paso": "Esta semana, cuando leas una noticia sobre diagnósticos, anota qué error menciona (diagnosticar de más o de menos) y cuál se le olvida.",
+  "frase": "«Mejor diagnosticar de más que dejar a alguien sin ayuda»",
+  "veredicto": "matiz",
+  "matiz": "Depende del uso y de lo que cueste cada error: un falso positivo puede traer tratamientos o etiquetas innecesarias; un falso negativo, años sin apoyo. Ningún umbral elimina ambos; hay que justificar el equilibrio en cada caso.",
+  "salto": "del aumento de diagnósticos a «es una moda» o «es una epidemia»",
+  "relacionados": [
+   "sensibilidad-especificidad",
+   "umbral",
+   "sobrediagnostico",
+   "infradiagnostico",
+   "cribado",
+   "validez-uso"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Neyman, J. y Pearson, E. S. (1933). On the problem of the most efficient tests of statistical hypotheses. Philosophical Transactions of the Royal Society of London, Serie A, 231",
+    "url": "https://errorstatistics.com/wp-content/uploads/2014/08/neyman-pearson-1933_on-the-problem-of-the-most-efficient-tests-of-statistical-hypotheses.pdf"
+   },
+   {
+    "titulo": "Office of Justice Programs, NCJRS (s. f.). Is it better that ten guilty persons go free than that one innocent person be convicted? (resumen). Departamento de Justicia de EE. UU.",
+    "url": "https://www.ojp.gov/ncjrs/virtual-library/abstracts/it-better-ten-guilty-persons-go-free-one-innocent-person-be"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "neuroencanto",
+  "lema": "Neuroencanto (el atractivo de las explicaciones cerebrales)",
+  "variantes": [
+   "seductive allure of neuroscience",
+   "atractivo seductor de la neurociencia",
+   "neurobabble"
+  ],
+  "tipo": "concepto",
+  "familia": "Saltos de inferencia",
+  "anio": 2008,
+  "anio_nota": "se publicó el experimento que dio nombre al efecto («seductive allure»)",
+  "obra": "Weisberg, D. S., Keil, F. C., Goodstein, J., Rawson, E. y Gray, J. R. (2008). «The seductive allure of neuroscience explanations». Journal of Cognitive Neuroscience, 20(3), 470-477",
+  "figuras": [
+   "Deena Skolnick Weisberg",
+   "Frank Keil",
+   "David McCabe",
+   "Martha Farah"
+  ],
+  "definicion": "Tendencia a juzgar más convincente una explicación psicológica cuando incluye datos sobre el cerebro, aunque no añadan nada a su lógica. «Neuroencanto» es una traducción libre de «seductive allure»: no es un trastorno, sino un atajo de razonamiento que afecta sobre todo a quien no es experto.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "R"
+  ],
+  "controversia": "El efecto del texto neurocientífico se ha replicado; el de las imágenes cerebrales, mucho menos: diez experimentos con casi 2.000 personas apenas lo encontraron. Se discute cuánto pesa fuera del laboratorio.",
+  "contexto": "En los años noventa, que en Estados Unidos se proclamaron «la década del cerebro», la resonancia magnética funcional llenó revistas y periódicos de cerebros coloreados. Pronto surgió la sospecha de que el prestigio de la neurociencia hacía pasar por buenas explicaciones flojas. En 2008, Deena Weisberg y su equipo lo pusieron a prueba: ofrecieron a adultos sin formación, a estudiantes y a expertos explicaciones buenas y malas de fenómenos psicológicos, con y sin información neurocientífica irrelevante. Los no expertos juzgaron más satisfactorias las explicaciones con jerga cerebral, sobre todo las malas. Ese mismo año, otro estudio sugirió que las imágenes del cerebro hacían más creíbles los artículos. La historia tuvo giro: en 2013, varios equipos no lograron replicar el efecto de las imágenes, y en 2015 otro estudio concluyó que el sesgo es conceptual, no visual. Seduce más la palabra «cerebro» que la foto.",
+  "ejemplos": [
+   "Un curso para docentes promete «activar el hemisferio derecho» del alumnado: el vocabulario cerebral vende un método sin pruebas de que funcione.",
+   "Una clínica ofrece diagnosticar el TDAH con un mapa cerebral en colores, aunque el diagnóstico sigue basándose en la evaluación clínica.",
+   "Un titular anuncia «el cerebro del TDAH» a partir de diferencias medias entre grupos: la imagen impresiona más que el tamaño del efecto.",
+   "En redes, alguien explica su forma de ser con «mi dopamina funciona distinto»: puede ayudar a contarlo, pero no es una medición de su cerebro.",
+   "En clase de bachillerato, el profesor muestra dos explicaciones, una con jerga cerebral irrelevante, y pide votar la mejor antes de revelar el truco."
+  ],
+  "implicaciones": "El neuroencanto importa cuando una etiqueta como TDAH o autismo se explica solo con frases sobre dopamina, conexiones o «cerebros distintos». Esas frases pueden ser ciertas a escala de grupo y, aun así, no decir nada útil sobre una persona concreta ni sobre el apoyo que necesita. En educación, un estudio de 2016 con docentes españoles encontró que varios neuromitos populares en otros países también tenían aceptación aquí. En sanidad aparecen ofertas de pruebas cerebrales que prometen diagnósticos que la práctica clínica no respalda. Y en redes, la jerga neurocientífica da autoridad a cualquier mensaje. La pregunta útil no es «¿sale el cerebro?», sino «¿qué añade ese dato a la explicación y quién lo ha comprobado?».",
+  "sabias": "En un estudio con 242 docentes británicos y neerlandeses interesados en la neurociencia, creían de media el 49 % de los neuromitos que se les presentaron. Y lo más curioso: saber más sobre el cerebro se asociaba a creer más neuromitos.",
+  "piensalo": "Si quitas de una explicación la frase sobre el cerebro, ¿pierde algo de lo que realmente explica o solo pierde brillo?",
+  "paso": "Busca un anuncio o titular con «cerebro» o «neuro» y reescríbelo sin esa palabra. Comprueba si la afirmación sigue teniendo pruebas detrás.",
+  "frase": "«Está demostrado: se ve en el cerebro»",
+  "veredicto": "matiz",
+  "matiz": "Las neuroimágenes muestran diferencias medias entre grupos, a menudo pequeñas, que no sirven para diagnosticar a una persona ni prueban la causa. Que algo «se vea en el cerebro» no lo hace más real: toda experiencia tiene correlato cerebral.",
+  "salto": "de la etiqueta al mecanismo (reificación)",
+  "relacionados": [
+   "neuroimagen",
+   "reificacion",
+   "biomarcador",
+   "qeeg",
+   "correlacion-causa",
+   "tamano-efecto"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Weisberg, D. S. et al. (2008). The seductive allure of neuroscience explanations. Journal of Cognitive Neuroscience, 20(3), 470-477",
+    "url": "https://doi.org/10.1162/jocn.2008.20040"
+   },
+   {
+    "titulo": "Michael, R. B. et al. (2013). On the (non)persuasive power of a brain image. Psychonomic Bulletin & Review, 20(4), 720-725",
+    "url": "https://doi.org/10.3758/s13423-013-0391-6"
+   },
+   {
+    "titulo": "Dekker, S., Lee, N. C., Howard-Jones, P. y Jolles, J. (2012). Neuromyths in education: prevalence and predictors of misconceptions among teachers. Frontiers in Psychology, 3, 429",
+    "url": "https://doi.org/10.3389/fpsyg.2012.00429"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "neurodiversidad",
+  "lema": "Neurodiversidad",
+  "variantes": [
+   "neurodiversity",
+   "diversidad neurológica"
+  ],
+  "tipo": "concepto",
+  "familia": "Identidad y comunidad",
+  "anio": 1998,
+  "anio_nota": "la palabra aparece por escrito en la tesina de Judy Singer y en un artículo de Harvey Blume en The Atlantic",
+  "obra": "Singer, J. (1998), tesina de Sociología sobre una comunidad autista en línea, revisada como capítulo en Disability Discourse (1999); Blume, H. (1998), «Neurodiversity», The Atlantic",
+  "figuras": [
+   "Judy Singer",
+   "Harvey Blume",
+   "Jim Sinclair",
+   "Nick Walker"
+  ],
+  "definicion": "Describe la variedad natural en el funcionamiento de las mentes humanas, igual que «biodiversidad» describe la de los seres vivos. Se refiere a grupos: una persona no es «neurodiversa»; un grupo, sí. Este sentido descriptivo convive con un paradigma y un movimiento que le dan un sentido normativo y político.",
+  "usos": [
+   "I",
+   "E",
+   "A",
+   "R"
+  ],
+  "controversia": "Se discute quién lo acuñó (Singer o un origen colectivo en foros autistas), qué condiciones incluye y si su uso amplio invisibiliza a quienes tienen grandes necesidades de apoyo.",
+  "contexto": "A mediados de los noventa, internet permitió que adultos autistas dispersos por el mundo se encontraran en listas de correo y foros. Muchos habían recibido diagnósticos tardíos y conocían de cerca un discurso centrado en la tragedia y la cura. Inspirados por los movimientos de derechos de las personas con discapacidad y por el modelo social, empezaron a describirse como una minoría con una forma distinta de funcionar. En 1996, mensajes de la lista de correo InLv ya hablaban de la «diversidad neurológica» de las personas. En 1998, la socióloga australiana Judy Singer usó «neurodiversidad» en su tesina sobre esa comunidad, y el periodista Harvey Blume lo empleó en The Atlantic. Durante años se atribuyó la palabra a Singer en exclusiva; en 2024, una carta en la revista Autism defendió un origen colectivo. Después, el término pasó del autismo al TDAH, la dislexia y otras condiciones.",
+  "ejemplos": [
+   "Una empresa lanza un programa de contratación «neurodiversa» y cambia sus entrevistas: menos preguntas improvisadas sobre trabajo en equipo y más pruebas prácticas del puesto.",
+   "Un claustro decide hablar de «neurodiversidad en el aula» para revisar normas de ruido, luz y tiempos de examen que afectan a muchos alumnos, tengan o no diagnóstico.",
+   "Un artículo científico usa «neurodiversidad» para describir la variabilidad de una muestra; otro, como sinónimo de «autistas»: la misma palabra con dos sentidos distintos.",
+   "Alguien escribe en redes «soy neurodiverso»; quienes difundieron el concepto prefieren «neurodivergente», porque la diversidad es propiedad de un grupo, no de una persona.",
+   "Una familia descubre en un foro que otros padres describen a sus hijos con fortalezas y no solo con déficits, y cambia la forma de hablar en casa."
+  ],
+  "implicaciones": "Hoy «neurodiversidad» aparece en guías educativas, programas de empresa, campañas institucionales y perfiles de redes. Esa expansión tiene ventajas: invita a revisar entornos (ruido, horarios, formas de evaluar) que afectan a muchas personas, con o sin diagnóstico. Pero también genera confusión cuando se usa como sinónimo de «autismo» o de «tener un diagnóstico». Para esta web, la clave es la validez de uso: describir la variedad humana es útil para investigar y para reconocerse; no basta, en cambio, para decidir un tratamiento ni para conceder una prestación, que necesitan criterios propios. En el debate español, unas voces lo presentan como una ideología y otras como una conquista de derechos. Conviene separar el hecho descriptivo, el marco de valores y las reivindicaciones concretas, y juzgar cada uno por su lado.",
+  "sabias": "En 1996, dos años antes de la tesina de Singer, un participante de la lista InLv ya escribía sobre la «diversidad neurológica» de las personas como algo que la sociedad necesita. Por eso hoy se discute si el concepto tiene autora o es colectivo.",
+  "piensalo": "Si «neurodiversidad» nos describe a todos, ¿qué ganamos y qué perdemos al usarla para hablar solo de algunas personas?",
+  "paso": "Busca el término en la web de tu colegio, empresa o ayuntamiento y anota si lo usa para describir a todos o como sinónimo de un diagnóstico.",
+  "frase": "«La neurodiversidad la inventó Judy Singer»",
+  "veredicto": "matiz",
+  "matiz": "Singer usó el término en su tesina de 1998 y contribuyó mucho a difundirlo, pero una carta de 2024 en la revista Autism documenta usos de «diversidad neurológica» en foros autistas desde 1996 y defiende un origen colectivo.",
+  "salto": "del grupo al individuo",
+  "relacionados": [
+   "paradigma-neurodiversidad",
+   "movimiento-neurodiversidad",
+   "neurodivergente",
+   "judy-singer",
+   "harvey-blume",
+   "modelo-social"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Botha, M., Chapman, R., Giwa Onaiwu, M., Kapp, S. K., Stannard Ashley, A. y Walker, N. (2024). The neurodiversity concept was developed collectively: An overdue correction on the origins of neurodiversity theory. Autism, 28(6), 1591-1594",
+    "url": "https://journals.sagepub.com/doi/10.1177/13623613241237871"
+   },
+   {
+    "titulo": "Walker, N. (2014; versión web 2021). Neurodiversity: Some Basic Terms & Definitions. Neuroqueer",
+    "url": "https://neuroqueer.com/neurodiversity-terms-and-definitions/"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "neurodivergente",
+  "lema": "Neurodivergente",
+  "variantes": [
+   "ND",
+   "neurodivergencia",
+   "neurodivergent"
+  ],
+  "tipo": "concepto",
+  "familia": "Identidad y comunidad",
+  "anio": 2000,
+  "anio_nota": "fecha aproximada en que la activista Kassiane Asasumasu acuñó «neurodivergente» y «neurodivergencia»",
+  "obra": "Acuñación de Kassiane Asasumasu (hacia 2000), recogida por Nick Walker en «Neurodiversity: Some Basic Terms & Definitions» (2014)",
+  "figuras": [
+   "Kassiane Asasumasu",
+   "Nick Walker"
+  ],
+  "definicion": "Persona cuyo funcionamiento mental se aparta de forma significativa de lo que la sociedad considera «normal». Es un término paraguas nacido en la comunidad, no un diagnóstico: según quién lo use, abarca autismo, TDAH, dislexia u otras diferencias, innatas o adquiridas. Su contrario habitual es «neurotípico».",
+  "usos": [
+   "I",
+   "E",
+   "A",
+   "R"
+  ],
+  "controversia": "Su amplitud es a la vez virtud y problema: ¿incluye ansiedad, epilepsia o altas capacidades? Sin criterios compartidos, dos estudios o dos políticas pueden estar hablando de grupos muy distintos.",
+  "contexto": "A finales de los noventa, las comunidades autistas en línea ya usaban «neurotípico» para nombrar a la mayoría, pero faltaba una palabra para quienes se apartaban de esa norma sin reducirlo todo al autismo. Hacia el año 2000, la activista Kassiane Asasumasu propuso «neurodivergente» y «neurodivergencia»: términos deliberadamente amplios, nacidos fuera de la clínica. Nick Walker los fijó en un glosario de 2014 que se difundió mucho: allí explica que la neurodivergencia puede ser innata, como el autismo o la dislexia, o producida por experiencias que alteran el cerebro, y que una persona es neurodivergente mientras que un grupo es neurodiverso. Con las redes sociales de la década de 2010, la palabra salió de los foros y llegó a medios, universidades y empresas. Hoy también la usan investigadores, que comparan a personas con diagnóstico formal y a personas que se identifican como neurodivergentes sin él.",
+  "ejemplos": [
+   "Una universidad abre un espacio de encuentro para estudiantes «neurodivergentes» sin pedir informe: sirve para pertenecer, no para acreditar adaptaciones de examen.",
+   "Un estudio en empresas compara a personas con diagnóstico formal y a quienes se identifican como neurodivergentes, y concluye que la autoidentificación añade información útil para investigar.",
+   "Una madre dice que su hijo es «neurodivergente» para hablar a la vez de su dislexia y su TDAH, en lugar de enumerar siglas en cada reunión.",
+   "Una persona añade «ND» a su perfil en redes para encontrar a otras con experiencias parecidas.",
+   "Un protocolo de empresa promete «apoyos para personas neurodivergentes» sin definir quién entra, y luego no sabe a quién aplicarlos."
+  ],
+  "implicaciones": "En España, «neurodivergente» se ha hecho habitual en redes, prensa y espacios universitarios, a menudo como paraguas para quien tiene uno o varios diagnósticos. Su fuerza está en el uso R (reconocerse): permite encontrar comunidad sin enumerar siglas. Su límite aparece cuando se usa para otros fines. Un apoyo escolar requiere una evaluación psicopedagógica, y el grado de discapacidad lo valoran equipos multiprofesionales según el Real Decreto 888/2022; ninguno de esos procedimientos usa «neurodivergente» como categoría. En investigación, la amplitud del término obliga a explicar siempre a quién se incluye. Si un estudio o una política dice «personas neurodivergentes», la pregunta es: ¿quiénes exactamente, con qué criterio y para qué?",
+  "sabias": "Para Nick Walker, uno de los grandes divulgadores del término, se puede ser neurodivergente de nacimiento, como en el autismo o la dislexia, o por experiencias que alteran el cerebro, como un trauma o una práctica de meditación muy prolongada.",
+  "piensalo": "¿Qué cambia cuando una palabra nacida para unir a personas distintas se usa para decidir quién recibe un apoyo?",
+  "paso": "Pregunta a alguien que use «neurodivergente» qué incluye para él o para ella, y compara su respuesta con la definición de Nick Walker.",
+  "frase": "«Ser neurodivergente es lo mismo que tener un diagnóstico»",
+  "veredicto": "mito",
+  "matiz": "Es un término de identidad y comunidad acuñado por una activista, no por un manual clínico. Puede incluir a personas con diagnóstico, sin él o con diferencias adquiridas, y por sí mismo no da acceso a apoyos administrativos.",
+  "salto": "de la identidad al diagnóstico",
+  "relacionados": [
+   "neurodiversidad",
+   "neurotipico",
+   "autoadscripcion",
+   "audhd",
+   "nick-walker",
+   "paradigma-neurodiversidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Walker, N. (2014; versión web 2021). Neurodiversity: Some Basic Terms & Definitions. Neuroqueer",
+    "url": "https://neuroqueer.com/neurodiversity-terms-and-definitions/"
+   },
+   {
+    "titulo": "Botha, M. et al. (2024). The neurodiversity concept was developed collectively: An overdue correction on the origins of neurodiversity theory. Autism, 28(6), 1591-1594",
+    "url": "https://journals.sagepub.com/doi/10.1177/13623613241237871"
+   },
+   {
+    "titulo": "Wikipedia (consulta 2026). Kassiane Asasumasu (apoyo)",
+    "url": "https://en.wikipedia.org/wiki/Kassiane_Asasumasu"
+   }
+  ],
+  "estado": "probable",
+  "nucleo": false
+ },
+ {
+  "id": "neurotipico",
+  "lema": "Neurotípico",
+  "variantes": [
+   "NT",
+   "neurológicamente típico",
+   "neurotypical",
+   "alístico (no autista)"
+  ],
+  "tipo": "concepto",
+  "familia": "Identidad y comunidad",
+  "anio": 1998,
+  "anio_nota": "Laura Tisoncik lanzó la web paródica del Instituto para el Estudio de los Neurológicamente Típicos (ISNT), que popularizó el término",
+  "obra": "Institute for the Study of the Neurologically Typical (ISNT), web satírica creada por Laura Tisoncik en comunidades autistas en línea",
+  "figuras": [
+   "Laura Tisoncik",
+   "Harvey Blume",
+   "Nick Walker"
+  ],
+  "definicion": "Persona cuyo funcionamiento mental encaja en lo que la sociedad considera «normal». La palabra nació en comunidades autistas para nombrar a la mayoría no autista y hoy suele usarse como contrario de «neurodivergente». No es un diagnóstico ni describe un cerebro «estándar».",
+  "usos": [
+   "I",
+   "R"
+  ],
+  "controversia": "Algunos investigadores dudan de que exista un cerebro «típico», porque los rasgos se distribuyen en continuo. Nick Walker responde que el término describe a quien se adapta sin gran esfuerzo a las normas sociales, no a cerebros idénticos.",
+  "contexto": "El término nació en las comunidades autistas de los años noventa, que necesitaban nombrar a la mayoría sin usar «normal», una palabra que convertía el autismo en desviación. «Neurológicamente típico», abreviado NT, daba la vuelta a la mirada: la mayoría también tenía un perfil propio, con sus rarezas. En 1997, el periodista Harvey Blume recogía en The New York Times que, en esos foros, ser NT se veía como una configuración neurológica entre muchas. En 1998, Laura Tisoncik lanzó el Instituto para el Estudio de los Neurológicamente Típicos (ISNT), una web paródica que describía un «síndrome neurotípico» con el mismo lenguaje de déficit que los manuales aplicaban al autismo. La broma tenía tesis: mostraba lo extraño que suena describir a un grupo solo por lo que le sobra o le falta. Con el tiempo, el término pasó a los artículos científicos, a menudo para nombrar a los grupos de control.",
+  "ejemplos": [
+   "Un estudio compara a 30 adultos autistas con 30 participantes «neurotípicos» de control, aunque nadie comprobó si estos tenían otras condiciones.",
+   "En un foro, alguien explica a su familia las «reglas no escritas» de una cena: así la vive una persona neurotípica y así la vivo yo.",
+   "Una profesora de Filosofía lee en clase la parodia del «síndrome neurotípico» para mostrar cómo suena describir a la mayoría con lenguaje de déficit.",
+   "Un artículo de divulgación habla de «cerebros neurotípicos» como si fueran una categoría médica, cuando el término nació como contraste social.",
+   "En una pareja, ella autista y él neurotípico, ambos usan esas palabras para negociar ruidos, planes y conversaciones sin culpar a ninguno."
+  ],
+  "implicaciones": "«Neurotípico» se usa hoy en las redes en español casi tanto como en inglés, y no siempre con el mismo sentido. A veces describe a quien no tiene un diagnóstico; otras, a quien encaja sin esfuerzo en las expectativas sociales; otras funciona como reproche. En investigación, llamar «neurotípico» a un grupo de control puede esconder que nadie comprobó qué condiciones tenían sus miembros, y que los rasgos se distribuyen en continuo. En la escuela y en la familia, la palabra ayuda a explicar desencuentros sin culpar a nadie, como propone la doble empatía. El riesgo es crear un «nosotros» frente a «ellos» que repita, al revés, el problema que se quería denunciar. Conviene usarla como descripción relativa, no como identidad cerrada.",
+  "sabias": "La web satírica del ISNT definía el «síndrome neurotípico» como un trastorno neurobiológico marcado por la preocupación por lo social, los delirios de superioridad y la obsesión por la conformidad, y lamentaba que hasta 9.625 de cada 10.000 personas pudieran ser neurotípicas.",
+  "piensalo": "Si una broma convierte a la mayoría en caso clínico, ¿qué descubres sobre el lenguaje que solemos usar con las minorías?",
+  "paso": "Lee la descripción de algún trastorno en una web sanitaria y reescribe una frase como si describiera a la mayoría. Observa qué palabras chirrían y por qué.",
+  "frase": "«Neurotípico significa normal, sin ningún problema»",
+  "veredicto": "mito",
+  "matiz": "Neurotípico describe a quien encaja en las expectativas sociales sobre el funcionamiento mental, no a quien no tiene problemas. Una persona neurotípica puede tener ansiedad, depresión u otras dificultades; el término no es un certificado de salud.",
+  "salto": "",
+  "relacionados": [
+   "neurodivergente",
+   "neurodiversidad",
+   "doble-empatia",
+   "modelo-dimensional",
+   "heterogeneidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Botha, M. et al. (2024). The neurodiversity concept was developed collectively: An overdue correction on the origins of neurodiversity theory. Autism, 28(6), 1591-1594",
+    "url": "https://journals.sagepub.com/doi/10.1177/13623613241237871"
+   },
+   {
+    "titulo": "Institute for the Study of the Neurologically Typical (ISNT) (1998). Página principal, copia archivada",
+    "url": "https://gwern.net/doc/www/erikengdahl.se/2762e814dc4c7a09bfa1deeb1217609b6823a15b.html"
+   },
+   {
+    "titulo": "Wikipedia (consulta 2026). Neurotypical (apoyo)",
+    "url": "https://en.wikipedia.org/wiki/Neurotypical"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "paradigma-neurodiversidad",
+  "lema": "Paradigma de la neurodiversidad",
+  "variantes": [
+   "neurodiversity paradigm",
+   "enfoque de la neurodiversidad",
+   "enfoque neuroafirmativo"
+  ],
+  "tipo": "concepto",
+  "familia": "Identidad y comunidad",
+  "anio": 2012,
+  "anio_nota": "se publicó el ensayo de Nick Walker que opone el «paradigma de la patología» al «paradigma de la neurodiversidad»",
+  "obra": "Walker, N. (2012). «Throw Away the Master's Tools: Liberating Ourselves from the Pathology Paradigm», en la antología Loud Hands: Autistic People, Speaking",
+  "figuras": [
+   "Nick Walker",
+   "Elizabeth Pellicano",
+   "Jacquiline den Houting",
+   "Steven Kapp"
+  ],
+  "definicion": "Marco de valores que entiende la neurodiversidad como una forma natural y valiosa de diversidad humana, considera una construcción cultural la idea de un único cerebro «normal» y analiza las desigualdades entre neurotipos como las de otras diversidades. Se contrapone al «paradigma de la patología».",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "R"
+  ],
+  "controversia": "Se discute si es compatible con reconocer déficits y tratamientos. Walker no rechaza tratar como patología algunas condiciones, como la epilepsia; críticos como Jaarsma y Welin lo ven razonable solo para quienes necesitan menos apoyo.",
+  "contexto": "La palabra «paradigma» viene de la filosofía de la ciencia de Thomas Kuhn: un marco que decide qué preguntas parecen razonables. Nick Walker, educador y autor autista, escribió en 2011 un ensayo, publicado en 2012 en la antología Loud Hands, que oponía dos paradigmas. El de la patología supone que hay una única forma «correcta» o «sana» de que funcione una mente; el de la neurodiversidad sostiene que la diversidad entre mentes es natural, sana y valiosa. Walker lo había ido construyendo en foros autistas desde mediados de los años 2000, y en 2014 lo resumió en tres principios. En 2013, una encuesta ya había mostrado que ver el autismo como diferencia no impedía reconocer sus aspectos negativos. A partir de 2021, investigadoras como Elizabeth Pellicano y Jacquiline den Houting propusieron reorientar la ciencia del autismo hacia este paradigma: menos foco en el déficit y más en el contexto.",
+  "ejemplos": [
+   "Un grupo de investigación pregunta a adultos autistas qué temas priorizar antes de diseñar sus estudios, en lugar de decidirlo solo desde el laboratorio.",
+   "Una logopeda fija objetivos de comunicación útiles para el niño, como pedir ayuda o expresar molestias, en lugar de obligarle a mantener el contacto visual.",
+   "Un informe escolar describe fortalezas, necesidades y barreras del aula, en lugar de una simple lista de déficits del alumno.",
+   "En un congreso se enfrentan dos ponencias: una pide investigar causas para prevenir; otra, mejorar apoyos y calidad de vida. Ambas citan a personas autistas.",
+   "Una web de salud cambia «trastorno» por «condición» en sus textos divulgativos, pero mantiene los criterios diagnósticos para orientar hacia una evaluación."
+  ],
+  "implicaciones": "El paradigma de la neurodiversidad ha llegado a la formación de profesionales y a la llamada práctica «neuroafirmativa», que prioriza objetivos elegidos con la persona, como reducir el agotamiento, antes que parecer «normal». En la escuela inspira informes que describen fortalezas y barreras del entorno, no solo déficits. Pero convive con sistemas sanitarios y educativos que funcionan con categorías diagnósticas y criterios de déficit, también en España. Esa tensión no se resuelve eligiendo bando. Desde la validez de uso, el paradigma es un buen marco para decidir prioridades de investigación y formas de apoyo; no sustituye a los criterios necesarios para diagnosticar o para acceder a prestaciones. Y sus versiones moderadas, que reconocen a la vez diferencias y dificultades, son compatibles con la atención clínica.",
+  "sabias": "En una encuesta de 2013 con 657 personas, quienes conocían la neurodiversidad veían más el autismo como identidad positiva, pero reconocían sus aspectos negativos igual que el resto. Diferencia y déficit no se excluían: los autores hablaron de «déficit como diferencia».",
+  "piensalo": "¿Se puede defender que una diferencia es valiosa y, a la vez, que una persona concreta necesita tratamiento para una parte de lo que vive?",
+  "paso": "Lee un informe o una web sobre autismo o TDAH y subraya en dos colores las frases de déficit y las de diferencia. ¿Cuáles dominan?",
+  "frase": "«El enfoque de la neurodiversidad niega que el autismo sea una discapacidad»",
+  "veredicto": "matiz",
+  "matiz": "Algunas voces lo plantean así, pero muchas versiones del enfoque reconocen dificultades individuales y la necesidad de apoyos; lo que discuten es que la diferencia sea en sí una enfermedad. No hay una sola versión del paradigma.",
+  "salto": "",
+  "relacionados": [
+   "neurodiversidad",
+   "movimiento-neurodiversidad",
+   "modelo-social",
+   "nick-walker",
+   "medicalizacion",
+   "autismo-profundo"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Walker, N. (2012; revisado 2013). Throw Away the Master's Tools: Liberating Ourselves from the Pathology Paradigm. Neuroqueer",
+    "url": "https://neuroqueer.com/throw-away-the-masters-tools/"
+   },
+   {
+    "titulo": "Pellicano, E. y den Houting, J. (2022). Annual Research Review: Shifting from «normal science» to neurodiversity in autism science. Journal of Child Psychology and Psychiatry, 63(4), 381-396",
+    "url": "https://doi.org/10.1111/jcpp.13534"
+   },
+   {
+    "titulo": "Kapp, S. K., Gillespie-Lynch, K., Sherman, L. E. y Hutman, T. (2013). Deficit, difference, or both? Autism and neurodiversity. Developmental Psychology, 49(1), 59-71",
+    "url": "https://doi.org/10.1037/a0028353"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "movimiento-neurodiversidad",
+  "lema": "Movimiento de la neurodiversidad",
+  "variantes": [
+   "neurodiversity movement",
+   "activismo neurodivergente"
+  ],
+  "tipo": "movimiento",
+  "familia": "Identidad y comunidad",
+  "anio": 1996,
+  "anio_nota": "fecha de los debates de la lista de correo InLv en los que, según una carta de 2024 en la revista Autism, el concepto ya estaba plenamente formado",
+  "obra": "Debates de la lista de correo Independent Living (InLv), documentados por Botha y colaboradores (2024) en la revista Autism",
+  "figuras": [
+   "Jim Sinclair",
+   "Judy Singer",
+   "Kassiane Asasumasu",
+   "Nick Walker"
+  ],
+  "definicion": "Movimiento social que reivindica que las diferencias neurológicas, como el autismo, el TDAH o la dislexia, se reconozcan como parte de la diversidad humana y que se eliminen barreras, en lugar de buscar «curarlas». Nació en comunidades autistas en internet y se ha extendido a otras condiciones.",
+  "usos": [
+   "I",
+   "E",
+   "A",
+   "R"
+  ],
+  "controversia": "Se le reprocha que sus portavoces más visibles son adultos con lenguaje oral y que deja fuera a personas con grandes necesidades de apoyo. También se discute su postura ante terapias como ABA y ante la investigación genética.",
+  "contexto": "El movimiento de la neurodiversidad hunde sus raíces en el activismo autista de los noventa y en el movimiento de las personas con discapacidad, que ya defendía la vida independiente y el modelo social. Internet fue decisivo: listas de correo como InLv reunieron a adultos autistas y aliados que discutían la idea de cura y reclamaban respeto. Según una carta publicada en 2024, en 1996 el concepto ya estaba plenamente formado en esos debates. En 1997, el periodista Harvey Blume escribía sobre «pluralismo neurológico». Hacia el año 2000, términos como «neurodivergente» ampliaron el paraguas más allá del autismo, y en la década de 2010 las redes sociales llevaron el movimiento a personas con TDAH, dislexia u otras condiciones. Al mismo tiempo surgieron críticas: filósofos y familias señalaron que sus tesis encajaban mejor con quienes necesitan menos apoyo. Hoy es un campo diverso, con versiones moderadas y radicales.",
+  "ejemplos": [
+   "Una asociación de personas con TDAH adopta el lenguaje de la neurodiversidad para pedir flexibilidad horaria en el trabajo, y no solo acceso a medicación.",
+   "Estudiantes con dislexia organizan una charla en su facultad para explicar qué ajustes les sirven de verdad en los exámenes.",
+   "Familias de niños autistas con grandes necesidades de apoyo critican en un periódico que el movimiento hable en nombre de todos sin contar con ellas.",
+   "Investigadores autistas firman artículos que proponen cambiar prioridades: menos búsqueda de causas y más estudios sobre empleo, salud mental y servicios.",
+   "Una empresa tecnológica presume de neurodiversidad en su publicidad; activistas preguntan cuántas personas neurodivergentes ocupan sus puestos de decisión."
+  ],
+  "implicaciones": "En España el movimiento se expresa en asociaciones, colectivos en redes y voces en los medios, y su lenguaje ya aparece en documentos escolares y públicos. También tiene detractores: el propio título del proyecto que inspira esta web, «Neurowokismo», recoge la acusación de que se ha convertido en una ideología identitaria. El proyecto revisó esa tesis y no encontró pruebas de que más inclusión produzca necesariamente más error clínico ni de captura institucional. Sí encontró preguntas legítimas: quién representa a quién, cómo se incluye a las personas con grandes necesidades de apoyo y qué pruebas sostienen cada reivindicación. Para opinar con fundamento, separa los hechos (hay diversidad), los valores (cómo tratarla) y las propuestas concretas (qué apoyo y para quién).",
+  "sabias": "Antes de que «neurodiversidad» se hiciera famosa, el periodista Harvey Blume escribió en 1997 sobre «pluralismo neurológico» y atribuyó la idea a una lista de correo de personas autistas y aliados, no a ningún académico.",
+  "piensalo": "¿Quién debería hablar en nombre de un movimiento cuando algunas de las personas afectadas no pueden participar en redes ni en congresos?",
+  "paso": "Busca una asociación de tu zona sobre autismo, TDAH o dislexia y mira quién forma su junta directiva: ¿hay personas con esa condición?",
+  "frase": "«La neurodiversidad es una ideología de moda»",
+  "veredicto": "matiz",
+  "matiz": "Es un movimiento con historia documentada desde los años noventa, con versiones y debates internos. Tener una dimensión política no lo convierte en moda ni lo hace verdadero o falso: cada afirmación concreta se evalúa por separado.",
+  "salto": "del aumento de diagnósticos a «es una moda»",
+  "relacionados": [
+   "derechos-autistas",
+   "neurodiversidad",
+   "paradigma-neurodiversidad",
+   "nada-sobre-nosotros",
+   "autismo-profundo",
+   "jim-sinclair"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Botha, M. et al. (2024). The neurodiversity concept was developed collectively: An overdue correction on the origins of neurodiversity theory. Autism, 28(6), 1591-1594",
+    "url": "https://journals.sagepub.com/doi/10.1177/13623613241237871"
+   },
+   {
+    "titulo": "Dwyer, P. (2022). The neurodiversity approach(es): What are they and what do they mean for researchers? Human Development, 66(2), 73-92",
+    "url": "https://doi.org/10.1159/000523723"
+   },
+   {
+    "titulo": "Jaarsma, P. y Welin, S. (2012). Autism as a natural human variation: reflections on the claims of the neurodiversity movement. Health Care Analysis, 20(1), 20-30",
+    "url": "https://doi.org/10.1007/s10728-011-0169-9"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "derechos-autistas",
+  "lema": "Movimiento por los derechos de las personas autistas",
+  "variantes": [
+   "autism rights movement",
+   "autodefensa autista",
+   "self-advocacy autista",
+   "orgullo autista"
+  ],
+  "tipo": "movimiento",
+  "familia": "Identidad y comunidad",
+  "anio": 1992,
+  "anio_nota": "se fundó Autism Network International, red dirigida por y para personas autistas",
+  "obra": "Fundación de Autism Network International (Jim Sinclair, Donna Williams y Kathy Grant) y el texto «Don't Mourn for Us» de Jim Sinclair (1993)",
+  "figuras": [
+   "Jim Sinclair",
+   "Donna Williams",
+   "Kathy Grant",
+   "Michelle Dawson",
+   "Ari Ne'eman"
+  ],
+  "definicion": "Movimiento de personas autistas que defienden su derecho a hablar por sí mismas, a ser aceptadas y a recibir apoyos, frente a enfoques centrados en la cura o en la normalización. Es la raíz del movimiento más amplio de la neurodiversidad.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "A",
+   "R"
+  ],
+  "controversia": "Choca con parte de las asociaciones de familias sobre la investigación de causas, el lenguaje y terapias como ABA. También se discute cuánto representa a las personas autistas con discapacidad intelectual o sin lenguaje oral.",
+  "contexto": "Durante buena parte del siglo XX, sobre el autismo hablaban los médicos y, desde los años sesenta, las asociaciones de padres. Las personas autistas apenas tenían voz pública. En 1992, un grupo de adultos autistas fundó Autism Network International, con boletines escritos por y para personas autistas. En 1993, Jim Sinclair presentó en una conferencia internacional en Toronto «Don't Mourn for Us», dirigido a padres que vivían el diagnóstico como un duelo. En 1996 nació Autreat, un encuentro organizado por personas autistas. En 2004, Michelle Dawson cuestionó la terapia ABA en términos éticos; en 2005 se celebró el primer Día del Orgullo Autista, y en 2006 se fundó en Estados Unidos la Autistic Self Advocacy Network. Internet fue el gran altavoz: permitía comunicarse por escrito y al ritmo de cada uno, algo decisivo para muchas personas autistas.",
+  "ejemplos": [
+   "En 2007, una campaña de un centro neoyorquino que presentaba el autismo como un secuestrador de niños se retiró tras miles de quejas; la Autistic Self Advocacy Network fue una de las voces críticas.",
+   "Cada 18 de junio, colectivos autistas celebran el Día del Orgullo Autista con encuentros y lecturas, frente a campañas centradas en la tragedia.",
+   "Un adulto autista pide estar en la reunión donde se decide su plan de apoyos en el centro de día, y no solo su familia.",
+   "Una investigadora autista revisa el cuestionario de un estudio y detecta preguntas que nadie del equipo había visto como ofensivas.",
+   "En un debate sobre terapias, activistas distinguen entre enseñar habilidades útiles y entrenar a un niño para ocultar conductas que no hacen daño a nadie."
+  ],
+  "implicaciones": "En España conviven asociaciones de familias, entidades profesionales y, cada vez más, colectivos de personas autistas adultas que reclaman hablar en primera persona. Sus demandas atraviesan los cinco usos: qué se investiga, cómo se diagnostica a adultos y mujeres, qué apoyos hay en la escuela, cómo se accede a recursos y cómo se nombra cada cual. La Convención de la ONU sobre los derechos de las personas con discapacidad, en vigor en España desde 2008, respalda que participen en las decisiones que les afectan. El reto es real: las voces que más se oyen en redes no son todas las voces, y las personas autistas con discapacidad intelectual o sin lenguaje oral necesitan formas de participación adaptadas. Ni el activismo ni las familias deberían reclamar la representación en exclusiva.",
+  "sabias": "«Don't Mourn for Us» («No lloréis por nosotros»), texto fundacional del movimiento, fue una charla dirigida a padres en una conferencia internacional sobre autismo celebrada en Toronto en 1993. Su idea central: «No es posible separar a la persona del autismo».",
+  "piensalo": "Cuando una familia y su hijo autista adulto quieren cosas distintas, ¿quién debería tener la última palabra y por qué?",
+  "paso": "Lee «Don't Mourn for Us», de Jim Sinclair (es breve), y anota una idea con la que estés de acuerdo y otra que te genere dudas.",
+  "frase": "«Los activistas autistas no representan a los autistas que más apoyo necesitan»",
+  "veredicto": "matiz",
+  "matiz": "Es una crítica seria: la visibilidad en redes no equivale a representatividad. Pero el movimiento también ha defendido derechos de personas con grandes necesidades de apoyo, y la solución no es excluir a quienes sí pueden hablar.",
+  "salto": "",
+  "relacionados": [
+   "movimiento-neurodiversidad",
+   "nada-sobre-nosotros",
+   "jim-sinclair",
+   "intervencion-conductual",
+   "autismo-profundo",
+   "lenguaje-identidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Sinclair, J. (1993). Don't Mourn for Us. Our Voice (boletín de Autism Network International), 1(3)",
+    "url": "https://www.autreat.com/dont_mourn.html"
+   },
+   {
+    "titulo": "Botha, M. et al. (2024). The neurodiversity concept was developed collectively: An overdue correction on the origins of neurodiversity theory. Autism, 28(6), 1591-1594",
+    "url": "https://journals.sagepub.com/doi/10.1177/13623613241237871"
+   },
+   {
+    "titulo": "Wikipedia (consulta 2026). Autism rights movement (apoyo)",
+    "url": "https://en.wikipedia.org/wiki/Autism_rights_movement"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "autodiagnostico",
+  "lema": "Autodiagnóstico",
+  "variantes": [
+   "self-diagnosis",
+   "diagnóstico autopercibido",
+   "autoidentificación diagnóstica"
+  ],
+  "tipo": "concepto",
+  "familia": "Identidad y comunidad",
+  "anio": 2016,
+  "anio_nota": "se publicó el estudio de Laura Foran Lewis sobre la experiencia de 37 adultos que se habían autodiagnosticado autismo",
+  "obra": "Lewis, L. F. (2016). «Exploring the experience of self-diagnosis of autism spectrum disorder in adults». Archives of Psychiatric Nursing, 30(5), 575-580",
+  "figuras": [
+   "Laura Foran Lewis"
+  ],
+  "definicion": "Conclusión a la que llega una persona, sin evaluación profesional, de que cumple los criterios de un diagnóstico como autismo o TDAH. Puede ser un paso hacia la evaluación o una forma de comprenderse, pero no tiene la validación de un diagnóstico clínico ni sus efectos administrativos.",
+  "usos": [
+   "I",
+   "D",
+   "A",
+   "R"
+  ],
+  "controversia": "Unos lo ven como respuesta legítima a listas de espera y sesgos diagnósticos; otros temen errores alimentados por contenidos de redes. Faltan datos sobre cuántos autodiagnósticos se confirman después.",
+  "contexto": "Durante décadas, el autismo y el TDAH se diagnosticaron sobre todo en la infancia y con una imagen muy masculina. Muchas personas adultas, especialmente mujeres, crecieron sin evaluación. Cuando los criterios se ampliaron y el tema llegó a medios y redes, algunas se reconocieron en relatos ajenos. Al mismo tiempo, evaluar a un adulto exige tiempo y especialistas, y en muchos países las listas de espera o el coste de la vía privada son altos. Ese hueco lo ocuparon cuestionarios en línea, foros y, desde finales de la década de 2010, vídeos breves en plataformas como TikTok. En 2016, un estudio con 37 adultos autodiagnosticados de autismo describió sentimientos de ser distinto, dudas sobre uno mismo, pertenencia, mejor autocomprensión y preguntas sobre si hacía falta un diagnóstico formal. En 2022, otro estudio encontró que más de la mitad de los vídeos más populares sobre TDAH en TikTok eran engañosos.",
+  "ejemplos": [
+   "Una mujer de 40 años se reconoce en relatos de autismo en mujeres, rellena un cuestionario en línea y pide cita para una evaluación que tardará meses.",
+   "Un adolescente ve vídeos sobre TDAH y concluye que lo tiene; su médica le explica que despistarse a veces no basta para un diagnóstico.",
+   "Un estudio de 2022 analiza los 100 vídeos más populares sobre TDAH en TikTok y clasifica como engañosos el 52 %.",
+   "Una persona autodiagnosticada encuentra en un foro estrategias útiles contra el ruido en el trabajo, aunque sin informe no puede solicitar adaptaciones formales.",
+   "Un psicólogo recibe a un paciente que trae su autodiagnóstico; lo toma como hipótesis y valora también ansiedad, sueño u otras explicaciones."
+  ],
+  "implicaciones": "En España, el autodiagnóstico no tiene efectos administrativos: los apoyos escolares requieren una evaluación psicopedagógica, y el grado de discapacidad lo valoran equipos multiprofesionales. En la consulta puede ser un buen punto de partida si se trata como hipótesis, y el profesional valora también otras explicaciones, como ansiedad, problemas de sueño o consumo de sustancias. Los dos errores pesan aquí. Despreciar a quien llega con un autodiagnóstico puede alargar años de dificultades sin nombre; aceptarlo sin comprobar puede llevar a tratamientos o identidades que no encajan. Las redes amplifican ambos riesgos. Desde la validez de uso, el autodiagnóstico puede servir para reconocerse y buscar ayuda; no basta para diagnosticar, tratar ni acceder a recursos.",
+  "sabias": "En un experimento con 490 universitarios, quienes vieron vídeos de TikTok con desinformación sobre TDAH acabaron sabiendo menos que los demás grupos y, aun así, más seguros de su conocimiento que el grupo de control. Mala base para autodiagnosticarse.",
+  "piensalo": "Si un autodiagnóstico te ayuda a entenderte, ¿qué perderías y qué ganarías al comprobarlo con una evaluación profesional?",
+  "paso": "Si un vídeo te hace pensar «esa persona soy yo», anota quién lo hizo, qué formación tiene y qué fuente cita antes de compartirlo.",
+  "frase": "«El autodiagnóstico es válido»",
+  "veredicto": "matiz",
+  "matiz": "Puede ser válido como hipótesis y como forma de comprenderse, y a veces acierta. Pero no equivale a un diagnóstico clínico: no descarta otras explicaciones ni da acceso a apoyos. Valer para reconocerse no es valer para todo.",
+  "salto": "de la identidad al diagnóstico",
+  "relacionados": [
+   "autoadscripcion",
+   "redes-sociales",
+   "cribado",
+   "diagnostico-diferencial",
+   "tdah-adulto",
+   "brecha-genero"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Lewis, L. F. (2016). Exploring the experience of self-diagnosis of autism spectrum disorder in adults. Archives of Psychiatric Nursing, 30(5), 575-580",
+    "url": "https://doi.org/10.1016/j.apnu.2016.03.009"
+   },
+   {
+    "titulo": "Yeung, A., Ng, E. y Abi-Jaoude, E. (2022). TikTok and attention-deficit/hyperactivity disorder: a cross-sectional study of social media content quality. Canadian Journal of Psychiatry, 67(12), 899-906",
+    "url": "https://doi.org/10.1177/07067437221082854"
+   },
+   {
+    "titulo": "Schiros, A., Bowman, N. y Antshel, K. (2025). Misinformation mayhem: the effects of TikTok content on ADHD knowledge, stigma, and treatment-seeking intentions. European Child & Adolescent Psychiatry, 34(11), 3521-3533",
+    "url": "https://doi.org/10.1007/s00787-025-02769-8"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "autoadscripcion",
+  "lema": "Autoadscripción (identificarse con una etiqueta)",
+  "variantes": [
+   "autoidentificación",
+   "self-identification",
+   "identificación social con una etiqueta"
+  ],
+  "tipo": "concepto",
+  "familia": "Identidad y comunidad",
+  "anio": 1979,
+  "anio_nota": "Tajfel y Turner publicaron la teoría de la identidad social, el marco con el que hoy se estudia la identificación con etiquetas como autismo o TDAH",
+  "obra": "Tajfel, H. y Turner, J. C. (1979). «An integrative theory of intergroup conflict», en W. G. Austin y S. Worchel (eds.), The Social Psychology of Intergroup Relations. Brooks/Cole",
+  "figuras": [
+   "Henri Tajfel",
+   "John Turner",
+   "Kate Cooper"
+  ],
+  "definicion": "Identificarse con una etiqueta y sentirse parte del grupo que nombra, con o sin diagnóstico. A diferencia del autodiagnóstico, no pretende afirmar que se cumplen criterios clínicos, sino expresar pertenencia. En el proyecto que inspira esta web sirve para analizar el uso R (reconocerse) de las etiquetas.",
+  "usos": [
+   "I",
+   "R"
+  ],
+  "controversia": "Se discute si identificarse con una etiqueta protege el bienestar: en autismo hay asociaciones favorables, pero en un estudio de 2026 sobre TDAH no se asoció a mejor autoestima ni salud mental. Casi todo son datos transversales, sin causalidad.",
+  "contexto": "En antropología y en estadística, la autoadscripción es el criterio por el que cada persona declara a qué grupo pertenece, en lugar de que lo decida otro. Su aplicación a los diagnósticos es más reciente. El marco más usado procede de la psicología social: la teoría de la identidad social, formulada por Henri Tajfel y John Turner en 1979, sostiene que parte de cómo nos vemos depende de los grupos a los que sentimos pertenecer. Con internet, las etiquetas diagnósticas empezaron a funcionar también como grupos: foros, comunidades y, después, redes donde se comparte una experiencia. Desde la década de 2010, varios estudios miden cuánto se identifican con el autismo o el TDAH las personas con y sin diagnóstico formal, y si esa identificación se asocia con autoestima o bienestar. Los resultados son mixtos y casi siempre transversales, así que no permiten afirmar que identificarse cause bienestar.",
+  "ejemplos": [
+   "Una investigadora pregunta a adultos con TDAH cuánto sienten la etiqueta como parte de sí mismos y compara esas respuestas con su bienestar.",
+   "Un joven sin diagnóstico se siente a gusto en una comunidad autista en línea; no dice «tengo autismo», sino «me reconozco aquí».",
+   "Un estudio en organizaciones neerlandesas encuentra que la neurodivergencia autoidentificada añade información a la diagnosticada para predecir estilos cognitivos.",
+   "Un adulto con dislexia diagnosticada en la infancia dice que la etiqueta no le define: tiene el diagnóstico, pero poca identificación con él.",
+   "En un aula, un profesor evita preguntar quién «es» TDAH y pregunta qué ayuda a cada estudiante a concentrarse."
+  ],
+  "implicaciones": "La autoadscripción es la puerta de entrada al uso R de IDEAR: reconocerse en una etiqueta y encontrar comunidad. Para muchas personas aporta comprensión y alivio, y el proyecto advierte contra suponer que todo beneficio referido es sugestión. También advierte del error contrario: identificarse no acredita un diagnóstico. Un estudio de 2025 en empresas mostró que la neurodivergencia autoidentificada puede ser útil como variable de investigación, pero eso no la convierte en criterio clínico. En España, donde el acceso a apoyos depende de evaluaciones profesionales, la distinción es práctica: la identidad no se pide en un registro, y un diagnóstico no obliga a nadie a vivirlo como parte de sí. Respetar ambas cosas evita tanto la burla como la confusión.",
+  "sabias": "En un estudio británico de 2026 con 319 adultos con TDAH, de todas las fuentes donde habían aprendido sobre el trastorno, solo las redes sociales se asociaron a identificarse más con la etiqueta. Ojo: es una asociación, y no sabemos qué causa qué.",
+  "piensalo": "¿Puede una etiqueta ser muy útil para entenderte y, a la vez, poco importante para definir quién eres?",
+  "paso": "Pregunta a alguien con un diagnóstico si lo siente como parte de su identidad o solo como una explicación. Escucha sin corregir.",
+  "frase": "«Si te identificas con una etiqueta, es que la tienes»",
+  "veredicto": "mito",
+  "matiz": "Identificarse expresa pertenencia o reconocimiento, no prueba que se cumplan criterios clínicos. Y al revés: hay personas diagnosticadas que no se identifican con su etiqueta. Identidad y diagnóstico responden a usos distintos.",
+  "salto": "de la identidad al diagnóstico",
+  "relacionados": [
+   "autodiagnostico",
+   "neurodivergente",
+   "lenguaje-identidad",
+   "redes-sociales",
+   "validez-uso",
+   "estigma"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Cooper, K., Thomas, K., Burnley, A. y Smith, L. G. E. (2026). Understanding ADHD identity and preferred terminology for adults with ADHD in the UK. British Journal of Psychiatry",
+    "url": "https://doi.org/10.1192/bjp.2026.10652"
+   },
+   {
+    "titulo": "van Rijswijk, J. y Curșeu, P. L. (2025). Formal versus self-identified neurodivergence: a comparative study in work environments. Behavioral Sciences, 15(4), 420",
+    "url": "https://doi.org/10.3390/bs15040420"
+   },
+   {
+    "titulo": "Wikipedia (consulta 2026). Social identity theory (apoyo para Tajfel y Turner, 1979)",
+    "url": "https://en.wikipedia.org/wiki/Social_identity_theory"
+   }
+  ],
+  "estado": "probable",
+  "nucleo": false
+ },
+ {
+  "id": "camuflaje",
+  "lema": "Camuflaje social (masking)",
+  "variantes": [
+   "masking",
+   "enmascaramiento",
+   "camouflaging",
+   "compensación"
+  ],
+  "tipo": "concepto",
+  "familia": "Identidad y comunidad",
+  "anio": 2017,
+  "anio_nota": "se publicó el estudio de Laura Hull y colaboradores que propuso un modelo del camuflaje a partir de los relatos de 92 adultos autistas",
+  "obra": "Hull, L. et al. (2017). «“Putting on my best normal”: social camouflaging in adults with autism spectrum conditions». Journal of Autism and Developmental Disorders, 47(8), 2519-2534",
+  "figuras": [
+   "Laura Hull",
+   "Meng-Chuan Lai",
+   "William Mandy"
+  ],
+  "definicion": "Estrategias, conscientes o no, con las que algunas personas autistas ocultan o compensan sus diferencias en situaciones sociales: imitar gestos, ensayar conversaciones, forzar el contacto visual. Puede ayudar a encajar, pero se asocia a agotamiento y puede retrasar el diagnóstico.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "R"
+  ],
+  "controversia": "Se discute cómo medirlo: los cuestionarios dependen del autoinforme y las medidas de discrepancia, de supuestos discutibles. Algunos críticos temen que el «autismo camuflado» sirva para explicar cualquier ausencia de signos observables.",
+  "contexto": "Durante décadas, la imagen del autismo se construyó sobre todo con niños varones y conductas muy visibles. En los años 2000 y 2010, relatos autobiográficos y observaciones clínicas, sobre todo de mujeres diagnosticadas en la edad adulta, describieron un esfuerzo constante por parecer «normales»: copiar gestos, preparar guiones, ocultar intereses o movimientos. La investigación tomó el relevo. En 2017, Meng-Chuan Lai y su equipo midieron el camuflaje como la distancia entre lo que se observa en una evaluación y los rasgos medidos con cuestionarios y pruebas, mientras Laura Hull y sus colegas recogían los relatos de 92 adultos autistas para proponer un modelo en tres fases: motivos, técnicas y consecuencias. En 2019 publicaron un cuestionario específico, el CAT-Q. El concepto se difundió con rapidez en redes y consultas y, con él, llegaron las críticas sobre cómo medirlo y para qué se usa.",
+  "ejemplos": [
+   "Una alumna autista copia la forma de reír de sus compañeras y llega a casa agotada; en clase nadie nota nada y no la derivan a orientación.",
+   "Una psicóloga evalúa a una mujer adulta que «pasa» bien la entrevista y le pregunta cuánto esfuerzo le cuesta, no solo lo que se ve.",
+   "Un adulto ensaya mentalmente las conversaciones de la reunión semanal y prepara frases hechas para la pausa del café.",
+   "Un estudio utiliza el cuestionario CAT-Q, de 25 ítems, para comparar el camuflaje entre personas autistas y no autistas.",
+   "Un vídeo en redes afirma «si no lo parece, es que lo camufla»: con ese argumento, ningún dato podría contradecir el diagnóstico."
+  ],
+  "implicaciones": "El camuflaje ayuda a entender por qué algunas personas, sobre todo mujeres, reciben tarde el diagnóstico de autismo. Es un aviso contra el falso negativo: que alguien «no lo parezca» en una entrevista breve o en clase no descarta dificultades. Un estudio de 2018 lo asoció además con puntuaciones más altas de riesgo suicida en adultos autistas, lo que obliga a tomarlo en serio. Pero también puede usarse mal. Si cualquier ausencia de signos se explica como camuflaje, la hipótesis deja de poder comprobarse y abre la puerta al falso positivo. En consulta, los profesionales necesitan preguntar por el esfuerzo y su coste, no solo por lo visible, sin convertir el camuflaje en prueba automática. En la escuela, conviene fijarse también en cómo llega el alumnado al final del día.",
+  "sabias": "Cuando se midió el camuflaje como la distancia entre lo que una persona autista muestra en la evaluación y sus rasgos medidos por otras vías, las mujeres puntuaron de media bastante más que los hombres, aunque con mucha variación en ambos grupos.",
+  "piensalo": "Si una dificultad no se ve, ¿cómo distinguir entre que está camuflada y que no existe, sin caer en ninguna de las dos trampas?",
+  "paso": "Si eres docente o familiar, pregunta esta semana a un chico o una chica cómo se siente después del recreo o de una fiesta, no solo durante.",
+  "frase": "«Las mujeres autistas camuflan, por eso no se las diagnostica»",
+  "veredicto": "matiz",
+  "matiz": "De media, el camuflaje parece mayor en mujeres y puede retrasar diagnósticos, pero hay mucha variación y también hombres que camuflan. Es una explicación entre otras, como los sesgos de los instrumentos y de los profesionales.",
+  "salto": "del grupo al individuo",
+  "relacionados": [
+   "brecha-genero",
+   "infradiagnostico",
+   "agotamiento-autista",
+   "autismo",
+   "errores-simetricos"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Hull, L. et al. (2017). «Putting on my best normal»: social camouflaging in adults with autism spectrum conditions. Journal of Autism and Developmental Disorders, 47(8), 2519-2534",
+    "url": "https://doi.org/10.1007/s10803-017-3166-5"
+   },
+   {
+    "titulo": "Lai, M.-C. et al. (2017). Quantifying and exploring camouflaging in men and women with autism. Autism, 21(6), 690-702",
+    "url": "https://doi.org/10.1177/1362361316671012"
+   },
+   {
+    "titulo": "Fombonne, E. (2020). Camouflage and autism. Journal of Child Psychology and Psychiatry, 61(7), 735-738",
+    "url": "https://doi.org/10.1111/jcpp.13296"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "doble-empatia",
+  "lema": "Problema de la doble empatía",
+  "variantes": [
+   "double empathy problem",
+   "doble empatía",
+   "DEP"
+  ],
+  "tipo": "concepto",
+  "familia": "Identidad y comunidad",
+  "anio": 2012,
+  "anio_nota": "Damian Milton publicó el artículo que formuló el problema",
+  "obra": "Milton, D. (2012). «On the ontological status of autism: the “double empathy problem”». Disability & Society, 27(6), 883-887",
+  "figuras": [
+   "Damian Milton",
+   "Catherine Crompton",
+   "Noah Sasson"
+  ],
+  "definicion": "Propuesta según la cual las dificultades de comunicación entre personas autistas y no autistas no residen solo en la persona autista, sino en el desencuentro mutuo entre formas distintas de percibir y de relacionarse. La falta de entendimiento sería, al menos en parte, bidireccional.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "R"
+  ],
+  "controversia": "Una revisión de 2024 en Psychological Review advierte que el concepto está mal definido, se confunde con otros y aún no justifica su aplicación clínica. Sus defensores señalan experimentos con resultados coherentes con la hipótesis.",
+  "contexto": "Desde los años ochenta, una teoría muy influyente explicaba las dificultades sociales del autismo por un déficit en la «teoría de la mente», la capacidad de atribuir estados mentales a los demás. En 2012, el sociólogo británico Damian Milton, investigador autista, publicó un breve artículo que daba la vuelta a la pregunta: si dos personas con experiencias del mundo muy distintas se comunican, ambas tendrán problemas para entenderse, y el fallo no está solo en una. Lo llamó el «problema de la doble empatía». La idea conectaba con el modelo social de la discapacidad y con la experiencia de muchas personas autistas, que se entendían bien entre sí. Después llegaron los experimentos: en 2017, observadores no autistas se formaban en segundos peores impresiones de personas autistas, y en 2020 cadenas de transmisión de información funcionaron igual de bien entre personas autistas que entre no autistas.",
+  "ejemplos": [
+   "En un experimento tipo «teléfono roto», las cadenas de personas autistas transmitieron una historia tan bien como las no autistas; las cadenas mixtas perdieron más detalles.",
+   "Un profesor interpreta como desinterés que un alumno no le mire; el alumno interpreta como hostilidad que el profesor insista. Ambos se malinterpretan.",
+   "Una empresa forma a su plantilla para dar instrucciones explícitas, en lugar de pedir solo a los empleados autistas que «mejoren sus habilidades sociales».",
+   "Un estudio muestra que observadores no autistas juzgan peor a personas autistas viendo vídeos de segundos, pero no cuando solo leen lo que dicen.",
+   "Dos amigos autistas se entienden sin problema por mensajes y cuentan que, con otras personas, gastan mucha energía en descifrar indirectas."
+  ],
+  "implicaciones": "La doble empatía cambia la pregunta en la escuela, la consulta y el trabajo: además de enseñar habilidades sociales a la persona autista, ¿qué tienen que aprender los demás? En un aula puede traducirse en instrucciones explícitas, menos dobles sentidos y compañeros que conocen otras formas de comunicarse. Pero no borra las dificultades: los criterios diagnósticos siguen describiendo diferencias en la comunicación social, y muchas personas autistas las viven como reales. Una revisión de 2024 pidió además cautela antes de aplicarla en la clínica, por su definición todavía difusa. Desde la validez de uso, es una hipótesis prometedora para investigar y un marco útil para reconocerse y educar; para diagnosticar, aún necesita más precisión.",
+  "sabias": "En tres estudios, observadores no autistas juzgaban peor a personas autistas tras ver vídeos de apenas unos segundos, y querían interactuar menos con ellas. Cuando solo leían lo que decían, el sesgo desaparecía: pesaba el estilo, no el contenido.",
+  "piensalo": "Cuando una conversación sale mal entre dos personas muy distintas, ¿por qué solemos buscar el fallo solo en una de ellas?",
+  "paso": "En tu próxima conversación difícil, pregunta «¿qué has entendido?» antes de suponer que la otra persona no ha captado lo que querías decir.",
+  "frase": "«Las personas autistas no tienen empatía»",
+  "veredicto": "mito",
+  "matiz": "Muchas personas autistas tienen dificultades para leer señales sociales no autistas, pero eso no equivale a carecer de empatía. La investigación muestra que las personas no autistas también fallan al leer a las autistas: el desencuentro es mutuo.",
+  "salto": "",
+  "relacionados": [
+   "teoria-mente",
+   "damian-milton",
+   "neurotipico",
+   "camuflaje",
+   "autismo",
+   "modelo-social"
+  ],
+  "fuentes": [
+   {
+    "titulo": "National Autistic Society (2018). The double empathy problem (cita a Milton, D. 2012, Disability & Society, 27(6), 883-887)",
+    "url": "https://www.autism.org.uk/advice-and-guidance/professional-practice/double-empathy"
+   },
+   {
+    "titulo": "Crompton, C. J., Ropar, D., Evans-Williams, C. V. M., Flynn, E. G. y Fletcher-Watson, S. (2020). Autistic peer-to-peer information transfer is highly effective. Autism, 24(7), 1704-1712",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7545656"
+   },
+   {
+    "titulo": "Livingston, L. A., Hargitai, L. D. y Shah, P. (2024). The double empathy problem: A derivation chain analysis and cautionary note. Psychological Review, 132(3), 744-757",
+    "url": "https://doi.org/10.1037/rev0000468"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "monotropismo",
+  "lema": "Monotropismo",
+  "variantes": [
+   "monotropism",
+   "atención monotrópica",
+   "túnel de atención"
+  ],
+  "tipo": "concepto",
+  "familia": "Identidad y comunidad",
+  "anio": 2005,
+  "anio_nota": "se publicó el artículo que desarrolló la teoría; Dinah Murray ya usaba el término en un trabajo de 1992",
+  "obra": "Murray, D., Lesser, M. y Lawson, W. (2005). «Attention, monotropism and the diagnostic criteria for autism». Autism, 9(2), 139-156",
+  "figuras": [
+   "Dinah Murray",
+   "Mike Lesser",
+   "Wenn Lawson"
+  ],
+  "definicion": "Teoría que explica el autismo como una forma de repartir la atención: concentrarla intensamente en pocos intereses a la vez, en lugar de distribuirla entre muchos. Desde ahí intenta explicar los intereses intensos, la dificultad para cambiar de tarea y la sobrecarga sensorial.",
+  "usos": [
+   "I",
+   "E",
+   "R"
+  ],
+  "controversia": "Es popular en la comunidad autista, pero su respaldo empírico aún es escaso: los instrumentos para medirlo son recientes y se discute si describe algo propio del autismo o rasgos compartidos con el TDAH.",
+  "contexto": "A finales del siglo XX, las grandes teorías cognitivas del autismo hablaban de déficits: en teoría de la mente, en funciones ejecutivas o en coherencia central. Muchas personas autistas no se reconocían en ellas. La investigadora británica Dinah Murray empezó a usar el término «monotropismo» en 1992 y, en 2005, lo desarrolló con Mike Lesser y Wenn Lawson en la revista Autism. Su tesis: las mentes autistas tienden a concentrar la atención en pocos intereses y con mucha intensidad, mientras que otras la reparten. Desde ahí, los autores argumentaban que las dificultades sociales y de comunicación de los criterios del DSM-IV y de la CIE-10 se derivaban del «abanico restringido de intereses» que esos mismos manuales describían. Durante años la teoría circuló sobre todo en la comunidad autista. En la década de 2020 ha resurgido, con un cuestionario propio y revisiones que la comparan con el hiperfoco del TDAH.",
+  "ejemplos": [
+   "Un alumno absorto en su maqueta no oye que ha acabado la clase; la profesora le avisa cinco minutos antes en lugar de cortarle de golpe.",
+   "Una adulta autista explica que no puede «medio escuchar» la radio mientras trabaja: o atiende del todo o no atiende.",
+   "Un terapeuta parte de la afición de un niño por los trenes para practicar turnos de conversación, en lugar de prohibirla.",
+   "Una revisión de 2026 compara el monotropismo con el hiperfoco del TDAH y con la experiencia de «fluir», y encuentra solapamientos y diferencias.",
+   "En un foro, alguien describe lo que le cuesta cambiar de tarea con la imagen de un túnel de atención del que es difícil salir."
+  ],
+  "implicaciones": "El monotropismo se ha vuelto popular porque ofrece a muchas personas autistas una explicación de su experiencia que no empieza por el déficit. En el aula sugiere medidas concretas: anticipar los cambios de actividad, avisar antes de interrumpir una tarea, usar los intereses del alumno como puerta de entrada al aprendizaje. Varias de estas medidas, como las agendas visuales, ya forman parte de los apoyos habituales al alumnado autista. En el trabajo invita a reducir interrupciones. Pero conviene no convertirlo en dogma: es una teoría descriptiva con evidencia empírica aún limitada, y algunos de sus rasgos aparecen también en el TDAH y en la población general. Sirve para comprender y para educar; no es una prueba diagnóstica.",
+  "sabias": "El artículo de 2005 que presentó la teoría en una revista científica se apoyaba también en la experiencia personal de uno de sus firmantes, Wenn Lawson, investigador autista. La teoría nació, en parte, desde dentro.",
+  "piensalo": "¿Es un defecto no poder repartir la atención, o una forma distinta de usarla que tiene costes y ventajas según el entorno?",
+  "paso": "Cuenta durante un día cuántas veces te interrumpen o cambias de tarea. Imagina ese mismo día con una atención que tarda mucho en cambiar de foco.",
+  "frase": "«Los autistas solo se interesan por sus obsesiones»",
+  "veredicto": "mito",
+  "matiz": "Muchas personas autistas tienen intereses intensos, y el monotropismo los entiende como una forma de concentrar la atención, no como obsesiones vacías. Esos intereses pueden ser fuente de aprendizaje y bienestar, aunque cambiar de foco cueste.",
+  "salto": "",
+  "relacionados": [
+   "autismo",
+   "funciones-ejecutivas",
+   "coherencia-central",
+   "teoria-mente",
+   "audhd"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Murray, D., Lesser, M. y Lawson, W. (2005). Attention, monotropism and the diagnostic criteria for autism. Autism, 9(2), 139-156",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15857859/"
+   },
+   {
+    "titulo": "Monotropism.org (2022). Murray, Lesser y Lawson (2005): texto del artículo",
+    "url": "https://monotropism.org/murray-lesser-lawson/"
+   },
+   {
+    "titulo": "Pace-Tonna, C. et al. (2026). Flow and similar attentional states in autism and ADHD: a scoping review of similarities and differences. Perspectives on Psychological Science",
+    "url": "https://doi.org/10.1177/17456916261470783"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "lenguaje-identidad",
+  "lema": "Lenguaje de identidad primero y de persona primero",
+  "variantes": [
+   "identity-first language",
+   "person-first language",
+   "lenguaje centrado en la persona",
+   "«persona autista» / «persona con autismo»"
+  ],
+  "tipo": "concepto",
+  "familia": "Identidad y comunidad",
+  "anio": 2016,
+  "anio_nota": "se publicó la encuesta británica a 3.470 personas que mostró que ningún término era aceptado por toda la comunidad del autismo (en línea desde 2015)",
+  "obra": "Kenny, L., Hattersley, C., Molins, B., Buckley, C., Povey, C. y Pellicano, E. (2016). «Which terms should be used to describe autism? Perspectives from the UK autism community». Autism, 20(4), 442-462",
+  "figuras": [
+   "Lorcan Kenny",
+   "Elizabeth Pellicano",
+   "Jim Sinclair",
+   "Morton Ann Gernsbacher"
+  ],
+  "definicion": "Dos formas de nombrar una condición: «persona con autismo» pone primero a la persona (lenguaje de persona primero); «persona autista» presenta la condición como parte de la identidad (identidad primero). Las preferencias varían según la condición, el país y quién habla.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "A",
+   "R"
+  ],
+  "controversia": "Muchos adultos autistas prefieren «autista», mientras que muchos profesionales y adultos con TDAH prefieren «persona con…». Se discute si el lenguaje de persona primero reduce el estigma o, al usarse más con los grupos más estigmatizados, lo subraya.",
+  "contexto": "El lenguaje de «persona primero» surgió en el movimiento de las personas con discapacidad, entre los años setenta y ochenta, para dejar de reducir a la gente a su condición: no «los deficientes», sino «personas con discapacidad». Guías de estilo como la de la Asociación Americana de Psicología lo convirtieron en norma. En los noventa, activistas autistas como Jim Sinclair lo cuestionaron: si no es posible separar a la persona del autismo, decir «persona con autismo» lo presenta como un añadido, casi como una enfermedad que se lleva encima. En 2016, una encuesta británica con 3.470 personas mostró el desacuerdo: muchos adultos autistas y familias aceptaban «autista», y casi la mitad de los profesionales prefería «persona con autismo». En 2017, Morton Ann Gernsbacher mostró que la literatura científica usaba más el lenguaje de persona primero precisamente para los niños con las discapacidades más estigmatizadas.",
+  "ejemplos": [
+   "En 2024, España reformó el artículo 49 de la Constitución para sustituir «disminuidos» por «personas con discapacidad».",
+   "Una revista científica pide a los autores que pregunten a los participantes qué término prefieren y lo respeten en el artículo.",
+   "Un orientador escribe «alumna con TEA» en el informe y dice «Lucía es autista» cuando habla con ella, porque así se lo ha pedido.",
+   "En redes, alguien corrige «persona con autismo» por «persona autista»; otra persona, con TDAH, responde que ella prefiere «persona con TDAH».",
+   "Una guía para investigadores propone «intereses focalizados» en lugar de «intereses especiales» y «mayor probabilidad de autismo» en lugar de «riesgo de autismo»."
+  ],
+  "implicaciones": "En España, el lenguaje jurídico ha seguido la vía de «persona primero»: la Convención de la ONU habla de «personas con discapacidad» y, en 2024, la reforma del artículo 49 de la Constitución sustituyó «disminuidos» por esa expresión. En educación se habla de «alumnado con necesidades específicas de apoyo educativo». En la comunidad autista, en cambio, muchas personas reivindican «persona autista». No hay una forma correcta para todo: depende de la condición, del contexto y de cada persona. El TDAH muestra que lo que vale para el autismo no se traslada sin más. Lo más sólido es preguntar y respetar la preferencia de quien habla de sí mismo, sin convertir el debate en un examen de pureza lingüística.",
+  "sabias": "En una encuesta británica de 2026 a 319 adultos con TDAH, el 77 % prefería «persona con TDAH». En autismo, en cambio, muchos adultos prefieren «autista». No hay una regla única que valga para todas las etiquetas.",
+  "piensalo": "¿Quién debería decidir cómo se nombra una condición: quien la vive, quien la diagnostica o quien redacta las leyes?",
+  "paso": "La próxima vez que hables de alguien con un diagnóstico, pregúntale cómo prefiere que lo nombres y usa su respuesta.",
+  "frase": "«Hay que decir siempre “persona con autismo”»",
+  "veredicto": "mito",
+  "matiz": "No hay consenso: en la gran encuesta británica de 2016, muchos adultos autistas aceptaban «autista» y casi la mitad de los profesionales prefería «persona con autismo». La recomendación más sólida es preguntar a cada persona.",
+  "salto": "",
+  "relacionados": [
+   "estigma",
+   "autismo",
+   "derechos-autistas",
+   "autoadscripcion",
+   "convencion-onu",
+   "modelo-social"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Kenny, L. et al. (2016). Which terms should be used to describe autism? Perspectives from the UK autism community. Autism, 20(4), 442-462",
+    "url": "https://doi.org/10.1177/1362361315588200"
+   },
+   {
+    "titulo": "Gernsbacher, M. A. (2017). Editorial Perspective: The use of person-first language in scholarly writing may accentuate stigma. Journal of Child Psychology and Psychiatry, 58(7), 859-861",
+    "url": "https://doi.org/10.1111/jcpp.12706"
+   },
+   {
+    "titulo": "Cortes Generales (2024). Reforma del artículo 49 de la Constitución Española, de 15 de febrero de 2024. BOE núm. 43",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3099"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "estigma",
+  "lema": "Estigma",
+  "variantes": [
+   "estigmatización",
+   "autoestigma",
+   "stigma"
+  ],
+  "tipo": "concepto",
+  "familia": "Identidad y comunidad",
+  "anio": 1963,
+  "anio_nota": "Erving Goffman publicó el libro que convirtió el estigma en un concepto central de la sociología",
+  "obra": "Goffman, E. (1963). Stigma: Notes on the Management of Spoiled Identity. Prentice-Hall",
+  "figuras": [
+   "Erving Goffman",
+   "Bruce Link",
+   "Jo Phelan",
+   "Graham Thornicroft"
+  ],
+  "definicion": "Marca social que desacredita a una persona por pertenecer a un grupo. Según Link y Phelan, aparece cuando se combinan etiquetado, estereotipos, separación entre «nosotros» y «ellos», pérdida de estatus y discriminación, en una situación de poder. Puede interiorizarse como autoestigma.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "A",
+   "R"
+  ],
+  "controversia": "Se discute si los diagnósticos reducen el estigma, al sustituir la culpa por una explicación, o lo aumentan, al marcar a la persona; y si las explicaciones biológicas ayudan. También si la visibilidad en redes lo combate o lo banaliza.",
+  "contexto": "En 1963, en plena transformación social de Estados Unidos, el sociólogo Erving Goffman publicó «Estigma», un libro sobre cómo gestionan su identidad las personas a las que la sociedad desacredita: por una discapacidad, una enfermedad mental, un pasado penal o la pertenencia a una minoría. Goffman distinguió entre quien porta una marca visible y quien puede ocultarla, y describió estrategias para «pasar» por normal. Eran también los años de la crítica a los grandes manicomios y de los movimientos por los derechos civiles. En 2001, Bruce Link y Jo Phelan propusieron una definición más precisa: hay estigma cuando confluyen etiquetado, estereotipo, separación, pérdida de estatus y discriminación, y eso solo ocurre donde existe poder para imponerlos. En 2022, una comisión de la revista The Lancet dedicó un informe de más de cuarenta páginas a acabar con el estigma y la discriminación en salud mental.",
+  "ejemplos": [
+   "Un padre no cuenta en el colegio el diagnóstico de TDAH de su hija por miedo a que la vean como «la conflictiva» de la clase.",
+   "Un adulto autista oculta su diagnóstico en una entrevista de trabajo: decide qué contar, a quién y cuándo, como describía Goffman.",
+   "Un titular llama «epidemia» al aumento de diagnósticos y, sin quererlo, presenta a niños y niñas como una amenaza sanitaria.",
+   "Un instituto invita a una persona con dislexia a contar su experiencia; el contacto directo con quien vive una condición es una vía habitual contra el estigma.",
+   "Una estudiante deja de pedir adaptaciones en la universidad porque ha interiorizado que pedirlas es «aprovecharse»: eso es autoestigma."
+  ],
+  "implicaciones": "El estigma explica por qué una etiqueta puede ser a la vez llave y lastre. Un diagnóstico de TDAH o autismo puede abrir apoyos y sustituir juicios injustos como «vago» o «maleducado», pero también puede atraer prejuicios, bromas y expectativas bajas. En España, la Estrategia de Salud Mental del Sistema Nacional de Salud 2022-2026 incluye la lucha contra el estigma entre sus principios. En la escuela aparece en el acoso y en las expectativas del profesorado; en el trabajo, en la decisión de ocultar o revelar un diagnóstico. Las redes juegan en ambas direcciones: dan visibilidad y comunidad, y a la vez convierten diagnósticos en chistes o insultos. Conviene pesar los dos errores: el estigma de etiquetar y el de no reconocer.",
+  "sabias": "La palabra «estigma» viene de los griegos, que llamaban así a las señales cortadas o quemadas en el cuerpo para indicar que alguien era esclavo, criminal o traidor. Goffman abre su libro de 1963 recordando ese origen.",
+  "piensalo": "¿Puede una misma etiqueta abrir una puerta, como un apoyo, y cerrar otra, como una oportunidad? ¿Qué decide cuál pesa más?",
+  "paso": "Durante una semana, anota cuántas veces oyes palabras diagnósticas usadas como broma o insulto («qué TOC tienes», «estás autista»).",
+  "frase": "«Poner una etiqueta estigmatiza al niño»",
+  "veredicto": "matiz",
+  "matiz": "Puede ocurrir, pero no etiquetar también tiene costes: explicaciones peores, como «vago» o «maleducado», y menos apoyos. El estigma depende de cómo usan la etiqueta las personas y las instituciones, no solo de que exista.",
+  "salto": "",
+  "relacionados": [
+   "efecto-expectativa",
+   "lenguaje-identidad",
+   "camuflaje",
+   "medicalizacion",
+   "modelo-social",
+   "redes-sociales"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Link, B. G. y Phelan, J. C. (2001). Conceptualizing stigma. Annual Review of Sociology, 27, 363-385",
+    "url": "https://montefioreeinstein.org/documents/Original-Article-Conceptulalizing-Stigma.pdf"
+   },
+   {
+    "titulo": "Thornicroft, G. et al. (2022). The Lancet Commission on ending stigma and discrimination in mental health. The Lancet, 400(10361), 1438-1480",
+    "url": "https://doi.org/10.1016/S0140-6736(22)01470-2"
+   },
+   {
+    "titulo": "Ministerio de Sanidad (2021). Sanidad presenta la nueva Estrategia de Salud Mental del Sistema Nacional de Salud para el periodo 2022-2026 (nota de prensa)",
+    "url": "https://www.sanidad.gob.es/gabinete/notasPrensa.do?id=5590"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "nada-sobre-nosotros",
+  "lema": "«Nada sobre nosotros sin nosotros»",
+  "variantes": [
+   "Nothing About Us Without Us",
+   "nada sobre nosotros sin nosotras"
+  ],
+  "tipo": "movimiento",
+  "familia": "Identidad y comunidad",
+  "anio": 1998,
+  "anio_nota": "James Charlton publicó el libro que difundió el lema, que había oído en Sudáfrica en 1993",
+  "obra": "Charlton, J. I. (1998). Nothing About Us Without Us: Disability Oppression and Empowerment. University of California Press",
+  "figuras": [
+   "James Charlton",
+   "Michael Masutha",
+   "William Rowland"
+  ],
+  "definicion": "Lema del movimiento de las personas con discapacidad: ninguna decisión sobre un colectivo debe tomarse sin su participación directa. La Convención de la ONU de 2006 lo recoge al obligar a los Estados a consultar a las personas con discapacidad y a sus organizaciones en las leyes y políticas que les afectan.",
+  "usos": [
+   "I",
+   "E",
+   "A",
+   "R"
+  ],
+  "controversia": "Se discute quién es «nosotros»: qué organizaciones representan a quién, cómo participan las personas con discapacidad intelectual o sin lenguaje oral y qué papel tienen las familias cuando la persona no puede expresar su opinión.",
+  "contexto": "El lema resume décadas de lucha de las personas con discapacidad, que en los años setenta y ochenta se organizaron para decidir sobre su propia vida frente a instituciones, médicos y benefactores. El activista y escritor estadounidense James Charlton cuenta que lo oyó por primera vez en Sudáfrica, en 1993, de boca de Michael Masutha y William Rowland, dirigentes de Disabled People South Africa, que a su vez lo habían escuchado a un activista de Europa del Este en un congreso internacional. En 1998, Charlton lo usó como título de su libro sobre la opresión y el empoderamiento de las personas con discapacidad. La ONU lo eligió como lema del Día Internacional de 2004, y la Convención sobre los derechos de las personas con discapacidad, aprobada en 2006, convirtió la idea en obligación jurídica. El movimiento autista lo adoptó como propio.",
+  "ejemplos": [
+   "La ONU eligió «Nada sobre nosotros sin nosotros» como lema del Día Internacional de las Personas con Discapacidad de 2004.",
+   "Un equipo que diseña un estudio sobre empleo y autismo incluye a investigadores autistas desde el planteamiento, no solo como participantes.",
+   "Un ayuntamiento redacta un plan de accesibilidad y convoca a asociaciones de personas con discapacidad antes de aprobarlo, como pide la Convención.",
+   "Un instituto crea una comisión de inclusión en la que participa alumnado con necesidades de apoyo, no solo profesorado y familias.",
+   "La organización estadounidense Autistic Self Advocacy Network cierra la declaración de su misión con el lema «Nothing About Us, Without Us!»."
+  ],
+  "implicaciones": "En España, la Convención de la ONU se publicó en el BOE en 2008 y obliga a contar con las personas con discapacidad y sus organizaciones en las leyes y planes que les afectan. El I Plan de Acción de la Estrategia Española en Trastorno del Espectro del Autismo (2023-2027) se presenta como fruto de un proceso participativo. Pero el lema plantea preguntas difíciles en neurodiversidad: ¿quién habla por las personas autistas que no usan lenguaje oral?, ¿qué peso tienen las familias?, ¿representan las voces de las redes a todo el colectivo? El proyecto advierte que la visibilidad digital no mide representatividad. Cumplir el lema exige participación real y adaptada, no una consulta simbólica al final del proceso.",
+  "sabias": "James Charlton cuenta que oyó el lema por primera vez en Sudáfrica en 1993, de boca de dos líderes de Disabled People South Africa, que a su vez lo habían escuchado a un activista de Europa del Este en un congreso internacional.",
+  "piensalo": "En una decisión que afecta a personas que no pueden expresarse con palabras, ¿cómo se puede cumplir «nada sobre nosotros sin nosotros»?",
+  "paso": "Busca un plan o una norma de tu comunidad autónoma sobre discapacidad o autismo y comprueba si explica qué organizaciones participaron en redactarlo.",
+  "frase": "«Las familias ya hablan por las personas con discapacidad»",
+  "veredicto": "matiz",
+  "matiz": "Las familias aportan una voz imprescindible, sobre todo en la infancia o cuando hay grandes necesidades de apoyo, pero la Convención de la ONU exige consultar también a las propias personas con discapacidad y a sus organizaciones.",
+  "salto": "",
+  "relacionados": [
+   "convencion-onu",
+   "derechos-autistas",
+   "movimiento-neurodiversidad",
+   "modelo-social",
+   "estrategia-tea"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Charlton, J. (1998). Nothing About Us Without Us: Disability Oppression and Empowerment. University of California Press (ficha de la biblioteca del CNLSE)",
+    "url": "https://cnlse.es/es/recursos/biblioteca/nothing-about-us-without-us-disability-oppression-and-empowerment"
+   },
+   {
+    "titulo": "Naciones Unidas (2006). Convención sobre los derechos de las personas con discapacidad, artículo 4: obligaciones generales",
+    "url": "https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities/article-4-general-obligations.html"
+   },
+   {
+    "titulo": "Naciones Unidas, DESA (2004). International Day of Disabled Persons 2004: «Nothing About Us Without Us»",
+    "url": "https://social.desa.un.org/issues/disability/events/international-day-of-disabled-persons-2004"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ }
+]

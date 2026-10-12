@@ -114,7 +114,7 @@ export function render(root, ctx, parts, q) {
         { selector: '.oculto', style: { display: 'none' } },
         { selector: '.tenue', style: { opacity: 0.1 } },
         { selector: 'node.foco', style: { 'border-color': c.ink, 'border-width': 3, 'font-weight': 700, 'z-index': 10, opacity: 1, 'text-opacity': 1 } },
-        { selector: 'node.vecino', style: { 'font-weight': 600, 'z-index': 9, 'min-zoomed-font-size': 0, opacity: 1, 'text-opacity': 1 } },
+        { selector: 'node.vecino', style: { 'font-weight': 600, 'z-index': 9, 'min-zoomed-font-size': 0 } },
         { selector: 'edge.vecino', style: { 'line-color': c.ink, width: 2.2, opacity: 1, 'z-index': 8 } },
       ],
     });
