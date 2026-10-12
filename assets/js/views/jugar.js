@@ -559,13 +559,60 @@ function juegoUsos(el, ctx, api) {
 const VCOLOR = { mito: 'var(--danger)', matiz: 'var(--v-E)', cierto: 'var(--ok)' };
 const sinComillas = s => String(s || '').trim().replace(/^[«"“]+|[»"”]+$/g, '').trim();
 
+// Frases ciertas y bien establecidas, para que el juego no sea predecible (en las fichas abundan los mitos y los matices).
+// «ficha» enlaza una ficha relacionada si existe.
+const CIERTAS = [
+  { frase: 'El TDAH puede continuar en la edad adulta.', ficha: 'tdah-adulto',
+    matiz: 'En una parte importante de quienes lo tuvieron de niños, sigue en la adultez, aunque suele cambiar de forma: menos movimiento y más inquietud interna, desorganización o despistes.' },
+  { frase: 'En una misma clase, los alumnos más pequeños de edad reciben más diagnósticos de TDAH.', ficha: 'efecto-edad-relativa',
+    matiz: 'Se ha observado en muchos países, aunque no en todos. Comparar a un niño con compañeros casi un año mayores puede hacer que su inmadurez parezca un trastorno. No significa que todos esos diagnósticos estén mal, pero obliga a tener en cuenta la edad dentro del curso.' },
+  { frase: 'Las vacunas no causan autismo.', ficha: 'autismo',
+    matiz: 'Estudios con muchísimos niños de varios países no han encontrado relación. El artículo de 1998 que encendió la alarma fue retirado por la revista y su autor perdió la licencia para ejercer.' },
+  { frase: 'La dislexia no depende de la inteligencia.', ficha: 'dislexia',
+    matiz: 'Aparece en personas con cualquier nivel intelectual. Es una dificultad específica para descifrar las palabras y leer con fluidez, no una falta de capacidad general.' },
+  { frase: 'Se diagnostica más autismo en chicos que en chicas, y parte de la diferencia puede deberse a que en ellas se detecta peor.', ficha: 'brecha-genero',
+    matiz: 'Los estudios que buscan casos sin diagnosticar encuentran una diferencia menor que la de los diagnósticos registrados. Los criterios y las expectativas se construyeron mirando sobre todo a chicos.' },
+  { frase: 'Un mismo niño puede tener altas capacidades y TDAH a la vez.', ficha: 'doble-excepcionalidad',
+    matiz: 'Es lo que se llama doble excepcionalidad. Una cosa puede tapar a la otra: la capacidad compensa las dificultades, o las dificultades esconden la capacidad.' },
+  { frase: 'Un diagnóstico no dice por sí solo qué apoyo necesita una persona en clase.', ficha: 'neae',
+    matiz: 'Dos alumnos con la misma etiqueta pueden necesitar apoyos muy distintos. Para educar hay que describir la necesidad concreta y revisar si el apoyo funciona.' },
+  { frase: 'El autismo y el TDAH pueden darse a la vez en la misma persona.', ficha: 'audhd',
+    matiz: 'Desde el DSM-5, de 2013, se pueden diagnosticar los dos juntos; antes, uno excluía al otro. Coexisten con bastante frecuencia.' },
+  { frase: 'Tener un rasgo, como despistarse a menudo, no basta para tener un diagnóstico.', ficha: 'umbral',
+    matiz: 'Los criterios piden varios síntomas, mantenidos en el tiempo, en más de un contexto y con un impacto real en la vida. Un rasgo suelto es parte de la variación humana corriente.' },
+  { frase: 'Hoy no hay una prueba de imagen cerebral que sirva para diagnosticar el TDAH o el autismo en una persona concreta.', ficha: 'neuroimagen',
+    matiz: 'Las diferencias que encuentran los estudios son promedios de grupo, pequeñas y con mucho solapamiento. El diagnóstico sigue siendo clínico: historia, observación y entrevistas.' },
+  { frase: 'Que algo sea muy heredable no significa que el entorno no importe.', ficha: 'heredabilidad',
+    matiz: 'La heredabilidad mide qué parte de la variación en una población concreta se asocia a diferencias genéticas. No dice cuánto pesa la genética en cada persona ni que el entorno no pueda cambiar las cosas.' },
+  { frase: 'El síndrome de Asperger ya no figura como diagnóstico aparte en los manuales actuales.', ficha: 'sindrome-asperger',
+    matiz: 'El DSM-5, en 2013, lo integró en el trastorno del espectro autista, y la CIE-11 hizo lo mismo. Mucha gente sigue usando la palabra para reconocerse.' },
+];
+
 function juegoMito(el, ctx, api) {
-  const pool = ctx.terms.filter(t => ctx.juego(t) && String(t.frase || '').trim() && VEREDICTOS[t.veredicto]);
-  if (!pool.length) return vacio(el, 'Todavía no hay fichas con una frase que se oye y su veredicto.');
-  const RONDAS = Math.min(10, pool.length);
   const OPS = Object.keys(VEREDICTOS);
+  const deFichas = ctx.terms.filter(t => ctx.juego(t) && String(t.frase || '').trim() && VEREDICTOS[t.veredicto])
+    .map(t => ({ frase: t.frase, veredicto: t.veredicto, matiz: t.matiz, t }));
+  const banco = CIERTAS.map(c => ({ frase: c.frase, veredicto: 'cierto', matiz: c.matiz, t: ctx.byId.get(c.ficha) || null }));
+  const todas = [...deFichas, ...banco];
+  const distintas = new Set(todas.map(x => norm(sinComillas(x.frase)))).size;
+  if (!distintas) return vacio(el, 'Todavía no hay fichas con una frase que se oye y su veredicto.');
+  const RONDAS = Math.min(10, distintas);
+  const META = { mito: 4, matiz: 3, cierto: 3 };
   let rondas, i, puntos, fallos;
-  const nueva = () => { rondas = shuffle(pool).slice(0, RONDAS); i = 0; puntos = 0; fallos = []; pintar(); };
+  // Unas cuatro de mito, tres de matiz y tres de cierto; si falta de alguna, se rellena con las otras
+  function repartir() {
+    const grupos = Object.fromEntries(OPS.map(v => [v, shuffle(todas.filter(x => x.veredicto === v))]));
+    const vistas = new Set(), out = [];
+    const tomar = v => {
+      while (grupos[v].length) { const x = grupos[v].shift(), k = norm(sinComillas(x.frase)); if (!vistas.has(k)) { vistas.add(k); out.push(x); return true; } }
+      return false;
+    };
+    for (const v of OPS) for (let n = 0; n < META[v] && out.length < RONDAS; n++) tomar(v);
+    while (out.length < RONDAS && OPS.some(v => grupos[v].length)) for (const v of shuffle(OPS)) if (out.length < RONDAS) tomar(v);
+    return shuffle(out);
+  }
+  const nueva = () => { rondas = repartir(); i = 0; puntos = 0; fallos = []; pintar(); };
+  const enlace = x => x.t ? h('a', { href: ficha(x.t) }, x.t.lema) : null;
   function pintar() {
     if (i >= rondas.length) {
       const f = sinComillas((fallos.length ? fallos[0].frase : shuffle(rondas)[0].frase));
@@ -573,31 +620,31 @@ function juegoMito(el, ctx, api) {
         texto: `La próxima vez que oigas «${f}», no discutas de entrada: pregunta «¿para qué uso lo dices?» y escucha la respuesta.`,
         sugerencia: 'preguntar «¿para qué uso?» la próxima vez que oiga una frase así' } });
     }
-    const t = rondas[i];
+    const x = rondas[i];
     const fb = h('div', { class: 'jg-fb', 'aria-live': 'polite' });
     const sig = h('div', { class: 'btns jg-sig' });
     const botones = OPS.map((v, k) => h('button', { class: 'vbtn jg-ver', type: 'button', style: { '--c': VCOLOR[v] }, onclick: () => elegir(v) },
       h('span', { class: 'jg-letra', 'aria-hidden': 'true' }, VEREDICTOS[v].ico), h('span', null, h('b', null, VEREDICTOS[v].nombre), h('small', null, VEREDICTOS[v].ayuda))));
     function elegir(v) {
       if (botones[0].disabled) return;
-      const ok = v === t.veredicto, cerca = !ok && (v === 'matiz' || t.veredicto === 'matiz');
+      const ok = v === x.veredicto, cerca = !ok && (v === 'matiz' || x.veredicto === 'matiz');
       if (ok) puntos++;
-      else fallos.push({ frase: t.frase, li: fallo(h('span', { class: 'jg-frase-mini' }, `«${sinComillas(t.frase)}»`), ' · ', marcaVeredicto(t.veredicto), ` (elegiste ${VEREDICTOS[v].nombre.toLowerCase()}) · `, h('a', { href: ficha(t) }, t.lema)) });
-      botones.forEach((b, j) => { b.disabled = true; if (OPS[j] === t.veredicto) b.classList.add('ok'); });
+      else fallos.push({ frase: x.frase, li: fallo(h('span', { class: 'jg-frase-mini' }, `«${sinComillas(x.frase)}»`), ' · ', marcaVeredicto(x.veredicto), ` (elegiste ${VEREDICTOS[v].nombre.toLowerCase()})`, x.t ? [' · ', enlace(x)] : null) });
+      botones.forEach((b, j) => { b.disabled = true; if (OPS[j] === x.veredicto) b.classList.add('ok'); });
       if (!ok) botones[OPS.indexOf(v)].classList.add('ko');
       fb.replaceChildren(h('div', { class: `feedback ${ok ? 'ok' : 'ko'}` },
         h('b', { class: 't' }, ok ? '¡Bien visto!' : cerca ? 'Cerca, pero no.' : 'No esta vez.'),
-        h('p', { style: { margin: '0 0 8px' } }, marcaVeredicto(t.veredicto), ' ', VEREDICTOS[t.veredicto].ayuda),
-        t.matiz ? h('p', { style: { margin: '0 0 6px' } }, t.matiz) : null,
-        h('p', { class: 'small', style: { margin: 0 } }, h('a', { href: ficha(t) }, `Ficha: ${t.lema}`))));
+        h('p', { style: { margin: '0 0 8px' } }, marcaVeredicto(x.veredicto), ' ', VEREDICTOS[x.veredicto].ayuda),
+        x.matiz ? h('p', { style: { margin: '0 0 6px' } }, x.matiz) : null,
+        x.t ? h('p', { class: 'small', style: { margin: 0 } }, 'Ficha: ', enlace(x)) : null));
       sig.replaceChildren(siguienteBtn(i < rondas.length - 1 ? 'Siguiente →' : 'Ver resultado', () => { i++; pintar(); }));
       sig.firstChild.focus({ preventScroll: true });
       aLaVista(sig, 'end');
     }
     api.teclas(e => { const n = parseInt(e.key, 10); if (n >= 1 && n <= 3 && !botones[0].disabled) { e.preventDefault(); elegir(OPS[n - 1]); } });
-    const clue = h('blockquote', { class: 'clue jg-clue jg-frase', tabindex: '-1' }, `«${sinComillas(t.frase)}»`);
+    const clue = h('blockquote', { class: 'clue jg-clue jg-frase', tabindex: '-1' }, `«${sinComillas(x.frase)}»`);
     el.replaceChildren(marcador(i, rondas.length, puntos),
-      h('p', { class: 'jg-pregunta' }, 'Se oye a menudo', h('span', { class: 'small muted' }, ` · sobre ${t.lema}`)),
+      h('p', { class: 'jg-pregunta' }, 'Se oye a menudo', x.t ? h('span', { class: 'small muted' }, ` · sobre ${x.t.lema}`) : null),
       clue,
       h('p', { class: 'jg-pregunta', id: 'jg-q' }, '¿Qué dice la evidencia?', h('span', { class: 'small muted jg-atajo' }, ' También con las teclas 1, 2 y 3.')),
       h('div', { class: 'jg-vers', role: 'group', 'aria-labelledby': 'jg-q' }, botones), fb, sig);

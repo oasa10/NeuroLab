@@ -1,0 +1,1099 @@
+[
+ {
+  "id": "alexander-crichton",
+  "lema": "Alexander Crichton",
+  "variantes": [
+   "Sir Alexander Crichton"
+  ],
+  "tipo": "persona",
+  "familia": "Neurodesarrollo",
+  "anio": 1798,
+  "anio_nota": "Publicó su tratado sobre el trastorno mental, con un capítulo dedicado a la atención y sus enfermedades.",
+  "obra": "An Inquiry into the Nature and Origin of Mental Derangement (1798), libro II, capítulo «On Attention and its Diseases»",
+  "figuras": [
+   "Alexander Crichton"
+  ],
+  "definicion": "Médico escocés (1763–1856) que en 1798 describió una «incapacidad de atender con la constancia necesaria a un mismo objeto», a veces presente desde la infancia. Hoy se le cita como antecedente lejano de lo que llamamos TDAH, sobre todo de su presentación con predominio de inatención.",
+  "usos": [
+   "I"
+  ],
+  "controversia": "Se discute si es legítimo leer su descripción como TDAH: no menciona hiperactividad y sus pacientes podían tener otras causas de desatención, como epilepsia, lesiones en la cabeza o problemas metabólicos.",
+  "contexto": "Crichton nació en Edimburgo en 1763, se doctoró en Leiden en 1785 y recorrió hospitales de París, Stuttgart y Viena, donde vio muchos casos de locura. A finales del siglo XVIII era todavía poco habitual estudiar los trastornos mentales desde la fisiología y la medicina, y él quiso ofrecer un sistema completo de la mente sana y enferma. En su tratado de 1798 definió la atención, aceptó que su intensidad varía entre personas y momentos, y separó la distracción normal de una alteración «mórbida». Describió una forma en la que la atención salta sin cesar de una impresión a otra: podía nacer con la persona, se notaba muy pronto, dificultaba la educación y solía disminuir con la edad. Su texto quedó en segundo plano hasta que la historia reciente del TDAH lo recuperó como precedente. Importa porque muestra que la dificultad de atención se observaba mucho antes de los manuales, aunque con otras palabras y otras teorías.",
+  "ejemplos": [
+   "Muchas revisiones sobre la historia del TDAH empiezan con Crichton (1798) para mostrar que la dificultad de atención se describía mucho antes de que existiera el diagnóstico.",
+   "En Psicología de bachillerato, comparar su descripción con los criterios actuales de inatención ayuda a ver qué coincide y qué falta, como la hiperactividad.",
+   "En una charla para familias, su idea de que la atención varía entre personas sirve para explicar que el diagnóstico depende del grado y del impacto, no de distraerse a veces.",
+   "En redes circula el argumento «el TDAH existe desde 1798»; los historiadores matizan que Crichton describía un fenómeno, no la categoría diagnóstica actual.",
+   "Su observación de que la alteración «disminuye con la edad» ilustra una creencia que fue común hasta los años noventa: que la inatención infantil desaparece al crecer."
+  ],
+  "implicaciones": "Crichton ayuda a desmontar dos atajos opuestos. El primero: «el TDAH es un invento reciente». Hace más de dos siglos ya se describían personas cuya atención saltaba de estímulo en estímulo y les dificultaba aprender. El segundo: «Crichton diagnosticó TDAH». Tampoco: describía un fenómeno con su vocabulario, sin criterios ni hiperactividad, y no sabemos qué tenían sus pacientes. Para el uso de investigar, su texto es un documento histórico; para diagnosticar hoy, no sirve. En España, donde el aumento de diagnósticos de TDAH genera mucho debate, recordar a Crichton invita a separar dos preguntas: si la dificultad existe (parece que sí, y desde hace mucho) y si la estamos identificando bien ahora, algo que exige datos actuales y no historia.",
+  "sabias": "Crichton escribió en 1798 que esa inquietud de la atención podía «nacer con la persona», notarse muy pronto y, por lo general, disminuir con la edad: una idea que siguió siendo común hasta los años noventa.",
+  "piensalo": "Si alguien en 1798 describe algo parecido a lo que hoy llamamos TDAH, ¿demuestra que es lo mismo o solo que la dificultad se parece?",
+  "paso": "Lee un criterio de inatención del DSM-5 y compáralo con la frase de Crichton sobre la «incapacidad de atender con constancia». Anota qué coincide y qué falta.",
+  "frase": "«El TDAH es un invento de nuestra época»",
+  "veredicto": "mito",
+  "matiz": "Hay descripciones parecidas desde 1798 (Crichton) y 1902 (Still). Lo reciente es la categoría con criterios operativos, desde el DSM-III de 1980. Que el nombre sea moderno no hace moderna la dificultad, ni garantiza que todo diagnóstico actual esté bien hecho.",
+  "salto": "del pasado al presente: leer una descripción antigua como si fuera un diagnóstico actual",
+  "relacionados": [
+   "tdah",
+   "presentaciones-tdah",
+   "george-still",
+   "funciones-ejecutivas",
+   "tdah-adulto"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Lange, K. W., Reichl, S., Lange, K. M., Tucha, L. y Tucha, O. (2010). The history of attention deficit hyperactivity disorder. ADHD Attention Deficit and Hyperactivity Disorders, 2(4), 241–255",
+    "url": "https://doi.org/10.1007/s12402-010-0045-8"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "george-still",
+  "lema": "George Frederic Still",
+  "variantes": [
+   "Sir George Frederic Still",
+   "G. F. Still"
+  ],
+  "tipo": "persona",
+  "familia": "Neurodesarrollo",
+  "anio": 1902,
+  "anio_nota": "Pronunció ante el Royal College of Physicians de Londres las Goulstonian Lectures sobre condiciones psíquicas anormales en la infancia.",
+  "obra": "Goulstonian Lectures «Some Abnormal Psychical Conditions in Children» (Royal College of Physicians, Londres, 1902)",
+  "figuras": [
+   "George Frederic Still"
+  ],
+  "definicion": "Pediatra británico (1868–1941), primer catedrático de pediatría de Inglaterra. En 1902 describió a niños con un «defecto anormal del control moral» sin discapacidad intelectual, y muchos autores toman esas conferencias como punto de partida científico de la historia del TDAH.",
+  "usos": [
+   "I"
+  ],
+  "controversia": "Su «defecto del control moral» mezclaba impulsividad e inatención con crueldad, robos y agresividad: hoy se parece más a varios problemas de conducta juntos que al TDAH. Se discute cuánto TDAH había realmente en sus casos.",
+  "contexto": "Still nació en Londres en 1868 y se convirtió en una figura central de la pediatría británica: describió una artritis crónica infantil que hoy lleva su nombre y en 1906 fue el primer catedrático de pediatría de Inglaterra, en el King's College Hospital. A comienzos del siglo XX la medicina buscaba bases físicas para la conducta, y se pensaba que también la moral podía fallar por causas cerebrales. En sus conferencias de 1902 definió el control moral como «el control de la acción conforme a la idea del bien de todos». Separó a niños de inteligencia normal que, sin enfermedad física evidente, repetían la misma falta pocas horas después de un castigo que les había afectado. De sus 20 casos, 15 eran niños y 5 niñas, y varios mostraban, según padres y maestros, una incapacidad anormal para mantener la atención. Su lenguaje moralizante envejeció mal, pero su idea de un problema de autorregulación sin déficit intelectual marcó la investigación posterior.",
+  "ejemplos": [
+   "Casi todas las revisiones históricas del TDAH citan las conferencias de Still de 1902 como punto de partida, con la advertencia de que su concepto no equivale al actual.",
+   "En formación docente, sus casos sirven para discutir cómo cambió la mirada: del «niño moralmente defectuoso» al niño con dificultades de autorregulación que necesita apoyos.",
+   "En una charla para familias, su observación de niños que repetían la falta tras el castigo ilustra que el castigo, por sí solo, no explicaba ni resolvía esas conductas.",
+   "En debates sobre la proporción de chicos y chicas con TDAH se recuerda que Still ya contó 15 niños y 5 niñas, y sospechó que no era casualidad.",
+   "Divulgadores en redes usan a Still para responder al «antes no había TDAH»; conviene añadir que sus casos incluían crueldad y robos, hoy ajenos al TDAH."
+  ],
+  "implicaciones": "Still es un buen ejemplo de cómo una etiqueta arrastra la moral de su época. Hablar de «defecto del control moral» situaba el problema en el carácter del niño; hoy hablamos de autorregulación y funciones ejecutivas, y el foco pasa a qué apoyos necesita. En la escuela sigue viva la tentación de leer la impulsividad como mala educación o falta de voluntad. Still sugiere otra lectura, pero también deja una advertencia: meter en el mismo saco conductas muy distintas produce categorías confusas. Lo que hoy separamos en TDAH, trastorno negativista desafiante o trastorno de conducta, él lo juntaba. Para investigar, la lección es pedir categorías finas; para educar, recordar que una etiqueta explica poco si no se traduce en ajustes concretos en el aula.",
+  "sabias": "Además de su papel en la historia del TDAH, Still describió una forma de artritis crónica infantil que hoy se llama «enfermedad de Still», y en 1906 fue el primer catedrático de pediatría de Inglaterra.",
+  "piensalo": "¿Qué cambia en cómo tratamos a un niño si decimos que le falla el «control moral» o que le cuesta autorregularse?",
+  "paso": "Pregunta a alguien mayor cómo se llamaba en su escuela al alumno que no paraba quieto. Compara esas palabras con las que se usan hoy.",
+  "frase": "«Eso antes se arreglaba con disciplina»",
+  "veredicto": "mito",
+  "matiz": "Ya en 1902 Still observó niños que repetían la conducta horas después de ser castigados. La investigación actual sobre TDAH apunta a dificultades de autorregulación, no a simple falta de disciplina, aunque el entorno y la crianza influyen en cómo se expresan.",
+  "salto": "del pasado al presente: leer una descripción antigua como si fuera un diagnóstico actual",
+  "relacionados": [
+   "tdah",
+   "alexander-crichton",
+   "funciones-ejecutivas",
+   "brecha-genero",
+   "russell-barkley"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Lange, K. W., Reichl, S., Lange, K. M., Tucha, L. y Tucha, O. (2010). The history of attention deficit hyperactivity disorder. ADHD Attention Deficit and Hyperactivity Disorders, 2(4), 241–255",
+    "url": "https://doi.org/10.1007/s12402-010-0045-8"
+   },
+   {
+    "titulo": "The Hospital (3 de mayo de 1902). Naughty Children [reseña de las Goulstonian Lectures de Still]. The Hospital, 32(814), 75–76 (PubMed Central)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5268674/"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "eugen-bleuler",
+  "lema": "Eugen Bleuler",
+  "variantes": [
+   "Paul Eugen Bleuler"
+  ],
+  "tipo": "persona",
+  "familia": "Neurodesarrollo",
+  "anio": 1911,
+  "anio_nota": "Publicó el libro en el que presenta la esquizofrenia como un grupo de trastornos y usa «autismo» como uno de sus síntomas.",
+  "obra": "Dementia praecox oder Gruppe der Schizophrenien (1911)",
+  "figuras": [
+   "Eugen Bleuler",
+   "Emil Kraepelin",
+   "Carl Gustav Jung"
+  ],
+  "definicion": "Psiquiatra suizo (1857–1939) que propuso la palabra «esquizofrenia» en 1908 e introdujo «autismo» para nombrar uno de sus síntomas: el desapego de la realidad y el predominio de la vida interior. Décadas después, Kanner y Asperger tomaron su término para describir otra cosa.",
+  "usos": [
+   "I",
+   "D"
+  ],
+  "controversia": "Sin controversia relevante sobre su autoría. Sí conviene recordar que el sentido original de «autismo», un síntoma de la esquizofrenia, es distinto del actual, y que esa herencia alimentó durante décadas la confusión entre autismo y esquizofrenia infantil.",
+  "contexto": "Bleuler dirigió de 1898 a 1927 el hospital psiquiátrico Burghölzli de Zúrich, por donde pasaron Carl Gustav Jung y Hermann Rorschach. Era un momento de debate sobre la «demencia precoz» de Emil Kraepelin, entendida como un deterioro temprano y sin vuelta atrás. Bleuler, uno de los primeros psiquiatras que apoyó las ideas de Freud, propuso en 1908 otro nombre, esquizofrenia. En su libro de 1911 defendió que no se trataba de una sola enfermedad sino de un grupo, que no siempre acababa en demencia y no siempre era incurable. Entre sus síntomas fundamentales incluyó el «autismo», del griego autos, «uno mismo»: el desapego de la realidad junto con el predominio de la vida interior. Unas tres décadas después, Leo Kanner y Hans Asperger reutilizaron esa palabra para describir a niños con un perfil muy distinto. Bleuler importa porque muestra que las palabras viajan entre categorías y cambian de significado por el camino.",
+  "ejemplos": [
+   "El Diccionario de la lengua española aún recoge una primera acepción de «autismo» cercana a Bleuler: «repliegue patológico de la personalidad sobre sí misma».",
+   "Cuando alguien llama «autista» a un político que no escucha, usa sin saberlo el sentido de Bleuler, aislarse del mundo, y no la condición del neurodesarrollo.",
+   "En las clases de historia de la psiquiatría, Bleuler sirve para explicar por qué el autismo y la esquizofrenia infantil se confundieron durante décadas.",
+   "Su idea de la esquizofrenia como «grupo» de trastornos resuena en debates actuales sobre si categorías amplias, como el espectro autista, agrupan realidades distintas.",
+   "En redes, ante el tópico «autismo es encerrarse en uno mismo», su etimología explica de dónde sale el error y por qué ya no describe a las personas autistas."
+  ],
+  "implicaciones": "La historia de Bleuler enseña que el significado de una palabra no está fijado por su etimología. «Autismo» nació como síntoma de una psicosis en adultos; hoy designa una condición del neurodesarrollo que empieza en la infancia y que muchas personas viven como parte de su identidad. Cuando se usa «autista» como insulto para alguien que «va a lo suyo», se arrastra el sentido antiguo y se refuerza un estigma. Su idea de un «grupo de esquizofrenias» también resuena hoy: igual que él dudaba de que la demencia precoz fuera una sola enfermedad, investigadoras como Uta Frith se preguntan si el espectro autista actual agrupa realidades distintas. Una pregunta útil ante cualquier etiqueta: ¿qué significaba cuando se acuñó y qué significa ahora?",
+  "sabias": "En el Burghölzli que dirigía Bleuler se formaron Carl Gustav Jung y Hermann Rorschach, el de las famosas manchas de tinta. La palabra «esquizofrenia» la presentó en una conferencia en Berlín en abril de 1908.",
+  "piensalo": "Si una palabra cambia por completo de significado en un siglo, ¿qué parte de lo que creemos saber sobre ella es solo herencia del nombre?",
+  "paso": "Busca «autismo» en el diccionario de la RAE y compara sus dos acepciones. ¿Cuál se parece más a Bleuler y cuál a la clínica actual?",
+  "frase": "«Autista es el que vive encerrado en su mundo»",
+  "veredicto": "mito",
+  "matiz": "Ese era el sentido de Bleuler en 1911, referido a un síntoma de la esquizofrenia. El autismo actual es una condición del neurodesarrollo con diferencias en comunicación social, intereses y sensorialidad; muchas personas autistas buscan relacionarse, aunque a su manera.",
+  "salto": "de la etiqueta al mecanismo: creer que el nombre describe lo que le pasa a la persona",
+  "relacionados": [
+   "autismo",
+   "leo-kanner",
+   "hans-asperger",
+   "deriva-conceptual",
+   "estigma",
+   "uta-frith"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Encyclopaedia Britannica. Eugen Bleuler",
+    "url": "https://www.britannica.com/biography/Eugen-Bleuler"
+   },
+   {
+    "titulo": "Herman, E. (2019). Eugen Bleuler, Dementia Praecox or the Group of Schizophrenias, 1911. The Autism History Project, University of Oregon",
+    "url": "https://blogs.uoregon.edu/autismhistoryproject/?p=676"
+   },
+   {
+    "titulo": "American Journal of Psychiatry (2008). Paul Eugen Bleuler and the Birth of Schizophrenia (1908)",
+    "url": "https://ajp.psychiatryonline.org/doi/10.1176/appi.ajp.2008.08050714"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "grunya-sukhareva",
+  "lema": "Grunya Sukhareva",
+  "variantes": [
+   "Grunya Efimovna Sukhareva",
+   "Груня Ефимовна Сухарева",
+   "Ssucharewa"
+  ],
+  "tipo": "persona",
+  "familia": "Neurodesarrollo",
+  "anio": 1925,
+  "anio_nota": "Publicó en ruso la descripción de seis niños con «psicopatía esquizoide»; la versión alemana apareció en 1926.",
+  "obra": "Estudio sobre las psicopatías esquizoides en la infancia (en ruso, 1925; en alemán, «Die schizoiden Psychopathien im Kindesalter», Monatsschrift für Psychiatrie und Neurologie, 1926)",
+  "figuras": [
+   "Grunya Sukhareva",
+   "Sula Wolff",
+   "Irina Manouilenko"
+  ],
+  "definicion": "Psiquiatra infantil soviética nacida en Kiev (1891–1981). En 1925 describió con gran precisión a seis niños con rasgos que hoy encajarían en el espectro autista, casi dos décadas antes que Kanner y Asperger. Su trabajo quedó al margen de la historia oficial durante décadas.",
+  "usos": [
+   "I"
+  ],
+  "controversia": "Se debate por qué fue olvidada (idioma, ser mujer, judía y soviética) y si Kanner o Asperger la conocían. Kanner citó en 1949 un artículo suyo, pero no hay pruebas de que se inspirara en ella en 1943.",
+  "contexto": "Sukhareva se licenció en Medicina en Kiev en 1915 y en 1921 fundó en Moscú una escuela terapéutica para niños con problemas psiquiátricos. Era la Unión Soviética de los años veinte, con una psiquiatría infantil muy activa que buscaba describir y clasificar a los niños que no encajaban. Citando, como haría Asperger, la obra de Kretschmer sobre la personalidad esquizoide, en 1925 describió a seis niños cuyos rasgos sociales, comunicativos y de conducta encajan, según análisis posteriores, con los criterios actuales de autismo. Destacó además las alteraciones sensoriales, un rasgo que el DSM-5 incorporó en 2013. Primero habló de «psicopatía esquizoide» y después prefirió «psicopatía autista». En 1927 publicó un segundo estudio con cinco niñas. Entre 1938 y 1969 dirigió la clínica infantil del Instituto de Psiquiatría de la URSS, pero su obra apenas circuló fuera del ruso y el alemán. Sula Wolff la tradujo al inglés en 1996.",
+  "ejemplos": [
+   "Cada vez más textos sobre la historia del autismo empiezan por Sukhareva (1925) y no por Kanner (1943), corrigiendo la genealogía clásica de la categoría.",
+   "En debates sobre la detección del autismo en chicas se recuerda que en 1927 Sukhareva publicó un estudio dedicado a cinco niñas.",
+   "Divulgadoras en redes usan su caso para hablar de cómo el idioma, el género y la geopolítica deciden quién entra en la historia de la ciencia.",
+   "En formación clínica, comparar su descripción con el DSM-5 muestra que rasgos como las alteraciones sensoriales se observaban mucho antes de entrar en los criterios.",
+   "En un aula de secundaria, su biografía sirve para trabajar cómo las aportaciones de muchas científicas quedaron ignoradas o se atribuyeron a otros."
+  ],
+  "implicaciones": "Sukhareva obliga a revisar quién cuenta la historia de una etiqueta. Si el relato empieza en Kanner y Asperger, el autismo parece una invención de dos hombres en los años cuarenta; si empieza en Moscú en 1925, se ve que varias personas, en lugares distintos, observaban patrones parecidos. Eso refuerza la idea de que hay algo estable que describir, sin zanjar qué es ni dónde están sus límites. También interesa para el debate actual sobre la brecha de género: describir niñas en 1927 no prueba que el autismo femenino estuviera infradiagnosticado, pero sí que no es un hallazgo de las redes sociales. En España, incluir a Sukhareva en materiales escolares y universitarios es una forma sencilla de enseñar que la ciencia también tiene sesgos de idioma y de género.",
+  "sabias": "Un año después de describir a seis niños, Sukhareva publicó en 1927 un estudio dedicado a cinco niñas con un cuadro parecido. Esa segunda parte no se tradujo al inglés hasta 2020.",
+  "piensalo": "¿Cuántas ideas científicas conocemos por quien las publicó en inglés y no por quien las describió primero?",
+  "paso": "Abre un libro de texto o una web sobre autismo y busca a quién presenta como su «descubridor». Comprueba si menciona a Sukhareva.",
+  "frase": "«El autismo lo descubrieron Kanner y Asperger»",
+  "veredicto": "mito",
+  "matiz": "Kanner (1943) y Asperger (1944) difundieron sus descripciones, pero Sukhareva publicó en 1925 un retrato muy parecido. Además, la palabra «autismo» procede de Bleuler (1911). La historia tiene más protagonistas de los que suelen citarse.",
+  "salto": "",
+  "relacionados": [
+   "autismo",
+   "leo-kanner",
+   "hans-asperger",
+   "brecha-genero",
+   "eugen-bleuler"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Manouilenko, I. y Bejerot, S. (2015). Sukhareva: Prior to Asperger and Kanner. Nordic Journal of Psychiatry, 69(6), 479–482",
+    "url": "https://doi.org/10.3109/08039488.2015.1005022"
+   },
+   {
+    "titulo": "Pozzi, C. M., Riesgo, R. S. y Assumpção Junior, F. B. (2024). Revisiting the history of autism before Kanner and Asperger: a tribute to Grunya Sukhareva. Arquivos de Neuro-Psiquiatria, 82(8)",
+    "url": "https://scielo.br/j/anp/a/pXHzmGkCKX49XsxHvdQFvKz"
+   },
+   {
+    "titulo": "Posar, A. y Visconti, P. (2017). Tribute to Grunya Efimovna Sukhareva, the woman who first described infantile autism. Journal of Pediatric Neurosciences, 12(3), 300–301",
+    "url": "https://doi.org/10.4103/jpn.JPN_46_17"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "leo-kanner",
+  "lema": "Leo Kanner",
+  "variantes": [
+   "Kanner",
+   "síndrome de Kanner"
+  ],
+  "tipo": "persona",
+  "familia": "Neurodesarrollo",
+  "anio": 1943,
+  "anio_nota": "Publicó el artículo en el que describe a once niños con lo que llamó «autismo infantil precoz».",
+  "obra": "«Autistic Disturbances of Affective Contact», Nervous Child (1943)",
+  "figuras": [
+   "Leo Kanner",
+   "Adolf Meyer",
+   "Donald Triplett"
+  ],
+  "definicion": "Psiquiatra nacido en el Imperio austrohúngaro (1894–1981) y afincado en Estados Unidos, donde dirigió en Johns Hopkins el primer servicio de psiquiatría infantil del país. En 1943 describió a once niños con aislamiento extremo e insistencia en que nada cambiara, origen del «autismo infantil precoz».",
+  "usos": [
+   "I",
+   "D"
+  ],
+  "controversia": "Su sugerencia de que la frialdad parental influía en el autismo alimentó la teoría de la «madre nevera», hoy descartada y muy dañina. También se discute si su perfil clásico, muy estrecho, debe seguir siendo el prototipo.",
+  "contexto": "Kanner nació en 1894 en Klekotów, entonces parte del Imperio austrohúngaro, y tras emigrar a Estados Unidos recibió en 1930 el encargo de Adolf Meyer de dirigir en Johns Hopkins el primer servicio de psiquiatría infantil del país. En 1935 publicó Child Psychiatry, uno de los primeros manuales estadounidenses de la especialidad. Desde 1938 observó a once niños con una soledad extrema y un intenso deseo de que nada cambiara. Tomó la palabra «autismo» de Bleuler, pero la usó para algo distinto: una condición presente desde el principio de la vida, no un síntoma de la esquizofrenia. Escribía en una psiquiatría estadounidense muy influida por el psicoanálisis, y sus comentarios sobre ciertos estilos de crianza alimentaron en los años sesenta y setenta la teoría de la «madre nevera». Más tarde rectificó: en 1969, ante una asociación de familias, dijo «os absuelvo como padres». Durante la Segunda Guerra Mundial ayudó a reubicar a cientos de médicos judíos refugiados.",
+  "ejemplos": [
+   "En consulta aún se habla de «autismo de Kanner» o «autismo clásico» para referirse a perfiles de aparición temprana y grandes necesidades de apoyo.",
+   "Asociaciones de familias recuerdan la teoría de la «madre nevera» para explicar por qué insisten en que la crianza no causa autismo.",
+   "En investigación, algunos autores proponen volver al «prototipo» clásico de Kanner para reducir la heterogeneidad de las muestras del espectro actual.",
+   "La vida de Donald Triplett, su «caso 1», se cuenta como ejemplo de vida adulta: trabajó 65 años en el banco de su localidad y viajaba con frecuencia.",
+   "En clase de historia de la psicología, comparar su artículo de 1943 con el DSM-5 permite ver cómo un perfil estrecho se convirtió en un espectro amplio."
+  ],
+  "implicaciones": "Kanner nos deja dos herencias que siguen en tensión. La primera es un retrato nítido del autismo con grandes necesidades de apoyo, que muchos clínicos e investigadores reivindican hoy para que no quede diluido en un espectro cada vez más amplio. La segunda es una advertencia: una hipótesis sobre la causa, la frialdad de los padres, se aceptó sin pruebas y culpabilizó a generaciones de madres. Las familias siguen enfrentándose a juicios rápidos sobre su crianza, también en España, y recordar aquel error ayuda a pedir evidencia antes de atribuir causas. Y su propio cambio de opinión en 1969 es un buen modelo: rectificar también forma parte de la ciencia, y una categoría puede conservar su valor descriptivo aunque una de sus explicaciones resulte falsa.",
+  "sabias": "Donald Triplett, el «caso 1» de Kanner, murió en 2023 a los 89 años. Trabajó 65 años en el banco de Forest (Misisipi), jugaba al golf y viajaba a menudo a lugares lejanos.",
+  "piensalo": "Si una hipótesis tan dañina como la «madre nevera» duró décadas, ¿qué explicaciones actuales sobre el autismo aceptamos sin pedir pruebas?",
+  "paso": "Busca en una hemeroteca digital una noticia antigua sobre autismo y anota a qué causas lo atribuía. Compárala con lo que dice hoy una fuente sanitaria oficial.",
+  "frase": "«El autismo lo causan unos padres fríos»",
+  "veredicto": "mito",
+  "matiz": "La teoría de la «madre nevera» se abandonó: el autismo tiene una base fuertemente genética y del neurodesarrollo. El propio Kanner rectificó en 1969. La crianza influye en el bienestar de cualquier niño, pero no causa autismo.",
+  "salto": "de la asociación a la causa",
+  "relacionados": [
+   "autismo",
+   "eugen-bleuler",
+   "grunya-sukhareva",
+   "hans-asperger",
+   "autismo-profundo",
+   "heterogeneidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Embryo Project Encyclopedia, Arizona State University. Leo Kanner (1894–1981)",
+    "url": "https://embryo.asu.edu/pages/leo-kanner-1894-1981"
+   },
+   {
+    "titulo": "Embryo Project Encyclopedia, Arizona State University. Early Infantile Autism and the Refrigerator Mother Theory (1943–1970)",
+    "url": "https://embryo.asu.edu/pages/early-infantile-autism-and-refrigerator-mother-theory-1943-1970"
+   },
+   {
+    "titulo": "Associated Press (17 de junio de 2023). Donald Triplett, the 1st person diagnosed with autism, dies at 89. WRVO/NPR",
+    "url": "https://www.wrvo.org/2023-06-17/donald-triplett-the-1st-person-diagnosed-with-autism-dies-at-89"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "hans-asperger",
+  "lema": "Hans Asperger",
+  "variantes": [
+   "Asperger"
+  ],
+  "tipo": "persona",
+  "familia": "Neurodesarrollo",
+  "anio": 1944,
+  "anio_nota": "Publicó su trabajo de habilitación sobre los «psicópatas autistas» en la infancia, con cuatro niños; ya había usado la expresión en una conferencia de 1938.",
+  "obra": "«Die ‹Autistischen Psychopathen› im Kindesalter» (1944)",
+  "figuras": [
+   "Hans Asperger",
+   "Franz Hamburger",
+   "Lorna Wing",
+   "Herwig Czech",
+   "Edith Sheffer"
+  ],
+  "definicion": "Pediatra austríaco (1906–1980) que en 1944 describió la «psicopatía autista» en niños con lenguaje e inteligencia conservados. Su nombre dio lugar al «síndrome de Asperger», retirado como categoría en el DSM-5. La investigación histórica ha documentado su colaboración con instituciones del régimen nazi.",
+  "usos": [
+   "I",
+   "D",
+   "R"
+  ],
+  "controversia": "Czech (2018) y Sheffer (2018) documentan que se acomodó a la política de «higiene racial» y recomendó internar a niños en Am Spiegelgrund, donde se mataba a menores. Se discute si debe seguir usándose su nombre como epónimo.",
+  "contexto": "Asperger trabajó en la clínica pediátrica universitaria de Viena bajo la protección de su mentor, Franz Hamburger. Tras la anexión de Austria por la Alemania nazi en 1938 su carrera avanzó: fue perito del tribunal de menores, especialista en «niños anormales» de la oficina de salud pública y obtuvo en 1943 su habilitación sin objeciones en la revisión política. Nunca se afilió al partido nazi, pero sí a organizaciones vinculadas a él. En 1941 examinó a Herta Schreiber, una niña a punto de cumplir tres años, y recomendó internarla en Am Spiegelgrund, donde murió unos dos meses después. Participó además en una comisión que evaluó a más de 200 niños de una institución de Gugging, muchos de los cuales acabaron allí. Tras la guerra mantuvo una carrera de éxito y contó que la Gestapo había intentado detenerle, algo que Czech no encontró documentado. Su obra apenas se conoció en inglés hasta que Lorna Wing la difundió en 1981.",
+  "ejemplos": [
+   "Una adulta diagnosticada de «Asperger» en 2005 sigue usando esa palabra para presentarse, aunque el DSM-5 la integró en 2013 en el trastorno del espectro autista.",
+   "En una asociación, el debate sobre cambiar un nombre fundacional con «Asperger» enfrenta el apego a la historia propia con el rechazo al pasado del epónimo.",
+   "En clase de historia, el caso de Herta Schreiber sirve para hablar de cómo, en la Viena nazi, un informe clínico podía decidir el destino de una niña.",
+   "En consulta, algunos profesionales explican que el antiguo «Asperger» corresponde hoy a autismo sin discapacidad intelectual ni retraso del lenguaje.",
+   "En redes, frases como «Asperger salvó a los niños» o «Asperger era del partido nazi» simplifican: los archivos muestran colaboración sin afiliación al partido."
+  ],
+  "implicaciones": "La historia de Asperger muestra que el valor clínico de una descripción y la conducta moral de quien la hizo son preguntas distintas, aunque no del todo independientes. Su retrato de niños con buen lenguaje y sin discapacidad intelectual ayudó a ampliar el concepto de autismo; a la vez, se escribió dentro de una medicina puesta al servicio de la «higiene racial». Hoy ni el DSM-5 ni la CIE-11 usan su nombre como categoría, y Czech propuso que cualquier uso del epónimo recuerde su contexto. En España muchas personas y entidades llevan años identificándose con la palabra «Asperger»; cambiarla no es un simple trámite, porque toca identidades. La lección para el uso de reconocerse: una etiqueta puede tener una historia incómoda y, aun así, haber sido útil para quien la adoptó.",
+  "sabias": "La etiqueta «síndrome de Asperger» no la creó Asperger: la popularizó Lorna Wing en 1981. Su artículo de 1944 apenas se leía en inglés hasta que un volumen editado por Uta Frith lo tradujo en 1991.",
+  "piensalo": "¿Debe cambiar el nombre de una categoría cuando conocemos la historia de su autor, o basta con contarla completa?",
+  "paso": "Lee el resumen del artículo de Herwig Czech (2018) en Molecular Autism, de acceso abierto, y compáralo con lo que dice de Asperger alguna web divulgativa.",
+  "frase": "«Asperger salvó a los niños autistas de los nazis»",
+  "veredicto": "mito",
+  "matiz": "Los archivos estudiados por Czech (2018) muestran que se acomodó al régimen, se unió a organizaciones afines y recomendó internar a niños en Am Spiegelgrund. Su supuesta persecución por la Gestapo descansa solo en su propio testimonio.",
+  "salto": "",
+  "relacionados": [
+   "sindrome-asperger",
+   "autismo",
+   "lorna-wing",
+   "uta-frith",
+   "leo-kanner",
+   "lenguaje-identidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Czech, H. (2018). Hans Asperger, National Socialism, and «race hygiene» in Nazi-era Vienna. Molecular Autism, 9, 29",
+    "url": "https://doi.org/10.1186/s13229-018-0208-6"
+   },
+   {
+    "titulo": "Sheffer, E. (2018). Asperger's Children: The Origins of Autism in Nazi Vienna. W. W. Norton (ficha en Publishers Weekly)",
+    "url": "https://www.publishersweekly.com/9780393609646"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "lorna-wing",
+  "lema": "Lorna Wing",
+  "variantes": [
+   "Wing",
+   "tríada de Wing"
+  ],
+  "tipo": "persona",
+  "familia": "Neurodesarrollo",
+  "anio": 1981,
+  "anio_nota": "Publicó el artículo que dio a conocer en inglés el trabajo de Asperger y popularizó la expresión «síndrome de Asperger».",
+  "obra": "«Asperger's syndrome: a clinical account», Psychological Medicine (1981); con Judith Gould, estudio epidemiológico de 1979 en Londres",
+  "figuras": [
+   "Lorna Wing",
+   "Judith Gould",
+   "John Wing"
+  ],
+  "definicion": "Psiquiatra británica y cofundadora de la National Autistic Society. Con Judith Gould describió en 1979 la «tríada» de dificultades en interacción, comunicación e imaginación social, y en los años ochenta impulsó la idea de un espectro autista que incluyera perfiles muy distintos.",
+  "usos": [
+   "I",
+   "D"
+  ],
+  "controversia": "Su espectro amplio permitió reconocer a muchas personas antes invisibles; hoy se discute si la ampliación posterior lo ha estirado demasiado. Czech criticó que en 1993 Wing descartara que Asperger pudiera ser nazi por ser un católico devoto.",
+  "contexto": "Wing estudió Medicina en Londres y se especializó en psiquiatría. Su hija Susie tenía un autismo con grandes necesidades de apoyo, y en los años sesenta participó con otras familias en la creación de la National Autistic Society, que abrió las primeras escuelas especializadas para niños autistas del Reino Unido. Desde la Unidad de Psiquiatría Social del Instituto de Psiquiatría hizo estudios epidemiológicos: en un distrito de Londres, con Judith Gould, encontró niños con dificultades sociales que no encajaban en el autismo clásico de Kanner, pero compartían muchos rasgos con él. De ahí salió la «tríada de Wing». En 1981 rescató el trabajo de Asperger y, en esa década, propuso el espectro autista pensado como el espectro de la luz: muchos autismos que se funden entre sí, no una escala de leve a grave. Con Gould creó la entrevista diagnóstica DISCO. Publicó su último artículo en 2013, a los 85 años.",
+  "ejemplos": [
+   "Cuando un informe habla de dificultades en comunicación social y de patrones restringidos, hereda la tríada de Wing, que el DSM-5 redujo a dos dominios en 2013.",
+   "La entrevista DISCO, que Wing creó con Judith Gould, se usa en clínica e investigación para recoger la historia del desarrollo de una persona.",
+   "En una formación docente, su metáfora del espectro como los colores de la luz sirve para explicar que no hay un autismo «leve» y otro «grave», sino perfiles distintos.",
+   "Familias que fundan asociaciones locales siguen el camino que Wing y otros padres abrieron en los años sesenta con la National Autistic Society.",
+   "En debates sobre si el espectro se ha estirado demasiado, se recuerda su frase favorita: la naturaleza nunca traza una línea sin emborronarla."
+  ],
+  "implicaciones": "Wing es clave para entender el aumento de diagnósticos sin caer en el «es una epidemia». Ampliar los criterios para incluir a personas con lenguaje fluido, inteligencia media o alta, o perfiles atípicos hizo visibles a muchas que antes quedaban fuera: no aparecieron de la nada. A la vez, su espectro abrió una pregunta que hoy está en primera línea: dónde termina. Uta Frith sostiene que la propuesta de Wing fue el primer empujón hacia una ampliación que hoy, en su opinión, ha ido demasiado lejos. Hoy, con muchas más personas que piden evaluación en la adolescencia o la adultez, también en España, su legado obliga a pesar los dos errores por igual: dejar fuera a quien necesita apoyo y meter dentro a quien tiene otra dificultad distinta.",
+  "sabias": "A Lorna Wing le gustaba repetir que «la naturaleza nunca traza una línea sin emborronarla»: pensaba que los rasgos autistas no se reparten limpiamente entre quienes los tienen y quienes no.",
+  "piensalo": "Si la naturaleza no traza líneas nítidas, ¿quién decide dónde poner la del diagnóstico, y con qué criterio?",
+  "paso": "Lee los dos dominios del autismo en el DSM-5 y compáralos con la tríada de Wing. ¿Qué se fusionó y qué se añadió, como lo sensorial?",
+  "frase": "«Ahora todo el mundo es un poco autista»",
+  "veredicto": "matiz",
+  "matiz": "Wing creía que los rasgos autistas están muy repartidos, pero el diagnóstico exige dificultades persistentes con impacto real. Tener algún rasgo no equivale a ser autista, y el aumento de diagnósticos tiene varias causas, no una sola.",
+  "salto": "del aumento de diagnósticos a «es una epidemia»",
+  "relacionados": [
+   "autismo",
+   "hans-asperger",
+   "sindrome-asperger",
+   "modelo-dimensional",
+   "prevalencia",
+   "uta-frith"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Wing, L. (1981). Asperger's syndrome: a clinical account. Psychological Medicine, 11(1), 115–129",
+    "url": "https://doi.org/10.1017/s0033291700053332"
+   },
+   {
+    "titulo": "Wing, L. y Gould, J. (1979). Severe impairments of social interaction and associated abnormalities in children: epidemiology and classification. Journal of Autism and Developmental Disorders, 9(1), 11–29",
+    "url": "https://doi.org/10.1007/BF01531288"
+   },
+   {
+    "titulo": "Psychiatric Bulletin (2015). Obituario: Lorna Wing OBE, MD, FRCPsych. Royal College of Psychiatrists",
+    "url": "https://doi.org/10.1192/pb.bp.114.048900"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "uta-frith",
+  "lema": "Uta Frith",
+  "variantes": [
+   "Dame Uta Frith"
+  ],
+  "tipo": "persona",
+  "familia": "Cerebro, cuerpo y tratamiento",
+  "anio": 1985,
+  "anio_nota": "Publicó con Simon Baron-Cohen y Alan Leslie el estudio que propuso una dificultad de «teoría de la mente» en niños autistas.",
+  "obra": "Baron-Cohen, Leslie y Frith, «Does the autistic child have a 'theory of mind'?», Cognition (1985)",
+  "figuras": [
+   "Uta Frith",
+   "Simon Baron-Cohen",
+   "Alan Leslie"
+  ],
+  "definicion": "Psicóloga del desarrollo nacida en Alemania en 1941 y catedrática emérita del University College de Londres. Es pionera de la psicología cognitiva del autismo (teoría de la mente, coherencia central débil) y de la dislexia. En 2026 defendió que el espectro autista se ha ampliado tanto que ha perdido parte de su sentido.",
+  "usos": [
+   "I",
+   "D"
+  ],
+  "controversia": "Su propuesta de 2026 de dividir el espectro y su escepticismo sobre el camuflaje y el infradiagnóstico en chicas han recibido críticas de investigadoras y personas autistas. La teoría de la mente como explicación general también se discute.",
+  "contexto": "Frith estudió Psicología en Saarbrücken, llegó a Londres en los años sesenta y empezó a investigar el autismo en 1966, cuando solo se diagnosticaba a niños y casi siempre con discapacidad intelectual. Trabajó en unidades del Medical Research Council y en el University College de Londres. En los ochenta, la psicología cognitiva intentaba explicar conductas a partir de procesos mentales concretos, y con Baron-Cohen y Leslie propuso en 1985 que a muchos niños autistas les costaba atribuir creencias a otras personas, lo que llamaron teoría de la mente. Después planteó la «coherencia central débil», una tendencia a procesar detalles más que el conjunto, que ayudaba a explicar fortalezas y no solo déficits. En 1991 editó el volumen que tradujo al inglés el texto de Asperger de 1944. También mostró que la dislexia se asocia a una dificultad en el procesamiento fonológico. En 2012 fue nombrada dama del Imperio británico.",
+  "ejemplos": [
+   "La prueba de Sally y Ana, en la que un niño debe prever dónde buscará alguien una canica que no vio cambiar de sitio, se enseña en asignaturas de Psicología del desarrollo.",
+   "Cuando un profesional explica que una persona autista se fija en detalles que otros pasan por alto, recurre a menudo a la idea de coherencia central de Frith.",
+   "Su ensayo de 2026 en Psychological Medicine se cita en debates sobre el aumento de diagnósticos en adolescentes y mujeres adultas.",
+   "En redes, su entrevista de 2026 en Tes generó respuestas de personas autistas que defendían el camuflaje y el diagnóstico tardío como realidades vividas.",
+   "En la escuela, su trabajo sobre dislexia respalda la idea de que la dificultad lectora tiene una base fonológica y no es falta de esfuerzo."
+  ],
+  "implicaciones": "Frith muestra que se puede ser pionera de una categoría y, décadas después, cuestionar en qué se ha convertido. En 2026 propuso separar al grupo diagnosticado en la infancia del diagnosticado en la adolescencia o la adultez, y sostuvo que factores culturales como el autodiagnóstico, el concepto de camuflaje o el efecto bucle descrito por Hacking han rebajado el umbral. Sus críticos responden que muchas chicas y adultos fueron pasados por alto y que su propuesta puede dejar sin apoyo a quien lo necesita. El debate llega también a consultas y centros educativos españoles, porque lo que está en juego es quién recibe qué apoyo. La pregunta útil no es «¿tiene razón Frith?», sino qué datos permitirían saberlo.",
+  "sabias": "Según el ensayo de Frith de 2026, el primer estudio poblacional estimó 4 casos de autismo por cada 10.000 niños; datos recientes de escolares del Reino Unido hablan de 1 de cada 57, unas 44 veces más.",
+  "piensalo": "¿Puede una misma categoría servir para un niño sin lenguaje y para una adulta con carrera universitaria? ¿Qué se gana y qué se pierde al separarlos?",
+  "paso": "Lee el resumen del ensayo de Frith (2026) y una réplica escrita por una persona autista. Anota qué datos usa cada parte y qué queda sin probar.",
+  "frase": "«Las chicas autistas solo están mejor camufladas»",
+  "veredicto": "matiz",
+  "matiz": "El camuflaje está muy descrito por personas autistas y se estudia con cuestionarios, pero Frith y otros señalan que su base empírica es aún débil. La diferencia de diagnóstico entre chicos y chicas existe; su explicación sigue en debate.",
+  "salto": "del aumento de diagnósticos a «es una moda»",
+  "relacionados": [
+   "teoria-mente",
+   "coherencia-central",
+   "autismo",
+   "camuflaje",
+   "brecha-genero",
+   "dislexia"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Baron-Cohen, S., Leslie, A. M. y Frith, U. (1985). Does the autistic child have a «theory of mind»? Cognition, 21(1), 37–46",
+    "url": "https://doi.org/10.1016/0010-0277(85)90022-8"
+   },
+   {
+    "titulo": "Frith, U. (2026). Autism spectrum disorder: has it lost its meaning and is it leading to misdiagnosis? Psychological Medicine, 56, e240",
+    "url": "https://doi.org/10.1017/S0033291726105376"
+   },
+   {
+    "titulo": "Amass, H. (4 de marzo de 2026). Uta Frith: why I no longer think autism is a spectrum. Tes Magazine",
+    "url": "https://www.tes.com/magazine/teaching-learning/general/uta-frith-interview-autism-not-spectrum"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "jim-sinclair",
+  "lema": "Jim Sinclair",
+  "variantes": [
+   "Sinclair",
+   "Don't Mourn for Us"
+  ],
+  "tipo": "persona",
+  "familia": "Identidad y comunidad",
+  "anio": 1993,
+  "anio_nota": "Publicó «Don't Mourn for Us», basado en una charla en la conferencia sobre autismo de Toronto de ese año.",
+  "obra": "«Don't Mourn for Us», Our Voice, boletín de Autism Network International (1993)",
+  "figuras": [
+   "Jim Sinclair",
+   "Donna Williams",
+   "Xenia Grant"
+  ],
+  "definicion": "Activista autista que cofundó en 1992 Autism Network International, una de las primeras redes dirigidas por personas autistas. Su ensayo «No lloréis por nosotros» (1993), dirigido a madres y padres, se considera el primer manifiesto de lo que después se llamó movimiento de la neurodiversidad.",
+  "usos": [
+   "R"
+  ],
+  "controversia": "Se discute hasta qué punto su rechazo a «curar» el autismo representa a personas con grandes necesidades de apoyo y a sus familias. Sus defensores responden que el ensayo no niega las dificultades, sino el duelo por el hijo imaginado.",
+  "contexto": "A comienzos de los noventa, la conversación pública sobre autismo la dominaban padres, profesionales y organizaciones centrados sobre todo en tratamientos y curas. Las listas de correo y los boletines empezaban a permitir que adultos autistas se encontraran entre sí. En febrero de 1992, Sinclair fundó con Donna Williams y Xenia Grant Autism Network International (ANI), que empezó como un programa de correspondencia y un boletín. En 1993, tras intervenir en la conferencia de Toronto, publicó en el tercer número de ese boletín «Don't Mourn for Us». El texto sostiene que el duelo de los padres no es por el autismo, sino por la pérdida del hijo «normal» que esperaban, y les pide que conozcan al hijo que tienen. Después organizó durante más de quince años Autreat, un encuentro diseñado según las necesidades autistas. Su importancia está en el giro que representa: de los relatos personales a la reivindicación colectiva de cambios sociales.",
+  "ejemplos": [
+   "Grupos de familias leen «No lloréis por nosotros» tras un diagnóstico para pasar del «¿qué hemos perdido?» al «¿quién es nuestro hijo y qué necesita?».",
+   "Asociaciones de personas autistas citan el ensayo para defender que las decisiones sobre investigación y servicios cuenten con su participación.",
+   "En la formación de profesionales, el texto se usa para mostrar cómo se oye un diagnóstico desde el otro lado: el de la persona diagnosticada.",
+   "En redes, el ensayo se comparte cada abril como contrapunto a campañas de concienciación que presentan el autismo como una tragedia familiar.",
+   "Encuentros organizados por y para personas autistas, con normas sensoriales y sociales propias, siguen el modelo de Autreat que Sinclair impulsó."
+  ],
+  "implicaciones": "Sinclair cambió quién habla en la conversación sobre autismo. Antes de los noventa, la etiqueta circulaba sobre todo en el uso clínico y familiar; con ANI aparece con fuerza el uso de reconocerse: la palabra como identidad y comunidad. Eso tiene consecuencias hoy, también en España, donde personas autistas reclaman participar en las políticas que les afectan. El texto deja además una tensión que conviene no esconder: lo que vale para una persona autista que escribe ensayos puede no reflejar la experiencia de quien no habla o necesita apoyo constante, ni la de su familia. Leerlo bien no exige elegir bando, sino distinguir usos: el reconocimiento no sustituye al diagnóstico ni a los apoyos, y estos no deberían borrar la voz de la persona.",
+  "sabias": "En Autreat, el encuentro autista que Sinclair organizó durante más de quince años hasta 2013, había un panel llamado «Ask an NT» («Pregúntale a un neurotípico»), que invertía los papeles habituales.",
+  "piensalo": "¿Qué cambia en una familia si el diagnóstico se vive como una pérdida o como el comienzo de conocer a alguien?",
+  "paso": "Lee «Don't Mourn for Us», que es breve. Subraya una frase con la que estés de acuerdo y otra que te genere dudas, y coméntalas con alguien.",
+  "frase": "«Si tu hijo es autista, tienes que llorar al hijo que no será»",
+  "veredicto": "matiz",
+  "matiz": "Sinclair entiende el duelo de los padres, pero lo atribuye al hijo «normal» que esperaban, no al hijo real. Reconocer emociones difíciles tras un diagnóstico es compatible con no vivirlo como tragedia y con atender necesidades reales.",
+  "salto": "",
+  "relacionados": [
+   "movimiento-neurodiversidad",
+   "derechos-autistas",
+   "nada-sobre-nosotros",
+   "judy-singer",
+   "neurodiversidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Pripas-Kapit, S. (2020). Historicizing Jim Sinclair's «Don't Mourn for Us»: a cultural and intellectual history of neurodiversity's first manifesto. En S. K. Kapp (ed.), Autistic Community and the Neurodiversity Movement (pp. 23–39). Palgrave Macmillan",
+    "url": "https://doi.org/10.1007/978-981-13-8437-0_2"
+   },
+   {
+    "titulo": "Botha, M., Chapman, R., Giwa Onaiwu, M., Kapp, S. K., Stannard Ashley, A. y Walker, N. (2024). The neurodiversity concept was developed collectively: an overdue correction on the origins of neurodiversity theory. Autism, 28(6), 1591–1594",
+    "url": "https://doi.org/10.1177/13623613241237871"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "judy-singer",
+  "lema": "Judy Singer",
+  "variantes": [
+   "Singer"
+  ],
+  "tipo": "persona",
+  "familia": "Identidad y comunidad",
+  "anio": 1998,
+  "anio_nota": "Presentó su tesina de honores en la University of Technology Sydney, revisada como capítulo de libro en 1999.",
+  "obra": "Tesina de honores (University of Technology Sydney, 1998) y capítulo «Why can't you be normal for once in your life?», en Corker y French (eds.), Disability Discourse (Open University Press, 1999)",
+  "figuras": [
+   "Judy Singer",
+   "Harvey Blume",
+   "Martijn Dekker"
+  ],
+  "definicion": "Socióloga australiana a la que suele atribuirse la palabra «neurodiversidad», que usó en su tesina de 1998 y en un capítulo de 1999 apoyado en el modelo social de la discapacidad. Investigaciones de archivo posteriores muestran que la idea ya circulaba antes en foros de personas autistas.",
+  "usos": [
+   "R",
+   "I"
+  ],
+  "controversia": "Botha y colaboradores (2024) sostienen que el concepto se desarrolló colectivamente y que atribuírselo solo a ella es inexacto; Singer replica que acuñó la palabra, no la idea. Sus declaraciones sobre las personas trans también han generado rechazo.",
+  "contexto": "Singer se formó en la Australia de los noventa, cuando el modelo social de la discapacidad, que sitúa la discapacidad en las barreras del entorno, ganaba peso en universidades y movimientos sociales. Participaba en foros de internet como InLv, donde adultos autistas debatían sobre su identidad, y esas conversaciones nutrieron su tesina de 1998. En ella y en su capítulo de 1999 usó «neurodiversidad» para proponer que las diferencias neurológicas podían pensarse como otras formas de diversidad humana y servir de base a un movimiento político. La palabra encajó con su tiempo: la expansión de internet, la política de la identidad y el auge de la neurociencia. Durante años se la presentó como «madre de la neurodiversidad», sobre todo a partir del libro NeuroTribes de Steve Silberman (2015). En 2023, el fundador de InLv, Martijn Dekker, documentó que en ese foro ya se hablaba de «diversidad neurológica» en 1996.",
+  "ejemplos": [
+   "Guías de recursos humanos sobre «neurodiversidad en el trabajo» citan a Singer como origen del término, a menudo sin mencionar el debate sobre su autoría.",
+   "En un aula universitaria, comparar su capítulo de 1999 con la carta de Botha y colaboradores (2024) permite trabajar cómo se construye una historia de origen.",
+   "En redes, ante el «la neurodiversidad la inventó una socióloga», conviene precisar que la palabra y la idea tienen historias distintas y en buena parte colectivas.",
+   "Asociaciones que se definen como neurodivergentes se apoyan en su propuesta de entender las diferencias neurológicas como parte de la diversidad humana.",
+   "En los debates en redes sobre si la neurodiversidad se ha vuelto una ideología, se cita a Singer tanto para defender el concepto como para criticar su deriva identitaria."
+  ],
+  "implicaciones": "La historia de Singer muestra que una palabra puede tener una autoría discutida y, aun así, un uso muy claro. «Neurodiversidad» nació como propuesta sociológica y política, no como diagnóstico ni como explicación cerebral; por eso es un error leerla como si dijera algo sobre causas o tratamientos. En España el término ha llegado a la escuela, las empresas y la política, y a veces se usa como sinónimo amable de TDAH o autismo. Recordar su origen ayuda a separar usos: sirve para reconocerse y para reclamar ajustes, no para diagnosticar. Y el debate sobre quién la acuñó recuerda algo útil: muchas ideas que atribuimos a una sola persona son, en realidad, obra de comunidades enteras que conversaban.",
+  "sabias": "Según Botha y colaboradores (2024), Singer no afirmó en su momento haber acuñado la palabra. Su fama de «madre de la neurodiversidad» se consolidó sobre todo a partir del libro NeuroTribes, de 2015.",
+  "piensalo": "¿Importa quién inventó una palabra para decidir cómo debe usarse hoy?",
+  "paso": "Busca tres textos en español que definan «neurodiversidad» y comprueba a quién atribuyen el término y si citan alguna fuente.",
+  "frase": "«La neurodiversidad es un invento de una sola persona»",
+  "veredicto": "mito",
+  "matiz": "Singer difundió la palabra en 1998 y 1999, pero el concepto se gestó en foros de personas autistas: Dekker documentó «diversidad neurológica» en 1996, y Blume imprimió los términos en 1997 y 1998.",
+  "salto": "",
+  "relacionados": [
+   "neurodiversidad",
+   "paradigma-neurodiversidad",
+   "modelo-social",
+   "harvey-blume",
+   "nick-walker",
+   "jim-sinclair"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Botha, M., Chapman, R., Giwa Onaiwu, M., Kapp, S. K., Stannard Ashley, A. y Walker, N. (2024). The neurodiversity concept was developed collectively: an overdue correction on the origins of neurodiversity theory. Autism, 28(6), 1591–1594",
+    "url": "https://doi.org/10.1177/13623613241237871"
+   },
+   {
+    "titulo": "Corker, M. y French, S. (eds.) (1999). Disability Discourse. Open University Press (índice: capítulo 7 de J. Singer, p. 59)",
+    "url": "https://www.obalkyknih.cz/file/toc/841446/pdf"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "harvey-blume",
+  "lema": "Harvey Blume",
+  "variantes": [
+   "Blume"
+  ],
+  "tipo": "persona",
+  "familia": "Identidad y comunidad",
+  "anio": 1998,
+  "anio_nota": "Imprimió por primera vez la palabra «neurodiversity», en un artículo de The Atlantic de septiembre.",
+  "obra": "«Neurodiversity», The Atlantic (1998); columna «Connections» en The New York Times sobre autistas en internet (30 de junio de 1997)",
+  "figuras": [
+   "Harvey Blume",
+   "Judy Singer"
+  ],
+  "definicion": "Periodista que escribía sobre cultura digital. En 1997 contó en The New York Times cómo las personas autistas se organizaban en internet, y en 1998 publicó en The Atlantic la palabra «neurodiversity», comparándola con la biodiversidad.",
+  "usos": [
+   "R"
+  ],
+  "controversia": "Durante años se discutió si la palabra era suya o de Singer. Botha y colaboradores (2024) señalan que Blume la atribuyó a la comunidad autista en línea y que el concepto ya circulaba en 1996.",
+  "contexto": "A finales de los noventa internet era todavía una novedad, y Blume escribía sobre cómo la red cambiaba la vida de distintos grupos. En su columna del New York Times de junio de 1997 describió a personas autistas que, liberadas del cara a cara, se comunicaban con soltura en el ciberespacio, usaban la sigla «NT» para las personas neurológicamente típicas y, según él, se constituían como un nuevo grupo de inmigrantes en la red. Ese mismo año habló de «diversidad neurológica» y de «pluralismo neurológico». En 1998, en The Atlantic, imprimió «neurodiversity» y escribió que podía ser tan crucial para la especie humana como la biodiversidad para la vida en general. Blume no se presentó como inventor: atribuyó los términos a la comunidad autista en línea. Su papel fue el de altavoz, porque llevó a la prensa generalista un vocabulario que estaba naciendo en listas de correo.",
+  "ejemplos": [
+   "La comparación entre neurodiversidad y biodiversidad, que Blume imprimió en 1998, se repite hoy en charlas de empresa y campañas escolares sobre inclusión.",
+   "Cuando en un foro alguien se presenta como «NT», usa una sigla que Blume ya recogía en 1997 al describir las comunidades autistas en línea.",
+   "En clase de Lengua o de Periodismo, su columna sirve para analizar cómo la prensa ayuda a fijar palabras nacidas en comunidades pequeñas.",
+   "Historiadores del movimiento autista citan a Blume para fechar cuándo «neurodiversidad» salió de las listas de correo y llegó a la prensa generalista.",
+   "En debates sobre redes sociales y diagnóstico, su texto de 1997 recuerda que internet ya fue un espacio de identidad autista mucho antes de TikTok."
+  ],
+  "implicaciones": "Blume ayuda a entender por qué «neurodiversidad» es, ante todo, una palabra del uso de reconocerse. Nació en conversaciones entre personas que se encontraban en internet y llegó al gran público a través de la prensa. Eso explica su fuerza y sus límites: es muy útil para crear comunidad y reclamar respeto, pero no se pensó como categoría clínica ni como explicación de mecanismos cerebrales. Hoy, cuando las redes sociales vuelven a ser lugar de encuentro y de autodiagnóstico, también en España, su historia da perspectiva: el fenómeno no es nuevo, y tampoco lo es la pregunta de cómo distinguir la identidad compartida del diagnóstico que abre apoyos. Un buen hábito: preguntar siempre en qué uso se está empleando la palabra.",
+  "sabias": "En 1997 Blume escribió que, en internet, las personas autistas se estaban «constituyendo como un nuevo grupo de inmigrantes» y que ya llamaban «NT» a las personas neurológicamente típicas.",
+  "piensalo": "Si una palabra nace en un foro y la populariza un periodista, ¿de quién es? ¿Y quién decide qué significa?",
+  "paso": "Busca en la hemeroteca digital de un periódico español la primera vez que aparece «neurodiversidad» y anota en qué contexto se usaba.",
+  "frase": "«Lo de la neurodiversidad viene de las redes sociales»",
+  "veredicto": "matiz",
+  "matiz": "Viene de internet, sí, pero de mucho antes de las redes actuales: de listas de correo de personas autistas en los años noventa. Blume llevó los términos a la prensa en 1997 y 1998.",
+  "salto": "",
+  "relacionados": [
+   "neurodiversidad",
+   "neurotipico",
+   "judy-singer",
+   "redes-sociales",
+   "movimiento-neurodiversidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Botha, M., Chapman, R., Giwa Onaiwu, M., Kapp, S. K., Stannard Ashley, A. y Walker, N. (2024). The neurodiversity concept was developed collectively: an overdue correction on the origins of neurodiversity theory. Autism, 28(6), 1591–1594",
+    "url": "https://doi.org/10.1177/13623613241237871"
+   },
+   {
+    "titulo": "Blume, H. (30 de junio de 1997). Autistics Are Communicating in Cyberspace. The New York Times, columna «Connections» (copia en lista de correo XMCA, UC San Diego)",
+    "url": "https://lchc.ucsd.edu/mca/Mail/xmcamail.1997_09.dir/0237.html"
+   },
+   {
+    "titulo": "Wiktionary. Neurodiversity (cita de Blume en The Atlantic, 1998)",
+    "url": "https://en.wiktionary.org/wiki/neurodiversity"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": false
+ },
+ {
+  "id": "nick-walker",
+  "lema": "Nick Walker",
+  "variantes": [
+   "Dra. Nick Walker"
+  ],
+  "tipo": "persona",
+  "familia": "Identidad y comunidad",
+  "anio": 2014,
+  "anio_nota": "Escribió el ensayo «Neurodiversity: Some Basic Terms & Definitions», recogido después en su libro Neuroqueer Heresies (2021).",
+  "obra": "«Neurodiversity: Some Basic Terms & Definitions» (2014); Neuroqueer Heresies (Autonomous Press, 2021)",
+  "figuras": [
+   "Nick Walker",
+   "Kassiane Asasumasu",
+   "Athena Lynn Michaels-Dillon",
+   "Remi Yergeau"
+  ],
+  "definicion": "Académica y escritora autista, profesora de Psicología en el California Institute of Integral Studies. Es conocida por ordenar el vocabulario de la neurodiversidad (hecho, paradigma, movimiento, neurodivergente) y por desarrollar la teoría «neuroqueer».",
+  "usos": [
+   "R",
+   "I"
+  ],
+  "controversia": "Sus definiciones funcionan como referencia en el activismo; desde la clínica se objeta que el paradigma no da criterios para distinguir diferencia y trastorno. Fue coautora de la carta de 2024 que discute la atribución exclusiva del concepto a Singer.",
+  "contexto": "Cuando Walker escribió su ensayo en 2014, el movimiento de la neurodiversidad ya tenía blogs, redes y editoriales propias, pero su vocabulario era confuso: se hablaba de «personas neurodiversas» o se mezclaba la idea biológica con el movimiento político. Walker separó cuatro cosas: la neurodiversidad como hecho, es decir, la variación de las mentes humanas; el paradigma, una forma de verla como diversidad natural y valiosa; el movimiento, una lucha por derechos e inclusión; y la neurodivergencia, funcionar de un modo que se aparta mucho de la norma social, término que atribuye a Kassiane Asasumasu en el año 2000. En 2008 había acuñado «neuroqueer», idea que también exploraban por su cuenta Athena Lynn Michaels-Dillon y Remi Yergeau. Cofundó Autonomous Press, una editorial cooperativa de sus trabajadores. Su influencia está en haber dado al movimiento un léxico preciso, aunque discutido, que hoy citan tanto activistas como investigadores.",
+  "ejemplos": [
+   "Guías de lenguaje inclusivo corrigen «alumno neurodiverso» por «alumno neurodivergente», siguiendo la distinción de Walker entre el grupo y la persona.",
+   "En formación docente, sus cuatro definiciones ayudan a separar el hecho de la variación humana del movimiento político y de las decisiones clínicas.",
+   "Investigadores citan su ensayo de 2014 cuando necesitan definir «paradigma de la neurodiversidad» en un artículo científico.",
+   "En redes, el término «neuroqueer» circula entre personas que relacionan su neurodivergencia con su identidad de género o su orientación sexual.",
+   "En un debate escolar, distinguir «neurodivergente» de «diagnosticado» permite hablar de diferencias sin presuponer que todas requieren tratamiento, ni que ninguna lo requiere."
+  ],
+  "implicaciones": "Walker es útil precisamente porque obliga a hablar con precisión. Si la neurodiversidad es un rasgo de la población y no de una persona, decir que un niño «es neurodiverso» es un error de categoría. Su distinción entre hecho, paradigma y movimiento también ayuda a separar usos: se puede aceptar el hecho de la variación humana sin compartir todas las propuestas políticas del movimiento, y viceversa. En España, donde «neurodivergente» se ha extendido en colegios, empresas y redes, conviene saber que Walker incluye en ella diferencias innatas y adquiridas, y que esa amplitud no la convierte en una categoría diagnóstica. Una palabra puede servir para reconocerse sin servir para decidir quién recibe un apoyo concreto.",
+  "sabias": "Para Walker, la neurodiversidad no es algo que una persona pueda tener: es la variación de toda la especie. Por eso, en sentido estricto, nadie «es neurodiverso»; una persona puede ser neurodivergente.",
+  "piensalo": "Si una palabra sirve para describir a toda la humanidad, ¿puede servir también para decidir quién necesita un apoyo concreto?",
+  "paso": "Fíjate esta semana en cómo se usan «neurodiverso» y «neurodivergente» a tu alrededor o en redes. Anota si se refieren a una persona, a un grupo o a un movimiento.",
+  "frase": "«Mi hijo es neurodiverso»",
+  "veredicto": "matiz",
+  "matiz": "Se entiende la intención, pero según Walker la neurodiversidad es propia de un grupo, no de un individuo. Lo preciso sería «neurodivergente», y aun así no equivale a un diagnóstico concreto.",
+  "salto": "de la identidad al diagnóstico",
+  "relacionados": [
+   "paradigma-neurodiversidad",
+   "neurodivergente",
+   "neurodiversidad",
+   "neurotipico",
+   "judy-singer",
+   "movimiento-neurodiversidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Walker, N. (2014; versión web 2021). Neurodiversity: Some Basic Terms & Definitions. Neuroqueer",
+    "url": "https://neuroqueer.com/neurodiversity-terms-and-definitions/"
+   },
+   {
+    "titulo": "Walker, N. (2021). Neuroqueer: An Introduction. Neuroqueer",
+    "url": "https://neuroqueer.com/neuroqueer-an-introduction/"
+   },
+   {
+    "titulo": "California Institute of Integral Studies. Nick Walker, Ph.D. (ficha de profesorado)",
+    "url": "https://ciis.edu/faculty-and-staff-directory/nick-walker"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": false
+ },
+ {
+  "id": "damian-milton",
+  "lema": "Damian Milton",
+  "variantes": [
+   "Damian E. M. Milton"
+  ],
+  "tipo": "persona",
+  "familia": "Identidad y comunidad",
+  "anio": 2012,
+  "anio_nota": "Publicó el artículo en el que formula el «problema de la doble empatía».",
+  "obra": "«On the ontological status of autism: the 'double empathy problem'», Disability & Society, 27(6), 883–887 (2012)",
+  "figuras": [
+   "Damian Milton",
+   "Catherine Crompton",
+   "Luke Beardon"
+  ],
+  "definicion": "Investigador británico autista, profesor del Tizard Centre de la Universidad de Kent. En 2012 propuso el «problema de la doble empatía»: las dificultades de comunicación entre personas autistas y no autistas son mutuas, fruto de experiencias del mundo distintas, y no un déficit solo de la persona autista.",
+  "usos": [
+   "I",
+   "R",
+   "E"
+  ],
+  "controversia": "La idea tiene un apoyo experimental creciente, pero se discute su alcance: si explica gran parte de las dificultades sociales del autismo o solo una parte, y si sirve igual para personas con grandes necesidades de apoyo.",
+  "contexto": "Durante décadas, las teorías dominantes explicaron las dificultades sociales del autismo como un déficit interno de la persona, por ejemplo en la teoría de la mente. A comienzos de la década de 2010, investigadores autistas y la sociología de la discapacidad empezaban a cuestionar esa mirada en una sola dirección. Milton, diagnosticado en la edad adulta, propuso en 2012 que cuando dos personas con experiencias del mundo muy distintas interactúan, a ambas les cuesta empatizar: se rompen la reciprocidad y la comprensión mutua. Si las personas no autistas no entienden a las autistas, eso no suele contarse como déficit, mientras que lo inverso sí. Su idea conectaba con la propuesta de Luke Beardon de una «teoría de la mente cruzada» y con el pensamiento de Ian Hacking sobre cómo las categorías moldean a las personas. Milton ha presidido el colectivo PARC, que promueve la investigación participativa con personas autistas.",
+  "ejemplos": [
+   "En el estudio de Crompton y colaboradores (2020), una historia contada en cadena se conservaba igual entre personas autistas que entre no autistas, pero peor en grupos mixtos.",
+   "La National Autistic Society británica incorpora la doble empatía en la formación que ofrece a profesionales.",
+   "En un aula, un docente que reformula una consigna en lugar de concluir que el alumno autista «no entiende» aplica una lectura de doble empatía.",
+   "En el trabajo, algunos programas de inclusión explican a los equipos que los malentendidos con colegas autistas son responsabilidad compartida.",
+   "En redes, personas autistas usan el concepto para explicar por qué se sienten más cómodas hablando con otras personas autistas."
+  ],
+  "implicaciones": "La doble empatía cambia la pregunta de «¿qué le falla a la persona autista?» a «¿qué falla en la interacción?». Eso tiene efectos prácticos: en la escuela invita a ajustar cómo comunica el adulto y no solo a entrenar al alumno; en sanidad, a revisar cómo se interpretan las conductas durante una evaluación. No niega que haya dificultades ni convierte toda dificultad en culpa del entorno. Para los materiales escolares que describen el autismo solo en términos de déficits, también en España, el concepto ofrece un contrapeso razonable. Lo prudente es usarlo como una hipótesis con apoyo creciente y no como un dogma, porque muchos estudios aún tienen muestras pequeñas y situaciones de laboratorio.",
+  "sabias": "En un experimento tipo «teléfono roto» (Crompton y colaboradores, 2020), la información pasó igual de bien entre personas autistas que entre no autistas. Donde más se perdía era en las cadenas mixtas.",
+  "piensalo": "Cuando dos personas no se entienden, ¿por qué solemos decidir que el problema es solo de una de ellas?",
+  "paso": "En tu próxima conversación difícil, pregunta «¿qué has entendido?» antes de dar por hecho que la otra persona no te escuchaba.",
+  "frase": "«Las personas autistas no tienen empatía»",
+  "veredicto": "mito",
+  "matiz": "Conviene distinguir entre leer intenciones ajenas y preocuparse por los demás. Además, la doble empatía muestra que las personas no autistas también fallan al interpretar a las autistas: la dificultad es, en buena parte, mutua.",
+  "salto": "de la etiqueta al mecanismo: atribuir a la persona lo que ocurre en la interacción",
+  "relacionados": [
+   "doble-empatia",
+   "teoria-mente",
+   "autismo",
+   "camuflaje",
+   "modelo-social",
+   "ian-hacking"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Milton, D. (2018). The double empathy problem. National Autistic Society",
+    "url": "https://www.autism.org.uk/advice-and-guidance/professional-practice/double-empathy"
+   },
+   {
+    "titulo": "Crompton, C. J., Ropar, D., Evans-Williams, C. V., Flynn, E. G. y Fletcher-Watson, S. (2020). Autistic peer-to-peer information transfer is highly effective. Autism, 24(7), 1704–1712",
+    "url": "https://doi.org/10.1177/1362361320919286"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "ian-hacking",
+  "lema": "Ian Hacking",
+  "variantes": [
+   "Hacking"
+  ],
+  "tipo": "persona",
+  "familia": "Saltos de inferencia",
+  "anio": 1995,
+  "anio_nota": "Publicó «The looping effects of human kinds», donde desarrolla el efecto bucle; él mismo dice haber acuñado ese lema en 1983.",
+  "obra": "«The looping effects of human kinds», en Sperber, Premack y Premack (eds.), Causal Cognition (1995); «Kinds of People: Moving Targets» (British Academy, 2007)",
+  "figuras": [
+   "Ian Hacking",
+   "Michel Foucault"
+  ],
+  "definicion": "Filósofo canadiense de la ciencia (1936–2023). Propuso que las clasificaciones de personas son «interactivas»: al nombrar un tipo de persona cambiamos cómo esas personas se ven y actúan, y eso a su vez cambia la categoría. Lo llamó efecto bucle y lo aplicó, entre otros casos, al autismo.",
+  "usos": [
+   "I"
+  ],
+  "controversia": "Se debate cuánto pesa el efecto bucle frente a la biología, y a veces se usa para decir que un diagnóstico «no es real». Hacking rechazaba esa lectura: distinguía la existencia de las personas de las formas históricas de entenderlas.",
+  "contexto": "Hacking nació en Vancouver en 1936, estudió en la Universidad de Columbia Británica y en Cambridge, y enseñó en Toronto y en el Collège de France. Empezó trabajando en la historia de la probabilidad y la estadística, y le interesó cómo contar y clasificar a las personas crea nuevas formas de gestionarlas. Influido por Foucault, en 1983 acuñó dos lemas: «inventar personas» y «efecto bucle». Estudió la personalidad múltiple, los «viajeros locos» del siglo XIX y, más tarde, el autismo. En su conferencia de 2006 en la British Academy explicó que algunas personas diagnosticadas de autismo cambiaron el propio concepto: quienes describían su experiencia ayudaron a crear la idea del autismo de alto funcionamiento, otros adultos se reconocieron en ella y la clase creció. Las categorías humanas, dijo, son «blancos móviles», porque investigarlas las transforma. Murió en Toronto en 2023.",
+  "ejemplos": [
+   "En su ensayo de 2026, Uta Frith invoca el efecto bucle de Hacking para explicar cómo autobiografías y redes sociales influyen en lo que se entiende por autismo.",
+   "Una adolescente ve vídeos sobre TDAH, se reconoce y empieza a describirse con ese vocabulario: un ejemplo cotidiano de efecto bucle.",
+   "En un seminario de Filosofía, sus «blancos móviles» sirven para discutir por qué las categorías de personas no se comportan como las de minerales.",
+   "Investigadores que comparan cohortes diagnosticadas en distintas décadas usan su idea para explicar que la misma etiqueta no describe al mismo grupo.",
+   "En redes, citar a Hacking para decir «el autismo es un invento» tergiversa su postura: él distinguía personas reales de formas cambiantes de clasificarlas."
+  ],
+  "implicaciones": "Hacking ofrece una herramienta para pensar sin caer en los extremos de «todo es biología» y «todo es una moda». Que una categoría cambie a quienes la reciben no significa que sea falsa, sino que hay que estudiarla como un objeto que se mueve. Hoy, con el TDAH y el autismo muy presentes en TikTok, en la prensa y en las aulas españolas, el efecto bucle ayuda a hacer mejores preguntas: ¿cambian los criterios, cambian las personas que consultan o cambian ambas cosas? Para investigar, implica comparar con cautela grupos de distintas épocas. Para diagnosticar, recordar que el relato que trae una persona ya viene moldeado por la cultura, sin que eso lo invalide.",
+  "sabias": "Hacking fue en 2000 el primer anglófono elegido para una cátedra permanente en el Collège de France, la de Filosofía e Historia de los Conceptos Científicos. De joven estuvo a punto de trabajar buscando petróleo para Shell.",
+  "piensalo": "Si conocer una etiqueta cambia cómo te ves, ¿cómo sabemos si una categoría describe algo previo o ayuda a crearlo?",
+  "paso": "Piensa en una etiqueta que uses para describirte, como «introvertido» o «perfeccionista». Anota desde cuándo la usas y si ha cambiado lo que haces.",
+  "frase": "«Si un diagnóstico cambia con la cultura, es que no es real»",
+  "veredicto": "mito",
+  "matiz": "Hacking sostenía lo contrario: las categorías humanas interactúan con las personas y cambian con el tiempo, pero las personas y sus dificultades existen. Que algo tenga historia no lo convierte en inventado.",
+  "salto": "del aumento de diagnósticos a «es una moda»",
+  "relacionados": [
+   "efecto-bucle",
+   "reificacion",
+   "deriva-conceptual",
+   "redes-sociales",
+   "uta-frith",
+   "autoadscripcion"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Hacking, I. (2007). Kinds of People: Moving Targets. Proceedings of the British Academy, 151, 285–318",
+    "url": "https://www.thebritishacademy.ac.uk/documents/2043/pba151p285.pdf"
+   },
+   {
+    "titulo": "Hacking, I. (2009). Autistic autobiography. Philosophical Transactions of the Royal Society B, 364(1522), 1467–1473",
+    "url": "https://doi.org/10.1098/rstb.2008.0329"
+   },
+   {
+    "titulo": "Department of Philosophy, University of Toronto (2023). In memoriam: Ian Hacking (1936–2023)",
+    "url": "https://philosophy.utoronto.ca/?p=28710"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "allen-frances",
+  "lema": "Allen Frances",
+  "variantes": [
+   "Allen J. Frances"
+  ],
+  "tipo": "persona",
+  "familia": "Clasificar y medir",
+  "anio": 1994,
+  "anio_nota": "Se publicó el DSM-IV, elaborado por el grupo de trabajo que presidió.",
+  "obra": "Presidencia del grupo de trabajo del DSM-IV (American Psychiatric Association, 1994); Saving Normal (2013)",
+  "figuras": [
+   "Allen Frances",
+   "Robert Spitzer",
+   "Laura Batstra"
+  ],
+  "definicion": "Psiquiatra estadounidense nacido en 1942 y catedrático emérito de la Universidad de Duke. Presidió el grupo de trabajo del DSM-IV y después se convirtió en uno de los críticos más conocidos de la inflación diagnóstica y del DSM-5.",
+  "usos": [
+   "D",
+   "I"
+  ],
+  "controversia": "Se le reconoce la autocrítica, pero se discute si exagera el sobrediagnóstico de autismo y TDAH, y si sus advertencias sobre «falsas epidemias» se usan para negar necesidades reales de apoyo.",
+  "contexto": "Frances se formó en una psiquiatría que, desde el DSM-III de 1980, apostaba por criterios explícitos para que distintos clínicos coincidieran en sus diagnósticos. Robert Spitzer lo incorporó a ese proyecto y, en 1987, fue elegido para presidir el grupo de trabajo del DSM-IV. Publicado en 1994, el manual añadió el trastorno de Asperger y reorganizó los subtipos del TDAH. Años después, Frances concluyó que algunos cambios, sumados al marketing farmacéutico, habían contribuido a lo que llamó «falsas epidemias» de autismo, TDAH y trastorno bipolar infantil. Mientras se preparaba el DSM-5 se convirtió en su crítico más visible: advirtió contra bajar umbrales, añadir trastornos con poco respaldo y eliminar la excepción por duelo en la depresión. En 2013 publicó Saving Normal, un alegato contra la medicalización de la vida corriente. Su caso muestra que un manual diagnóstico tiene consecuencias que van mucho más allá de la consulta.",
+  "ejemplos": [
+   "En debates sobre el aumento de diagnósticos de TDAH se cita su idea de «inflación diagnóstica» para pedir criterios exigentes y evaluaciones más cuidadosas.",
+   "Su propuesta con Laura Batstra de combinar atención y diagnóstico escalonados, para reducir el sobrediagnóstico sin dejar sin tratar a quien lo necesita, se discute en pediatría.",
+   "Críticos de la CIE-11 y del DSM-5 citan su editorial de 2013, que pedía a la OMS no repetir los errores del manual estadounidense.",
+   "En redes, su autocrítica se usa a veces para afirmar que «el TDAH no existe», algo que Frances no sostiene: habla de exceso de diagnósticos.",
+   "En la formación de psicólogos clínicos, su caso ilustra cómo un cambio de criterios en un manual puede mover la prevalencia de una categoría."
+  ],
+  "implicaciones": "Frances recuerda que los manuales no son neutrales: cada umbral decide quién entra y quién queda fuera, y eso tiene efectos en la escuela, los seguros, la industria y la identidad. Su crítica es útil para no confundir aumento de diagnósticos con aumento de casos. Pero conviene leerlo con la tesis de los dos errores en mente: alertar sobre el sobrediagnóstico no debería convertirse en desconfiar de quien llega a consulta con dificultades reales. En España, donde la prescripción de psicoestimulantes y las evaluaciones de autismo en adultos generan debate, sus argumentos son una buena vacuna contra el «es una epidemia», siempre que no se usen para negar apoyos. Pregunta útil: ¿el cambio de criterio mejora la ayuda o solo amplía la etiqueta?",
+  "sabias": "En 2013, el año del DSM-5, Frances firmó con John Nardo un editorial en el British Journal of Psychiatry titulado «ICD-11 should not repeat the mistakes made by DSM-5».",
+  "piensalo": "Si quien escribió las reglas de un manual dice que se ampliaron demasiado, ¿cómo distinguimos la autocrítica valiosa del miedo al cambio?",
+  "paso": "Busca una cifra de prevalencia de TDAH en un informe oficial y comprueba qué criterios y qué método usó. Anota si habla de casos diagnosticados o estimados.",
+  "frase": "«Hay una epidemia de TDAH y autismo»",
+  "veredicto": "matiz",
+  "matiz": "Los diagnósticos han aumentado mucho, pero eso no equivale a un aumento real de casos: influyen criterios más amplios, más detección y más servicios. Frances habla de «falsas epidemias»; otros, de casos antes invisibles. Ambas cosas pueden ocurrir a la vez.",
+  "salto": "del aumento de diagnósticos a «es una epidemia»",
+  "relacionados": [
+   "dsm",
+   "dsm-5",
+   "inflacion-diagnostica",
+   "sobrediagnostico",
+   "medicalizacion",
+   "errores-simetricos"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Frances, A. y Batstra, L. (2013). Why so many epidemics of childhood mental disorder? Journal of Developmental and Behavioral Pediatrics, 34(4), 291–292",
+    "url": "https://doi.org/10.1097/DBP.0b013e31829425f5"
+   },
+   {
+    "titulo": "Batstra, L. y Frances, A. (2012). Diagnostic inflation: causes and a suggested cure. Journal of Nervous and Mental Disease, 200(6), 474–479",
+    "url": "https://doi.org/10.1097/NMD.0b013e318257c4a2"
+   },
+   {
+    "titulo": "Frances, A. J. y Nardo, J. M. (2013). ICD-11 should not repeat the mistakes made by DSM-5. British Journal of Psychiatry, 203(1), 1–2",
+    "url": "https://doi.org/10.1192/bjp.bp.113.127647"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "temple-grandin",
+  "lema": "Temple Grandin",
+  "variantes": [
+   "Mary Temple Grandin"
+  ],
+  "tipo": "persona",
+  "familia": "Identidad y comunidad",
+  "anio": 1986,
+  "anio_nota": "Publicó, con Margaret Scariano, Emergence: Labeled Autistic, una de las primeras autobiografías de una persona autista.",
+  "obra": "Emergence: Labeled Autistic (con Margaret Scariano, 1986); Thinking in Pictures (1995)",
+  "figuras": [
+   "Temple Grandin",
+   "Margaret Scariano",
+   "Oliver Sacks"
+  ],
+  "definicion": "Científica estadounidense nacida en 1947, autista y profesora de Ciencia Animal en la Universidad Estatal de Colorado. Sus diseños para el manejo de ganado se usan en instalaciones que tratan cerca de la mitad del ganado vacuno de Estados Unidos, y sus libros la convirtieron en una de las voces autistas más conocidas.",
+  "usos": [
+   "R",
+   "I",
+   "E"
+  ],
+  "controversia": "Defiende la intervención temprana y critica el DSM-5 por demasiado amplio, posturas que chocan con parte del activismo. También se le ha reprochado haber especulado durante años con un vínculo entre vacunas y autismo, que la evidencia descarta.",
+  "contexto": "Grandin nació en Boston en 1947, cuando el autismo apenas se conocía. No habló hasta los tres años y medio, recibió logopedia temprana y su primer diagnóstico formal fue de «daño cerebral»; el de autismo llegó más tarde. De joven construyó una «máquina de abrazos» que le aplicaba presión profunda para calmar la ansiedad, y en 1992 publicó un artículo científico sobre sus efectos. Se doctoró en Ciencia Animal y desde 1990 enseña en la Universidad Estatal de Colorado. En 1986 publicó Emergence, que Ian Hacking sitúa al comienzo de una serie de autobiografías autistas que crearon un lenguaje para describir esa experiencia desde dentro. Oliver Sacks la retrató en Un antropólogo en Marte (1995), título tomado de cómo ella decía sentirse entre la gente. En 2010 HBO estrenó una película sobre su vida y la revista Time la incluyó entre las cien personas más influyentes del año.",
+  "ejemplos": [
+   "Profesionales que trabajan con alumnado autista citan su idea de «pensar en imágenes» para justificar apoyos visuales, como horarios con pictogramas.",
+   "En formación sobre sensorialidad, su máquina de presión profunda se cita para explicar por qué a algunas personas autistas la presión firme les ayuda a tolerar el contacto.",
+   "En debates sobre el diagnóstico en mujeres, Frith recuerda que una mujer, Grandin, fue durante décadas el prototipo público del autismo.",
+   "En la industria ganadera, sus diseños de mangas curvas y corrales sirven de referencia para reducir el estrés de los animales durante su manejo.",
+   "En institutos, la película de HBO de 2010 se usa para abrir conversaciones sobre talento, diferencia y apoyos en el autismo."
+  ],
+  "implicaciones": "Grandin encarna una idea que hoy tiene mucha fuerza: las diferencias autistas pueden ir unidas a capacidades valiosas. Su forma de pensar en imágenes le ayudó a mirar el mundo «con ojos de vaca» y a diseñar instalaciones más humanas para los animales. Pero convertirla en modelo único tiene riesgos: no todas las personas autistas tienen talentos extraordinarios, y el mito del «genio autista» puede invisibilizar a quienes necesitan mucho apoyo. Ella misma defiende la intervención temprana para niños con grandes dificultades. Cuando se presenta su historia en aulas y familias, conviene hacerlo como una voz importante, no como la medida de todo el espectro. Su caso combina los usos de reconocerse, investigar y educar.",
+  "sabias": "Grandin construyó de joven una «máquina de abrazos» que comprimía su cuerpo entre dos paneles acolchados. En 1992 publicó un artículo científico sobre los efectos calmantes de esa presión profunda.",
+  "piensalo": "¿Ayudan los referentes famosos a entender el autismo, o pueden hacer que esperemos de todas las personas autistas un talento especial?",
+  "paso": "Elige un apoyo visual que uses a diario, como un mapa del metro o un icono, y piensa qué información te da sin necesidad de palabras.",
+  "frase": "«Todas las personas autistas tienen un don especial»",
+  "veredicto": "mito",
+  "matiz": "Algunas personas autistas tienen habilidades muy destacadas, como Grandin, pero no es la norma. Muchas tienen perfiles desiguales y otras tienen discapacidad intelectual. El estereotipo del genio puede ocultar necesidades de apoyo.",
+  "salto": "del grupo al individuo",
+  "relacionados": [
+   "autismo",
+   "autismo-profundo",
+   "estigma",
+   "uta-frith",
+   "ian-hacking"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Hacking, I. (2009). Autistic autobiography. Philosophical Transactions of the Royal Society B, 364(1522), 1467–1473",
+    "url": "https://doi.org/10.1098/rstb.2008.0329"
+   },
+   {
+    "titulo": "Grandin, T. (1992). Calming effects of deep touch pressure in patients with autistic disorder, college students, and animals. Journal of Child and Adolescent Psychopharmacology, 2(1), 63–72",
+    "url": "https://doi.org/10.1089/cap.1992.2.63"
+   },
+   {
+    "titulo": "Temple Grandin. Web oficial (biografía)",
+    "url": "https://www.templegrandin.com/"
+   }
+  ],
+  "estado": "probable",
+  "nucleo": false
+ },
+ {
+  "id": "russell-barkley",
+  "lema": "Russell Barkley",
+  "variantes": [
+   "Russell A. Barkley"
+  ],
+  "tipo": "persona",
+  "familia": "Neurodesarrollo",
+  "anio": 1997,
+  "anio_nota": "Publicó su modelo del TDAH como déficit de inhibición conductual ligado a las funciones ejecutivas.",
+  "obra": "«Behavioral inhibition, sustained attention, and executive functions: constructing a unifying theory of ADHD», Psychological Bulletin (1997)",
+  "figuras": [
+   "Russell Barkley",
+   "Mariellen Fischer"
+  ],
+  "definicion": "Psicólogo estadounidense especializado en TDAH y profesor en la Virginia Commonwealth University. En 1997 propuso entender el TDAH como un déficit de inhibición que afecta a las funciones ejecutivas y a la autorregulación, más que como un simple problema de atención.",
+  "usos": [
+   "I",
+   "D",
+   "E"
+  ],
+  "controversia": "Su modelo es muy influyente, pero se discute si un solo déficit explica un trastorno tan heterogéneo. También genera debate su estimación de menor esperanza de vida en el TDAH, obtenida con una calculadora basada en factores de riesgo.",
+  "contexto": "Barkley desarrolló su carrera en Estados Unidos en los años ochenta y noventa, cuando el TDAH dejaba de verse como un problema infantil que desaparecía con la edad y el DSM reorganizaba una y otra vez sus subtipos. En ese contexto propuso una teoría unificada: el núcleo del TDAH sería una dificultad para inhibir la respuesta, de la que dependerían cuatro funciones ejecutivas. Son la memoria de trabajo, la autorregulación de la emoción y la motivación, la interiorización del habla y la «reconstitución», es decir, analizar y recombinar conductas. Su propuesta desplazó el foco de la atención a la autorregulación y a la capacidad de guiar la conducta hacia el futuro. En 2002 encabezó una declaración internacional de consenso que defendía la validez del TDAH frente a su retrato en los medios. Ha escrito numerosos libros para familias y profesionales, y sus estudios de seguimiento han analizado consecuencias del TDAH en la vida adulta.",
+  "ejemplos": [
+   "En consulta, explicar a una familia que el TDAH tiene más que ver con autorregularse que con «no saber» lo que hay que hacer sigue el enfoque de Barkley.",
+   "En el aula, apoyos como dividir tareas, dar recordatorios visibles o acercar las consecuencias en el tiempo se justifican a menudo con su modelo.",
+   "Algunos programas de entrenamiento para familias se inspiran en manuales de Barkley sobre el manejo de la conducta en casa.",
+   "En redes, su dato de que el TDAH podría restar años de vida se comparte sin aclarar que es una estimación por factores de riesgo, no un recuento de muertes.",
+   "En investigación, su modelo impulsó muchos estudios sobre funciones ejecutivas en el TDAH, cuyos resultados sugieren que no todas las personas con TDAH tienen esos déficits."
+  ],
+  "implicaciones": "Las explicaciones del TDAH que hoy llegan a familias y docentes, también en España, deben mucho a modelos como el de Barkley: un problema de autorregulación y funciones ejecutivas, más que de pereza o de mala crianza. Esa explicación reduce culpas y orienta apoyos concretos en clase. Pero conviene no reificarla: un modelo teórico no es un mecanismo demostrado en cada persona, y el TDAH es heterogéneo. Su trabajo ilustra además un riesgo del uso divulgativo: cifras impactantes, como la de años de vida perdidos, viajan por redes sin su letra pequeña. Leído con la tesis IDEAR, su modelo es útil para investigar y para educar, pero cualquier informe individual debe basarse en una evaluación de esa persona, no en la teoría general.",
+  "sabias": "En el modelo de Barkley de 1997, una de las funciones afectadas en el TDAH es la «interiorización del habla»: la voz interior con la que nos damos instrucciones a nosotros mismos para guiar lo que hacemos.",
+  "piensalo": "Si el TDAH es sobre todo un problema de autorregulación, ¿qué parte del apoyo debería estar en la persona y qué parte en el entorno?",
+  "paso": "Elige una tarea larga que te cueste empezar, divídela en pasos de diez minutos y anota si cambia tu forma de afrontarla.",
+  "frase": "«El TDAH quita años de vida»",
+  "veredicto": "matiz",
+  "matiz": "Barkley y Fischer estimaron una esperanza de vida menor en jóvenes con TDAH usando una calculadora basada en factores de riesgo, no midiendo muertes. Señala riesgos modificables, no un destino individual.",
+  "salto": "del grupo al individuo",
+  "relacionados": [
+   "tdah",
+   "funciones-ejecutivas",
+   "tdah-adulto",
+   "entrenamiento-padres",
+   "george-still",
+   "reificacion"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Barkley, R. A. (1997). Behavioral inhibition, sustained attention, and executive functions: constructing a unifying theory of ADHD. Psychological Bulletin, 121(1), 65–94",
+    "url": "https://doi.org/10.1037/0033-2909.121.1.65"
+   },
+   {
+    "titulo": "Barkley, R. A. (2002). International consensus statement on ADHD. Clinical Child and Family Psychology Review, 5(2), 89–111",
+    "url": "https://doi.org/10.1023/a:1017494719205"
+   },
+   {
+    "titulo": "Barkley, R. A. y Fischer, M. (2019). Hyperactive child syndrome and estimated life expectancy at young adult follow-up. Journal of Attention Disorders, 23(9), 907–923",
+    "url": "https://doi.org/10.1177/1087054718816164"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "joseph-renzulli",
+  "lema": "Joseph Renzulli",
+  "variantes": [
+   "Joseph S. Renzulli",
+   "modelo de Renzulli"
+  ],
+  "tipo": "persona",
+  "familia": "Altas capacidades y excepcionalidades",
+  "anio": 1978,
+  "anio_nota": "Publicó en Phi Delta Kappan el artículo que presenta su concepción de los tres anillos de la superdotación.",
+  "obra": "«What Makes Giftedness? Reexamining a Definition», Phi Delta Kappan, 60(3), 180–184 (1978)",
+  "figuras": [
+   "Joseph Renzulli",
+   "Sally Reis"
+  ],
+  "definicion": "Psicólogo educativo estadounidense nacido en 1936 y catedrático de la Universidad de Connecticut. Propuso que la superdotación surge de la interacción de tres rasgos: capacidad por encima de la media, creatividad y compromiso con la tarea. También creó modelos de enriquecimiento escolar pensados para todo el alumnado.",
+  "usos": [
+   "E",
+   "I",
+   "A"
+  ],
+  "controversia": "Se discute si el compromiso con la tarea debe formar parte de la definición, porque podría excluir a alumnado capaz pero desmotivado o con doble excepcionalidad. También cómo encaja su modelo con los umbrales de CI que usan muchas administraciones.",
+  "contexto": "En los años setenta, muchas definiciones de superdotación se centraban en las puntuaciones en pruebas de inteligencia. Renzulli, desde la psicología educativa, sostuvo que la capacidad intelectual por sí sola no explicaba quién llegaba a hacer aportaciones creativas destacadas. En 1978 propuso redefinir la superdotación como la intersección de tres anillos: una capacidad por encima de la media, no necesariamente excepcional; altos niveles de creatividad; y un fuerte compromiso con la tarea. La propuesta encajaba con una época que buscaba ampliar el acceso a los programas educativos y valorar el rendimiento real, no solo el potencial medido. Con Sally Reis desarrolló el Modelo de Enriquecimiento para Toda la Escuela, que extiende estrategias de la educación del talento a todo el alumnado, y en 1978 cofundaron Confratute, un curso de verano por el que han pasado más de 35.000 docentes. Ha estado vinculado al centro nacional de investigación sobre superdotación y talento de la Universidad de Connecticut.",
+  "ejemplos": [
+   "Algunos protocolos de identificación de altas capacidades combinan pruebas de inteligencia con medidas de creatividad y de implicación en la tarea, en la línea de los tres anillos.",
+   "Un centro que organiza talleres de enriquecimiento abiertos a toda la clase, y no solo al alumnado identificado, aplica la lógica del modelo de Renzulli y Reis.",
+   "En una reunión de evaluación, una familia pregunta por qué su hija con un CI alto no fue identificada, y el informe alude a la creatividad o al compromiso.",
+   "En formación docente, los tres anillos sirven para explicar que la alta capacidad no es solo un número, sino una interacción que puede desarrollarse.",
+   "En debates sobre doble excepcionalidad se cuestiona exigir compromiso con la tarea a alumnado con TDAH, cuya motivación puede fluctuar por su condición."
+  ],
+  "implicaciones": "En España, la identificación de altas capacidades varía entre comunidades autónomas y suele combinar pruebas de inteligencia con otros criterios; el modelo de Renzulli es uno de los marcos teóricos que suelen mencionarse. Recuerda que identificar es una decisión con consecuencias: según la definición, cambia quién accede a programas de enriquecimiento o a la flexibilización del curso. También plantea una pregunta delicada: si el compromiso con la tarea forma parte de la definición, ¿qué pasa con el alumno capaz que se aburre o tiene TDAH? Leídos con la tesis IDEAR, sus anillos son sobre todo una herramienta para educar, no para diagnosticar ni para medir el valor de nadie. Y su enriquecimiento para toda la escuela muestra que muchos apoyos no necesitan etiqueta.",
+  "sabias": "La revista Phi Delta Kappan reeditó en 2011 el artículo de Renzulli de 1978, más de tres décadas después. En 2009 había recibido el premio McGraw, que algunos llaman «el Nobel» de los educadores.",
+  "piensalo": "Si la alta capacidad depende también de la motivación y del entorno, ¿se tiene, se desarrolla o ambas cosas?",
+  "paso": "Busca el protocolo de identificación de altas capacidades de tu comunidad autónoma y anota qué criterios usa además del CI.",
+  "frase": "«Ser superdotado es tener un CI de más de 130»",
+  "veredicto": "matiz",
+  "matiz": "Muchos protocolos usan un CI en torno a 130 como orientación, pero modelos como el de Renzulli añaden creatividad y compromiso con la tarea. La definición depende del modelo y de la normativa, no de un único número.",
+  "salto": "",
+  "relacionados": [
+   "modelo-tres-anillos",
+   "altas-capacidades",
+   "superdotacion",
+   "doble-excepcionalidad",
+   "ci",
+   "talento"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Renzulli, J. S. (1978; reedición 2011). What Makes Giftedness? Reexamining a Definition. Phi Delta Kappan, 60(3), 180–184; reed. 92(8), 81–88",
+    "url": "https://journals.sagepub.com/doi/10.1177/003172171109200821"
+   },
+   {
+    "titulo": "Neag School of Education, University of Connecticut. Joseph S. Renzulli (ficha de profesorado)",
+    "url": "https://education.uconn.edu/person/joseph-renzulli/"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ }
+]

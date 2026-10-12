@@ -24,6 +24,13 @@ const ETAPAS = [
 
 const VISTAS = [{ k: 'todo', l: 'Todo', d: [DESDE, FIN] }, ...FASES.map((f, i) => ({ k: `f${f.n}`, l: f.corto, nombre: f.nombre, d: ETAPAS[i].d }))];
 
+// Rótulo corto para los gráficos: «TDAH (trastorno por…)» → «TDAH»
+const rotulo = s => {
+  const m = /^(.*?)\s*\(([^)]*)\)\s*$/.exec(s || '');
+  if (!m) return s;
+  return /^[A-ZÁÉÍÓÚÑ0-9-]{2,8}$/.test(m[2]) && m[1].length > 22 ? m[2] : m[1];
+};
+
 export function render(root, ctx, parts, q) {
   document.title = 'Viajar · NeuroLab';
   const d3 = window.d3;
@@ -284,13 +291,13 @@ export function render(root, ctx, parts, q) {
       if (pxAnio > 9) for (const t of vis.slice().sort((a, b) => peso(b) - peso(a))) if (!etiquetas.includes(t)) etiquetas.push(t);
       const usadas = [], puntos = vis.map(t => [t.id, ...pos.get(t.id)]);
       capa.selectAll('text.tl').data(etiquetas.filter(t => {
-        const [px, py] = pos.get(t.id), x0 = px + r + 2, w = t.lema.length * 6.3 + 4;
+        const [px, py] = pos.get(t.id), x0 = px + r + 2, w = rotulo(t.lema).length * 6.3 + 4;
         if (x0 + w > W - M.r) return false;
         if (usadas.some(u => x0 < u.x + u.w && x0 + w > u.x && Math.abs(py - u.y) < 13)) return false;
         if (!esFoco(t) && puntos.some(([id, qx, qy]) => id !== t.id && qx + r > x0 && qx - r < x0 + w && Math.abs(qy - py) < r + 6)) return false;
         usadas.push({ x: x0, y: py, w }); return true;
       }), d => d.id).join('text').attr('class', d => (esFoco(d) ? 'tl lbl-strong nl-halo' : 'tl lbl nl-halo'))
-        .attr('x', d => pos.get(d.id)[0] + r + 3).attr('y', d => pos.get(d.id)[1]).attr('dy', '0.35em').style('pointer-events', 'none').text(d => d.lema);
+        .attr('x', d => pos.get(d.id)[0] + r + 3).attr('y', d => pos.get(d.id)[1]).attr('dy', '0.35em').style('pointer-events', 'none').text(d => rotulo(d.lema));
     };
     zoom = d3.zoom().scaleExtent([1, 30]).translateExtent([[M.l, 0], [W - M.r, Hh]]).extent([[M.l, 0], [W - M.r, Hh]])
       .filter(e => (!e.ctrlKey || e.type === 'wheel') && !e.button)

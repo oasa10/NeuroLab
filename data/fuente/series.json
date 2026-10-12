@@ -1,84 +1,12 @@
 [
  {
-  "id": "neae",
-  "titulo": "Alumnado con necesidad específica de apoyo educativo en España (prueba)",
-  "unidad": "alumnos",
-  "nota": "Datos de prueba. Curso que empieza en el año indicado.",
+  "id": "autismo-addm-eeuu",
+  "titulo": "Autismo identificado a los 8 años en EE. UU. (red ADDM de los CDC)",
+  "unidad": "casos por cada 1.000 niños y niñas de 8 años",
+  "nota": "Mide casos identificados en historias sanitarias y escolares de las zonas vigiladas (de 6 a 16 según el año), no un recuento de toda la población. No permite distinguir si hay más autismo o más autismo detectado, ni hablar de «epidemia», ni trasladar la cifra a España.",
   "fuente": {
-   "titulo": "Fuente de prueba",
-   "url": "https://example.org/s1"
-  },
-  "puntos": [
-   [
-    2010,
-    443001
-   ],
-   [
-    2011,
-    453413
-   ],
-   [
-    2012,
-    456912
-   ],
-   [
-    2013,
-    477844
-   ],
-   [
-    2014,
-    489640
-   ],
-   [
-    2015,
-    504956
-   ],
-   [
-    2016,
-    541966
-   ],
-   [
-    2017,
-    560867
-   ],
-   [
-    2018,
-    599566
-   ],
-   [
-    2019,
-    639345
-   ],
-   [
-    2020,
-    692583
-   ],
-   [
-    2021,
-    736495
-   ],
-   [
-    2022,
-    795040
-   ],
-   [
-    2023,
-    857692
-   ],
-   [
-    2024,
-    923870
-   ]
-  ]
- },
- {
-  "id": "prev-tea",
-  "titulo": "Prevalencia estimada de autismo (prueba)",
-  "unidad": "por cada 1.000",
-  "nota": "Serie de prueba con pocos puntos.",
-  "fuente": {
-   "titulo": "Fuente de prueba 2",
-   "url": "https://example.org/s2"
+   "titulo": "CDC. Data and Statistics on Autism Spectrum Disorder (red ADDM, años de vigilancia 2000-2022)",
+   "url": "https://www.cdc.gov/autism/data-research/index.html"
   },
   "puntos": [
    [
@@ -132,178 +60,162 @@
   ]
  },
  {
-  "id": "pub",
-  "titulo": "Publicaciones científicas por año sobre neurodiversidad (prueba)",
-  "unidad": "artículos",
-  "nota": "Serie de prueba.",
+  "id": "tdah-diagnostico-eeuu",
+  "titulo": "TDAH diagnosticado alguna vez en EE. UU. (4 a 17 años)",
+  "unidad": "% de menores, según sus familias",
+  "nota": "Porcentaje que, según la familia, recibió alguna vez un diagnóstico de TDAH (encuesta NSCH, mismo diseño en 2003, 2007 y 2011). Mide diagnósticos, no casos: no distingue mejor detección, sobrediagnóstico o cambio de criterios. Las ediciones posteriores cambiaron de diseño y no se encadenan.",
   "fuente": {
-   "titulo": "Fuente de prueba 3",
-   "url": "https://example.org/s3"
+   "titulo": "CDC. Key findings: Trends in the parent-report of health care provider-diagnosed and medicated ADHD, United States, 2003-2011 (Visser et al., 2014)",
+   "url": "https://archive.cdc.gov/www_cdc_gov/ncbddd/adhd/features/key-findings-adhd72013.html"
   },
   "puntos": [
    [
-    2000,
-    3
-   ],
-   [
-    2001,
-    4
-   ],
-   [
-    2002,
-    5
-   ],
-   [
     2003,
-    7
-   ],
-   [
-    2004,
-    9
-   ],
-   [
-    2005,
-    13
-   ],
-   [
-    2006,
-    18
+    7.8
    ],
    [
     2007,
-    24
-   ],
-   [
-    2008,
-    33
-   ],
-   [
-    2009,
-    44
-   ],
-   [
-    2010,
-    60
+    9.5
    ],
    [
     2011,
-    81
-   ],
-   [
-    2012,
-    109
-   ],
-   [
-    2013,
-    148
-   ],
-   [
-    2014,
-    200
-   ],
-   [
-    2015,
-    270
-   ],
-   [
-    2016,
-    365
-   ],
-   [
-    2017,
-    492
-   ],
-   [
-    2018,
-    665
-   ],
-   [
-    2019,
-    898
-   ],
-   [
-    2020,
-    1212
-   ],
-   [
-    2021,
-    1637
-   ],
-   [
-    2022,
-    2210
-   ],
-   [
-    2023,
-    2983
-   ],
-   [
-    2024,
-    4028
+    11.0
    ]
   ]
  },
  {
-  "id": "altas",
-  "titulo": "Alumnado identificado con altas capacidades (prueba)",
-  "unidad": "% del alumnado",
-  "nota": "Serie de prueba en porcentaje.",
+  "id": "hiperactividad-inglaterra",
+  "titulo": "Trastornos de hiperactividad en Inglaterra (5 a 15 años), medidos con el mismo método",
+  "unidad": "% que cumple criterios en una entrevista estandarizada",
+  "nota": "Prevalencia en muestras representativas evaluadas con la misma entrevista (DAWBA), no diagnósticos clínicos; el informe considera la serie estable. Comparada con la de diagnósticos, muestra que pueden ir por caminos distintos, pero no permite comparar países ni saber cuántos tienen diagnóstico o tratamiento.",
   "fuente": {
-   "titulo": "Fuente de prueba 4",
-   "url": "https://example.org/s4"
+   "titulo": "NHS Digital (2018). Mental Health of Children and Young People in England, 2017: Trends and characteristics",
+   "url": "https://dera.ioe.ac.uk//32622/2/MHCYP%202017%20Trends%20Characteristics.pdf"
+  },
+  "puntos": [
+   [
+    1999,
+    1.5
+   ],
+   [
+    2004,
+    1.5
+   ],
+   [
+    2017,
+    1.9
+   ]
+  ]
+ },
+ {
+  "id": "neae-espana",
+  "titulo": "Alumnado con necesidad específica de apoyo educativo (NEAE) en España",
+  "unidad": "% del alumnado de enseñanzas no universitarias (año = inicio del curso)",
+  "nota": "Alumnado que recibe una atención educativa diferente a la ordinaria. Suma situaciones muy distintas (discapacidad, aprendizaje, altas capacidades, vulnerabilidad…) cuyas categorías han cambiado con las leyes y varían entre comunidades. Mide apoyos registrados, no prevalencia de trastornos.",
+  "fuente": {
+   "titulo": "Ministerio de Educación, FP y Deportes. Sistema estatal de indicadores de la educación 2025, indicador E7: alumnado con necesidad específica de apoyo educativo",
+   "url": "https://www.educacionfpydeportes.gob.es/inee/gl/dam/jcr:9286b8e4-22e5-4879-966f-291978acdf6e/e7.pdf"
   },
   "puntos": [
    [
     2012,
-    0.17
+    5.3
    ],
    [
     2013,
-    0.2
+    5.6
    ],
    [
     2014,
-    0.24
+    6.5
    ],
    [
     2015,
-    0.28
+    6.8
    ],
    [
     2016,
-    0.32
+    7.6
    ],
    [
     2017,
-    0.36
+    8.3
    ],
    [
     2018,
-    0.39
+    8.8
    ],
    [
     2019,
-    0.44
+    9.0
    ],
    [
     2020,
-    0.49
+    9.3
    ],
    [
     2021,
-    0.52
+    10.0
    ],
    [
     2022,
-    0.56
+    12.0
+   ]
+  ]
+ },
+ {
+  "id": "nee-espana",
+  "titulo": "Alumnado con necesidades educativas especiales (NEE) en España",
+  "unidad": "% del alumnado de enseñanzas no universitarias (año = inicio del curso)",
+  "nota": "Parte de las NEAE ligada a discapacidad o trastornos graves (autismo, discapacidad intelectual, conducta, comunicación…). Crece mucho menos que el total: la mayor parte del aumento de NEAE está en otras categorías. No mide prevalencia ni es comparable sin más entre comunidades.",
+  "fuente": {
+   "titulo": "Ministerio de Educación, FP y Deportes. Sistema estatal de indicadores de la educación 2025, indicador E7: alumnado con necesidad específica de apoyo educativo",
+   "url": "https://www.educacionfpydeportes.gob.es/inee/gl/dam/jcr:9286b8e4-22e5-4879-966f-291978acdf6e/e7.pdf"
+  },
+  "puntos": [
+   [
+    2012,
+    2.0
    ],
    [
-    2023,
-    0.59
+    2013,
+    2.1
    ],
    [
-    2024,
-    0.64
+    2014,
+    2.2
+   ],
+   [
+    2015,
+    2.6
+   ],
+   [
+    2016,
+    2.7
+   ],
+   [
+    2017,
+    2.7
+   ],
+   [
+    2018,
+    2.6
+   ],
+   [
+    2019,
+    2.7
+   ],
+   [
+    2020,
+    2.8
+   ],
+   [
+    2021,
+    3.1
+   ],
+   [
+    2022,
+    3.3
    ]
   ]
  }

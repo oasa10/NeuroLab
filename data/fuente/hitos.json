@@ -2,979 +2,1133 @@
  {
   "anio": 1798,
   "mes": null,
-  "titulo": "Crichton publica su Inquiry (hito de prueba)",
-  "texto": "Texto de prueba del hito «Crichton publica su Inquiry». Se sustituirá por el real.",
+  "titulo": "Crichton describe una atención que no se queda quieta",
+  "texto": "El médico escocés Alexander Crichton dedica un capítulo de su tratado sobre el trastorno mental a una atención que salta sin parar de una impresión a otra. Se lee hoy como precedente del TDAH, con la prudencia que piden dos siglos de distancia.",
   "tipo": "ciencia",
   "ambito": "internacional",
   "terminos": [
-   "altas-capacidades"
+   "alexander-crichton",
+   "tdah"
   ],
   "fuente": {
-   "titulo": "Fuente de prueba",
-   "url": "https://example.org"
+   "titulo": "Lange KW et al. (2010). The history of attention deficit hyperactivity disorder. ADHD Attention Deficit and Hyperactivity Disorders, 2(4). DOI 10.1007/s12402-010-0045-8",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21258430/"
   },
   "estado": "verificada"
  },
  {
   "anio": 1902,
-  "mes": 4,
-  "titulo": "Still en The Lancet (hito de prueba)",
-  "texto": "Texto de prueba del hito «Still en The Lancet». Se sustituirá por el real.",
+  "mes": null,
+  "titulo": "Still y el «defecto anormal del control moral»",
+  "texto": "En sus conferencias Goulstonian, publicadas en The Lancet, el pediatra George Still describe a niños sin déficit intelectual con un «defecto anormal del control moral». Se cita como punto de partida científico del TDAH, aunque su lenguaje moralizante hoy chirría.",
   "tipo": "ciencia",
   "ambito": "internacional",
   "terminos": [
-   "harvey-blume",
-   "prevalencia"
+   "george-still",
+   "tdah"
   ],
   "fuente": {
-   "titulo": "Fuente de prueba",
-   "url": "https://example.org"
+   "titulo": "Lange KW et al. (2010). The history of attention deficit hyperactivity disorder. ADHD Attention Deficit and Hyperactivity Disorders, 2(4). DOI 10.1007/s12402-010-0045-8",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21258430/"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1905,
+  "mes": null,
+  "titulo": "Binet y Simon crean la primera escala de inteligencia",
+  "texto": "En París, Alfred Binet y Théodore Simon presentan una escala para medir la inteligencia infantil, que revisarán hasta 1911. Nació con un fin muy práctico: saber qué escolares necesitaban otra enseñanza.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "ci",
+   "escalas-valoracion"
+  ],
+  "fuente": {
+   "titulo": "Encyclopaedia Britannica. Alfred Binet",
+   "url": "https://www.britannica.com/biography/Alfred-Binet"
   },
   "estado": "verificada"
  },
  {
   "anio": 1911,
   "mes": null,
-  "titulo": "Bleuler y el autismo (hito de prueba)",
-  "texto": "Texto de prueba del hito «Bleuler y el autismo». Se sustituirá por el real.",
+  "titulo": "Bleuler acuña «autismo» para hablar de esquizofrenia",
+  "texto": "El psiquiatra suizo Eugen Bleuler introduce «autismo» en su obra sobre las esquizofrenias para nombrar el repliegue hacia el mundo interior. La palabra tardaría tres décadas en cambiar de dueño y pasar a describir a niños y niñas.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "eugen-bleuler",
+   "autismo"
+  ],
+  "fuente": {
+   "titulo": "Gündel H, Rudolf GA (1993). Schizophrenic autism. 1. Historical evolution and perspectives. Psychopathology, 26(5-6). DOI 10.1159/000284837",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8190851/"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1916,
+  "mes": null,
+  "titulo": "Terman populariza el cociente intelectual",
+  "texto": "Lewis Terman publica en Stanford su revisión de la escala de Binet, la Stanford-Binet, que expresa el resultado como cociente intelectual (CI). Un número sencillo que viajó muy lejos, a veces más de lo que el test permitía.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "ci",
+   "escalas-valoracion"
+  ],
+  "fuente": {
+   "titulo": "Encyclopaedia Britannica. Lewis Terman",
+   "url": "https://www.britannica.com/biography/Lewis-Terman"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1921,
+  "mes": null,
+  "titulo": "Empieza el estudio de Terman sobre escolares «superdotados»",
+  "texto": "Terman inicia un seguimiento de por vida a 1.528 escolares de California con CI muy alto, publicado como Genetic Studies of Genius. Es uno de los estudios longitudinales más largos de la psicología y fijó durante décadas la equivalencia entre dotación y CI.",
   "tipo": "ciencia",
   "ambito": "internacional",
-  "terminos": [],
+  "terminos": [
+   "altas-capacidades",
+   "superdotacion",
+   "ci"
+  ],
   "fuente": {
-   "titulo": "Fuente de prueba",
-   "url": "https://example.org"
+   "titulo": "Encyclopaedia Britannica. Lewis Terman",
+   "url": "https://www.britannica.com/biography/Lewis-Terman"
   },
   "estado": "verificada"
  },
  {
   "anio": 1925,
   "mes": null,
-  "titulo": "Sukhareva (hito de prueba)",
-  "texto": "Texto de prueba del hito «Sukhareva». Se sustituirá por el real.",
+  "titulo": "Sukhareva describe rasgos autistas antes que nadie",
+  "texto": "La psiquiatra infantil soviética Grunya Sukhareva publica en ruso (y en 1926 en alemán) la descripción de seis niños con rasgos que hoy reconoceríamos como autistas. Su trabajo, casi olvidado fuera de Rusia, se ha rescatado en las últimas décadas.",
   "tipo": "ciencia",
   "ambito": "internacional",
   "terminos": [
-   "neuroencanto",
-   "inflacion-diagnostica",
-   "transdiagnostico"
+   "grunya-sukhareva",
+   "autismo"
   ],
   "fuente": {
-   "titulo": "Fuente de prueba",
-   "url": "https://example.org"
+   "titulo": "Sher DA, Gibson JL (2021). Pioneering, prodigious and perspicacious: Grunya Efimovna Sukhareva's life and contribution to conceptualising autism and schizophrenia. European Child & Adolescent Psychiatry. DOI 10.1007/s00787-021-01875-7",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34562153/"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1937,
+  "mes": null,
+  "titulo": "Bradley y la bencedrina: un hallazgo casual",
+  "texto": "Charles Bradley da bencedrina a niños ingresados para aliviar el dolor de cabeza tras una prueba neurológica y observa, por sorpresa, mejoras en su conducta y su trabajo escolar. Es el primer informe conocido del efecto de un estimulante en la infancia.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "psicoestimulantes",
+   "tdah"
+  ],
+  "fuente": {
+   "titulo": "Lange KW et al. (2010). The history of attention deficit hyperactivity disorder. ADHD Attention Deficit and Hyperactivity Disorders, 2(4). DOI 10.1007/s12402-010-0045-8",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21258430/"
   },
   "estado": "verificada"
  },
  {
   "anio": 1943,
-  "mes": 4,
-  "titulo": "Kanner (hito de prueba)",
-  "texto": "Texto de prueba del hito «Kanner». Se sustituirá por el real.",
-  "tipo": "ciencia",
+  "mes": null,
+  "titulo": "Kanner describe once casos de autismo infantil",
+  "texto": "Leo Kanner publica en Baltimore «Autistic disturbances of affective contact»: once niños y niñas con poco interés por el contacto social y un fuerte deseo de que nada cambie. La palabra de Bleuler pasa a nombrar un cuadro infantil propio.",
+  "tipo": "clasificacion",
   "ambito": "internacional",
   "terminos": [
-   "harvey-blume",
-   "poligenia",
-   "modelo-gagne"
+   "leo-kanner",
+   "autismo"
   ],
   "fuente": {
-   "titulo": "Fuente de prueba",
-   "url": "https://example.org"
+   "titulo": "Kanner L (1943). Autistic disturbances of affective contact. Nervous Child, 2: 217-250 (reimpreso en Acta Paedopsychiatrica, 1968)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/4880460/"
   },
   "estado": "verificada"
  },
  {
   "anio": 1944,
   "mes": null,
-  "titulo": "Asperger (hito de prueba)",
-  "texto": "Texto de prueba del hito «Asperger». Se sustituirá por el real.",
+  "titulo": "Asperger publica su estudio sobre «psicópatas autistas»",
+  "texto": "En Viena, Hans Asperger publica su tesis sobre niños con dificultades sociales e intereses muy intensos. Pasó casi inadvertida fuera de Austria hasta los años ochenta; hoy se lee también a la luz de su papel durante el nazismo.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "hans-asperger",
+   "sindrome-asperger"
+  ],
+  "fuente": {
+   "titulo": "Czech H (2018). Hans Asperger, National Socialism, and «race hygiene» in Nazi-era Vienna. Molecular Autism, 9:29. DOI 10.1186/s13229-018-0208-6",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29713442/"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1952,
+  "mes": null,
+  "titulo": "Sale el primer DSM",
+  "texto": "La Asociación Estadounidense de Psiquiatría publica el primer Manual diagnóstico y estadístico de los trastornos mentales, un glosario de descripciones para uso clínico. Ni el TDAH ni el autismo tienen todavía categoría propia.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "dsm",
+   "categoria-diagnostica"
+  ],
+  "fuente": {
+   "titulo": "American Psychiatric Association. DSM History",
+   "url": "https://www.psychiatry.org/psychiatrists/practice/dsm/about-dsm/history-of-the-dsm"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1954,
+  "mes": null,
+  "titulo": "El metilfenidato llega a las farmacias como Ritalin",
+  "texto": "Ciba comercializa como Ritalin el metilfenidato que Leandro Panizzon había sintetizado en 1944; el nombre viene del de su esposa, Rita. Con el tiempo se convertirá en el fármaco más recetado para el TDAH.",
+  "tipo": "sociedad",
+  "ambito": "internacional",
+  "terminos": [
+   "metilfenidato",
+   "psicoestimulantes"
+  ],
+  "fuente": {
+   "titulo": "Lange KW et al. (2010). The history of attention deficit hyperactivity disorder. ADHD Attention Deficit and Hyperactivity Disorders, 2(4). DOI 10.1007/s12402-010-0045-8",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21258430/"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1968,
+  "mes": null,
+  "titulo": "DSM-II: la «reacción hipercinética de la infancia»",
+  "texto": "El DSM-II incluye la hiperactividad infantil como «reacción hipercinética», definida en solo dos frases: actividad excesiva, inquietud, distracción y poca atención, que suelen remitir en la adolescencia. Esto último resultó demasiado optimista.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "dsm",
+   "tdah"
+  ],
+  "fuente": {
+   "titulo": "Lange KW et al. (2010). The history of attention deficit hyperactivity disorder. ADHD Attention Deficit and Hyperactivity Disorders, 2(4). DOI 10.1007/s12402-010-0045-8",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21258430/"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1977,
+  "mes": 2,
+  "titulo": "Primer estudio de gemelos sobre autismo",
+  "texto": "Susan Folstein y Michael Rutter comparan gemelos idénticos y mellizos y encuentran mucha más coincidencia de autismo en los primeros. Se abre la vía genética y se resquebraja la idea de culpar a las llamadas «madres nevera».",
   "tipo": "ciencia",
   "ambito": "internacional",
   "terminos": [
-   "modelo-gagne"
+   "heredabilidad",
+   "autismo"
   ],
   "fuente": {
-   "titulo": "Fuente de prueba",
-   "url": "https://example.org"
+   "titulo": "Folstein S, Rutter M (1977). Genetic influences and infantile autism. Nature, 265: 726-728. DOI 10.1038/265726a0",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/558516/"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1978,
+  "mes": 5,
+  "titulo": "Informe Warnock: nacen las «necesidades educativas especiales»",
+  "texto": "En el Reino Unido, el comité presidido por Mary Warnock propone sustituir las categorías de deficiencia por el concepto de necesidades educativas especiales. La pregunta deja de ser qué tiene el alumno y pasa a ser qué apoyo necesita.",
+  "tipo": "ley",
+  "ambito": "internacional",
+  "terminos": [
+   "nee",
+   "educacion-inclusiva"
+  ],
+  "fuente": {
+   "titulo": "Warnock HM (dir.) (1978). Special Educational Needs: Report of the Committee of Enquiry into the Education of Handicapped Children and Young People. Londres: HMSO",
+   "url": "https://education-uk.org/documents/warnock/warnock1978.html"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1978,
+  "mes": 11,
+  "titulo": "Renzulli propone los tres anillos de la dotación",
+  "texto": "Joseph Renzulli define la dotación como el cruce de capacidad por encima de la media, compromiso con la tarea y creatividad. Un aviso temprano: un CI alto, por sí solo, no explica un rendimiento excepcional.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "joseph-renzulli",
+   "modelo-tres-anillos",
+   "altas-capacidades"
+  ],
+  "fuente": {
+   "titulo": "Renzulli JS (1978/2011). What makes giftedness? Reexamining a definition. Phi Delta Kappan, 60(3); reeditado en 92(8)",
+   "url": "https://journals.sagepub.com/doi/10.1177/003172171109200821"
   },
   "estado": "verificada"
  },
  {
   "anio": 1980,
   "mes": null,
-  "titulo": "DSM-III (hito de prueba)",
-  "texto": "Texto de prueba del hito «DSM-III». Se sustituirá por el real.",
+  "titulo": "DSM-III: criterios explícitos y «déficit de atención»",
+  "texto": "El DSM-III estrena listas de criterios, puntos de corte y un enfoque neutral sobre las causas. Rebautiza la hiperactividad como trastorno por déficit de atención, con o sin hiperactividad, y separa el autismo infantil de la esquizofrenia.",
   "tipo": "clasificacion",
   "ambito": "internacional",
   "terminos": [
-   "dsm-5-tr",
-   "prevalencia",
-   "sobreexcitabilidad"
+   "dsm-iii",
+   "criterio-diagnostico",
+   "umbral",
+   "tdah",
+   "autismo"
   ],
   "fuente": {
-   "titulo": "Fuente de prueba",
-   "url": "https://example.org"
+   "titulo": "American Psychiatric Association. DSM History",
+   "url": "https://www.psychiatry.org/psychiatrists/practice/dsm/about-dsm/history-of-the-dsm"
   },
   "estado": "verificada"
  },
  {
   "anio": 1981,
   "mes": 2,
-  "titulo": "Wing (hito de prueba)",
-  "texto": "Texto de prueba del hito «Wing». Se sustituirá por el real.",
+  "titulo": "Lorna Wing pone en circulación el «síndrome de Asperger»",
+  "texto": "La psiquiatra británica Lorna Wing da a conocer en inglés la obra de Asperger y propone agrupar ese síndrome y el autismo infantil en un conjunto más amplio de condiciones. Es la semilla de la idea de espectro.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "lorna-wing",
+   "sindrome-asperger",
+   "autismo"
+  ],
+  "fuente": {
+   "titulo": "Wing L (1981). Asperger's syndrome: a clinical account. Psychological Medicine, 11(1): 115-129. DOI 10.1017/s0033291700053332",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7208735/"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1982,
+  "mes": 4,
+  "titulo": "La LISMI apuesta por la escuela ordinaria",
+  "texto": "La Ley 13/1982 de integración social de los minusválidos establece que el alumnado con discapacidad se integrará en el sistema educativo ordinario, con apoyos, y reserva la educación especial para cuando no sea posible. El vocabulario ha envejecido; la idea, no tanto.",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [
+   "educacion-inclusiva",
+   "nee"
+  ],
+  "fuente": {
+   "titulo": "Ley 13/1982, de 7 de abril, de integración social de los minusválidos. BOE núm. 103, de 30 de abril de 1982",
+   "url": "https://www.boe.es/eli/es/l/1982/04/07/13"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1985,
+  "mes": null,
+  "titulo": "Gagné separa dotación y talento",
+  "texto": "Françoys Gagné propone distinguir la dotación, ligada a dominios de aptitud, del talento, que se manifiesta como rendimiento en un campo. De ahí saldrá su modelo diferenciado de dotación y talento: el talento se desarrolla, no viene de serie.",
   "tipo": "ciencia",
   "ambito": "internacional",
-  "terminos": [],
+  "terminos": [
+   "modelo-gagne",
+   "talento",
+   "altas-capacidades"
+  ],
   "fuente": {
-   "titulo": "Fuente de prueba",
-   "url": "https://example.org"
+   "titulo": "Gagné F (1985). Giftedness and talent: Reexamining a reexamination of the definitions. Gifted Child Quarterly, 29(3): 103-112. DOI 10.1177/001698628502900302",
+   "url": "https://journals.sagepub.com/doi/10.1177/001698628502900302"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1985,
+  "mes": 3,
+  "titulo": "Arranca la integración escolar en España",
+  "texto": "El Real Decreto 334/1985 ordena la educación especial con cuatro principios: normalización, integración escolar, sectorización e individualización. El alumnado con discapacidad debe escolarizarse en centros ordinarios «en el régimen de mayor integración posible».",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [
+   "educacion-inclusiva",
+   "nee"
+  ],
+  "fuente": {
+   "titulo": "Real Decreto 334/1985, de 6 de marzo, de ordenación de la Educación Especial. BOE núm. 65, de 16 de marzo de 1985",
+   "url": "https://www.boe.es/eli/es/rd/1985/03/06/334"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1985,
+  "mes": 10,
+  "titulo": "Sally, Ana y la «teoría de la mente»",
+  "texto": "Simon Baron-Cohen, Alan Leslie y Uta Frith publican que muchos niños autistas fallan una tarea de falsa creencia que superan otros grupos. La hipótesis marcó décadas de investigación y también de debate.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "teoria-mente",
+   "uta-frith",
+   "autismo"
+  ],
+  "fuente": {
+   "titulo": "Baron-Cohen S, Leslie AM, Frith U (1985). Does the autistic child have a «theory of mind»? Cognition, 21(1): 37-46. DOI 10.1016/0010-0277(85)90022-8",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2934210/"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1987,
+  "mes": null,
+  "titulo": "DSM-III-R: nace el nombre «TDAH»",
+  "texto": "La revisión del DSM-III elimina los dos subtipos y llama al cuadro trastorno por déficit de atención con hiperactividad (TDAH). En la misma edición, el «autismo infantil» pasa a ser «trastorno autista», con criterios más amplios.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "dsm",
+   "tdah",
+   "autismo"
+  ],
+  "fuente": {
+   "titulo": "Lange KW et al. (2010). The history of attention deficit hyperactivity disorder. ADHD Attention Deficit and Hyperactivity Disorders, 2(4). DOI 10.1007/s12402-010-0045-8",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21258430/"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1990,
+  "mes": 5,
+  "titulo": "La OMS adopta la CIE-10",
+  "texto": "La Asamblea Mundial de la Salud adopta la décima revisión de la Clasificación Internacional de Enfermedades, en vigor desde 1993. Su guía de trastornos mentales, de 1992, habla de «trastornos hipercinéticos», con criterios más exigentes que los del TDAH del DSM.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "categoria-diagnostica",
+   "criterio-diagnostico",
+   "tdah"
+  ],
+  "fuente": {
+   "titulo": "Organización Mundial de la Salud. International Classification of Diseases (ICD): historia de las revisiones",
+   "url": "https://www.who.int/standards/classifications/classification-of-diseases"
   },
   "estado": "verificada"
  },
  {
   "anio": 1990,
   "mes": 10,
-  "titulo": "LOGSE (hito de prueba)",
-  "texto": "Texto de prueba del hito «LOGSE». Se sustituirá por el real.",
+  "titulo": "La LOGSE introduce las «necesidades educativas especiales»",
+  "texto": "La Ley Orgánica 1/1990 incorpora el concepto nacido en el informe Warnock: el sistema dispondrá de recursos para el alumnado con necesidades educativas especiales, y su atención empezará desde el momento de su detección.",
   "tipo": "ley",
   "ambito": "españa",
   "terminos": [
-   "validez-constructo",
-   "neurodivergente"
+   "nee",
+   "educacion-inclusiva"
   ],
   "fuente": {
-   "titulo": "Fuente de prueba",
-   "url": "https://example.org"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 1994,
-  "mes": 5,
-  "titulo": "DSM-IV (hito de prueba)",
-  "texto": "Texto de prueba del hito «DSM-IV». Se sustituirá por el real.",
-  "tipo": "clasificacion",
-  "ambito": "internacional",
-  "terminos": [
-   "enigma",
-   "teoria-mente",
-   "poligenia"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba",
-   "url": "https://example.org"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 1998,
-  "mes": null,
-  "titulo": "Neurodiversidad (hito de prueba)",
-  "texto": "Texto de prueba del hito «Neurodiversidad». Se sustituirá por el real.",
-  "tipo": "movimiento",
-  "ambito": "internacional",
-  "terminos": [
-   "superdotacion",
-   "evaluacion-psicopedagogica",
-   "autismo-profundo"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba",
-   "url": "https://example.org"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 2006,
-  "mes": 5,
-  "titulo": "LOE (hito de prueba)",
-  "texto": "Texto de prueba del hito «LOE». Se sustituirá por el real.",
-  "tipo": "ley",
-  "ambito": "españa",
-  "terminos": [],
-  "fuente": {
-   "titulo": "Fuente de prueba",
-   "url": "https://example.org"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 2013,
-  "mes": 5,
-  "titulo": "DSM-5 (hito de prueba)",
-  "texto": "Texto de prueba del hito «DSM-5». Se sustituirá por el real.",
-  "tipo": "clasificacion",
-  "ambito": "internacional",
-  "terminos": [
-   "temple-grandin"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba",
-   "url": "https://example.org"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 2019,
-  "mes": 5,
-  "titulo": "CIE-11 aprobada (hito de prueba)",
-  "texto": "Texto de prueba del hito «CIE-11 aprobada». Se sustituirá por el real.",
-  "tipo": "clasificacion",
-  "ambito": "internacional",
-  "terminos": [
-   "neuroencanto"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba",
-   "url": "https://example.org"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 2020,
-  "mes": 12,
-  "titulo": "LOMLOE (hito de prueba)",
-  "texto": "Texto de prueba del hito «LOMLOE». Se sustituirá por el real.",
-  "tipo": "ley",
-  "ambito": "españa",
-  "terminos": [
-   "monotropismo",
-   "cpt",
-   "neuroimagen"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba",
-   "url": "https://example.org"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 2022,
-  "mes": 1,
-  "titulo": "CIE-11 en vigor (hito de prueba)",
-  "texto": "Texto de prueba del hito «CIE-11 en vigor». Se sustituirá por el real.",
-  "tipo": "clasificacion",
-  "ambito": "internacional",
-  "terminos": [
-   "psicoestimulantes",
-   "inflacion-diagnostica"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba",
-   "url": "https://example.org"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 1994,
-  "mes": 5,
-  "titulo": "Hito de prueba 17",
-  "texto": "Texto de prueba del hito 17, de tipo clasificacion, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "clasificacion",
-  "ambito": "españa",
-  "terminos": [
-   "agotamiento-autista"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 17",
-   "url": "https://example.org/h"
-  },
-  "estado": "probable"
- },
- {
-  "anio": 1975,
-  "mes": 2,
-  "titulo": "Hito de prueba 18",
-  "texto": "Texto de prueba del hito 18, de tipo sociedad, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "sociedad",
-  "ambito": "españa",
-  "terminos": [
-   "neurodivergente"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 18",
-   "url": "https://example.org/h"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 1902,
-  "mes": 8,
-  "titulo": "Hito de prueba 19",
-  "texto": "Texto de prueba del hito 19, de tipo clasificacion, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "clasificacion",
-  "ambito": "internacional",
-  "terminos": [
-   "autismo",
-   "dua",
-   "cribado"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 19",
-   "url": "https://example.org/h"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 1929,
-  "mes": null,
-  "titulo": "Hito de prueba 20",
-  "texto": "Texto de prueba del hito 20, de tipo clasificacion, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "clasificacion",
-  "ambito": "internacional",
-  "terminos": [
-   "tourette",
-   "modelo-dimensional",
-   "estrategia-tea"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 20",
-   "url": "https://example.org/h"
-  },
-  "estado": "probable"
- },
- {
-  "anio": 1990,
-  "mes": null,
-  "titulo": "Hito de prueba 21",
-  "texto": "Texto de prueba del hito 21, de tipo movimiento, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "movimiento",
-  "ambito": "españa",
-  "terminos": [
-   "fiabilidad"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 21",
-   "url": "https://example.org/h"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 1907,
-  "mes": 2,
-  "titulo": "Hito de prueba 22",
-  "texto": "Texto de prueba del hito 22, de tipo clasificacion, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "clasificacion",
-  "ambito": "internacional",
-  "terminos": [],
-  "fuente": {
-   "titulo": "Fuente de prueba 22",
-   "url": "https://example.org/h"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 2002,
-  "mes": null,
-  "titulo": "Hito de prueba 23",
-  "texto": "Texto de prueba del hito 23, de tipo movimiento, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "movimiento",
-  "ambito": "españa",
-  "terminos": [
-   "umbral"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 23",
-   "url": "https://example.org/h"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 1971,
-  "mes": null,
-  "titulo": "Hito de prueba 24",
-  "texto": "Texto de prueba del hito 24, de tipo movimiento, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "movimiento",
-  "ambito": "españa",
-  "terminos": [
-   "lorna-wing",
-   "neuroimagen",
-   "tdl"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 24",
-   "url": "https://example.org/h"
-  },
-  "estado": "probable"
- },
- {
-  "anio": 1974,
-  "mes": 7,
-  "titulo": "Hito de prueba 25",
-  "texto": "Texto de prueba del hito 25, de tipo movimiento, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "movimiento",
-  "ambito": "españa",
-  "terminos": [
-   "monotropismo"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 25",
-   "url": "https://example.org/h"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 1914,
-  "mes": 5,
-  "titulo": "Hito de prueba 26",
-  "texto": "Texto de prueba del hito 26, de tipo sociedad, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "sociedad",
-  "ambito": "internacional",
-  "terminos": [
-   "dsm-5",
-   "entrenamiento-padres"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 26",
-   "url": "https://example.org/h"
-  },
-  "estado": "probable"
- },
- {
-  "anio": 1972,
-  "mes": 7,
-  "titulo": "Hito de prueba 27",
-  "texto": "Texto de prueba del hito 27, de tipo clasificacion, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "clasificacion",
-  "ambito": "españa",
-  "terminos": [
-   "hitop"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 27",
-   "url": "https://example.org/h"
-  },
-  "estado": "probable"
- },
- {
-  "anio": 1990,
-  "mes": 6,
-  "titulo": "Hito de prueba 28",
-  "texto": "Texto de prueba del hito 28, de tipo ley, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "ley",
-  "ambito": "españa",
-  "terminos": [
-   "movimiento-neurodiversidad",
-   "allen-frances"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 28",
-   "url": "https://example.org/h"
+   "titulo": "Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo (LOGSE). BOE núm. 238, de 4 de octubre de 1990",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1990-24172"
   },
   "estado": "verificada"
  },
  {
   "anio": 1993,
   "mes": null,
-  "titulo": "Hito de prueba 29",
-  "texto": "Texto de prueba del hito 29, de tipo clasificacion, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "clasificacion",
-  "ambito": "españa",
-  "terminos": [
-   "tamano-efecto",
-   "hans-asperger"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 29",
-   "url": "https://example.org/h"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 1996,
-  "mes": null,
-  "titulo": "Hito de prueba 30",
-  "texto": "Texto de prueba del hito 30, de tipo sociedad, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "sociedad",
-  "ambito": "españa",
-  "terminos": [
-   "diagnostico-diferencial",
-   "nada-sobre-nosotros"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 30",
-   "url": "https://example.org/h"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 1999,
-  "mes": null,
-  "titulo": "Hito de prueba 31",
-  "texto": "Texto de prueba del hito 31, de tipo movimiento, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "titulo": "«No llores por nosotros», de Jim Sinclair",
+  "texto": "En una charla para familias en Toronto, publicada en el boletín de Autism Network International, Jim Sinclair pide no vivir el autismo como el duelo por un hijo esperado. Es un texto fundacional del movimiento por los derechos autistas.",
   "tipo": "movimiento",
-  "ambito": "españa",
-  "terminos": [],
+  "ambito": "internacional",
+  "terminos": [
+   "jim-sinclair",
+   "derechos-autistas",
+   "movimiento-neurodiversidad"
+  ],
   "fuente": {
-   "titulo": "Fuente de prueba 31",
-   "url": "https://example.org/h"
+   "titulo": "Sinclair J (1993). Don't mourn for us. Our Voice (Autism Network International), 1(3)",
+   "url": "https://www.autreat.com/dont_mourn.html"
   },
   "estado": "verificada"
  },
  {
-  "anio": 1972,
-  "mes": 5,
-  "titulo": "Hito de prueba 32",
-  "texto": "Texto de prueba del hito 32, de tipo ciencia, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "anio": 1994,
+  "mes": null,
+  "titulo": "DSM-IV: tres presentaciones del TDAH y llega Asperger",
+  "texto": "El DSM-IV, coordinado con la CIE-10, divide el TDAH en tres subtipos (inatento, hiperactivo-impulsivo y combinado) e incorpora el trastorno de Asperger. Estará vigente casi veinte años.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "dsm",
+   "presentaciones-tdah",
+   "sindrome-asperger"
+  ],
+  "fuente": {
+   "titulo": "American Psychiatric Association. DSM History",
+   "url": "https://www.psychiatry.org/psychiatrists/practice/dsm/about-dsm/history-of-the-dsm"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1995,
+  "mes": null,
+  "titulo": "Hacking y los efectos bucle de las clasificaciones",
+  "texto": "El filósofo Ian Hacking publica «The looping effects of human kinds»: cuando clasificamos a personas, ellas reaccionan a la etiqueta y la etiqueta acaba cambiando. El autismo será uno de sus ejemplos.",
   "tipo": "ciencia",
   "ambito": "internacional",
   "terminos": [
-   "neurodivergente"
+   "ian-hacking",
+   "efecto-bucle",
+   "reificacion"
   ],
   "fuente": {
-   "titulo": "Fuente de prueba 32",
-   "url": "https://example.org/h"
+   "titulo": "Hacking I (2007). Kinds of people: Moving targets. Proceedings of the British Academy, 151: 285-318 (remite a «The looping effects of human kinds», 1995)",
+   "url": "https://www.thebritishacademy.ac.uk/documents/2043/pba151p285.pdf"
   },
   "estado": "verificada"
  },
  {
-  "anio": 1985,
-  "mes": 11,
-  "titulo": "Hito de prueba 33",
-  "texto": "Texto de prueba del hito 33, de tipo ley, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "anio": 1995,
+  "mes": 4,
+  "titulo": "La sobredotación intelectual entra en la normativa",
+  "texto": "El Real Decreto 696/1995, sobre alumnado con necesidades educativas especiales, incluye las asociadas a «condiciones personales de sobredotación intelectual». Las altas capacidades pasan a ser, oficialmente, también un asunto de apoyo educativo.",
   "tipo": "ley",
   "ambito": "españa",
-  "terminos": [],
-  "fuente": {
-   "titulo": "Fuente de prueba 33",
-   "url": "https://example.org/h"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 2005,
-  "mes": null,
-  "titulo": "Hito de prueba 34",
-  "texto": "Texto de prueba del hito 34, de tipo movimiento, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "movimiento",
-  "ambito": "internacional",
   "terminos": [
-   "comorbilidad",
-   "presentaciones-tdah",
-   "lomloe"
+   "altas-capacidades",
+   "superdotacion",
+   "nee"
   ],
   "fuente": {
-   "titulo": "Fuente de prueba 34",
-   "url": "https://example.org/h"
-  },
-  "estado": "probable"
- },
- {
-  "anio": 1998,
-  "mes": null,
-  "titulo": "Hito de prueba 35",
-  "texto": "Texto de prueba del hito 35, de tipo ley, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "ley",
-  "ambito": "internacional",
-  "terminos": [],
-  "fuente": {
-   "titulo": "Fuente de prueba 35",
-   "url": "https://example.org/h"
+   "titulo": "Real Decreto 696/1995, de 28 de abril, de ordenación de la educación de los alumnos con necesidades educativas especiales. BOE núm. 131, de 2 de junio de 1995",
+   "url": "https://www.boe.es/eli/es/rd/1995/04/28/696"
   },
   "estado": "verificada"
  },
  {
   "anio": 1997,
-  "mes": null,
-  "titulo": "Hito de prueba 36",
-  "texto": "Texto de prueba del hito 36, de tipo movimiento, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "movimiento",
-  "ambito": "internacional",
-  "terminos": [
-   "ajustes-razonables",
-   "tdah-adulto"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 36",
-   "url": "https://example.org/h"
-  },
-  "estado": "probable"
- },
- {
-  "anio": 2003,
-  "mes": 5,
-  "titulo": "Hito de prueba 37",
-  "texto": "Texto de prueba del hito 37, de tipo ley, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "ley",
-  "ambito": "internacional",
-  "terminos": [
-   "uta-frith",
-   "dua"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 37",
-   "url": "https://example.org/h"
-  },
-  "estado": "probable"
- },
- {
-  "anio": 2011,
-  "mes": null,
-  "titulo": "Hito de prueba 38",
-  "texto": "Texto de prueba del hito 38, de tipo sociedad, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "sociedad",
-  "ambito": "internacional",
-  "terminos": [
-   "doble-excepcionalidad",
-   "eclipsamiento-diagnostico",
-   "dsm-iii"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 38",
-   "url": "https://example.org/h"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 1877,
-  "mes": 9,
-  "titulo": "Hito de prueba 39",
-  "texto": "Texto de prueba del hito 39, de tipo ley, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "ley",
-  "ambito": "internacional",
-  "terminos": [
-   "validez-uso"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 39",
-   "url": "https://example.org/h"
-  },
-  "estado": "probable"
- },
- {
-  "anio": 1987,
-  "mes": 5,
-  "titulo": "Hito de prueba 40",
-  "texto": "Texto de prueba del hito 40, de tipo sociedad, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "sociedad",
-  "ambito": "internacional",
-  "terminos": [
-   "infradiagnostico",
-   "cribado"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 40",
-   "url": "https://example.org/h"
-  },
-  "estado": "probable"
- },
- {
-  "anio": 1943,
-  "mes": null,
-  "titulo": "Hito de prueba 41",
-  "texto": "Texto de prueba del hito 41, de tipo ciencia, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "mes": 1,
+  "titulo": "Barkley: el TDAH como problema de autocontrol",
+  "texto": "Russell Barkley propone que el núcleo del TDAH es un déficit de inhibición conductual que arrastra a funciones ejecutivas como la memoria de trabajo. Fue muy influyente; él mismo advertía que faltaba mucha investigación para comprobarlo.",
   "tipo": "ciencia",
   "ambito": "internacional",
   "terminos": [
-   "coherencia-central"
+   "russell-barkley",
+   "funciones-ejecutivas",
+   "tdah"
   ],
   "fuente": {
-   "titulo": "Fuente de prueba 41",
-   "url": "https://example.org/h"
-  },
-  "estado": "probable"
- },
- {
-  "anio": 1950,
-  "mes": 3,
-  "titulo": "Hito de prueba 42",
-  "texto": "Texto de prueba del hito 42, de tipo clasificacion, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "clasificacion",
-  "ambito": "internacional",
-  "terminos": [
-   "deriva-conceptual",
-   "categoria-diagnostica"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 42",
-   "url": "https://example.org/h"
-  },
-  "estado": "probable"
- },
- {
-  "anio": 2004,
-  "mes": null,
-  "titulo": "Hito de prueba 43",
-  "texto": "Texto de prueba del hito 43, de tipo sociedad, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "sociedad",
-  "ambito": "internacional",
-  "terminos": [
-   "tamano-efecto"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 43",
-   "url": "https://example.org/h"
-  },
-  "estado": "probable"
- },
- {
-  "anio": 2008,
-  "mes": null,
-  "titulo": "Hito de prueba 44",
-  "texto": "Texto de prueba del hito 44, de tipo clasificacion, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "clasificacion",
-  "ambito": "internacional",
-  "terminos": [
-   "discapacidad-intelectual"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 44",
-   "url": "https://example.org/h"
-  },
-  "estado": "probable"
- },
- {
-  "anio": 2022,
-  "mes": null,
-  "titulo": "Hito de prueba 45",
-  "texto": "Texto de prueba del hito 45, de tipo movimiento, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "movimiento",
-  "ambito": "españa",
-  "terminos": [
-   "biomarcador",
-   "sensibilidad-especificidad",
-   "neurotipico"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 45",
-   "url": "https://example.org/h"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 1925,
-  "mes": null,
-  "titulo": "Hito de prueba 46",
-  "texto": "Texto de prueba del hito 46, de tipo sociedad, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "sociedad",
-  "ambito": "internacional",
-  "terminos": [
-   "stimming",
-   "dsm",
-   "rdoc"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 46",
-   "url": "https://example.org/h"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 1947,
-  "mes": null,
-  "titulo": "Hito de prueba 47",
-  "texto": "Texto de prueba del hito 47, de tipo clasificacion, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "clasificacion",
-  "ambito": "internacional",
-  "terminos": [],
-  "fuente": {
-   "titulo": "Fuente de prueba 47",
-   "url": "https://example.org/h"
-  },
-  "estado": "probable"
- },
- {
-  "anio": 1969,
-  "mes": null,
-  "titulo": "Hito de prueba 48",
-  "texto": "Texto de prueba del hito 48, de tipo ciencia, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "ciencia",
-  "ambito": "internacional",
-  "terminos": [
-   "neuroimagen",
-   "enigma"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 48",
-   "url": "https://example.org/h"
-  },
-  "estado": "probable"
- },
- {
-  "anio": 1961,
-  "mes": null,
-  "titulo": "Hito de prueba 49",
-  "texto": "Texto de prueba del hito 49, de tipo ciencia, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "ciencia",
-  "ambito": "internacional",
-  "terminos": [],
-  "fuente": {
-   "titulo": "Fuente de prueba 49",
-   "url": "https://example.org/h"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 2023,
-  "mes": 2,
-  "titulo": "Hito de prueba 50",
-  "texto": "Texto de prueba del hito 50, de tipo ley, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "ley",
-  "ambito": "españa",
-  "terminos": [
-   "umbral"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 50",
-   "url": "https://example.org/h"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 1991,
-  "mes": 7,
-  "titulo": "Hito de prueba 51",
-  "texto": "Texto de prueba del hito 51, de tipo sociedad, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "sociedad",
-  "ambito": "internacional",
-  "terminos": [],
-  "fuente": {
-   "titulo": "Fuente de prueba 51",
-   "url": "https://example.org/h"
-  },
-  "estado": "probable"
- },
- {
-  "anio": 1961,
-  "mes": null,
-  "titulo": "Hito de prueba 52",
-  "texto": "Texto de prueba del hito 52, de tipo ley, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "ley",
-  "ambito": "españa",
-  "terminos": [
-   "cpt",
-   "lorna-wing",
-   "cie-11"
-  ],
-  "fuente": {
-   "titulo": "Fuente de prueba 52",
-   "url": "https://example.org/h"
+   "titulo": "Barkley RA (1997). Behavioral inhibition, sustained attention, and executive functions: constructing a unifying theory of ADHD. Psychological Bulletin, 121(1): 65-94. DOI 10.1037/0033-2909.121.1.65",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9000892/"
   },
   "estado": "verificada"
  },
  {
   "anio": 1998,
   "mes": null,
-  "titulo": "Hito de prueba 53",
-  "texto": "Texto de prueba del hito 53, de tipo sociedad, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "titulo": "«Neurodiversidad» llega a la imprenta",
+  "texto": "La socióloga Judy Singer, en su tesina, y el periodista Harvey Blume, en The Atlantic, difunden la palabra «neurodiversidad». Investigaciones de 2024 recuerdan que la idea se fraguó colectivamente entre personas autistas.",
+  "tipo": "movimiento",
+  "ambito": "internacional",
+  "terminos": [
+   "neurodiversidad",
+   "judy-singer",
+   "harvey-blume",
+   "movimiento-neurodiversidad"
+  ],
+  "fuente": {
+   "titulo": "Botha M et al. (2024). The neurodiversity concept was developed collectively: An overdue correction on the origins of neurodiversity theory. Autism, 28(6). DOI 10.1177/13623613241237871",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38470140/"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 1998,
+  "mes": 2,
+  "titulo": "Wakefield y el falso vínculo entre vacuna y autismo",
+  "texto": "The Lancet publica un estudio con 12 niños que sugería una relación entre la vacuna triple vírica y el autismo. Fue retractado en 2010 y los grandes estudios posteriores no hallaron tal vínculo: correlación confundida con causa, de manual.",
   "tipo": "sociedad",
   "ambito": "internacional",
   "terminos": [
+   "correlacion-causa",
+   "autismo"
+  ],
+  "fuente": {
+   "titulo": "Wakefield AJ et al. (1998). Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children. The Lancet, 351: 637-641 [artículo retractado]. DOI 10.1016/s0140-6736(97)11096-0",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9500320/"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1999,
+  "mes": 12,
+  "titulo": "El estudio MTA compara tratamientos del TDAH",
+  "texto": "Un ensayo con 579 niños de 7 a 9 años compara durante 14 meses medicación, terapia conductual intensiva, ambas y atención habitual. En los síntomas nucleares, la medicación bien ajustada, sola o combinada, obtuvo mejores resultados.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "metilfenidato",
+   "intervencion-conductual",
+   "entrenamiento-padres",
+   "tdah"
+  ],
+  "fuente": {
+   "titulo": "MTA Cooperative Group (1999). A 14-month randomized clinical trial of treatment strategies for attention-deficit/hyperactivity disorder. Archives of General Psychiatry, 56(12): 1073-1086. DOI 10.1001/archpsyc.56.12.1073",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10591283/"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1999,
+  "mes": 12,
+  "titulo": "Se regula el reconocimiento del «grado de minusvalía»",
+  "texto": "El Real Decreto 1971/1999 fija el procedimiento y los baremos para reconocer y calificar el grado de minusvalía, con el 33 % como referencia. Es el antecedente directo del certificado que hoy abre ayudas y derechos.",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [
+   "certificado-discapacidad",
+   "umbral"
+  ],
+  "fuente": {
+   "titulo": "Real Decreto 1971/1999, de 23 de diciembre, de procedimiento para el reconocimiento, declaración y calificación del grado de minusvalía. BOE núm. 22, de 26 de enero de 2000",
+   "url": "https://www.boe.es/eli/es/rd/1999/12/23/1971"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2000,
+  "mes": null,
+  "titulo": "Los CDC empiezan a vigilar el autismo infantil",
+  "texto": "Arranca la vigilancia de la red ADDM en Estados Unidos. En su primer año, con seis zonas, estima 6,7 casos por cada 1.000 niños y niñas de 8 años: alrededor de 1 de cada 150.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "prevalencia",
+   "autismo"
+  ],
+  "fuente": {
+   "titulo": "CDC. Data and Statistics on Autism Spectrum Disorder (red ADDM, años de vigilancia 2000-2022)",
+   "url": "https://www.cdc.gov/autism/data-research/index.html"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2003,
+  "mes": 7,
+  "titulo": "Flexibilización: adelantar curso con altas capacidades",
+  "texto": "El Real Decreto 943/2003 permite al alumnado superdotado incorporarse a un curso superior al de su edad: hasta tres veces en la enseñanza básica y una en las posobligatorias, con conformidad de la familia y programas de atención específica.",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [
+   "adaptaciones-curriculares",
+   "altas-capacidades",
+   "superdotacion"
+  ],
+  "fuente": {
+   "titulo": "Real Decreto 943/2003, de 18 de julio, sobre flexibilización de la duración de los niveles y etapas para alumnos superdotados intelectualmente. BOE núm. 182, de 31 de julio de 2003",
+   "url": "https://www.boe.es/eli/es/rd/2003/07/18/943"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2006,
+  "mes": 5,
+  "titulo": "La LOE crea el paraguas de las NEAE",
+  "texto": "La Ley Orgánica de Educación agrupa bajo «necesidad específica de apoyo educativo» al alumnado con necesidades educativas especiales, altas capacidades o incorporación tardía, entre otros. Es un paraguas para organizar recursos, no un diagnóstico.",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [
+   "neae",
+   "nee",
+   "altas-capacidades"
+  ],
+  "fuente": {
+   "titulo": "Ley Orgánica 2/2006, de 3 de mayo, de Educación (LOE). BOE núm. 106, de 4 de mayo de 2006",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2006,
+  "mes": 12,
+  "titulo": "La ONU aprueba la Convención sobre discapacidad",
+  "texto": "Naciones Unidas adopta en Nueva York la Convención sobre los derechos de las personas con discapacidad. Consagra los «ajustes razonables» y entiende la discapacidad como resultado de la interacción entre la persona y las barreras del entorno.",
+  "tipo": "ley",
+  "ambito": "internacional",
+  "terminos": [
+   "convencion-onu",
+   "ajustes-razonables",
+   "modelo-social"
+  ],
+  "fuente": {
+   "titulo": "BOE (2008). Instrumento de Ratificación de la Convención sobre los derechos de las personas con discapacidad, hecho en Nueva York el 13 de diciembre de 2006",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-6963"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2006,
+  "mes": 12,
+  "titulo": "Ley de Dependencia: grados de ayuda para la vida diaria",
+  "texto": "La Ley 39/2006 crea el sistema de atención a la dependencia, que valora en grados cuánta ayuda necesita una persona para las actividades básicas de la vida diaria. Convive desde entonces con el certificado de discapacidad, con baremos distintos.",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [
+   "certificado-discapacidad"
+  ],
+  "fuente": {
+   "titulo": "Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia. BOE núm. 299, de 15 de diciembre de 2006",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-21990"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2007,
+  "mes": 6,
+  "titulo": "Un metaanálisis sitúa el TDAH infantil cerca del 5 %",
+  "texto": "Polanczyk y colaboradores reúnen 102 estudios con más de 170.000 menores y estiman una prevalencia mundial del 5,29 %. Las grandes diferencias entre estudios dependen sobre todo de cómo se mide: criterios, informantes y exigencia de deterioro.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "prevalencia",
+   "tdah"
+  ],
+  "fuente": {
+   "titulo": "Polanczyk G et al. (2007). The worldwide prevalence of ADHD: a systematic review and metaregression analysis. American Journal of Psychiatry, 164(6): 942-948. DOI 10.1176/ajp.2007.164.6.942",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17541055/"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2007,
+  "mes": 12,
+  "titulo": "La ONU declara el 2 de abril día del autismo",
+  "texto": "La Asamblea General aprueba la resolución 62/139, que fija el 2 de abril como Día Mundial de Concienciación sobre el Autismo. Con los años, el acento ha pasado de la concienciación a la aceptación y la inclusión.",
+  "tipo": "sociedad",
+  "ambito": "internacional",
+  "terminos": [
+   "autismo",
+   "estigma"
+  ],
+  "fuente": {
+   "titulo": "Naciones Unidas. World Autism Awareness Day, 2 April (resolución A/RES/62/139)",
+   "url": "https://www.un.org/en/observances/autism-day"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2008,
+  "mes": 4,
+  "titulo": "España ratifica la Convención de la ONU",
+  "texto": "El BOE publica la ratificación española de la Convención sobre los derechos de las personas con discapacidad, en vigor en España desde el 3 de mayo de 2008. Desde entonces, los ajustes razonables son una obligación jurídica, no un favor.",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [
+   "convencion-onu",
+   "ajustes-razonables"
+  ],
+  "fuente": {
+   "titulo": "BOE (2008). Instrumento de Ratificación de la Convención sobre los derechos de las personas con discapacidad, hecho en Nueva York el 13 de diciembre de 2006",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-6963"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2010,
+  "mes": 7,
+  "titulo": "El NIMH propone RDoC para investigar por dimensiones",
+  "texto": "Thomas Insel y colegas presentan los Research Domain Criteria: un marco de investigación que estudia dimensiones como la atención o la recompensa en varios niveles, de los genes a la conducta. No es un manual para diagnosticar en consulta.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "rdoc",
+   "modelo-dimensional",
+   "transdiagnostico"
+  ],
+  "fuente": {
+   "titulo": "Insel T et al. (2010). Research domain criteria (RDoC): toward a new classification framework for research on mental disorders. American Journal of Psychiatry, 167(7): 748-751. DOI 10.1176/appi.ajp.2010.09091379",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20595427/"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2012,
+  "mes": null,
+  "titulo": "Milton formula el «problema de la doble empatía»",
+  "texto": "El investigador autista Damian Milton sostiene que los malentendidos entre personas autistas y no autistas van en las dos direcciones. La pregunta cambia: ya no es solo qué le falta a uno, sino qué falla en el encuentro.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "damian-milton",
+   "doble-empatia",
    "teoria-mente"
   ],
   "fuente": {
-   "titulo": "Fuente de prueba 53",
-   "url": "https://example.org/h"
+   "titulo": "Milton D, Gurbuz E, López B (2022). The «double empathy problem»: Ten years on. Autism, 26(8): 1901-1903 (sobre Milton, 2012, Disability & Society). DOI 10.1177/13623613221129123",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36263746/"
   },
   "estado": "verificada"
  },
  {
-  "anio": 1928,
-  "mes": null,
-  "titulo": "Hito de prueba 54",
-  "texto": "Texto de prueba del hito 54, de tipo movimiento, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "movimiento",
-  "ambito": "internacional",
-  "terminos": [],
-  "fuente": {
-   "titulo": "Fuente de prueba 54",
-   "url": "https://example.org/h"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 1901,
-  "mes": 7,
-  "titulo": "Hito de prueba 55",
-  "texto": "Texto de prueba del hito 55, de tipo sociedad, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "sociedad",
-  "ambito": "internacional",
-  "terminos": [],
-  "fuente": {
-   "titulo": "Fuente de prueba 55",
-   "url": "https://example.org/h"
-  },
-  "estado": "probable"
- },
- {
-  "anio": 1976,
-  "mes": 10,
-  "titulo": "Hito de prueba 56",
-  "texto": "Texto de prueba del hito 56, de tipo clasificacion, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "clasificacion",
-  "ambito": "internacional",
-  "terminos": [],
-  "fuente": {
-   "titulo": "Fuente de prueba 56",
-   "url": "https://example.org/h"
-  },
-  "estado": "verificada"
- },
- {
-  "anio": 1921,
-  "mes": 1,
-  "titulo": "Hito de prueba 57",
-  "texto": "Texto de prueba del hito 57, de tipo ley, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "ley",
-  "ambito": "internacional",
-  "terminos": [],
-  "fuente": {
-   "titulo": "Fuente de prueba 57",
-   "url": "https://example.org/h"
-  },
-  "estado": "probable"
- },
- {
-  "anio": 2001,
-  "mes": null,
-  "titulo": "Hito de prueba 58",
-  "texto": "Texto de prueba del hito 58, de tipo ley, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "ley",
+  "anio": 2012,
+  "mes": 3,
+  "titulo": "Nacer en diciembre aumenta el diagnóstico de TDAH",
+  "texto": "Un estudio con casi 940.000 escolares de Columbia Británica (Canadá) halla que los nacidos en diciembre, los más pequeños de su clase, reciben más diagnósticos de TDAH que los de enero: un 30 % más los niños y un 70 % más las niñas.",
+  "tipo": "ciencia",
   "ambito": "internacional",
   "terminos": [
-   "discapacidad-intelectual",
-   "criterio-diagnostico"
+   "efecto-edad-relativa",
+   "sobrediagnostico",
+   "tdah"
   ],
   "fuente": {
-   "titulo": "Fuente de prueba 58",
-   "url": "https://example.org/h"
+   "titulo": "Morrow RL et al. (2012). Influence of relative age on diagnosis and treatment of attention-deficit/hyperactivity disorder in children. CMAJ, 184(7): 755-762. DOI 10.1503/cmaj.111619",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22392937/"
   },
   "estado": "verificada"
  },
  {
   "anio": 2013,
-  "mes": null,
-  "titulo": "Hito de prueba 59",
-  "texto": "Texto de prueba del hito 59, de tipo movimiento, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "movimiento",
+  "mes": 5,
+  "titulo": "DSM-5: un solo espectro autista y trastornos del neurodesarrollo",
+  "texto": "El DSM-5 reúne el autismo, el Asperger y otras categorías en un único trastorno del espectro autista, crea el capítulo de trastornos del neurodesarrollo y permite diagnosticar autismo y TDAH a la vez. Además, los síntomas del TDAH pueden aparecer hasta los 12 años.",
+  "tipo": "clasificacion",
   "ambito": "internacional",
-  "terminos": [],
+  "terminos": [
+   "dsm-5",
+   "autismo",
+   "sindrome-asperger",
+   "trastornos-neurodesarrollo",
+   "coexistencia"
+  ],
   "fuente": {
-   "titulo": "Fuente de prueba 59",
-   "url": "https://example.org/h"
+   "titulo": "American Psychiatric Association. DSM History",
+   "url": "https://www.psychiatry.org/psychiatrists/practice/dsm/about-dsm/history-of-the-dsm"
   },
   "estado": "verificada"
  },
  {
-  "anio": 1967,
-  "mes": 2,
-  "titulo": "Hito de prueba 60",
-  "texto": "Texto de prueba del hito 60, de tipo ciencia, con algo más de longitud para ver cómo se reparte en dos líneas.",
-  "tipo": "ciencia",
-  "ambito": "internacional",
-  "terminos": [],
-  "fuente": {
-   "titulo": "Fuente de prueba 60",
-   "url": "https://example.org/h"
-  },
-  "estado": "probable"
- },
- {
-  "anio": 2001,
-  "titulo": "Hito sin fuente (no debe publicarse)",
-  "texto": "x",
+  "anio": 2013,
+  "mes": 11,
+  "titulo": "Ley General de derechos de las personas con discapacidad",
+  "texto": "Un texto refundido reúne la normativa española de discapacidad y la adapta a la Convención. A efectos legales, considera persona con discapacidad a quien tiene reconocido un grado igual o superior al 33 %.",
   "tipo": "ley",
   "ambito": "españa",
-  "terminos": [],
-  "fuente": {}
+  "terminos": [
+   "certificado-discapacidad",
+   "umbral",
+   "convencion-onu"
+  ],
+  "fuente": {
+   "titulo": "Real Decreto Legislativo 1/2013, de 29 de noviembre, Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social. BOE núm. 289, de 3 de diciembre de 2013",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12632"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2013,
+  "mes": 12,
+  "titulo": "La LOMCE nombra el TDAH en la ley educativa",
+  "texto": "La Ley Orgánica 8/2013 modifica la LOE y añade expresamente el TDAH a los motivos por los que un alumno puede requerir una atención educativa diferente a la ordinaria. Una sigla clínica entra así en una norma escolar.",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [
+   "neae",
+   "tdah"
+  ],
+  "fuente": {
+   "titulo": "Ley Orgánica 8/2013, de 9 de diciembre, para la mejora de la calidad educativa (LOMCE). BOE núm. 295, de 10 de diciembre de 2013",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12886"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2014,
+  "mes": 1,
+  "titulo": "Tres décadas sin más TDAH en la comunidad",
+  "texto": "Una revisión de 135 estudios no encuentra, en tres décadas, aumento de la proporción de menores que cumplen criterios de TDAH cuando se usan procedimientos estandarizados. Suben los diagnósticos, no necesariamente los casos.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "prevalencia",
+   "inflacion-diagnostica",
+   "tdah"
+  ],
+  "fuente": {
+   "titulo": "Polanczyk GV et al. (2014). ADHD prevalence estimates across three decades: an updated systematic review and meta-regression analysis. International Journal of Epidemiology, 43(2): 434-442. DOI 10.1093/ije/dyt261",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24464188/"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2015,
+  "mes": 11,
+  "titulo": "Primera Estrategia Española en Trastornos del Espectro del Autismo",
+  "texto": "El Consejo de Ministros aprueba una estrategia con quince líneas de actuación, de la investigación y la detección precoz a la educación, el empleo y los derechos. Estimaba unas 450.000 personas con TEA en España.",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [
+   "estrategia-tea",
+   "autismo",
+   "cribado"
+  ],
+  "fuente": {
+   "titulo": "La Moncloa. Referencia del Consejo de Ministros de 6 de noviembre de 2015: Estrategia Española en Trastornos del Espectro del Autismo",
+   "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/2015/refc20151106.aspx"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2017,
+  "mes": 2,
+  "titulo": "ENIGMA-ADHD: diferencias cerebrales pequeñas y de grupo",
+  "texto": "Con resonancias de 1.713 personas con TDAH y 1.529 sin él, el consorcio ENIGMA halla volúmenes subcorticales algo menores en promedio, sobre todo en la infancia. Los efectos son pequeños: no permiten diagnosticar a nadie con un escáner.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "enigma",
+   "neuroimagen",
+   "tamano-efecto",
+   "inferencia-ecologica"
+  ],
+  "fuente": {
+   "titulo": "Hoogman M et al. (2017). Subcortical brain volume differences in participants with attention deficit hyperactivity disorder in children and adults: a cross-sectional mega-analysis. Lancet Psychiatry, 4(4): 310-319. DOI 10.1016/S2215-0366(17)30049-4",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28219628/"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2017,
+  "mes": 3,
+  "titulo": "HiTOP propone una alternativa dimensional al DSM",
+  "texto": "Un consorcio encabezado por Roman Kotov presenta la Taxonomía Jerárquica de la Psicopatología, que agrupa síntomas según cómo aparecen juntos y los ordena en espectros. Quiere resolver fronteras arbitrarias, comorbilidad y heterogeneidad.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "hitop",
+   "modelo-dimensional",
+   "comorbilidad",
+   "heterogeneidad"
+  ],
+  "fuente": {
+   "titulo": "Kotov R et al. (2017). The Hierarchical Taxonomy of Psychopathology (HiTOP): A dimensional alternative to traditional nosologies. Journal of Abnormal Psychology, 126(4): 454-477. DOI 10.1037/abn0000258",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28333488/"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2018,
+  "mes": 4,
+  "titulo": "Los archivos revelan el papel de Asperger en el nazismo",
+  "texto": "El historiador Herwig Czech documenta que Hans Asperger se acomodó al régimen nazi, legitimó públicamente la higiene racial y cooperó en varias ocasiones con el programa de «eutanasia» infantil. Ese mismo año, Edith Sheffer publica Asperger's Children.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "hans-asperger",
+   "sindrome-asperger"
+  ],
+  "fuente": {
+   "titulo": "Czech H (2018). Hans Asperger, National Socialism, and «race hygiene» in Nazi-era Vienna. Molecular Autism, 9:29. DOI 10.1186/s13229-018-0208-6",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29713442/"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2018,
+  "mes": 11,
+  "titulo": "Primeras regiones genéticas asociadas al TDAH",
+  "texto": "Un metaanálisis genómico con 20.183 personas con TDAH y 35.191 controles identifica 12 regiones de riesgo. Cada variante pesa muy poco, y el resultado apoya que el diagnóstico es el extremo de rasgos continuos y heredables.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "poligenia",
+   "heredabilidad",
+   "modelo-dimensional",
+   "tdah"
+  ],
+  "fuente": {
+   "titulo": "Demontis D et al. (2019). Discovery of the first genome-wide significant risk loci for attention deficit/hyperactivity disorder. Nature Genetics, 51(1): 63-75. DOI 10.1038/s41588-018-0269-7",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30478444/"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2019,
+  "mes": 5,
+  "titulo": "La OMS adopta la CIE-11",
+  "texto": "La 72.ª Asamblea Mundial de la Salud aprueba la CIE-11, vigente desde el 1 de enero de 2022. Reúne el autismo en un solo espectro, con especificadores de desarrollo intelectual y de lenguaje, y deja de usar la etiqueta «Asperger».",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "cie-11",
+   "autismo",
+   "sindrome-asperger"
+  ],
+  "fuente": {
+   "titulo": "Organización Mundial de la Salud. International Classification of Diseases (ICD): historia de las revisiones",
+   "url": "https://www.who.int/standards/classifications/classification-of-diseases"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2020,
+  "mes": 12,
+  "titulo": "La LOMLOE amplía las categorías de apoyo educativo",
+  "texto": "La Ley Orgánica 3/2020 reforma la LOE. Su artículo 71 incluye ahora, entre las necesidades específicas de apoyo educativo, los trastornos de atención o de aprendizaje y la vulnerabilidad socioeducativa, junto a las necesidades especiales y las altas capacidades.",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [
+   "lomloe",
+   "neae",
+   "nee",
+   "altas-capacidades"
+  ],
+  "fuente": {
+   "titulo": "Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la Ley Orgánica 2/2006, de Educación (LOMLOE). BOE núm. 340, de 30 de diciembre de 2020",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-17264"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2021,
+  "mes": 12,
+  "titulo": "La Comisión Lancet propone hablar de «autismo profundo»",
+  "texto": "La Comisión Lancet sobre el futuro de la atención y la investigación en autismo propone «autismo profundo» para quienes necesitan apoyo las 24 horas. Busca hacerlos visibles, aunque hay quien teme que reavive las etiquetas de «alto» y «bajo» funcionamiento.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "autismo-profundo",
+   "autismo",
+   "discapacidad-intelectual"
+  ],
+  "fuente": {
+   "titulo": "Lord C et al. (2022). The Lancet Commission on the future of care and clinical research in autism. The Lancet, 399(10321): 271-334. DOI 10.1016/S0140-6736(21)01541-5",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34883054/"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2022,
+  "mes": 3,
+  "titulo": "DSM-5-TR: retoques sin cambios conceptuales",
+  "texto": "La APA publica la revisión de texto del DSM-5. Actualiza las descripciones y aclara la redacción de algunos criterios, pero sin cambios conceptuales: el autismo y el TDAH siguen definidos, en lo esencial, como en 2013.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "dsm-5-tr",
+   "criterio-diagnostico"
+  ],
+  "fuente": {
+   "titulo": "American Psychiatric Association. DSM History",
+   "url": "https://www.psychiatry.org/psychiatrists/practice/dsm/about-dsm/history-of-the-dsm"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2022,
+  "mes": 10,
+  "titulo": "Nuevo baremo de discapacidad basado en la CIF",
+  "texto": "El Real Decreto 888/2022 sustituye al de 1999 y valora la discapacidad con el modelo biopsicosocial de la Clasificación Internacional del Funcionamiento: deficiencias, actividad, participación y contexto. Entró en vigor el 20 de abril de 2023.",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [
+   "certificado-discapacidad",
+   "modelo-social"
+  ],
+  "fuente": {
+   "titulo": "Real Decreto 888/2022, de 18 de octubre, procedimiento para el reconocimiento, declaración y calificación del grado de discapacidad. BOE núm. 252, de 20 de octubre de 2022",
+   "url": "https://www.boe.es/eli/es/rd/2022/10/18/888/con"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2023,
+  "mes": 3,
+  "titulo": "Los CDC estiman 1 de cada 36 niños y niñas",
+  "texto": "Con datos de 2020 en 11 zonas, la red ADDM estima 27,6 casos de autismo por 1.000 menores de 8 años (1 de cada 36), con casi cuatro niños por cada niña. Mide casos identificados en registros, no un recuento de toda la población.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "prevalencia",
+   "autismo",
+   "brecha-genero"
+  ],
+  "fuente": {
+   "titulo": "Maenner MJ et al. (2023). Prevalence and characteristics of autism spectrum disorder among children aged 8 years. ADDM Network, 11 sites, United States, 2020. MMWR Surveillance Summaries, 72(2)",
+   "url": "https://www.cdc.gov/mmwr/volumes/72/ss/ss7202a1.htm"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2024,
+  "mes": 2,
+  "titulo": "La Constitución deja de decir «disminuidos»",
+  "texto": "La reforma del artículo 49, publicada el 17 de febrero, sustituye la expresión de 1978 «disminuidos físicos, sensoriales y psíquicos» por «personas con discapacidad», a las que reconoce como titulares de derechos en condiciones de libertad e igualdad.",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [
+   "lenguaje-identidad",
+   "modelo-social",
+   "estigma"
+  ],
+  "fuente": {
+   "titulo": "Reforma del artículo 49 de la Constitución Española, de 15 de febrero de 2024. BOE núm. 43, de 17 de febrero de 2024",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3099"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2025,
+  "mes": 4,
+  "titulo": "Nueva estimación de los CDC: 1 de cada 31",
+  "texto": "Con datos de 2022 en 16 zonas, la prevalencia identificada de autismo a los 8 años sube a 32,2 por 1.000 (1 de cada 31). Los CDC relacionan las diferencias entre comunidades con el acceso a servicios de detección temprana.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "prevalencia",
+   "autismo",
+   "infradiagnostico"
+  ],
+  "fuente": {
+   "titulo": "Shaw KA et al. (2025). Prevalence and early identification of autism spectrum disorder among children aged 4 and 8 years. ADDM Network, 16 sites, United States, 2022. MMWR Surveillance Summaries, 74(2)",
+   "url": "https://www.cdc.gov/mmwr/volumes/74/ss/ss7402a1.htm"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2025,
+  "mes": 5,
+  "titulo": "Más de un millón de estudiantes con NEAE",
+  "texto": "En el curso 2023-2024, 1.131.816 estudiantes recibieron apoyo educativo específico: el 14 % del alumnado y un 17 % más que el curso anterior. Una cuarta parte tenía necesidades educativas especiales; el resto, otras necesidades.",
+  "tipo": "sociedad",
+  "ambito": "españa",
+  "terminos": [
+   "neae",
+   "nee",
+   "prevalencia"
+  ],
+  "fuente": {
+   "titulo": "La Moncloa / Ministerio de Educación, FP y Deportes (12 de mayo de 2025). Más de un millón de estudiantes recibieron apoyo educativo en el curso 2023-2024",
+   "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/educacion-fp-deportes/Paginas/2025/120525-estudiantes-necesidades-apoyo-educativo.aspx"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2026,
+  "mes": 10,
+  "titulo": "Ley 4/2026: dependencia y discapacidad, más conectadas",
+  "texto": "La Ley 4/2026 refuerza la accesibilidad y la vida independiente y asimila, a ciertos efectos, el grado I de dependencia a un 33 % de discapacidad y los grados II y III a un 65 %. Entra en vigor el 23 de octubre.",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [
+   "certificado-discapacidad",
+   "umbral"
+  ],
+  "fuente": {
+   "titulo": "Ley 4/2026, de 1 de octubre, de modificación de la Ley General de derechos de las personas con discapacidad y de la Ley 39/2006. BOE núm. 246, de 3 de octubre de 2026",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20528"
+  },
+  "estado": "verificada"
  }
 ]

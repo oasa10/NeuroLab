@@ -2,6 +2,13 @@ import cytoscape from '../../vendor/cytoscape-3.34.3.esm.min.js';
 import { h, anio, idear, famTag, famColor, famVar, usoColor, cssVar, FAM_ANILLO, CODIGOS, USOS, SALTOS, corta, plural, recuadro, poner } from '../lib.js';
 
 // Mapa de relaciones: cada término, del color de su familia, unido a los que conviene leer con él
+// Rótulo corto para los gráficos: «TDAH (trastorno por…)» → «TDAH»
+const rotulo = s => {
+  const m = /^(.*?)\s*\(([^)]*)\)\s*$/.exec(s || '');
+  if (!m) return s;
+  return /^[A-ZÁÉÍÓÚÑ0-9-]{2,8}$/.test(m[2]) && m[1].length > 22 ? m[2] : m[1];
+};
+
 export function render(root, ctx, parts, q) {
   document.title = 'Mapa de relaciones · NeuroLab';
   const { terms, rels, byId, vecinos } = ctx;
@@ -83,7 +90,7 @@ export function render(root, ctx, parts, q) {
     if (cy) cy.destroy();
     const c = { text: cssVar('--text'), text2: cssVar('--text-2'), line: cssVar('--line'), strong: cssVar('--muted'), surface: cssVar('--surface'), ink: cssVar('--ink') };
     const conPos = terms.every(t => Array.isArray(t.xy));
-    const nodos = terms.map(t => ({ group: 'nodes', data: { id: t.id, label: t.lema, fam: t.familia, color: famColor(t.familia) || c.strong, g: grado(t.id) }, position: conPos ? { x: t.xy[0], y: t.xy[1] } : undefined }));
+    const nodos = terms.map(t => ({ group: 'nodes', data: { id: t.id, label: rotulo(t.lema), fam: t.familia, color: famColor(t.familia) || c.strong, g: grado(t.id) }, position: conPos ? { x: t.xy[0], y: t.xy[1] } : undefined }));
     // rótulo de familia: fuera del grupo, en la dirección que lo aleja del centro del mapa
     const gx = conPos ? terms.reduce((s, t) => s + t.xy[0], 0) / terms.length : 0, gy = conPos ? terms.reduce((s, t) => s + t.xy[1], 0) / terms.length : 0;
     const etiquetas = conPos ? familias.map(f => {
