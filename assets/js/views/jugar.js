@@ -52,7 +52,7 @@ export function render(root, ctx, parts) {
     const el = h('div', { class: 'jg-zona' });
     const vivo = h('div', { class: 'sr-only', 'aria-live': 'polite', 'aria-atomic': 'true' });
     root.append(
-      h('nav', { class: 'crumbs', 'aria-label': 'Migas' }, h('a', { href: '#/jugar' }, 'Jugar'), ' › ', J.titulo),
+      h('nav', { class: 'crumbs', 'aria-label': 'Estás en' }, h('a', { href: '#/jugar' }, 'Jugar'), ' › ', J.titulo),
       cabeza(2, J.titulo, J.texto),
       h('nav', { class: 'subtabs jg-tabs', 'aria-label': 'Los cinco juegos' }, Object.entries(JUEGOS).map(([c, x]) =>
         h('a', { href: `#/jugar/${c}`, 'aria-current': c === k ? 'page' : null }, x.titulo))),
@@ -227,7 +227,7 @@ function frasesDe(t) {
   return [...out].filter(Boolean);
 }
 function tapar(texto, t) {
-  texto = String(texto || '').replace(/\*([^*\n]+)\*/g, '$1');
+  texto = String(texto || '').normalize('NFC').replace(/\*([^*\n]+)\*/g, '$1');
   const n = norm(texto);
   if (n.length !== texto.length) return [texto];
   const rangos = [];
@@ -337,9 +337,9 @@ function juegoHistoria(el, ctx, api) {
     lista = shuffle(elegidos);
     // que no salga ya ordenada
     if (lista.every((t, k) => k === 0 || lista[k - 1].anio < t.anio)) lista.reverse();
-    pintar(false);
+    pintar(false, { nueva: true });
   }
-  function pintar(resuelto, foco) {
+  function pintar(resuelto, { foco, nueva: ronda0 } = {}) {
     const correcto = lista.slice().sort((a, b) => a.anio - b.anio);
     const ul = h('ol', { class: 'order-list jg-orden', 'aria-label': 'Fichas, de la más antigua a la más reciente' });
     lista.forEach((t, k) => {
@@ -348,7 +348,7 @@ function juegoHistoria(el, ctx, api) {
         resuelto ? null : h('span', { class: 'jg-asa', 'aria-hidden': 'true', title: 'Arrastra para mover' }, '⠿'),
         h('span', { class: 'pos' }, k + 1),
         h('span', { class: 'name' }, t.lema, resuelto
-          ? h('small', null, h('b', null, anio(t.anio)), t.anioNota ? ` · ${t.anioNota}` : '', ok ? '' : ` · va en el puesto ${correcto.indexOf(t) + 1}`)
+          ? ((t.anioNota || !ok) ? h('small', null, [t.anioNota, ok ? '' : `va en el puesto ${correcto.indexOf(t) + 1}`].filter(Boolean).join(' · ')) : null)
           : h('small', null, t.familia)),
         resuelto ? h('span', { class: 'jg-anio' }, anio(t.anio)) : [
           h('button', { type: 'button', 'aria-label': `Subir ${t.lema}`, disabled: k === 0, onclick: () => mover(k, k - 1, true) }, '↑'),
@@ -374,16 +374,16 @@ function juegoHistoria(el, ctx, api) {
       resuelto ? null : h('p', { class: 'small muted', style: { margin: 0 } }, 'Arrastra desde el asa ⠿ o usa las flechas. Cuenta el año que fija cada ficha; lo verás al comprobar.'),
       ul, fb, sig);
     if (resuelto) { sig.querySelector('button').focus({ preventScroll: true }); aLaVista(fb, 'nearest'); }
-    else if (foco !== undefined) {
+    else if (foco) {
       const li = el.querySelectorAll('.jg-orden li')[foco.k];
       (li?.querySelector(`button[aria-label^="${foco.d < 0 ? 'Subir' : 'Bajar'}"]:not([disabled])`) || li?.querySelector('button:not([disabled])'))?.focus();
-    } else if (ronda > 0) { el.querySelector('.jg-pregunta').setAttribute('tabindex', '-1'); el.querySelector('.jg-pregunta').focus({ preventScroll: true }); aLaVista(el); }
+    } else if (ronda0 && ronda > 0) { const q = el.querySelector('.jg-pregunta'); q.setAttribute('tabindex', '-1'); q.focus({ preventScroll: true }); aLaVista(el); }
   }
   function mover(de, a, conTeclado) {
     if (a < 0 || a >= lista.length || de === a) return;
     const [x] = lista.splice(de, 1);
     lista.splice(a, 0, x);
-    pintar(false, conTeclado ? { k: a, d: a - de } : undefined);
+    pintar(false, { foco: conTeclado ? { k: a, d: a - de } : null });
     api.anunciar(`${x.lema}, ahora en el puesto ${a + 1} de ${lista.length}.`);
   }
   function comprobar() {
