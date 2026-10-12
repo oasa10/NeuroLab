@@ -1,0 +1,1061 @@
+[
+ {
+  "id": "cribado",
+  "lema": "Cribado",
+  "variantes": [
+   "screening",
+   "detección precoz",
+   "tamizaje"
+  ],
+  "tipo": "concepto",
+  "familia": "Clasificar y medir",
+  "anio": 1968,
+  "anio_nota": "La OMS publica los principios de Wilson y Jungner para decidir cuándo merece la pena cribar",
+  "obra": "Wilson, J. M. G. y Jungner, G. (1968). Principles and practice of screening for disease. Organización Mundial de la Salud",
+  "figuras": [
+   "Max Wilson",
+   "Gunnar Jungner"
+  ],
+  "definicion": "Prueba breve que se aplica a muchas personas sin un diagnóstico previo para localizar a quienes tienen más probabilidad de presentar una condición. No diagnostica: separa a quienes conviene evaluar a fondo de quienes no. Un resultado positivo abre una evaluación, no pone una etiqueta.",
+  "usos": [
+   "I",
+   "D",
+   "E"
+  ],
+  "controversia": "Se discute qué cribar, a qué edad y con qué umbral: más sensibilidad detecta más casos, pero también más falsas alarmas. Y preocupa que un cuestionario de cribado se use como si fuera un diagnóstico.",
+  "contexto": "Tras la Segunda Guerra Mundial, la medicina pública empezó a buscar enfermedades en personas que aún no consultaban: radiografías de tórax, análisis a recién nacidos, revisiones escolares. La promesa era atractiva, pero tenía costes: falsas alarmas, ansiedad, pruebas innecesarias y listas de espera. En 1968, la OMS encargó a Max Wilson y Gunnar Jungner unos principios para decidir cuándo merece la pena cribar. Propusieron diez: que la condición sea un problema de salud importante, que exista una prueba adecuada y aceptable, que haya medios para diagnosticar y tratar, que se conozca su evolución natural y que el coste sea razonable, entre otros. En el neurodesarrollo, el cribado llegó más tarde. En 2001 se publicó el M-CHAT, un cuestionario para familias sobre señales tempranas de autismo, y la Academia Estadounidense de Pediatría recomienda cribar autismo a los 18 y 24 meses. Los CDC lo dejan claro: estas herramientas no dan diagnósticos.",
+  "ejemplos": [
+   "En la revisión de los 18 meses, la familia rellena un cuestionario de 23 preguntas de sí o no (M-CHAT); una puntuación alta lleva a una evaluación especializada, no a un diagnóstico.",
+   "Un colegio pasa una prueba breve de lectura en 1.º de primaria para localizar a quién conviene reforzar pronto, sin esperar a que el retraso se acumule.",
+   "Un test viral de «¿tienes TDAH?» no es un cribado validado: no tiene población definida, umbral contrastado ni ruta de evaluación posterior.",
+   "En un estudio, una escala breve selecciona a quién entrevistar en profundidad; la escala filtra y la entrevista clínica confirma o descarta.",
+   "Una pediatra explica a una familia que un positivo significa «hay que mirar mejor» y que muchos positivos se descartan después en la evaluación."
+  ],
+  "implicaciones": "En España, el seguimiento del desarrollo forma parte de las revisiones de salud infantil, y la escuela también observa señales de alerta en lenguaje, lectura o atención. Detectar pronto permite apoyar antes, pero cada cribado tiene un precio: los falsos positivos saturan listas de espera y preocupan a familias sin motivo; los falsos negativos retrasan apoyos a quien los necesita. Por eso importa saber qué sensibilidad tiene una herramienta, en qué población se validó y qué ocurre después del resultado. En redes circulan cuestionarios que se presentan como cribados y acaban funcionando como autodiagnósticos instantáneos. La pregunta útil no es «¿he dado positivo?», sino «¿quién me evalúa ahora y con qué criterios?».",
+  "sabias": "Los diez criterios de Wilson y Jungner (OMS, 1968) terminan con uno muy poco glamuroso: la búsqueda de casos debe ser un proceso continuo, «no un proyecto de una vez y para siempre».",
+  "piensalo": "Si un cuestionario detecta a casi todas las personas con una condición, pero también da muchas falsas alarmas, ¿lo usarías en todo un colegio? ¿Qué pasaría después?",
+  "paso": "Si te pasan un cuestionario de cribado, pregunta qué significa un positivo, qué evaluación viene después y cuánto suele tardar.",
+  "frase": "«El test dice que tiene autismo»",
+  "veredicto": "mito",
+  "matiz": "Un test de cribado no dice que alguien tenga una condición: indica que conviene evaluarle mejor. Los CDC lo resumen así: las herramientas de cribado no dan diagnósticos y un positivo debe seguirse de una evaluación completa.",
+  "salto": "del cribado al diagnóstico",
+  "relacionados": [
+   "sensibilidad-especificidad",
+   "umbral",
+   "escalas-valoracion",
+   "errores-simetricos",
+   "sobrediagnostico",
+   "autismo"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Dobrow, M. J. et al. (2018). Consolidated principles for screening based on a systematic review and consensus process. CMAJ, 190(14)",
+    "url": "https://www.cmaj.ca/content/190/14/E422"
+   },
+   {
+    "titulo": "Robins, D. L. et al. (2001). The Modified Checklist for Autism in Toddlers: an initial study. Journal of Autism and Developmental Disorders, 31(2)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11450812/"
+   },
+   {
+    "titulo": "CDC (s. f.). Clinical Screening for Autism Spectrum Disorder. Centers for Disease Control and Prevention",
+    "url": "https://www.cdc.gov/autism/hcp/diagnosis/screening.html"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "trastornos-neurodesarrollo",
+  "lema": "Trastornos del neurodesarrollo",
+  "variantes": [
+   "neurodevelopmental disorders",
+   "trastornos del desarrollo neurológico"
+  ],
+  "tipo": "categoria",
+  "familia": "Neurodesarrollo",
+  "anio": 2013,
+  "anio_nota": "El DSM-5 crea el capítulo «Trastornos del neurodesarrollo»",
+  "obra": "American Psychiatric Association (2013). DSM-5, capítulo de trastornos del neurodesarrollo; la CIE-11 de la OMS adopta un bloque equivalente",
+  "figuras": [],
+  "definicion": "Grupo de condiciones que aparecen durante el desarrollo, normalmente en la infancia, y afectan al funcionamiento personal, social, académico u ocupacional. Incluye discapacidad intelectual, trastornos de la comunicación, autismo, TDAH, trastornos específicos del aprendizaje y trastornos motores. Es una agrupación por inicio y curso, no por una causa común.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "A"
+  ],
+  "controversia": "Se discute si la agrupación refleja algo biológico compartido o solo un inicio temprano común, y por qué los tics están en este capítulo del DSM-5 pero en el neurológico de la CIE-11.",
+  "contexto": "Hasta 2013, el DSM-IV reunía en un capítulo los «trastornos de inicio en la infancia, la niñez o la adolescencia»: el criterio era la edad a la que solían diagnosticarse. El DSM-5 eliminó ese cajón y creó el capítulo de trastornos del neurodesarrollo, que agrupa condiciones con inicio en el desarrollo y curso persistente. Con el cambio, el TDAH dejó de clasificarse junto a los trastornos de conducta, el autismo se unificó en un espectro y se permitió diagnosticar autismo y TDAH a la vez. Detrás había varias tendencias: estudios genéticos que mostraban riesgos compartidos entre diagnósticos, coexistencias muy frecuentes y la constatación de que estas condiciones no terminan a los 18 años. La OMS siguió un camino parecido en la CIE-11 y en su manual clínico de 2024. Al mismo tiempo, el movimiento de la neurodiversidad empezó a usar la misma familia de diagnósticos como base de una identidad compartida.",
+  "ejemplos": [
+   "Un informe clínico dice «trastorno del neurodesarrollo» y la familia pregunta cuál: la etiqueta general orienta, pero el apoyo depende del perfil concreto.",
+   "Un equipo de investigación estudia a la vez autismo, TDAH y trastorno del lenguaje porque comparten factores genéticos de riesgo y dificultades frecuentes.",
+   "En una consulta infantil, la misma niña puede tener dislexia y TDAH: el capítulo común ayuda a pensar en coexistencias en lugar de elegir una sola etiqueta.",
+   "En redes, «neurodivergente» se usa a veces como sinónimo informal de este capítulo, aunque el término identitario es más amplio y no coincide con la lista clínica.",
+   "Un hombre recibe un diagnóstico de TDAH a los 40 años: «neurodesarrollo» indica un origen temprano, no que sea solo cosa de niños."
+  ],
+  "implicaciones": "En España, la LOMLOE nombra entre el alumnado con necesidad específica de apoyo educativo los «trastornos del desarrollo del lenguaje y la comunicación» y los «trastornos de atención o de aprendizaje», categorías que solapan solo en parte con el capítulo clínico. Sanidad y escuela usan vocabularios distintos, y una familia puede tener que traducir de uno a otro. El paraguas común facilita la coordinación y la investigación, pero también puede hacer que necesidades muy diferentes se traten como una sola. Y el prefijo «neuro» suena a escáner: conviene recordar que estos diagnósticos se hacen por historia del desarrollo, conducta y funcionamiento, no con una imagen del cerebro.",
+  "sabias": "En la CIE-11, el síndrome de Tourette y otros tics primarios se codifican en el capítulo de enfermedades del sistema nervioso, aunque aparecen listados también junto a los trastornos del neurodesarrollo. Un mismo diagnóstico, dos estanterías.",
+  "piensalo": "¿Qué gana y qué pierde una persona cuando su diagnóstico concreto se nombra con la etiqueta paraguas «trastorno del neurodesarrollo»?",
+  "paso": "Busca un informe o una web que use «trastorno del neurodesarrollo» y comprueba si dice cuál y qué necesidades concretas describe.",
+  "frase": "«Si es del neurodesarrollo, se tiene que ver en el cerebro»",
+  "veredicto": "mito",
+  "matiz": "«Neurodesarrollo» indica inicio durante el desarrollo y curso persistente, no que exista una prueba cerebral. Estos diagnósticos se basan en la historia, la conducta y el funcionamiento; hoy ningún escáner individual los confirma.",
+  "salto": "de la etiqueta al mecanismo",
+  "relacionados": [
+   "dsm-5",
+   "cie-11",
+   "tdah",
+   "autismo",
+   "discapacidad-intelectual",
+   "coexistencia"
+  ],
+  "fuentes": [
+   {
+    "titulo": "American Psychiatric Association (2013). Highlights of changes from DSM-IV-TR to DSM-5. APA",
+    "url": "https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM_Changes_from_DSM-IV-TR_-to_DSM-5.pdf"
+   },
+   {
+    "titulo": "OMS (2024). Clinical descriptions and diagnostic requirements for ICD-11 mental, behavioural and neurodevelopmental disorders (CDDR). Organización Mundial de la Salud",
+    "url": "https://www.who.int/publications/i/item/9789240077263"
+   },
+   {
+    "titulo": "Tebartz van Elst, L., Riedel, A. y Biscaldi-Schäfer, M. (2025). The reclassification of neurodevelopmental disorders in ICD-11. Der Nervenarzt, 96",
+    "url": "https://link.springer.com/article/10.1007/s00115-025-01876-w"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "tdah",
+  "lema": "TDAH (trastorno por déficit de atención e hiperactividad)",
+  "variantes": [
+   "TDAH",
+   "ADHD",
+   "trastorno por déficit de atención con hiperactividad",
+   "trastorno hipercinético"
+  ],
+  "tipo": "categoria",
+  "familia": "Neurodesarrollo",
+  "anio": 1987,
+  "anio_nota": "El DSM-III-R adopta el nombre «trastorno por déficit de atención con hiperactividad»",
+  "obra": "American Psychiatric Association (1987). DSM-III-R; el DSM-5 (2013) lo reubica entre los trastornos del neurodesarrollo",
+  "figuras": [
+   "George Frederic Still",
+   "Russell Barkley",
+   "Heinrich Hoffmann"
+  ],
+  "definicion": "Condición del neurodesarrollo definida por un patrón persistente de inatención, de hiperactividad e impulsividad, o de ambas, que empieza antes de los 12 años, se nota en más de un contexto e interfiere en la vida diaria. Se diagnostica por historia y observación clínica, no con una prueba única.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "A",
+   "R"
+  ],
+  "controversia": "Se discute por qué crecen los diagnósticos (mejor detección, criterios más amplios, presión escolar o redes), cuánto influye ser el más pequeño de la clase y cómo combinar medicación y apoyos no farmacológicos.",
+  "contexto": "Médicos del siglo XIX y de comienzos del XX describieron niños muy inquietos o desatentos; en 1902, George Still habló de un «defecto del control moral». Durante décadas se buscó un «daño cerebral mínimo», y en los años sesenta circulaba la idea de «disfunción cerebral mínima». El DSM-II (1968) habló de «reacción hipercinética de la infancia»; el DSM-III (1980) puso la atención en el centro, y el DSM-III-R (1987) adoptó el nombre actual y lo situó entre los trastornos de conducta disruptiva. En 2013, el DSM-5 lo trasladó al capítulo del neurodesarrollo, retrasó la edad de inicio de los 7 a los 12 años y permitió diagnosticarlo junto al autismo. Cada cambio respondió a estudios nuevos, pero también a debates clínicos, escolares y farmacológicos de su época. El resultado es una categoría muy estudiada que sigue discutiéndose en público como pocas.",
+  "ejemplos": [
+   "Una tutora nota que un alumno pierde el hilo en tareas largas y la familia ve lo mismo en casa: piden una evaluación en lugar de quedarse con «es vago».",
+   "En consulta, el diagnóstico exige reconstruir la historia desde la infancia y recoger información de varios contextos; no basta con una escala ni con una entrevista corta.",
+   "La LOMCE (2013) nombró el TDAH entre el alumnado con necesidad específica de apoyo educativo; la LOMLOE (2020) habla de «trastornos de atención o de aprendizaje».",
+   "Un metaanálisis compara la prevalencia entre regiones del mundo y encuentra que, con los mismos criterios diagnósticos, las diferencias dejan de ser significativas.",
+   "En redes, un vídeo de 30 segundos convierte olvidar las llaves en «síntoma de TDAH»: la experiencia es común; el trastorno exige persistencia, inicio temprano e interferencia."
+  ],
+  "implicaciones": "En España, un metaanálisis de 2012 estimó una prevalencia del 6,8 % en niños y adolescentes, en línea con otros países. En la escuela, la categoría da acceso a la consideración de necesidad específica de apoyo educativo, aunque los procedimientos cambian entre comunidades autónomas. En sanidad, crecen las consultas, también de adultos, y las listas de espera. En redes, la divulgación ha hecho visible a mucha gente que sufría sin nombre, y a la vez ha llenado el tema de simplificaciones. El debate público suele oscilar entre «es una moda» y «todo el mundo lo tiene». La evidencia pide algo más incómodo: tomarse en serio a la vez el riesgo de diagnosticar de más y el de dejar fuera a chicas, adultos y familias con menos recursos.",
+  "sabias": "En 1846, el médico Heinrich Hoffmann incluyó en un libro infantil escrito para su hijo la historia de «Felipe el inquieto» (Zappel-Philipp). Hay psiquiatras que lo ven como un retrato temprano de la hiperactividad; era un cuento, no un diagnóstico.",
+  "piensalo": "Si casi todo el mundo se distrae a veces, ¿qué tendría que ocurrir para que distraerse deje de ser algo común y se convierta en un problema que necesita apoyo?",
+  "paso": "Lee la información sobre TDAH de una fuente sanitaria pública y compárala con el último vídeo que viste sobre el tema: ¿qué criterios faltan en el vídeo?",
+  "frase": "«El TDAH es un invento moderno»",
+  "veredicto": "mito",
+  "matiz": "El nombre es de 1987, pero hay descripciones parecidas desde hace más de un siglo. Un metaanálisis de 2012 no halló diferencias significativas entre regiones al controlar los criterios usados, lo que contradice que sea un producto de una sola cultura.",
+  "salto": "del aumento de diagnósticos a «es una moda»",
+  "relacionados": [
+   "presentaciones-tdah",
+   "tdah-adulto",
+   "funciones-ejecutivas",
+   "efecto-edad-relativa",
+   "metilfenidato",
+   "russell-barkley"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Spitzer, R. L., Davies, M. y Barkley, R. A. (1990). The DSM-III-R field trial of disruptive behavior disorders. Journal of the American Academy of Child and Adolescent Psychiatry, 29(5)",
+    "url": "https://doi.org/10.1097/00004583-199009000-00003"
+   },
+   {
+    "titulo": "Willcutt, E. G. (2012). The prevalence of DSM-IV attention-deficit/hyperactivity disorder: a meta-analytic review. Neurotherapeutics, 9(3)",
+    "url": "https://doi.org/10.1007/s13311-012-0135-8"
+   },
+   {
+    "titulo": "Catalá-López, F. et al. (2012). Prevalence of attention deficit hyperactivity disorder among children and adolescents in Spain. BMC Psychiatry, 12",
+    "url": "https://doi.org/10.1186/1471-244X-12-168"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "presentaciones-tdah",
+  "lema": "Presentaciones del TDAH",
+  "variantes": [
+   "subtipos del TDAH",
+   "TDAH inatento",
+   "TDAH combinado",
+   "TDA"
+  ],
+  "tipo": "concepto",
+  "familia": "Neurodesarrollo",
+  "anio": 2013,
+  "anio_nota": "El DSM-5 sustituye los «subtipos» por «presentaciones»",
+  "obra": "American Psychiatric Association (2013). DSM-5: especificadores de presentación del TDAH",
+  "figuras": [
+   "Benjamin Lahey",
+   "Erik Willcutt"
+  ],
+  "definicion": "Especificadores que describen qué síntomas predominan en un momento dado: presentación predominantemente inatenta, predominantemente hiperactiva-impulsiva o combinada. Sustituyeron a los subtipos del DSM-IV porque el perfil puede cambiar con la edad. Describen el cuadro actual, no tipos fijos de persona.",
+  "usos": [
+   "I",
+   "D",
+   "E"
+  ],
+  "controversia": "Se discute si las presentaciones son algo más que cortes sobre dos dimensiones continuas de síntomas y cuánto sirven para predecir la evolución o la respuesta a apoyos concretos.",
+  "contexto": "El DSM-III (1980) ya distinguía el déficit de atención con o sin hiperactividad. El DSM-IV (1994) formalizó tres subtipos: inatento, hiperactivo-impulsivo y combinado. Los estudios longitudinales pronto mostraron que muchos niños cambiaban de casilla. En una cohorte seguida ocho años desde preescolar, más de un tercio del subtipo combinado cumplió varias veces los criterios de otro subtipo, y quienes empezaban como hiperactivos-impulsivos solían pasar al combinado o dejar de cumplir criterios. Los autores concluyeron que los subtipos podían servir para agrupar en investigación, pero eran demasiado inestables para clasificar a cada niño. El DSM-5 (2013) respondió cambiando la palabra: ya no se habla de «tipos», sino de «presentaciones», que describen el cuadro de los últimos seis meses. El matiz es pequeño en el papel y grande en la vida: invita a revisar, no a encasillar.",
+  "ejemplos": [
+   "Un niño de cinco años con mucha inquietud motora recibe la presentación hiperactiva-impulsiva; a los nueve, con más dificultades de atención, el informe pasa a combinada.",
+   "Una adolescente callada que se pierde en clase y olvida entregas puede pasar desapercibida: la presentación inatenta molesta menos y se deriva menos.",
+   "En investigación, se comparan grupos por presentación para estudiar si difieren en lectura, sueño o funciones ejecutivas.",
+   "Una familia lee «TDA» en un foro y pregunta si es otro trastorno: hoy se considera la presentación inatenta del mismo diagnóstico.",
+   "Un informe escolar que copia la presentación de hace tres años puede quedar desfasado: conviene actualizar qué apoyos se necesitan ahora."
+  ],
+  "implicaciones": "Según un metaanálisis de 2012, la presentación inatenta es la más frecuente en la población, pero la combinada llega más a consulta. Eso ayuda a entender por qué muchas chicas y muchos adultos llegan tarde al diagnóstico: el ruido se deriva antes que el silencio. En la escuela española, conocer la presentación orienta ajustes como fragmentar tareas, dar instrucciones por escrito o permitir pausas, pero no sustituye una evaluación psicopedagógica de necesidades concretas. En redes circula «TDA» como si fuera una etiqueta distinta y más leve; no es otro trastorno ni necesariamente más leve. Y en sanidad, recordar que la presentación puede cambiar evita que un informe antiguo se convierta en destino.",
+  "sabias": "En un estudio que siguió durante ocho años a 118 niños diagnosticados en preescolar, el 37 % de los que tenían el subtipo combinado cumplió al menos dos veces los criterios de otro. Los autores los juzgaron demasiado inestables para clasificar a cada niño.",
+  "piensalo": "¿Qué cambia cuando un informe dice «es un TDAH inatento» frente a «ahora presenta sobre todo inatención»?",
+  "paso": "Si tienes un informe antiguo, mira la fecha y la presentación indicada, y pregunta si se ha revisado desde entonces.",
+  "frase": "«El TDA es un TDAH sin hiperactividad, una versión light»",
+  "veredicto": "mito",
+  "matiz": "La presentación inatenta forma parte del mismo diagnóstico y puede interferir tanto como las demás. Es la más frecuente en la población general, aunque llega a consulta menos que la combinada.",
+  "salto": "de la descripción actual al tipo permanente de persona",
+  "relacionados": [
+   "tdah",
+   "modelo-dimensional",
+   "brecha-genero",
+   "tdah-adulto",
+   "heterogeneidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "American Psychiatric Association (2013). Highlights of changes from DSM-IV-TR to DSM-5. APA",
+    "url": "https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM_Changes_from_DSM-IV-TR_-to_DSM-5.pdf"
+   },
+   {
+    "titulo": "Lahey, B. B. et al. (2005). Instability of the DSM-IV subtypes of ADHD from preschool through elementary school. Archives of General Psychiatry, 62(8)",
+    "url": "https://doi.org/10.1001/archpsyc.62.8.896"
+   },
+   {
+    "titulo": "Willcutt, E. G. (2012). The prevalence of DSM-IV attention-deficit/hyperactivity disorder: a meta-analytic review. Neurotherapeutics, 9(3)",
+    "url": "https://doi.org/10.1007/s13311-012-0135-8"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "tdah-adulto",
+  "lema": "TDAH en la edad adulta",
+  "variantes": [
+   "TDAH adulto",
+   "adult ADHD"
+  ],
+  "tipo": "concepto",
+  "familia": "Neurodesarrollo",
+  "anio": 2013,
+  "anio_nota": "El DSM-5 rebaja a cinco síntomas el umbral a partir de los 17 años",
+  "obra": "American Psychiatric Association (2013). DSM-5: criterios de TDAH con ejemplos y umbral específicos para adultos",
+  "figuras": [
+   "Paul Wender",
+   "Terrie Moffitt",
+   "Russell Barkley"
+  ],
+  "definicion": "Diagnóstico de TDAH en personas adultas cuyos síntomas empezaron en la infancia, aunque entonces nadie los detectara. En la adultez, la hiperactividad suele vivirse como inquietud interna, y pesan más la desorganización, la impulsividad y las dificultades en el trabajo, los estudios, la conducción o la pareja.",
+  "usos": [
+   "I",
+   "D",
+   "A",
+   "R"
+  ],
+  "controversia": "Se discute si existe un TDAH de inicio adulto, cómo distinguirlo de ansiedad, depresión, falta de sueño o consumo de sustancias, y cómo responder al aumento de consultas de adultos tras contenidos en redes.",
+  "contexto": "Durante buena parte del siglo XX se pensó que la hiperactividad era un problema infantil que desaparecía con la pubertad. En 1976, un estudio de Paul Wender y colaboradores planteó que la entonces llamada «disfunción cerebral mínima» podía persistir en adultos, oculta tras otras etiquetas. Los seguimientos de niños diagnosticados confirmaron que en muchos casos las dificultades continuaban, transformadas: menos correr y saltar, más desorden, olvidos y decisiones impulsivas. Pero los criterios estaban pensados para escolares. El DSM-5 (2013) añadió ejemplos adultos y rebajó el umbral a cinco síntomas a partir de los 17 años, además de situar el inicio antes de los 12. Un metaanálisis de 2021 estimó una prevalencia mundial del 2,58 % para el TDAH adulto persistente desde la infancia y del 6,76 % para el sintomático, sin exigir ese inicio. La distancia entre ambas cifras resume el debate: qué contamos exactamente cuando decimos «TDAH adulto».",
+  "ejemplos": [
+   "Una mujer de 38 años consulta tras años de ansiedad y cambios de trabajo; la evaluación reconstruye su infancia con boletines escolares y entrevistas a familiares.",
+   "Un profesional explica que perder el móvil a menudo no basta: el criterio pide un patrón persistente, desde la infancia y con impacto en varios ámbitos.",
+   "Un universitario solicita más tiempo en los exámenes tras recibir el diagnóstico; el servicio de atención a la diversidad le pide el informe clínico.",
+   "En un seguimiento de cuatro décadas en Nueva Zelanda, casi ningún adulto con TDAH lo había tenido de niño, un resultado que abrió un debate todavía vivo.",
+   "Alguien se reconoce en vídeos sobre «TDAH adulto» y pide cita; reconocerse es un punto de partida, la evaluación profesional es la que decide."
+  ],
+  "implicaciones": "Muchas personas adultas llegan a consulta después de que un hijo reciba el diagnóstico o tras reconocerse en contenidos de redes. Eso plantea retos concretos: circuitos de evaluación para adultos en la sanidad pública, adaptaciones en la universidad y en el trabajo, y prudencia con la conducción o el consumo de sustancias. También obliga a pesar los dos errores: no diagnosticar a mujeres que compensaron durante décadas a base de esfuerzo y ansiedad, y no confundir con TDAH el agotamiento, la falta de sueño o una depresión. El diagnóstico diferencial es aquí la parte central del trabajo. Y una evaluación seria necesita algo que ningún cuestionario en línea tiene: la historia de la infancia contada por varias fuentes.",
+  "sabias": "En una cohorte de 1.037 personas nacidas en Dunedin (Nueva Zelanda) y seguidas hasta los 38 años, el 90 % de los adultos con TDAH no había tenido TDAH en la infancia. Los autores pidieron replicarlo antes de sacar conclusiones.",
+  "piensalo": "Si alguien cumple hoy los síntomas pero nadie los vio de niño, ¿falta un dato del pasado o estamos ante otra cosa? ¿Cómo lo distinguirías?",
+  "paso": "Si te preguntas por el TDAH adulto, busca tus boletines o informes escolares antiguos: lo que escribían tus profesores es información valiosa para cualquier evaluación.",
+  "frase": "«El TDAH se cura al crecer»",
+  "veredicto": "matiz",
+  "matiz": "En muchas personas los síntomas disminuyen o cambian con la edad, pero en otras persisten. Un metaanálisis de 2021 estimó que alrededor del 2,6 % de los adultos tiene un TDAH que viene de la infancia.",
+  "salto": "de la identidad al diagnóstico",
+  "relacionados": [
+   "tdah",
+   "diagnostico-diferencial",
+   "autodiagnostico",
+   "redes-sociales",
+   "brecha-genero",
+   "umbral"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Song, P. et al. (2021). The prevalence of adult attention-deficit hyperactivity disorder: a global systematic review and meta-analysis. Journal of Global Health, 11",
+    "url": "https://doi.org/10.7189/jogh.11.04009"
+   },
+   {
+    "titulo": "Moffitt, T. E. et al. (2015). Is adult ADHD a childhood-onset neurodevelopmental disorder? American Journal of Psychiatry, 172(10)",
+    "url": "https://doi.org/10.1176/appi.ajp.2015.14101266"
+   },
+   {
+    "titulo": "Wood, D. R., Reimherr, F. W., Wender, P. H. y Johnson, G. E. (1976). Diagnosis and treatment of minimal brain dysfunction in adults. Archives of General Psychiatry, 33(12)",
+    "url": "https://doi.org/10.1001/archpsyc.1976.01770120057005"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "autismo",
+  "lema": "Autismo (trastorno del espectro autista)",
+  "variantes": [
+   "TEA",
+   "trastorno del espectro del autismo",
+   "ASD",
+   "condición del espectro autista"
+  ],
+  "tipo": "categoria",
+  "familia": "Neurodesarrollo",
+  "anio": 2013,
+  "anio_nota": "El DSM-5 unifica varios diagnósticos en el «trastorno del espectro autista»",
+  "obra": "American Psychiatric Association (2013). DSM-5: trastorno del espectro autista, con dos dominios y niveles de gravedad según el apoyo necesario",
+  "figuras": [
+   "Grunya Sukhareva",
+   "Leo Kanner",
+   "Hans Asperger",
+   "Lorna Wing",
+   "Uta Frith"
+  ],
+  "definicion": "Condición del neurodesarrollo caracterizada por dificultades persistentes en la comunicación y la interacción social, junto con patrones restringidos o repetitivos de conducta, intereses o actividades, incluidas particularidades sensoriales. Sus manifestaciones y necesidades de apoyo varían mucho entre personas y a lo largo de la vida.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "A",
+   "R"
+  ],
+  "controversia": "Se discute si un único espectro agrupa realidades demasiado distintas, cómo explicar el aumento de diagnósticos y cómo equilibrar su consideración como trastorno que requiere apoyos con su defensa como forma de diversidad humana.",
+  "contexto": "La palabra «autismo» la usó Eugen Bleuler en 1911 para un síntoma de la esquizofrenia. En 1925, Grunya Sukhareva describió en Moscú a niños con rasgos que hoy reconoceríamos como autistas; en 1943, Leo Kanner publicó sus once casos, y en 1944 Hans Asperger, en Viena, su estudio sobre niños con lenguaje fluido y dificultades sociales. Durante décadas se culpó a madres supuestamente frías, una idea hoy descartada. El DSM-III (1980) incluyó el «autismo infantil», y en los años ochenta Lorna Wing popularizó la idea de un espectro más amplio. El DSM-5 (2013) fusionó cuatro diagnósticos del DSM-IV (trastorno autista, Asperger, trastorno desintegrativo infantil y trastorno generalizado del desarrollo no especificado) en una sola categoría con dos dominios. Los estudios atribuyen buena parte del aumento de cifras a criterios más amplios, mejor detección y más servicios, aunque se sigue investigando.",
+  "ejemplos": [
+   "Una niña de cuatro años con lenguaje fluido pero juego muy rígido recibe el diagnóstico; el informe indica el nivel de apoyo en comunicación social y en conductas repetitivas.",
+   "En el aula, anticipar cambios con una agenda visual y reducir el ruido ayuda a un alumno autista a participar sin rebajar lo que aprende.",
+   "Un hombre de 45 años recibe el diagnóstico y dice que por fin entiende su historia; no todo cambia, pero sabe qué ajustes pedir en el trabajo.",
+   "La red de vigilancia de los CDC estima la frecuencia en niños de 8 años revisando registros sanitarios y educativos de varios estados de EE. UU.",
+   "En redes, la etiqueta #ActuallyAutistic reúne relatos en primera persona; sirven para conocer experiencias, no para diagnosticar a quien los lee."
+  ],
+  "implicaciones": "La OMS estima que en 2021 alrededor de una de cada 127 personas tenía autismo, con capacidades y necesidades que varían y pueden cambiar con el tiempo. En España, el autismo está en el centro de muchas peticiones de evaluación, apoyos escolares y certificados de discapacidad, y cuenta con una estrategia estatal propia. Los debates actuales tocan casi todos los usos de la etiqueta: listas de espera para diagnosticar, chicas y adultos que llegan tarde, el término «autismo profundo», el lenguaje que prefieren las personas autistas y la tensión entre investigación de causas y mejora de apoyos. Y un recordatorio necesario, porque el bulo sigue circulando: la OMS insiste en que la vacuna triple vírica no causa autismo.",
+  "sabias": "En EE. UU., la red de vigilancia de los CDC pasó de identificar autismo en 1 de cada 150 niños de 8 años (datos de 2000) a 1 de cada 31 (datos de 2022). Identificar más no equivale automáticamente a que haya más.",
+  "piensalo": "Si una misma etiqueta incluye a alguien que da conferencias y a alguien que necesita apoyo las 24 horas, ¿para qué sirve la etiqueta y para qué no?",
+  "paso": "Busca la cifra más reciente de autismo de una fuente oficial (OMS o CDC) y fíjate en qué población, edad y método usa antes de compararla con otra.",
+  "frase": "«Hay una epidemia de autismo»",
+  "veredicto": "matiz",
+  "matiz": "Los diagnósticos han crecido mucho, pero el aumento refleja en buena parte criterios más amplios, más detección y más servicios. Además, la OMS recuerda que la vacuna triple vírica no causa autismo.",
+  "salto": "del aumento de diagnósticos a «es una epidemia»",
+  "relacionados": [
+   "sindrome-asperger",
+   "autismo-profundo",
+   "brecha-genero",
+   "prevalencia",
+   "heterogeneidad",
+   "neurodiversidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "American Psychiatric Association (2013). Highlights of changes from DSM-IV-TR to DSM-5. APA",
+    "url": "https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM_Changes_from_DSM-IV-TR_-to_DSM-5.pdf"
+   },
+   {
+    "titulo": "OMS (2025). Autism. Nota descriptiva. Organización Mundial de la Salud",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders"
+   },
+   {
+    "titulo": "CDC (2025). Data and Statistics on Autism Spectrum Disorder. Centers for Disease Control and Prevention",
+    "url": "https://www.cdc.gov/autism/data-research/index.html"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "sindrome-asperger",
+  "lema": "Síndrome de Asperger",
+  "variantes": [
+   "Asperger",
+   "trastorno de Asperger",
+   "Asperger's syndrome",
+   "psicopatía autista"
+  ],
+  "tipo": "categoria",
+  "familia": "Neurodesarrollo",
+  "anio": 1981,
+  "anio_nota": "Lorna Wing propone y populariza el término «síndrome de Asperger»",
+  "obra": "Wing, L. (1981). Asperger's syndrome: a clinical account. Psychological Medicine, 11(1)",
+  "figuras": [
+   "Hans Asperger",
+   "Lorna Wing",
+   "Herwig Czech",
+   "Edith Sheffer"
+  ],
+  "definicion": "Nombre que se dio a un perfil autista sin retraso del lenguaje ni discapacidad intelectual, con dificultades sociales e intereses muy intensos. Fue diagnóstico oficial en la CIE-10 y el DSM-IV; el DSM-5 y la CIE-11 lo integraron en el trastorno del espectro autista. Muchas personas lo siguen usando como identidad.",
+  "usos": [
+   "I",
+   "D",
+   "R"
+  ],
+  "controversia": "Se discute si conviene seguir usando un epónimo ligado a un médico que colaboró con el régimen nazi y si fundirlo en el espectro borró un perfil con necesidades propias.",
+  "contexto": "Hans Asperger usó en 1938 la expresión «psicópatas autistas» y en 1944 publicó un estudio amplio sobre niños vieneses. Su trabajo, en alemán y en plena guerra, apenas circuló fuera hasta que Lorna Wing lo rescató en 1981, propuso el nombre de síndrome de Asperger y lo incluyó en un grupo más amplio de condiciones con dificultades en la interacción social, la comunicación y la imaginación. La CIE-10 y el DSM-IV (1994) lo convirtieron en diagnóstico oficial, pero distinguirlo del llamado «autismo de alto funcionamiento» resultó difícil en la práctica, y el DSM-5 lo fundió en el espectro. Mientras tanto, la historia del nombre cambió. En 2018, el historiador Herwig Czech mostró con archivos que Asperger se acomodó al régimen nazi, legitimó públicamente la higiene racial y cooperó en varias ocasiones con el programa de «eutanasia» infantil. Edith Sheffer, ese mismo año, llegó a conclusiones similares.",
+  "ejemplos": [
+   "Una persona diagnosticada de Asperger en 2005 conserva ese informe; en una evaluación actual, el diagnóstico figuraría como trastorno del espectro autista.",
+   "Un adulto prefiere decir «soy Asperger» porque así se reconoció durante años; otros abandonan la palabra por la historia de Hans Asperger.",
+   "Algunas asociaciones españolas mantienen «Asperger» en su nombre por su trayectoria y por las personas que se identifican con él.",
+   "En clase de historia de la psicología, el caso muestra que la validez de una categoría y la biografía de quien le da nombre son preguntas distintas.",
+   "En redes, «aspie» funciona como identidad afectuosa en algunas comunidades y como burla en otras: el contexto cambia el uso."
+  ],
+  "implicaciones": "En España todavía circulan informes, asociaciones y conversaciones que usan «Asperger». Para trámites y apoyos, el diagnóstico vigente es trastorno del espectro autista, y una familia puede encontrarse con que le piden un informe actualizado. El debate sobre el epónimo es real: Czech propone que su uso futuro refleje el contexto en que surgió. Pero quien se identifica con la palabra no está avalando el nazismo, y conviene no convertir una discusión histórica en un juicio a personas. La otra lección es clínica: etiquetas como «leve» o «de alto funcionamiento» pueden ocultar necesidades importantes, como ansiedad, agotamiento o aislamiento, en personas que hablan con fluidez y sacan buenas notas.",
+  "sabias": "Hans Asperger empleó la expresión «psicópatas autistas» en 1938, varios años antes del famoso artículo de Leo Kanner sobre autismo de 1943. Su estudio amplio de 1944 solo obtuvo reconocimiento internacional en los años ochenta.",
+  "piensalo": "¿Debe cambiar el nombre de una categoría cuando descubrimos algo grave sobre la persona que lo inspiró, aunque muchas personas se identifiquen con él?",
+  "paso": "Lee el resumen del artículo de Herwig Czech (2018), de acceso abierto, y anota qué tipo de documentos usa para revisar la imagen de Asperger.",
+  "frase": "«El Asperger es un autismo leve»",
+  "veredicto": "mito",
+  "matiz": "No tener retraso del lenguaje ni discapacidad intelectual no significa no tener dificultades: muchas personas así descritas necesitan apoyos importantes. Por eso el DSM-5 gradúa la gravedad según el apoyo necesario, no según el lenguaje o el CI.",
+  "salto": "de la historia del nombre a la validez del concepto (y al revés)",
+  "relacionados": [
+   "autismo",
+   "hans-asperger",
+   "lorna-wing",
+   "dsm-5",
+   "lenguaje-identidad",
+   "autoadscripcion"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Wing, L. (1981). Asperger's syndrome: a clinical account. Psychological Medicine, 11(1)",
+    "url": "https://doi.org/10.1017/s0033291700053332"
+   },
+   {
+    "titulo": "Czech, H. (2018). Hans Asperger, National Socialism, and «race hygiene» in Nazi-era Vienna. Molecular Autism, 9",
+    "url": "https://doi.org/10.1186/s13229-018-0208-6"
+   },
+   {
+    "titulo": "Sheffer, E. (2018). Asperger's Children: The Origins of Autism in Nazi Vienna. W. W. Norton",
+    "url": "https://wwnorton.com/books/9780393609646"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "autismo-profundo",
+  "lema": "Autismo profundo",
+  "variantes": [
+   "profound autism"
+  ],
+  "tipo": "concepto",
+  "familia": "Neurodesarrollo",
+  "anio": 2021,
+  "anio_nota": "La Comisión Lancet sobre autismo propone el término como designación administrativa",
+  "obra": "Lord, C. et al. (2021). The Lancet Commission on the future of care and clinical research in autism. The Lancet",
+  "figuras": [
+   "Catherine Lord",
+   "Alison Singer"
+  ],
+  "definicion": "Propuesta administrativa, no diagnóstico formal, para nombrar a las personas autistas que necesitan acceso a un adulto las 24 horas, tienen poco o ningún lenguaje oral o una discapacidad intelectual importante, y no pueden defender por sí mismas sus intereses. Busca hacer visibles necesidades que el espectro amplio diluye.",
+  "usos": [
+   "I",
+   "A",
+   "R"
+  ],
+  "controversia": "Parte del activismo autista teme que divida la comunidad y reabra la jerarquía de «grados»; muchas familias y profesionales sostienen que, sin un nombre propio, estas necesidades desaparecen de la investigación y las políticas.",
+  "contexto": "Cuando el DSM-5 unificó el espectro, el autismo pasó a incluir desde personas con carreras universitarias hasta personas que necesitan cuidados permanentes. Al mismo tiempo crecían los diagnósticos de personas con lenguaje fluido, la voz pública del movimiento de la neurodiversidad y la investigación centrada en quienes pueden responder cuestionarios. Familias de personas con grandes necesidades denunciaron que sus hijos quedaban fuera de los estudios, de los debates y de los servicios. En diciembre de 2021, la Comisión Lancet sobre el futuro de la atención y la investigación en autismo, con más de treinta autores de varios continentes, propuso «autismo profundo» como designación administrativa para ese grupo, que estimó entre el 18 % y el 48 % de las personas autistas. En 2023, un análisis de la red de vigilancia de los CDC aplicó una definición operativa y halló un 26,7 % entre los niños autistas de 8 años.",
+  "ejemplos": [
+   "Una madre explica en una reunión que su hijo de 15 años no habla y necesita supervisión constante; el término le ayuda a que no lo confundan con el autismo de las series.",
+   "Un estudio sobre empleo autista excluye sin decirlo a quienes no pueden responder cuestionarios; el concepto obliga a preguntar a quién representa la muestra.",
+   "Una administración que planifica plazas residenciales y respiro familiar necesita saber cuántas personas requieren apoyo continuo, no solo cuántas tienen diagnóstico.",
+   "En redes, un activista autista critica el término por volver a los «grados»; una madre responde que, sin nombre, su hijo no aparece en ningún debate.",
+   "Un equipo de investigación decide reclutar específicamente a personas con autismo profundo para estudiar las autolesiones, un problema poco investigado en ellas."
+  ],
+  "implicaciones": "En España no es una categoría oficial: lo que abre derechos es el diagnóstico de autismo junto con el grado de discapacidad reconocido y, en su caso, el de dependencia. Aun así, el debate llega aquí: plazas en centros de educación especial, apoyos en la vida adulta, respiro para familias cuidadoras y quién habla en nombre de quién en las políticas públicas. El análisis de los CDC añade una cuestión de equidad, porque el autismo profundo era más frecuente en familias con menos recursos. El riesgo es usar la etiqueta para separar a quienes «merecen» apoyo de quienes no; el riesgo contrario es seguir hablando del autismo como si todas las personas autistas pudieran contarlo con sus palabras.",
+  "sabias": "Al aplicar la definición a datos de 20.135 niños autistas de 8 años (2000-2016), los CDC estimaron que el 26,7 % tenía autismo profundo. Estos niños eran con más frecuencia niñas y de familias con menos recursos.",
+  "piensalo": "¿Puede una sola palabra, «autismo», representar bien a la vez a quien escribe un blog sobre su experiencia y a quien no puede comunicarla?",
+  "paso": "La próxima vez que leas una noticia sobre «las personas autistas», comprueba si incluye a quienes no usan lenguaje oral o necesitan apoyo continuo.",
+  "frase": "«Hablar de autismo profundo es volver a los grados de antes»",
+  "veredicto": "matiz",
+  "matiz": "La Comisión Lancet lo plantea como designación administrativa para planificar apoyos, no como diagnóstico ni como jerarquía de valor. Que ayude o estigmatice dependerá de cómo se use, y sus efectos todavía están por estudiar.",
+  "salto": "de la parte más visible del espectro a todo el espectro",
+  "relacionados": [
+   "autismo",
+   "heterogeneidad",
+   "discapacidad-intelectual",
+   "neurodiversidad",
+   "nada-sobre-nosotros",
+   "certificado-discapacidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Lord, C. et al. (2021). The Lancet Commission on the future of care and clinical research in autism. The Lancet, 399(10321)",
+    "url": "https://doi.org/10.1016/S0140-6736(21)01541-5"
+   },
+   {
+    "titulo": "King's College London (2021). Experts set out future of autism care and treatment in new Lancet Commission",
+    "url": "https://www.kcl.ac.uk/news/experts-set-out-future-of-autism-care-and-treatment-in-new-lancet-commission"
+   },
+   {
+    "titulo": "Hughes, M. M. et al. (2023). The prevalence and characteristics of children with profound autism, 15 sites, United States, 2000-2016. Public Health Reports, 138(6)",
+    "url": "https://doi.org/10.1177/00333549231163551"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": false
+ },
+ {
+  "id": "brecha-genero",
+  "lema": "Brecha de género en el diagnóstico",
+  "variantes": [
+   "sesgo diagnóstico de género",
+   "proporción chico-chica",
+   "diagnostic gender bias"
+  ],
+  "tipo": "concepto",
+  "familia": "Neurodesarrollo",
+  "anio": 2017,
+  "anio_nota": "Un metaanálisis estima que la proporción de autismo entre chicos y chicas se acerca a 3:1, no a 4:1",
+  "obra": "Loomes, R., Hull, L. y Mandy, W. (2017). What is the male-to-female ratio in autism spectrum disorder? Journal of the American Academy of Child and Adolescent Psychiatry",
+  "figuras": [
+   "William Mandy",
+   "Laura Hull",
+   "Rachel Loomes"
+  ],
+  "definicion": "Diferencia entre cuántos chicos y cuántas chicas reciben un diagnóstico del neurodesarrollo que no se explica solo por diferencias reales de frecuencia. En autismo y TDAH, parte de la distancia se atribuye a criterios, instrumentos y expectativas construidos sobre todo a partir de niños varones.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "R"
+  ],
+  "controversia": "Se discute cuánto de la diferencia es biológico y cuánto sesgo de detección, si existe un perfil femenino específico y cómo evitar que corregir la infradetección derive en lo contrario.",
+  "contexto": "Las primeras descripciones de autismo y de hiperactividad se basaron sobre todo en niños varones, y muchos instrumentos se calibraron con ellos. Durante décadas se repitió que el autismo era cuatro veces más frecuente en chicos y que el TDAH era cosa de niños movidos. Con el cambio de siglo, los estudios en población general, los relatos de mujeres diagnosticadas en la edad adulta y la investigación sobre camuflaje social cuestionaron esas cifras. En 2017, un metaanálisis de 54 estudios mostró que la proporción bajaba a unos 3 chicos por chica cuando se cribaba a toda la población, en lugar de contar solo a quienes ya tenían diagnóstico, y habló de un sesgo diagnóstico de género. En TDAH, un consenso de expertos de 2020 señaló que las chicas presentan con más frecuencia síntomas internalizados y estrategias compensatorias que enmascaran el cuadro y retrasan la derivación.",
+  "ejemplos": [
+   "Una alumna que se esfuerza por pasar desapercibida llega agotada a casa; no molesta en clase y nadie piensa en autismo hasta que la familia insiste.",
+   "Un cuestionario validado sobre todo con niños puede puntuar más bajo a chicas con dificultades parecidas, pero con otra forma de expresarlas.",
+   "Una mujer recibe el diagnóstico de TDAH a los 35 años, después de varios tratamientos por ansiedad y depresión.",
+   "Un estudio epidemiológico criba a toda la población escolar, no solo a quienes ya tienen informe, y encuentra una proporción entre chicos y chicas más baja.",
+   "En redes, muchas mujeres comparten diagnósticos tardíos; sus relatos ayudan a detectar el patrón, pero no permiten calcular cuántas siguen sin diagnosticar."
+  ],
+  "implicaciones": "En España, la brecha afecta a la escuela, la sanidad y el acceso a apoyos: si una niña no llega a evaluación, tampoco accede a ajustes ni a la consideración de necesidad específica de apoyo educativo. El debate obliga a revisar la formación del profesorado, los protocolos de derivación y los instrumentos, que deberían estar validados con chicos y chicas. También pide prudencia: «las chicas lo camuflan» puede convertirse en una explicación que confirma cualquier sospecha. Pesar los dos errores significa reducir la infradetección femenina sin rebajar los criterios hasta perder precisión, y estudiar por separado la diferencia biológica, la expresión aprendida y el sesgo de quien observa.",
+  "sabias": "Cuando los estudios cribaban a toda la población, la proporción de autismo era de unos 3,25 chicos por chica; cuando solo contaban diagnósticos previos, subía a 4,56. La diferencia apunta a niñas que cumplen criterios pero no llegan a consulta.",
+  "piensalo": "Si un instrumento se diseñó observando sobre todo a niños, ¿cómo sabríamos si mide igual de bien a las niñas o simplemente las ve menos?",
+  "paso": "Cuando leas una cifra de «tantas veces más en chicos», busca si viene de diagnósticos ya existentes o de un cribado a toda la población.",
+  "frase": "«El autismo y el TDAH son cosa de chicos»",
+  "veredicto": "mito",
+  "matiz": "Se diagnostican más en chicos, pero parte de la diferencia es infradetección en chicas. En autismo, la proporción real se acerca a 3:1 y no a 4:1, y en TDAH las chicas suelen derivarse más tarde.",
+  "salto": "de la frecuencia diagnosticada a la frecuencia real",
+  "relacionados": [
+   "infradiagnostico",
+   "camuflaje",
+   "autismo",
+   "tdah",
+   "prevalencia",
+   "cribado"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Loomes, R., Hull, L. y Mandy, W. (2017). What is the male-to-female ratio in autism spectrum disorder? A systematic review and meta-analysis. JAACAP, 56(6)",
+    "url": "https://doi.org/10.1016/j.jaac.2017.03.013"
+   },
+   {
+    "titulo": "Young, S. et al. (2020). Females with ADHD: an expert consensus statement taking a lifespan approach. BMC Psychiatry, 20",
+    "url": "https://doi.org/10.1186/s12888-020-02707-9"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "tdl",
+  "lema": "Trastorno del desarrollo del lenguaje (TDL)",
+  "variantes": [
+   "TDL",
+   "DLD",
+   "trastorno específico del lenguaje (TEL)",
+   "disfasia"
+  ],
+  "tipo": "categoria",
+  "familia": "Neurodesarrollo",
+  "anio": 2017,
+  "anio_nota": "El consenso internacional CATALISE recomienda el término «trastorno del desarrollo del lenguaje»",
+  "obra": "Bishop, D. V. M. et al. (2017). Phase 2 of CATALISE: a multinational and multidisciplinary Delphi consensus study. Terminology. Journal of Child Psychology and Psychiatry",
+  "figuras": [
+   "Dorothy Bishop",
+   "Courtenay Norbury"
+  ],
+  "definicion": "Dificultades persistentes para comprender o usar el lenguaje que afectan a la vida diaria y al aprendizaje, sin asociarse a una condición conocida como sordera, autismo, discapacidad intelectual o un síndrome genético. Puede coexistir con TDAH u otras condiciones y no exige una diferencia entre capacidad verbal y no verbal.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "A"
+  ],
+  "controversia": "Se discute dónde poner el umbral entre un lenguaje que madura despacio y un trastorno, y si dejar de exigir un CI no verbal «normal» amplía demasiado la categoría o corrige una exclusión injusta.",
+  "contexto": "Durante el siglo XX, los niños que hablaban o comprendían mal sin causa aparente recibieron nombres muy distintos: afasia del desarrollo, disfasia, retraso del lenguaje, trastorno específico del lenguaje. La palabra «específico» exigía una inteligencia no verbal normal, lo que dejaba sin servicios a muchos niños con puntuaciones algo más bajas. Esa dispersión de etiquetas tenía costes: confundía a las familias, fragmentaba la investigación y dificultaba reclamar recursos, sobre todo en comparación con la dislexia o el autismo. En 2016 y 2017, el proyecto CATALISE reunió a 57 especialistas de varias profesiones y países mediante un método Delphi y recomendó «trastorno del desarrollo del lenguaje». El DSM-5 ya había eliminado la exigencia de CI no verbal, y un estudio poblacional en Surrey (Inglaterra) mostró que los niños con CI no verbal medio-bajo tenían dificultades igual de graves que el resto.",
+  "ejemplos": [
+   "Un niño de cinco años entiende mal instrucciones de dos pasos y construye frases muy simples; la logopeda descarta pérdida auditiva antes de hablar de TDL.",
+   "Una profesora nota que una alumna parece «despistada», pero en realidad no comprende enunciados largos; reformularlos con frases cortas cambia sus resultados.",
+   "La LOMLOE incluye al alumnado con «trastornos del desarrollo del lenguaje y la comunicación» entre quien requiere una atención educativa diferente a la ordinaria.",
+   "En investigación, adoptar un término común permite reunir estudios que antes hablaban de TEL, disfasia o retraso del lenguaje.",
+   "Una familia descubre que el TDL no termina en infantil: en secundaria aparecen dificultades con los textos de ciencias o de historia."
+  ],
+  "implicaciones": "En España, la LOMLOE nombra expresamente los «trastornos del desarrollo del lenguaje y la comunicación» entre el alumnado con necesidad específica de apoyo educativo, lo que ayuda a reconocerlo en la escuela. Aun así, el TDL es poco conocido fuera de la logopedia, a pesar de ser frecuente: unos dos niños por aula de 30 al empezar la escolaridad, según un estudio inglés. Se confunde con timidez, mala conducta o falta de interés, y en la adolescencia puede esconderse tras problemas de lectura o de ansiedad. El cambio de nombre muestra cómo una etiqueta compartida ayuda a investigar y a pedir recursos, aunque no resuelve por sí sola dónde situar el umbral.",
+  "sabias": "En el primer estudio poblacional británico sobre el tema, en Surrey, alrededor del 7,6 % de los niños de 4 y 5 años tenía un trastorno del lenguaje sin causa conocida: unos dos por cada clase de 30.",
+  "piensalo": "Si un niño entiende poco de lo que se dice en clase, ¿cómo podríamos confundirlo con un problema de atención o de conducta?",
+  "paso": "Esta semana, cuando expliques algo a un niño o a un adolescente, prueba a dar una instrucción cada vez y observa si cambia su respuesta.",
+  "frase": "«Ya hablará: cada niño tiene su ritmo»",
+  "veredicto": "matiz",
+  "matiz": "Muchos niños que tardan en hablar se ponen al día, pero no todos. Si las dificultades persisten al empezar la escuela y afectan a la comprensión o al aprendizaje, merecen evaluación: esperar sin observar también es una decisión.",
+  "salto": "",
+  "relacionados": [
+   "trastornos-neurodesarrollo",
+   "dislexia",
+   "neae",
+   "lomloe",
+   "umbral",
+   "coexistencia"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Bishop, D. V. M. et al. (2017). Phase 2 of CATALISE: a multinational and multidisciplinary Delphi consensus study of problems with language development: Terminology. Journal of Child Psychology and Psychiatry, 58(10)",
+    "url": "https://doi.org/10.1111/jcpp.12721"
+   },
+   {
+    "titulo": "Norbury, C. F. et al. (2016). The impact of nonverbal ability on prevalence and clinical presentation of language disorder: evidence from a population study. Journal of Child Psychology and Psychiatry, 57(11)",
+    "url": "https://doi.org/10.1111/jcpp.12573"
+   },
+   {
+    "titulo": "Comisión Europea, Eurydice (s. f.). España: apoyo educativo y orientación",
+    "url": "https://eurydice.eacea.ec.europa.eu/es/national-education-systems/spain/apoyo-educativo-y-orientacion"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "dislexia",
+  "lema": "Dislexia",
+  "variantes": [
+   "trastorno específico del aprendizaje con dificultad en la lectura",
+   "dyslexia",
+   "ceguera verbal congénita"
+  ],
+  "tipo": "categoria",
+  "familia": "Neurodesarrollo",
+  "anio": 1887,
+  "anio_nota": "El oftalmólogo Rudolf Berlin acuña la palabra «dislexia»",
+  "obra": "Rudolf Berlin, oftalmólogo de Stuttgart (1887), al describir adultos que no podían leer sin tener un problema de visión",
+  "figuras": [
+   "Rudolf Berlin",
+   "W. Pringle Morgan",
+   "James Hinshelwood"
+  ],
+  "definicion": "Dificultad específica y persistente para reconocer palabras escritas con precisión y fluidez, y a menudo para deletrear, que no se explica por problemas de visión, escolarización insuficiente ni discapacidad intelectual. En el DSM-5 se recoge como trastorno específico del aprendizaje con dificultad en la lectura.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "A",
+   "R"
+  ],
+  "controversia": "Se discute si «dislexia» designa algo distinto de una mala lectura en general, dónde fijar el punto de corte y si el diagnóstico añade algo a la intervención que necesitaría cualquier lector con dificultades.",
+  "contexto": "Berlin describió adultos que tenían grandes dificultades para leer sin ningún problema de visión, y sospechó una alteración cerebral que no pudo localizar. En 1896, el médico inglés W. Pringle Morgan publicó en el British Medical Journal el caso de Percy, un chico de 14 años, despierto y capaz, que no conseguía aprender a leer, y lo llamó «ceguera verbal congénita». El oftalmólogo James Hinshelwood amplió la serie de casos y defendió que el término se definiera mejor en lugar de abandonarlo. Durante buena parte del siglo XX se pensó en un problema visual; hoy la explicación con más apoyo es fonológica: dificultad para manejar los sonidos del lenguaje y asociarlos con letras. La escolarización obligatoria convirtió la lectura en una exigencia universal y, con ella, hizo visibles a quienes no lo lograban pese a recibir enseñanza. Hoy la dislexia se ha descrito en todas las culturas estudiadas, aunque su expresión varía según la ortografía de cada lengua.",
+  "ejemplos": [
+   "Una alumna de 3.º de primaria lee muy despacio y con errores pese al refuerzo en clase; la evaluación psicopedagógica estudia conciencia fonológica, fluidez y comprensión.",
+   "En un examen, la universidad concede más tiempo a un estudiante con dislexia: el ajuste compensa la lentitud lectora sin cambiar lo que se evalúa.",
+   "En español, de ortografía bastante transparente, la dislexia se nota a menudo más en la lentitud que en los errores al leer.",
+   "Un padre que acompaña a su hijo en los deberes descubre que él tuvo dificultades parecidas: la dislexia tiene un componente familiar importante.",
+   "En redes, alguien afirma que la dislexia es «ver las letras al revés»; confundir letras es frecuente al aprender y no define el trastorno."
+  ],
+  "implicaciones": "En España, la LOMLOE incluye los «trastornos de aprendizaje» entre las necesidades específicas de apoyo educativo, pero cada comunidad autónoma concreta protocolos, informes y ajustes, de modo que el mismo alumno puede recibir respuestas distintas según dónde viva. El debate sobre el diagnóstico tiene consecuencias prácticas: si se exige un informe para cualquier apoyo, quienes leen mal sin informe pueden quedarse fuera; si se ofrece intervención temprana a todo lector con dificultades, la etiqueta pesa menos. Las pruebas de acceso a la universidad y muchos procesos selectivos contemplan adaptaciones. Y conviene desconfiar de los tests rápidos en internet y de los remedios visuales que prometen resultados sin pruebas.",
+  "sabias": "En 1896, el British Medical Journal publicó el caso de Percy, de 14 años, descrito como un chico despierto e inteligente que no lograba aprender a leer. Su médico lo llamó «ceguera verbal congénita».",
+  "piensalo": "Si dos niños leen igual de mal, pero solo uno tiene un informe de dislexia, ¿deberían recibir apoyos distintos? ¿Por qué?",
+  "paso": "Escucha leer en voz alta a alguien que esté aprendiendo y fíjate en la velocidad, no solo en los errores: en español, la lentitud dice mucho.",
+  "frase": "«La dislexia es ver las letras al revés»",
+  "veredicto": "mito",
+  "matiz": "Confundir o invertir letras es frecuente en cualquier aprendiz. La dislexia se explica sobre todo por dificultades fonológicas, para relacionar sonidos y letras, y se manifiesta en una lectura lenta o imprecisa, no en un problema de visión.",
+  "salto": "",
+  "relacionados": [
+   "trastornos-neurodesarrollo",
+   "discalculia",
+   "tdl",
+   "umbral",
+   "evaluacion-psicopedagogica",
+   "adaptaciones-curriculares"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Peterson, R. L. y Pennington, B. F. (2012). Developmental dyslexia. The Lancet, 379(9830)",
+    "url": "https://doi.org/10.1016/S0140-6736(12)60198-6"
+   },
+   {
+    "titulo": "Morgan, W. P. (1896). A case of congenital word blindness. British Medical Journal, 2(1871)",
+    "url": "https://doi.org/10.1136/bmj.2.1871.1378"
+   },
+   {
+    "titulo": "Universidad de Oxford, Dyslexia History (s. f.). A Brief History of Dyslexia (reproducido de The Psychologist)",
+    "url": "https://dyslexiahistory.web.ox.ac.uk/node/279396"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "discalculia",
+  "lema": "Discalculia",
+  "variantes": [
+   "discalculia del desarrollo",
+   "trastorno específico del aprendizaje con dificultad matemática",
+   "dyscalculia"
+  ],
+  "tipo": "categoria",
+  "familia": "Neurodesarrollo",
+  "anio": 1974,
+  "anio_nota": "Ladislav Kosc publica una definición influyente de «discalculia del desarrollo»",
+  "obra": "Kosc, L. (1974). Developmental dyscalculia. Journal of Learning Disabilities, 7, 164-177",
+  "figuras": [
+   "Ladislav Kosc",
+   "Brian Butterworth"
+  ],
+  "definicion": "Dificultad específica y persistente para aprender aritmética: entender cantidades, recordar hechos numéricos y calcular con precisión y fluidez, que no se explica por una enseñanza insuficiente ni por discapacidad intelectual. En el DSM-5 aparece como trastorno específico del aprendizaje con dificultad matemática.",
+  "usos": [
+   "I",
+   "D",
+   "E"
+  ],
+  "controversia": "Se discute si hay un déficit nuclear del «sentido numérico» o varias rutas distintas hacia la misma dificultad, dónde fijar el umbral y por qué recibe mucha menos atención que la dislexia.",
+  "contexto": "Las dificultades con los números se describieron primero en adultos con lesiones cerebrales, bajo el nombre de «acalculia». La idea de una dificultad del desarrollo, presente desde la infancia, tomó forma en los años setenta, cuando Ladislav Kosc propuso definir la «discalculia del desarrollo» y distinguirla del simple bajo rendimiento. Durante años quedó a la sombra de la dislexia, quizá también porque está socialmente aceptado decir «soy de letras» y no tanto reconocer que no se sabe leer. En 1996, un estudio israelí con más de 3.000 escolares estimó una frecuencia del 6,5 %, similar a la de la dislexia, y encontró que afectaba por igual a chicos y chicas. La psicología cognitiva y la neuroimagen de las dos décadas siguientes propusieron una hipótesis: una dificultad de base para comprender los conjuntos y su numerosidad, que repercute en toda la aritmética escolar.",
+  "ejemplos": [
+   "Un alumno de 4.º sigue contando con los dedos para sumar 7 + 5 y no sabe estimar si 38 está más cerca de 30 o de 40; el equipo de orientación pide una evaluación.",
+   "Una adulta evita repartir la cuenta en una cena y se angustia con horarios y porcentajes; descubre que lo que le pasa tiene nombre.",
+   "Una profesora usa rectas numéricas y material manipulativo para que la cantidad tenga sentido antes de memorizar procedimientos.",
+   "En investigación, se compara a niños con discalculia y con ansiedad matemática para separar la dificultad numérica del miedo a equivocarse.",
+   "Un estudio prueba un programa informático adaptativo que entrena la comparación de cantidades y mide si mejora la aritmética escolar."
+  ],
+  "implicaciones": "En España, la discalculia entra en los «trastornos de aprendizaje» que la LOMLOE incluye entre las necesidades específicas de apoyo educativo, aunque se identifica mucho menos que la dislexia. Eso tiene consecuencias: un alumno con dificultades numéricas persistentes puede acumular suspensos y ansiedad mientras se interpreta que no se esfuerza o que no es de ciencias. Hacen falta pruebas con baremos adecuados, formación docente y una distinción clara entre discalculia, ansiedad matemática y enseñanza deficiente, porque cada una pide una respuesta distinta. La vida adulta también cuenta: el dinero, los horarios, las dosis de medicación o las estadísticas de las noticias exigen manejar números a diario.",
+  "sabias": "En un estudio de 1996 con 3.029 escolares israelíes, la discalculia apareció en el 6,5 %, una cifra similar a la de la dislexia y el TDAH; pero, a diferencia de estos, afectaba a chicos y chicas en proporciones parecidas.",
+  "piensalo": "¿Por qué decimos sin apuro «soy malísimo con los números» y casi nadie dice «soy malísimo leyendo»?",
+  "paso": "Pregunta a alguien de tu entorno cómo calcula una propina o un descuento y observa cuántas estrategias distintas existen para el mismo problema.",
+  "frase": "«Es que no es de ciencias»",
+  "veredicto": "matiz",
+  "matiz": "Los gustos y la práctica influyen, pero existe una dificultad específica y persistente con los números que no depende del esfuerzo. Confundirla con falta de interés retrasa el apoyo; tomar cualquier suspenso por discalculia también es un error.",
+  "salto": "",
+  "relacionados": [
+   "dislexia",
+   "trastornos-neurodesarrollo",
+   "umbral",
+   "coexistencia",
+   "neae"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Butterworth, B., Varma, S. y Laurillard, D. (2011). Dyscalculia: from brain to education. Science, 332(6033)",
+    "url": "https://doi.org/10.1126/science.1201536"
+   },
+   {
+    "titulo": "Gross-Tsur, V., Manor, O. y Shalev, R. S. (1996). Developmental dyscalculia: prevalence and demographic features. Developmental Medicine and Child Neurology, 38(1)",
+    "url": "https://doi.org/10.1111/j.1469-8749.1996.tb15029.x"
+   },
+   {
+    "titulo": "Santos, F. H. et al. (2022). Discerning developmental dyscalculia and neurodevelopmental models of numerical cognition in a disadvantaged educational context. Brain Sciences, 12(5) (cita a Kosc, 1974)",
+    "url": "https://www2.mdpi.com/2076-3425/12/5/653"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "tdc",
+  "lema": "Trastorno del desarrollo de la coordinación (dispraxia)",
+  "variantes": [
+   "TDC",
+   "dispraxia",
+   "DCD",
+   "síndrome del niño torpe"
+  ],
+  "tipo": "categoria",
+  "familia": "Neurodesarrollo",
+  "anio": 1994,
+  "anio_nota": "Un consenso internacional en London (Ontario, Canadá) adopta «trastorno del desarrollo de la coordinación» como término común",
+  "obra": "Conferencia internacional de consenso de London, Ontario (1994); recomendaciones de la Academia Europea de Discapacidad Infantil (EACD, 2012 y 2019)",
+  "figuras": [
+   "Helene Polatajko",
+   "Rainer Blank",
+   "Amanda Kirby"
+  ],
+  "definicion": "Dificultad persistente para aprender y ejecutar habilidades motoras coordinadas, como abrocharse, escribir a mano, montar en bici o atrapar una pelota, muy por debajo de lo esperable por edad y oportunidades de práctica. Interfiere en la vida diaria y no se explica por otra condición neurológica, visual o intelectual.",
+  "usos": [
+   "I",
+   "D",
+   "E"
+  ],
+  "controversia": "Se discute si «dispraxia» y TDC son exactamente lo mismo, por qué se diagnostica tan poco pese a ser frecuente y cómo distinguirlo de la torpeza normal o de las dificultades motoras asociadas a otras condiciones.",
+  "contexto": "En los años treinta ya se describió la torpeza infantil como un problema del desarrollo, y en los setenta se habló del «síndrome del niño torpe». Durante décadas convivieron nombres como dispraxia del desarrollo, disfunción cerebral mínima o disfunción perceptivo-motora, cada uno con su escuela. A finales de los ochenta, el DSM-III-R introdujo el término «trastorno del desarrollo de la coordinación», y en 1994 un panel internacional reunido en London (Ontario, Canadá) acordó usarlo como nombre común. Ese consenso dio legitimidad al problema como cuestión de salud, y no solo de «falta de maña». Después llegaron el consenso de Leeds (2006) y las recomendaciones europeas de 2012 y 2019; estas últimas fueron las primeras en incluir a adolescentes y adultos. Se calcula que afecta al 5-6 % de los escolares, con más chicos que chicas.",
+  "ejemplos": [
+   "Un niño de siete años tarda muchísimo en vestirse, evita los juegos de pelota y su letra es casi ilegible; la familia oye «es patoso» hasta que la pediatra lo deriva.",
+   "En educación física, una profesora divide las habilidades en pasos y valora el progreso individual, no solo el resultado frente al grupo.",
+   "Un adolescente con TDC usa el ordenador en los exámenes escritos porque la escritura a mano le agota y le ralentiza.",
+   "Una terapeuta ocupacional trabaja tareas concretas que el niño quiere conseguir, como montar en bici, en lugar de ejercicios motores genéricos.",
+   "Un adulto descubre que su dificultad para conducir o para las tareas manuales tiene nombre, y que el TDC también existe en la vida adulta."
+  ],
+  "implicaciones": "El TDC suele ser poco conocido fuera de la terapia ocupacional y la fisioterapia, y a menudo se queda en «es torpe» o en una nota baja en educación física. Sin embargo, sus efectos alcanzan la escritura, la autonomía, el deporte, la autoestima y la participación social. Coexiste con frecuencia con TDAH, dislexia o trastorno del lenguaje, lo que obliga a mirar el conjunto sin atribuirlo todo a una sola etiqueta. En la escuela española, ajustes sencillos como más tiempo, el uso del ordenador o valorar el progreso pueden cambiar mucho la experiencia de un alumno. Y el nombre «dispraxia», muy usado en el Reino Unido, convive con TDC: conviene aclarar a qué se refiere cada informe.",
+  "sabias": "Antes de su nombre actual, al TDC se le llamó, entre otras cosas, «síndrome del niño torpe». Hasta 1994 no hubo un acuerdo internacional para reconocer a esos niños bajo un mismo diagnóstico.",
+  "piensalo": "¿Por qué nos preocupa mucho más que un niño no lea a los siete años que el hecho de que no consiga atarse los zapatos?",
+  "paso": "Observa en un parque cómo varía la coordinación entre niños de la misma edad y piensa qué ajustes harían falta para que todos pudieran jugar.",
+  "frase": "«Es patoso, ya se le pasará»",
+  "veredicto": "matiz",
+  "matiz": "La torpeza ocasional es normal y muchos niños mejoran con práctica. Pero en el TDC la dificultad persiste, interfiere en la vida diaria y puede continuar en la adultez; las recomendaciones internacionales aconsejan evaluarla y ofrecer intervención.",
+  "salto": "",
+  "relacionados": [
+   "trastornos-neurodesarrollo",
+   "coexistencia",
+   "tdah",
+   "dislexia",
+   "adaptaciones-curriculares"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Blank, R. et al. (2019). International clinical practice recommendations on the definition, diagnosis, assessment, intervention, and psychosocial aspects of developmental coordination disorder. Developmental Medicine and Child Neurology, 61(3)",
+    "url": "https://doi.org/10.1111/dmcn.14132"
+   },
+   {
+    "titulo": "CanChild, McMaster University (s. f.). Developmental Coordination Disorder",
+    "url": "https://www.canchild.ca/diagnoses/developmental-coordination-disorder/"
+   },
+   {
+    "titulo": "The SAGE Encyclopedia of Abnormal and Clinical Psychology (2017). Developmental coordination disorder. SAGE",
+    "url": "https://sk.sagepub.com/ency/edvol/embed/the-sage-encyclopedia-of-abnormal-and-clinical-psychology/chpt/developmental-coordination-disorder"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "tourette",
+  "lema": "Síndrome de Tourette y trastornos de tics",
+  "variantes": [
+   "Tourette",
+   "síndrome de Gilles de la Tourette",
+   "trastorno de tics crónicos",
+   "tics"
+  ],
+  "tipo": "categoria",
+  "familia": "Neurodesarrollo",
+  "anio": 1885,
+  "anio_nota": "Georges Gilles de la Tourette publica su estudio de nueve casos",
+  "obra": "Gilles de la Tourette, G. (1885). Étude sur une affection nerveuse caractérisée par de l'incoordination motrice accompagnée d'écholalie et de coprolalie. Archives de Neurologie",
+  "figuras": [
+   "Georges Gilles de la Tourette",
+   "Jean-Martin Charcot",
+   "Jean-Marc Gaspard Itard"
+  ],
+  "definicion": "Los tics son movimientos o sonidos repentinos, rápidos, repetidos y no rítmicos. El síndrome de Tourette exige varios tics motores y al menos uno vocal durante más de un año, con inicio antes de los 18 años. Suelen fluctuar, empeorar con el estrés o el cansancio y, a menudo, atenuarse al final de la adolescencia.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "R"
+  ],
+  "controversia": "Se discute su lugar entre neurología y psiquiatría, el aumento de tics funcionales en adolescentes durante la pandemia asociado a vídeos en redes y el peso desproporcionado de la coprolalia en su imagen pública.",
+  "contexto": "En 1825, el médico francés Jean-Marc Itard describió a una aristócrata, la marquesa de Dampierre, con movimientos involuntarios, gritos y obscenidades. Sesenta años después, Georges Gilles de la Tourette, discípulo de Jean-Martin Charcot en París, reunió nueve casos, incluido el de la marquesa, y los publicó en 1885; Charcot dio su nombre a la enfermedad. El estudio pasó bastante desapercibido al principio. Durante buena parte del siglo XX los tics se interpretaron a menudo en clave psicológica, hasta que los estudios con fármacos y con familias los devolvieron al terreno neurológico. Hoy se entienden como un trastorno del neurodesarrollo con un fuerte componente hereditario. El DSM-5 los sitúa entre los trastornos motores del neurodesarrollo, mientras que la CIE-11 los clasifica en el capítulo de enfermedades del sistema nervioso, con un listado cruzado en el bloque del neurodesarrollo.",
+  "ejemplos": [
+   "Un niño de ocho años parpadea y carraspea a menudo; su profesora no le riñe porque sabe que contener los tics cuesta esfuerzo y no los hace desaparecer.",
+   "Una adolescente con Tourette explica a su clase qué son los tics; la curiosidad baja y las burlas también.",
+   "En consulta, la neuróloga pregunta por TDAH y TOC, que a menudo acompañan a los tics y a veces interfieren más que ellos.",
+   "Un alumno con tics vocales hace los exámenes en un aula aparte para estar tranquilo y no preocuparse por molestar a los demás.",
+   "En redes, vídeos virales de «Tourette» con insultos constantes transmiten una imagen que no corresponde a la mayoría de las personas con el síndrome."
+  ],
+  "implicaciones": "Los tics se atienden a menudo en neurología o neuropediatría, mientras que los apoyos escolares dependen de cómo se reconozcan las dificultades asociadas. Para muchas personas, el principal problema no son los tics, sino las miradas: explicar, no castigar y no pedir que «lo controle» son medidas de coste casi nulo. La doble ubicación en la CIE-11 recuerda que la frontera entre neurología y psiquiatría es una convención útil, no un muro. Y las redes plantean un reto nuevo: distinguir el Tourette de los tics funcionales de aparición brusca, que requieren otro abordaje, sin poner en duda a quien tiene tics desde la infancia.",
+  "sabias": "Aunque es el síntoma más famoso, la coprolalia (decir palabras malsonantes sin querer) aparece a lo largo de la vida solo en el 19 % de los varones y el 15 % de las mujeres con Tourette, según una base internacional de 597 pacientes.",
+  "piensalo": "Si pudieras aguantar un estornudo diez minutos, pero luego te costara más contenerlo, ¿preferirías que te pidieran aguantarlo o que lo aceptaran sin más?",
+  "paso": "Busca un relato en primera persona de alguien con Tourette, en un libro, entrevista o charla, y anota qué le ayuda y qué le molesta de los demás.",
+  "frase": "«Tener Tourette es decir tacos sin parar»",
+  "veredicto": "mito",
+  "matiz": "La mayoría de las personas con Tourette no tiene coprolalia: en una muestra internacional de pacientes, solo uno de cada cinco la había tenido alguna vez. Los tics más comunes son parpadeos, muecas, carraspeos o sonidos simples.",
+  "salto": "",
+  "relacionados": [
+   "trastornos-neurodesarrollo",
+   "cie-11",
+   "coexistencia",
+   "tdah",
+   "redes-sociales",
+   "estigma"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Teive, H. A. G., Chien, H. F., Munhoz, R. P. y Barbosa, E. R. (2008). A contribuição de Charcot para o estudo da síndrome de Tourette. Arquivos de Neuro-Psiquiatria, 66(4)",
+    "url": "https://scielo.br/j/anp/a/g44Cp33dJmPKYwgJDv3cM7j/?lang=pt"
+   },
+   {
+    "titulo": "Freeman, R. D. et al. (2009). Coprophenomena in Tourette syndrome. Developmental Medicine and Child Neurology, 51(3)",
+    "url": "https://doi.org/10.1111/j.1469-8749.2008.03135.x"
+   },
+   {
+    "titulo": "Frey, J., Black, K. J. y Malaty, I. A. (2022). TikTok Tourette's: are we witnessing a rise in functional tic-like behavior driven by adolescent social media use? Psychology Research and Behavior Management, 15",
+    "url": "https://doi.org/10.2147/PRBM.S359977"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "discapacidad-intelectual",
+  "lema": "Discapacidad intelectual",
+  "variantes": [
+   "trastorno del desarrollo intelectual",
+   "DI",
+   "intellectual disability",
+   "retraso mental (término en desuso)"
+  ],
+  "tipo": "categoria",
+  "familia": "Neurodesarrollo",
+  "anio": 2013,
+  "anio_nota": "El DSM-5 sustituye «retraso mental» por «discapacidad intelectual» y gradúa la gravedad por el funcionamiento adaptativo",
+  "obra": "American Psychiatric Association (2013). DSM-5: discapacidad intelectual (trastorno del desarrollo intelectual)",
+  "figuras": [
+   "Alfred Binet"
+  ],
+  "definicion": "Limitaciones significativas tanto en el funcionamiento intelectual como en la conducta adaptativa, es decir, en las habilidades conceptuales, sociales y prácticas de la vida diaria, que se originan durante el desarrollo. La gravedad se define por el funcionamiento adaptativo y el apoyo que la persona necesita, no solo por una puntuación de CI.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "A",
+   "R"
+  ],
+  "controversia": "Se discute cómo usar el CI sin reducir a la persona a una cifra, cómo evaluar con pruebas culturalmente justas, qué lenguaje respeta mejor a quienes la tienen y si debe tratarse como trastorno o sobre todo como discapacidad.",
+  "contexto": "A lo largo del siglo XX, la discapacidad intelectual recibió nombres que acabaron convertidos en insultos: idiocia, imbecilidad, oligofrenia, retraso mental. Los primeros tests de inteligencia, como el de Alfred Binet a comienzos de siglo, nacieron para identificar a escolares que necesitaban otra enseñanza, pero se usaron también para justificar la segregación y, en algunos países, esterilizaciones forzosas. Desde mediados de siglo, las familias, y más tarde las propias personas, impulsaron un cambio de mirada: de la incapacidad al apoyo y de la institución a la comunidad. La asociación estadounidense AAIDD define hoy la discapacidad intelectual por limitaciones intelectuales y adaptativas que se originan antes de los 22 años. En 2010, la Ley Rosa retiró «retraso mental» de varias leyes federales de EE. UU.; en 2013 el DSM-5 adoptó «discapacidad intelectual», y la CIE-11 habla de trastornos del desarrollo intelectual.",
+  "ejemplos": [
+   "Un informe dice «discapacidad intelectual moderada»: la gravedad describe el apoyo que la persona necesita en comunicación, autonomía y vida social, no solo su CI.",
+   "Un instituto adapta textos a lectura fácil para que un alumno con discapacidad intelectual trabaje la misma unidad didáctica que sus compañeros.",
+   "Un joven solicita el certificado de discapacidad para acceder a programas de empleo con apoyo; la valoración tiene en cuenta limitaciones y necesidades, no solo un diagnóstico.",
+   "Un grupo de autogestores con discapacidad intelectual revisa un folleto municipal para comprobar que se entiende antes de publicarlo.",
+   "En el patio, alguien usa «retrasado» como insulto; una profesora aprovecha para explicar cómo palabras clínicas se convirtieron en desprecio."
+  ],
+  "implicaciones": "En España, hasta 2024 la Constitución hablaba de «disminuidos físicos, sensoriales y psíquicos»; la reforma del artículo 49 cambió la expresión por «personas con discapacidad». Cambiar las palabras no resuelve por sí solo la vida cotidiana: el empleo, la vivienda, el apoyo para tomar decisiones y la escolarización inclusiva siguen en debate, igual que el papel de los centros de educación especial. La discapacidad intelectual también recuerda que el CI es una herramienta con usos concretos: sirve para describir y orientar apoyos, pero no mide el valor de nadie ni predice por sí solo lo que una persona puede aprender con los apoyos adecuados.",
+  "sabias": "Hasta febrero de 2024, el artículo 49 de la Constitución española hablaba de «disminuidos físicos, sensoriales y psíquicos». La reforma, publicada en el BOE el 17 de febrero de 2024, lo sustituyó por «personas con discapacidad».",
+  "piensalo": "Si una palabra clínica acaba usándose como insulto, ¿basta con cambiarla por otra? ¿Qué más tendría que cambiar?",
+  "paso": "Busca un documento en «lectura fácil» de alguna administración y compáralo con el original: ¿qué se ha simplificado y qué se ha mantenido?",
+  "frase": "«Con un CI por debajo de 70 ya está diagnosticado»",
+  "veredicto": "mito",
+  "matiz": "El CI es solo una parte. El DSM-5 exige también limitaciones en la conducta adaptativa y determina la gravedad por ese funcionamiento, no por la puntuación. Un CI aislado no constituye un diagnóstico.",
+  "salto": "de la puntuación a la persona",
+  "relacionados": [
+   "ci",
+   "trastornos-neurodesarrollo",
+   "certificado-discapacidad",
+   "modelo-social",
+   "convencion-onu",
+   "autismo-profundo"
+  ],
+  "fuentes": [
+   {
+    "titulo": "American Psychiatric Association (2013). Highlights of changes from DSM-IV-TR to DSM-5. APA",
+    "url": "https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM_Changes_from_DSM-IV-TR_-to_DSM-5.pdf"
+   },
+   {
+    "titulo": "AAIDD (s. f.). Defining Criteria for Intellectual Disability. American Association on Intellectual and Developmental Disabilities",
+    "url": "https://www.aaidd.org/intellectual-disability/definition"
+   },
+   {
+    "titulo": "INAP, La Administración al Día (2024). Reforma del artículo 49 de la Constitución Española",
+    "url": "https://laadministracionaldia.inap.es/noticia.asp?id=1241521"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "funciones-ejecutivas",
+  "lema": "Funciones ejecutivas",
+  "variantes": [
+   "control ejecutivo",
+   "FE",
+   "executive functions"
+  ],
+  "tipo": "concepto",
+  "familia": "Cerebro, cuerpo y tratamiento",
+  "anio": 2000,
+  "anio_nota": "Miyake y su equipo publican el modelo de «unidad y diversidad» de las funciones ejecutivas",
+  "obra": "Miyake, A. et al. (2000). The unity and diversity of executive functions and their contributions to complex «frontal lobe» tasks. Cognitive Psychology, 41",
+  "figuras": [
+   "Akira Miyake",
+   "Naomi Friedman",
+   "Adele Diamond",
+   "Russell Barkley"
+  ],
+  "definicion": "Conjunto de procesos mentales que permiten dirigir la conducta hacia metas: frenar respuestas automáticas (inhibición), mantener y actualizar información (memoria de trabajo) y cambiar de enfoque o de estrategia (flexibilidad cognitiva). En ellas se apoyan la planificación, la organización y el autocontrol.",
+  "usos": [
+   "I",
+   "D",
+   "E"
+  ],
+  "controversia": "Se discute si las tareas de laboratorio miden lo mismo que la vida diaria, si se trata de una capacidad o de varias, y si los entrenamientos mejoran algo más que la tarea entrenada.",
+  "contexto": "La idea nace de la neuropsicología del lóbulo frontal: pacientes con lesiones frontales que conservaban buenas puntuaciones en los tests de inteligencia, pero no lograban planificar su día, cambiar de estrategia o frenar impulsos. Durante el siglo XX se acumularon tareas para medirlo, como el test de clasificación de tarjetas de Wisconsin o la Torre de Hanói, y el término «funciones ejecutivas» acabó imponiéndose. Faltaba saber si era una sola capacidad o varias. En 2000, Miyake y su equipo analizaron el rendimiento de 137 universitarios y mostraron tres funciones moderadamente relacionadas pero separables: cambiar de tarea, actualizar información e inhibir respuestas. Por las mismas fechas, el concepto entró de lleno en las explicaciones del TDAH. Un metaanálisis de 2005 encontró en el TDAH debilidades ejecutivas de tamaño moderado, que no eran necesarias ni suficientes para explicar todos los casos.",
+  "ejemplos": [
+   "Un alumno sabe la materia, pero no empieza el trabajo hasta la víspera; dividir la tarea en pasos con fechas intermedias le ayuda a planificar.",
+   "Una profesora escribe en la pizarra las instrucciones en lugar de solo decirlas, para no sobrecargar la memoria de trabajo de la clase.",
+   "En una evaluación neuropsicológica, una prueba mide cuántas veces alguien no consigue frenar una respuesta automática ante una señal de parada.",
+   "Una adulta con TDAH usa alarmas, listas y un calendario compartido: no cambia sus funciones ejecutivas, pero reduce lo que depende de ellas.",
+   "Una aplicación promete «entrenar tu cerebro»; mejorar en el juego no garantiza mejorar en la vida diaria, así que conviene buscar estudios independientes."
+  ],
+  "implicaciones": "El término se ha popularizado en escuelas, consultas y aplicaciones, a veces con más entusiasmo que precisión. Bien usado, ayuda a diseñar apoyos que reducen la carga mental: agendas, instrucciones por escrito, rutinas, tareas troceadas. Muchos de esos ajustes benefician a toda la clase, no solo a quien tiene un diagnóstico. Mal usado, convierte una puntuación baja en una prueba en «la causa» de un trastorno, o en un diagnóstico por sí misma. También importa el contexto: según una revisión de referencia, el estrés, la falta de sueño, la soledad o la falta de ejercicio empeoran las funciones ejecutivas. Un alumno agotado o angustiado puede parecer desorganizado sin que eso signifique que tenga un trastorno.",
+  "sabias": "En el estudio de Miyake (2000), con 137 universitarios, cambiar de tarea, actualizar información e inhibir respuestas resultaron funciones moderadamente relacionadas entre sí, pero claramente separables. De ahí el nombre del modelo: «unidad y diversidad».",
+  "piensalo": "Cuando alguien «no se organiza», ¿cómo distinguirías entre falta de ganas, sueño, estrés o una dificultad ejecutiva? ¿Qué información necesitarías?",
+  "paso": "Durante un día, anota qué ayudas externas usas (alarmas, listas, notas). Todas son apoyos ejecutivos, y casi nadie prescinde de ellos.",
+  "frase": "«El TDAH es, en el fondo, un déficit de funciones ejecutivas»",
+  "veredicto": "matiz",
+  "matiz": "Los grupos con TDAH rinden peor en promedio en tareas ejecutivas, pero el efecto es moderado y muchas personas con TDAH no muestran ese déficit. Un metaanálisis concluyó que no es necesario ni suficiente para explicar todos los casos.",
+  "salto": "de la etiqueta al mecanismo",
+  "relacionados": [
+   "tdah",
+   "russell-barkley",
+   "tamano-efecto",
+   "inferencia-ecologica",
+   "reificacion",
+   "cpt"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Miyake, A. et al. (2000). The unity and diversity of executive functions and their contributions to complex «frontal lobe» tasks: a latent variable analysis. Cognitive Psychology, 41(1)",
+    "url": "https://doi.org/10.1006/cogp.1999.0734"
+   },
+   {
+    "titulo": "Diamond, A. (2013). Executive functions. Annual Review of Psychology, 64",
+    "url": "https://doi.org/10.1146/annurev-psych-113011-143750"
+   },
+   {
+    "titulo": "Willcutt, E. G. et al. (2005). Validity of the executive function theory of attention-deficit/hyperactivity disorder: a meta-analytic review. Biological Psychiatry, 57(11)",
+    "url": "https://doi.org/10.1016/j.biopsych.2005.02.006"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ }
+]
