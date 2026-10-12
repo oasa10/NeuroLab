@@ -19,7 +19,7 @@ const ETAPAS = [
   { d: [1897, 1983], t: 'En 1902, George Still describe en *The Lancet* a niños con una incapacidad anormal para mantener la atención. En 1911, Eugen Bleuler difunde «autismo», palabra que había acuñado un año antes para un síntoma de la esquizofrenia. Grunya Sukhareva retrata a seis niños en 1925; Leo Kanner, a once en 1943, y Hans Asperger, a cuatro en 1944. Son retratos clínicos, aún sin criterios comunes.' },
   { d: [1977, 1996], t: 'El DSM-III (1980) estrena listas de criterios para que dos profesionales coincidan: el autismo infantil tiene categoría propia y aparece el trastorno por déficit de atención, con o sin hiperactividad. En 1981, Lorna Wing populariza en inglés el «síndrome de Asperger». En España, la LOGSE (1990) habla de alumnado con necesidades educativas especiales y pide atenderlo según los principios de normalización e integración escolar.' },
   { d: [1991, 2015], t: 'El DSM-IV (1994) incorpora el trastorno de Asperger y divide el TDAH en tres subtipos. A finales de los noventa, Judy Singer y Harvey Blume ponen por escrito «neurodiversidad» (hoy se discute cuánto le debe la idea a las comunidades autistas en línea). En España, la LOE (2006) reúne como alumnado con necesidad específica de apoyo educativo a quien requiere una atención diferente a la ordinaria, también por altas capacidades.' },
-  { d: [2010, FIN], t: 'El DSM-5 (2013) reúne el autismo en un solo espectro, retira el Asperger como diagnóstico aparte y permite diagnosticar a la vez autismo y TDAH. La CIE-11 de la OMS, aprobada en 2019, está en vigor desde 2022. En España, la LOMLOE (2020) reforma la LOE; su lista de necesidades específicas incluye, entre otras, el retraso madurativo, los trastornos del lenguaje, de atención o de aprendizaje y la vulnerabilidad socioeducativa.' },
+  { d: [2010, HOY + 2], t: 'El DSM-5 (2013) reúne el autismo en un solo espectro, retira el Asperger como diagnóstico aparte y permite diagnosticar a la vez autismo y TDAH. La CIE-11 de la OMS, aprobada en 2019, está en vigor desde 2022. En España, la LOMLOE (2020) reforma la LOE; su lista de necesidades específicas incluye, entre otras, el retraso madurativo, los trastornos del lenguaje, de atención o de aprendizaje y la vulnerabilidad socioeducativa.' },
 ];
 
 const VISTAS = [{ k: 'todo', l: 'Todo', d: [DESDE, FIN] }, ...FASES.map((f, i) => ({ k: `f${f.n}`, l: f.corto, nombre: f.nombre, d: ETAPAS[i].d }))];
@@ -106,7 +106,7 @@ export function render(root, ctx, parts, q) {
 
   const avisoFoco = q.get('t') ? (foco
     ? h('p', { class: 'note' }, foco.anio !== null && foco.anio >= DESDE
-      ? ['Estás viendo ', h('b', null, foco.lema), ` (${anio(foco.anio)}), resaltado en su fila. `, h('a', { href: `#/termino/${encodeURIComponent(foco.id)}` }, 'Volver a su ficha'), ' · ', h('a', { href: '#/viajar' }, 'Ver todo el viaje')]
+      ? ['Estás viendo ', h('b', null, foco.lema), `, de ${anio(foco.anio)}, resaltado en su fila. `, h('a', { href: `#/termino/${encodeURIComponent(foco.id)}` }, 'Volver a su ficha'), ' · ', h('a', { href: '#/viajar' }, 'Ver todo el viaje')]
       : [h('b', null, foco.lema), foco.anio === null ? ' no tiene una fecha fiable, así que no sube a la máquina. ' : ` es anterior a ${DESDE} y queda fuera de la máquina. `, h('a', { href: `#/termino/${encodeURIComponent(foco.id)}` }, 'Volver a su ficha')])
     : h('p', { class: 'note warn' }, 'No encuentro ese término. Te enseño el viaje completo.')) : null;
 
@@ -321,8 +321,10 @@ export function render(root, ctx, parts, q) {
 
   dibujar();
   if (!foco && root.clientWidth >= 600) botones[0].setAttribute('aria-pressed', 'true');
+  // En el móvil, si llegas desde una ficha, la máquina queda a la vista
+  const tFoco = foco && avisoFoco && innerWidth < 700 ? setTimeout(() => avisoFoco.scrollIntoView({ block: 'start' }), 120) : 0;
   let ancho = caja.clientWidth;
   const ro = new ResizeObserver(() => { if (!caja.hidden && Math.abs(caja.clientWidth - ancho) > 20) { ancho = caja.clientWidth; dibujar(); } });
   ro.observe(caja);
-  return { destroy: () => { ro.disconnect(); tip.hide(); }, retema: () => dibujar() };
+  return { destroy: () => { ro.disconnect(); clearTimeout(tFoco); tip.hide(); }, retema: () => dibujar() };
 }

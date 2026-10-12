@@ -21,7 +21,7 @@ export function render(root, ctx) {
 
   const caja = h('div', { class: 'ecg-scroll' });
   const leer = h('p', { class: 'small', 'aria-live': 'polite', style: { minHeight: '1.5em', margin: '8px 0 0' } });
-  const stats = h('div', { class: 'grid g3', style: { margin: '6px 0 4px' } });
+  const stats = h('div', { class: 'grid g3 nl-pulso-stats', style: { margin: '6px 0 4px' } });
   const otraVez = h('button', { class: 'btn small', type: 'button', onclick: () => dibujar(true) }, '♥ Volver a tomar el pulso');
   const usoBtns = h('div', { class: 'toggles nl-uso', role: 'group', 'aria-label': 'Mirar solo los términos de un uso' });
   const famSel = h('select', { 'aria-label': 'Mirar solo los términos de una familia' }, h('option', { value: '' }, 'Todas las familias'),
@@ -54,9 +54,9 @@ export function render(root, ctx) {
 
   function sabias() {
     const p = fechados[0];
-    const pre = fechados.filter(t => t.anio < 1900).length, post = fechados.length - pre;
+    const pre = fechados.filter(t => t.anio < 1900).length, siglo20 = fechados.length - pre;
     if (p.anio >= 1900) return `El latido más antiguo de NeuroLab es de ${p.anio}: ${p.lema}. Desde entonces, ${plural(fechados.length - 1, 'término más', 'términos más')}.`;
-    return `El latido más antiguo de NeuroLab es de ${anio(p.anio)}: ${p.lema}. Antes de 1900 hay ${plural(pre, 'latido', 'latidos')} en total; desde 1900, ${post}.${post > pre * 2 ? ' Casi todos los nombres llegan con el siglo XX.' : ''}`;
+    return `El latido más antiguo de NeuroLab es de ${anio(p.anio)}: ${p.lema}. Antes de 1900 hay ${plural(pre, 'latido', 'latidos')} en total; desde 1900, ${siglo20}.${siglo20 > pre * 2 ? ' Casi todos los nombres llegan con el siglo XX.' : ''}`;
   }
 
   function pintarUso() {
@@ -89,7 +89,7 @@ export function render(root, ctx) {
     tablaBody.replaceChildren(...datos.filter(x => x.ts.length).map(x => h('tr', null, h('td', null, x.a), h('td', { class: 'num' }, x.ts.length),
       h('td', null, x.ts.map((t, i) => [i ? ', ' : '', h('a', { href: `#/termino/${encodeURIComponent(t.id)}` }, t.lema)])))));
     const anios = hasta - desde + 1;
-    const W = Math.max(640, caja.clientWidth || 640, Math.round(anios * 5.2)), H = 260, M = { t: 44, r: 10, b: 26, l: 10 };
+    const W = Math.max(640, caja.clientWidth || 640, Math.round(anios * 5.2)), H = 260, M = { t: 44, r: 18, b: 26, l: 18 };
     const base = H - M.b - 50;
     const x = d3.scaleLinear().domain([desde, hasta + 1]).range([M.l, W - M.r]);
     const max = Math.max(4, d3.max(datos, d => d.ts.length));

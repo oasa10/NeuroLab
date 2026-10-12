@@ -17,7 +17,7 @@ export function render(root, ctx) {
   const series = (ctx.series || []).filter(s => Array.isArray(s?.puntos) && s.puntos.some(p => Array.isArray(p) && Number.isFinite(+p[0]) && Number.isFinite(+p[1])))
     .map(s => ({ ...s, puntos: s.puntos.filter(p => Array.isArray(p) && Number.isFinite(+p[0]) && Number.isFinite(+p[1])).map(p => [+p[0], +p[1]]).sort((a, b) => a[0] - b[0]) }));
   const moda = SALTOS.find(s => s.id === 'moda');
-  let actual = 0;
+  let actual = 0, comparar = null;
 
   // Términos por década y familia
   const hoy = new Date().getFullYear();
@@ -36,27 +36,27 @@ export function render(root, ctx) {
   const cajaDec = h('div', { class: 'viz-body' });
   const infoSerie = h('div');
   const tablaSerie = h('div');
-  const selector = h('div', { class: 'toggles', role: 'group', 'aria-label': 'Elige una serie' });
+  const selector = h('div', { class: 'nl-selector' });
 
   poner(root,
     h('h2', { class: 'vis-h' }, 'Tendencias'),
-    h('p', { class: 'vis-lead' }, 'Lo que cuentan las cifras cuando pasan los años: cuánto alumnado recibe apoyos, cuánto se estima que hay de cada cosa, cuánto se publica. Y, debajo, cuándo nacen los términos de NeuroLab. Primero, el dato; después, la pregunta de siempre: ¿qué ha cambiado, las personas o la manera de contarlas?'),
+    h('p', { class: 'vis-lead' }, 'Lo que cuentan las cifras cuando pasan los años: cuántos diagnósticos se registran, cuánta gente cumple criterios cuando se mide siempre igual y cuánto alumnado recibe apoyos. Y, debajo, cuándo nacen los términos de NeuroLab. Primero, el dato; después, la pregunta de siempre: ¿qué ha cambiado, las personas o la manera de contarlas?'),
     series.length
       ? h('section', { class: 'viz' },
         h('div', { class: 'viz-head' }, h('h3', null, 'Las cifras, año a año')),
-        series.length > 1 ? selector : null,
+        selector,
         infoSerie, cajaSerie, tablaSerie)
       : h('section', { class: 'card nl-vacio' }, h('h3', { style: { marginTop: 0 } }, 'Las cifras están en camino'),
         h('p', { style: { margin: 0 } }, 'Aquí verás series como el alumnado con necesidad específica de apoyo educativo en España curso a curso o las prevalencias estimadas, cada una con su unidad y su fuente. Mientras llegan, debajo tienes cómo han ido naciendo los términos.')),
     series.length ? recuadro('aclaracion', 'Cómo leerlo',
-      h('p', null, 'Cada línea es una serie con su unidad y su fuente. El eje vertical empieza en cero, para que una subida no parezca más grande de lo que es. Lee la nota: dice qué se cuenta y si se ha contado siempre igual. Pasa el dedo o el ratón por la línea para ver cada valor.')) : null,
+      h('p', null, 'Cada línea es una serie con su unidad y su fuente. El eje vertical empieza en cero, para que una subida no parezca más grande de lo que es. Lee la nota: dice qué se cuenta y si se ha contado siempre igual. Pasa el dedo o el ratón por la línea para ver cada valor y, si dos series tienen la misma unidad, ponlas juntas: a veces una sube mucho y la otra apenas se mueve.')) : null,
     recuadro('atencion', `Ojo con el salto: ${moda.de.toLowerCase()} ${moda.a}`,
       h('p', null, 'Más casos registrados no dice por sí solo si hay más personas, mejor detección o criterios distintos. Una cifra que sube puede ser una buena noticia (se ve a quien antes no se veía), una mala (se etiqueta de más) o un cambio de regla (se cuenta otra cosa).'),
       h('p', { class: 'small' }, h('b', null, 'Lo que falta para cruzar: '), moda.falta)),
     h('section', { class: 'viz' },
       h('div', { class: 'viz-head' }, h('h3', null, 'Términos por década y familia')),
       h('p', { class: 'small', style: { color: 'var(--text-2)', margin: '4px 0 10px' } }, fechados.length
-        ? `${plural(fechados.length, 'término con fecha', 'términos con fecha')}. La década con más es la de ${pico.k === 'antes' ? 'antes de 1900' : `${pico.k}`} (${pico.ts.length}).${antes.length ? ` Antes de 1900 hay ${plural(antes.length, 'término', 'términos')}, en la primera barra.` : ''}`
+        ? `${plural(fechados.length, 'término con fecha', 'términos con fecha')}. La década con más es la de ${pico.k === 'antes' ? 'antes de 1900' : `los años ${pico.k}`} (${pico.ts.length}).${antes.length ? ` Antes de 1900 hay ${plural(antes.length, 'término', 'términos')}, en la primera barra.` : ''}`
         : 'Todavía no hay términos con fecha.'),
       h('div', { class: 'legend', 'aria-hidden': 'true' }, familias.filter(f => fechados.some(t => famDe(t) === f)).map(f => h('span', null, h('i', { style: { '--c': colorF(f) } }), f === 'Otras' ? 'Otras' : FAM_CORTA[f]))),
       cajaDec,
@@ -69,66 +69,90 @@ export function render(root, ctx) {
       h('p', null, 'Que un nombre nazca en una década no quiere decir que antes no hubiera personas así: quiere decir que antes no había esa palabra, o ese uso, para nombrarlas. Y al revés: muchos nombres nuevos no prueban que haya más personas, sino más maneras de clasificar.')),
   );
 
+  // Series que se pueden poner juntas: misma unidad
+  const pares = i => (series[i].unidad ? series.map((x, j) => j).filter(j => j !== i && series[j].unidad === series[i].unidad) : []);
   function pintarSelector() {
-    poner(selector, series.map((s, i) => h('button', { class: 'toggle', type: 'button', 'aria-pressed': String(i === actual),
-      onclick: () => { actual = i; pintarSelector(); dibujarSerie(); } }, s.titulo || `Serie ${i + 1}`)));
+    const sel = h('select', { class: 'nl-estrecho', 'aria-label': 'Elige una serie' }, series.map((x, i) => h('option', { value: i, selected: i === actual }, x.titulo || `Serie ${i + 1}`)));
+    sel.addEventListener('change', () => { actual = +sel.value; comparar = null; pintarSelector(); dibujarSerie(); });
+    poner(selector,
+      series.length > 1 ? h('div', { class: 'toggles nl-ancho', role: 'group', 'aria-label': 'Elige una serie' }, series.map((x, i) => h('button', { class: 'toggle', type: 'button', 'aria-pressed': String(i === actual),
+        onclick: () => { actual = i; comparar = null; pintarSelector(); dibujarSerie(); } }, x.titulo || `Serie ${i + 1}`))) : null,
+      series.length > 1 ? sel : null,
+      pares(actual).length ? h('div', { class: 'toggles nl-comparar', role: 'group', 'aria-label': 'Comparar con otra serie de la misma unidad' },
+        pares(actual).map(j => h('button', { class: 'toggle', type: 'button', 'aria-pressed': String(comparar === j),
+          onclick: () => { comparar = comparar === j ? null : j; pintarSelector(); dibujarSerie(); } }, h('span', { class: 'nl-linea2', 'aria-hidden': 'true' }), `Comparar con: ${series[j].titulo}`))) : null);
   }
 
   function dibujarSerie() {
     if (!series.length) return;
-    const s = series[actual], P = s.puntos;
+    const s = series[actual], P = s.puntos, s2 = comparar !== null ? series[comparar] : null;
     const [a0, v0] = P[0], [a1, v1] = P.at(-1);
+    const lineas = [{ s, P, color: 'var(--accent)' }, ...(s2 ? [{ s: s2, P: s2.puntos, color: 'var(--n2)', dash: '6 4' }] : [])];
+    const fuente = x => (x.fuente?.url || x.fuente?.titulo ? h('p', { class: 'small', style: { margin: '4px 0 0' } }, 'Fuente: ',
+      x.fuente.url ? h('a', { href: x.fuente.url, rel: 'noopener', target: '_blank' }, x.fuente.titulo || x.fuente.url) : x.fuente.titulo) : null);
+    const anios = [...new Set(lineas.flatMap(l => l.P.map(p => p[0])))].sort((p, q) => p - q);
+    const valor = (l, a) => l.P.find(p => p[0] === a)?.[1];
     poner(infoSerie,
-      series.length === 1 ? h('p', { class: 'lbl-strong', style: { margin: '0 0 4px', fontWeight: 600 } }, s.titulo) : null,
-      h('div', { class: 'grid g3 nl-cifras' },
-        h('div', { class: 'stat' }, h('b', null, num(v0)), h('span', null, `en ${a0}${s.unidad ? ` · ${s.unidad}` : ''}`)),
-        P.length > 1 ? h('div', { class: 'stat' }, h('b', null, num(v1)), h('span', null, `en ${a1}${s.unidad ? ` · ${s.unidad}` : ''}`)) : null,
-        h('div', { class: 'stat' }, h('b', null, P.length), h('span', null, P.length === 1 ? 'dato' : `datos entre ${a0} y ${a1}`))));
+      series.length === 1 ? h('p', { style: { margin: '0 0 4px', fontWeight: 600 } }, s.titulo) : null,
+      h('div', { class: 'grid nl-cifras' },
+        h('div', { class: 'stat' }, h('b', null, num(v0)), h('span', null, `en ${a0}`)),
+        P.length > 1 ? h('div', { class: 'stat' }, h('b', null, num(v1)), h('span', null, `en ${a1}`)) : null,
+        h('div', { class: 'stat' }, h('b', null, P.length), h('span', null, P.length === 1 ? 'dato' : `datos, ${a0}–${a1}`))),
+      s2 ? h('div', { class: 'legend' }, lineas.map(l => h('span', null, h('i', { class: l.dash ? 'nl-linea2' : 'nl-linea1', 'aria-hidden': 'true' }), l.s.titulo))) : null,
+      s.unidad ? h('p', { class: 'small muted', style: { margin: '2px 0 0' } }, `En ${s.unidad}`) : null);
     poner(tablaSerie,
-      s.nota ? h('p', { class: 'small', style: { margin: '8px 0 0', color: 'var(--text-2)' } }, h('b', null, 'Nota: '), inline(s.nota)) : null,
-      s.fuente?.url || s.fuente?.titulo ? h('p', { class: 'small', style: { margin: '4px 0 0' } }, 'Fuente: ',
-        s.fuente.url ? h('a', { href: s.fuente.url, rel: 'noopener', target: '_blank' }, s.fuente.titulo || s.fuente.url) : s.fuente.titulo) : null,
+      s.nota ? h('p', { class: 'small', style: { margin: '8px 0 0', color: 'var(--text-2)' } }, h('b', null, s2 ? `Nota (${s.titulo}): ` : 'Nota: '), inline(s.nota)) : null,
+      s2?.nota ? h('p', { class: 'small', style: { margin: '6px 0 0', color: 'var(--text-2)' } }, h('b', null, `Nota (${s2.titulo}): `), inline(s2.nota)) : null,
+      fuente(s), s2 && (s2.fuente?.url !== s.fuente?.url || s2.fuente?.titulo !== s.fuente?.titulo) ? fuente(s2) : null,
       h('details', { style: { marginTop: '8px' } }, h('summary', { class: 'small' }, 'Ver los datos en una tabla'),
-        tabla(['Año', s.unidad ? `Valor (${s.unidad})` : 'Valor'], P.map(([a, v]) => [a, num(v)]))));
+        s2 ? tabla(['Año', s.titulo, s2.titulo], anios.map(a => [a, num(valor(lineas[0], a)), num(valor(lineas[1], a))]))
+          : tabla(['Año', s.unidad ? `Valor (${s.unidad})` : 'Valor'], P.map(([a, v]) => [a, num(v)]))));
 
     cajaSerie.replaceChildren();
     const W = Math.max(280, cajaSerie.clientWidth), movil = W < 560, H = movil ? 240 : 280;
-    const ymax = d3.max(P, p => p[1]), ymin = Math.min(0, d3.min(P, p => p[1]));
-    const y = d3.scaleLinear().domain([ymin, ymax > 0 ? ymax * 1.12 : 1]).nice().range([H - 26, 26]);
+    const todos = lineas.flatMap(l => l.P.map(p => p[1]));
+    const ymax = d3.max(todos), ymin = Math.min(0, d3.min(todos));
+    const y = d3.scaleLinear().domain([ymin, ymax > 0 ? ymax * 1.12 : 1]).nice().range([H - 26, 20]);
     const anchoEje = Math.max(...y.ticks(4).map(v => corto(v).length)) * 6.6 + 10;
-    const M = { t: 26, r: movil ? 14 : 24, b: 26, l: anchoEje };
-    const x = d3.scaleLinear().domain(a0 === a1 ? [a0 - 1, a1 + 1] : [a0, a1]).range([M.l, W - M.r]);
-    const color = 'var(--accent)';
+    const M = { t: 20, r: movil ? 14 : 24, b: 26, l: anchoEje };
+    const A0 = anios[0], A1 = anios.at(-1);
+    const x = d3.scaleLinear().domain(A0 === A1 ? [A0 - 1, A1 + 1] : [A0, A1]).range([M.l, W - M.r]);
     const svg = d3.select(cajaSerie).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img')
-      .attr('aria-label', `${s.titulo}: de ${num(v0)} en ${a0} a ${num(v1)} en ${a1}${s.unidad ? ` (${s.unidad})` : ''}. Los datos están en la tabla de abajo.`);
-    svg.append('text').attr('x', 0).attr('y', 11).attr('class', 'lbl').style('fill', 'var(--muted)').text(s.unidad ? `En ${s.unidad}` : '');
+      .attr('aria-label', lineas.map(l => `${l.s.titulo}: de ${num(l.P[0][1])} en ${l.P[0][0]} a ${num(l.P.at(-1)[1])} en ${l.P.at(-1)[0]}`).join('. ') + `${s.unidad ? ` (${s.unidad})` : ''}. Los datos están en la tabla de abajo.`);
     svg.append('g').attr('class', 'grid').selectAll('line').data(y.ticks(4)).join('line').attr('x1', M.l).attr('x2', W - M.r).attr('y1', d => y(d)).attr('y2', d => y(d));
     svg.append('g').attr('class', 'axis').attr('transform', `translate(${M.l},0)`).call(d3.axisLeft(y).ticks(4).tickFormat(corto).tickSize(0).tickPadding(6)).call(g => g.select('.domain').remove());
     // eje de años: los años con dato si caben; si no, unos pocos años redondos
     const ejeX = d3.axisBottom(x).tickFormat(d3.format('d')).tickSizeOuter(0);
-    const anchoMin = P.reduce((m, p, i) => (i ? Math.min(m, x(p[0]) - x(P[i - 1][0])) : m), Infinity);
-    if (P.length <= 12 && anchoMin >= 34) ejeX.tickValues(P.map(p => p[0])); else ejeX.ticks(Math.min(P.length, movil ? 4 : 8));
+    const anchoMin = anios.reduce((m, a, i) => (i ? Math.min(m, x(a) - x(anios[i - 1])) : m), Infinity);
+    if (anios.length <= 12 && anchoMin >= 34) ejeX.tickValues(anios); else ejeX.ticks(Math.min(anios.length, movil ? 4 : 8));
     svg.append('g').attr('class', 'axis').attr('transform', `translate(0,${H - M.b})`).call(ejeX);
     const linea = d3.line().x(p => x(p[0])).y(p => y(p[1]));
-    svg.append('path').attr('d', linea(P)).style('fill', 'none').style('stroke', color).attr('stroke-width', 2.5).attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round');
-    svg.append('g').selectAll('circle').data(P).join('circle').attr('cx', p => x(p[0])).attr('cy', p => y(p[1])).attr('r', P.length > 30 ? 2 : 3.5)
-      .style('fill', color).style('stroke', 'var(--surface)').attr('stroke-width', 1.5);
-    // rótulos del primer y el último valor
-    const rot = [[P[0], 'start'], ...(P.length > 1 ? [[P.at(-1), 'end']] : [])];
+    for (const l of lineas.slice().reverse()) {
+      svg.append('path').attr('d', linea(l.P)).style('fill', 'none').style('stroke', l.color).attr('stroke-width', 2.5).attr('stroke-dasharray', l.dash || null)
+        .attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round');
+      svg.append('g').selectAll('circle').data(l.P).join('circle').attr('cx', p => x(p[0])).attr('cy', p => y(p[1])).attr('r', l.P.length > 30 ? 2 : 3.5)
+        .style('fill', l.color).style('stroke', 'var(--surface)').attr('stroke-width', 1.5);
+    }
+    // rótulos: primer y último valor de la serie principal; último de la comparada (debajo si se pisan)
+    const rot = [[P[0], 'start', -9], ...(P.length > 1 ? [[P.at(-1), 'end', -9]] : [])];
+    if (s2) { const q = s2.puntos.at(-1); rot.push([q, 'end', Math.abs(y(q[1]) - y(v1)) < 16 && q[0] === a1 ? 18 : -9]); }
     svg.append('g').selectAll('text').data(rot).join('text').attr('class', 'lbl-strong nl-halo')
-      .attr('x', ([p, a]) => x(p[0]) + (a === 'start' ? 4 : -4)).attr('y', ([p]) => y(p[1]) - 9).attr('text-anchor', ([, a]) => a).text(([p]) => num(p[1]));
+      .attr('x', ([p, a]) => x(p[0]) + (a === 'start' ? 4 : -4)).attr('y', ([p, , dy]) => y(p[1]) + dy).attr('text-anchor', ([, a]) => a).text(([p]) => num(p[1]));
     // cursor
     const guia = svg.append('line').attr('y1', M.t).attr('y2', H - M.b).style('stroke', 'var(--ink)').attr('stroke-dasharray', '3 3').attr('opacity', 0);
-    const marca = svg.append('circle').attr('r', 6).style('fill', 'none').style('stroke', 'var(--ink)').attr('stroke-width', 2).attr('opacity', 0);
+    const marcas = lineas.map(() => svg.append('circle').attr('r', 6).style('fill', 'none').style('stroke', 'var(--ink)').attr('stroke-width', 2).attr('opacity', 0));
     svg.append('rect').attr('x', M.l).attr('y', M.t).attr('width', W - M.l - M.r).attr('height', H - M.t - M.b).style('fill', 'transparent')
       .on('mousemove', e => {
         const [px] = d3.pointer(e);
-        const p = P.reduce((m, q) => (Math.abs(x(q[0]) - px) < Math.abs(x(m[0]) - px) ? q : m));
-        guia.attr('x1', x(p[0])).attr('x2', x(p[0])).attr('opacity', 0.5);
-        marca.attr('cx', x(p[0])).attr('cy', y(p[1])).attr('opacity', 1);
-        tip.show([h('b', null, String(p[0])), h('div', null, `${num(p[1])}${s.unidad ? ` ${s.unidad}` : ''}`)], e.clientX, e.clientY);
+        const a = anios.reduce((m, q) => (Math.abs(x(q) - px) < Math.abs(x(m) - px) ? q : m));
+        guia.attr('x1', x(a)).attr('x2', x(a)).attr('opacity', 0.5);
+        lineas.forEach((l, i) => { const v = valor(l, a); marcas[i].attr('cx', x(a)).attr('cy', v === undefined ? 0 : y(v)).attr('opacity', v === undefined ? 0 : 1); });
+        tip.show(s2
+          ? [h('b', null, String(a)), ...lineas.map(l => { const v = valor(l, a); return h('div', null, `${l.s.titulo}: `, h('strong', null, v === undefined ? 'sin dato' : num(v))); }),
+            s.unidad ? h('div', { class: 'm' }, s.unidad) : null]
+          : [h('b', null, String(a)), h('div', null, `${num(valor(lineas[0], a))}${s.unidad ? ` ${s.unidad}` : ''}`)], e.clientX, e.clientY);
       })
-      .on('mouseleave', () => { guia.attr('opacity', 0); marca.attr('opacity', 0); tip.hide(); });
+      .on('mouseleave', () => { guia.attr('opacity', 0); marcas.forEach(m => m.attr('opacity', 0)); tip.hide(); });
   }
 
   function dibujarDecadas() {
@@ -141,10 +165,10 @@ export function render(root, ctx) {
       .attr('aria-label', `Términos por década, apilados por familia. Máximo en ${pico.k === 'antes' ? 'antes de 1900' : `los años ${pico.k}`}: ${pico.ts.length}. Los datos están en la tabla.`);
     svg.append('g').attr('class', 'grid').selectAll('line').data(y.ticks(4).slice(1)).join('line').attr('x1', M.l).attr('x2', W - M.r).attr('y1', d => y(d)).attr('y2', d => y(d));
     svg.append('g').attr('class', 'axis').attr('transform', `translate(${M.l},0)`).call(d3.axisLeft(y).ticks(4).tickFormat(d3.format('d')).tickSize(0).tickPadding(6)).call(g => g.select('.domain').remove());
-    const etiqueta = c => (c.k === 'antes' ? (movil ? '<1900' : 'Antes') : movil ? `’${String(c.k).slice(2)}` : String(c.k));
+    const etiqueta = c => (c.k === 'antes' ? (movil ? '<1900' : 'Antes') : String(c.k));
     svg.append('g').attr('class', 'axis').attr('transform', `translate(0,${H - M.b})`)
       .call(d3.axisBottom(x).tickFormat(k => etiqueta(columnas.find(c => c.k === k))).tickSizeOuter(0))
-      .call(g => { if (movil && columnas.length > 12) g.selectAll('.tick text').attr('opacity', (k, i) => (i % 2 ? 0 : 1)); });
+      .call(g => { if (movil && columnas.length > 7) g.selectAll('.tick text').attr('opacity', (k, i) => ((columnas.length - 1 - i) % 2 ? 0 : 1)); });
     for (const c of columnas) {
       let acc = 0;
       const g = svg.append('g');
@@ -165,7 +189,7 @@ export function render(root, ctx) {
   }
 
   function dibujar() { dibujarSerie(); dibujarDecadas(); }
-  if (series.length > 1) pintarSelector();
+  if (series.length) pintarSelector();
   dibujar();
   let ancho = root.clientWidth;
   const ro = new ResizeObserver(() => { if (Math.abs(root.clientWidth - ancho) > 20) { ancho = root.clientWidth; dibujar(); } });

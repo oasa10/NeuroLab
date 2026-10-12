@@ -151,7 +151,7 @@ frases_idear = [
    "explica": "Decide un apoyo en la escuela. Lo que lo justifica es que le ayude a aprender, más que el nombre de una etiqueta."},
   {"frase": "Para pedir una ayuda económica, la familia presenta la resolución del grado de discapacidad de su hijo.", "uso": "A",
    "explica": "La etiqueta abre un derecho. Aquí mandan las reglas de elegibilidad y la posibilidad de revisarlas."},
-  {"frase": "En sus redes, Lucía se presenta como «autista y orgullosa» y comparte memes con otras personas autistas.", "uso": "R",
+  {"frase": "En sus redes, Lucía se presenta como “autista y orgullosa” y comparte memes con otras personas autistas.", "uso": "R",
    "explica": "Es identidad y pertenencia. No necesita una prueba clínica para tener valor, aunque tampoco la sustituye."},
   {"frase": "Un estudio compara con qué frecuencia aparece la dislexia en lenguas de ortografía transparente, como el español, y opaca, como el inglés.", "uso": "I",
    "explica": "Compara poblaciones para entender un fenómeno. Es investigación, aunque luego pueda inspirar decisiones en el aula."},
@@ -205,17 +205,17 @@ detector = [
   {"frase": "Hay más diagnósticos de TDAH que hace veinte años, así que ahora se lo ponen a cualquiera.", "salto": "moda",
    "explica": "El dato (más diagnósticos) no basta para la conclusión (se pone a cualquiera). Puede haber sobrediagnóstico en algunos casos y diagnósticos que antes faltaban en otros: hay que mirarlo con datos."},
   {"frase": "Varios estudios encuentran que los más pequeños de la clase reciben más diagnósticos de TDAH; conviene revisar si la edad relativa influye en cómo se les evalúa.", "salto": None,
-   "explica": "Se sostiene. La conclusión es prudente: no dice que todos los diagnósticos sean falsos, sino que hay que revisar cómo se evalúa a los más pequeños."},
+   "explica": "La conclusión es prudente: no dice que todos los diagnósticos sean falsos, sino que hay que revisar cómo se evalúa a los más pequeños."},
   {"frase": "Me reconozco en muchas descripciones de autismo; voy a pedir una evaluación para salir de dudas.", "salto": None,
-   "explica": "Se sostiene. Reconocerse es una buena razón para preguntar, y quien lo dice no da el diagnóstico por confirmado."},
+   "explica": "Reconocerse es una buena razón para preguntar, y quien lo dice no da el diagnóstico por confirmado."},
   {"frase": "La ley obliga a hacer ajustes razonables; habrá que comprobar en cada centro si de verdad se aplican.", "salto": None,
-   "explica": "Se sostiene. Separa lo que dice la norma de lo que pasa en la práctica: justo lo que evita el salto de la norma al resultado."},
+   "explica": "Separa lo que dice la norma de lo que pasa en la práctica: justo lo que evita el salto de la norma al resultado."},
   {"frase": "Han aumentado los diagnósticos; antes de hablar de moda o de epidemia, hay que separar mejor detección, cambios de criterio y cambio real.", "salto": None,
-   "explica": "Se sostiene. No niega el aumento ni lo convierte en moda: pide los datos que faltan."},
+   "explica": "No niega el aumento ni lo convierte en moda: pide los datos que faltan."},
   {"frase": "El grupo con TDAH puntúa, de media, más bajo en esta prueba de memoria; eso no dice cómo puntuará cada niño concreto.", "salto": None,
-   "explica": "Se sostiene. Distingue lo que vale para el grupo de lo que se puede decir de cada persona."},
+   "explica": "Distingue lo que vale para el grupo de lo que se puede decir de cada persona."},
   {"frase": "Tiene un diagnóstico de TDAH; en la consulta valorarán con la familia qué opciones le convienen, si es que alguna hace falta.", "salto": None,
-   "explica": "Se sostiene. No salta del diagnóstico al tratamiento: deja la decisión para una valoración con la familia."},
+   "explica": "No salta del diagnóstico al tratamiento: deja la decisión para una valoración con la familia."},
 ]
 
 # Dos errores: ejemplo numérico inventado
@@ -268,8 +268,9 @@ assert all(d["salto"] in ids_saltos or d["salto"] is None for d in detector)
 assert {d["salto"] for d in detector if d["salto"]} == ids_saltos
 assert sum(1 for d in detector if d["salto"] is None) >= 4
 assert set(seis["respuestas"]) == {"define", "identifica", "aplica", "habilita", "consecuencias", "revisa"}
-lista = os.path.join('/mnt/project-files/mepre/neurowokismo/web/lista_maestra.tsv')
-if os.path.exists(lista):
+# Comprobación opcional de los id de términos contra la lista maestra: LISTA_MAESTRA=ruta/lista.tsv python3 tools/aprender_src.py
+lista = os.environ.get('LISTA_MAESTRA', '')
+if lista and os.path.exists(lista):
     validos = {l.split('\t')[1] for l in open(lista, encoding='utf-8').read().splitlines()[1:] if '\t' in l}
     for p in ruta:
         for t in p["terminos"]:

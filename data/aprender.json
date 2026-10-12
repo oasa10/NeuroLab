@@ -355,7 +355,7 @@
    "explica": "La etiqueta abre un derecho. Aquí mandan las reglas de elegibilidad y la posibilidad de revisarlas."
   },
   {
-   "frase": "En sus redes, Lucía se presenta como «autista y orgullosa» y comparte memes con otras personas autistas.",
+   "frase": "En sus redes, Lucía se presenta como “autista y orgullosa” y comparte memes con otras personas autistas.",
    "uso": "R",
    "explica": "Es identidad y pertenencia. No necesita una prueba clínica para tener valor, aunque tampoco la sustituye."
   },
@@ -457,32 +457,32 @@
   {
    "frase": "Varios estudios encuentran que los más pequeños de la clase reciben más diagnósticos de TDAH; conviene revisar si la edad relativa influye en cómo se les evalúa.",
    "salto": null,
-   "explica": "Se sostiene. La conclusión es prudente: no dice que todos los diagnósticos sean falsos, sino que hay que revisar cómo se evalúa a los más pequeños."
+   "explica": "La conclusión es prudente: no dice que todos los diagnósticos sean falsos, sino que hay que revisar cómo se evalúa a los más pequeños."
   },
   {
    "frase": "Me reconozco en muchas descripciones de autismo; voy a pedir una evaluación para salir de dudas.",
    "salto": null,
-   "explica": "Se sostiene. Reconocerse es una buena razón para preguntar, y quien lo dice no da el diagnóstico por confirmado."
+   "explica": "Reconocerse es una buena razón para preguntar, y quien lo dice no da el diagnóstico por confirmado."
   },
   {
    "frase": "La ley obliga a hacer ajustes razonables; habrá que comprobar en cada centro si de verdad se aplican.",
    "salto": null,
-   "explica": "Se sostiene. Separa lo que dice la norma de lo que pasa en la práctica: justo lo que evita el salto de la norma al resultado."
+   "explica": "Separa lo que dice la norma de lo que pasa en la práctica: justo lo que evita el salto de la norma al resultado."
   },
   {
    "frase": "Han aumentado los diagnósticos; antes de hablar de moda o de epidemia, hay que separar mejor detección, cambios de criterio y cambio real.",
    "salto": null,
-   "explica": "Se sostiene. No niega el aumento ni lo convierte en moda: pide los datos que faltan."
+   "explica": "No niega el aumento ni lo convierte en moda: pide los datos que faltan."
   },
   {
    "frase": "El grupo con TDAH puntúa, de media, más bajo en esta prueba de memoria; eso no dice cómo puntuará cada niño concreto.",
    "salto": null,
-   "explica": "Se sostiene. Distingue lo que vale para el grupo de lo que se puede decir de cada persona."
+   "explica": "Distingue lo que vale para el grupo de lo que se puede decir de cada persona."
   },
   {
    "frase": "Tiene un diagnóstico de TDAH; en la consulta valorarán con la familia qué opciones le convienen, si es que alguna hace falta.",
    "salto": null,
-   "explica": "Se sostiene. No salta del diagnóstico al tratamiento: deja la decisión para una valoración con la familia."
+   "explica": "No salta del diagnóstico al tratamiento: deja la decisión para una valoración con la familia."
   }
  ],
  "errores": {

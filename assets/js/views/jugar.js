@@ -32,7 +32,6 @@ const JUEGOS = {
   },
 };
 
-const EJE_NOMBRE = { saber: 'Saber', hacer: 'Hacer' };
 const ficha = t => `#/termino/${encodeURIComponent(t.id)}`;
 
 export function render(root, ctx, parts) {
@@ -173,7 +172,7 @@ function final(el, api, { puntos, total, totalCuaderno = total, racha = false, f
     pasoCaja.querySelector('input')?.focus();
   } }, 'Convertirlo en mi paso mínimo');
 
-  poner(el, 
+  poner(el,
     h('section', { class: 'card jg-final' },
       titulo,
       h('p', { class: 'jg-msg' }, msg),
@@ -209,21 +208,32 @@ function patron(frase) {
   if (!toks.length) return null;
   return toks.map(w => { const r = raiz(w); return r ? `${escRe(r)}[a-z0-9]*` : escRe(w); }).join('[^a-z0-9]{1,3}');
 }
+const VACIAS = new Set(['de', 'del', 'la', 'las', 'el', 'los', 'lo', 'y', 'e', 'o', 'u', 'en', 'a', 'al', 'con', 'por', 'para', 'sin', 'un', 'una', 'the', 'of', 'and']);
+const tokens = s => norm(s).split(/[^a-z0-9]+/).filter(w => w.length >= 2 && !VACIAS.has(w));
+const casan = (x, y) => (x.length <= 3 || y.length <= 3 ? x === y : (rx => ry => rx.startsWith(ry) || ry.startsWith(rx))(raiz(x))(raiz(y)));
+const comparten = (a, b) => a.some(x => b.some(y => casan(x, y)));
+const esSigla = w => (w.match(/\p{Lu}/gu) || []).length >= 2;
 function frasesDe(t) {
   const lema = String(t.lema || '').replace(/[«»"“”]/g, '').trim();
-  const out = new Set([lema, ...(t.variantes || [])]);
-  // Partes del lema: lo de fuera y lo de dentro del paréntesis, y lo de antes y después de los dos puntos
-  for (const p of lema.split(/[()]|:\s/)) if (p.trim().length >= 2) out.add(p.trim());
-  // Nombres propios y siglas sueltas (Asperger, Flynn, ENIGMA, ONU…) y, en las personas, cada parte del nombre
-  for (const parte of lema.split(/[()]|:\s/)) {
-    parte.trim().split(/\s+/).forEach((w, i) => {
-      const limpio = w.replace(/[^\p{L}\p{N}-]/gu, '');
-      if (limpio.length < 2) return;
-      const siglas = (limpio.match(/\p{Lu}/gu) || []).length >= 2;
-      const propio = /^\p{Lu}/u.test(limpio) && (i > 0 || t.tipo === 'persona');
-      if (siglas || (propio && limpio.length >= 3)) out.add(limpio);
-    });
-  }
+  const trozos = lema.split(/[()]/);
+  const principal = trozos.filter((x, i) => i % 2 === 0).join(' ').replace(/\s+/g, ' ').trim();
+  const parentesis = trozos.filter((x, i) => i % 2 === 1).map(x => x.trim()).filter(x => x.length >= 2);
+  const out = new Set([lema, principal]);
+  // Lo de antes y lo de después de los dos puntos
+  for (const p of principal.split(/:\s/)) if (p.trim().length >= 2) out.add(p.trim());
+  // Lo del paréntesis solo si es otro nombre (corto o el desarrollo de unas siglas), no una explicación
+  const siglaPrincipal = principal.split(/\s+/).length === 1 && esSigla(principal);
+  for (const p of parentesis) if (siglaPrincipal || p.split(/\s+/).length <= 3) out.add(p);
+  // Variantes: solo las que comparten palabra con el nombre (no las palabras vecinas, como «tomografía» en neuroimagen)
+  const tp = tokens(principal);
+  for (const v of t.variantes || []) if (String(v).trim() && comparten(tokens(v), tp)) out.add(String(v).trim());
+  // Siglas y nombres propios del nombre principal (Asperger, Flynn, ENIGMA, ONU…); en las personas, cada parte del nombre
+  const palabras = principal.split(/\s+/).map(w => w.replace(/[^\p{L}\p{N}-]/gu, '')).filter(w => w.length >= 2);
+  const mayusculas = palabras.filter(w => /^\p{Lu}/u.test(w)).length;
+  palabras.forEach((w, i) => {
+    const propio = /^\p{Lu}/u.test(w) && w.length >= 3 && (t.tipo === 'persona' || (i > 0 && mayusculas <= 2));
+    if (esSigla(w) || propio) out.add(w);
+  });
   return [...out].filter(Boolean);
 }
 function tapar(texto, t) {
@@ -363,7 +373,7 @@ function juegoHistoria(el, ctx, api) {
     const aciertos = resuelto ? lista.filter((t, k) => correcto[k].id === t.id).length : 0;
     const fb = h('div', { class: 'jg-fb', 'aria-live': 'polite' }, resuelto ? h('div', { class: `feedback ${aciertos === N ? 'ok' : 'ko'}` },
       h('b', { class: 't' }, aciertos === N ? '¡Orden perfecto!' : `${aciertos} de ${N} en su sitio.`),
-      h('p', { style: { margin: 0 } }, aciertos === N ? 'Del más antiguo al más reciente, sin una duda.' : ['El orden correcto: ', correcto.map(t => `${t.lema} (${anio(t.anio)})`).join(' → '), '.'])) : null);
+      h('p', { style: { margin: 0 } }, aciertos === N ? 'De la más antigua a la más reciente, sin una duda.' : ['El orden correcto: ', correcto.map(t => `${t.lema} (${anio(t.anio)})`).join(' → '), '.'])) : null);
     const sig = h('div', { class: 'btns jg-sig' }, resuelto
       ? siguienteBtn(ronda < RONDAS - 1 ? 'Siguiente ronda →' : 'Ver resultado', () => {
         ronda++;
@@ -373,9 +383,9 @@ function juegoHistoria(el, ctx, api) {
           sugerencia: 'preguntar a alguien mayor cómo se nombraba esto en su época' } });
       })
       : h('button', { class: 'btn primary', type: 'button', onclick: comprobar }, 'Comprobar'));
-    poner(el, 
+    poner(el,
       h('div', { class: 'game-top' }, h('span', null, `Ronda ${ronda + 1} de ${RONDAS}`), h('div', { class: 'progress', 'aria-hidden': 'true' }, h('i', { style: { width: `${100 * ronda / RONDAS}%` } })), h('span', null, plural(puntos, 'punto', 'puntos'))),
-      h('p', { class: 'jg-pregunta', id: 'jg-q' }, resuelto ? 'Así quedaba la historia' : 'Ordena del más antiguo (arriba) al más reciente (abajo)'),
+      h('p', { class: 'jg-pregunta', id: 'jg-q' }, resuelto ? 'Así va la historia' : 'Ordena de la más antigua (arriba) a la más reciente (abajo)'),
       resuelto ? null : h('p', { class: 'small muted', style: { margin: 0 } }, 'Arrastra desde el asa ⠿ o usa las flechas. Cuenta el año que fija cada ficha; lo verás al comprobar.'),
       ul, fb, sig);
     if (resuelto) { sig.querySelector('button').focus({ preventScroll: true }); aLaVista(fb, 'nearest'); }
@@ -393,10 +403,11 @@ function juegoHistoria(el, ctx, api) {
   }
   function comprobar() {
     const correcto = lista.slice().sort((a, b) => a.anio - b.anio);
-    lista.forEach((t, k) => {
-      if (correcto[k].id === t.id) puntos++;
-      else fallos.push(fallo(h('a', { href: ficha(t) }, t.lema), ` (${anio(t.anio)}) · lo pusiste en el puesto ${k + 1} y va en el ${correcto.indexOf(t) + 1}, en la ronda ${ronda + 1}.`));
-    });
+    const mal = new Set(lista.filter((t, k) => correcto[k].id !== t.id).map(t => t.id));
+    puntos += N - mal.size;
+    // un fallo por ronda: el orden correcto, con las fichas mal colocadas en negrita
+    if (mal.size) fallos.push(fallo(h('b', null, `Ronda ${ronda + 1}: `), correcto.map((t, k) => [k ? ' → ' : '',
+      h('a', { href: ficha(t) }, mal.has(t.id) ? h('b', null, t.lema) : t.lema), ` (${anio(t.anio)})`]), '.'));
     pintar(true);
   }
   api.teclas(null);
@@ -615,9 +626,13 @@ function juegoMito(el, ctx, api) {
   const enlace = x => x.t ? h('a', { href: ficha(x.t) }, x.t.lema) : null;
   function pintar() {
     if (i >= rondas.length) {
-      const f = sinComillas((fallos.length ? fallos[0].frase : shuffle(rondas)[0].frase));
+      // la frase del paso: mejor un mito o un matiz que se haya fallado; si no, cualquiera de los que han salido
+      const discutible = x => x.veredicto !== 'cierto';
+      const elegida = fallos.find(discutible) || shuffle(rondas).find(discutible);
+      const f = elegida ? sinComillas(elegida.frase).replace(/\.$/, '') : '';
       return final(el, api, { puntos, total: rondas.length, fallos: fallos.map(x => x.li), otra: nueva, paso: {
-        texto: `La próxima vez que oigas «${f}», no discutas de entrada: pregunta «¿para qué uso lo dices?» y escucha la respuesta.`,
+        texto: f ? `La próxima vez que oigas «${f}», no discutas de entrada: pregunta «¿para qué uso lo dices?» y escucha la respuesta.`
+          : 'La próxima vez que oigas una frase rotunda sobre una etiqueta, no discutas de entrada: pregunta «¿para qué uso lo dices?» y escucha la respuesta.',
         sugerencia: 'preguntar «¿para qué uso?» la próxima vez que oiga una frase así' } });
     }
     const x = rondas[i];
@@ -629,7 +644,7 @@ function juegoMito(el, ctx, api) {
       if (botones[0].disabled) return;
       const ok = v === x.veredicto, cerca = !ok && (v === 'matiz' || x.veredicto === 'matiz');
       if (ok) puntos++;
-      else fallos.push({ frase: x.frase, li: fallo(h('span', { class: 'jg-frase-mini' }, `«${sinComillas(x.frase)}»`), ' · ', marcaVeredicto(x.veredicto), ` (elegiste ${VEREDICTOS[v].nombre.toLowerCase()})`, x.t ? [' · ', enlace(x)] : null) });
+      else fallos.push({ frase: x.frase, veredicto: x.veredicto, li: fallo(h('span', { class: 'jg-frase-mini' }, `«${sinComillas(x.frase)}»`), ' · ', marcaVeredicto(x.veredicto), ` (elegiste ${VEREDICTOS[v].nombre.toLowerCase()})`, x.t ? [' · ', enlace(x)] : null) });
       botones.forEach((b, j) => { b.disabled = true; if (OPS[j] === x.veredicto) b.classList.add('ok'); });
       if (!ok) botones[OPS.indexOf(v)].classList.add('ko');
       fb.replaceChildren(h('div', { class: `feedback ${ok ? 'ok' : 'ko'}` },
@@ -682,6 +697,7 @@ function juegoAntes(el, ctx, api) {
       (b.anio < a.anio ? ops[0] : ops[1]).classList.add('ok');
       if (!ok) (antes ? ops[0] : ops[1]).classList.add('ko');
       el.querySelector('.jg-oculto').textContent = anio(b.anio);
+      if (b.anioNota) el.querySelector('.jg-nota-b').textContent = corta(b.anioNota, 110);
       if (ok) {
         racha++;
         cadena.push(b);
@@ -701,7 +717,7 @@ function juegoAntes(el, ctx, api) {
     function terminar() {
       const fallos = [fallo(h('a', { href: ficha(b) }, b.lema), ` (${anio(b.anio)}) es de ${b.anio < a.anio ? 'antes' : 'después'} que `, h('a', { href: ficha(a) }, a.lema), ` (${anio(a.anio)}).`)];
       if (cadena.length > 1) {
-        fallos.push(fallo(h('b', null, 'Tu racha, por orden de aparición: '), cadena.map((t, k) => [k ? ' → ' : '', h('a', { href: ficha(t) }, t.lema), ` (${anio(t.anio)})`])));
+        fallos.push(h('li', { class: 'jg-bien' }, h('b', null, 'Tu racha, por orden de aparición: '), cadena.map((t, k) => [k ? ' → ' : '', h('a', { href: ficha(t) }, t.lema), ` (${anio(t.anio)})`])));
       }
       final(el, api, { puntos: racha, total: racha, totalCuaderno: Math.max(10, racha), racha: true, fallos, otra: nueva, paso: {
         texto: 'Elige una ficha de tu racha y cuéntale a alguien en qué año apareció y qué cambió con ella. Explicarlo en voz alta es la mejor forma de comprobar que lo sabes.',
@@ -713,11 +729,13 @@ function juegoAntes(el, ctx, api) {
       if (e.key === 'ArrowRight') { e.preventDefault(); responder(false); }
     });
     const foco = h('b', { class: 'jg-lema foco', tabindex: '-1' }, b.lema);
-    poner(el, 
+    poner(el,
       h('div', { class: 'game-top' }, h('span', null, `Racha: ${racha}`), h('div', { class: 'progress', 'aria-hidden': 'true' }, h('i', { style: { width: `${Math.min(100, racha * 10)}%` } })), h('span', null, 'Meta: 10')),
       h('div', { class: 'comparar jg-pareja' },
-        h('div', null, h('p', { class: 'small muted', style: { margin: 0 } }, 'Esta es de…'), h('b', { class: 'jg-lema' }, a.lema), h('div', { class: 'jg-anio-big' }, anio(a.anio))),
-        h('div', { class: 'modelo' }, h('p', { class: 'small muted', style: { margin: 0 } }, '¿Y esta?'), foco, h('div', { class: 'jg-anio-big jg-oculto' }, '¿?'))),
+        h('div', null, h('p', { class: 'small muted', style: { margin: 0 } }, 'Esta es de…'), h('b', { class: 'jg-lema' }, a.lema), h('div', { class: 'jg-anio-big' }, anio(a.anio)),
+          a.anioNota ? h('p', { class: 'small muted jg-nota' }, corta(a.anioNota, 110)) : null),
+        h('div', { class: 'modelo' }, h('p', { class: 'small muted', style: { margin: 0 } }, '¿Y esta?'), foco, h('div', { class: 'jg-anio-big jg-oculto' }, '¿?'),
+          h('p', { class: 'small muted jg-nota jg-nota-b' }))),
       h('p', { class: 'jg-pregunta', id: 'jg-q' }, `¿${b.lema} es de antes o de después que ${a.lema}?`, h('span', { class: 'small muted jg-atajo' }, ' También con las flechas ← y →.')),
       h('div', { class: 'quiz-opts two jg-ops', role: 'group', 'aria-labelledby': 'jg-q' }, ops), fb, sig);
     foco.focus({ preventScroll: true });

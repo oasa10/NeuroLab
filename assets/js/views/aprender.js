@@ -8,6 +8,8 @@ const SECCIONES = [
   ['saltos', 'Detector de saltos'], ['errores', 'Dos errores'], ['glosario', 'Glosario'],
 ];
 const SAL = Object.fromEntries(SALTOS.map(s => [s.id, s]));
+// Nombres con guion opcional, para que quepan en las teclas del móvil
+const CORTE = { I: 'Inves\u00ADtigar', D: 'Diagnos\u00ADticar', E: 'Educar', A: 'Acceder', R: 'Recono\u00ADcerse' };
 
 export function render(root, ctx, parts) {
   const sec = parts[0] || '';
@@ -26,19 +28,20 @@ export function render(root, ctx, parts) {
   }
   document.title = `${sec ? SECCIONES.find(s => s[0] === sec)[1] + ' · ' : ''}Aprender · NeuroLab`;
   requestAnimationFrame(() => {
-    const a = tabs.querySelector('[aria-current="page"]');
-    if (a && tabs.scrollWidth > tabs.clientWidth) tabs.scrollLeft = Math.max(0, a.offsetLeft - (tabs.clientWidth - a.offsetWidth) / 2);
+    centrar(tabs, tabs.querySelector('[aria-current="page"]'));
   });
   const r = f(cuerpo, ctx, A, parts.slice(1));
   return { retema() { r?.retema?.(); }, destroy() { r?.destroy?.(); } };
 }
 
 // ---------- utilidades ----------
+// Añade al final saltándose los huecos y aplanando listas (Element.append no lo hace)
+const meter = (el, ...kids) => { el.append(...kids.flat(Infinity).filter(k => k !== null && k !== undefined && k !== false)); return el; };
 const enlaceT = (ctx, id) => {
   const t = ctx.byId.get(id);
   return t ? h('a', { class: 'chip', href: `#/termino/${encodeURIComponent(id)}` }, t.lema.replace(/\s*\(.*\)$/, '')) : null;
 };
-const sinDatos = el => el.append(h('div', { class: 'empty' }, h('p', null, 'Este contenido todavía no está disponible. Prueba a recargar la página dentro de un rato.')));
+const sinDatos = el => meter(el, h('div', { class: 'empty' }, h('p', null, 'Este contenido todavía no está disponible. Prueba a recargar la página dentro de un rato.')));
 const letraUso = c => h('span', { class: 'apr-l', 'data-v': c, 'aria-hidden': 'true' }, c);
 function saltoBox(s) {
   return h('div', { class: 'salto-box' },
@@ -49,6 +52,11 @@ function fuentesDe(lista) {
   if (!lista?.length) return null;
   return h('p', { class: 'small muted apr-fuentes' }, lista.length > 1 ? 'Fuentes: ' : 'Fuente: ',
     lista.map((f, k) => [k ? ' · ' : '', f.url ? h('a', { href: f.url, rel: 'noopener', target: '_blank' }, f.titulo) : f.titulo]));
+}
+// Centra un elemento dentro de una tira con desplazamiento horizontal (pestañas, años de la ruta en el móvil)
+function centrar(tira, a) {
+  if (!a || tira.scrollWidth <= tira.clientWidth) return;
+  tira.scrollLeft += a.getBoundingClientRect().left - tira.getBoundingClientRect().left - (tira.clientWidth - a.offsetWidth) / 2;
 }
 function bajarA(el) {
   const y = el.getBoundingClientRect().top + window.scrollY - 76;
@@ -67,7 +75,7 @@ function inicio(el, ctx, A) {
     ['errores', '5', 'Dos errores', 'Etiquetar de más y dejar fuera a quien lo necesita: una balanza para verlos a la vez.', 'Con una balanza interactiva'],
     ['glosario', '6', 'Glosario', `Las ${plural(ctx.terms.length, 'palabra', 'palabras')} de NeuroLab, con su definición y su ficha.`, 'Filtra por letra o familia'],
   ];
-  el.append(
+  meter(el, 
     h('h2', { class: 'apr-h2-0' }, 'Una discusión de sobremesa'),
     A.dialogo ? dialogo(A.dialogo) : null,
     h('p', { class: 'lead' }, 'Todo Moda y Todo Cerebro discuten sobre la cosa. Para Qué pregunta por el uso, y ahí está la clave: la misma palabra puede servir para un estudio, una consulta, un aula, un certificado o una identidad. Lo que la justifica en un sitio no la justifica, sin más, en otro.'),
@@ -105,7 +113,7 @@ function ruta(el, ctx, A, parts) {
   const caja = h('div', { class: 'ruta' }, h('nav', { 'aria-label': 'Paradas' }, lista), parada);
   let contenido = null;
   ctx.contenido().then(m => { contenido = m; if (!fin) pintar(); }).catch(() => {});
-  el.append(h('p', { class: 'lead' }, 'Una historia de las etiquetas en diez momentos. En cada parada, una pregunta rápida: ¿qué uso de IDEAR pesa más? Al contestarla verás qué cambió de uso, y la parada contará en tu cuaderno.'), prog, caja);
+  meter(el, h('p', { class: 'lead' }, 'Una historia de las etiquetas en diez momentos. En cada parada, una pregunta rápida: ¿qué uso de IDEAR pesa más? Al contestarla verás qué cambió de uso, y la parada contará en tu cuaderno.'), prog, caja);
 
   const hechas = () => cuaderno.leer().paradas;
   function pintarProg() {
@@ -123,6 +131,7 @@ function ruta(el, ctx, A, parts) {
   }
   function pintar() {
     pintarProg(); pintarLista();
+    requestAnimationFrame(() => centrar(lista, lista.querySelector('[aria-current="step"]')));
     if (fin) return pintarFin();
     const p = R[i], n = i + 1;
     const fase = FASES[faseDe(p.a)];
@@ -146,7 +155,7 @@ function ruta(el, ctx, A, parts) {
         h('div', { class: 'apr-cambio-h' }, h('b', null, 'Qué cambió de uso'), idear(p.usos)), h('p', null, inline(p.cambio))));
     }
     const sabe = !p.extra && contenido ? (p.terminos || []).map(id => ({ id, c: contenido.get(id) })).find(x => x.c?.sabias_que && ctx.byId.get(x.id)) : null;
-    parada.replaceChildren(
+    poner(parada, 
       h('p', { class: 'eyebrow' }, `Parada ${n} de ${R.length}`, fase ? ` · ${fase.nombre}` : ''),
       h('div', { class: 'anio' }, p.anio),
       h('h2', { class: 'apr-parada-h', tabindex: '-1' }, p.titulo),
@@ -166,13 +175,12 @@ function ruta(el, ctx, A, parts) {
   }
   function pintarFin() {
     const H = hechas();
-    parada.replaceChildren(
+    poner(parada, 
       h('p', { class: 'eyebrow' }, 'Fin de la ruta'),
       h('h2', { class: 'apr-parada-h', tabindex: '-1' }, H.length >= R.length ? 'Has recorrido las diez paradas' : `Llevas ${R.filter((_, k) => H.includes(k + 1)).length} de ${R.length} paradas`),
       h('p', { class: 'txt' }, 'Mira cómo se movió la etiqueta: de la consulta a la investigación, de ahí a la identidad, y luego al aula y a la administración. Cada color es el uso que más pesó en cada parada.'),
-      h('ol', { class: 'apr-linea' }, R.map((p, k) => h('li', { 'data-v': p.uso },
-        h('a', { href: `#/aprender/ruta/${k + 1}`, onclick: e => { e.preventDefault(); fin = false; ir(k); } },
-          h('b', null, p.anio), h('span', { class: 'apr-l' }, p.uso), h('small', null, p.titulo))))),
+      h('div', { class: 'apr-linea', role: 'list' }, R.map((p, k) => h('a', { role: 'listitem', 'data-v': p.uso, href: `#/aprender/ruta/${k + 1}`, onclick: e => { e.preventDefault(); fin = false; ir(k); } },
+        h('span', { class: 'apr-linea-h' }, h('b', null, p.anio), h('span', { class: 'apr-l', title: USOS[p.uso].nombre }, p.uso)), h('small', null, p.titulo)))),
       recuadro('recuerda', 'Lo que enseña la ruta', 'La etiqueta no se quedó quieta. Cada vez que cambió de uso, debería haber cambiado también la prueba: lo que vale para describir a un grupo no basta para diagnosticar a una persona, y lo que basta para reconocerse no abre por sí solo un derecho.'),
       h('div', { class: 'btns apr-nav' },
         h('button', { class: 'btn', type: 'button', onclick: () => { fin = false; ir(R.length - 1); } }, '← Volver a la última parada'),
@@ -194,7 +202,7 @@ function usos(el, ctx, A) {
   const panel = h('div', { class: 'apr-uso-panel', 'aria-live': 'polite' });
   const teclas = CODIGOS.map(c => h('button', { type: 'button', class: 'apr-tecla', 'data-v': c, 'aria-pressed': String(c === sel),
     onclick: () => { sel = c; teclas.forEach((b, k) => b.setAttribute('aria-pressed', String(CODIGOS[k] === sel))); pintarPanel(); } },
-    h('b', null, c), h('span', null, USOS[c].nombre)));
+    h('b', null, c), h('span', null, CORTE[c] || USOS[c].nombre)));
   const cuenta = c => ctx.terms.filter(t => (t.usos || []).includes(c)).length;
   function pintarPanel() {
     const U = USOS[sel], fila = T?.filas?.[sel], s = fila && SAL[fila.salto];
@@ -210,7 +218,7 @@ function usos(el, ctx, A) {
   }
   pintarPanel();
 
-  el.append(
+  meter(el, 
     h('p', { class: 'lead' }, 'Cinco letras, cinco trabajos. La misma etiqueta puede estar investigando, diagnosticando, educando, abriendo un derecho o diciendo quién eres. Pulsa cada letra para ver su pregunta y la prueba que necesita.'),
     h('div', { class: 'apr-teclas', role: 'group', 'aria-label': 'Elige un uso' }, teclas),
     panel,
@@ -278,7 +286,7 @@ function ejercicioIdear(F) {
 function seis(el, ctx, A) {
   const S = A.seis;
   const cortos = ['Define', 'Identifica', 'Aplica', 'Habilita', 'Consecuencias', 'Revisa'];
-  el.append(
+  meter(el, 
     h('p', { class: 'lead' }, 'Seis preguntas sirven para cualquier etiqueta, en cualquier uso. No dan una nota: señalan dónde falta algo. Las respuestas cambian según el uso, y ahí está la gracia.'),
     h('ol', { class: 'apr-seis' }, SEIS.map((s, k) => h('li', null, h('span', { class: 'n', 'aria-hidden': 'true' }, k + 1), h('b', null, s.p), h('span', null, s.ayuda)))));
   if (!S) return;
@@ -307,7 +315,7 @@ function seis(el, ctx, A) {
     if (foco) caja.querySelector('.apr-paso-h')?.focus({ preventScroll: true });
   };
   pintar(false);
-  el.append(
+  meter(el, 
     h('h2', null, 'Un ejemplo resuelto, paso a paso'),
     h('div', { class: 'apr-caso' }, h('p', { class: 'eyebrow' }, `El caso · «${S.etiqueta}» para entrar en un programa`), h('p', null, S.caso)),
     caja,
@@ -321,7 +329,7 @@ function seis(el, ctx, A) {
 function saltos(el, ctx, A) {
   const banco = A.detector || [];
   const juego = h('div', { class: 'game apr-detector' });
-  el.append(
+  meter(el, 
     h('p', { class: 'lead' }, 'Un salto es pasar de una orilla a otra sin puente: de un rasgo a un diagnóstico, de una asociación a una causa, de una ley a un resultado. Lee cada frase y decide si se sostiene o si salta, y en ese caso cuál es el salto. Spoiler: no todas son trampas.'),
     juego,
     h('h2', null, 'Los diez saltos'),
@@ -359,11 +367,11 @@ function saltos(el, ctx, A) {
     };
     b1.addEventListener('click', () => {
       b1.disabled = b2.disabled = true;
-      if (!d.salto) { b1.classList.add('ok'); cerrar(true, '¡Bien visto! Se sostiene.'); } else { b1.classList.add('ko'); b2.classList.add('ok'); cerrar(false, `Aquí hay un salto: ${SAL[d.salto].de.toLowerCase()} ${SAL[d.salto].a}.`); }
+      if (!d.salto) { b1.classList.add('ok'); cerrar(true, '¡Bien visto! Se sostiene:'); } else { b1.classList.add('ko'); b2.classList.add('ok'); cerrar(false, `Aquí hay un salto: ${SAL[d.salto].de.toLowerCase()} ${SAL[d.salto].a}.`); }
     });
     b2.addEventListener('click', () => {
       b1.disabled = b2.disabled = true;
-      if (!d.salto) { b2.classList.add('ko'); b1.classList.add('ok'); cerrar(false, 'Esta se sostiene: no hay salto.'); return; }
+      if (!d.salto) { b2.classList.add('ko'); b1.classList.add('ok'); cerrar(false, 'Esta se sostiene, no hay salto:'); return; }
       b2.classList.add('ok');
       const ops = shuffle([d.salto, ...shuffle(SALTOS.map(s => s.id).filter(x => x !== d.salto)).slice(0, 3)]);
       const bs = ops.map(id => h('button', { class: 'opt apr-op-salto', type: 'button', onclick: () => {
@@ -405,7 +413,7 @@ const s = (tag, attrs = {}, ...kids) => { const e = document.createElementNS(NS,
 
 function errores(el, ctx, A) {
   const E = A.errores;
-  el.append(
+  meter(el, 
     h('p', { class: 'lead' }, 'Cuando se decide quién lleva una etiqueta, se puede fallar de dos maneras. Las dos pesan, siempre. Quien solo mira una, siempre encuentra una solución fácil.'),
     h('div', { class: 'apr-dos' },
       h('div', { class: 'apr-err amp' }, h('p', { class: 'eyebrow' }, ERRORES.ampliar.corto), h('h3', null, ERRORES.ampliar.nombre), h('p', null, ERRORES.ampliar.ej)),
@@ -436,12 +444,34 @@ function errores(el, ctx, A) {
     s('path', { class: 'pie', d: 'M160 62 L138 168 L182 168 Z' }), s('rect', { class: 'pie', x: 112, y: 168, width: 96, height: 8, rx: 4 }),
     viga, platoI, platoD, s('circle', { class: 'eje', cx: 160, cy: 60, r: 6 }));
 
-  // Campanas
-  const W = 600, H = 150, x0 = 18, x1 = 102;
-  const X = v => 20 + (v - x0) / (x1 - x0) * (W - 40);
-  const curva = (m, rel) => { let d = ''; for (let v = x0; v <= x1; v += .5) { const y = H - 18 - Math.exp(-.5 * ((v - m) / E.sd) ** 2) * (H - 44); d += `${d ? 'L' : 'M'}${X(v).toFixed(1)} ${y.toFixed(1)}`; } return d; };
-  const area = (m, desde, hasta) => { let d = `M${X(desde).toFixed(1)} ${H - 18}`; for (let v = desde; v <= hasta + .001; v += .5) d += `L${X(v).toFixed(1)} ${(H - 18 - Math.exp(-.5 * ((v - m) / E.sd) ** 2) * (H - 44)).toFixed(1)}`; return d + `L${X(hasta).toFixed(1)} ${H - 18}Z`; };
-  const campanas = s('svg', { viewBox: `0 0 ${W} ${H}`, class: 'apr-curvas', role: 'img', 'aria-label': 'Dos campanas de puntuaciones que se solapan y una línea de corte' });
+  // Campanas: se dibujan al ancho real del contenedor para que el texto no encoja en el móvil
+  let W = 600;
+  const H = 170, x0 = 18, x1 = 102, base = H - 22, alto = H - 62;
+  const X = v => 14 + (v - x0) / (x1 - x0) * (W - 28);
+  const yDe = (v, m) => base - Math.exp(-.5 * ((v - m) / E.sd) ** 2) * alto;
+  const curva = m => { let d = ''; for (let v = x0; v <= x1 + .001; v += .5) d += `${d ? 'L' : 'M'}${X(v).toFixed(1)} ${yDe(v, m).toFixed(1)}`; return d; };
+  const area = (m, desde, hasta) => { let d = `M${X(desde).toFixed(1)} ${base}`; for (let v = desde; v <= hasta + .001; v += .5) d += `L${X(v).toFixed(1)} ${yDe(v, m).toFixed(1)}`; return d + `L${X(hasta).toFixed(1)} ${base}Z`; };
+  const campanas = s('svg', { class: 'apr-curvas', role: 'img', 'aria-label': 'Dos campanas de puntuaciones que se solapan, cortadas por una línea' });
+  const campWrap = h('div', { class: 'apr-curvas-w' }, campanas, h('p', { class: 'small muted' }, 'Puntuaciones de los dos grupos. Lo coloreado a la derecha del corte son los etiquetados de más; lo coloreado a la izquierda, los que se quedan fuera. Cada campana está a su escala.'));
+  function pintarCampanas() {
+    const mSi = mejor ? E.media_si_mejor : E.media_si;
+    campanas.setAttribute('viewBox', `0 0 ${W} ${H}`);
+    campanas.replaceChildren(
+      s('line', { class: 'base', x1: 14, x2: W - 14, y1: base, y2: base }),
+      s('path', { class: 'zona amp', d: area(E.media_no, Math.max(corte, x0), x1) }),
+      s('path', { class: 'zona exc', d: area(mSi, x0, Math.min(corte, x1)) }),
+      s('path', { class: 'c-no', d: curva(E.media_no) }), s('path', { class: 'c-si', d: curva(mSi) }),
+      s('text', { class: 'lbl', x: X(E.media_no) + 4, y: 32, 'text-anchor': 'end' }, `No lo necesitan (${E.total - E.necesitan})`),
+      s('text', { class: 'lbl fuerte', x: X(mSi) - 4, y: 16, 'text-anchor': 'start' }, `Lo necesitan (${E.necesitan})`),
+      s('line', { class: 'corte', x1: X(corte), x2: X(corte), y1: 22, y2: base + 6 }),
+      s('text', { class: 'lbl corte-t', x: X(corte) + (X(corte) > W - 90 ? -6 : 6), y: base - 6, 'text-anchor': X(corte) > W - 90 ? 'end' : 'start' }, `corte: ${corte}`),
+      s('text', { class: 'eje-t', x: 14, y: H - 4 }, '← menos puntos'), s('text', { class: 'eje-t', x: W - 14, y: H - 4, 'text-anchor': 'end' }, 'más puntos →'));
+  }
+  const ro = typeof ResizeObserver === 'function' ? new ResizeObserver(() => {
+    const w = Math.max(280, Math.min(820, Math.round(campWrap.clientWidth || 600)));
+    if (Math.abs(w - W) > 3) { W = w; pintarCampanas(); }
+  }) : null;
+  ro?.observe(campWrap);
 
   // Rejillas de puntos
   const rejilla = (n, cols) => { const filas = Math.ceil(n / cols); const g = s('svg', { viewBox: `0 0 ${cols * 10} ${filas * 10}`, class: 'apr-puntos', 'aria-hidden': 'true' }); const celdas = []; for (let k = 0; k < n; k++) { const r = s('rect', { x: (k % cols) * 10 + 1, y: Math.floor(k / cols) * 10 + 1, width: 8, height: 8, rx: 2 }); celdas.push(r); g.append(r); } g.celdas = celdas; return g; };
@@ -461,18 +491,7 @@ function errores(el, ctx, A) {
     platoD.style.transform = `translate(${160 + 120 * Math.cos(rad)}px, ${60 - 120 * Math.sin(rad)}px)`;
     nI.textContent = FP; nD.textContent = FN;
     balanza.setAttribute('aria-label', `Balanza: ${FP} etiquetados de más frente a ${FN} dejados fuera`);
-    // campanas
-    const mSi = mejor ? E.media_si_mejor : E.media_si;
-    campanas.replaceChildren(
-      s('line', { class: 'base', x1: 20, x2: W - 20, y1: H - 18, y2: H - 18 }),
-      s('path', { class: 'zona amp', d: area(E.media_no, Math.max(corte, x0), x1) }),
-      s('path', { class: 'zona exc', d: area(mSi, x0, Math.min(corte, x1)) }),
-      s('path', { class: 'c-no', d: curva(E.media_no) }), s('path', { class: 'c-si', d: curva(mSi) }),
-      s('text', { class: 'lbl', x: X(E.media_no), y: 18, 'text-anchor': 'middle' }, `No lo necesitan (${E.total - E.necesitan})`),
-      s('text', { class: 'lbl fuerte', x: X(mSi), y: 34, 'text-anchor': 'middle' }, `Lo necesitan (${E.necesitan})`),
-      s('line', { class: 'corte', x1: X(corte), x2: X(corte), y1: 8, y2: H - 12 }),
-      s('text', { class: 'lbl', x: X(corte) + 6, y: H - 24 }, `corte: ${corte}`),
-      s('text', { class: 'eje-t', x: 20, y: H - 2 }, '← menos puntos'), s('text', { class: 'eje-t', x: W - 20, y: H - 2, 'text-anchor': 'end' }, 'más puntos →'));
+    pintarCampanas();
     // rejillas
     gSi.celdas.forEach((r, k) => r.setAttribute('class', si[k] >= corte ? 'det' : 'fuera'));
     gNo.celdas.forEach((r, k) => r.setAttribute('class', no[k] >= corte ? 'demas' : 'neutro'));
@@ -481,7 +500,7 @@ function errores(el, ctx, A) {
     resumen.replaceChildren('Con el corte en ', h('b', null, corte), ': de los ', E.necesitan, ' niños que necesitan apoyo, la prueba encuentra a ', h('b', null, TP), ' y deja fuera a ', h('b', { class: 't-exc' }, FN),
       '. De los ', E.total - E.necesitan, ' que no lo necesitan, marca de más a ', h('b', { class: 't-amp' }, FP), '.');
     const cuarto = corte <= 48 ? 'amplio' : corte >= 62 ? 'estricto' : 'medio';
-    poner(lectura, recuadro(cuarto === 'medio' ? 'aclaracion' : 'atencion', cuarto === 'amplio' ? 'Criterio amplio' : cuarto === 'estricto' ? 'Criterio estricto' : 'Un punto intermedio',
+    poner(lectura, recuadro(cuarto === 'medio' ? 'aclaracion' : 'piensa', cuarto === 'amplio' ? 'Criterio amplio' : cuarto === 'estricto' ? 'Criterio estricto' : 'Un punto intermedio',
       cuarto === 'amplio' ? 'Casi nadie que lo necesita se queda fuera, pero la etiqueta llega a muchos que no la necesitan. Si después no hay una evaluación cuidadosa, eso es ampliar sin justificación.'
         : cuarto === 'estricto' ? 'Casi nadie lleva la etiqueta de más, pero muchos que necesitan apoyo se quedan fuera. Endurecer el criterio también es un error, aunque haga menos ruido.'
           : 'Ningún corte hace desaparecer los dos errores: moverlo solo los cambia de sitio. ' + (mejor ? 'Con una prueba mejor, los dos bajan a la vez.' : 'Prueba a pulsar «Usar una prueba mejor».')));
@@ -493,7 +512,7 @@ function errores(el, ctx, A) {
   const pintarUso = v => { const u = E.usos.find(x => x.v === v); poner(usosE, u ? h('div', { class: 'apr-cambio', 'data-v': u.v }, h('div', { class: 'apr-cambio-h' }, h('b', null, u.nombre)), h('p', null, u.texto)) : h('p', { class: 'small muted' }, 'Elige un uso para ver qué cuesta cada error.')); };
   pintarUso(E.usos[0].v);
 
-  el.append(
+  meter(el, 
     h('h2', null, 'La balanza: 1.000 niños y una prueba de cribado'),
     recuadro('atencion', 'Ejemplo inventado', h('p', null, E.aviso, ' Imagina 1.000 niños de un colegio, de los que 100 necesitan de verdad un apoyo. Una prueba de cribado da a cada uno una puntuación, y quien supera el corte pasa a una evaluación completa. Las puntuaciones de los dos grupos se solapan, como pasa casi siempre.')),
     h('div', { class: 'apr-lab' },
@@ -501,12 +520,11 @@ function errores(el, ctx, A) {
         h('label', { class: 'apr-corte' }, h('span', null, 'Mueve el corte: '), valor),
         rango, h('div', { class: 'apr-rango-t small muted', 'aria-hidden': 'true' }, h('span', null, '← más amplio'), h('span', null, 'más estricto →')),
         presets, h('div', { class: 'toggles' }, bMejor)),
-      h('div', { class: 'apr-viz' },
-        h('div', { class: 'apr-bal' }, balanza, h('p', { class: 'small muted apr-bal-t' }, h('span', { class: 't-amp' }, 'Etiquetados de más'), ' frente a ', h('span', { class: 't-exc' }, 'dejados fuera'), '. Baja el plato con más casos.')),
-        campanas)),
+      h('div', { class: 'apr-bal' }, balanza, h('p', { class: 'small muted apr-bal-t' }, h('span', { class: 't-amp' }, 'Etiquetados de más'), ' frente a ', h('span', { class: 't-exc' }, 'dejados fuera'), '. Baja el plato con más casos.')),
+      campWrap),
     resumen,
     h('div', { class: 'apr-rejillas' }, h('div', { class: 'si' }, txtSi, gSi), h('div', { class: 'no' }, txtNo, gNo)),
-    h('p', { class: 'small muted' }, 'Cada cuadrado es un niño. Las dos campanas están dibujadas a la misma altura para que se vea el solapamiento; las rejillas, en cambio, respetan las cantidades.'),
+    h('p', { class: 'small muted' }, 'Cada cuadrado es un niño. Aquí sí se respetan las cantidades: el grupo que no necesita apoyo es nueve veces mayor, y por eso un pequeño porcentaje de error en él son muchos niños.'),
     lectura,
     h('h2', null, '¿Qué error cuesta más? Depende del uso'),
     h('p', { class: 'muted' }, 'Pesar igual no significa que cuesten lo mismo en cada uso: significa que los dos entran siempre en la balanza.'),
@@ -515,12 +533,14 @@ function errores(el, ctx, A) {
       h('p', { style: { marginTop: '8px' } }, 'Por eso la conclusión no es «todo es una moda» ni «todo es biología», sino ', h('b', null, '«cada uso necesita su propia justificación»'), '.')),
     h('div', { class: 'chips apr-terms' }, h('span', { class: 'small muted' }, 'En las fichas:'),
       ['errores-simetricos', 'sensibilidad-especificidad', 'cribado', 'umbral', 'sobrediagnostico', 'infradiagnostico'].map(id => enlaceT(ctx, id))));
+  return { destroy() { ro?.disconnect(); } };
 }
 
 // ---------- Glosario ----------
 function glosario(el, ctx, A) {
   const letraDe = t => (norm(t.lema).replace(/[^a-z0-9ñ]/g, '')[0] || '#').toUpperCase();
-  const terms = ctx.terms.slice().sort((a, b) => a.lema.localeCompare(b.lema, 'es'));
+  const clave = t => t.lema.replace(/^[^\p{L}\p{N}]+/u, '');
+  const terms = ctx.terms.slice().sort((a, b) => clave(a).localeCompare(clave(b), 'es'));
   const letras = [...new Set(terms.map(letraDe))].sort((a, b) => a.localeCompare(b, 'es'));
   const fams = FAMILIAS.filter(f => terms.some(t => t.familia === f));
   let letra = null, familia = null, q = '';
@@ -550,7 +570,7 @@ function glosario(el, ctx, A) {
     tFams.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', 'false'));
     pintar();
   }
-  el.append(
+  meter(el, 
     h('p', { class: 'lead' }, 'Todas las palabras de NeuroLab con su definición breve. Filtra por letra o por familia, o busca, y entra en la ficha para leer más.'),
     A.palabras?.length ? h('details', { class: 'apr-casa' }, h('summary', null, 'Las palabras de la casa: IDEAR, validez de uso, saltos…'),
       h('dl', { class: 'gl' }, A.palabras.flatMap(([t, d]) => [h('dt', null, t), h('dd', null, d)]))) : null,

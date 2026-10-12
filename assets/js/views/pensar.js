@@ -268,7 +268,7 @@ function termometro(root, ctx, P, q, a) {
             ...(r.cuerpo.length ? [['Lo noté', r.cuerpo.map(x => CUE[x]).join(', ')]] : []),
             ['Me salía', `${automatico} (${r.empuje} de 10)`],
             ['Sé', r.se.trim()], ['Supongo', r.supongo.trim() || '—'], ['Mi pregunta', r.pregunta.trim() || '—'],
-            ['Pensándolo, haría', r.haria.trim()], ['Iba delante', lec.t.replace(/^Va delante /, '').replace(/^Van a la par$/, 'los tres, a la par')]],
+            ['Pensándolo, haría', r.haria.trim()], ['Iba delante', L.k === 'empate' ? `${L.con.map(k => NOM[k].toLowerCase()).join(' y ')}, a la par` : lec.t.replace(/^Va delante /, '')]],
         }, a.sube);
       }
       const n = nEntradas(cuaderno.leer(), 'sap');
@@ -352,7 +352,14 @@ function laboratorio(root, ctx, P, q, a) {
     const caras = h('div', { class: 'seis-caras', role: 'group', 'aria-label': 'Las seis preguntas' }, SEIS.map((x, i) => h('button', { type: 'button', 'aria-pressed': String(i === actual), onclick: () => { actual = i; preguntas(); } },
       h('b', null, i + 1), h('span', null, x.p.replace(/^¿|\?$/g, '')), resp[i].trim() ? h('i', { class: 'ok', 'aria-label': 'respondida' }, '✓') : null)));
     const ta = textarea('Tu respuesta, con tus palabras', resp[actual], s.p);
-    ta.addEventListener('input', () => { resp[actual] = ta.value; comparar.disabled = resp.some(x => !x.trim()); });
+    const cuenta = h('p', { class: 'small muted' });
+    const contar = () => {
+      cuenta.textContent = `${resp.filter(x => x.trim()).length} de 6 respondidas. «No lo sé» cuenta: saber qué no sabes también es saber.`;
+      const b = caras.children[actual], ok = b.querySelector('.ok');
+      if (resp[actual].trim() && !ok) b.append(h('i', { class: 'ok', 'aria-label': 'respondida' }, '✓')); else if (!resp[actual].trim() && ok) ok.remove();
+    };
+    ta.addEventListener('input', () => { resp[actual] = ta.value; comparar.disabled = resp.some(x => !x.trim()); contar(); });
+    contar();
     const pista = h('div', { hidden: true }, recuadro('recuerda', `Lo que suele pedir el uso «${USOS[u].nombre}»`, P.guia[u][s.k]));
     const contexto = modo === 'caso' ? caso.situacion : modo === 'propio' ? propio.situacion.trim() : t ? corta(t.definicion, 160) : '';
     poner(cuerpo, pasos(NOMBRES, 1),
@@ -368,7 +375,7 @@ function laboratorio(root, ctx, P, q, a) {
       pista,
       h('div', { class: 'btns', style: { marginTop: '16px', borderTop: '1px solid var(--line)', paddingTop: '14px' } },
         h('button', { class: 'btn', type: 'button', onclick: elegir }, '← Cambiar de caso'), comparar),
-      h('p', { class: 'small muted' }, `${resp.filter(x => x.trim()).length} de 6 respondidas. «No lo sé» cuenta: saber qué no sabes también es saber.`));
+      cuenta);
     ta.focus({ preventScroll: true });
   }
 

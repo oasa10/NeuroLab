@@ -1,5 +1,5 @@
 import cytoscape from '../../vendor/cytoscape-3.34.3.esm.min.js';
-import { h, anio, idear, famTag, famColor, famVar, usoColor, cssVar, FAM_ANILLO, CODIGOS, USOS, SALTOS, corta, plural, recuadro, poner } from '../lib.js';
+import { h, anio, idear, famTag, famColor, famVar, usoColor, cssVar, FAM_ANILLO, FAM_CORTA, CODIGOS, USOS, SALTOS, corta, plural, recuadro, poner } from '../lib.js';
 
 // Mapa de relaciones: cada término, del color de su familia, unido a los que conviene leer con él
 // Rótulo corto para los gráficos: «TDAH (trastorno por…)» → «TDAH»
@@ -23,10 +23,10 @@ export function render(root, ctx, parts, q) {
   // Puentes por pares de familias
   const pares = new Map();
   for (const r of puentes) {
-    const k = [famDe(r.o), famDe(r.d)].sort().join(' ↔ ');
+    const k = [famDe(r.o), famDe(r.d)].map(f => FAM_CORTA[f] || f || '—').sort().join(' ↔ ');
     pares.set(k, (pares.get(k) || 0) + 1);
   }
-  const topPares = [...pares.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8);
+  const topPares = [...pares.entries()].sort((a, b) => b[1] - a[1]).slice(0, 6);
 
   const buscar = h('select', { 'aria-label': 'Elige un término para verlo en el mapa' },
     h('option', { value: '' }, 'Elige un término…'), [...terms].sort((a, b) => a.lema.localeCompare(b.lema, 'es')).map(t => h('option', { value: t.id }, t.lema)));
@@ -90,15 +90,22 @@ export function render(root, ctx, parts, q) {
     if (cy) cy.destroy();
     const c = { text: cssVar('--text'), text2: cssVar('--text-2'), line: cssVar('--line'), strong: cssVar('--muted'), surface: cssVar('--surface'), ink: cssVar('--ink') };
     const conPos = terms.every(t => Array.isArray(t.xy));
-    const nodos = terms.map(t => ({ group: 'nodes', data: { id: t.id, label: rotulo(t.lema), fam: t.familia, color: famColor(t.familia) || c.strong, g: grado(t.id) }, position: conPos ? { x: t.xy[0], y: t.xy[1] } : undefined }));
-    // rótulo de familia: fuera del grupo, en la dirección que lo aleja del centro del mapa
+    // Posiciones del build, un poco abiertas desde el centro (donde se acumulan los puentes) para que se lean mejor
     const gx = conPos ? terms.reduce((s, t) => s + t.xy[0], 0) / terms.length : 0, gy = conPos ? terms.reduce((s, t) => s + t.xy[1], 0) / terms.length : 0;
-    const etiquetas = conPos ? familias.map(f => {
-      const ps = terms.filter(t => t.familia === f).map(t => t.xy);
+    const R = conPos ? Math.max(1, ...terms.map(t => Math.hypot(t.xy[0] - gx, t.xy[1] - gy))) : 1;
+    const xy = new Map(conPos ? terms.map(t => {
+      const dx = t.xy[0] - gx, dy = t.xy[1] - gy, r = Math.hypot(dx, dy), k = r ? (R * Math.pow(r / R, 0.8)) / r : 1;
+      return [t.id, [gx + dx * k, gy + dy * k]];
+    }) : []);
+    const nodos = terms.map(t => ({ group: 'nodes', data: { id: t.id, label: rotulo(t.lema), fam: t.familia, color: famColor(t.familia) || c.strong, g: grado(t.id) }, position: conPos ? { x: xy.get(t.id)[0], y: xy.get(t.id)[1] } : undefined }));
+    // rótulo de familia: fuera del grupo, en la dirección que lo aleja del centro del mapa
+    // en pantallas estrechas, sin rótulos de familia (la leyenda ya los da) para que la red ocupe todo el ancho
+    const etiquetas = conPos && cyEl.clientWidth >= 520 ? familias.map(f => {
+      const ps = terms.filter(t => t.familia === f).map(t => xy.get(t.id));
       const cx = ps.reduce((s, p) => s + p[0], 0) / ps.length, cyy = ps.reduce((s, p) => s + p[1], 0) / ps.length;
       let dx = cx - gx, dy = cyy - gy; const L = Math.hypot(dx, dy) || 1; dx /= L; dy /= L;
       const alcance = Math.max(...ps.map(p => (p[0] - cx) * dx + (p[1] - cyy) * dy));
-      return { group: 'nodes', data: { id: `fam:${f}`, label: f }, position: { x: cx + dx * (alcance + 40), y: cyy + dy * (alcance + 34) }, classes: 'famlabel', selectable: false, grabbable: false };
+      return { group: 'nodes', data: { id: `fam:${f}`, label: f }, position: { x: cx + dx * (alcance + 30), y: cyy + dy * (alcance + 24) }, classes: 'famlabel', selectable: false, grabbable: false };
     }) : [];
     const aristas = rels.filter(r => byId.has(r.o) && byId.has(r.d))
       .map((r, i) => ({ group: 'edges', data: { id: `e${i}`, source: r.o, target: r.d }, classes: famDe(r.o) !== famDe(r.d) ? 'puente' : '' }));
@@ -109,12 +116,12 @@ export function render(root, ctx, parts, q) {
       style: [
         { selector: 'node[color]', style: { 'background-color': 'data(color)', width: `mapData(g, 0, ${maxG}, 9, 30)`, height: `mapData(g, 0, ${maxG}, 9, 30)`,
           'border-width': 1.5, 'border-color': c.surface, label: 'data(label)', 'font-family': 'Inter, system-ui, sans-serif', 'font-size': `mapData(g, 0, ${maxG}, 9, 15)`,
-          color: c.text, 'text-valign': 'bottom', 'text-margin-y': 3, 'text-outline-color': c.surface, 'text-outline-width': 2.5, 'min-zoomed-font-size': 8,
+          color: c.text, 'text-valign': 'bottom', 'text-margin-y': 3, 'text-outline-color': c.surface, 'text-outline-width': 2.5, 'min-zoomed-font-size': 11,
           'text-wrap': 'ellipsis', 'text-max-width': 170 } },
-        { selector: 'node.famlabel', style: { label: 'data(label)', 'text-outline-color': c.surface, 'text-outline-width': 3, 'background-opacity': 0, 'border-width': 0, width: 1, height: 1, 'font-size': 28, 'font-weight': 600, color: c.text2,
+        { selector: 'node.famlabel', style: { label: 'data(label)', 'text-outline-color': c.surface, 'text-outline-width': 3, 'background-opacity': 0, 'border-width': 0, width: 1, height: 1, 'font-size': 22, 'font-weight': 600, color: c.text2,
           'text-valign': 'center', 'font-family': 'Fraunces, Georgia, serif', 'min-zoomed-font-size': 6, events: 'no' } },
         { selector: 'edge', style: { width: 1, 'line-color': c.line, 'curve-style': 'haystack', opacity: 0.9 } },
-        { selector: 'edge.puente', style: { width: 1.6, 'line-color': c.strong, opacity: 0.75 } },
+        { selector: 'edge.puente', style: { width: 1.2, 'line-color': c.strong, opacity: 0.45 } },
         { selector: 'node.enuso', style: { 'border-color': 'data(uc)', 'border-width': 3 } },
         { selector: '.fuerauso', style: { opacity: 0.13, 'text-opacity': 0 } },
         { selector: 'edge.fuerauso', style: { opacity: 0.05 } },
@@ -174,7 +181,7 @@ export function render(root, ctx, parts, q) {
   function pintarLeyenda() {
     poner(leyenda, familias.map(f => h('button', { type: 'button', class: famSolo === f ? 'solo' : '', 'aria-pressed': famSolo ? String(famSolo === f) : 'true',
       onclick: () => { famSolo = famSolo === f ? null : f; cy.elements().removeClass('foco vecino'); pintarLeyenda(); aplicarFiltros(); panelInicio(); buscar.value = ''; } },
-      h('i', { style: { '--c': famVar(f) } }), `${f} (${terms.filter(t => t.familia === f).length})`)));
+      h('i', { style: { '--c': famVar(f) } }), h('span', { class: 'nl-largo' }, f), h('span', { class: 'nl-corto' }, FAM_CORTA[f] || f), ` (${terms.filter(t => t.familia === f).length})`)));
   }
 
   function pintarUso() {
