@@ -38,7 +38,7 @@ export function render(root, ctx, parts, q) {
   const cyEl = h('div', { id: 'cy', role: 'img', 'aria-label': `Red de ${plural(terms.length, 'término', 'términos')} y ${plural(rels.length, 'conexión', 'conexiones')}, agrupados por familias. Usa el selector para elegir un término; su ficha lista sus conexiones.` });
   const panel = h('div', { class: 'card' });
 
-  root.append(
+  poner(root,
     h('h2', { class: 'vis-h' }, 'Mapa de relaciones'),
     h('p', { class: 'vis-lead' }, `Cada punto es un término y cada línea, una relación (${rels.length} en total). Los términos se juntan por familias, como en una boda: cada cual con los suyos. Las líneas más oscuras son los puentes entre familias, y suelen ser lo más interesante de la fiesta.`),
     h('div', { class: 'map-tools' }, buscar, bPuentes, bReset),

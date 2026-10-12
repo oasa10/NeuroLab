@@ -29,7 +29,7 @@ export function render(root, ctx) {
   famSel.addEventListener('change', () => { filtro = famSel.value ? { k: 'fam', v: famSel.value } : null; pintarUso(); dibujar(true); });
   const tablaBody = h('tbody');
 
-  root.append(
+  poner(root,
     h('h2', { class: 'vis-h' }, 'El pulso de las etiquetas'),
     h('p', { class: 'vis-lead' }, `Si la historia de las etiquetas tuviera electrocardiograma, sería este. Cada pico es un año en que nace al menos un término de NeuroLab; su altura, cuántos. Donde la línea va plana, ese año no se fijó ninguno (o no lo hemos encontrado). Tranquilidad: un pulso acelerado aquí no necesita diagnóstico.`),
     stats,

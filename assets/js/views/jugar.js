@@ -419,8 +419,8 @@ function arrastre(ul, alSoltar) {
     li.classList.add('arrastra');
     ul.classList.add('arrastrando');
     const mover = ev => {
-      const dy = Math.max(rects[0].top - rects[de].top - 6, Math.min(rects.at(-1).bottom - rects[de].bottom + 6, ev.clientY - y0));
-      li.style.transform = `translateY(${dy}px)`;
+      const dy = ev.clientY - y0;
+      li.style.transform = `translateY(${Math.max(rects[0].top - rects[de].top - 6, Math.min(rects.at(-1).bottom - rects[de].bottom + 6, dy))}px)`;
       const centro = rects[de].top + rects[de].height / 2 + dy;
       a = 0;
       rects.forEach((r, k) => { if (k !== de && centro > r.top + r.height / 2) a++; });

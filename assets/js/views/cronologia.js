@@ -110,7 +110,7 @@ export function render(root, ctx, parts, q) {
       : [h('b', null, foco.lema), foco.anio === null ? ' no tiene una fecha fiable, así que no sube a la máquina. ' : ` es anterior a ${DESDE} y queda fuera de la máquina. `, h('a', { href: `#/termino/${encodeURIComponent(foco.id)}` }, 'Volver a su ficha')])
     : h('p', { class: 'note warn' }, 'No encuentro ese término. Te enseño el viaje completo.')) : null;
 
-  root.append(
+  poner(root,
     cabeza(1, 'Viajar', `Una máquina del tiempo de 1798 a hoy con ${plural(datos.length, 'término', 'términos')}: cada uno está en el año de la obra, la persona o el hito que lo fija, y cada fila es una familia. Arriba, los hitos que cambiaron cómo se nombra, se diagnostica o se apoya. Arrastra para moverte, acércate con la rueda o los dedos, o súbete al viaje guiado.`),
     avisoFoco,
     viaje,
@@ -149,7 +149,7 @@ export function render(root, ctx, parts, q) {
         h('div', { class: 'chips' },
           h('span', { class: 'chip' }, h('span', { class: 'dot rombo', style: { '--c': colorHito(x.tipo) } }), TIPOS_HITO[tipoHito(x.tipo)]),
           h('span', { class: 'chip' }, AMBITOS[x.ambito] || 'Internacional'),
-          (x.terminos || []).map(id => ctx.byId.get(id)).filter(Boolean).map(t => h('a', { class: 'chip', href: `#/termino/${encodeURIComponent(t.id)}` }, t.lema))),
+          (x.terminos || []).map(id => ctx.byId.get(id)).filter(Boolean).map(t => h('a', { class: 'chip', href: `#/termino/${encodeURIComponent(t.id)}`, title: t.lema }, rotulo(t.lema)))),
         x.fuente?.url ? h('div', { class: 'small', style: { marginTop: '4px' } }, 'Fuente: ', h('a', { href: x.fuente.url, rel: 'noopener', target: '_blank' }, x.fuente.titulo || 'Fuente')) : null))));
   }
   pintarHitos();

@@ -38,7 +38,7 @@ export function render(root, ctx) {
   const tablaSerie = h('div');
   const selector = h('div', { class: 'toggles', role: 'group', 'aria-label': 'Elige una serie' });
 
-  root.append(
+  poner(root,
     h('h2', { class: 'vis-h' }, 'Tendencias'),
     h('p', { class: 'vis-lead' }, 'Lo que cuentan las cifras cuando pasan los años: cuánto alumnado recibe apoyos, cuánto se estima que hay de cada cosa, cuánto se publica. Y, debajo, cuándo nacen los términos de NeuroLab. Primero, el dato; después, la pregunta de siempre: ¿qué ha cambiado, las personas o la manera de contarlas?'),
     series.length

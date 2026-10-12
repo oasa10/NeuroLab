@@ -253,7 +253,7 @@ input[type="search"] { padding-left: 38px; background-image: url("data:image/svg
 .crumbs { font-size: .88rem; color: var(--muted); margin-bottom: 14px; }
 .crumbs a { color: var(--muted); }
 .ficha { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 32px; }
-@media (max-width: 900px) { .ficha { grid-template-columns: 1fr; } }
+@media (max-width: 900px) { .ficha { grid-template-columns: minmax(0, 1fr); } }
 .ficha h1 { margin-bottom: .15em; }
 .ficha .vars { color: var(--muted); font-size: .95rem; margin-bottom: 14px; }
 .nucleo { font-family: var(--serif); font-size: clamp(1.2rem, 2.6vw, 1.5rem); line-height: 1.45; color: var(--ink); border-left: 4px solid var(--c, var(--accent)); padding: 4px 0 4px 18px; margin: 18px 0 22px; }
@@ -747,3 +747,9 @@ tr.nl-foco td { background: var(--accent-bg); }
 .nl-cifras { margin: 4px 0 10px; gap: 10px; }
 .nl-cifras .stat b { font-size: 1.6rem; }
 .nl-vacio { margin: 12px 0; }
+.nl-hitos li > div, .map-panel { min-width: 0; }
+.nl-hitos .chips .chip, .map-panel .chips .chip { white-space: normal; text-align: left; max-width: 100%; }
+
+/* Chips largos (conexiones con lemas extensos): que partan línea en vez de desbordar */
+.chips .chip { max-width: 100%; }
+@media (max-width: 620px) { .chips .chip { white-space: normal; text-align: left; border-radius: 14px; } }
