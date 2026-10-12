@@ -231,7 +231,7 @@
    "La APA aprobó estudiar una aclaración de los especificadores de gravedad del autismo y abrió comentarios públicos hasta el 30 de abril de 2026.",
    "Un estudiante de Psicología aprende que «DSM-5» y «DSM-5-TR» no son sinónimos exactos y que conviene citar la edición precisa."
   ],
-  "implicaciones": "Para quien lee informes en España, la etiqueta «DSM-5-TR» indica que el profesional usa la versión vigente del manual estadounidense; para codificar en el sistema sanitario se usa otra herramienta, la CIE-10-ES. La revisión muestra cómo funciona hoy la clasificación: no por grandes saltos cada veinte años, sino por ajustes, propuestas y periodos de comentarios públicos. Eso tiene ventajas, porque corrige errores antes, y riesgos, porque obliga a comprobar qué versión exacta se citó. El propio proyecto Neurowokismo encontró en la web de la APA propuestas pendientes cuyo estado final no podía fijar. Moraleja práctica: fecha, edición y fuente, siempre juntas.",
+  "implicaciones": "Para quien lee informes en España, la etiqueta «DSM-5-TR» indica que el profesional usa la versión vigente del manual estadounidense; para codificar en el sistema sanitario se usa otra herramienta, la CIE-10-ES. La revisión muestra cómo funciona hoy la clasificación: no por grandes saltos cada veinte años, sino por ajustes, propuestas y periodos de comentarios públicos. Eso tiene ventajas, porque corrige errores antes, y riesgos, porque obliga a comprobar qué versión exacta se citó. El propio proyecto del que nace NeuroLab encontró en la web de la APA propuestas pendientes cuyo estado final no podía fijar. Moraleja práctica: fecha, edición y fuente, siempre juntas.",
   "sabias": "Para el DSM-5-TR, un grupo de 14 profesionales de distintos orígenes étnicos revisó las referencias a raza y etnia del texto, con el fin de evitar estereotipos e información clínica sesgada.",
   "piensalo": "¿Prefieres un manual que cambie poco y envejezca, o uno que se actualice a menudo aunque cueste saber qué versión se usó?",
   "paso": "Abre la página de actualizaciones del DSM en la web de la APA y apunta la fecha del último cambio publicado. Comprueba si un informe que conozcas lo recoge.",
@@ -524,8 +524,8 @@
   "tipo": "concepto",
   "familia": "Clasificar y medir",
   "anio": 2026,
-  "anio_nota": "Propuesta del término en el proyecto Neurowokismo (borrador condicionado, octubre de 2026)",
-  "obra": "Proyecto Neurowokismo, «Borrador condicionado sobre validez de las categorías» (v1.0 a v1.3, 2026); se inspira en la definición de validez de los Standards for Educational and Psychological Testing (AERA, APA y NCME, 2014)",
+  "anio_nota": "Propuesta del término en el proyecto del que nace NeuroLab (borrador condicionado, octubre de 2026)",
+  "obra": "Proyecto de investigación del que nace NeuroLab, «Borrador condicionado sobre validez de las categorías» (v1.0 a v1.3, 2026); se inspira en la definición de validez de los Standards for Educational and Psychological Testing (AERA, APA y NCME, 2014)",
   "figuras": [],
   "definicion": "Término propio de este proyecto: la justificación que conecta una etiqueta y su forma de identificarla con una decisión concreta. Lo que valida una etiqueta para investigar, diagnosticar, educar, dar acceso o reconocerse no la valida automáticamente para los demás usos.",
   "usos": [
@@ -536,7 +536,7 @@
    "R"
   ],
   "controversia": "Es una herramienta de análisis propuesta por el proyecto, no una escala validada ni un consenso. Queda por discutir cuánta evidencia exigir a cada uso sin bloquear apoyos necesarios ni aceptar transferencias injustificadas.",
-  "contexto": "El proyecto Neurowokismo empezó con vídeos que denunciaban una «nueva ideología» de la neurodiversidad y desembocó en una pregunta más precisa: ¿cuándo está justificado usar una etiqueta para algo? Al revisar estudios, normas y debates, comprobó que las mismas palabras circulan entre la investigación, la consulta, la escuela, las instituciones y la identidad, y que los problemas aparecen en los saltos entre esos usos. Para nombrarlo propuso «validez de uso». La idea tiene raíces conocidas: los estándares de evaluación psicológica y educativa de 2014 definen la validez como el grado en que las pruebas y la teoría apoyan una interpretación para un uso propuesto, y advierten que es incorrecto hablar de «la validez del test» sin más. El proyecto aplica esa lógica a las categorías y pide pesar por igual dos errores: ampliar sin justificación y dejar fuera a quien necesita apoyo.",
+  "contexto": "El proyecto del que nace NeuroLab empezó con vídeos que denunciaban una «nueva ideología» de la neurodiversidad y desembocó en una pregunta más precisa: ¿cuándo está justificado usar una etiqueta para algo? Al revisar estudios, normas y debates, comprobó que las mismas palabras circulan entre la investigación, la consulta, la escuela, las instituciones y la identidad, y que los problemas aparecen en los saltos entre esos usos. Para nombrarlo propuso «validez de uso». La idea tiene raíces conocidas: los estándares de evaluación psicológica y educativa de 2014 definen la validez como el grado en que las pruebas y la teoría apoyan una interpretación para un uso propuesto, y advierten que es incorrecto hablar de «la validez del test» sin más. El proyecto aplica esa lógica a las categorías y pide pesar por igual dos errores: ampliar sin justificación y dejar fuera a quien necesita apoyo.",
   "ejemplos": [
    "Un cuestionario útil para investigar rasgos autistas en población general no basta para diagnosticar a una persona concreta.",
    "Un diagnóstico de TDAH bien hecho no decide por sí solo qué adaptación necesita un alumno en Matemáticas: eso exige valorar su situación escolar.",

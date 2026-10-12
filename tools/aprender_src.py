@@ -1,134 +1,280 @@
-"""Fuente del contenido de la sección Aprender. Genera data/aprender.json.
+"""Fuente del contenido de la sección Aprender de NeuroLab. Genera data/aprender.json.
 
 Uso: python3 tools/aprender_src.py
+
+Fechas y datos de la ruta comprobados en fuentes externas (octubre de 2026):
+- Crichton 1798 y Still 1902: Lange et al. (2010), Atten Defic Hyperact Disord 2:241-255; Berrios (2006), Hist Psychiatry 17:469-486.
+- Bleuler: «autismo» aparece en 1910 («Zur Theorie des schizophrenen Negativismus») y se difunde en 1911 (monografía sobre las esquizofrenias);
+  la primera acepción del DLE de la RAE conserva ese sentido.
+- Sukhareva: 1925 (ruso), 1926 (alemán, seis niños; trad. de Wolff, 1996) y 1927 (cinco niñas; trad. de Simmonds, 2019).
+- Kanner 1943 (once niños) y Asperger 1944; Czech (2018), Molecular Autism 9:29.
+- DSM-III 1980; Wing (1981), Psychol Med 11:115-129; Wing y Gould 1979 (tríada).
+- Sinclair 1993; Singer y Blume 1998; Botha et al. (2024), Autism 28:1591-1594.
+- DSM-5 2013; LOMLOE (BOE 30-12-2020); CIE-11 en vigor el 1-1-2022 (OMS); Real Decreto 888/2022 (BOE 20-10-2022).
 """
 import json, os
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+LANGE = {"titulo": "Lange, Reichl, Lange, Tucha y Tucha (2010). The history of attention deficit hyperactivity disorder. Attention Deficit and Hyperactivity Disorders, 2, 241-255", "url": "https://doi.org/10.1007/s12402-010-0045-8"}
+
 ruta = [
-  {"anio": "1703", "titulo": "Un después teológico",
-   "texto": "El clérigo inglés Daniel Whitby sistematiza el posmilenarismo: la idea de que Cristo volverá después de un milenio de paz en la Tierra. Es el término post más antiguo de PostLab. Aquí el prefijo no juzga nada: solo ordena en el tiempo dos acontecimientos. Es el valor más sencillo, P1, «después de».",
-   "terminos": ["posmilenarismo"], "valor": "P1"},
-  {"anio": "1910", "titulo": "El primer movimiento con prefijo",
-   "texto": "Roger Fry reúne en Londres a Cézanne, Gauguin y Van Gogh en la exposición «Manet and the Post-Impressionists». El nombre no dice qué tienen en común esos pintores, solo que vienen después del impresionismo y lo llevan más lejos (P3). Ya aparece el rasgo que se repetirá durante un siglo: el rótulo nombra lo que se deja atrás, no lo que llega.",
-   "terminos": ["postimpresionismo"], "valor": "P3"},
-  {"anio": "1917–1934", "titulo": "Tres fechas para «posmoderno»",
-   "texto": "Rudolf Pannwitz escribe «hombre posmoderno» en 1917. En 1934 Federico de Onís llama «postmodernismo» a la poesía hispánica que reacciona contra el modernismo de Rubén Darío. El sentido filosófico llegará con Lyotard en 1979. Una misma palabra tiene un primer uso, una primera corriente y una obra que fija su sentido actual: conviene no confundirlos.",
-   "terminos": ["postmodernismo-hispanico", "posmodernidad-posmodernismo-filosofico"], "valor": "P3"},
-  {"anio": "1945", "titulo": "Una vanguardia en Madrid",
-   "texto": "Eduardo Chicharro, Carlos Edmundo de Ory y Silvano Sernesi lanzan la revista Postismo. A diferencia de muchos rótulos posteriores, este es una autodenominación: sus autores lo eligieron para sí. El prefijo funciona como bandera de grupo y como broma a la vez.",
-   "terminos": ["postismo"], "valor": "P3"},
-  {"anio": "1966", "titulo": "Empieza la eclosión",
-   "texto": "Jacques Derrida lee en Baltimore la conferencia que se suele tomar como arranque del posestructuralismo, y Robert Venturi publica Complexity and Contradiction in Architecture. Entre 1966 y 1994 el prefijo se convierte en la forma estándar de nombrar teorías nuevas. En esta fase domina la ruptura (P2): el post se usa sobre todo para decir contra qué se está.",
-   "terminos": ["postestructuralismo", "arquitectura-posmoderna"], "valor": "P2"},
-  {"anio": "1973", "titulo": "Después de la industria",
-   "texto": "Daniel Bell publica The Coming of Post-Industrial Society: el conocimiento teórico y los servicios pasan a ocupar el lugar central que tenía la fábrica. El título dice qué deja de mandar, pero no qué manda ahora. Es uno de los post de la economía con más base empírica, y prepara el terreno al posfordismo.",
-   "terminos": ["sociedad-postindustrial", "posfordismo"], "valor": "P1"},
-  {"anio": "1979", "titulo": "La condición posmoderna",
-   "texto": "Jean-François Lyotard escribe un informe para el Consejo de Universidades de Quebec y define lo posmoderno como incredulidad ante los grandes relatos que daban sentido al saber. El libro fija el sentido filosófico del término y lo convierte en el gran rótulo de una época. Combina la ruptura (P2) con el diagnóstico de un vaciamiento (P4).",
-   "terminos": ["posmodernidad-posmodernismo-filosofico", "posmarxismo"], "valor": "P2"},
-  {"anio": "1989–1991", "titulo": "El tiempo de los finales",
-   "texto": "Francis Fukuyama publica «The End of History?» en 1989 y en 1991 se disuelve la Unión Soviética. El prefijo anuncia finales (P5, poshistoria) y, a la vez, ordena el mapa de lo que viene (P1, posguerra fría y espacio postsoviético). Pocas veces un después se ha dicho con tanta seguridad.",
-   "terminos": ["posthistoria", "posguerra-fria", "postsovietico"], "valor": "P5"},
-  {"anio": "2004–2016", "titulo": "Del post que rompe al post que lamenta",
-   "texto": "Colin Crouch publica Post-Democracy y Ralph Keyes, The Post-Truth Era, ambos en 2004; en 2016 «post-truth» es la palabra del año de Oxford. El prefijo ya no promete nada: constata que algo sigue ahí, pero vaciado (P4). La democracia no ha desaparecido ni la verdad tampoco; lo que han perdido es autoridad.",
-   "terminos": ["posdemocracia", "posverdad", "pospolitica"], "valor": "P4"},
-  {"anio": "2023–2024", "titulo": "Parodia y técnica",
-   "texto": "El proyecto POSTPOSTPOST publica un libro (2023) y una película (2024) que apilan el prefijo tres veces como gesto irónico. Ese mismo 2024 el NIST aprueba los primeros estándares de criptografía poscuántica, donde el prefijo vuelve a fechar sin juzgar (P1). Queda una pregunta abierta: ¿cómo se llamará lo que venga después de la posverdad?",
-   "terminos": ["postpostpost", "criptografia-postcuantica", "post-posmodernismo"], "valor": "P4"},
+  {"anio": "1798", "a": 1798, "titulo": "Una atención que «enferma»",
+   "texto": "El médico escocés Alexander Crichton publica una investigación sobre el origen del trastorno mental con un capítulo dedicado a la atención y sus enfermedades. Describe a personas incapaces de sostener la atención en una sola cosa, a las que cualquier estímulo agita y deja en un estado de «inquietud mental». Añade que puede venir de nacimiento y que suele suavizarse con la edad. Algunos historiadores ven aquí un retrato temprano de lo que hoy llamamos TDAH. Conviene ir con cuidado: leer el pasado con las categorías de hoy es un salto. Lo que sí se ve es que la atención empieza a tratarse como algo que puede enfermar.",
+   "terminos": ["alexander-crichton", "tdah", "funciones-ejecutivas"],
+   "uso": "D", "usos": ["D"],
+   "cambio": "La atención, tema de filósofos, entra en un tratado médico como algo que puede enfermar: del habla de todos los días a la consulta (D).",
+   "porque": "Crichton escribe como médico: describe un problema para entenderlo y atenderlo en personas concretas. Aún no hay estudios de grupos, ni escuela, ni derechos en juego.",
+   "pregunta": "Si en 1798 ya se describía algo parecido, ¿demuestra eso que el TDAH «siempre existió», o solo que la inquietud siempre existió? ¿Qué te haría falta para decidirlo?",
+   "fuentes": [LANGE, {"titulo": "Berrios (2006). «Mind in general» by Sir Alexander Crichton. History of Psychiatry, 17, 469-486", "url": "https://doi.org/10.1177/0957154X06071679"}]},
+  {"anio": "1902", "a": 1902, "titulo": "De la mala conducta al caso clínico",
+   "texto": "El pediatra londinense George Frederic Still dicta en el Real Colegio de Médicos las Conferencias Goulstonianas, que publica la revista The Lancet. Describe a niños con lo que llama un «defecto anormal del control moral»: impulsivos, desafiantes, incapaces de mantener la atención, y en varios casos sin problemas de inteligencia. Busca una explicación médica para lo que en casa y en la escuela se juzgaba como mal carácter. Durante décadas se le citó como el «descubridor» del TDAH. Una revisión histórica de 2010 matiza que la mayor parte de lo que describió no corresponde al TDAH actual: se mezcla con problemas de conducta.",
+   "terminos": ["george-still", "tdah", "diagnostico-diferencial"],
+   "uso": "D", "usos": ["D"],
+   "cambio": "Lo que se juzgaba como falta de carácter pasa a tratarse como un caso clínico: de la moral a la consulta (D).",
+   "porque": "Still busca una explicación médica para niños concretos que llegan a su consulta. Es un uso clínico, aunque con un vocabulario moral muy de su época.",
+   "pregunta": "¿Qué cambia para un niño cuando su conducta deja de ser «mala» y pasa a ser «un caso clínico»? Piensa en algo que mejora y en algo que puede empeorar.",
+   "fuentes": [LANGE]},
+  {"anio": "1910–1911", "a": 1910, "titulo": "Una palabra nace con otro sentido",
+   "texto": "El psiquiatra suizo Eugen Bleuler, que ya había propuesto el nombre «esquizofrenia», usa la palabra «autismo» en 1910 y la difunde en 1911 en su gran libro sobre el grupo de las esquizofrenias. La forma con el griego autós, «uno mismo», y con ella nombra un síntoma de adultos: la retirada hacia el mundo interior y la pérdida de contacto con la realidad. No habla de niños ni de desarrollo. Ese sentido antiguo sigue vivo en el diccionario, y por eso todavía se oye «autista» como sinónimo de alguien encerrado en sí mismo. Es la misma palabra, pero nombraba otra cosa.",
+   "terminos": ["eugen-bleuler", "autismo", "deriva-conceptual"],
+   "uso": "D", "usos": ["D"],
+   "cambio": "Nace como síntoma de una enfermedad de adultos (D). Treinta años después, la misma palabra nombrará otra cosa.",
+   "porque": "Bleuler la usa para describir a sus pacientes y ordenar los síntomas de la esquizofrenia: es un término clínico.",
+   "pregunta": "¿Conoces otra palabra que haya cambiado de significado sin cambiar de forma? ¿Qué problemas trae leer un texto antiguo con el significado de hoy?",
+   "extra": {"tipo": "aclaracion", "titulo": "Dos sentidos, una palabra",
+             "texto": "El diccionario de la RAE recoge los dos: primero, el de Bleuler («repliegue patológico de la personalidad sobre sí misma»); después, el médico actual, un trastorno del desarrollo que afecta a la comunicación y a la interacción social. Cuando alguien dice «estás autista» para decir «estás en tu mundo», usa el sentido de 1911, no el de hoy."},
+   "fuentes": [{"titulo": "Diccionario de la lengua española (RAE), entrada «autismo»", "url": "https://dle.rae.es/autismo"}]},
+  {"anio": "1925–1926", "a": 1925, "titulo": "La pionera que nadie citaba",
+   "texto": "Desde una clínica infantil de Moscú, la psiquiatra Grunya Sukhareva publica en ruso (1925) y en alemán (1926) la descripción de seis niños con lo que llama «psicopatía esquizoide»: tendencia a aislarse, intereses muy intensos, una forma peculiar de hablar y torpeza de movimientos. Al año siguiente describe a cinco niñas y compara cómo se presenta en ellas. Su trabajo, casi veinte años anterior a los de Kanner y Asperger, apenas se citó fuera de su país hasta que la psiquiatra Sula Wolff lo tradujo al inglés en 1996. Quien publica en otra lengua, o desde otro lugar, puede quedarse fuera de la historia oficial.",
+   "terminos": ["grunya-sukhareva", "autismo", "brecha-genero"],
+   "uso": "I", "usos": ["I", "D"],
+   "cambio": "De casos sueltos a un grupo descrito con rasgos comunes y comparado entre niños y niñas: el trabajo de investigar (I).",
+   "porque": "Sukhareva no se queda en un caso: reúne varios, busca lo que comparten y compara a niños y niñas. Describir y comparar grupos es investigar.",
+   "pregunta": "¿Por qué una descripción de 1926 tardó setenta años en llegar en inglés? ¿Qué dice eso de quién escribe la historia de una etiqueta?",
+   "fuentes": [{"titulo": "Ssucharewa y Wolff (1996). The first account of the syndrome Asperger described? European Child & Adolescent Psychiatry, 5, 119-132", "url": "https://doi.org/10.1007/BF00571671"},
+               {"titulo": "Simmonds y Sukhareva (2019). The first account of the syndrome Asperger described? Part 2: the girls. European Child & Adolescent Psychiatry, 29, 549-564", "url": "https://doi.org/10.1007/s00787-019-01371-z"}]},
+  {"anio": "1943–1944", "a": 1943, "titulo": "Kanner y Asperger",
+   "texto": "En Baltimore, Leo Kanner describe en 1943 a once niños con «trastornos autistas del contacto afectivo»: un intenso deseo de soledad y la insistencia en que nada cambie. En Viena, Hans Asperger publica en 1944 su estudio sobre la «psicopatía autista» en la infancia. Los dos toman la palabra de Bleuler y le dan un objeto nuevo: un cuadro propio de la infancia, no un síntoma de la esquizofrenia. Durante décadas se contó que Asperger había protegido a sus pacientes del nazismo. En 2018, el historiador Herwig Czech mostró con documentos de archivo que esa versión no se sostiene.",
+   "terminos": ["leo-kanner", "hans-asperger", "autismo", "sindrome-asperger"],
+   "uso": "D", "usos": ["D"],
+   "cambio": "La palabra cambia de objeto: de síntoma de la esquizofrenia adulta a cuadro propio de la infancia (D).",
+   "porque": "Kanner y Asperger describen a niños que atienden en sus servicios para entenderlos y orientar qué hacer con ellos: un uso clínico.",
+   "pregunta": "¿Se puede separar el valor de una descripción clínica de la conducta de quien la hizo? ¿Cambiarías el nombre de una etiqueta por su origen?",
+   "extra": {"tipo": "atencion", "titulo": "Asperger, con rigor",
+             "texto": "Czech revisó los expedientes de Asperger y sus informes sobre pacientes. Concluye que se acomodó al régimen nazi, que se afilió a organizaciones vinculadas al partido (no al partido mismo), que legitimó en público medidas de «higiene racial», como las esterilizaciones forzosas, y que en varias ocasiones colaboró con el programa de «eutanasia» infantil, derivando niños a la clínica Am Spiegelgrund. Por eso hoy muchas personas evitan el epónimo. Lo que describió puede discutirse con datos; lo que hizo es otra pregunta, y también importa."},
+   "fuentes": [{"titulo": "Czech (2018). Hans Asperger, National Socialism, and «race hygiene» in Nazi-era Vienna. Molecular Autism, 9, 29", "url": "https://doi.org/10.1186/s13229-018-0208-6"}]},
+  {"anio": "1980", "a": 1980, "titulo": "La era de los criterios",
+   "texto": "La Asociación Estadounidense de Psiquiatría publica el DSM-III. Por primera vez, cada diagnóstico llega con una lista de criterios explícitos: cuántos síntomas, desde cuándo, qué hay que descartar. El autismo infantil aparece como categoría propia, separada de la esquizofrenia, y nace el «trastorno por déficit de atención», con o sin hiperactividad. El objetivo era la fiabilidad: que dos profesionales, ante la misma persona, llegaran al mismo diagnóstico, y que los estudios de distintos países fueran comparables. En buena parte lo consiguió. Pero la fiabilidad no garantiza la validez: se puede coincidir mucho midiendo algo mal definido.",
+   "terminos": ["dsm-iii", "criterio-diagnostico", "fiabilidad", "categoria-diagnostica"],
+   "uso": "I", "usos": ["I", "D"],
+   "cambio": "Criterios pensados para que los estudios sean comparables (I) pasan a ordenar todas las consultas (D).",
+   "porque": "La gran apuesta del DSM-III es la fiabilidad, una virtud que necesita sobre todo la investigación: comparar grupos con la misma vara. Luego esa vara pasa a la consulta.",
+   "pregunta": "Si dos profesionales coinciden siempre en un diagnóstico, ¿significa que el diagnóstico es correcto? Pista: dos relojes que atrasan lo mismo también coinciden.",
+   "extra": {"tipo": "sabias", "titulo": None,
+             "texto": "*Fiable* y *válido* no son sinónimos. Una medida es fiable si da lo mismo cada vez y con cada evaluador. Es válida si mide lo que dice medir y sirve para lo que se usa. La segunda es más difícil de demostrar, y depende del uso."},
+   "fuentes": []},
+  {"anio": "1981", "a": 1981, "titulo": "Lorna Wing abre el espectro",
+   "texto": "La psiquiatra británica Lorna Wing, madre de una hija autista, publica «El síndrome de Asperger: un relato clínico». Rescata el trabajo de Asperger para el mundo anglosajón y propone incluirlo, junto al autismo de Kanner, en un grupo más amplio de condiciones que comparten dificultades en la interacción social, la comunicación y la imaginación: la tríada que había descrito con Judith Gould en 1979. Con ella cambia la imagen. Ya no hay una caja cerrada, sino un continuo de formas y grados. Caben más personas, y esa amplitud es a la vez su fuerza y su punto más discutido.",
+   "terminos": ["lorna-wing", "sindrome-asperger", "modelo-dimensional", "autismo"],
+   "uso": "D", "usos": ["I", "D"],
+   "cambio": "De una caja estrecha a un continuo: caben más personas en el diagnóstico (D), y la frontera se vuelve más discutida.",
+   "porque": "Wing escribe un relato clínico para que se reconozca a personas que no encajaban en el retrato estrecho de Kanner: cambia quién puede recibir el diagnóstico.",
+   "pregunta": "Un espectro amplio ayuda a que nadie quede fuera. ¿Qué riesgo tiene reunir a personas muy distintas bajo el mismo nombre?",
+   "fuentes": [{"titulo": "Wing (1981). Asperger's syndrome: a clinical account. Psychological Medicine, 11, 115-129", "url": "https://doi.org/10.1017/s0033291700053332"}]},
+  {"anio": "1993–1998", "a": 1993, "titulo": "La etiqueta cambia de manos",
+   "texto": "En 1993, el activista autista Jim Sinclair escribe «No lloréis por nosotros», un texto dirigido a las familias: el autismo no es una envoltura que esconde a un niño «normal», sino una manera de ser. En 1998, la palabra «neurodiversidad» aparece por escrito en la tesina de la socióloga australiana Judy Singer y en un artículo del periodista Harvey Blume en The Atlantic. Investigaciones recientes subrayan que la idea se forjó de forma colectiva, en listas y foros de personas autistas, antes de tener nombre fijo. La etiqueta clínica se convierte, para muchas personas, en identidad compartida y en bandera de derechos.",
+   "terminos": ["jim-sinclair", "judy-singer", "harvey-blume", "neurodiversidad", "movimiento-neurodiversidad"],
+   "uso": "R", "usos": ["R", "A"],
+   "cambio": "La palabra cambia de manos: de la consulta (D) a la identidad y la comunidad (R).",
+   "porque": "Por primera vez son las propias personas autistas quienes usan la palabra para decir quiénes son y reclamar derechos: reconocerse.",
+   "pregunta": "¿Qué necesita una palabra para funcionar como identidad? ¿Y qué no puede hacer por sí sola, por mucho que te reconozcas en ella?",
+   "fuentes": [{"titulo": "Botha, Chapman, Giwa Onaiwu, Kapp, Stannard Ashley y Walker (2024). The neurodiversity concept was developed collectively. Autism, 28, 1591-1594", "url": "https://doi.org/10.1177/13623613241237871"}]},
+  {"anio": "2013", "a": 2013, "titulo": "Un solo espectro",
+   "texto": "El DSM-5 funde en un solo «trastorno del espectro autista» lo que antes eran cuatro diagnósticos: trastorno autista, síndrome de Asperger, trastorno desintegrativo infantil y trastorno generalizado del desarrollo no especificado. Lo describe con dos grandes áreas, la comunicación e interacción social y los intereses y conductas restringidos y repetitivos, y con tres niveles de apoyo. Además, permite por primera vez diagnosticar autismo y TDAH a la vez, algo que el manual anterior excluía. Para la consulta es un cambio de mapa. Muchas personas que se llamaban a sí mismas «Asperger» ven salir la palabra del manual, pero no de su vida.",
+   "terminos": ["dsm-5", "autismo", "sindrome-asperger", "coexistencia"],
+   "uso": "D", "usos": ["D", "R"],
+   "cambio": "Cuatro diagnósticos se funden en uno (D); la identidad que muchas personas construyeron con el nombre antiguo sigue en pie (R).",
+   "porque": "Lo que cambia es el manual con el que se diagnostica: las fronteras y los requisitos de la consulta.",
+   "pregunta": "Si una etiqueta sale del manual, ¿tiene que salir también de la identidad de quien la usa? ¿Y de un certificado que ya se concedió?",
+   "extra": {"tipo": "sabias", "titulo": None,
+             "texto": "Hasta 2013, el manual no permitía diagnosticar a la vez autismo y TDAH. Desde entonces se puede, y por eso se habla tanto de su coexistencia. Coexistir no es lo mismo que formar una entidad nueva: esa es otra pregunta, con otra prueba."},
+   "fuentes": []},
+  {"anio": "2020–2022", "a": 2020, "titulo": "Escuela, manual y certificado",
+   "texto": "En España, la LOMLOE (Ley Orgánica 3/2020) define las necesidades educativas especiales a partir de las barreras que limitan el acceso, la presencia, la participación o el aprendizaje, y amplía la lista de situaciones que dan derecho a un apoyo específico. El 1 de enero de 2022 entra en vigor la CIE-11 de la Organización Mundial de la Salud. Y en octubre de 2022 un real decreto renueva el baremo para reconocer el grado de discapacidad, que ahora mira también la actividad, la participación y el entorno. Escuela, consulta y administración usan palabras parecidas para decidir cosas distintas.",
+   "terminos": ["lomloe", "neae", "cie-11", "certificado-discapacidad"],
+   "uso": "E", "usos": ["D", "E", "A"],
+   "cambio": "La misma palabra se reparte entre el aula (E), la consulta (D) y el certificado (A), cada uno con sus reglas y su prueba.",
+   "porque": "El cambio que más toca la vida diaria en España es el de la escuela: la ley decide qué apoyos se organizan y para quién. Muy cerca está el acceso (A), con el nuevo baremo de discapacidad.",
+   "pregunta": "Una ley que habla de «barreras» en lugar de déficits, ¿cambia el aula por sí sola? ¿Qué tendrías que observar en un centro para saberlo?",
+   "fuentes": [{"titulo": "Ley Orgánica 3/2020, de 29 de diciembre (LOMLOE). BOE", "url": "https://www.boe.es/eli/es/lo/2020/12/29/3"},
+               {"titulo": "OMS (2022). La CIE-11 entra oficialmente en vigor", "url": "https://www.who.int/news/item/11-02-2022-icd-11-2022-release"},
+               {"titulo": "Real Decreto 888/2022, de 18 de octubre (grado de discapacidad). BOE", "url": "https://www.boe.es/eli/es/rd/2022/10/18/888"}]},
 ]
 
-ejemplos = {
-  "P1": ["posguerra", "postsovietico", "criptografia-postcuantica"],
-  "P2": ["postpositivismo", "postdesarrollo", "poscolonialismo"],
-  "P3": ["postestructuralismo", "postkeynesianismo", "postimpresionismo"],
-  "P4": ["posdemocracia", "pospolitica", "posverdad"],
-  "P5": ["posthistoria", "postideologia-fin-de-las-ideologias", "posthumanismo"],
-  "P6": ["post-punk", "post-rock", "postminimalismo"],
+# La misma palabra, cinco trabajos: «autismo»
+trabajos = {
+  "palabra": "autismo",
+  "filas": {
+    "I": {"escena": "Un equipo compara cómo duermen 300 adolescentes autistas y 300 que no lo son.",
+          "decide": "Qué se publica sobre el grupo.",
+          "salto": "grupo"},
+    "D": {"escena": "Una psicóloga clínica evalúa a Leo, de 7 años, con su familia y su escuela, y concluye que cumple los criterios.",
+          "decide": "Qué le pasa a Leo y qué atención le conviene.",
+          "salto": "rasgo"},
+    "E": {"escena": "El equipo de orientación propone anticipar los cambios de rutina y dar las instrucciones por escrito.",
+          "decide": "Qué apoyo recibe en el aula.",
+          "salto": "norma"},
+    "A": {"escena": "Un equipo de valoración reconoce un grado de discapacidad que abre prestaciones y ayudas.",
+          "decide": "A qué recursos tiene derecho.",
+          "salto": "trampa"},
+    "R": {"escena": "En un foro alguien escribe: «Soy autista y por fin entiendo por qué me agotan las fiestas».",
+          "decide": "Cómo se entiende y con quién se junta.",
+          "salto": "auto"},
+  },
 }
 
-cincop = {
-  "intro": "Cinco preguntas para leer cualquier término post sin dar saltos. Las dos primeras salen del propio nombre; las tres últimas obligan a ir a la obra.",
-  "preguntas": [
-    {"p": "Partida", "q": "¿Después de qué?", "ej": "De la verdad, o de los hechos comprobados, como árbitros del debate público."},
-    {"p": "Prefijo", "q": "¿Qué valor tiene?", "ej": "P4, agotamiento («lo que queda de»). No es P1: no dice que vivamos después de la verdad."},
-    {"p": "Pérdida", "q": "¿Qué pierde autoridad, y ante quién?", "ej": "El hecho comprobado pierde peso frente a la emoción y la creencia, ante el público de los medios y las redes."},
-    {"p": "Propuesta", "q": "¿Qué pone en su lugar, y con qué nombre?", "ej": "Nada. El término diagnostica, no propone; por eso es P4."},
-    {"p": "Prudencia", "q": "¿Qué no se sigue de ahí?", "ej": "No se sigue que no haya verdad ni que todo sea opinión (saltos S1 y S3). Sí se sigue que hay que estudiar por qué los hechos pesan menos."},
-  ],
-  "ejemplo": "posverdad",
-}
-
-saltos = [
-  {"id": "S1", "nombre": "Del prefijo a la tesis", "forma": "«Es post-X, luego X terminó o era falso.»", "ejemplo": "«Poscolonial» no prueba que terminara la dominación colonial; «poshumanismo» no anuncia que desaparezcan los humanos.", "sigue": "Que alguien cuestiona la autoridad de X; queda por ver qué cuestiona y con qué pruebas."},
-  {"id": "S2", "nombre": "Del origen a la falsedad", "forma": "«Tiene historia, o la impulsó un grupo interesado, luego es falso.»", "ejemplo": "Una clasificación médica nacida en un contexto colonial no es falsa por eso.", "sigue": "Que conviene examinar sus sesgos."},
-  {"id": "S3", "nombre": "De la mediación al «todo vale»", "forma": "«Todo conocimiento está mediado y hay muchas perspectivas, luego cualquier interpretación vale.»", "ejemplo": "Si un sensor está mal calibrado, que quienes lo leen se pongan de acuerdo no vuelve correcta la medida.", "sigue": "Que hay que comparar perspectivas con criterios."},
-  {"id": "S4", "nombre": "De la contingencia a la facilidad", "forma": "«Pudo ser de otro modo, luego es fácil cambiarlo.»", "ejemplo": "Una presa, una deuda o una extinción pudieron no ocurrir, y aun así hoy son difíciles de deshacer.", "sigue": "Que en principio se puede cambiar, con costes."},
-  {"id": "S5", "nombre": "De la contingencia a la política", "forma": "«No hay fundamento último, luego mi proyecto (o la democracia) está justificado.»", "ejemplo": "Un orden opresivo también puede reconocer que sus instituciones son históricas y modificables.", "sigue": "Que la política necesita razones normativas propias."},
-  {"id": "S6", "nombre": "De la eficacia a la legitimidad", "forma": "«Funciona, luego es justo.»", "ejemplo": "Una administración puede saber con precisión cómo someter a una población.", "sigue": "Que la justicia se juzga aparte."},
-  {"id": "S7", "nombre": "Del consenso a la verdad", "forma": "«Lo decidimos entre todos, luego es verdad.»", "ejemplo": "Una decisión muy participativa puede basarse en un dato falso.", "sigue": "Que una decisión puede ser legítima y a la vez errónea."},
-  {"id": "S8", "nombre": "De la causa a la culpa", "forma": "«Todos participamos en el efecto, luego todos somos igual de responsables.»", "ejemplo": "Repartir la causa de un daño no reparte por igual la obligación de repararlo.", "sigue": "Que la responsabilidad se asigna según capacidades y relaciones."},
+# Cuánta prueba pide cada trabajo (proporcional al uso)
+proporcion = [
+  {"que": "Una palabra de la comunidad", "pide": "Claridad: que se entienda qué comunica y qué no.", "v": "R"},
+  {"que": "Una regla de acceso", "pide": "Razones para repartir así y una vía para revisar las decisiones.", "v": "A"},
+  {"que": "Una prueba diagnóstica", "pide": "Validación para esa población y esa finalidad.", "v": "D"},
+  {"que": "Una intervención", "pide": "Beneficios, daños y alternativas, comparados.", "v": "D"},
 ]
 
+# Ejercicio: ¿en qué uso está cada frase?
+frases_idear = [
+  {"frase": "Un grupo de investigación compara 2.000 familias para ver cuántas horas duermen los niños con y sin diagnóstico de TDAH.", "uso": "I",
+   "explica": "Describe y compara grupos. Lo que encuentre sirve para el grupo; no dice nada seguro de un niño concreto."},
+  {"frase": "La neuróloga revisa la historia de Pablo, descarta problemas de sueño y de audición y concluye que cumple los criterios de TDAH.", "uso": "D",
+   "explica": "Es una evaluación clínica de una persona: criterios, historia y descarte de otras explicaciones."},
+  {"frase": "El equipo de orientación propone que Marta tenga más tiempo en los exámenes y las preguntas también por escrito.", "uso": "E",
+   "explica": "Decide un apoyo en la escuela. Lo que lo justifica es que le ayude a aprender, más que el nombre de una etiqueta."},
+  {"frase": "Para pedir una ayuda económica, la familia presenta la resolución del grado de discapacidad de su hijo.", "uso": "A",
+   "explica": "La etiqueta abre un derecho. Aquí mandan las reglas de elegibilidad y la posibilidad de revisarlas."},
+  {"frase": "En sus redes, Lucía se presenta como «autista y orgullosa» y comparte memes con otras personas autistas.", "uso": "R",
+   "explica": "Es identidad y pertenencia. No necesita una prueba clínica para tener valor, aunque tampoco la sustituye."},
+  {"frase": "Un estudio compara con qué frecuencia aparece la dislexia en lenguas de ortografía transparente, como el español, y opaca, como el inglés.", "uso": "I",
+   "explica": "Compara poblaciones para entender un fenómeno. Es investigación, aunque luego pueda inspirar decisiones en el aula."},
+  {"frase": "Un instituto organiza un taller de técnicas de estudio para todo el alumnado, sin pedir ningún diagnóstico.", "uso": "E",
+   "explica": "Es un apoyo educativo, y no necesita etiqueta: educar muchas veces empieza por la necesidad, no por el diagnóstico."},
+  {"frase": "Antes de proponer nada, el psiquiatra comprueba si las dificultades aparecen también en casa y en el colegio.", "uso": "D",
+   "explica": "Comprobar que el problema se da en varios contextos es parte de un diagnóstico cuidadoso de una persona."},
+]
+
+# Seis preguntas: un ejemplo resuelto
+seis = {
+  "etiqueta": "altas capacidades",
+  "caso": "El colegio de Nora ofrece un programa de enriquecimiento los sábados, con plazas limitadas, para alumnado «con altas capacidades». Nora tiene 10 años, un informe de hace dos años con una puntuación alta en una prueba de inteligencia y unas notas normales. Su familia pregunta si puede entrar. (Caso inventado.)",
+  "respuestas": {
+    "define": "Aquí la etiqueta no nombra un trastorno ni una identidad: nombra una necesidad educativa, un ritmo o una profundidad de aprendizaje que el aula ordinaria no cubre. Conviene aclarar si el programa busca capacidad general, talento en un área o motivación: no son lo mismo.",
+    "identifica": "Con una evaluación psicopedagógica: pruebas de capacidad y de creatividad, rendimiento y observación del profesorado. Los protocolos cambian de una comunidad autónoma a otra. Una puntuación de hace dos años es una pieza de la evaluación, no la evaluación entera.",
+    "aplica": "Al alumnado de primaria de ese centro. Pregunta clave: ¿las pruebas se validaron con niños de su edad y su lengua? ¿Quién propone a quién? Si solo se evalúa a quien la familia empuja, se quedan fuera quienes nadie señala.",
+    "habilita": "Una plaza en un programa de sábados: un recurso limitado. Es un uso de acceso (A) con finalidad educativa (E). No habilita un diagnóstico clínico ni dice nada de la identidad de Nora.",
+    "consecuencias": "¿Aprende más? ¿Se aburre menos? ¿Hace amigos? ¿Y qué pasa con quienes no entran? Si nadie lo mira, no se sabe si el programa ayuda. Las consecuencias se observan después; no se dan por supuestas.",
+    "revisa": "La familia debería poder pedir una nueva evaluación, el centro revisar los criterios cada curso y Nora decir si quiere seguir. Una regla que nadie puede revisar se convierte en un muro.",
+  },
+  "conclusion": "Para este uso basta con una regla clara, una evaluación educativa reciente y una vía de revisión. No hace falta un diagnóstico clínico, y no serviría para esto. Y lo que se concluya aquí no vale sin más para otro uso: no dice cómo es Nora fuera del aula ni qué le pasará.",
+}
+
+# Detector de saltos: banco de frases. «salto» es un id de lib.SALTOS o None si el razonamiento se sostiene.
 detector = [
-  {"frase": "Vivimos en la era de la posverdad, así que ya no hay hechos: cada cual tiene los suyos.", "salto": "S1", "explica": "«Posverdad» dice que los hechos pesan menos en el debate público, no que hayan desaparecido. Del prefijo no se sigue la tesis (y el «cada cual tiene los suyos» añade el salto S3)."},
-  {"frase": "Si existe una teoría poscolonial, es que el colonialismo ya terminó.", "salto": "S1", "explica": "El prefijo de «poscolonial» señala que se cuestiona la herencia colonial, no que esa herencia haya acabado."},
-  {"frase": "Esta clasificación de enfermedades nació en un contexto colonial; por tanto, es falsa.", "salto": "S2", "explica": "Un origen sospechoso obliga a revisar los sesgos, pero no decide por sí solo si algo es verdadero o falso."},
-  {"frase": "Todo conocimiento depende de un punto de vista, así que cualquier lectura de este termómetro vale lo mismo.", "salto": "S3", "explica": "Que haya perspectivas no las iguala: unas lecturas están mejor calibradas que otras, y eso se puede comprobar."},
-  {"frase": "Las fronteras actuales pudieron trazarse de otra manera; cambiarlas mañana será sencillo.", "salto": "S4", "explica": "Lo contingente puede ser muy rígido: que algo pudiera ser distinto no dice nada del coste de cambiarlo hoy."},
-  {"frase": "Como ningún orden político tiene un fundamento último, mi proyecto político queda justificado.", "salto": "S5", "explica": "La falta de fundamento último vale para todos los proyectos por igual. Justificar uno exige razones propias."},
-  {"frase": "El algoritmo predice muy bien el gasto sanitario de cada paciente; por tanto, es justo usarlo para decidir quién necesita más cuidados.", "salto": "S6", "explica": "Predecir bien una variable (el gasto) no justifica decidir sobre otra (la necesidad). Es el caso que Obermeyer y su equipo analizaron en Science en 2019."},
-  {"frase": "Lo hemos votado entre todos, así que el dato en el que nos basamos es verdadero.", "salto": "S7", "explica": "El acuerdo puede hacer legítima una decisión, pero no convierte en verdadero un dato falso."},
-  {"frase": "Todos hemos contribuido a contaminar el río; por tanto, todos debemos pagar lo mismo por limpiarlo.", "salto": "S8", "explica": "Que todos seamos parte de la causa no reparte la responsabilidad a partes iguales: cuentan la capacidad y la contribución de cada uno."},
-  {"frase": "Lyotard habla de incredulidad ante los grandes relatos; entonces conviene preguntar qué relatos pierden crédito y ante quién.", "salto": None, "explica": "Se sigue: es justo la pregunta de la pérdida, la tercera de las cinco P."},
-  {"frase": "Si una teoría nació en un contexto de dominación, conviene examinar qué sesgos puede arrastrar.", "salto": None, "explica": "Se sigue: el origen no decide la verdad, pero sí justifica revisar con más cuidado."},
-  {"frase": "Si el orden actual es contingente, en principio podría cambiarse, aunque tenga costes.", "salto": None, "explica": "Se sigue: es la conclusión modesta que sí autoriza la contingencia."},
-  {"frase": "Una decisión puede ser legítima, porque se tomó bien, y a la vez errónea, porque se basó en un dato falso.", "salto": None, "explica": "Se sigue: separar legitimidad y verdad es justo lo que evita el salto S7."},
+  {"frase": "Mi sobrino no para quieto en las comidas familiares: está claro que tiene TDAH.", "salto": "rasgo",
+   "explica": "Moverse mucho en una sobremesa larga es un rasgo, y muy común. Un diagnóstico pide intensidad, duración, varios contextos, dificultades reales y descartar otras explicaciones."},
+  {"frase": "Se le olvidan las llaves cada semana: tiene que ser TDAH del adulto.", "salto": "rasgo",
+   "explica": "Un despiste frecuente no basta. Hace falta un patrón que venga de la infancia, que cause problemas en varios ámbitos y que no se explique mejor por otra cosa, como el sueño o el estrés."},
+  {"frase": "Ya tiene el diagnóstico de TDAH, así que el siguiente paso es la medicación, sin más.", "salto": "tratamiento",
+   "explica": "El diagnóstico no decide solo el tratamiento. Hay que valorar con esa persona y su familia beneficios, daños y alternativas: cambios en el entorno, apoyo psicológico o educativo, medicación o una combinación."},
+  {"frase": "He hecho tres test en internet y en todos salgo autista: ya no necesito ninguna evaluación.", "salto": "auto",
+   "explica": "Reconocerse puede ser valioso y es una buena razón para preguntar. Pero un test sin validar no es una evaluación: falta comprobar la exactitud con alguien que pueda descartar otras explicaciones."},
+  {"frase": "Si tiene a la vez TDAH y altas capacidades, es que tiene un trastorno distinto que merece su propio nombre clínico.", "salto": "nueva",
+   "explica": "Que dos cosas coexistan no crea una tercera. Para hablar de una entidad nueva habría que mostrar que la combinación se distingue de sus partes y que nombrarla mejora las decisiones."},
+  {"frase": "La ley ya reconoce el derecho a apoyos del alumnado con dislexia, así que en todos los colegios los recibe.", "salto": "norma",
+   "explica": "Una norma escrita no es un apoyo recibido. Falta mirar la aplicación: recursos, formación, tiempos y lo que pasa en cada aula."},
+  {"frase": "Los estudios dicen que las personas autistas, de media, prefieren las rutinas; a mi alumna autista seguro que le molesta cualquier cambio.", "salto": "grupo",
+   "explica": "Un promedio describe al grupo, no a cada persona. Para saber qué le pasa a tu alumna hay que observarla y preguntarle a ella."},
+  {"frase": "Los niños que duermen menos tienen más problemas de atención; por tanto, dormir poco causa el TDAH.", "salto": "causa",
+   "explica": "Que dos cosas vayan juntas no dice cuál causa cuál. Puede ir al revés, o deberse a un tercer factor. Hace falta un diseño que descarte otras explicaciones."},
+  {"frase": "No termina los deberes porque su TDAH se lo impide.", "salto": "cosa",
+   "explica": "La etiqueta resume lo que se observa; no es el mecanismo que lo produce. Decir «porque tiene TDAH» no explica nada nuevo: hay que mirar qué pasa con la tarea, el cansancio o las distracciones."},
+  {"frase": "Es tan buena en matemáticas por su cerebro de altas capacidades.", "salto": "cosa",
+   "explica": "Nombrar algo no lo explica. «Altas capacidades» describe un rendimiento o una capacidad; no es la causa de ese mismo rendimiento."},
+  {"frase": "En diez años se han triplicado los diagnósticos de autismo: es una moda.", "salto": "moda",
+   "explica": "Un aumento puede venir de detectar mejor, de criterios más amplios, de más servicios o de un cambio real. Antes de hablar de moda hay que separar esas piezas."},
+  {"frase": "Si el informe de altas capacidades da plaza en un programa, muchas familias lo pedirán solo para colarse: es una trampa.", "salto": "trampa",
+   "explica": "Que exista un incentivo no prueba que se use mal. Para hablar de trampa hacen falta datos de mal uso, no solo la sospecha."},
+  {"frase": "Hay más diagnósticos de TDAH que hace veinte años, así que ahora se lo ponen a cualquiera.", "salto": "moda",
+   "explica": "El dato (más diagnósticos) no basta para la conclusión (se pone a cualquiera). Puede haber sobrediagnóstico en algunos casos y diagnósticos que antes faltaban en otros: hay que mirarlo con datos."},
+  {"frase": "Varios estudios encuentran que los más pequeños de la clase reciben más diagnósticos de TDAH; conviene revisar si la edad relativa influye en cómo se les evalúa.", "salto": None,
+   "explica": "Se sostiene. La conclusión es prudente: no dice que todos los diagnósticos sean falsos, sino que hay que revisar cómo se evalúa a los más pequeños."},
+  {"frase": "Me reconozco en muchas descripciones de autismo; voy a pedir una evaluación para salir de dudas.", "salto": None,
+   "explica": "Se sostiene. Reconocerse es una buena razón para preguntar, y quien lo dice no da el diagnóstico por confirmado."},
+  {"frase": "La ley obliga a hacer ajustes razonables; habrá que comprobar en cada centro si de verdad se aplican.", "salto": None,
+   "explica": "Se sostiene. Separa lo que dice la norma de lo que pasa en la práctica: justo lo que evita el salto de la norma al resultado."},
+  {"frase": "Han aumentado los diagnósticos; antes de hablar de moda o de epidemia, hay que separar mejor detección, cambios de criterio y cambio real.", "salto": None,
+   "explica": "Se sostiene. No niega el aumento ni lo convierte en moda: pide los datos que faltan."},
+  {"frase": "El grupo con TDAH puntúa, de media, más bajo en esta prueba de memoria; eso no dice cómo puntuará cada niño concreto.", "salto": None,
+   "explica": "Se sostiene. Distingue lo que vale para el grupo de lo que se puede decir de cada persona."},
+  {"frase": "Tiene un diagnóstico de TDAH; en la consulta valorarán con la familia qué opciones le convienen, si es que alguna hace falta.", "salto": None,
+   "explica": "Se sostiene. No salta del diagnóstico al tratamiento: deja la decisión para una valoración con la familia."},
 ]
 
-relevo = {
-  "ley": "Cuando un post se institucionaliza (entra en el canon universitario, en un manual o en la ortodoxia de un departamento), deja de romper y genera su propio sucesor. Ese sucesor casi nunca se llama post-post: prefiere un nombre nuevo, con un prefijo o un adjetivo que sí dice hacia dónde va.",
-  "prefijos": [
-    {"prefijo": "meta-", "termino": "metamodernismo", "autor": "Vermeulen y Van den Akker (2010)", "propone": "Oscilar entre la ironía y el entusiasmo"},
-    {"prefijo": "hiper-", "termino": "hipermodernidad", "autor": "Lipovetsky (2004)", "propone": "Una modernidad intensificada, no superada"},
-    {"prefijo": "alter-", "termino": "altermodernidad", "autor": "Bourriaud (2009)", "propone": "Una modernidad de traducciones y viajes"},
-    {"prefijo": "trans-", "termino": "transmodernidad", "autor": "Rodríguez Magda; Dussel", "propone": "Atravesar la modernidad desde sus márgenes"},
-    {"prefijo": "digi-", "termino": "digimodernismo", "autor": "Kirby (2009)", "propone": "La cultura que nace de lo digital"},
-    {"prefijo": "nuevo", "termino": "nueva sinceridad, nuevos materialismos", "autor": "Wallace; Barad, Bennett, Braidotti", "propone": "Volver a lo real, a la materia y al afecto"},
+# Dos errores: ejemplo numérico inventado
+errores = {
+  "aviso": "Números inventados para el ejemplo: no son datos de ningún estudio.",
+  "total": 1000, "necesitan": 100,
+  "media_si": 62, "media_no": 45, "media_si_mejor": 72, "sd": 10,
+  "inicio": 55, "min": 30, "max": 80,
+  "usos": [
+    {"v": "E", "nombre": "Cribado en el aula", "texto": "Un aviso de más cuesta una segunda mirada; uno de menos deja a un niño sin mirar. En un cribado suele preferirse un criterio amplio, con la condición de que después haya una evaluación de verdad."},
+    {"v": "D", "nombre": "Diagnóstico", "texto": "Un positivo de más puede llevar a un tratamiento que no hacía falta; uno de menos, a no recibir atención. Una sola puntuación nunca basta: hace falta una evaluación completa."},
+    {"v": "A", "nombre": "Acceso a un recurso", "texto": "Un positivo de más da un recurso escaso a quien no lo necesita; uno de menos deja sin derecho a quien sí. Hace falta una regla clara, razones para fijar ahí el corte y una vía para revisar."},
   ],
-  "recorridos": [
-    {"familia": "Arqueología", "heredado": "Arqueología procesual (años sesenta)", "post": "Posprocesualismo (Hodder)", "inst": "Ortodoxia en los años noventa", "relevo": "Arqueología simétrica (2003–2012)"},
-    {"familia": "Modernidad", "heredado": "Modernidad y vanguardias", "post": "Posmodernidad (Lyotard, 1979; Jameson, 1984)", "inst": "Canon universitario en los noventa", "relevo": "Metamodernismo, hipermodernidad, altermodernidad"},
-    {"familia": "Verdad", "heredado": "Los hechos como árbitros del debate público", "post": "Posverdad (1992; 2004; palabra del año en 2016)", "inst": "Tema de manual y de política pública", "relevo": "Sin nombre todavía"},
-  ],
-  "parodia": "POSTPOSTPOST es el único post-post-post documentado, y no es una corriente académica, sino un proyecto editorial y artístico fundado por Al Hassan Elwan, con un libro (2023) y una película (2024). Se presenta como el «rechazo del rechazo» del posmodernismo y trabaja con la ironía sobre la ironía. Apilado tres veces, el prefijo ya no nombra un concepto: es un gesto.",
+  "hallazgo": "La revisión documental en la que se basa NeuroLab no encontró pruebas de una relación general según la cual más inclusión produzca necesariamente más error clínico o captura institucional. Tampoco demostró lo contrario. Lo que sí se sigue es más modesto: cada ampliación o restricción hay que mirarla con datos, en su uso concreto.",
 }
 
-glosario = [
-  ["Término post", "Rótulo formado con pos- o post- que nombra una corriente, una escuela, un periodo o una condición, y que tiene un uso publicado y atribuible."],
-  ["Base", "Lo que viene «después»: la modernidad en posmodernidad, la verdad en posverdad, la guerra en posguerra."],
-  ["Valor del prefijo", "Qué clase de «después» expresa el prefijo. PostLab distingue seis: cronológico, ruptura, radicalización, agotamiento, fin y derivación (P1 a P6)."],
-  ["Registro débil y registro fuerte", "P1 y P6 solo ordenan en el tiempo o en una familia, sin juzgar (registro débil). De P2 a P5 el prefijo emite un juicio sobre lo heredado (registro fuerte)."],
-  ["Grado", "Cuántas veces se apila el prefijo: primero (post), segundo (post-post) o tercero (post-post-post)."],
-  ["Primer uso", "La primera vez documentada que aparece la palabra. No coincide necesariamente con la obra que fija su sentido."],
-  ["Obra que fija el término", "El libro, el artículo, la exposición o el hito a partir del cual el término se usa con su sentido actual. Es el año que PostLab muestra."],
-  ["Estatuto del rótulo", "Quién puso el nombre: sus propios autores (autodenominación), otros críticos o académicos (recepción) o una mirada retrospectiva (agrupación)."],
-  ["Familia", "Grupo de términos que comparten una base parecida: la modernidad, el lenguaje, la colonia, la economía, la política, lo humano, las creencias, los estilos o las épocas."],
-  ["Homonimia", "Cuando una misma forma nombra cosas distintas, como el poshumanismo crítico y lo poshumano transhumanista."],
-  ["Ley del relevo", "Cuando un post se institucionaliza, su sucesor suele preferir un nombre nuevo (meta-, hiper-, alter-, trans-) en lugar de post-post."],
-  ["Metarrelato", "Gran relato que daba sentido y legitimidad al saber o a la historia, como el progreso o la emancipación. Lyotard describió lo posmoderno como incredulidad ante ellos."],
-  ["Cinco P", "Partida, prefijo, pérdida, propuesta y prudencia: cinco preguntas para leer cualquier término post sin dar saltos."],
-  ["Salto", "Inferencia que el prefijo invita a hacer pero que no se sigue, como pasar de «después de la verdad» a «no hay verdad». PostLab reúne ocho."],
-  ["Contingencia", "Que un orden pudo ser distinto. No implica que hoy sea fácil cambiarlo ni dice qué alternativa sería mejor."],
-  ["Falibilidad", "La posibilidad de equivocarse y de corregir parte del error. No obliga a dudar de todo a la vez."],
-  ["Autoridad epistémica", "Competencia reconocida en un campo del saber. No da poder para decidir ni protege frente a objeciones."],
-  ["Objetividad", "Orientación al objeto con procedimientos capaces de detectar errores. El consenso por sí solo no la garantiza."],
-  ["Justificación y verdad", "Tener buenas razones no es lo mismo que acertar: puede haber creencias justificadas que resulten falsas."],
-  ["Influencia y afinidad", "La influencia exige pruebas de que una idea pasó de un autor a otro; la afinidad es un parecido que reconstruye quien compara."],
-  ["Periodización", "Etiqueta que divide la historia en etapas, como posguerra o era posclásica. En PostLab entra cuando ordena historiografías enteras."],
-  ["Estado de verificación", "Verificada: una fuente fiable confirma el año y la obra. Probable: solo coinciden fuentes generales. Dudosa: las fuentes se contradicen o no hay fuente."],
+# Las palabras de la casa (además de las fichas)
+palabras = [
+  ["IDEAR", "Los cinco usos de una etiqueta: investigar, diagnosticar, educar, acceder y reconocerse."],
+  ["Validez de uso", "La justificación que conecta una etiqueta y su forma de identificarla con una decisión concreta. Lo que la justifica en un uso no la justifica sin más en otro."],
+  ["Cambia el uso, cambia la prueba", "El lema de NeuroLab: cada trabajo de una palabra pide su propia prueba, proporcional a lo que decide."],
+  ["Salto de inferencia", "Pasar de una afirmación a otra sin lo que hace falta para cruzar, como del rasgo al diagnóstico o de la asociación a la causa."],
+  ["Dos errores", "Ampliar sin justificación y dejar fuera a quien necesita apoyo. Se pesan los dos, siempre."],
+  ["Seis preguntas", "Qué se define, cómo se identifica, a quién se aplica, qué decisión habilita, qué consecuencias se observan y quién puede revisar el uso."],
+  ["Coexistencia", "Que dos condiciones se den en la misma persona. No implica que interactúen, ni que formen una entidad nueva, ni que convenga nombrar el combinado."],
 ]
 
-json.dump({"ruta": ruta, "ejemplos": ejemplos, "cincop": cincop, "saltos": saltos, "detector": detector, "relevo": relevo, "glosario": glosario},
-          open(os.path.join(R, 'data', 'aprender.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-print('aprender.json:', len(ruta), 'paradas,', len(detector), 'frases del detector,', len(glosario), 'entradas del glosario')
+dialogo = [
+  ["moda", "¿Autismo? Ahora todo el mundo lo tiene. Es una moda."],
+  ["cerebro", "Nada de moda: es el cerebro. Si se ve en una resonancia, es real y punto."],
+  ["uso", "Un momento. ¿Para qué estáis usando la palabra? ¿Para investigar, para diagnosticar, para decidir un apoyo en clase, para pedir una ayuda o para deciros quiénes sois?"],
+  ["moda", "¿Y qué más da? La palabra es la misma."],
+  ["uso", "La palabra, sí. El trabajo, no. Y cada trabajo pide su prueba: cambia el uso, cambia la prueba."],
+  ["cerebro", "Vale… pero el cerebro sigue siendo el cerebro."],
+  ["uso", "Claro. Pero una resonancia no te dice si a un niño le conviene tener más tiempo en un examen."],
+]
+
+out = {"ruta": ruta, "trabajos": trabajos, "proporcion": proporcion, "frasesIdear": frases_idear, "seis": seis,
+       "detector": detector, "errores": errores, "palabras": palabras, "dialogo": dialogo}
+
+# Comprobaciones
+ids_saltos = {"rasgo", "tratamiento", "auto", "nueva", "norma", "grupo", "causa", "cosa", "moda", "trampa"}
+assert len(ruta) == 10
+for p in ruta:
+    n = len(p["texto"].split())
+    assert 70 <= n <= 110, (p["anio"], n)
+    assert p["uso"] in "IDEAR" and p["uso"] in p["usos"], p["anio"]
+assert len(frases_idear) == 8
+assert all(d["salto"] in ids_saltos or d["salto"] is None for d in detector)
+assert {d["salto"] for d in detector if d["salto"]} == ids_saltos
+assert sum(1 for d in detector if d["salto"] is None) >= 4
+assert set(seis["respuestas"]) == {"define", "identifica", "aplica", "habilita", "consecuencias", "revisa"}
+lista = os.path.join('/mnt/project-files/mepre/neurowokismo/web/lista_maestra.tsv')
+if os.path.exists(lista):
+    validos = {l.split('\t')[1] for l in open(lista, encoding='utf-8').read().splitlines()[1:] if '\t' in l}
+    for p in ruta:
+        for t in p["terminos"]:
+            assert t in validos, (p["anio"], t)
+
+with open(os.path.join(R, 'data', 'aprender.json'), 'w', encoding='utf-8') as f:
+    json.dump(out, f, ensure_ascii=False, indent=1)
+print('aprender.json:', len(ruta), 'paradas,', len(frases_idear), 'frases de IDEAR,', len(detector), 'frases del detector,', len(palabras), 'palabras')
