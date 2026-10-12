@@ -27,6 +27,8 @@ const SALTO = Object.fromEntries(SALTOS.map(s => [s.id, s]));
 const nEntradas = (c, tipo) => c.entradas.filter(e => e.tipo === tipo).length;
 const insignia = id => INSIGNIAS.find(i => i.id === id) || { n: id };
 const tiene = (c, id) => !!c.insignias[id];
+// «Haré pedir una cita», no «Haré Pedir una cita» (sin tocar siglas como TDAH)
+const minus = s => (/^[A-ZÁÉÍÓÚÑ][a-záéíóúñü]/.test(s || '') ? s[0].toLowerCase() + s.slice(1) : s || '');
 const pasoHref = (s, o) => `#/pensar/paso${s ? `?s=${encodeURIComponent(corta(s, 120))}${o ? `&o=${encodeURIComponent(o)}` : ''}` : ''}`;
 // Enlace a una ficha en otra pestaña, para no perder lo que se está escribiendo
 function enlaceFicha(ctx, id, texto) {
@@ -534,7 +536,7 @@ function situaciones(root, ctx, P, q, a) {
     let tarde = false, resuelta = false;
     const botones = ops.map((o, n) => h('button', { class: 'opt', type: 'button', onclick: () => elegir(o, botones[n]) }, h('span', { class: 'k' }, 'ABCD'[n]), h('span', null, o.t)));
     function elegir(o, b) {
-      if (resuelta) return; resuelta = true; parar();
+      if (resuelta) return; resuelta = true; parar(); rel?.el.remove();
       botones.forEach((x, n) => { x.disabled = true; if (ops[n].ok) x.classList.add('ok'); });
       if (!o.ok) b.classList.add('ko');
       const conReto = reto && !tarde;
@@ -591,16 +593,16 @@ function partir(texto, max, n) {
   if (lineas.length > n) { lineas.length = n; lineas[n - 1] = lineas[n - 1].slice(0, max - 1).replace(/[\s,.;:]+$/, '') + '…'; }
   return lineas;
 }
-const NODO = { situacion: [210, 56, 136, 92], siente: [346, 220, 136, 92], hace: [210, 384, 136, 92], consecuencia: [74, 220, 136, 92], cambia: [210, 220, 120, 104] };
+const NODO = { situacion: [210, 58, 136, 108], siente: [346, 220, 136, 108], hace: [210, 382, 136, 108], consecuencia: [74, 220, 136, 108], cambia: [210, 220, 120, 124] };
 const COLOR_NODO = { situacion: 'var(--n1)', siente: 'var(--e-ser)', hace: 'var(--e-hacer)', consecuencia: 'var(--e-saber)', cambia: 'var(--e-crear)' };
 function diagramaCiclo(campos, v, titulo = 'El ciclo') {
   const svg = S('svg', { viewBox: '0 0 420 440', class: 'ciclo-svg', role: 'img', 'aria-label': `${titulo}. ${campos.map(c => `${c.n}: ${(v[c.k] || '').trim() || 'sin rellenar'}`).join('. ')}.` });
   const mid = `m${Math.random().toString(36).slice(2, 8)}`;
   svg.append(S('defs', {}, S('marker', { id: mid, viewBox: '0 0 10 10', refX: 8, refY: 5, markerWidth: 7, markerHeight: 7, orient: 'auto-start-reverse' }, S('path', { d: 'M0,0 L10,5 L0,10 z', class: 'punta' }))));
-  for (const d of ['M280 56 Q346 56 346 168', 'M346 272 Q346 384 284 384', 'M140 384 Q74 384 74 272', 'M74 168 Q74 56 136 56']) svg.append(S('path', { d, class: 'arco', 'marker-end': `url(#${mid})` }));
+  for (const d of ['M280 58 Q346 58 346 160', 'M346 280 Q346 382 284 382', 'M140 382 Q74 382 74 280', 'M74 160 Q74 58 136 58']) svg.append(S('path', { d, class: 'arco', 'marker-end': `url(#${mid})` }));
   for (const c of campos) {
     const [cx, cy, w, hh] = NODO[c.k], max = c.k === 'cambia' ? 15 : 18;
-    const txt = (v[c.k] || '').trim(), lineas = txt ? partir(txt, max, 3) : ['…'];
+    const txt = (v[c.k] || '').trim(), lineas = txt ? partir(txt, max, 4) : ['…'];
     svg.append(S('g', { class: `nodo-c${c.k === 'cambia' ? ' cambio' : ''}${txt ? ' lleno' : ''}`, transform: `translate(${cx - w / 2},${cy - hh / 2})`, style: `--c:${COLOR_NODO[c.k]}` },
       S('rect', { width: w, height: hh, rx: 12 }),
       S('text', { x: 10, y: 20, class: 'lab' }, c.n.toUpperCase()),
@@ -762,7 +764,7 @@ function relato(root, ctx, P, q, a) {
 function paso(root, ctx, P, q, a) {
   const S0 = P.paso.sugerencias;
   const origen = q.get('o') || '';
-  let sugerencia = q.get('s') || '', msg = '', abiertos = new Set(), cambiarRuta = false;
+  let sugerencia = minus(q.get('s') || ''), msg = '', abiertos = new Set(), cambiarRuta = false;
   const cuerpo = h('div');
   root.append(cabezaAct(a), cuerpo);
 
@@ -780,7 +782,7 @@ function paso(root, ctx, P, q, a) {
         h('h2', null, 'Elige un paso pequeño'),
         h('p', { class: 'muted' }, r ? `Ideas para hoy, pensadas para la ${r.ruta.toLowerCase()}. ${ruta === 'C' ? 'Uno solo, y que no consista en leer más.' : ruta === 'B' ? 'Que quepa en cinco minutos.' : 'Algo que pongas a prueba fuera de aquí.'}` : 'Algunas ideas. Cuando digas cómo llegas, se ajustarán a tu día.',
           ' Pulsa una para usarla o escribe la tuya.'),
-        h('div', { class: 'chips sugs' }, sugs.map(s => h('button', { class: 'chip', type: 'button', 'aria-pressed': String(sugerencia === s), onclick: () => { sugerencia = s; msg = ''; pintar(); document.querySelector('.amv input')?.focus({ preventScroll: true }); } }, s))),
+        h('div', { class: 'chips sugs' }, sugs.map(s => h('button', { class: 'chip', type: 'button', 'aria-pressed': String(sugerencia === minus(s)), onclick: () => { sugerencia = minus(s); msg = ''; pintar(); document.querySelector('.amv input')?.focus({ preventScroll: true }); } }, s))),
         msg ? h('p', { class: 'feedback ok', role: 'status' }, msg, ' ', h('a', { href: '#/cuaderno' }, 'Verlo en tu cuaderno'), '.') : null,
         metodo.pasoMinimo({ sugerencia, titulo: 'Tu paso mínimo', origen: origen || (ruta ? `ruta ${ruta}` : 'pensar'), alGuardar: () => {
           sugerencia = ''; msg = 'Anotado. Ahora toca lo importante: hacerlo fuera de la pantalla. Cuando lo hayas hecho, vuelve aquí y cuenta qué pasó.'; pintar();
@@ -801,7 +803,7 @@ function paso(root, ctx, P, q, a) {
     const dec = toggles(P.paso.decisiones, { valor: null });
     return h('article', { class: 'cu-nota' },
       h('div', { class: 'meta' }, h('span', { class: 'chip chip-e', 'data-eje': 'hacer' }, 'Paso mínimo'), h('span', { class: 'muted small' }, fecha(e.fecha))),
-      h('h3', null, `Haré ${d.hare || e.titulo}`),
+      h('h3', null, `Haré ${minus(d.hare || e.titulo)}`),
       h('p', { class: 'small', style: { margin: '0 0 6px' } }, [d.dia && `El día ${d.dia}`, d.durante && `durante ${d.durante}`, d.comprobare && `y comprobaré ${d.comprobare}`].filter(Boolean).join(', ') || null),
       d.rev ? h('p', { class: 'small muted', style: { margin: '0 0 6px' } }, h('b', null, 'Qué cambiaría fuera: '), d.rev) : null,
       e.revision ? recuadro('recuerda', `Lo que pasó (${fecha(e.revision.fecha)})`, e.revision.texto) : null,

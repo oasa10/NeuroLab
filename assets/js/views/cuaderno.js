@@ -34,11 +34,13 @@ const DIA_MS = 864e5;
 const diaISO = ms => new Date(ms).toISOString().slice(0, 10); // igual que el cuaderno: día en UTC
 const diaFecha = d => new Date(`${d}T12:00:00Z`);
 
-function resumen(e) {
+const minus = s => (/^[A-ZÁÉÍÓÚÑ][a-záéíóúñü]/.test(s || '') ? s[0].toLowerCase() + s.slice(1) : s || '');
+// Las filas de una entrada, sin repetir lo que ya dice su título
+function resumen(e, conTitulo = false) {
   const d = e.datos || {};
-  if (Array.isArray(d.resumen)) return d.resumen.filter(([, v]) => v);
-  if (e.tipo === 'amv') return [['Haré', d.hare], ['El día', d.dia], ['Durante', d.durante], ['Comprobaré', d.comprobare], ['Qué cambiaría fuera', d.rev]].filter(([, v]) => v);
-  return [];
+  const filas = Array.isArray(d.resumen) ? d.resumen
+    : e.tipo === 'amv' ? [['Haré', d.hare], ['El día', d.dia], ['Durante', d.durante], ['Comprobaré', d.comprobare], ['Qué cambiaría fuera', d.rev]] : [];
+  return filas.filter(([, v]) => v && (conTitulo || (v !== e.titulo && v !== d.hare)));
 }
 
 export function render(root, ctx) {
@@ -193,7 +195,7 @@ export function render(root, ctx) {
     const pidiendo = confirmar === e.id && !compacta;
     return h('article', { class: 'cu-nota', 'data-tipo': e.tipo },
       h('div', { class: 'meta' }, h('span', { class: 'chip chip-e', 'data-eje': T.eje }, T.uno), h('span', { class: 'muted small' }, fecha(e.fecha))),
-      h('h3', null, esPaso ? `Haré ${d.hare || e.titulo}` : e.titulo),
+      h('h3', null, esPaso ? `Haré ${minus(d.hare || e.titulo)}` : e.titulo),
       esPaso && compacta ? h('p', { class: 'small', style: { margin: '0 0 6px' } }, [d.dia && `El día ${d.dia}`, d.durante && `durante ${d.durante}`, d.comprobare && `y comprobaré ${d.comprobare}`].filter(Boolean).join(', ') || null)
         : filas.length ? h('dl', { class: 'datos' }, filas.map(([k, v]) => [h('dt', null, k), h('dd', null, v)])) : null,
       e.revision ? recuadro('recuerda', `${esPaso ? 'Lo que pasó' : 'Revisada'} el ${fecha(e.revision.fecha)}`, e.revision.texto) : null,
@@ -255,7 +257,7 @@ export function render(root, ctx) {
       if (!es.length) continue;
       L.push(TIPOS[t].varios.toUpperCase());
       for (const e of es) {
-        L.push(`— ${fecha(e.fecha)} · ${e.tipo === 'amv' ? `Haré ${e.datos?.hare || e.titulo}` : e.titulo}`);
+        L.push(`— ${fecha(e.fecha)} · ${e.tipo === 'amv' ? `Haré ${minus(e.datos?.hare || e.titulo)}` : e.titulo}`);
         for (const [k, v] of resumen(e)) L.push(`   ${k}: ${v}`);
         if (e.revision) L.push(`   ${e.tipo === 'amv' ? 'Lo que pasó' : 'Revisión'} (${fecha(e.revision.fecha)}): ${e.revision.texto}`);
       }
