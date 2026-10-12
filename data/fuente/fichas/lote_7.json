@@ -1,0 +1,901 @@
+[
+ {
+  "id": "diferencias-autonomicas",
+  "lema": "Diferencias entre comunidades autónomas",
+  "variantes": [
+   "diferencias territoriales",
+   "variación autonómica",
+   "desigualdad territorial en los apoyos"
+  ],
+  "tipo": "concepto",
+  "familia": "Escuela, apoyos e instituciones",
+  "anio": 1978,
+  "anio_nota": "Se aprueba la Constitución, que reserva al Estado las normas básicas de la educación y deja a las comunidades su desarrollo y gestión.",
+  "obra": "Constitución Española de 1978, art. 149.1.30.ª (Cortes Generales); desarrollada después por la LOE (2006) y la LOMLOE (2020).",
+  "figuras": [],
+  "definicion": "Variación entre comunidades autónomas en cómo se detecta, evalúa, registra y atiende al alumnado con necesidades de apoyo. Las leyes estatales fijan un marco común y cada comunidad desarrolla protocolos, umbrales, documentos y servicios propios. Por eso una misma etiqueta puede contarse y atenderse de forma distinta según el lugar.",
+  "usos": [
+   "I",
+   "E",
+   "A"
+  ],
+  "controversia": "Se discute si las diferencias reflejan necesidades reales, criterios distintos o desigualdad de recursos, y si tiene sentido comparar porcentajes entre comunidades sin armonizar antes definiciones, edades e instrumentos.",
+  "contexto": "La Constitución de 1978 dibujó un sistema educativo compartido: el Estado regula los títulos y dicta las normas básicas, y las comunidades autónomas las desarrollan y gestionan los centros. Los traspasos de competencias educativas llegaron por etapas durante los años ochenta y noventa, hasta completarse hacia el año 2000. Desde entonces, cada comunidad escribe sus protocolos de detección, sus modelos de informe y sus catálogos de medidas. La LOE de 2006 creó la categoría estatal de «alumnado con necesidad específica de apoyo educativo» y la LOMLOE de 2020 la amplió, pero cada administración decide cómo aplicarla. El resultado es un mapa con muchos matices: unas comunidades hacen cribados programados de altas capacidades y otras evalúan solo ante indicios; unas piden informes sanitarios para ciertas medidas y otras no; unas solo registran a quien recibe actuaciones específicas. La estadística estatal, elaborada con las comunidades, suma después todas esas piezas en una sola tabla.",
+  "ejemplos": [
+   "Curso 2024-2025: según el Ministerio, el alumnado con NEAE va del 6,5 % en Aragón al 26,1 % en Cataluña. Antes de sacar conclusiones, conviene mirar cómo cuenta cada comunidad.",
+   "Una familia se muda de comunidad y descubre que el informe que le sirvió en su antiguo colegio tiene que completarse con otra evaluación y otros modelos de documento.",
+   "Andalucía hace un cribado de altas capacidades con cuestionarios a familias y docentes al final de Infantil y en sexto de Primaria; en otros lugares se evalúa solo cuando alguien detecta indicios.",
+   "Un titular compara el porcentaje de alumnado autista de dos comunidades y concluye que en una «se diagnostica de más», sin comprobar si ambas registran igual.",
+   "Un equipo de investigación que quiere comparar territorios armoniza antes edad, instrumentos, umbrales, titularidad del centro y curso escolar. Si no lo hace, compara reglas, no alumnos."
+  ],
+  "implicaciones": "Para familias y docentes, la consecuencia es práctica: los derechos básicos son los mismos en toda España, pero el camino hasta un apoyo cambia según el código postal. Conviene preguntar al equipo de orientación qué norma autonómica se aplica, qué documentos se piden y cómo se recurre una decisión. Para el debate público, la lección es de prudencia: un porcentaje alto no prueba sobrediagnóstico y uno bajo no prueba que falten apoyos. Las dos cosas pueden ocurrir, y las dos hay que demostrarlas con datos. Las diferencias también son una oportunidad: permiten estudiar qué protocolos detectan mejor, cuáles dejan fuera a menos alumnado y cuánto cuesta cada opción, siempre que los datos se publiquen con definiciones claras y comparables.",
+  "sabias": "En el curso 2024-2025, el alumnado con necesidad específica de apoyo educativo fue el 26,1 % del total en Cataluña y el 6,5 % en Aragón, con una media estatal del 15,6 %.",
+  "piensalo": "Si dos comunidades cuentan de forma distinta, ¿qué cifra describe mejor al alumnado: la más alta, la más baja o ninguna de las dos?",
+  "paso": "Busca en la web de tu consejería de educación el protocolo de detección de necesidades de apoyo y anota qué documentos pide y quién toma la decisión.",
+  "frase": "«Si una comunidad registra el triple de casos, es que allí se los inventan.»",
+  "veredicto": "mito",
+  "matiz": "Las cifras mezclan población, criterios de registro, cobertura de los cribados y recursos de orientación. Una diferencia grande obliga a investigar, pero no demuestra por sí sola ni invención ni necesidades ocultas.",
+  "salto": "del recuento administrativo a la prevalencia real",
+  "relacionados": [
+   "neae",
+   "lomloe",
+   "incentivos",
+   "prevalencia",
+   "altas-capacidades",
+   "inflacion-diagnostica"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Ministerio de Educación, Formación Profesional y Deportes (2026). Nota resumen: alumnado con necesidad específica de apoyo educativo, curso 2024-2025. Estadística de las Enseñanzas no universitarias",
+    "url": "https://www.educacionfpydeportes.gob.es/dam/jcr:27b3a08d-2d3d-41fd-90e2-30b32e6815cc/2024-25-acneae-nota-resumen.pdf"
+   },
+   {
+    "titulo": "Cortes Generales (1978). Constitución Española, art. 149.1.30.ª. Boletín Oficial del Estado, núm. 311",
+    "url": "https://www.boe.es/boe/dias/1978/12/29/pdfs/A29313-29424.pdf"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "neuroimagen",
+  "lema": "Neuroimagen",
+  "variantes": [
+   "imagen cerebral",
+   "resonancia magnética funcional",
+   "fMRI",
+   "PET",
+   "tomografía"
+  ],
+  "tipo": "concepto",
+  "familia": "Cerebro, cuerpo y tratamiento",
+  "anio": 1990,
+  "anio_nota": "Seiji Ogawa y su equipo describen la señal BOLD, la base de la resonancia magnética funcional que hoy «ilumina» zonas del cerebro.",
+  "obra": "Ogawa, S., Lee, T. M., Kay, A. R. y Tank, D. W. (1990). Brain magnetic resonance imaging with contrast dependent on blood oxygenation. PNAS (AT&T Bell Laboratories).",
+  "figuras": [
+   "Seiji Ogawa",
+   "Godfrey Hounsfield"
+  ],
+  "definicion": "Conjunto de técnicas que obtienen imágenes de la estructura o la actividad del cerebro en vivo, como la resonancia magnética, la tomografía o la PET. En TDAH y autismo sirve sobre todo para investigar diferencias entre grupos. Hoy no permite diagnosticar a una persona concreta.",
+  "usos": [
+   "I",
+   "D"
+  ],
+  "controversia": "Se discute qué significan diferencias promedio pequeñas, cuánto han pesado los estudios con pocas personas y si las imágenes cerebrales dan a las etiquetas una apariencia de objetividad que todavía no tienen.",
+  "contexto": "La tomografía computarizada permitió en los años setenta ver el interior del cráneo sin abrirlo, y la resonancia magnética añadió en los ochenta imágenes detalladas sin radiación. En 1990, Seiji Ogawa mostró que la resonancia podía detectar cambios en la oxigenación de la sangre: así nació la señal BOLD y, con ella, la resonancia funcional. Estados Unidos declaró los noventa «la década del cerebro», y las imágenes de colores llenaron revistas y titulares. En psiquiatría y psicología se esperaba encontrar la «firma» cerebral de cada diagnóstico. Los primeros estudios, con pocos participantes, publicaron hallazgos llamativos que a menudo no se replicaron después. La respuesta fue sumar datos: consorcios internacionales como ENIGMA reunieron miles de exploraciones y encontraron diferencias reales entre grupos, pero pequeñas y con mucho solapamiento. La neuroimagen pasó de prometer diagnósticos a ser, sobre todo, una herramienta para entender el desarrollo del cerebro.",
+  "ejemplos": [
+   "Una familia pide una resonancia «para confirmar el TDAH». La pediatra explica que no está indicada para eso, aunque podría pedirla si hubiera signos neurológicos que estudiar.",
+   "Un estudio con miles de participantes halla volúmenes subcorticales algo menores, de media, en niños con TDAH; el titular dice «cerebros más pequeños» y olvida el solapamiento.",
+   "Un reportaje ilustra el autismo con un cerebro de colores. Esa imagen es un mapa estadístico de un grupo, no la fotografía del cerebro de nadie.",
+   "En investigación, la neuroimagen ayuda a estudiar cómo madura el cerebro a lo largo de la vida y si ciertas diferencias cambian con la edad.",
+   "Una clínica privada anuncia «escáneres para diagnosticar la neurodivergencia». Ninguna guía clínica respalda ese uso para diagnosticar a una persona."
+  ],
+  "implicaciones": "En España, el diagnóstico de TDAH o de autismo sigue siendo clínico: entrevista, historia del desarrollo, observación e información de varios contextos. Si alguien te ofrece una prueba de imagen como confirmación, pregunta qué validez diagnóstica individual tiene y dónde está publicada. Una revisión de 2023 analizó 780 estudios de posibles biomarcadores del neurodesarrollo, 203 de ellos de neuroimagen, y no encontró ninguno con sensibilidad y especificidad de al menos el 80 % replicadas por grupos independientes. Eso no significa que el cerebro no importe: significa que todavía no sabemos leer un diagnóstico en una imagen. Y cuidado con el atajo contrario: que una exploración no muestre nada tampoco descarta que una persona necesite apoyo.",
+  "sabias": "La señal que «ilumina» el cerebro en la resonancia funcional no mide directamente la actividad de las neuronas, sino cambios en la oxigenación de la sangre. Ogawa la describió en 1990 en experimentos con ratas.",
+  "piensalo": "¿Por qué una imagen de colores nos convence más que una tabla con exactamente los mismos datos?",
+  "paso": "La próxima vez que veas una noticia con un cerebro de colores, busca cuántas personas participaron en el estudio y si comparaba grupos o personas concretas.",
+  "frase": "«Una resonancia puede demostrar si tienes TDAH o autismo.»",
+  "veredicto": "mito",
+  "matiz": "Las diferencias cerebrales halladas son promedios de grupo, pequeñas y con gran solapamiento. Ninguna prueba de imagen está validada para diagnosticar TDAH o autismo en una persona; el diagnóstico es clínico.",
+  "salto": "del grupo al individuo",
+  "relacionados": [
+   "enigma",
+   "biomarcador",
+   "neuroencanto",
+   "reificacion",
+   "tamano-efecto",
+   "inferencia-ecologica"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Ogawa, S., Lee, T. M., Kay, A. R. y Tank, D. W. (1990). Brain magnetic resonance imaging with contrast dependent on blood oxygenation. Proceedings of the National Academy of Sciences, 87(24), 9868-9872",
+    "url": "https://doi.org/10.1073/pnas.87.24.9868"
+   },
+   {
+    "titulo": "Cortese, S. et al. (2023). Candidate diagnostic biomarkers for neurodevelopmental disorders in children and adolescents: a systematic review. World Psychiatry, 22(1), 129-149",
+    "url": "https://doi.org/10.1002/wps.21037"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "enigma",
+  "lema": "Consorcio ENIGMA",
+  "variantes": [
+   "ENIGMA",
+   "Enhancing NeuroImaging Genetics through Meta-Analysis",
+   "ENIGMA-ADHD",
+   "ENIGMA-ASD"
+  ],
+  "tipo": "institucion",
+  "familia": "Cerebro, cuerpo y tratamiento",
+  "anio": 2009,
+  "anio_nota": "Se pone en marcha en diciembre de 2009 para reunir datos de imagen cerebral y de genética de muchos grupos de investigación.",
+  "obra": "Consorcio ENIGMA, impulsado por Paul Thompson (Universidad del Sur de California) y Nick Martin (QIMR, Australia); balance de su primera década en Thompson et al. (2020), Translational Psychiatry.",
+  "figuras": [
+   "Paul Thompson",
+   "Nick Martin",
+   "Martine Hoogman",
+   "Barbara Franke"
+  ],
+  "definicion": "Red internacional de investigación que combina datos de neuroimagen y genética de muchos centros con métodos armonizados. Sus grupos de trabajo estudian diagnósticos como el TDAH o el autismo con muestras de miles de personas, para obtener resultados más fiables que los de estudios pequeños.",
+  "usos": [
+   "I"
+  ],
+  "controversia": "Sus resultados son robustos, pero los efectos que encuentra son pequeños. Se debate cómo comunicarlos sin convertirlos en «cerebros distintos» y qué aportan a la atención clínica de cada persona.",
+  "contexto": "A finales de los años 2000, la genética y la neuroimagen chocaban con el mismo muro: los estudios eran pequeños, los resultados no se replicaban y cada laboratorio medía a su manera. Para encontrar genes que influyen en el cerebro hacían falta decenas de miles de exploraciones, algo imposible para un solo centro. En 2009, Paul Thompson y Nick Martin propusieron una solución colaborativa: que cada grupo analizara sus propios datos con protocolos comunes y los compartiera para hacer metaanálisis. Así nació ENIGMA, un acrónimo que juega con el misterio del cerebro. El modelo funcionó y se extendió a la psiquiatría y la neurología. En 2020 reunía a más de 1.400 científicos de 43 países y más de 50 grupos de trabajo. Su grupo de TDAH publicó en 2017 un megaanálisis con 1.713 personas con el diagnóstico y 1.529 sin él, procedentes de 23 centros.",
+  "ejemplos": [
+   "El megaanálisis ENIGMA-ADHD de 2017 encontró núcleos como el accumbens o la amígdala algo menores de media, con tamaños del efecto entre −0,10 y −0,19.",
+   "En ese estudio, las diferencias eran más claras en la infancia y no significativas en adultos, lo que apunta a trayectorias de maduración distintas, no a un daño fijo.",
+   "Un vídeo cita ENIGMA para decir que «el TDAH se ve en el cerebro»; otro lo cita para decir que «no hay nada». Los dos estiran los mismos datos.",
+   "En Bachillerato, una profesora usa ENIGMA para explicar por qué un estudio con 30 personas puede dar un resultado espectacular que se desvanece con 3.000.",
+   "Los grupos de ENIGMA estudian también depresión, trastorno bipolar o esquizofrenia, lo que permite comparar qué diferencias cerebrales comparten distintos diagnósticos."
+  ],
+  "implicaciones": "ENIGMA es un buen antídoto contra dos atajos opuestos. Contra el de «todo es inventado»: hay diferencias cerebrales medias, replicadas en muestras grandes. Contra el de «está en el cerebro y se ve»: esas diferencias son pequeñas, se solapan mucho entre grupos y no sirven para diagnosticar a nadie. Para familias y docentes, la traducción práctica es sencilla: una etiqueta no se confirma con una imagen, y la falta de imagen no invalida una necesidad. Para periodistas y divulgadores, ENIGMA recuerda una regla útil: pregunta siempre por el tamaño del efecto y el solapamiento, no solo por si una diferencia es «significativa». Equipos españoles, de Barcelona entre otros, participan en sus grupos de trabajo.",
+  "sabias": "En el megaanálisis ENIGMA-ADHD, tomar medicación estimulante no modificó los resultados de volumen cerebral, en contra de lo que habían sugerido metaanálisis anteriores.",
+  "piensalo": "Si una diferencia es real pero minúscula, ¿qué debería cambiar en la forma en que hablamos de ella?",
+  "paso": "En la próxima noticia sobre «el cerebro con TDAH», busca el número de participantes y el tamaño del efecto. Si no aparecen, apúntalo como dato pendiente.",
+  "frase": "«Los cerebros de las personas con TDAH son más pequeños.»",
+  "veredicto": "matiz",
+  "matiz": "De media, algunas estructuras subcorticales son algo menores en niños con TDAH (d entre −0,10 y −0,19), con enorme solapamiento y sin diferencias significativas en adultos. No describe a cada persona ni indica un defecto.",
+  "salto": "del grupo al individuo",
+  "relacionados": [
+   "neuroimagen",
+   "tamano-efecto",
+   "biomarcador",
+   "tdah",
+   "heterogeneidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Hoogman, M. et al. (2017). Subcortical brain volume differences in participants with attention deficit hyperactivity disorder in children and adults: a cross-sectional mega-analysis. The Lancet Psychiatry, 4(4), 310-319",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5933934"
+   },
+   {
+    "titulo": "Thompson, P. M. et al. (2020). ENIGMA and global neuroscience: A decade of large-scale studies of the brain in health and disease across more than 40 countries. Translational Psychiatry, 10, 100",
+    "url": "https://link.springer.com/10.1038/s41398-020-0705-1"
+   },
+   {
+    "titulo": "ENIGMA Consortium (s. f.). About ENIGMA. Imaging Genetics Center, University of Southern California",
+    "url": "https://enigma.ini.usc.edu/about-2/"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": false
+ },
+ {
+  "id": "heredabilidad",
+  "lema": "Heredabilidad",
+  "variantes": [
+   "heritabilidad",
+   "h²",
+   "heredabilidad en sentido amplio",
+   "heredabilidad en sentido estricto"
+  ],
+  "tipo": "concepto",
+  "familia": "Cerebro, cuerpo y tratamiento",
+  "anio": 1918,
+  "anio_nota": "Ronald Fisher publica el artículo que reparte la variación de un rasgo entre factores heredables y no heredables; la palabra «heredabilidad» la usó por primera vez después Jay Lush.",
+  "obra": "Fisher, R. A. (1918). The Correlation between Relatives on the Supposition of Mendelian Inheritance. Transactions of the Royal Society of Edinburgh.",
+  "figuras": [
+   "Ronald A. Fisher",
+   "Jay L. Lush"
+  ],
+  "definicion": "Proporción de la variación de un rasgo en una población concreta que se asocia a diferencias genéticas entre sus miembros. Es una estadística de grupo, que depende del ambiente y del momento estudiados. No indica qué parte del rasgo de una persona «viene de los genes».",
+  "usos": [
+   "I",
+   "R"
+  ],
+  "controversia": "Los estudios de gemelos dan cifras altas para TDAH y autismo. Se discuten sus supuestos, por qué los estudios con ADN explican bastante menos (la «heredabilidad perdida») y cómo evitar que se lea como destino.",
+  "contexto": "A principios del siglo XX, la biología estaba dividida: los mendelianos estudiaban rasgos que se heredan como «sí o no» y los biometristas medían rasgos continuos, como la estatura. En 1918, Ronald Fisher mostró que muchos genes de efecto pequeño podían producir variación continua y propuso repartir esa variación en componentes. La palabra «heredabilidad» la usó por primera vez el genetista animal Jay Lush, que necesitaba predecir cuánto respondería un rebaño a la selección. De ahí pasó a la psicología y a la psiquiatría a través de los estudios de gemelos y de adopción. Para el TDAH, una revisión de 2019 situó la heredabilidad media en el 74 %. Para el autismo, un reanálisis sueco de 2017 la estimó en un 83 %. Estas cifras se usan para defender que los diagnósticos tienen una base biológica, pero no dicen qué genes intervienen ni cómo.",
+  "ejemplos": [
+   "Una madre lee que el TDAH tiene una heredabilidad del 74 % y concluye que su hijo «lo ha heredado al 74 %». La cifra no describe a ningún niño concreto.",
+   "En consulta, preguntar por antecedentes familiares es útil porque el TDAH y el autismo se agrupan en familias, aunque eso no sustituye la evaluación clínica.",
+   "La estatura es muy heredable y, aun así, la población de muchos países ha crecido varios centímetros en un siglo gracias a la alimentación: heredable no significa inmutable.",
+   "Un mensaje en redes afirma que «si es genético, no sirve de nada intervenir». La heredabilidad no dice nada sobre la eficacia de los apoyos o de los tratamientos.",
+   "Un adulto recién diagnosticado reconoce rasgos parecidos en su padre y en su hija; la heredabilidad le ayuda a entender su historia familiar sin convertirla en destino."
+  ],
+  "implicaciones": "La heredabilidad aparece en debates muy vivos. Se usa para responder a quien dice que el TDAH «es un invento» y, a veces, para lo contrario: para sugerir que, si es genético, la escuela o la familia no cuentan. Ninguna de las dos lecturas se sostiene. Una heredabilidad alta es compatible con que el ambiente influya mucho en cómo se expresan las dificultades y en qué apoyos funcionan. Además, la cifra cambia según la población y el contexto: cuanto más parecidos son los ambientes de un grupo, más peso relativo tienen las diferencias genéticas. Para las familias, el dato útil es más modesto: si hay antecedentes en casa, merece la pena estar atentos, sin alarmismo, y consultar si las dificultades interfieren en la vida diaria.",
+  "sabias": "Al reanalizar los mismos datos suecos con otros modelos estadísticos, el equipo de Sven Sandin pasó de estimar una heredabilidad del autismo del 50 % en 2014 a una del 83 % en 2017.",
+  "piensalo": "Si un rasgo es muy heredable, ¿significa eso que no se puede cambiar nada de cómo afecta a la vida de alguien?",
+  "paso": "Cuando leas «es un X % genético», tradúcelo por «en esta población, el X % de las diferencias se asocia a diferencias genéticas» y mira si cambia el sentido.",
+  "frase": "«Si el TDAH es heredable en un 74 %, tu TDAH es un 74 % genético.»",
+  "veredicto": "mito",
+  "matiz": "La heredabilidad describe la variación dentro de una población, no la composición del rasgo de una persona. Un 74 % no reparte porcentajes dentro de nadie ni excluye el papel del ambiente.",
+  "salto": "del grupo al individuo",
+  "relacionados": [
+   "poligenia",
+   "inferencia-ecologica",
+   "tdah",
+   "autismo",
+   "correlacion-causa"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Downes, S. M. y Turkheimer, E. (2022). An Early History of the Heritability Coefficient Applied to Humans (1918-1960). Biological Theory, 17, 126-137",
+    "url": "https://link.springer.com/10.1007/s13752-021-00392-9"
+   },
+   {
+    "titulo": "Faraone, S. V. y Larsson, H. (2019). Genetics of attention deficit hyperactivity disorder. Molecular Psychiatry, 24(4), 562-575",
+    "url": "https://doi.org/10.1038/s41380-018-0070-0"
+   },
+   {
+    "titulo": "Sandin, S. et al. (2017). The Heritability of Autism Spectrum Disorder. JAMA, 318(12), 1182-1184",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5818813/"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "poligenia",
+  "lema": "Arquitectura poligénica",
+  "variantes": [
+   "herencia poligénica",
+   "poligenicidad",
+   "puntuación de riesgo poligénico",
+   "PRS"
+  ],
+  "tipo": "concepto",
+  "familia": "Cerebro, cuerpo y tratamiento",
+  "anio": 2019,
+  "anio_nota": "Se publican las primeras regiones del genoma asociadas al TDAH con significación genómica, que confirman una arquitectura de muchas variantes de efecto pequeño.",
+  "obra": "Demontis, D. et al. (2019). Discovery of the first genome-wide significant risk loci for attention deficit/hyperactivity disorder. Nature Genetics (consorcios PGC e iPSYCH).",
+  "figuras": [
+   "Ditte Demontis",
+   "Ronald A. Fisher"
+  ],
+  "definicion": "Forma de herencia en la que un rasgo depende de miles de variantes genéticas, cada una con un efecto diminuto, que se suman entre sí y con el ambiente. Es la arquitectura habitual del TDAH y del autismo, junto con algunas variantes raras de mayor efecto.",
+  "usos": [
+   "I"
+  ],
+  "controversia": "Se discute la utilidad de las puntuaciones de riesgo poligénico: explican poca variación individual, funcionan peor en poblaciones no europeas y podrían usarse de forma prematura para seleccionar embriones o etiquetar a niños.",
+  "contexto": "Durante décadas se buscó «el gen» de cada trastorno, como se había hecho con enfermedades causadas por un solo gen. La idea de que muchos genes pequeños podían sumarse venía de Fisher (1918), pero faltaba tecnología para comprobarlo. Los estudios de ligamiento de los años noventa y dos mil apenas encontraron resultados sólidos, señal de que cada variante pesaba muy poco. La llegada de los estudios de asociación del genoma completo (GWAS), con chips que leen cientos de miles de variantes, y la creación de grandes consorcios internacionales cambiaron el panorama. En 2019, un metaanálisis con 20.183 personas con TDAH y 35.191 controles identificó por fin 12 regiones genómicas asociadas. En 2023, otro con 38.691 casos llegó a 27 y estimó que unas 7.300 variantes comunes influyen en el riesgo. En el autismo, el patrón es parecido: muchas variantes comunes de efecto pequeño y algunas raras de efecto mayor.",
+  "ejemplos": [
+   "Una empresa vende un test genético que promete calcular el «riesgo de TDAH» de un bebé. Con la evidencia actual, esa puntuación no sirve para predecir el diagnóstico de una persona.",
+   "En investigación, las puntuaciones poligénicas permiten estudiar en grandes muestras si el riesgo genético de TDAH se asocia también a otras condiciones o a resultados escolares.",
+   "Un artículo explica que entre el 84 % y el 98 % de las variantes que influyen en el TDAH se comparten con otros trastornos psiquiátricos: los genes no respetan las fronteras del manual.",
+   "En una charla para familias, una genetista compara la poligenia con una lluvia fina: ninguna gota moja por sí sola, pero muchas juntas sí.",
+   "En una consulta de genética, buscar variantes raras de mayor efecto puede tener sentido en algunos casos de autismo con discapacidad intelectual; no es lo mismo que calcular una puntuación poligénica."
+  ],
+  "implicaciones": "La arquitectura poligénica tiene dos consecuencias para el debate actual. La primera: no existe un «gen del TDAH» ni un «gen del autismo», y cualquier test comercial que lo sugiera exagera. La segunda: si el riesgo se reparte en miles de variantes compartidas con otras condiciones, es esperable que los diagnósticos se solapen y que las fronteras entre etiquetas sean borrosas. Eso no las convierte en inventos, pero sí da argumentos a las miradas dimensionales y transdiagnósticas. Ninguna guía clínica recomienda hoy usar puntuaciones poligénicas para diagnosticar TDAH o autismo. Si te las ofrecen, pregunta qué porcentaje de la variación explican y en qué poblaciones se validaron. Y recuerda: un riesgo genético no es un diagnóstico.",
+  "sabias": "Según el mayor estudio genético del TDAH, publicado en 2023, unas 7.300 variantes comunes influyen en el riesgo, aunque solo 27 regiones alcanzaron significación. Entre el 84 % y el 98 % se comparten con otros trastornos psiquiátricos.",
+  "piensalo": "Si los mismos genes aumentan el riesgo de varias condiciones, ¿qué nos dice eso sobre el lugar donde trazamos las fronteras entre diagnósticos?",
+  "paso": "Si ves un anuncio de test genético para «detectar» TDAH o autismo, busca si cita estudios de validación independientes y en qué poblaciones se hicieron.",
+  "frase": "«Existe un gen del TDAH (o del autismo).»",
+  "veredicto": "mito",
+  "matiz": "El riesgo depende de miles de variantes comunes de efecto diminuto y de algunas variantes raras, muchas compartidas con otros diagnósticos. Ninguna variante común causa por sí sola TDAH o autismo.",
+  "salto": "de la etiqueta al mecanismo",
+  "relacionados": [
+   "heredabilidad",
+   "transdiagnostico",
+   "comorbilidad",
+   "modelo-dimensional",
+   "biomarcador"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Demontis, D. et al. (2019). Discovery of the first genome-wide significant risk loci for attention deficit/hyperactivity disorder. Nature Genetics, 51(1), 63-75",
+    "url": "https://research-information.bris.ac.uk/en/publications/discovery-of-the-first-genome-wide-significant-risk-loci-for-atte/"
+   },
+   {
+    "titulo": "Demontis, D. et al. (2023). Genome-wide analyses of ADHD identify 27 risk loci, refine the genetic architecture and implicate several cognitive domains. Nature Genetics",
+    "url": "https://www.nature.com/articles/s41588-022-01285-8"
+   },
+   {
+    "titulo": "Faraone, S. V. y Larsson, H. (2019). Genetics of attention deficit hyperactivity disorder. Molecular Psychiatry, 24(4), 562-575",
+    "url": "https://doi.org/10.1038/s41380-018-0070-0"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": false
+ },
+ {
+  "id": "biomarcador",
+  "lema": "Biomarcador",
+  "variantes": [
+   "marcador biológico",
+   "biomarker",
+   "prueba objetiva"
+  ],
+  "tipo": "concepto",
+  "familia": "Cerebro, cuerpo y tratamiento",
+  "anio": 2001,
+  "anio_nota": "Un grupo de trabajo de los Institutos Nacionales de Salud de EE. UU. (NIH) publica la definición de biomarcador que se convirtió en referencia.",
+  "obra": "Biomarkers Definitions Working Group, NIH (2001). Biomarkers and surrogate endpoints: preferred definitions and conceptual framework. Clinical Pharmacology & Therapeutics.",
+  "figuras": [],
+  "definicion": "Característica que se mide de forma objetiva como indicador de procesos biológicos normales, de procesos patológicos o de la respuesta a un tratamiento. Puede ser un análisis, una imagen o una señal eléctrica. Para el TDAH y el autismo todavía no existe ninguno validado para el diagnóstico.",
+  "usos": [
+   "I",
+   "D"
+  ],
+  "controversia": "Para unos, la falta de biomarcadores prueba que los diagnósticos son construcciones sociales; otros recuerdan que muchas condiciones médicas se diagnostican clínicamente. También se discute si buscar un marcador por etiqueta es la estrategia correcta.",
+  "contexto": "La medicina del siglo XX aprendió a medir: la glucosa para la diabetes, el colesterol para el riesgo cardiovascular, la troponina para el infarto. La industria farmacéutica necesitaba además marcadores intermedios que acortaran los ensayos clínicos, y en 2001 los NIH estadounidenses fijaron una definición común. La psiquiatría, cuyas categorías se basan en síntomas y conductas, quiso sumarse a esa promesa con neuroimagen, genética, electroencefalografía, análisis de sangre o seguimiento de la mirada. Iniciativas como RDoC, del Instituto Nacional de Salud Mental de EE. UU., propusieron incluso organizar la investigación en torno a dimensiones biológicas en lugar de diagnósticos. Pero la búsqueda ha sido más difícil de lo esperado. En 2023, una revisión sistemática de 780 estudios sobre trastornos del neurodesarrollo, con unos 120.000 casos, no encontró ningún candidato con sensibilidad y especificidad de al menos el 80 % replicadas por dos grupos independientes.",
+  "ejemplos": [
+   "Un laboratorio anuncia un análisis de saliva «para detectar el autismo». Antes de creerlo, pregunta por su sensibilidad, su especificidad y si otro grupo independiente lo ha replicado.",
+   "En un ensayo clínico, un marcador puede servir para comprobar si un fármaco llega a su diana, aunque no sirva para diagnosticar a nadie.",
+   "Un tertuliano dice que el TDAH no existe porque «no sale en ningún análisis». La migraña tampoco sale en los análisis y nadie duda de que exista.",
+   "Una investigadora busca marcadores que predigan quién responderá a un tratamiento, no quién «tiene» el diagnóstico: es otro uso, que necesita otra justificación.",
+   "Una familia recibe un informe con gráficos de una prueba cerebral comercial presentada como «objetiva». El equipo de salud mental le explica que no sustituye la evaluación clínica."
+  ],
+  "implicaciones": "La palabra «biomarcador» vende: suena a objetividad y a ciencia dura. Por eso conviene saber que, a día de hoy, ni el TDAH ni el autismo tienen un biomarcador validado para el diagnóstico individual, y que las guías basan el diagnóstico en la evaluación clínica. Esto admite dos lecturas prudentes. Una: desconfía de las pruebas comerciales que prometen «confirmar» una etiqueta con un análisis o un escáner. Dos: no saques la conclusión contraria de que, sin biomarcador, no hay nada; la validez de una categoría se apoya en más cosas, como su evolución, su respuesta a los apoyos o su relación con el funcionamiento diario. Cada uso de la etiqueta necesita su propia justificación.",
+  "sabias": "Una revisión publicada en 2023 en World Psychiatry examinó 780 estudios de posibles biomarcadores del neurodesarrollo, con unos 120.000 casos y 176.000 controles, y no halló ninguno con sensibilidad y especificidad del 80 % replicadas independientemente.",
+  "piensalo": "Si mañana apareciera un biomarcador del TDAH, ¿quiénes de los que hoy tienen el diagnóstico crees que quedarían fuera, y qué harías con sus dificultades?",
+  "paso": "Busca un anuncio de «prueba objetiva» para TDAH o autismo y comprueba si informa de sensibilidad, especificidad y estudios independientes. Si no lo hace, ya sabes qué preguntar.",
+  "frase": "«Si no hay un análisis que lo detecte, el TDAH no existe.»",
+  "veredicto": "mito",
+  "matiz": "Muchas condiciones médicas se diagnostican clínicamente, sin biomarcador. Su ausencia limita la precisión y obliga a ser cuidadosos, pero no demuestra que el problema sea inexistente o inventado.",
+  "salto": "de «no hay prueba de laboratorio» a «no existe»",
+  "relacionados": [
+   "neuroimagen",
+   "qeeg",
+   "cpt",
+   "sensibilidad-especificidad",
+   "rdoc",
+   "validez-constructo"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Biomarkers Definitions Working Group (2001). Biomarkers and surrogate endpoints: preferred definitions and conceptual framework. Clinical Pharmacology & Therapeutics, 69(3), 89-95",
+    "url": "https://doi.org/10.1067/mcp.2001.113989"
+   },
+   {
+    "titulo": "Cortese, S. et al. (2023). Candidate diagnostic biomarkers for neurodevelopmental disorders in children and adolescents: a systematic review. World Psychiatry, 22(1), 129-149",
+    "url": "https://doi.org/10.1002/wps.21037"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "metilfenidato",
+  "lema": "Metilfenidato",
+  "variantes": [
+   "MPH",
+   "Ritalin",
+   "Rubifen",
+   "Concerta",
+   "Medikinet"
+  ],
+  "tipo": "concepto",
+  "familia": "Cerebro, cuerpo y tratamiento",
+  "anio": 1944,
+  "anio_nota": "El químico Leandro Panizzon sintetiza la molécula en los laboratorios Ciba de Basilea (Suiza); se patentó en 1950 y se comercializó como Ritalin.",
+  "obra": "Síntesis del metilfenidato por Leandro Panizzon (Ciba, Basilea, 1944).",
+  "figuras": [
+   "Leandro Panizzon",
+   "C. Keith Conners",
+   "Leon Eisenberg"
+  ],
+  "definicion": "Fármaco estimulante del sistema nervioso central que aumenta la disponibilidad de dopamina y noradrenalina al bloquear su recaptación. Es uno de los tratamientos farmacológicos de primera línea para el TDAH en la infancia y la adolescencia. Lo prescriben y controlan profesionales médicos.",
+  "usos": [
+   "D"
+  ],
+  "controversia": "Hay buena evidencia de eficacia a corto plazo. Se discuten sus efectos a largo plazo, el aumento de las prescripciones, los efectos adversos (apetito, sueño) y el riesgo de usarlo en lugar de apoyos educativos o familiares.",
+  "contexto": "El metilfenidato nació en 1944 en los laboratorios Ciba de Basilea, de la mano del químico Leandro Panizzon. Según cuenta la historia, su esposa Marguerite, a quien llamaban Rita, lo tomaba antes de jugar al tenis, y de ahí salió el nombre comercial. En los años cincuenta se recetaba a adultos para la fatiga o la depresión, en una época de entusiasmo por los estimulantes. En los sesenta, investigadores como Conners y Eisenberg lo estudiaron en niños con conductas hiperactivas, y su uso infantil se generalizó desde los setenta, en paralelo a la consolidación del diagnóstico de hiperactividad y, después, del TDAH. Hoy existen formas de liberación inmediata y prolongada. Un gran metaanálisis en red de 2018, con 133 ensayos doble ciego, lo situó como el fármaco de primera elección a corto plazo en niños y adolescentes, teniendo en cuenta a la vez eficacia y tolerabilidad.",
+  "ejemplos": [
+   "Siguiendo la guía NICE, a un niño de ocho años se le propone metilfenidato solo si, tras adaptar el entorno, los síntomas siguen causando un deterioro importante.",
+   "Antes de empezar, el pediatra registra peso, talla, tensión arterial y frecuencia cardiaca, y después los vigila en cada revisión.",
+   "Una profesora nota que un alumno está más centrado por la mañana y más inquieto a última hora; la familia lo comenta con el médico para revisar la pauta.",
+   "Un estudiante sin diagnóstico toma metilfenidato prestado antes de un examen. No está recetado para él, tiene riesgos y no hay pruebas sólidas de que mejore su nota.",
+   "Una familia decide con el equipo clínico hacer una pausa planificada en vacaciones para valorar si el tratamiento sigue siendo necesario."
+  ],
+  "implicaciones": "En España, el metilfenidato es el fármaco más conocido para el TDAH y uno de los más discutidos en redes y tertulias. Se oyen dos extremos: «es una droga que los anula» y «es la solución». La evidencia no respalda ninguno. Funciona a corto plazo en muchas personas, tiene efectos adversos conocidos que hay que vigilar y no enseña habilidades ni sustituye los apoyos escolares o familiares. Las guías lo sitúan dentro de un plan más amplio y después de valorar el impacto real de los síntomas. Si te preocupa, pregunta qué objetivos concretos se buscan, cómo se medirá si funciona y cuándo se revisará. Esta web no aconseja tratamientos: esa decisión es clínica y compartida.",
+  "sabias": "El nombre Ritalin viene de Rita, apodo de Marguerite, la esposa del químico Leandro Panizzon, que sintetizó el metilfenidato en 1944 en los laboratorios Ciba de Basilea.",
+  "piensalo": "¿Qué diferencia hay entre que un fármaco reduzca síntomas y que resuelva las dificultades de una persona en su vida diaria?",
+  "paso": "Si alguien de tu entorno toma metilfenidato, lee el prospecto oficial en el CIMA de la Agencia Española de Medicamentos y anota qué efectos adversos hay que vigilar.",
+  "frase": "«El metilfenidato cura el TDAH.»",
+  "veredicto": "mito",
+  "matiz": "Reduce los síntomas mientras se toma y es eficaz a corto plazo en niños y adolescentes, pero no cura ni enseña habilidades. Sobre sus efectos a largo plazo hay muchos menos datos.",
+  "salto": "",
+  "relacionados": [
+   "psicoestimulantes",
+   "tdah",
+   "medicalizacion",
+   "entrenamiento-padres",
+   "russell-barkley"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Gobel, E. (2026). Ritalin for ADHD Treatment. Embryo Project Encyclopedia, Arizona State University",
+    "url": "https://embryo.asu.edu/pages/ritalin-adhd-treatment"
+   },
+   {
+    "titulo": "Cortese, S. et al. (2018). Comparative efficacy and tolerability of medications for attention-deficit hyperactivity disorder in children, adolescents, and adults: a systematic review and network meta-analysis. The Lancet Psychiatry, 5(9), 727-738",
+    "url": "https://doi.org/10.1016/S2215-0366(18)30269-4"
+   },
+   {
+    "titulo": "NICE (2018, actualizada en 2019). Attention deficit hyperactivity disorder: diagnosis and management (NG87). National Institute for Health and Care Excellence",
+    "url": "https://www.nice.org.uk/guidance/ng87/resources/attention-deficit-hyperactivity-disorder-diagnosis-and-management-pdf-1837699732933"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "psicoestimulantes",
+  "lema": "Psicoestimulantes",
+  "variantes": [
+   "estimulantes",
+   "anfetaminas",
+   "lisdexanfetamina",
+   "estimulantes del sistema nervioso central"
+  ],
+  "tipo": "concepto",
+  "familia": "Cerebro, cuerpo y tratamiento",
+  "anio": 1937,
+  "anio_nota": "Charles Bradley publica que la bencedrina, una anfetamina, mejoraba la conducta y el trabajo escolar de algunos niños ingresados en su centro.",
+  "obra": "Bradley, C. (1937). The behavior of children receiving Benzedrine. American Journal of Psychiatry (Emma Pendleton Bradley Home, Rhode Island).",
+  "figuras": [
+   "Charles Bradley",
+   "Judith Rapoport"
+  ],
+  "definicion": "Fármacos que aumentan la actividad de la dopamina y la noradrenalina en el cerebro, como el metilfenidato y las anfetaminas. En dosis terapéuticas se usan sobre todo para el TDAH y la narcolepsia. Su efecto sobre la atención no es exclusivo de quien tiene un diagnóstico.",
+  "usos": [
+   "I",
+   "D"
+  ],
+  "controversia": "Se debate el aumento del consumo, su uso sin receta para estudiar o rendir más, los efectos a largo plazo y la idea errónea de que responder al fármaco confirma el diagnóstico.",
+  "contexto": "En los años treinta, la anfetamina se vendía como descongestionante nasal y como estimulante. En el Emma Pendleton Bradley Home de Rhode Island, el psiquiatra Charles Bradley la dio a niños con problemas de conducta para aliviar los dolores de cabeza que sufrían tras una prueba diagnóstica de la época, la neumoencefalografía. Los dolores apenas mejoraron, pero los maestros notaron cambios en el trabajo escolar. En 1937 publicó que 14 de 30 niños mostraban un cambio «espectacular». El hallazgo tuvo poca repercusión inmediata, hasta que la llegada del metilfenidato y el auge de la psicofarmacología en los años cincuenta y sesenta lo recuperaron. Durante décadas se habló de un efecto «paradójico»: estimulantes que, en vez de excitar, calmaban. En 1978, Judith Rapoport y su equipo mostraron que la dextroanfetamina también reducía la actividad motora y mejoraba el rendimiento cognitivo en niños sin ningún diagnóstico.",
+  "ejemplos": [
+   "Un padre dice: «Si la pastilla le calma, es la prueba de que tiene TDAH». Los estimulantes mejoran la atención de casi cualquiera; la respuesta no confirma el diagnóstico.",
+   "En época de exámenes, algunos estudiantes buscan estimulantes sin receta para «rendir más». Se exponen a insomnio, ansiedad y riesgos cardiovasculares sin control médico.",
+   "En consulta, la médica compara metilfenidato y lisdexanfetamina según la edad, la duración del efecto y la tolerancia, y revisa la decisión con la familia.",
+   "Para adultos con TDAH, un metaanálisis de 2018 situó las anfetaminas como primera elección a corto plazo; en niños y adolescentes, el metilfenidato.",
+   "En el instituto, un tutor recuerda que, aunque un alumno tome medicación, sigue necesitando ajustes como pausas, instrucciones claras o más tiempo en los exámenes."
+  ],
+  "implicaciones": "Los psicoestimulantes están en el centro de dos debates actuales. El primero es clínico: cómo usarlos bien, en quién, durante cuánto tiempo y con qué seguimiento. El segundo es social: el aumento de diagnósticos y prescripciones en adultos y el uso sin receta entre estudiantes y trabajadores que buscan rendir más. Los dos debates mejoran si se separan las preguntas. Que un fármaco mejore la atención de casi cualquiera no demuestra que el TDAH sea inventado ni que medicar sea siempre la respuesta. Lo que justifica su uso en una persona es una evaluación clínica, un balance de beneficios y riesgos y una revisión periódica. Y si alguien de tu entorno los consigue sin receta, eso es un problema de salud, no un truco de estudio.",
+  "sabias": "Bradley empezó a dar bencedrina a niños para tratar los dolores de cabeza que les causaba una prueba diagnóstica de la época. Los dolores apenas mejoraron, pero los maestros notaron que trabajaban mejor en clase.",
+  "piensalo": "Si un café mejora tu concentración, ¿eso dice algo sobre si tienes o no un problema de atención?",
+  "paso": "Pregunta en tu centro de estudios o de trabajo si hay información sobre los riesgos de tomar estimulantes sin receta. Si no la hay, propón que se incluya.",
+  "frase": "«Si el estimulante le calma, es que tiene TDAH.»",
+  "veredicto": "mito",
+  "matiz": "En 1978 se comprobó que la dextroanfetamina también reducía la actividad y mejoraba tareas cognitivas en niños sin diagnóstico. La respuesta al fármaco no confirma ni descarta el TDAH.",
+  "salto": "de la respuesta al tratamiento a la causa",
+  "relacionados": [
+   "metilfenidato",
+   "tdah",
+   "tdah-adulto",
+   "medicalizacion",
+   "correlacion-causa"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Brown (1998). Charles Bradley, M.D., 1902-1979. Images in Psychiatry. American Journal of Psychiatry, 155(7), 968",
+    "url": "https://ajp.psychiatryonline.org/doi/10.1176/ajp.155.7.968"
+   },
+   {
+    "titulo": "Rapoport, J. L. et al. (1978). Dextroamphetamine: cognitive and behavioral effects in normal prepubertal boys. Science, 199(4328), 560-563",
+    "url": "https://doi.org/10.1126/science.341313"
+   },
+   {
+    "titulo": "Cortese, S. et al. (2018). Comparative efficacy and tolerability of medications for attention-deficit hyperactivity disorder in children, adolescents, and adults. The Lancet Psychiatry, 5(9), 727-738",
+    "url": "https://doi.org/10.1016/S2215-0366(18)30269-4"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "intervencion-conductual",
+  "lema": "Intervención conductual (ABA y otras)",
+  "variantes": [
+   "ABA",
+   "análisis aplicado de la conducta",
+   "intervención conductual intensiva temprana (EIBI)",
+   "intervenciones naturalistas del desarrollo (NDBI)"
+  ],
+  "tipo": "concepto",
+  "familia": "Cerebro, cuerpo y tratamiento",
+  "anio": 1968,
+  "anio_nota": "Baer, Wolf y Risley publican, en el primer número del Journal of Applied Behavior Analysis, el artículo que define el análisis aplicado de la conducta.",
+  "obra": "Baer, D. M., Wolf, M. M. y Risley, T. R. (1968). Some current dimensions of applied behavior analysis. Journal of Applied Behavior Analysis.",
+  "figuras": [
+   "Donald M. Baer",
+   "Montrose M. Wolf",
+   "Todd R. Risley",
+   "Ole Ivar Lovaas",
+   "Laura Schreibman"
+  ],
+  "definicion": "Conjunto de intervenciones basadas en los principios del aprendizaje: observar la conducta, lo que ocurre antes y después de ella, y enseñar habilidades mediante refuerzo. Va desde programas intensivos de muchas horas semanales hasta enfoques naturalistas en el juego y la vida diaria. Se usa sobre todo en autismo.",
+  "usos": [
+   "D",
+   "E",
+   "A",
+   "R"
+  ],
+  "controversia": "Parte de la comunidad autista critica programas que buscan eliminar conductas inofensivas o enseñar a disimular el autismo. También se discuten la calidad de la evidencia, la intensidad necesaria y qué objetivos merecen la pena.",
+  "contexto": "El análisis aplicado de la conducta nació en los años sesenta, en plena expansión del conductismo de B. F. Skinner, con la idea de llevar los principios del aprendizaje a problemas reales. En 1968, Baer, Wolf y Risley fijaron sus rasgos en el primer número de una revista creada para ello. Ole Ivar Lovaas lo aplicó al autismo en la Universidad de California y, en 1987, publicó resultados muy optimistas con decenas de horas semanales de intervención temprana. Sus primeros trabajos incluían castigos físicos que hoy se consideran inaceptables. Desde los noventa, la intervención conductual se extendió en Estados Unidos, donde muchos seguros acabaron obligados por ley a cubrirla, y se convirtió en un punto de choque con el movimiento por los derechos autistas. A la vez, el campo cambió: surgieron enfoques naturalistas que combinan conducta y desarrollo, siguen los intereses del niño y trabajan en situaciones cotidianas, como el juego o las rutinas familiares.",
+  "ejemplos": [
+   "Una terapeuta aprovecha el interés de una niña por los trenes para enseñarle a pedir ayuda: cada vez que lo pide, consigue el vagón que quería.",
+   "Un programa propone que un niño deje de aletear las manos. Su familia pregunta qué daño hace esa conducta y si no sería mejor centrarse en la comunicación.",
+   "En un aula, el equipo analiza qué ocurre justo antes de las crisis de un alumno y descubre que coinciden con ruidos fuertes; cambian el entorno, no solo la conducta.",
+   "Un adulto autista cuenta en redes que de niño aprendió a mirar a los ojos a costa de mucho malestar; su testimonio alimenta el debate sobre los objetivos terapéuticos.",
+   "Una familia compara un programa intensivo de 30 horas semanales con una intervención mediada por padres de pocas horas, y pregunta por la evidencia de cada opción."
+  ],
+  "implicaciones": "En España, la intervención en autismo depende en gran parte de la atención temprana, cuya organización varía por comunidad, y de centros privados que reúnen prácticas muy distintas bajo la misma etiqueta. Por eso conviene preguntar menos «¿hacen ABA?» y más «¿qué objetivos tienen, cómo los eligen con la familia y con el niño, y cómo miden si funciona?». La revisión Cochrane de 2018 encontró evidencia de baja calidad a favor de la intervención intensiva temprana, basada en solo cinco estudios. Los enfoques naturalistas y los mediados por familias también tienen apoyo empírico. El diálogo con la comunidad autista ha empujado al campo a priorizar la comunicación, la autonomía y el bienestar por encima de parecer «normal».",
+  "sabias": "La revisión Cochrane de 2018 sobre intervención conductual intensiva temprana en autismo solo pudo incluir cinco estudios, con 219 niños en total, y calificó la calidad de la evidencia como baja o muy baja.",
+  "piensalo": "¿Quién debería decidir qué conductas de un niño autista conviene cambiar y cuáles hay que respetar?",
+  "paso": "Si conoces un programa de intervención, pide por escrito sus objetivos y cómo se revisan. Fíjate en si tienen en cuenta la opinión del propio niño o niña.",
+  "frase": "«El ABA es la única terapia con evidencia científica para el autismo.»",
+  "veredicto": "matiz",
+  "matiz": "La intervención conductual intensiva tiene evidencia a favor, pero de baja calidad. Las intervenciones naturalistas y las mediadas por familias también cuentan con ensayos favorables. Y «ABA» engloba prácticas muy distintas.",
+  "salto": "",
+  "relacionados": [
+   "autismo",
+   "entrenamiento-padres",
+   "derechos-autistas",
+   "camuflaje",
+   "stimming",
+   "neurodiversidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Baer, D. M., Wolf, M. M. y Risley, T. R. (1968). Some current dimensions of applied behavior analysis. Journal of Applied Behavior Analysis, 1(1), 91-97",
+    "url": "https://doi.org/10.1901/jaba.1968.1-91"
+   },
+   {
+    "titulo": "Reichow, B., Hume, K., Barton, E. E. y Boyd, B. A. (2018). Early intensive behavioral intervention (EIBI) for young children with autism spectrum disorders (ASD). Cochrane Database of Systematic Reviews, CD009260",
+    "url": "https://doi.org/10.1002/14651858.CD009260.pub3"
+   },
+   {
+    "titulo": "Schreibman, L. et al. (2015). Naturalistic Developmental Behavioral Interventions: Empirically Validated Treatments for Autism Spectrum Disorder. Journal of Autism and Developmental Disorders, 45(8), 2411-2428",
+    "url": "https://doi.org/10.1007/s10803-015-2407-8"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "entrenamiento-padres",
+  "lema": "Entrenamiento para familias",
+  "variantes": [
+   "entrenamiento de padres",
+   "parent training",
+   "programas de parentalidad positiva",
+   "intervención mediada por padres"
+  ],
+  "tipo": "concepto",
+  "familia": "Cerebro, cuerpo y tratamiento",
+  "anio": 1965,
+  "anio_nota": "Se publica uno de los trabajos pioneros que forman a madres para aplicar principios del aprendizaje con sus propios hijos.",
+  "obra": "Wahler, R. G., Winkel, G. H., Peterson, R. F. y Morrison, D. C. (1965). Mothers as behavior therapists for their own children. Behaviour Research and Therapy.",
+  "figuras": [
+   "Robert G. Wahler",
+   "Constance Hanf",
+   "Gerald Patterson",
+   "Carolyn Webster-Stratton",
+   "Jonathan Green"
+  ],
+  "definicion": "Programas que enseñan a madres, padres y cuidadores estrategias concretas para entender la conducta de sus hijos, comunicarse con ellos y organizar rutinas. Se usan en TDAH, problemas de conducta y autismo. No parten de culpar a la familia, sino de darle herramientas.",
+  "usos": [
+   "D",
+   "E"
+  ],
+  "controversia": "Se discute su efecto sobre los síntomas nucleares del TDAH, que se diluye con evaluadores ciegos, y el riesgo de transmitir culpa. También preocupa el acceso desigual: exigen tiempo, plazas y adaptación a cada familia.",
+  "contexto": "En los años sesenta, la terapia de conducta cayó en la cuenta de algo práctico: los niños pasan muchas más horas con su familia que en una consulta. Trabajos como el de Wahler y sus colegas, en 1965, enseñaron a madres a usar el refuerzo en casa. Constance Hanf desarrolló en Oregón un modelo en dos fases, primero jugar siguiendo al niño y después dar instrucciones claras, que inspiró muchos programas posteriores. Gerald Patterson describió los ciclos de coerción, en los que adultos y niños se refuerzan sin querer la escalada del conflicto. Desde los ochenta surgieron programas como Los Años Increíbles, Triple P o la terapia de interacción entre padres e hijos. En autismo, la intervención mediada por padres creció con ensayos como el británico PACT. Al mismo tiempo cambió el discurso: de «entrenar a los padres» a acompañar a familias con necesidades y recursos distintos.",
+  "ejemplos": [
+   "Siguiendo la guía NICE, a la familia de una niña de cuatro años con TDAH se le ofrece primero un programa grupal para padres centrado en el TDAH.",
+   "En el grupo, un padre aprende a dar una instrucción cada vez, mirando a su hijo y con pocas palabras, en lugar de encadenar cinco órdenes desde otra habitación.",
+   "Una madre de un niño autista graba diez minutos de juego y revisa con la terapeuta cómo esperar y responder a sus intentos de comunicarse.",
+   "Un colegio acuerda con la familia el mismo sistema de rutinas visuales en casa y en clase, para que las expectativas no cambien al cruzar la puerta.",
+   "Una abuela que cuida a sus nietos por las tardes se suma al programa: los apoyos funcionan mejor cuando los comparten todos los adultos cercanos."
+  ],
+  "implicaciones": "En España, estos programas se ofrecen de forma desigual: los organizan algunos servicios públicos de salud mental infantil, unidades de atención temprana y asociaciones, pero las listas de espera y los horarios dificultan el acceso. Aun así, la evidencia es clara en lo que mejoran: la calidad de la crianza y los problemas de conducta, incluso cuando los evaluadores desconocen qué familia recibió el programa. Su efecto sobre los síntomas nucleares del TDAH es menos claro. Conviene presentarlos con honestidad: no curan el TDAH ni el autismo, pero pueden hacer la vida diaria más llevadera. Y su existencia no significa que la familia haya causado el problema: aprender estrategias no es confesar una culpa.",
+  "sabias": "En el ensayo británico PACT, una intervención de comunicación mediada por padres en niños autistas de 2 a 4 años se asoció a menor gravedad de síntomas casi seis años después, a una edad media de 10,5 años.",
+  "piensalo": "¿Por qué nos cuesta pedir ayuda para educar sin sentir que estamos admitiendo un fracaso?",
+  "paso": "Pregunta en tu centro de salud, en tu ayuntamiento o en una asociación cercana si hay programas grupales para familias y qué requisitos piden para participar.",
+  "frase": "«Si mandan a los padres a un curso, es que la culpa es de cómo educan.»",
+  "veredicto": "mito",
+  "matiz": "Las guías recomiendan estos programas porque la familia es el contexto donde más se puede ayudar, no porque cause el TDAH o el autismo. Mejoran la crianza y la conducta, aunque menos los síntomas nucleares.",
+  "salto": "del tratamiento a la causa",
+  "relacionados": [
+   "intervencion-conductual",
+   "tdah",
+   "autismo",
+   "estigma",
+   "russell-barkley"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Wahler, R. G. et al. (1965). Mothers as behavior therapists for their own children. Behaviour Research and Therapy, 3(2), 113-124",
+    "url": "https://doi.org/10.1016/0005-7967(65)90015-x"
+   },
+   {
+    "titulo": "Daley, D. et al. (2014). Behavioral interventions in attention-deficit/hyperactivity disorder: a meta-analysis of randomized controlled trials across multiple outcome domains. Journal of the American Academy of Child and Adolescent Psychiatry, 53(8), 835-847",
+    "url": "https://doi.org/10.1016/j.jaac.2014.05.013"
+   },
+   {
+    "titulo": "Pickles, A. et al. (2016). Parent-mediated social communication therapy for young children with autism (PACT): long-term follow-up of a randomised controlled trial. The Lancet, 388(10059), 2501-2509",
+    "url": "https://doi.org/10.1016/S0140-6736(16)31229-6"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "cpt",
+  "lema": "Test de atención continuada (CPT)",
+  "variantes": [
+   "CPT",
+   "test de ejecución continua",
+   "Continuous Performance Test",
+   "Conners CPT",
+   "QbTest",
+   "AULA Nesplora"
+  ],
+  "tipo": "concepto",
+  "familia": "Cerebro, cuerpo y tratamiento",
+  "anio": 1956,
+  "anio_nota": "Rosvold y sus colaboradores publican el primer test de ejecución continua, diseñado para detectar daño cerebral.",
+  "obra": "Rosvold, H. E., Mirsky, A. F., Sarason, I., Bransome, E. D. y Beck, L. H. (1956). A continuous performance test of brain damage. Journal of Consulting Psychology.",
+  "figuras": [
+   "H. Enger Rosvold",
+   "Allan F. Mirsky",
+   "C. Keith Conners"
+  ],
+  "definicion": "Prueba informatizada en la que la persona debe responder a un estímulo objetivo e ignorar los demás durante varios minutos. Mide omisiones, respuestas impulsivas, tiempos de reacción y su variabilidad. Informa sobre la atención sostenida, pero no diagnostica el TDAH por sí sola.",
+  "usos": [
+   "I",
+   "D"
+  ],
+  "controversia": "Se discute su valor clínico: muchas personas con TDAH rinden bien en el test y otras sin TDAH rinden mal. NICE aceptó en 2024 una versión con registro de movimiento solo como complemento, con dudas sobre su precisión.",
+  "contexto": "A mediados del siglo XX, la neuropsicología buscaba pruebas sencillas para detectar lesiones cerebrales. En 1956, Rosvold y su equipo presentaron una tarea monótona: ver pasar letras y pulsar solo ante una concreta. Las personas con daño cerebral cometían más errores. Con los ordenadores, la tarea se automatizó y se multiplicaron las versiones, como la de Conners. Encajaba con la idea de que el TDAH es, ante todo, un problema de atención sostenida y de inhibición, y los CPT se hicieron habituales en consultas e investigaciones. Pronto apareció una limitación: el despacho silencioso del test se parece poco a un aula ruidosa o a una oficina llena de notificaciones. Las versiones recientes añaden cámaras que registran el movimiento o entornos de realidad virtual, como el test AULA, desarrollado por la empresa donostiarra Nesplora. En 2024, NICE revisó varias de estas pruebas digitales y solo recomendó una, y únicamente como apoyo a la evaluación clínica.",
+  "ejemplos": [
+   "Una familia recibe un informe privado que concluye «TDAH confirmado» tras un CPT de quince minutos. La psiquiatra infantil explica que el test es solo un dato más.",
+   "Un niño con TDAH se concentra perfectamente durante la prueba porque es nueva y le parece un videojuego; su resultado «normal» no descarta el diagnóstico.",
+   "En investigación, el CPT permite comparar entre grupos la variabilidad del tiempo de reacción y estudiar cómo cambia con la medicación.",
+   "En el Reino Unido, NICE recomendó en 2024 el QbTest como opción para ayudar a evaluar el TDAH entre los 6 y los 17 años, siempre junto a la evaluación clínica.",
+   "Una adolescente muy nerviosa comete muchos errores en la prueba; antes de interpretar el resultado, el equipo tiene en cuenta que la ansiedad también empeora la atención."
+  ],
+  "implicaciones": "En España, los CPT y sus versiones de realidad virtual se usan en consultas públicas y privadas y aparecen a menudo en los informes que las familias llevan al colegio. Conviene leerlos como lo que son: una muestra de cómo rindió una persona en una tarea concreta, un día concreto. Pueden ayudar a describir un perfil o a seguir cambios, pero no sustituyen la entrevista, la historia del desarrollo ni la información de varios contextos. NICE, tras revisar la evidencia en 2024, solo aceptó una de estas pruebas, únicamente como complemento en menores de 6 a 17 años, porque su efecto sobre la precisión del diagnóstico sigue siendo incierto. Si un informe se apoya solo en un test, pide una evaluación completa.",
+  "sabias": "El primer test de ejecución continua, publicado en 1956, no se diseñó para el TDAH, sino para detectar daño cerebral. Su título original era «A continuous performance test of brain damage».",
+  "piensalo": "¿En qué se parece una tarea de quince minutos en un despacho silencioso a una mañana entera en un aula con veinticinco compañeros?",
+  "paso": "Si tienes un informe con un CPT, comprueba qué otras fuentes de información se usaron. Si solo hay gráficos del test, anótalo para preguntarlo en la próxima consulta.",
+  "frase": "«El test de ordenador confirmó que tiene TDAH.»",
+  "veredicto": "mito",
+  "matiz": "Ningún CPT confirma el TDAH por sí solo. NICE acepta el QbTest solo como apoyo a la evaluación clínica entre los 6 y los 17 años, y advierte de su baja especificidad y de la incertidumbre sobre su precisión.",
+  "salto": "de una medida de rendimiento a un diagnóstico",
+  "relacionados": [
+   "sensibilidad-especificidad",
+   "biomarcador",
+   "funciones-ejecutivas",
+   "tdah",
+   "escalas-valoracion"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Rosvold, H. E., Mirsky, A. F., Sarason, I., Bransome, E. D. y Beck, L. H. (1956). A continuous performance test of brain damage. Journal of Consulting Psychology, 20(5), 343-350",
+    "url": "https://doi.org/10.1037/h0043220"
+   },
+   {
+    "titulo": "NICE (2024). Digital technologies for assessing attention deficit hyperactivity disorder (ADHD) (DG60). National Institute for Health and Care Excellence",
+    "url": "https://nice.org.uk/guidance/dg60/resources/digital-technologies-for-assessing-attention-deficit-hyperactivity-disorder-adhd-pdf-1053925402309"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "qeeg",
+  "lema": "Electroencefalograma cuantitativo (qEEG)",
+  "variantes": [
+   "qEEG",
+   "EEG cuantitativo",
+   "mapa cerebral",
+   "cociente theta/beta",
+   "NEBA"
+  ],
+  "tipo": "concepto",
+  "familia": "Cerebro, cuerpo y tratamiento",
+  "anio": 1991,
+  "anio_nota": "Joel Lubar resume quince años de trabajo para usar el EEG en el diagnóstico y el neurofeedback del TDAH, una línea que popularizó el cociente theta/beta.",
+  "obra": "Lubar, J. F. (1991). Discourse on the development of EEG diagnostics and biofeedback for attention-deficit/hyperactivity disorders. Biofeedback and Self-Regulation.",
+  "figuras": [
+   "Joel F. Lubar",
+   "Martijn Arns"
+  ],
+  "definicion": "Análisis por ordenador del electroencefalograma que cuantifica la potencia de las distintas frecuencias de la actividad eléctrica cerebral y la compara con bases de datos. En el TDAH se ha estudiado sobre todo el cociente entre ondas theta y beta. No está validado como prueba diagnóstica.",
+  "usos": [
+   "I",
+   "D"
+  ],
+  "controversia": "En 2013 la FDA autorizó un sistema basado en el cociente theta/beta como ayuda al diagnóstico, pero la Academia Americana de Neurología desaconsejó en 2016 usarlo para confirmar el TDAH por su alta tasa de falsos positivos.",
+  "contexto": "El electroencefalograma registra desde los años veinte la actividad eléctrica del cerebro a través del cuero cabelludo. Con los ordenadores, a partir de los setenta, se empezó a descomponer esa señal en frecuencias y a compararla con bases de datos de referencia: nacía el EEG cuantitativo. En el TDAH, investigadores como Joel Lubar observaron en algunos niños más ondas lentas (theta) y menos ondas rápidas (beta), y propusieron usarlo para diagnosticar y para entrenar el cerebro con neurofeedback. La idea era atractiva: una medida biológica, barata y sin radiación. En 2013, la FDA autorizó en Estados Unidos el sistema NEBA, para niños de 6 a 17 años y siempre dentro de una evaluación médica y psicológica completa. Pero los datos posteriores enfriaron el entusiasmo. Un metaanálisis de 2013 concluyó que el cociente theta/beta no era una medida diagnóstica fiable, y en 2016 la Academia Americana de Neurología desaconsejó usarlo para confirmar el diagnóstico.",
+  "ejemplos": [
+   "Una clínica ofrece un «mapa cerebral del TDAH». La familia pregunta qué guía clínica recomienda esa prueba para diagnosticar y no obtiene una respuesta clara.",
+   "En un estudio, se usa el qEEG para comprobar si un subgrupo de niños con cociente theta/beta elevado evoluciona de forma distinta con un tratamiento.",
+   "Una neuróloga pide un EEG convencional porque sospecha crisis de ausencia, que pueden confundirse con despistes: es un uso clínico distinto y justificado.",
+   "Un vídeo muestra un mapa de colores y dice «así es un cerebro TDAH». Los colores dependen de la base de datos con la que se compare.",
+   "Un artículo científico advierte de que las diferencias de cociente theta/beta entre grupos se han reducido con los años; un profesor lo usa para explicar qué es replicar."
+  ],
+  "implicaciones": "En España existe una oferta privada de «mapas cerebrales» y neurofeedback para el TDAH que se anuncia en redes, a menudo con un lenguaje muy seguro. Conviene conocer el estado de la evidencia: la Academia Americana de Neurología considera que el cociente theta/beta no debe usarse para confirmar un diagnóstico de TDAH fuera de la investigación, porque produciría demasiados falsos positivos. Eso no quiere decir que el EEG no sirva: es imprescindible para estudiar epilepsias y otras condiciones que pueden parecerse a un problema de atención. La pregunta clave, como siempre, es para qué se usa. Si te ofrecen un qEEG, pregunta qué decisión cambiará con el resultado y qué estudios respaldan ese uso concreto.",
+  "sabias": "Un metaanálisis de 2013 observó que la diferencia en el cociente theta/beta entre niños con y sin TDAH se había reducido con los años, porque el cociente iba aumentando en los grupos sin TDAH.",
+  "piensalo": "¿Por qué una prueba que da un número nos parece más objetiva que una entrevista larga con la familia y el colegio?",
+  "paso": "Si ves un anuncio de diagnóstico del TDAH por EEG, comprueba si cita alguna guía clínica. Si no lo hace, busca qué dice la guía NICE sobre cómo se diagnostica.",
+  "frase": "«El mapa cerebral demuestra que mi hijo tiene TDAH.»",
+  "veredicto": "mito",
+  "matiz": "El cociente theta/beta no es una medida diagnóstica fiable. La Academia Americana de Neurología (2016) aconseja no usarlo para confirmar el TDAH fuera de la investigación, por su alta tasa de falsos positivos.",
+  "salto": "del grupo al individuo",
+  "relacionados": [
+   "biomarcador",
+   "neuroimagen",
+   "cpt",
+   "sensibilidad-especificidad",
+   "neuroencanto"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Lubar, J. F. (1991). Discourse on the development of EEG diagnostics and biofeedback for attention-deficit/hyperactivity disorders. Biofeedback and Self-Regulation, 16(3), 201-225",
+    "url": "https://doi.org/10.1007/BF01000016"
+   },
+   {
+    "titulo": "Arns, M., Conners, C. K. y Kraemer, H. C. (2013). A decade of EEG Theta/Beta Ratio Research in ADHD: a meta-analysis. Journal of Attention Disorders, 17(5), 374-383",
+    "url": "https://doi.org/10.1177/1087054712460087"
+   },
+   {
+    "titulo": "Gloss, D., Varma, J. K., Pringsheim, T. y Nuwer, M. R. (2016). Practice advisory: The utility of EEG theta/beta power ratio in ADHD diagnosis. American Academy of Neurology. Neurology, 87(22), 2375-2379",
+    "url": "https://doi.org/10.1212/WNL.0000000000003265"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": false
+ },
+ {
+  "id": "teoria-mente",
+  "lema": "Teoría de la mente",
+  "variantes": [
+   "ToM",
+   "mentalización",
+   "cognición social",
+   "comprensión de la falsa creencia"
+  ],
+  "tipo": "concepto",
+  "familia": "Cerebro, cuerpo y tratamiento",
+  "anio": 1978,
+  "anio_nota": "Premack y Woodruff acuñan la expresión al preguntarse si un chimpancé atribuye estados mentales a otros.",
+  "obra": "Premack, D. y Woodruff, G. (1978). Does the chimpanzee have a theory of mind? Behavioral and Brain Sciences.",
+  "figuras": [
+   "David Premack",
+   "Guy Woodruff",
+   "Heinz Wimmer",
+   "Josef Perner",
+   "Simon Baron-Cohen",
+   "Uta Frith"
+  ],
+  "definicion": "Capacidad de atribuir estados mentales, como creencias, deseos o intenciones, a uno mismo y a los demás, y de usarlos para entender y predecir la conducta. Se estudia con tareas como la de la falsa creencia. Es una noción central en psicología del desarrollo y en la investigación sobre autismo.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "R"
+  ],
+  "controversia": "Se cuestiona la idea de un «déficit de teoría de la mente» en el autismo: los resultados varían, las tareas se relacionan poco entre sí y el problema de la doble empatía plantea que la incomprensión es mutua.",
+  "contexto": "La expresión nació en la primatología: en 1978, Premack y Woodruff se preguntaron si un chimpancé entendía lo que pretendía un actor humano. Filósofos como Daniel Dennett respondieron que la prueba decisiva sería comprender una creencia falsa. En 1983, Wimmer y Perner llevaron esa idea a la infancia con una historia: un niño guarda chocolate, alguien lo cambia de sitio en su ausencia y hay que predecir dónde lo buscará. En 1985, Baron-Cohen, Leslie y Frith aplicaron una versión con muñecas, Sally y Ana, a niños autistas, con síndrome de Down y de desarrollo típico, y propusieron que en el autismo había una dificultad específica para representar estados mentales. La hipótesis fue enormemente influyente en la investigación, la clínica y la educación. Con el tiempo llegaron los matices: muchas personas autistas superan estas tareas, y la investigación sobre la doble empatía sugiere que la incomprensión va en ambas direcciones.",
+  "ejemplos": [
+   "Una maestra de Infantil observa que, hacia los cuatro o cinco años, muchos niños entienden que otro puede creer algo falso y lo aprovechan para gastar bromas.",
+   "En una evaluación, la psicóloga usa tareas de cognición social como un dato más, sabiendo que superarlas no descarta el autismo ni fallarlas lo confirma.",
+   "Un programa de habilidades sociales enseña a interpretar expresiones neurotípicas; una alumna autista pide que sus compañeros aprendan también a entender las suyas.",
+   "Alguien escribe en redes que «los autistas no tienen empatía». Varias personas autistas responden contando cómo sienten, a veces con más intensidad de la que saben expresar.",
+   "En investigación, la mentalización se estudia también en esquizofrenia, TDAH o demencias, lo que muestra que no es un asunto exclusivo de una sola etiqueta."
+  ],
+  "implicaciones": "La teoría de la mente sigue presente en manuales, formaciones docentes y programas de habilidades sociales en España. Su legado es doble. Ayudó a entender por qué algunas situaciones sociales resultan difíciles para muchas personas autistas y a diseñar apoyos más claros y explícitos. Pero, convertida en etiqueta rápida, alimentó estereotipos dañinos, como la idea de que las personas autistas carecen de empatía. Hoy la investigación distingue entre entender lo que piensa otro y sentir con él, reconoce una gran variabilidad individual y propone mirar la interacción en los dos sentidos. En el aula, eso se traduce en algo práctico: explicar las normas implícitas al alumnado autista y, a la vez, enseñar al resto a entender otras formas de comunicarse.",
+  "sabias": "La expresión «teoría de la mente» nació en 1978 en un estudio con un chimpancé adulto: le mostraban vídeos de un actor enfrentado a un problema y debía elegir la fotografía con la solución.",
+  "piensalo": "Cuando dos personas no se entienden, ¿por qué solemos buscar el fallo solo en una de ellas?",
+  "paso": "Esta semana, cuando malinterpretes a alguien, pregúntate qué información te faltaba sobre lo que esa persona pensaba, sabía o necesitaba.",
+  "frase": "«Las personas autistas no tienen teoría de la mente ni empatía.»",
+  "veredicto": "mito",
+  "matiz": "Hay diferencias de grupo en algunas tareas, pero no son universales: muchas personas autistas las superan, las pruebas se relacionan poco entre sí y la dificultad para entenderse suele ser mutua.",
+  "salto": "del grupo al individuo",
+  "relacionados": [
+   "autismo",
+   "doble-empatia",
+   "uta-frith",
+   "coherencia-central",
+   "camuflaje",
+   "estigma"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Premack, D. y Woodruff, G. (1978). Does the chimpanzee have a theory of mind? Behavioral and Brain Sciences, 1(4), 515-526",
+    "url": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/does-the-chimpanzee-have-a-theory-of-mind/1E96B02CD9850016B7C93BC6D2FEF1D0"
+   },
+   {
+    "titulo": "Baron-Cohen, S., Leslie, A. M. y Frith, U. (1985). Does the autistic child have a «theory of mind»? Cognition, 21(1), 37-46",
+    "url": "https://doi.org/10.1016/0010-0277(85)90022-8"
+   },
+   {
+    "titulo": "Gernsbacher, M. A. y Yergeau, M. (2019). Empirical Failures of the Claim That Autistic People Lack a Theory of Mind. Archives of Scientific Psychology, 7(1), 102-118",
+    "url": "https://doi.org/10.1037/arc0000067"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "coherencia-central",
+  "lema": "Coherencia central débil",
+  "variantes": [
+   "teoría de la coherencia central débil",
+   "WCC",
+   "sesgo hacia el detalle",
+   "procesamiento local"
+  ],
+  "tipo": "concepto",
+  "familia": "Cerebro, cuerpo y tratamiento",
+  "anio": 1989,
+  "anio_nota": "Uta Frith propone la hipótesis en su libro sobre el autismo.",
+  "obra": "Frith, U. (1989). Autism: Explaining the Enigma. Blackwell; reformulada por Happé y Frith (2006).",
+  "figuras": [
+   "Uta Frith",
+   "Francesca Happé",
+   "Amitta Shah"
+  ],
+  "definicion": "Hipótesis según la cual muchas personas autistas tienden a procesar la información fijándose en los detalles más que en el conjunto o el significado global. Hoy se entiende como un estilo o sesgo cognitivo, no como un déficit, y puede acompañarse de habilidades destacadas.",
+  "usos": [
+   "I",
+   "E"
+  ],
+  "controversia": "Los datos apoyan bastante el sesgo hacia el detalle, pero son mixtos sobre una dificultad real con lo global. Se discute si es específico del autismo y si explica algo o solo lo describe.",
+  "contexto": "A comienzos de los años ochenta, la investigación sobre autismo se centraba en las dificultades. Amitta Shah y Uta Frith se fijaron en lo contrario: en 1983 observaron que niños autistas encontraban figuras escondidas dentro de dibujos complejos mejor que otros niños, un «islote de capacidad». La teoría de la mente explicaba parte de las dificultades sociales, pero no esas fortalezas ni los intereses intensos y detallados. En 1989, en su libro Autism: Explaining the Enigma, Frith propuso que en el autismo sería más débil la tendencia habitual a integrar la información en un todo con sentido. Francesca Happé reformuló la idea a finales de los noventa: más que un déficit, un estilo cognitivo que favorece el detalle. En 2006, Happé y Frith revisaron más de 50 estudios y concluyeron que el sesgo hacia lo local era sólido, mientras que la dificultad con lo global seguía en discusión.",
+  "ejemplos": [
+   "Un alumno detecta al momento una errata en un enunciado que nadie había visto; su profesora aprovecha esa mirada y le encarga revisar el mural de la clase.",
+   "En una prueba de comprensión lectora, una alumna recuerda todos los datos del texto pero le cuesta formular la idea principal; un esquema visual la ayuda.",
+   "Durante una evaluación, el psicólogo observa que un niño resuelve un puzle por fragmentos, empezando por los detalles en lugar de por el contorno.",
+   "Una empresa valora el ojo para los detalles de una programadora autista en control de calidad, sin convertirlo en un estereotipo sobre «todos los autistas».",
+   "En investigación, se compara esta hipótesis con otras explicaciones, como el funcionamiento perceptivo aumentado o el monotropismo, para ver cuál encaja mejor con los datos."
+  ],
+  "implicaciones": "La coherencia central débil es un buen ejemplo de cómo una teoría puede cambiar de tono con el tiempo: nació como explicación de un déficit y hoy se describe como un estilo cognitivo con ventajas e inconvenientes. En el aula invita a dos cosas. Aprovechar la atención al detalle en tareas de precisión, revisión o investigación. Y ofrecer apoyos explícitos cuando la tarea pide extraer lo esencial, por ejemplo con esquemas, títulos claros o preguntas guía. También previene contra los estereotipos: no todas las personas autistas tienen este perfil, y muchas personas no autistas sí lo tienen. Como en otros casos, la tendencia media de un grupo no permite adivinar cómo piensa una persona concreta.",
+  "sabias": "En 1983, Amitta Shah y Uta Frith vieron que niños autistas encontraban figuras escondidas en dibujos complejos mejor que niños de su misma edad mental, y llamaron a ese hallazgo «islote de capacidad».",
+  "piensalo": "Cuando una forma de pensar trae a la vez dificultades y ventajas, ¿cómo decides si llamarla déficit, estilo o talento?",
+  "paso": "Observa esta semana cómo describes una imagen: ¿empiezas por lo general o por un detalle? Pregunta a dos personas cercanas cómo lo hacen ellas.",
+  "frase": "«Los autistas solo ven los detalles y nunca el conjunto.»",
+  "veredicto": "matiz",
+  "matiz": "Hay evidencia sólida de un sesgo medio hacia el detalle en el autismo, pero los datos sobre dificultades con lo global son mixtos. Se entiende como estilo, no como incapacidad, y no describe a todas las personas autistas.",
+  "salto": "de la tendencia media a la regla universal",
+  "relacionados": [
+   "teoria-mente",
+   "uta-frith",
+   "autismo",
+   "monotropismo",
+   "heterogeneidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Happé, F. y Frith, U. (2006). The weak coherence account: detail-focused cognitive style in autism spectrum disorders. Journal of Autism and Developmental Disorders, 36(1), 5-25",
+    "url": "https://link.springer.com/article/10.1007/s10803-005-0039-0"
+   },
+   {
+    "titulo": "Shah, A. y Frith, U. (1983). An islet of ability in autistic children: a research note. Journal of Child Psychology and Psychiatry, 24(4), 613-620",
+    "url": "https://doi.org/10.1111/j.1469-7610.1983.tb00137.x"
+   },
+   {
+    "titulo": "Happé, F. (1999). Autism: cognitive deficit or cognitive style? Trends in Cognitive Sciences, 3(6), 216-222",
+    "url": "https://doi.org/10.1016/s1364-6613(99)01318-2"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ }
+]

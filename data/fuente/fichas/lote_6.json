@@ -1,0 +1,988 @@
+[
+ {
+  "id": "redes-sociales",
+  "lema": "TDAH y autismo en redes sociales",
+  "variantes": [
+   "#ADHD",
+   "#TDAH",
+   "#autism",
+   "TikTok y TDAH",
+   "neurodivergencia en redes"
+  ],
+  "tipo": "concepto",
+  "familia": "Identidad y comunidad",
+  "anio": 2022,
+  "anio_nota": "Se publicó un estudio de referencia que evaluó la calidad de los 100 vídeos más populares sobre TDAH en TikTok.",
+  "obra": "Yeung, Ng y Abi-Jaoude (2022), «TikTok and Attention-Deficit/Hyperactivity Disorder: A Cross-Sectional Study of Social Media Content Quality», Canadian Journal of Psychiatry",
+  "figuras": [
+   "Anthony Yeung",
+   "Elia Abi-Jaoude",
+   "Vasileia Karasavva",
+   "Amori Mikami"
+  ],
+  "definicion": "Conjunto de contenidos, comunidades y debates sobre TDAH y autismo que circulan en plataformas como TikTok, Instagram o YouTube. Mezcla testimonios, divulgación profesional, humor y desinformación. Puede dar información y compañía, pero no sustituye a una evaluación.",
+  "usos": [
+   "I",
+   "D",
+   "R"
+  ],
+  "controversia": "Se discute si las redes ayudan a reconocer necesidades no detectadas o difunden descripciones tan amplias que cualquiera se identifica, y si aumentan las consultas, el autodiagnóstico o el estigma.",
+  "contexto": "Las plataformas de vídeo corto crecieron enormemente a finales de la década de 2010 y ganaron aún más uso durante los confinamientos de la COVID-19. A la vez, el TDAH y el autismo en adultos se hicieron más visibles, y muchas personas empezaron a contar su experiencia en primera persona. Los algoritmos premian lo que engancha: vídeos breves, listas de «señales» y frases con las que es fácil identificarse. Así se formaron comunidades que ofrecen vocabulario, apoyo y humor compartido. La investigación empezó a medir la calidad de ese contenido. En 2022, Yeung y su equipo analizaron los 100 vídeos más populares de #ADHD en TikTok y clasificaron 52 como engañosos, 27 como experiencias personales y 21 como útiles. En 2025, Karasavva y su equipo hallaron que menos de la mitad de las afirmaciones sobre síntomas encajaban con el DSM. El fenómeno junta identidad, divulgación, economía de la atención y salud.",
+  "ejemplos": [
+   "Un vídeo de «10 señales de que tienes TDAH» enumera despistes, procrastinar y perder las llaves: rasgos comunes que, sin intensidad, duración ni impacto, no distinguen un trastorno.",
+   "Una adulta autista explica en directo cómo pidió adaptaciones en su trabajo; sus seguidores comparten estrategias y dicen sentirse menos solos.",
+   "Una psiquiatra usa el formato de humor de la plataforma para desmontar un bulo sobre medicación, con las fuentes enlazadas en la descripción.",
+   "En consulta, un joven dice «lo vi en TikTok»; el profesional toma ese relato como punto de partida para explorar, no como conclusión.",
+   "Un estudio de 2025 halló que quienes veían más vídeos de #ADHD estimaban una prevalencia del TDAH más alta en la población general."
+  ],
+  "implicaciones": "En España, como en otros países, muchas consultas y tutorías empiezan ya con un vídeo. Eso no es malo por sí mismo: las redes han dado palabras a personas que no las encontraban para describir su experiencia. El problema aparece cuando un vídeo de un minuto se usa como criterio diagnóstico, o cuando una lista de rasgos casi universales se presenta como prueba. La evidencia disponible indica que la calidad media del contenido es baja y que verlo a menudo cambia la percepción del trastorno, pero no demuestra que cause diagnósticos falsos. Para familias y docentes, la clave es separar la función de pertenencia (Reconocerse) de la clínica (Diagnosticar). Para profesionales, escuchar lo que trae cada persona sin despreciarlo ni darlo por bueno.",
+  "sabias": "En un estudio de 2025, los 100 vídeos más vistos con #ADHD en TikTok sumaban casi 500 millones de visualizaciones, y menos de la mitad de sus afirmaciones sobre síntomas coincidían con el DSM.",
+  "piensalo": "Cuando un vídeo «te describe», ¿acierta en algo específico o habla de experiencias que casi todo el mundo tiene alguna vez?",
+  "paso": "Elige un vídeo sobre TDAH o autismo que te haya gustado y comprueba quién lo firma, qué fuente cita y si distingue rasgo, dificultad y diagnóstico.",
+  "frase": "«TikTok está fabricando una epidemia de TDAH.»",
+  "veredicto": "matiz",
+  "matiz": "Hay mucho contenido engañoso y verlo cambia percepciones, pero no hay pruebas de que las redes, por sí solas, fabriquen diagnósticos. El aumento de diagnósticos tiene varias causas, entre ellas una mejor detección.",
+  "salto": "del aumento de diagnósticos a «es una moda»",
+  "relacionados": [
+   "tdah",
+   "autismo",
+   "autodiagnostico",
+   "autoadscripcion",
+   "inflacion-diagnostica",
+   "neurodivergente"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Yeung, A., Ng, E. y Abi-Jaoude, E. (2022). TikTok and Attention-Deficit/Hyperactivity Disorder: A Cross-Sectional Study of Social Media Content Quality. Canadian Journal of Psychiatry, 67(12), 899-906",
+    "url": "https://doi.org/10.1177/07067437221082854"
+   },
+   {
+    "titulo": "Karasavva, V. y otros (2025). A double-edged hashtag: Evaluation of #ADHD-related TikTok content and its associations with perceptions of ADHD. PLOS ONE, 20(3), e0319335",
+    "url": "https://doi.org/10.1371/journal.pone.0319335"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "stimming",
+  "lema": "Autoestimulación (stimming)",
+  "variantes": [
+   "stim",
+   "estereotipias motoras",
+   "conducta autoestimulatoria",
+   "movimientos repetitivos"
+  ],
+  "tipo": "concepto",
+  "familia": "Identidad y comunidad",
+  "anio": 2019,
+  "anio_nota": "Se publicó el estudio de Kapp y colaboradores, que recogió la visión de 32 adultos autistas sobre el stimming.",
+  "obra": "Kapp, Steward, Crane y otros (2019), «'People should be allowed to do what they like': Autistic adults' views and experiences of stimming», revista Autism",
+  "figuras": [
+   "Steven K. Kapp",
+   "Elizabeth Pellicano",
+   "Ginny Russell"
+  ],
+  "definicion": "Movimientos, sonidos o manipulaciones repetitivas (balancearse, aletear las manos, repetir palabras, juguetear con un objeto) que ayudan a regular emociones o estímulos. Los criterios del autismo los recogen como movimientos estereotipados o repetitivos; muchas personas autistas los reivindican como algo útil. También aparecen, más discretos, en personas no autistas.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "R"
+  ],
+  "controversia": "Se discute cuándo intervenir: muchos stims son inofensivos y ayudan a regularse, pero algunos causan lesiones. El debate enfrenta a quienes buscaban eliminarlos con quienes solo intervienen si hay daño o malestar.",
+  "contexto": "Durante buena parte del siglo XX, los movimientos repetitivos se describieron sobre todo como síntomas que había que reducir, y algunos programas conductuales se marcaron como objetivo suprimirlos. Los manuales diagnósticos, incluido el DSM-5 de 2013, mantienen los movimientos motores estereotipados o repetitivos entre los rasgos que definen el autismo. Mientras tanto, adultos autistas que escribían en internet y el movimiento de la neurodiversidad popularizaron la palabra inglesa stimming, derivada de self-stimulation, y le dieron otro sentido: una herramienta para calmarse, concentrarse o expresar alegría. En 2019, Kapp y su equipo entrevistaron a 32 adultos autistas. Describieron el stimming como un mecanismo de autorregulación, contaron que la gente lo mira mal y rechazaron los tratamientos que pretenden eliminarlo. El concepto muestra bien cómo una misma conducta puede leerse como síntoma, como necesidad o como rasgo de identidad, según el uso que se haga de la etiqueta.",
+  "ejemplos": [
+   "Un alumno autista aprieta una pelota blanda durante el examen; su profesora lo permite porque le ayuda a concentrarse sin molestar a nadie.",
+   "En una reunión, alguien tamborilea con los dedos o mueve el pie sin parar: también es autoestimulación, aunque nadie lo llame así.",
+   "Una familia deja de corregir el aleteo de manos de su hijo al ver que aparece cuando está contento, y solo interviene si hay riesgo.",
+   "En consulta, la profesional pregunta qué función cumple un movimiento repetitivo antes de decidir si es un problema o una estrategia que conviene respetar.",
+   "En redes, adultos autistas comparten objetos para «stimear» y explican qué les calma en lugares ruidosos como estaciones o centros comerciales."
+  ],
+  "implicaciones": "En el aula, el stimming plantea una pregunta práctica: ¿molesta, hace daño o simplemente se sale de lo habitual? Muchos ajustes son baratos: permitir un objeto en la mano, una pausa de movimiento, un rincón tranquilo. En la consulta, ayuda a distinguir la conducta que regula de la que lesiona, sin convertir cada movimiento en síntoma. Y en la vida diaria invita a revisar normas sociales: nadie se escandaliza porque alguien juegue con el boli, pero sí si aletea. Para el marco IDEAR es un buen ejemplo: la misma conducta funciona como criterio al Diagnosticar, como motivo de ajuste al Educar y como rasgo compartido al Reconocerse. Ninguna de esas lecturas autoriza, por sí sola, a ignorar las demás.",
+  "sabias": "Según la Asociación Estadounidense de Psiquiatría, mover el pie, morderse las uñas, enrollarse el pelo o tamborilear con los dedos son formas de stimming habituales también en personas sin autismo.",
+  "piensalo": "¿Por qué toleramos sin pensarlo que alguien juegue con el bolígrafo en una reunión, pero nos incomoda ver a alguien balancearse?",
+  "paso": "Durante un día, fíjate en los pequeños movimientos repetitivos que haces tú o la gente de tu alrededor al esperar, pensar o ponerse nerviosa.",
+  "frase": "«Hay que enseñarle a estarse quieto.»",
+  "veredicto": "matiz",
+  "matiz": "Intervenir tiene sentido si un movimiento causa lesiones o impide participar. Suprimir un stim inofensivo puede quitar a la persona una forma de regularse, y muchos adultos autistas rechazan esas terapias.",
+  "salto": "",
+  "relacionados": [
+   "autismo",
+   "neurodiversidad",
+   "camuflaje",
+   "agotamiento-autista",
+   "ajustes-razonables",
+   "criterio-diagnostico"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Kapp, S. K., Steward, R., Crane, L. y otros (2019). 'People should be allowed to do what they like': Autistic adults' views and experiences of stimming. Autism, 23(7), 1782-1792",
+    "url": "https://doi.org/10.1177/1362361319829628"
+   },
+   {
+    "titulo": "American Psychiatric Association (2020). Understanding Stimming: Repetitive Behaviors with a Purpose. APA Blogs",
+    "url": "https://psychiatry.org/news-room/apa-blogs/understand-stimming-repetitive-behaviors-purpose"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "agotamiento-autista",
+  "lema": "Agotamiento autista (burnout)",
+  "variantes": [
+   "burnout autista",
+   "autistic burnout"
+  ],
+  "tipo": "concepto",
+  "familia": "Identidad y comunidad",
+  "anio": 2020,
+  "anio_nota": "Se publicó una definición académica construida con participación de la comunidad autista en todas las fases del estudio.",
+  "obra": "Raymaker y otros (2020), «\"Having All of Your Internal Resources Exhausted Beyond Measure and Being Left with No Clean-Up Crew\": Defining Autistic Burnout», Autism in Adulthood",
+  "figuras": [
+   "Dora M. Raymaker",
+   "Christina Nicolaidis"
+  ],
+  "definicion": "Estado de agotamiento prolongado, normalmente de más de tres meses, con pérdida de habilidades y menor tolerancia a los estímulos, que describen muchas personas autistas. Se atribuye al estrés vital acumulado y al desajuste entre lo que se exige y lo que se puede sostener sin apoyos. No es un diagnóstico oficial.",
+  "usos": [
+   "I",
+   "D",
+   "R"
+  ],
+  "controversia": "No figura en el DSM ni en la CIE. Se debate cómo distinguirlo de la depresión y del burnout laboral, cómo medirlo y qué papel tiene el camuflaje; la evidencia aún es sobre todo cualitativa y con muestras pequeñas.",
+  "contexto": "Durante años, adultos autistas describieron en blogs, foros y redes una experiencia que no encajaba en ninguna etiqueta clínica: tras temporadas largas de esfuerzo por adaptarse llegaba un derrumbe, con cansancio extremo, pérdida de habilidades que antes tenían y más sensibilidad al ruido o la luz. La literatura académica y clínica apenas lo recogía. En 2020, un equipo de Portland que investiga junto a personas autistas en todas las fases publicó un estudio con 19 entrevistas y 19 fuentes públicas de internet. Propuso una definición: un síndrome causado por estrés vital crónico y por el desajuste entre expectativas y capacidades sin apoyos suficientes. El momento ayuda a entenderlo: más diagnósticos en la edad adulta, más investigación participativa y más atención al coste de camuflar los rasgos. La palabra «burnout» venía del mundo laboral, pero aquí describe algo que desborda el trabajo y afecta a toda la vida.",
+  "ejemplos": [
+   "Una trabajadora autista que lleva meses camuflando sus rasgos en la oficina pierde de golpe la capacidad de hablar por teléfono o cocinar, y tarda semanas en recuperarse.",
+   "Un estudiante encadena exámenes, ruido en el piso compartido y prácticas; su tutor acuerda reducir carga temporalmente en lugar de hablar de «falta de esfuerzo».",
+   "En consulta, una psicóloga explora si un cuadro de cansancio es depresión, agotamiento autista o ambas cosas, porque la respuesta orienta el apoyo.",
+   "Una familia nota que su hija adolescente, tras un curso muy exigente, necesita más tiempo a solas y menos actividades, y lo planifica sin llamarlo pereza.",
+   "En redes, adultos autistas comparten cómo se recuperaron: bajar exigencias, descansar de estímulos y permitirse hacer las cosas a su manera."
+  ],
+  "implicaciones": "El concepto cambia la pregunta: en lugar de «¿por qué ya no puede?», invita a preguntar «¿qué carga lleva y qué apoyos le faltan?». En la escuela y el trabajo conecta con los ajustes razonables: reducir estímulos, flexibilizar horarios o prever pausas puede prevenir derrumbes. En sanidad plantea un reto serio, porque puede confundirse con depresión y el estudio de 2020 recogió conductas suicidas entre sus consecuencias. A la vez, conviene prudencia: es un concepto joven, sin criterios consensuados, y no todo cansancio en una persona autista es agotamiento autista. En términos IDEAR, nació en el uso Reconocerse, ha entrado en Investigar y todavía no tiene un uso estandarizado para Diagnosticar. Tratarlo como diagnóstico cerrado sería adelantarse a la evidencia.",
+  "sabias": "La OMS incluye el «burn-out» en la CIE-11 solo como fenómeno laboral, no como enfermedad, y pide no usarlo para otras áreas de la vida. El agotamiento autista, en cambio, se describe más allá del trabajo.",
+  "piensalo": "Si alguien rinde bien durante años a costa de un esfuerzo invisible, ¿cómo podríamos saber que se está agotando antes de que se derrumbe?",
+  "paso": "Pregunta a alguien de confianza qué situaciones cotidianas le cansan más de lo que parece desde fuera, y escucha sin proponer soluciones.",
+  "frase": "«El burnout autista es solo una depresión con otro nombre.»",
+  "veredicto": "matiz",
+  "matiz": "Comparten síntomas y pueden coexistir, pero las personas entrevistadas lo describen como distinto, más ligado a sobrecarga sensorial, pérdida de habilidades y camuflaje. Faltan estudios grandes y medidas validadas para separarlos bien.",
+  "salto": "de la identidad al diagnóstico",
+  "relacionados": [
+   "autismo",
+   "camuflaje",
+   "stimming",
+   "coexistencia",
+   "diagnostico-diferencial",
+   "ajustes-razonables"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Raymaker, D. M. y otros (2020). \"Having All of Your Internal Resources Exhausted Beyond Measure and Being Left with No Clean-Up Crew\": Defining Autistic Burnout. Autism in Adulthood, 2(2), 132-143",
+    "url": "https://doi.org/10.1089/aut.2019.0079"
+   },
+   {
+    "titulo": "Organización Mundial de la Salud (2019). Burn-out an \"occupational phenomenon\": International Classification of Diseases. OMS",
+    "url": "https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "neae",
+  "lema": "Necesidades específicas de apoyo educativo (NEAE)",
+  "variantes": [
+   "NEAE",
+   "ACNEAE",
+   "alumnado con necesidad específica de apoyo educativo"
+  ],
+  "tipo": "institucion",
+  "familia": "Escuela, apoyos e instituciones",
+  "anio": 2006,
+  "anio_nota": "Se aprobó la Ley Orgánica de Educación (LOE), que organizó la atención a la diversidad bajo esta categoría en su título II.",
+  "obra": "Ley Orgánica 2/2006, de 3 de mayo, de Educación (LOE), título II, capítulo I (art. 71 y siguientes); reformada por la LOMCE (2013) y la LOMLOE (2020)",
+  "figuras": [],
+  "definicion": "Categoría educativa española para el alumnado que necesita una atención distinta de la ordinaria. Agrupa situaciones muy diversas: necesidades educativas especiales, retraso madurativo, trastornos del lenguaje, de atención o de aprendizaje, desconocimiento grave de la lengua, vulnerabilidad socioeducativa, altas capacidades, incorporación tardía o historia escolar.",
+  "usos": [
+   "E",
+   "A",
+   "I"
+  ],
+  "controversia": "Se discute si agrupar realidades tan distintas aclara o confunde, cuánto varían los criterios entre comunidades autónomas y si las cifras registradas reflejan necesidades reales, detección desigual o reglas administrativas.",
+  "contexto": "Hasta los años noventa, el sistema español hablaba sobre todo de educación especial y, desde la LOGSE de 1990, de necesidades educativas especiales. Con la llegada de alumnado de otros países, la atención a las altas capacidades y la presión para reconocer las dificultades de aprendizaje, hacía falta un paraguas más amplio. La LOE de 2006 lo creó: su título II, dedicado a la equidad, se ocupa del alumnado que requiere alguna necesidad específica de apoyo educativo. La LOMCE de 2013 nombró expresamente el TDAH, y la LOMLOE de 2020 reescribió la lista con categorías como retraso madurativo, trastornos del desarrollo del lenguaje y vulnerabilidad socioeducativa. La lógica es educativa, no clínica: lo que une a estos grupos no es una causa común, sino que necesitan una respuesta distinta de la ordinaria. Por eso la categoría organiza recursos, planes y estadísticas, pero no explica por qué un alumno tiene dificultades.",
+  "ejemplos": [
+   "Una alumna recién llegada que no habla español y un alumno con altas capacidades figuran ambos como NEAE: necesitan respuestas distintas, pero comparten categoría.",
+   "La orientadora registra a un niño con dislexia como NEAE por dificultades de aprendizaje, lo que permite planificar refuerzo y adaptar la forma de evaluarle.",
+   "Una familia solicita la ayuda estatal para alumnado con necesidad específica de apoyo educativo y descubre que debe acreditar la necesidad, no solo aportar un diagnóstico.",
+   "Un periodista compara el porcentaje de alumnado NEAE entre comunidades sin advertir que cada una aplica criterios y procedimientos de identificación distintos.",
+   "Un claustro debate si un alumno con TDAH necesita medidas específicas o le bastan los ajustes generales que ya se hacen en el aula."
+  ],
+  "implicaciones": "La categoría NEAE es una pieza central de la escuela española: de ella dependen planes de apoyo, profesorado especialista, ayudas al estudio y estadísticas oficiales. El proyecto del que nace esta web señala dos errores simétricos. Uno es leer las cifras como prevalencias clínicas: el registro cuenta al alumnado valorado y atendido, no a todas las personas que cumplirían una definición. El otro es despreciar la categoría porque mezcla realidades distintas, cuando precisamente está pensada para decidir apoyos y no para explicar causas. Las diferencias entre comunidades en criterios y procedimientos hacen arriesgado comparar porcentajes sin contexto. Si oyes que «hay demasiados NEAE», pregunta: ¿según qué criterio, en qué comunidad y comparado con qué necesidades que siguen sin atender?",
+  "sabias": "En la categoría NEAE caben a la vez un alumno con altas capacidades y otro que acaba de llegar sin conocer el idioma: lo que los une no es un trastorno, sino necesitar una atención distinta de la ordinaria.",
+  "piensalo": "Si una misma etiqueta reúne a un alumno con altas capacidades y a otro recién llegado de otro país, ¿qué información da y cuál oculta?",
+  "paso": "Busca en la web de la consejería de educación de tu comunidad cómo se identifica al alumnado NEAE, quién hace la valoración y qué documento se emite.",
+  "frase": "«Hoy medio aula tiene alguna etiqueta NEAE.»",
+  "veredicto": "matiz",
+  "matiz": "Exagera y mezcla planos. NEAE no es un diagnóstico: incluye situaciones lingüísticas, sociales y de altas capacidades, y cuenta al alumnado valorado y atendido con reglas que varían entre comunidades.",
+  "salto": "de la cifra administrativa a la prevalencia clínica",
+  "relacionados": [
+   "nee",
+   "lomloe",
+   "evaluacion-psicopedagogica",
+   "altas-capacidades",
+   "diferencias-autonomicas",
+   "prevalencia"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Jefatura del Estado (2006). Ley Orgánica 2/2006, de 3 de mayo, de Educación (texto consolidado). Boletín Oficial del Estado",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899"
+   },
+   {
+    "titulo": "Comisión Europea, Eurydice (s. f.). España: apoyo educativo y orientación. Eurydice",
+    "url": "https://eurydice.eacea.ec.europa.eu/es/national-education-systems/spain/apoyo-educativo-y-orientacion"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "nee",
+  "lema": "Necesidades educativas especiales (NEE)",
+  "variantes": [
+   "NEE",
+   "ACNEE",
+   "special educational needs",
+   "SEN"
+  ],
+  "tipo": "institucion",
+  "familia": "Escuela, apoyos e instituciones",
+  "anio": 1978,
+  "anio_nota": "Se publicó en el Reino Unido el Informe Warnock, que acuñó el concepto de necesidades educativas especiales.",
+  "obra": "Informe Warnock (1978), Report of the Committee of Enquiry into the Education of Handicapped Children and Young People, HMSO, Londres; en España, LOGSE (1990) y hoy art. 73 de la LOE reformada por la LOMLOE",
+  "figuras": [
+   "Mary Warnock"
+  ],
+  "definicion": "Subgrupo de las NEAE para el alumnado que afronta barreras de acceso, presencia, participación o aprendizaje derivadas de una discapacidad o de trastornos graves de conducta, comunicación o lenguaje. Pone el foco en el apoyo que la escuela debe dar más que en la etiqueta clínica.",
+  "usos": [
+   "E",
+   "A",
+   "I"
+  ],
+  "controversia": "Se discute si el concepto sigue centrado en déficits individuales, qué alumnado debe escolarizarse en centros específicos y si los recursos dependen demasiado de tener reconocida la etiqueta NEE.",
+  "contexto": "Antes de los años setenta, muchos sistemas educativos clasificaban al alumnado por tipos de «deficiencia»: la ley británica de 1944 contemplaba diez categorías. En 1978, una comisión presidida por la filósofa Mary Warnock propuso cambiar el enfoque: en lugar de preguntar qué tiene el niño, preguntar qué necesita para aprender. Así nació la expresión special educational needs, que trasladaba la atención del déficit individual a los requisitos educativos. La idea viajó rápido. En España, la LOGSE de 1990 adoptó las necesidades educativas especiales junto con los principios de normalización e integración escolar, y el Real Decreto 696/1995 ordenó su atención. La LOE de 2006 las situó como subgrupo dentro de las NEAE, y la LOMLOE de 2020 las redefinió en términos de barreras para el acceso, la presencia, la participación o el aprendizaje, un lenguaje cercano al modelo social de la discapacidad.",
+  "ejemplos": [
+   "Un alumno con parálisis cerebral estudia en un centro ordinario con fisioterapeuta, ordenador adaptado y adaptación curricular, porque tiene reconocidas necesidades educativas especiales.",
+   "Una niña sorda tiene reconocidas NEE; su colegio cuenta con intérprete de lengua de signos y ajusta las pruebas orales.",
+   "Una familia no está de acuerdo con la propuesta de escolarización; según la LOE, la inspección educativa decide después de escucharla.",
+   "Una comunidad autónoma cambia sus reglas de registro y el número de alumnos con NEE varía sin que haya cambiado el alumnado real.",
+   "En una tutoría, la orientadora explica a unos padres que NEE no es un diagnóstico médico, sino una forma de describir apoyos escolares."
+  ],
+  "implicaciones": "En España, tener reconocidas NEE abre la puerta a recursos concretos: profesorado especialista, materiales adaptados, adaptaciones curriculares significativas y, en algunos casos, escolarización en centros de educación especial. Por eso la etiqueta pesa tanto para las familias y para las plantillas docentes. La LOMLOE encargó un plan para que, en diez años, los centros ordinarios cuenten con recursos para atender al alumnado con discapacidad, mientras los centros especiales siguen atendiendo a quien necesita una atención muy especializada. Ese equilibrio genera debate entre quienes defienden la inclusión plena y quienes quieren mantener la educación especial como opción. El dilema de fondo es el de toda etiqueta de acceso: si los apoyos dependen de ella, quien queda justo fuera puede quedarse sin ayuda.",
+  "sabias": "La ley británica de 1944 repartía al alumnado en diez categorías de «deficiencia». El Informe Warnock de 1978 propuso sustituirlas por una pregunta más útil: qué necesita cada niño para aprender.",
+  "piensalo": "¿Qué cambia en una escuela cuando deja de preguntar «qué tiene este niño» y empieza a preguntar «qué necesita para aprender aquí»?",
+  "paso": "Pregunta en un colegio cercano o en su asociación de familias cuántos especialistas de apoyo hay y cómo se reparten entre el alumnado.",
+  "frase": "«Con un informe de NEE ya tienes todos los apoyos.»",
+  "veredicto": "mito",
+  "matiz": "El reconocimiento de NEE orienta recursos, pero los apoyos reales dependen de la evaluación, de la comunidad autónoma, de los profesionales disponibles y de la organización del centro. El informe no garantiza por sí solo la provisión.",
+  "salto": "",
+  "relacionados": [
+   "neae",
+   "lomloe",
+   "educacion-inclusiva",
+   "modelo-social",
+   "evaluacion-psicopedagogica",
+   "discapacidad-intelectual"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Committee of Enquiry into the Education of Handicapped Children and Young People (1978). Special Educational Needs (Informe Warnock). HMSO",
+    "url": "https://education-uk.org/documents/warnock"
+   },
+   {
+    "titulo": "Egelund, N. y Dyssegaard, C. B. (2019). Forty Years After Warnock: Special Needs Education and the Inclusion Process in Denmark. Frontiers in Education, 4, 54",
+    "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2019.00054/full"
+   },
+   {
+    "titulo": "Comisión Europea, Eurydice (s. f.). España: atención a las necesidades educativas especiales del alumnado. Eurydice",
+    "url": "https://eurydice.eacea.ec.europa.eu/es/national-education-systems/spain/atencion-las-necesidades-educativas-especiales-del-alumnado-en"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "lomloe",
+  "lema": "LOMLOE (Ley Orgánica 3/2020)",
+  "variantes": [
+   "Ley Celaá",
+   "Ley Orgánica 3/2020",
+   "Ley Orgánica de Modificación de la LOE"
+  ],
+  "tipo": "documento",
+  "familia": "Escuela, apoyos e instituciones",
+  "anio": 2020,
+  "anio_nota": "Se aprobó el 29 de diciembre y se publicó en el BOE el 30 de diciembre de 2020.",
+  "obra": "Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación (Cortes Generales)",
+  "figuras": [
+   "Isabel Celaá"
+  ],
+  "definicion": "Ley que reformó en profundidad la LOE de 2006. En atención a la diversidad, redefinió las necesidades educativas especiales en términos de barreras, reordenó las categorías NEAE, incorporó los principios del Diseño universal de aprendizaje y encargó un plan decenal para que los centros ordinarios atiendan al alumnado con discapacidad.",
+  "usos": [
+   "E",
+   "A"
+  ],
+  "controversia": "Su disposición sobre educación especial desató una fuerte polémica: parte de las familias temió el cierre de centros específicos, algo que el Ministerio negó, y entidades como el CERMI criticaron que el plan de inclusión no tuviera partida presupuestaria.",
+  "contexto": "España ha cambiado varias veces de ley educativa general desde la Transición, casi siempre al compás de los cambios de Gobierno. La LOMLOE nació para revertir buena parte de la LOMCE de 2013 y actualizar la LOE. En atención a la diversidad pesaron dos compromisos internacionales: la Convención de la ONU sobre los derechos de las personas con discapacidad, que el preámbulo cita para fundamentar el derecho a la educación inclusiva, y los Objetivos de Desarrollo Sostenible. La ley se tramitó en plena pandemia y con fuerte contestación de una parte de la comunidad educativa. Su disposición adicional cuarta fue de las más debatidas: pide un plan para que, en diez años, los centros ordinarios tengan recursos para atender en las mejores condiciones al alumnado con discapacidad, y mantiene los centros de educación especial para quien requiera atención muy especializada y como centros de referencia y apoyo. El preámbulo menciona expresamente el Diseño universal de aprendizaje.",
+  "ejemplos": [
+   "Un colegio revisa su plan de atención a la diversidad para aplicar principios del Diseño universal de aprendizaje, como ofrecer la información en varios formatos.",
+   "En 2020, plataformas de familias de centros de educación especial se movilizaron contra la disposición adicional cuarta por miedo al cierre de esos centros.",
+   "Una orientadora redacta un informe con la definición vigente de NEE: describe las barreras de acceso y participación, no solo el diagnóstico.",
+   "En una tertulia, una invitada ve en la ley un paso hacia la inclusión plena y otro invitado denuncia que llegó sin presupuesto propio.",
+   "Un profesor de Magisterio explica que «LOMLOE» y «Ley Celaá» son la misma norma, y que modifica la LOE en lugar de sustituirla."
+  ],
+  "implicaciones": "La LOMLOE es hoy el marco de la escuela española, desarrollado después por reales decretos y normas autonómicas. Para el tema de esta web importa por tres cosas. Primera, define las NEE por barreras, un lenguaje cercano al modelo social. Segunda, reordena las NEAE con categorías como trastornos de atención o de aprendizaje y vulnerabilidad socioeducativa. Tercera, fija un horizonte de diez años para que los centros ordinarios tengan recursos, un plazo que vence a comienzos de la próxima década. Si oyes que la ley «cierra la educación especial», comprueba el texto: no lo dice. Si oyes que ya garantiza la inclusión, pregunta por los recursos: una ley fija objetivos, pero su aplicación depende de presupuestos y de las comunidades autónomas.",
+  "sabias": "La LOMLOE no sustituye a la LOE: la modifica. Por eso la ley vigente sigue llamándose Ley Orgánica 2/2006, de Educación, con los cambios introducidos a finales de 2020.",
+  "piensalo": "Si una ley fija un objetivo a diez años sin una partida presupuestaria propia, ¿cómo podríamos saber dentro de una década si se ha cumplido?",
+  "paso": "Abre la LOMLOE en el BOE y lee su disposición adicional cuarta, que ocupa pocas líneas. Compárala con lo que has oído decir sobre ella.",
+  "frase": "«La Ley Celaá cierra los centros de educación especial.»",
+  "veredicto": "mito",
+  "matiz": "El texto prevé que los centros de educación especial sigan escolarizando a quien requiera atención muy especializada y actúen como centros de referencia y apoyo. El debate real trata de recursos y del ritmo de la inclusión.",
+  "salto": "",
+  "relacionados": [
+   "neae",
+   "nee",
+   "dua",
+   "educacion-inclusiva",
+   "convencion-onu",
+   "diferencias-autonomicas"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Jefatura del Estado (2020). Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación. Boletín Oficial del Estado, 340",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-17264"
+   },
+   {
+    "titulo": "Maldita.es (2020). Qué dice la Ley Celaá (LOMLOE) sobre la educación especial. Maldita.es",
+    "url": "https://maldita.es/malditateexplica/20201125/ley-celaa-lomloe-educacion-especial-cierre/"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "ajustes-razonables",
+  "lema": "Ajustes razonables",
+  "variantes": [
+   "reasonable accommodation",
+   "adaptaciones razonables"
+  ],
+  "tipo": "concepto",
+  "familia": "Escuela, apoyos e instituciones",
+  "anio": 2006,
+  "anio_nota": "La Convención de la ONU sobre los derechos de las personas con discapacidad los definió en su artículo 2 y declaró discriminatoria su denegación.",
+  "obra": "Convención sobre los derechos de las personas con discapacidad (Naciones Unidas, 2006), art. 2; en España, Real Decreto Legislativo 1/2013, art. 2.m",
+  "figuras": [],
+  "definicion": "Modificaciones y adaptaciones necesarias y adecuadas que se hacen para una persona concreta con discapacidad, cuando se necesitan, sin imponer una carga desproporcionada o indebida. Buscan que pueda ejercer sus derechos en igualdad. Negarlas cuando proceden se considera discriminación.",
+  "usos": [
+   "E",
+   "A"
+  ],
+  "controversia": "Se discute dónde está el límite de lo «desproporcionado», si hace falta diagnóstico o certificado para pedirlos y cómo evitar que se perciban como ventaja sin dejar a nadie sin el apoyo que necesita.",
+  "contexto": "La idea de ajustar el entorno a la persona creció con el movimiento por los derechos de las personas con discapacidad y con el modelo social, que sitúa buena parte del problema en las barreras. Ya aparecía en algunas leyes antidiscriminación, pero la Convención de la ONU de 2006 le dio alcance mundial: la definió en su artículo 2 y estableció que la denegación de ajustes razonables es una forma de discriminación. España ratificó la Convención, en vigor para el país desde 2008, y el texto refundido de la Ley General de derechos de las personas con discapacidad, de 2013, incorporó la definición con ajustes del entorno físico, cognitivo, comunicativo, social y actitudinal. La lógica complementa la accesibilidad universal: lo universal se diseña de antemano para todos; el ajuste razonable responde a una situación concreta que el diseño general no cubre. Su gran pregunta jurídica es qué carga resulta proporcionada para quien debe hacerlo.",
+  "ejemplos": [
+   "Una opositora con TDAH solicita tiempo adicional y un aula con menos distracciones; el tribunal estudia la petición junto con la documentación que aporta.",
+   "Una empresa permite a un empleado autista trabajar con auriculares de cancelación de ruido y recibir las instrucciones importantes por escrito.",
+   "Un instituto da a una alumna con dislexia los enunciados en letra más grande y le permite responder parte del examen de forma oral.",
+   "Una universidad niega cambiar un horario alegando molestias organizativas; la estudiante reclama porque denegar un ajuste necesario puede ser discriminación.",
+   "Un ayuntamiento instala un bucle magnético en el salón de plenos para que un vecino con audífono pueda seguir las sesiones."
+  ],
+  "implicaciones": "Los ajustes razonables son la herramienta más cotidiana de la inclusión: aparecen en exámenes, oposiciones, universidades, empleo o atención sanitaria. Plantean dos preguntas que conviene separar. ¿Qué necesita esta persona en este contexto? Eso es Educar o Acceder. ¿Qué diagnóstico tiene? Eso es Diagnosticar. No son lo mismo: un ajuste se justifica por la barrera y la necesidad, aunque muchas instituciones pidan un informe para concederlo. También asoma la sospecha de trampa: «se lo inventan para tener más tiempo». El proyecto del que nace esta web no encontró pruebas de que ampliar apoyos produzca necesariamente abuso, y el error contrario, negar un ajuste necesario, también tiene costes. Lo razonable es decidir caso a caso, con criterios públicos y posibilidad de reclamar.",
+  "sabias": "La Convención de la ONU no se limita a definir los ajustes razonables: establece que la «denegación de ajustes razonables» es, en sí misma, una forma de discriminación por motivos de discapacidad.",
+  "piensalo": "¿Dónde pondrías la frontera entre un ajuste que iguala oportunidades y una ventaja injusta? ¿Quién debería decidirlo y con qué información?",
+  "paso": "Averigua qué procedimiento tiene tu universidad, tu empresa o tu oposición para pedir adaptaciones y qué documentación exige. ¿Es fácil de encontrar?",
+  "frase": "«Dar más tiempo en un examen es regalar el aprobado.»",
+  "veredicto": "mito",
+  "matiz": "Un ajuste busca compensar una barrera concreta, no rebajar el nivel exigido. Debe justificarse caso a caso: aplicado sin evaluación sería injusto, pero negarlo cuando hace falta también lo es.",
+  "salto": "del incentivo a la trampa",
+  "relacionados": [
+   "convencion-onu",
+   "modelo-social",
+   "dua",
+   "certificado-discapacidad",
+   "adaptaciones-curriculares",
+   "errores-simetricos"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Naciones Unidas (2006). Convención sobre los derechos de las personas con discapacidad (instrumento de ratificación de España). Boletín Oficial del Estado, 21-04-2008",
+    "url": "https://www.boe.es/eli/es/ai/2006/12/13/(1)/con"
+   },
+   {
+    "titulo": "Gobierno de España (2013). Real Decreto Legislativo 1/2013, texto refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social. Boletín Oficial del Estado",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12632"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "dua",
+  "lema": "Diseño universal para el aprendizaje (DUA)",
+  "variantes": [
+   "DUA",
+   "UDL",
+   "Universal Design for Learning",
+   "Diseño universal de aprendizaje"
+  ],
+  "tipo": "concepto",
+  "familia": "Escuela, apoyos e instituciones",
+  "anio": 2002,
+  "anio_nota": "Se publicó el libro que difundió el marco, escrito por David Rose y Anne Meyer, del centro CAST.",
+  "obra": "Rose y Meyer (2002), Teaching Every Student in the Digital Age: Universal Design for Learning, ASCD (CAST)",
+  "figuras": [
+   "David H. Rose",
+   "Anne Meyer",
+   "Ronald Mace"
+  ],
+  "definicion": "Marco para planificar la enseñanza de modo que sirva desde el principio a la mayor variedad posible de estudiantes, en lugar de adaptarla después. Propone ofrecer varias formas de implicarse, de acceder a la información y de expresar lo aprendido. La LOMLOE lo incorpora como principio.",
+  "usos": [
+   "E",
+   "I"
+  ],
+  "controversia": "Su popularidad va por delante de su evidencia: un metaanálisis de 2017 halló mejoras en el proceso de aprendizaje, pero no un impacto demostrado en los resultados. También se critica aplicarlo como lista de trucos sin cambiar la práctica.",
+  "contexto": "El arquitecto estadounidense Ronald Mace introdujo en los años ochenta el «diseño universal»: edificios y productos pensados para que los use todo el mundo, en lugar de añadir rampas al final. En Estados Unidos, el centro CAST trabajaba con tecnología para alumnado con discapacidad y comprobó que muchas soluciones beneficiaban a toda la clase. En los años noventa, David Rose, Anne Meyer y su equipo trasladaron la idea al currículo, apoyándose en investigación sobre el cerebro y el aprendizaje, y en 2002 publicaron el libro que difundió el marco. CAST elaboró después unas pautas, revisadas varias veces; la versión 3.0 llegó en 2024. El DUA encajó con el giro hacia la educación inclusiva: si parte de la barrera está en un currículo rígido, conviene flexibilizarlo de antemano. En España entró en el lenguaje normativo con la LOMLOE, cuyo preámbulo habla de los principios del Diseño universal de aprendizaje.",
+  "ejemplos": [
+   "Una profesora explica la fotosíntesis con un texto, un vídeo subtitulado y una maqueta, y deja elegir entre examen escrito, póster o exposición oral.",
+   "Un instituto sube los apuntes en formato digital editable para que quien lo necesite pueda ampliarlos o escucharlos con un lector de voz.",
+   "En una formación, un docente dice que el DUA es «hacer de todo para todos»; la ponente aclara que es planificar opciones con objetivos claros.",
+   "Un alumno con dislexia y una alumna recién llegada usan el mismo audiolibro en clase; ninguno necesita una adaptación individual para esa tarea.",
+   "Un centro revisa sus programaciones para explicar cómo aplica los principios del DUA, tal como pide la normativa educativa derivada de la LOMLOE."
+  ],
+  "implicaciones": "El DUA cambia el orden de las preguntas: primero diseñar para la diversidad y después ajustar para cada caso. Eso reduce la dependencia de las etiquetas: si el aula ya ofrece varias formas de acceder y de expresarse, menos alumnos necesitan un informe para recibir lo básico. Por eso conecta con el marco IDEAR: en el uso Educar, muchas barreras se pueden retirar sin pasar por Diagnosticar. Pero conviene no venderlo como varita mágica. La evidencia sobre resultados académicos es todavía limitada, y aplicarlo bien exige tiempo, formación y recursos que no siempre llegan a los centros. Si oyes que el DUA «sustituye» los apoyos específicos, recuerda que hay necesidades que requieren medidas individuales además de un buen diseño general.",
+  "sabias": "La idea viene de la arquitectura: el «diseño universal» de Ronald Mace buscaba que un edificio sirviera a todo el mundo desde el plano, sin añadir apaños después. El DUA aplica esa lógica a las clases.",
+  "piensalo": "Piensa en una asignatura que se te atragantara: ¿qué parte de la dificultad era tuya y qué parte venía de cómo estaba diseñada la clase?",
+  "paso": "Toma un material que uses (una presentación, una receta, un folleto) y añade otra forma de acceder a él: imagen, audio, esquema o letra más grande.",
+  "frase": "«Con el DUA ya no hacen falta apoyos individuales.»",
+  "veredicto": "mito",
+  "matiz": "El DUA reduce barreras para mucha gente, pero no elimina la necesidad de ajustes o apoyos específicos. Además, su efecto sobre los resultados académicos todavía no está bien demostrado.",
+  "salto": "",
+  "relacionados": [
+   "educacion-inclusiva",
+   "lomloe",
+   "ajustes-razonables",
+   "adaptaciones-curriculares",
+   "modelo-social"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Rose, D. y Meyer, A. (2002). Teaching Every Student in the Digital Age: Universal Design for Learning. ASCD (ficha en CAST)",
+    "url": "https://www.cast.org/resources/case-studies/teaching-every-student-in-the-digital-age-universal-design-for-learning/"
+   },
+   {
+    "titulo": "Capp, M. J. (2017). The effectiveness of universal design for learning: a meta-analysis of literature between 2013 and 2016. International Journal of Inclusive Education, 21(8), 791-807",
+    "url": "https://doi.org/10.1080/13603116.2017.1325074"
+   },
+   {
+    "titulo": "eCampusOntario (s. f.). Origins of UDL. En Universal Design for Learning. eCampusOntario Pressbooks",
+    "url": "https://ecampusontario.pressbooks.pub/universaldesign/chapter/origins-of-udl/"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "certificado-discapacidad",
+  "lema": "Certificado de discapacidad",
+  "variantes": [
+   "grado de discapacidad",
+   "reconocimiento del grado de discapacidad",
+   "certificado del 33 %"
+  ],
+  "tipo": "institucion",
+  "familia": "Escuela, apoyos e instituciones",
+  "anio": 2022,
+  "anio_nota": "Se aprobó el Real Decreto 888/2022, que fija el procedimiento y los baremos actuales; entró en vigor el 20 de abril de 2023.",
+  "obra": "Real Decreto 888/2022, de 18 de octubre, de reconocimiento, declaración y calificación del grado de discapacidad (Gobierno de España); umbral del 33 % en el Real Decreto Legislativo 1/2013, art. 4.2",
+  "figuras": [],
+  "definicion": "Documento oficial que reconoce un grado de discapacidad expresado en porcentaje, tras valorar deficiencias, limitaciones en la actividad, restricciones en la participación y factores del entorno. Desde el 33 %, la persona tiene la consideración legal de persona con discapacidad. No es un diagnóstico ni un informe clínico.",
+  "usos": [
+   "A",
+   "E"
+  ],
+  "controversia": "Se discute si los baremos captan bien condiciones como el autismo o el TDAH, cuánto se tarda en obtener la valoración, las diferencias entre comunidades y si el umbral del 33 % deja fuera necesidades reales.",
+  "contexto": "El reconocimiento oficial de la discapacidad en España se ha basado durante décadas en porcentajes. El Real Decreto 1971/1999 rigió más de veinte años con un baremo anterior a los enfoques actuales. Dos referencias internacionales empujaron el cambio: la Clasificación Internacional del Funcionamiento de la OMS, de 2001, y la Convención de la ONU de 2006, que entienden la discapacidad como resultado de la interacción entre la persona y las barreras. El Real Decreto 888/2022 adaptó los baremos a ese modelo biopsicosocial, valorando también la actividad, la participación y el contexto, y entró en vigor en abril de 2023. El certificado se pensó como llave administrativa: abre derechos laborales, fiscales, educativos o de transporte. Por eso conviene no confundirlo con el diagnóstico, con la necesidad educativa ni con la dependencia, que tienen sus propios procedimientos y finalidades.",
+  "ejemplos": [
+   "Una persona autista con un 33 % reconocido puede presentarse por el cupo de plazas de empleo público reservadas a personas con discapacidad.",
+   "Una familia pide el certificado para su hijo con TEA y descubre que el diagnóstico no basta: el equipo valora limitaciones, participación y contexto.",
+   "Desde el 23 de octubre de 2026, la Ley 4/2026 asimila el grado I de dependencia a un 33 % de discapacidad, pero solo en los ámbitos que prevé.",
+   "Un trabajador con TDAH duda si solicitarlo; una asesora le explica qué derechos y qué trámites implica, sin decidir por él.",
+   "Un titular confunde «grado de dependencia» y «grado de discapacidad»: son valoraciones distintas, con leyes y finalidades diferentes."
+  ],
+  "implicaciones": "El certificado es un ejemplo claro del uso Acceder: no explica por qué una persona tiene dificultades, sino qué derechos se le reconocen. Por eso tiene su propia lógica y sus propios umbrales. La Ley 4/2026, publicada en el BOE el 3 de octubre de 2026, entra en vigor el 23 de octubre y asimila el grado I de dependencia a un 33 % de discapacidad y los grados II y III a un 65 %, solo para los efectos previstos y no en materia tributaria. Es una equivalencia práctica, no una afirmación de que dependencia y discapacidad sean lo mismo. Si oyes que «con el diagnóstico te dan el certificado», recuerda que la valoración mide limitaciones y contexto: decide el baremo, no la etiqueta.",
+  "sabias": "El baremo de 1999 estuvo vigente más de dos décadas. El Real Decreto 888/2022 lo derogó y adoptó como referencia el modelo biopsicosocial de la Clasificación Internacional del Funcionamiento de la OMS.",
+  "piensalo": "¿Debería un porcentaje decidir el acceso a derechos? Si no, ¿qué alternativa sería a la vez justa, rápida y comprobable?",
+  "paso": "Busca en la web de servicios sociales de tu comunidad cuánto tarda la valoración de discapacidad y qué documentación pide.",
+  "frase": "«Si tienes un diagnóstico de autismo, ya tienes el certificado de discapacidad.»",
+  "veredicto": "mito",
+  "matiz": "El certificado exige una valoración específica con baremos de deficiencias, actividad, participación y contexto. Un mismo diagnóstico puede dar grados muy distintos, o no alcanzar el 33 %, según cómo afecte a la vida de cada persona.",
+  "salto": "del grupo al individuo",
+  "relacionados": [
+   "modelo-social",
+   "convencion-onu",
+   "incentivos",
+   "umbral",
+   "autismo",
+   "tdah"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Gobierno de España (2022). Real Decreto 888/2022, de 18 de octubre, procedimiento para el reconocimiento, declaración y calificación del grado de discapacidad. Boletín Oficial del Estado",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-17105"
+   },
+   {
+    "titulo": "Gobierno de España (2013). Real Decreto Legislativo 1/2013, texto refundido de la Ley General de derechos de las personas con discapacidad. Boletín Oficial del Estado",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12632"
+   },
+   {
+    "titulo": "Jefatura del Estado (2026). Ley 4/2026, de 1 de octubre, de modificación de la Ley General de derechos de las personas con discapacidad y de la Ley 39/2006. Boletín Oficial del Estado, 246",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20528"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "modelo-social",
+  "lema": "Modelo social de la discapacidad",
+  "variantes": [
+   "social model of disability",
+   "modelo social",
+   "enfoque de barreras"
+  ],
+  "tipo": "concepto",
+  "familia": "Escuela, apoyos e instituciones",
+  "anio": 1983,
+  "anio_nota": "Mike Oliver presentó y difundió el «modelo social» en su libro Social Work with Disabled People.",
+  "obra": "Oliver, M. (1983), Social Work with Disabled People; antecedente: UPIAS (1976), Fundamental Principles of Disability",
+  "figuras": [
+   "Mike Oliver",
+   "Tom Shakespeare"
+  ],
+  "definicion": "Enfoque que distingue la deficiencia, una diferencia física, sensorial, intelectual o mental, de la discapacidad, que surge cuando la sociedad levanta barreras que excluyen. Desplaza la pregunta de «qué falla en la persona» a «qué obstáculos hay que quitar». Su huella se ve en la Convención de la ONU de 2006.",
+  "usos": [
+   "A",
+   "E",
+   "R",
+   "I"
+  ],
+  "controversia": "Se le critica que, al centrarse en las barreras, deje en segundo plano el dolor, la fatiga o las limitaciones que persisten aunque cambie el entorno, y que atienda poco otras desigualdades como la raza, la clase o el género.",
+  "contexto": "En los años setenta, en el Reino Unido, un grupo de personas con discapacidad física se organizó contra la segregación en la Union of the Physically Impaired Against Segregation (UPIAS). En 1976 publicaron Fundamental Principles of Disability: la raíz del problema, sostenían, era cómo estaba organizada la sociedad y las barreras que levantaba, no una «tragedia personal». El sociólogo Mike Oliver recogió esas ideas y en 1983 las presentó como «modelo social», frente al modelo individual o médico. La propuesta era política además de teórica: si la exclusión se produce socialmente, también se puede deshacer. Inspiró leyes antidiscriminación, políticas de accesibilidad y la idea de ajustes razonables. A finales de los noventa, la neurodiversidad tomó prestado este marco para hablar de diferencias neurológicas, y de ahí nacen muchos debates actuales sobre autismo y TDAH, entre quienes subrayan el contexto y quienes recuerdan las dificultades propias de cada condición.",
+  "ejemplos": [
+   "Una usuaria de silla de ruedas no puede entrar en su colegio electoral por las escaleras: desde el modelo social, la discapacidad está en la escalera.",
+   "Un colegio, en vez de preguntar qué le pasa a un alumno sordo, revisa qué barreras de comunicación hay en el aula y las reduce.",
+   "Una persona autista explica que le excluyen menos sus rasgos que las oficinas ruidosas y las entrevistas de trabajo basadas en charla informal.",
+   "El certificado de discapacidad español valora actividad, participación y factores del entorno, no solo la deficiencia médica.",
+   "En un debate, alguien recuerda que el dolor crónico no desaparece al quitar barreras, una crítica que el propio campo académico reconoce."
+  ],
+  "implicaciones": "El modelo social está detrás de cosas cotidianas: rampas, subtítulos, ajustes razonables o la definición legal española, que habla de deficiencias que, al interactuar con barreras, pueden impedir la participación plena. En la escuela inspira la idea de que incluir exige cambiar el entorno, no solo al alumno. En el debate sobre neurodiversidad se usa para decir que muchas dificultades del autismo o del TDAH dependen del contexto. Aquí conviene el equilibrio que defiende esta web: el contexto importa mucho, pero no lo explica todo. Algunas personas necesitan tratamiento o apoyos intensivos incluso en un entorno ideal. Como herramienta para Acceder y Educar funciona bien; usarlo para negar cualquier dimensión clínica sería otro salto injustificado.",
+  "sabias": "El modelo social nació de un documento escrito por las propias personas con discapacidad: en 1976, la organización británica UPIAS situó la raíz del problema en cómo se organiza la sociedad y en sus barreras.",
+  "piensalo": "Piensa en una dificultad tuya: ¿qué parte desaparecería si cambiara el entorno y qué parte seguiría ahí igualmente?",
+  "paso": "Recorre tu calle o tu lugar de trabajo imaginando que vas en silla de ruedas o que no oyes bien. Anota tres barreras que no habías visto.",
+  "frase": "«La discapacidad es solo un problema de la sociedad.»",
+  "veredicto": "matiz",
+  "matiz": "Las barreras explican buena parte de la exclusión y se pueden quitar. Pero el propio debate académico reconoce que el dolor, la fatiga o algunas limitaciones persisten en cualquier entorno.",
+  "salto": "",
+  "relacionados": [
+   "convencion-onu",
+   "ajustes-razonables",
+   "neurodiversidad",
+   "paradigma-neurodiversidad",
+   "certificado-discapacidad",
+   "judy-singer"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Institute on Community Integration, University of Minnesota (s. f.). Social Model of Disability. Impact, 38(2)",
+    "url": "https://publications.ici.umn.edu/impact/38-2/social-model-of-disability"
+   },
+   {
+    "titulo": "Disability News Service (2019). Professor Mike Oliver: Outpouring of admiration for social model pioneer. Disability News Service",
+    "url": "https://www.disabilitynewsservice.com/professor-mike-oliver-outpouring-of-admiration-for-social-model-pioneer/"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "convencion-onu",
+  "lema": "Convención de la ONU sobre los derechos de las personas con discapacidad",
+  "variantes": [
+   "CDPD",
+   "CRPD",
+   "Convención de Nueva York",
+   "Convención sobre los derechos de las personas con discapacidad"
+  ],
+  "tipo": "documento",
+  "familia": "Escuela, apoyos e instituciones",
+  "anio": 2006,
+  "anio_nota": "Se aprobó en Nueva York el 13 de diciembre de 2006; entró en vigor el 3 de mayo de 2008, también para España.",
+  "obra": "Convención sobre los derechos de las personas con discapacidad y su Protocolo Facultativo (Asamblea General de las Naciones Unidas, 2006)",
+  "figuras": [],
+  "definicion": "Tratado internacional de derechos humanos que obliga a los Estados que lo ratifican a garantizar los derechos de las personas con discapacidad en igualdad de condiciones. Entiende la discapacidad como resultado de la interacción entre deficiencias y barreras, define los ajustes razonables y reconoce el derecho a una educación inclusiva.",
+  "usos": [
+   "A",
+   "E",
+   "R"
+  ],
+  "controversia": "Se debate cómo cumplir el artículo 24 sobre educación inclusiva: si exige transformar o eliminar los centros de educación especial o permite mantenerlos como opción. En España, el Comité de la ONU ha criticado la segregación escolar.",
+  "contexto": "Durante décadas, los derechos de las personas con discapacidad se trataron como asunto de beneficencia o de medicina. Los movimientos de vida independiente y el modelo social defendieron otra mirada: se trata de derechos humanos que se vulneran cuando hay barreras. La ONU negoció la Convención en ocho sesiones entre 2002 y 2006, en lo que describe como el tratado de derechos humanos negociado con más rapidez, y la presenta como el primer tratado integral de derechos humanos del siglo XXI. Se abrió a la firma el 30 de marzo de 2007 y entró en vigor el 3 de mayo de 2008. España firmó su instrumento de ratificación en noviembre de 2007 y lo publicó en el BOE en abril de 2008, de modo que la Convención forma parte de su ordenamiento. Desde entonces obliga a revisar leyes de educación, sanidad, empleo o capacidad jurídica. Un comité de expertos vigila su cumplimiento y puede investigar a los Estados.",
+  "ejemplos": [
+   "Tras visitar España en 2017, el Comité de la ONU concluyó que la segregación y exclusión del alumnado con discapacidad suponían violaciones graves o sistemáticas de su derecho a la educación.",
+   "En 2020, el mismo Comité dio la razón a la familia de un joven con síndrome de Down trasladado a un centro especial contra la voluntad de sus padres.",
+   "El preámbulo de la LOMLOE cita la Convención para fundamentar el derecho a una educación inclusiva en la escuela española.",
+   "Una asociación invoca el artículo 24 para reclamar a su consejería apoyos en el centro ordinario para un alumno autista.",
+   "Una universidad revisa su protocolo de exámenes porque la Convención obliga a ofrecer ajustes razonables y considera discriminatorio negarlos."
+  ],
+  "implicaciones": "La Convención es la referencia más citada en los debates españoles sobre inclusión: aparece en el preámbulo de la LOMLOE, inspira la ley general de derechos de las personas con discapacidad y llena los informes de las asociaciones. Su influencia es concreta: introdujo la obligación de ajustes razonables y puso la educación inclusiva en el centro. También tiene mecanismos de control. En marzo de 2024 hubo un diálogo de seguimiento con España sobre la investigación escolar: entidades de la sociedad civil denunciaron retrocesos y el Gobierno lo negó aportando sus propias cifras. Para leer bien el debate, separa lo que la Convención exige, derechos e inclusión, de cómo se organiza en la práctica: centros, recursos y plazos. Ahí es donde de verdad está la discusión.",
+  "sabias": "Cuando se abrió a la firma, el 30 de marzo de 2007, la Convención reunió 82 firmas el primer día: según la ONU, el mayor número de firmantes de una convención suya en la jornada inaugural.",
+  "piensalo": "¿Puede una escuela separada ser inclusiva si la familia la elige libremente? ¿Qué debería pesar más: la elección individual o el objetivo colectivo?",
+  "paso": "Lee el artículo 24 de la Convención en el BOE, que ocupa poco más de una página, y subraya qué obligaciones concretas impone a los Estados.",
+  "frase": "«La Convención de la ONU obliga a cerrar todos los centros de educación especial.»",
+  "veredicto": "matiz",
+  "matiz": "El artículo 24 exige un sistema inclusivo y que nadie quede excluido del sistema general por su discapacidad. El Comité critica la segregación, pero cómo y a qué ritmo transformar los centros sigue en debate.",
+  "salto": "",
+  "relacionados": [
+   "modelo-social",
+   "ajustes-razonables",
+   "educacion-inclusiva",
+   "lomloe",
+   "nada-sobre-nosotros",
+   "derechos-autistas"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Naciones Unidas, DESA (s. f.). Convention on the Rights of Persons with Disabilities (CRPD). United Nations Department of Economic and Social Affairs",
+    "url": "https://social.desa.un.org/issues/disability/crpd/convention-on-the-rights-of-persons-with-disabilities-crpd"
+   },
+   {
+    "titulo": "Naciones Unidas (2006). Convención sobre los derechos de las personas con discapacidad (instrumento de ratificación de España). Boletín Oficial del Estado, 21-04-2008",
+    "url": "https://www.boe.es/eli/es/ai/2006/12/13/(1)/con"
+   },
+   {
+    "titulo": "Right to Education Initiative (2020). UN human rights body finds Spain violated right to inclusive education. Right to Education Initiative",
+    "url": "https://www.right-to-education.org/news/un-human-rights-body-finds-spain-violated-right-inclusive-education"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "educacion-inclusiva",
+  "lema": "Educación inclusiva",
+  "variantes": [
+   "inclusión educativa",
+   "escuela inclusiva",
+   "inclusive education"
+  ],
+  "tipo": "concepto",
+  "familia": "Escuela, apoyos e instituciones",
+  "anio": 1994,
+  "anio_nota": "La Declaración de Salamanca, aprobada en la conferencia organizada por el Gobierno de España y la UNESCO, la convirtió en orientación internacional.",
+  "obra": "Declaración de Salamanca y Marco de Acción sobre Necesidades Educativas Especiales (UNESCO y Ministerio de Educación y Ciencia de España, 1994)",
+  "figuras": [],
+  "definicion": "Enfoque según el cual la escuela ordinaria debe acoger, hacer participar y hacer aprender a todo el alumnado, transformando su cultura, sus normas y sus prácticas. No basta con estar en el mismo edificio: implica presencia, participación y aprendizaje con los apoyos necesarios.",
+  "usos": [
+   "E",
+   "A",
+   "R"
+  ],
+  "controversia": "Hay bastante acuerdo en el objetivo y desacuerdo en el cómo: si exige suprimir los centros especiales, qué recursos hacen falta y cómo atender a quien necesita apoyos muy intensos sin aislarlo ni dejarlo solo en el aula.",
+  "contexto": "Durante buena parte del siglo XX, el alumnado con discapacidad se educaba aparte o directamente no se escolarizaba. En los años setenta y ochenta llegó la integración: el alumno se incorporaba al aula ordinaria, pero se esperaba sobre todo que se adaptara él. La inclusión dio un paso más: es la escuela la que debe cambiar. El hito fue la Conferencia Mundial de Salamanca, del 7 al 10 de junio de 1994, organizada por el Gobierno de España con la UNESCO, con representantes de 92 Gobiernos y 25 organizaciones internacionales. Su declaración afirmó que las escuelas ordinarias con orientación inclusiva son el medio más eficaz para combatir las actitudes discriminatorias. La Convención de la ONU de 2006 convirtió la educación inclusiva en un derecho, en su artículo 24, y en 2016 su Comité publicó una observación general que la describe como una transformación de la cultura, las políticas y las prácticas escolares.",
+  "ejemplos": [
+   "Un colegio de Primaria incorpora a una alumna con discapacidad intelectual a todas las actividades de clase, con apoyo dentro del aula y no en una sala aparte.",
+   "Una familia elige un centro de educación especial para su hijo con grandes necesidades de apoyo y reclama que esa opción no desaparezca.",
+   "Un instituto organiza el recreo con espacios tranquilos para el alumnado autista que se satura con el ruido del patio.",
+   "Un docente con 28 alumnos y sin especialista de apoyo dice que cree en la inclusión, pero que «así no se puede».",
+   "En 2024, entidades españolas denunciaron ante el Comité de la ONU un aumento de aulas segregadas; el Gobierno sostuvo que no había retroceso."
+  ],
+  "implicaciones": "En España, la educación inclusiva es objetivo legal desde la LOMLOE y compromiso internacional desde la Convención. Pero el debate sigue vivo. Por un lado, el Comité de la ONU ha criticado la segregación escolar y el CERMI afirmó en 2024 que la inclusión todavía no es una realidad. Por otro, algunas familias defienden los centros especiales porque allí encuentran recursos que la escuela ordinaria no les ofrece. Las dos posturas comparten algo: sin profesionales, formación y tiempo, la inclusión se queda en el papel. Para pensar con equilibrio, ayuda separar el objetivo, que nadie quede excluido, del medio, es decir, qué combinación de aulas, apoyos y centros lo consigue mejor para cada alumno. Y pedir datos de aprendizaje y bienestar, no solo de dónde está escolarizado cada niño.",
+  "sabias": "La declaración que hizo famosa la «escuela inclusiva» se aprobó en España: la Conferencia Mundial de Salamanca, en junio de 1994, reunió a representantes de 92 Gobiernos y 25 organizaciones internacionales.",
+  "piensalo": "¿Qué es más inclusivo para un alumno con grandes necesidades: estar en el aula ordinaria con pocos apoyos o en un centro especial con muchos?",
+  "paso": "Pregunta a un docente qué necesitaría para que todo su alumnado aprendiera de verdad en su clase. Anota la respuesta sin juzgarla.",
+  "frase": "«La inclusión consiste en meter a todos en la misma aula.»",
+  "veredicto": "mito",
+  "matiz": "Compartir aula es necesario pero no suficiente: la inclusión exige participación y aprendizaje, con apoyos y cambios en la propia escuela. Sin ellos, estar juntos puede ser otra forma de exclusión.",
+  "salto": "",
+  "relacionados": [
+   "convencion-onu",
+   "lomloe",
+   "dua",
+   "nee",
+   "modelo-social",
+   "ajustes-razonables"
+  ],
+  "fuentes": [
+   {
+    "titulo": "UNESCO y Ministerio de Educación y Ciencia de España (1994). The Salamanca Statement and Framework for Action on Special Needs Education. UNESCO",
+    "url": "https://www.european-agency.org/sites/default/files/salamanca-statement-and-framework.pdf"
+   },
+   {
+    "titulo": "Comité sobre los Derechos de las Personas con Discapacidad (2016). General comment No. 4 on Article 24: Right to inclusive education (CRPD/C/GC/4). ACNUDH",
+    "url": "https://www.ohchr.org/en/documents/general-comments-and-recommendations/general-comment-no-4-article-24-right-inclusive"
+   },
+   {
+    "titulo": "Naciones Unidas Ginebra (2024). Committee on the Rights of Persons with Disabilities holds follow-up dialogue (España). UN Geneva",
+    "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2024/03/committee-rights-persons-disabilities-holds-follow-dialogue"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "evaluacion-psicopedagogica",
+  "lema": "Evaluación psicopedagógica",
+  "variantes": [
+   "informe psicopedagógico",
+   "valoración psicopedagógica",
+   "evaluación sociopsicopedagógica"
+  ],
+  "tipo": "institucion",
+  "familia": "Escuela, apoyos e instituciones",
+  "anio": 1996,
+  "anio_nota": "Una orden del Ministerio de Educación y Ciencia reguló su procedimiento y el dictamen de escolarización.",
+  "obra": "Orden de 14 de febrero de 1996 por la que se regula el procedimiento para la realización de la evaluación psicopedagógica y el dictamen de escolarización (Ministerio de Educación y Ciencia; hoy derogada)",
+  "figuras": [],
+  "definicion": "Proceso de recogida, análisis y valoración de información sobre el alumno y sus contextos escolar y familiar, que realizan los servicios de orientación educativa. Sirve para identificar necesidades de apoyo y decidir medidas y modalidad de escolarización. No es un diagnóstico clínico, aunque puede tener en cuenta informes sanitarios.",
+  "usos": [
+   "E",
+   "A"
+  ],
+  "controversia": "Se discuten las esperas, la carga de los equipos de orientación, las diferencias entre comunidades y su relación con los informes clínicos privados: ¿los complementa o, en la práctica, acaba dependiendo de ellos?",
+  "contexto": "Con la LOGSE de 1990 y la integración escolar, el sistema necesitaba una herramienta para decidir qué apoyos y qué tipo de escolarización requería cada alumno con necesidades educativas especiales. El Real Decreto 696/1995 exigió una evaluación psicopedagógica antes de las adaptaciones curriculares significativas y para fundamentar las propuestas de escolarización. Al año siguiente, una orden ministerial reguló el procedimiento: un proceso de recogida, análisis y valoración de la información relevante, a cargo de los equipos de orientación educativa y psicopedagógica y de los departamentos de orientación. El cambio de fondo era pasar de clasificar al niño a entender cómo interactúan el alumno, la escuela y la familia. Con el traspaso de las competencias educativas, cada comunidad autónoma desarrolló su propia normativa. Por eso hoy los procedimientos, los nombres de los documentos, los requisitos de consentimiento y los plazos cambian de un territorio a otro.",
+  "ejemplos": [
+   "La orientadora observa a un alumno en clase, entrevista a la familia y al tutor y aplica pruebas antes de proponer un plan de apoyo.",
+   "Una familia aporta un informe privado de TDAH; el equipo lo tiene en cuenta, pero hace su propia valoración de las necesidades escolares.",
+   "Tras la evaluación, el equipo propone escolarizar a una niña con grandes necesidades en un aula ordinaria con apoyos, y la familia expresa su opinión.",
+   "Antes de una adaptación curricular significativa, la norma exige una evaluación psicopedagógica previa: el informe es la base de la medida, no un simple trámite.",
+   "Un instituto espera meses a que el equipo de orientación tenga hueco para valorar a un alumno con dificultades graves de lectura."
+  ],
+  "implicaciones": "La evaluación psicopedagógica es la puerta de entrada a casi todos los apoyos escolares: sin ella no suele haber registro NEAE, adaptaciones significativas ni propuesta de escolarización. Por eso su calidad y su rapidez importan tanto. Los equipos de orientación atienden a muchos centros, y cuando hay esperas algunas familias recurren a informes privados, lo que puede crear desigualdad entre quien puede pagarlos y quien no. También conviene recordar su función: valora necesidades educativas en contexto, no confirma ni descarta un diagnóstico médico. Si te dicen que un niño «no tiene nada» porque la evaluación no recoge necesidad específica, o que «tiene TDAH» porque lo dice el informe del colegio, pregunta qué uso tiene cada documento. Educar no es Diagnosticar.",
+  "sabias": "La orden de 1996 ya pedía recoger información del alumno, pero también de su contexto escolar y familiar: en una buena evaluación psicopedagógica, el aula también pasa examen.",
+  "piensalo": "Si una evaluación examina al alumno pero no al aula ni a la familia, ¿qué tipo de soluciones es probable que proponga?",
+  "paso": "Si tienes hijos en edad escolar, pregunta en el centro quién hace la evaluación psicopedagógica, cuánto se tarda y si la familia recibe el informe.",
+  "frase": "«El informe del orientador es un diagnóstico.»",
+  "veredicto": "mito",
+  "matiz": "La evaluación psicopedagógica identifica necesidades educativas y fundamenta apoyos en la escuela. Puede tener en cuenta informes sanitarios, pero no sustituye a un diagnóstico clínico ni lo produce.",
+  "salto": "",
+  "relacionados": [
+   "neae",
+   "nee",
+   "adaptaciones-curriculares",
+   "diagnostico-diferencial",
+   "cribado",
+   "diferencias-autonomicas"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Ministerio de Educación y Ciencia (1996). Orden de 14 de febrero de 1996 sobre el procedimiento para la evaluación psicopedagógica y el dictamen de escolarización. Boletín Oficial del Estado, 47",
+    "url": "https://www.boe.es/eli/es/o/1996/02/14/(3)"
+   },
+   {
+    "titulo": "Gobierno de España (1995). Real Decreto 696/1995, de 28 de abril, de ordenación de la educación de los alumnos con necesidades educativas especiales. Boletín Oficial del Estado, 131",
+    "url": "https://www.boe.es/eli/es/rd/1995/04/28/696"
+   },
+   {
+    "titulo": "Comisión Europea, Eurydice (s. f.). España: atención a las necesidades educativas especiales del alumnado. Eurydice",
+    "url": "https://eurydice.eacea.ec.europa.eu/es/national-education-systems/spain/atencion-las-necesidades-educativas-especiales-del-alumnado-en"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "adaptaciones-curriculares",
+  "lema": "Adaptaciones curriculares y flexibilización",
+  "variantes": [
+   "ACI",
+   "adaptación curricular significativa",
+   "adaptación de acceso",
+   "flexibilización",
+   "aceleración",
+   "ampliación curricular"
+  ],
+  "tipo": "institucion",
+  "familia": "Escuela, apoyos e instituciones",
+  "anio": 1995,
+  "anio_nota": "El Real Decreto 696/1995 reguló las adaptaciones curriculares, incluidas las significativas; la flexibilización para alumnado superdotado llegó con el Real Decreto 943/2003.",
+  "obra": "Real Decreto 696/1995, de ordenación de la educación de los alumnos con NEE, y Real Decreto 943/2003, de flexibilización para alumnado superdotado intelectualmente (Gobierno de España)",
+  "figuras": [],
+  "definicion": "Medidas que modifican qué se enseña, cómo se enseña o cómo se evalúa a un alumno concreto. Las significativas cambian objetivos o criterios de evaluación; las de acceso cambian medios, no contenidos. La flexibilización, pensada para altas capacidades, permite adelantar cursos.",
+  "usos": [
+   "E",
+   "A"
+  ],
+  "controversia": "Se discute cuándo una adaptación significativa ayuda y cuándo rebaja expectativas, cómo afecta a la titulación y si adelantar curso al alumnado con altas capacidades favorece su desarrollo o le crea dificultades sociales.",
+  "contexto": "La idea de adaptar el currículo surge con la integración escolar: si el alumnado con necesidades especiales estudia en aulas ordinarias, el programa no puede ser idéntico para todos. La LOGSE de 1990 dio a España un currículo más abierto, y el Real Decreto 696/1995 distinguió las adaptaciones generales de las significativas, que afectan a elementos prescriptivos del currículo y exigen una evaluación psicopedagógica previa. Para el otro extremo de la distribución, el Real Decreto 943/2003 reguló la flexibilización del alumnado superdotado: incorporarse a un curso superior al que le corresponde por edad, con consentimiento escrito de la familia y solo cuando las medidas ordinarias no bastan. Después, cada comunidad autónoma desarrolló sus propios procedimientos. Hoy conviven adaptaciones de acceso, adaptaciones significativas, programas de ampliación y enriquecimiento y la flexibilización, con nombres y requisitos que cambian de un territorio a otro.",
+  "ejemplos": [
+   "Una alumna con discapacidad intelectual trabaja en 3.º de ESO objetivos de Primaria en Matemáticas, con una adaptación significativa que se revisa cada curso.",
+   "Un alumno ciego tiene una adaptación de acceso: materiales en braille y más tiempo, pero los mismos contenidos y criterios que su clase.",
+   "Un niño con altas capacidades pasa de 2.º a 4.º de Primaria tras una evaluación y con el consentimiento escrito de su familia.",
+   "Otra alumna con altas capacidades no adelanta curso: su centro le ofrece enriquecimiento con proyectos más complejos dentro de su grupo.",
+   "Unos padres preguntan si una adaptación significativa en Lengua impedirá titular a su hijo; el orientador les explica la normativa de su comunidad."
+  ],
+  "implicaciones": "Las adaptaciones son el punto donde la etiqueta se convierte en práctica diaria: qué se enseña, cómo y con qué examen. Para muchas familias es lo que de verdad importa del proceso. El proyecto del que nace esta web advierte de un salto frecuente: creer que un diagnóstico prescribe por sí solo una adaptación. No es así: la medida depende de la evaluación educativa y del contexto del alumno. También importa el equilibrio entre ajustar y exigir. Una adaptación significativa mal planteada puede rebajar expectativas; una flexibilización precipitada puede situar a un niño en un grupo donde no encaja. Y, al revés, negar medidas por miedo a «etiquetar» deja necesidades reales sin respuesta. Si te proponen una adaptación, pregunta qué objetivo persigue y cuándo se revisará.",
+  "sabias": "La norma estatal de 2003 sobre alumnado superdotado permite adelantar curso hasta tres veces en la enseñanza básica y una sola vez en las enseñanzas posobligatorias, salvo casos excepcionales.",
+  "piensalo": "Al decidir si un alumno adelanta un curso, ¿qué debería pesar más: su nivel académico, su madurez emocional o lo que él mismo quiere?",
+  "paso": "Si conoces a un alumno con adaptaciones, pregúntale con respeto qué le ayuda de verdad y qué le parece un simple trámite.",
+  "frase": "«Hacerle una adaptación es regalarle el aprobado.»",
+  "veredicto": "mito",
+  "matiz": "Las adaptaciones de acceso no cambian los objetivos; las significativas sí, y se evalúan con criterios propios que constan en el expediente. Bien diseñadas, ajustan el reto en lugar de eliminarlo.",
+  "salto": "del diagnóstico a la medida automática",
+  "relacionados": [
+   "evaluacion-psicopedagogica",
+   "nee",
+   "altas-capacidades",
+   "dua",
+   "ajustes-razonables",
+   "doble-excepcionalidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Gobierno de España (1995). Real Decreto 696/1995, de 28 de abril, de ordenación de la educación de los alumnos con necesidades educativas especiales. Boletín Oficial del Estado, 131",
+    "url": "https://www.boe.es/eli/es/rd/1995/04/28/696"
+   },
+   {
+    "titulo": "Gobierno de España (2003). Real Decreto 943/2003, de 18 de julio, condiciones para flexibilizar la duración de los niveles y etapas para los alumnos superdotados intelectualmente. Boletín Oficial del Estado, 182",
+    "url": "https://www.boe.es/eli/es/rd/2003/07/18/943"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "incentivos",
+  "lema": "Incentivos institucionales",
+  "variantes": [
+   "incentivos perversos",
+   "efecto de las reglas de acceso",
+   "incentivos de financiación"
+  ],
+  "tipo": "concepto",
+  "familia": "Escuela, apoyos e instituciones",
+  "anio": 2015,
+  "anio_nota": "Se publicó un estudio que asoció las reformas de rendición de cuentas escolar en EE. UU. con más diagnósticos de TDAH en niños de familias con bajos ingresos.",
+  "obra": "Fulton, Scheffler y Hinshaw (2015), «State Variation in Increased ADHD Prevalence: Links to NCLB School Accountability and State Medication Laws», Psychiatric Services",
+  "figuras": [
+   "Stephen P. Hinshaw",
+   "Richard M. Scheffler",
+   "Colleen L. Barry"
+  ],
+  "definicion": "Consecuencias que las reglas de financiación, acceso o evaluación tienen sobre las decisiones de familias, profesionales e instituciones. Un incentivo no implica mala fe: puede empujar a detectar necesidades ocultas o a buscar la etiqueta que abre un recurso. Distinguir ambas cosas requiere datos.",
+  "usos": [
+   "A",
+   "E",
+   "D",
+   "I"
+  ],
+  "controversia": "Se discute cuánto explican los incentivos el aumento de diagnósticos. Hay estudios que asocian reglas con diagnósticos o con gasto, pero no demuestran por sí solos sobrediagnóstico, fraude ni captura institucional.",
+  "contexto": "Las ciencias sociales saben desde hace tiempo que las reglas cambian la conducta: si un recurso depende de una etiqueta, aumentan los motivos para buscarla; si depende de no tenerla, para evitarla. En salud mental infantil, la pregunta se volvió urgente cuando crecieron los diagnósticos de TDAH y autismo y, a la vez, los sistemas vincularon apoyos, seguros y evaluación escolar a categorías. En Estados Unidos, la ley No Child Left Behind presionó a las escuelas con consecuencias ligadas a resultados. En 2015, Fulton, Scheffler y Hinshaw encontraron que en los estados expuestos por primera vez a esas consecuencias los diagnósticos de TDAH crecieron más entre niños de familias con bajos ingresos. Otro estudio de 2017 mostró que los mandatos estatales de seguro para el autismo aumentaron el uso y el gasto en servicios específicos. El proyecto del que nace esta web revisó reglas parecidas en España.",
+  "ejemplos": [
+   "Una ayuda de apoyo educativo exige un informe concreto: unas familias consiguen por fin apoyo para una necesidad que ya existía; otras buscan la categoría que encaja.",
+   "En EE. UU., tras los mandatos estatales de seguro para el autismo, el uso mensual de servicios específicos subió 3,4 puntos porcentuales entre menores con autismo y seguro privado.",
+   "Un centro privado que diagnostica y también ofrece la terapia posterior plantea un posible conflicto de intereses, aunque eso no demuestra mala práctica.",
+   "Una administración con presupuesto ajustado endurece un umbral de acceso: aquí el incentivo apunta a no reconocer necesidades.",
+   "Un titular dice que «las familias buscan diagnósticos para cobrar ayudas»; la norma muestra el incentivo, pero no mide cuántas lo harían."
+  ],
+  "implicaciones": "En España, ayudas de apoyo educativo, certificado de discapacidad, dependencia y recursos escolares dependen de categorías. Eso crea incentivos en varias direcciones, y conviene mirarlas todas: hacia la ampliación, como solicitar evaluaciones u ofertar servicios, y hacia la restricción, como umbrales, esperas o presupuestos ajustados. El proyecto no encontró pruebas de que más inclusión produzca necesariamente más error clínico ni captura institucional, aunque tampoco puede descartarlo sin datos de aplicación: solicitudes, denegaciones, tiempos de espera y resultados. Si oyes que alguien «se aprovecha del sistema», pregunta qué regla, qué conducta, qué daño y qué prueba conecta los tres. Y al revés: ¿quién se queda fuera por esa misma regla?",
+  "sabias": "Un estudio de 2015 halló que, tras las reformas de rendición de cuentas escolar en EE. UU., el diagnóstico de TDAH creció 2,8 puntos más en niños de familias con bajos ingresos de los estados afectados que en niños similares de otros estados.",
+  "piensalo": "Si un apoyo escolar solo se concede con un diagnóstico, ¿qué harías tú como madre, padre o docente? ¿Sería eso hacer trampa?",
+  "paso": "Elige una ayuda o un apoyo que conozcas y busca qué requisito exige: ¿diagnóstico, porcentaje, informe educativo o necesidad observada?",
+  "frase": "«Los diagnósticos han subido porque las familias buscan ayudas.»",
+  "veredicto": "matiz",
+  "matiz": "Las reglas influyen en la detección y en el uso de servicios, como muestran estudios en EE. UU. Pero eso no prueba fraude: el mismo incentivo puede sacar a la luz necesidades reales que antes nadie atendía.",
+  "salto": "del incentivo a la trampa",
+  "relacionados": [
+   "inflacion-diagnostica",
+   "sobrediagnostico",
+   "infradiagnostico",
+   "certificado-discapacidad",
+   "neae",
+   "errores-simetricos"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Fulton, B. D., Scheffler, R. M. y Hinshaw, S. P. (2015). State Variation in Increased ADHD Prevalence: Links to NCLB School Accountability and State Medication Laws. Psychiatric Services, 66(10), 1074-1082",
+    "url": "https://doi.org/10.1176/appi.ps.201400145"
+   },
+   {
+    "titulo": "Barry, C. L. y otros (2017). Effects of State Insurance Mandates On Health Care Use And Spending For Autism Spectrum Disorder. Health Affairs, 36(10), 1754-1761",
+    "url": "https://doi.org/10.1377/hlthaff.2017.0515"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "estrategia-tea",
+  "lema": "Estrategia Española en Trastornos del Espectro del Autismo",
+  "variantes": [
+   "Estrategia Española en TEA",
+   "Plan de Acción de la Estrategia Española en TEA 2023-2027"
+  ],
+  "tipo": "documento",
+  "familia": "Escuela, apoyos e instituciones",
+  "anio": 2015,
+  "anio_nota": "El Consejo de Ministros la aprobó el 6 de noviembre de 2015.",
+  "obra": "Estrategia Española en Trastornos del Espectro del Autismo (Ministerio de Sanidad, Servicios Sociales e Igualdad, 2015); I Plan de Acción 2023-2027",
+  "figuras": [],
+  "definicion": "Documento de política pública aprobado en 2015 que fija 15 líneas estratégicas para mejorar la vida de las personas autistas y de sus familias en España: concienciación, diagnóstico temprano, atención sanitaria, educación inclusiva, empleo, vida independiente, justicia e investigación. Se concreta en un Plan de Acción 2023-2027.",
+  "usos": [
+   "A",
+   "E",
+   "D",
+   "I"
+  ],
+  "controversia": "Se critica el retraso: el Plan de Acción tardó casi ocho años. También se discuten el reparto de fondos, las diferencias entre comunidades y si atiende bien a todo el espectro, incluidas las personas con grandes necesidades de apoyo.",
+  "contexto": "A comienzos del siglo XXI, las asociaciones de familias y de personas autistas reclamaban una política estatal específica: los diagnósticos aumentaban, la atención variaba mucho entre territorios y faltaban apoyos en la edad adulta. En 2015, el Ministerio de Sanidad, Servicios Sociales e Igualdad elaboró la Estrategia con entidades del tercer sector, otros ministerios y las comunidades autónomas. La nota oficial la presentó como «una demanda histórica del colectivo» y estimó unas 450.000 personas con TEA en España. Fijó 15 líneas estratégicas y anunció un Plan de Acción en el plazo de un año. Ese plan tardó: el Consejo Nacional de la Discapacidad lo aprobó en julio de 2023, con casi 40 millones de euros repartidos en seis líneas, y el Gobierno lo presentó el 2 de abril de 2024, Día Mundial de Concienciación sobre el Autismo.",
+  "ejemplos": [
+   "Una asociación autonómica cita la línea de diagnóstico temprano de la Estrategia para pedir más recursos de atención temprana en su provincia.",
+   "El Plan de Acción destina su partida más grande, unos 28 millones de euros, a educación inclusiva de calidad y empleo.",
+   "Una familia lee que la Estrategia quiere reducir las desigualdades territoriales, pero en su comunidad la espera para una valoración sigue siendo larga.",
+   "Un ayuntamiento organiza actividades de sensibilización el 2 de abril, en línea con el eje de concienciación del Plan de Acción.",
+   "Un grupo de investigación pide que los sistemas de información previstos permitan saber cuántas personas autistas hay en España y qué apoyos reciben."
+  ],
+  "implicaciones": "La Estrategia es el marco estatal que ordena la política española sobre autismo y un ejemplo claro de cómo una categoría diagnóstica se convierte en herramienta para Acceder y Educar. Su historia también enseña algo sobre la distancia entre el papel y la práctica: aprobada en 2015, esperó casi ocho años a tener plan y presupuesto. El Plan de Acción 2023-2027 entra ahora en su recta final, así que pronto tocará evaluar qué se ha cumplido. Para leerla con espíritu crítico, pregunta por indicadores: esperas para el diagnóstico, alumnado autista en centros ordinarios, empleo en la edad adulta. Y recuerda que el espectro es muy diverso: una misma estrategia debe servir a personas con necesidades de apoyo muy distintas.",
+  "sabias": "La Estrategia de 2015 preveía concretarse en un Plan de Acción en el plazo de un año. El Consejo Nacional de la Discapacidad no aprobó ese plan hasta julio de 2023, casi ocho años después.",
+  "piensalo": "¿Qué tres indicadores elegirías para saber, en 2027, si la Estrategia ha mejorado de verdad la vida de las personas autistas?",
+  "paso": "Busca si tu comunidad autónoma tiene un plan propio sobre autismo y compara sus medidas con las 15 líneas de la Estrategia estatal.",
+  "frase": "«En España no hay ninguna política específica sobre autismo.»",
+  "veredicto": "mito",
+  "matiz": "Existe una Estrategia estatal desde 2015 y un Plan de Acción 2023-2027 con presupuesto. Otra cosa es su grado de aplicación, que varía entre territorios y aún debe evaluarse.",
+  "salto": "",
+  "relacionados": [
+   "autismo",
+   "educacion-inclusiva",
+   "cribado",
+   "diferencias-autonomicas",
+   "convencion-onu",
+   "prevalencia"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Ministerio de Sanidad, Servicios Sociales e Igualdad (2015). Nota de prensa sobre la aprobación de la Estrategia Española en Trastornos del Espectro del Autismo. Ministerio de Sanidad",
+    "url": "https://www.sanidad.gob.es/gabinete/notasPrensa.do?id=3828"
+   },
+   {
+    "titulo": "Ministerio de Derechos Sociales, Consumo y Agenda 2030 (2023). Resumen ejecutivo del Plan de Acción de la Estrategia Española en TEA 2023-2027. Ministerio de Derechos Sociales",
+    "url": "https://www.dsca.gob.es/sites/default/files/derechos-sociales/discapacidad/docs/RESUMEN_EJECUTIVO_Plan_accion_AUTISMO04082023.pdf"
+   },
+   {
+    "titulo": "La Moncloa (2024). Bustinduy presenta el primer Plan de Acción para el Trastorno del Espectro del Autismo en España. Gobierno de España",
+    "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/derechos-sociales-consumo-agenda-2030/Paginas/2024/020424-plan-accion-autismo.aspx"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": false
+ }
+]

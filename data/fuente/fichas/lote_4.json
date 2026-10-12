@@ -1,0 +1,1025 @@
+[
+ {
+  "id": "transdiagnostico",
+  "lema": "Enfoque transdiagnóstico",
+  "variantes": [
+   "transdiagnóstico",
+   "transdiagnostic approach",
+   "enfoque transversal"
+  ],
+  "tipo": "concepto",
+  "familia": "Coexistencias y fronteras",
+  "anio": 2003,
+  "anio_nota": "Fairburn, Cooper y Shafran publican una teoría «transdiagnóstica» de los trastornos alimentarios, uno de los trabajos que difundieron el término",
+  "obra": "Fairburn, Cooper y Shafran (2003), «Cognitive behaviour therapy for eating disorders: a 'transdiagnostic' theory and treatment», Behaviour Research and Therapy",
+  "figuras": [
+   "Christopher Fairburn",
+   "Roz Shafran",
+   "Duncan Astle",
+   "Susan Gathercole"
+  ],
+  "definicion": "Forma de investigar y de atender que se fija en procesos compartidos por varios diagnósticos (atención, memoria de trabajo, regulación emocional, lenguaje) en lugar de tratar cada etiqueta como un compartimento estanco. No niega los diagnósticos: pregunta qué dificultades concretas hay y qué las mantiene.",
+  "usos": [
+   "I",
+   "D",
+   "E"
+  ],
+  "controversia": "Se discute si los procesos compartidos explican de verdad los casos o solo los describen, si complementarán o sustituirán a las categorías y cómo encajarlo en un acceso a apoyos que hoy exige un diagnóstico concreto.",
+  "contexto": "A finales del siglo XX la clínica tenía un problema incómodo: la comorbilidad era muy frecuente. Muchas personas cumplían criterios de dos o tres trastornos, y los ensayos clínicos, diseñados para una sola etiqueta, dejaban fuera a buena parte de los pacientes reales. En 2003, el equipo de Christopher Fairburn propuso que la anorexia, la bulimia y los cuadros atípicos compartían mecanismos de mantenimiento y podían abordarse con un mismo modelo. La idea se extendió a la ansiedad y la depresión, y el NIMH la llevó a la investigación con su marco RDoC. En el neurodesarrollo, el centro CALM de Cambridge estudió a cientos de niños derivados por dificultades de atención, memoria o aprendizaje, con o sin diagnóstico, y encontró que sus perfiles cognitivos no se ordenaban según la etiqueta recibida. En 2022, Astle y sus colegas hablaron ya de una «revolución transdiagnóstica» en los trastornos del neurodesarrollo.",
+  "ejemplos": [
+   "En salud mental, el protocolo unificado de Barlow trata con un mismo programa ansiedad y depresión, porque trabaja la evitación y la regulación emocional que ambas comparten.",
+   "Una orientadora no espera al informe para actuar: si un alumno olvida instrucciones largas, fragmenta las tareas y añade apoyos visuales, tenga TDAH, TDL o ninguna etiqueta.",
+   "El estudio CALM de Cambridge reunió a 530 niños con dificultades escolares y halló cuatro perfiles cognitivos que no coincidían con sus diagnósticos ni con el motivo de derivación.",
+   "Una familia con un hijo autista y con TDAH pregunta por el sueño y la memoria de trabajo, que afectan a ambos diagnósticos, en lugar de buscar dos terapias por separado.",
+   "Un vídeo atribuye solo al TDAH el despiste o la procrastinación; el enfoque transdiagnóstico recuerda que esos rasgos aparecen en muchas condiciones y también en la población general."
+  ],
+  "implicaciones": "En España, el acceso a muchos apoyos escolares y sanitarios sigue pasando por una etiqueta: el informe de NEAE, el certificado de discapacidad o la derivación a una unidad específica. El enfoque transdiagnóstico no pide eliminarlas, pero sí cambiar el orden de las preguntas: primero, qué barreras encuentra este niño o esta adulta; después, qué nombre ayuda a coordinar la respuesta. En la escuela resulta práctico, porque muchos ajustes (instrucciones breves, más tiempo, apoyos visuales) sirven a alumnos con perfiles distintos. En la sanidad, invita a explorar el sueño, la ansiedad o el lenguaje aunque el motivo de consulta sea otro. Su riesgo es el contrario: diluir diferencias que sí importan para un tratamiento concreto. Por eso conviene leerlo como complemento de las categorías, no como un atajo para ahorrarse la evaluación.",
+  "sabias": "En el estudio CALM de Cambridge (2019), con 530 niños con dificultades escolares, el perfil cognitivo de cada niño no se podía predecir a partir de su diagnóstico ni del motivo por el que lo habían derivado.",
+  "piensalo": "Si dos alumnos con etiquetas distintas necesitan el mismo apoyo, ¿qué aporta la etiqueta y qué aporta mirar la dificultad concreta?",
+  "paso": "La próxima vez que leas un «síntoma típico» de un diagnóstico, comprueba si también aparece en otros trastornos o en personas sin diagnóstico.",
+  "frase": "«Primero necesitamos el diagnóstico; sin él no se le puede ayudar»",
+  "veredicto": "matiz",
+  "matiz": "Muchos apoyos educativos se ajustan a la dificultad, haya o no etiqueta. Pero el diagnóstico sigue importando para ciertos tratamientos y para acceder a derechos. Lo transdiagnóstico complementa la evaluación; no la sustituye.",
+  "salto": "de la etiqueta al mecanismo",
+  "relacionados": [
+   "rdoc",
+   "hitop",
+   "comorbilidad",
+   "heterogeneidad",
+   "funciones-ejecutivas",
+   "solapamiento"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Fairburn, C. G., Cooper, Z. y Shafran, R. (2003). Cognitive behaviour therapy for eating disorders: a «transdiagnostic» theory and treatment. Behaviour Research and Therapy, 41(5), 509–528",
+    "url": "https://doi.org/10.1016/s0005-7967(02)00088-8"
+   },
+   {
+    "titulo": "Astle, D. E., Holmes, J., Kievit, R. y Gathercole, S. E. (2022). Annual Research Review: The transdiagnostic revolution in neurodevelopmental disorders. Journal of Child Psychology and Psychiatry, 63(4), 397–417",
+    "url": "https://doi.org/10.1111/jcpp.13481"
+   },
+   {
+    "titulo": "Astle, D. E., Bathelt, J., CALM Team y Holmes, J. (2019). Remapping the cognitive and neural profiles of children who struggle at school. Developmental Science, 22(1), e12747",
+    "url": "https://doi.org/10.1111/desc.12747"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "heterogeneidad",
+  "lema": "Heterogeneidad",
+  "variantes": [
+   "heterogeneidad clínica",
+   "heterogeneidad fenotípica",
+   "variabilidad dentro de una categoría"
+  ],
+  "tipo": "concepto",
+  "familia": "Coexistencias y fronteras",
+  "anio": 2020,
+  "anio_nota": "Mottron y Bzdok preguntan si la heterogeneidad del espectro autista es un hecho o un artefacto de los criterios diagnósticos",
+  "obra": "Mottron y Bzdok (2020), «Autism spectrum heterogeneity: fact or artifact?», Molecular Psychiatry",
+  "figuras": [
+   "Laurent Mottron",
+   "Danilo Bzdok",
+   "Isaac Galatzer-Levy",
+   "Richard Bryant"
+  ],
+  "definicion": "Grado en que las personas que comparten un mismo diagnóstico difieren entre sí en síntomas, intensidad, capacidades, causas, evolución y necesidades. Es alta en el TDAH y el autismo, en parte porque los criterios permiten muchas combinaciones distintas para llegar a la misma etiqueta.",
+  "usos": [
+   "I",
+   "D",
+   "R"
+  ],
+  "controversia": "¿Es diversidad real dentro de una sola condición o señal de que la categoría agrupa cosas distintas? Unos proponen subtipos, como el autismo profundo o el prototípico; otros temen que fragmentar deje sin apoyos a quien queda en medio.",
+  "contexto": "Los manuales diagnósticos modernos, desde el DSM-III de 1980, usan criterios politéticos: basta con cumplir un número mínimo de elementos de una lista. Eso mejoró el acuerdo entre clínicos, pero tiene un precio aritmético. En el DSM-5, el diagnóstico de autismo exige los tres criterios sociales y dos de los cuatro de conductas restringidas, así que dos personas autistas pueden no compartir ninguno de estos últimos. Además, el espectro absorbió categorías antes separadas, como el síndrome de Asperger, y añadió especificadores de lenguaje, capacidad intelectual y nivel de apoyo. En 2020, Laurent Mottron y Danilo Bzdok sostuvieron que esta amplitud vuelve casi ilimitadas las presentaciones compatibles con el diagnóstico y propusieron mantener una línea de investigación sobre el autismo «prototípico». Otros equipos buscan subgrupos combinando datos clínicos y genéticos. La pregunta de fondo es si la etiqueta describe una cosa o una familia de cosas emparentadas.",
+  "ejemplos": [
+   "Dos niños con TDAH de presentación inatenta pueden compartir solo tres de sus seis síntomas: el DSM-5 pide al menos seis de nueve, no los mismos seis.",
+   "En una asociación de familias se sientan juntas la madre de un adolescente autista que estudia Física y la de una niña autista sin lenguaje oral que necesita apoyo constante.",
+   "Un estudio que compara «autistas» con «no autistas» puede obtener medias que no describen a casi nadie del grupo, porque dentro hay subgrupos que tiran en direcciones opuestas.",
+   "En redes circula el lema «si conoces a una persona autista, conoces a una persona autista», que resume en una frase la heterogeneidad del espectro.",
+   "En 2025, un equipo publicó en Nature Genetics varias clases de autismo con perfiles clínicos y patrones genéticos distintos: un intento de ordenar la heterogeneidad con datos."
+  ],
+  "implicaciones": "La heterogeneidad explica por qué una etiqueta dice poco sobre lo que necesita una persona concreta. En la escuela, dos alumnos con el mismo informe pueden requerir ajustes opuestos: uno, menos estímulos; otro, más estructura y anticipación. En la sanidad, recuerda que un tratamiento eficaz «de media» puede no servir a todos. En los debates actuales sobre autismo, unos usan la heterogeneidad para pedir subtipos como el autismo profundo, que visibilizaría a quienes necesitan más apoyo; otros temen que dividir el espectro reabra jerarquías entre «alto» y «bajo funcionamiento». Ninguna postura se resuelve sin datos. Para cualquier lector, la consecuencia práctica es sencilla: ante una generalización sobre «los autistas» o «los TDAH», pregunta a qué parte del grupo se refiere y cómo se ha medido.",
+  "sabias": "Galatzer-Levy y Bryant calcularon en 2013 que, con los criterios del DSM-5, hay 636.120 combinaciones de síntomas que permiten diagnosticar un trastorno de estrés postraumático. Con el DSM-IV eran 79.794.",
+  "piensalo": "Si una etiqueta reúne perfiles tan distintos, ¿sigue siendo igual de útil para investigar, para dar apoyos y para reconocerse?",
+  "paso": "Pregunta a dos personas con el mismo diagnóstico qué les cuesta y qué les ayuda. Anota en qué coinciden y en qué no.",
+  "frase": "«Si conoces a una persona autista, conoces a una persona autista»",
+  "veredicto": "cierto",
+  "matiz": "La variabilidad dentro del espectro es enorme y los propios criterios la permiten. Aun así, hay rasgos compartidos que justifican el diagnóstico, y la investigación busca subgrupos más homogéneos.",
+  "salto": "del grupo al individuo",
+  "relacionados": [
+   "autismo",
+   "criterio-diagnostico",
+   "autismo-profundo",
+   "transdiagnostico",
+   "inferencia-ecologica",
+   "presentaciones-tdah"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Mottron, L. y Bzdok, D. (2020). Autism spectrum heterogeneity: fact or artifact? Molecular Psychiatry, 25(12), 3178–3185",
+    "url": "https://doi.org/10.1038/s41380-020-0748-y"
+   },
+   {
+    "titulo": "Galatzer-Levy, I. R. y Bryant, R. A. (2013). 636,120 ways to have posttraumatic stress disorder. Perspectives on Psychological Science, 8(6), 651–662",
+    "url": "https://doi.org/10.1177/1745691613504115"
+   },
+   {
+    "titulo": "Litman, A. et al. (2025). Decomposition of phenotypic heterogeneity in autism reveals underlying genetic programs. Nature Genetics, 57(7), 1611–1619",
+    "url": "https://doi.org/10.1038/s41588-025-02224-z"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "eclipsamiento-diagnostico",
+  "lema": "Eclipsamiento diagnóstico",
+  "variantes": [
+   "diagnostic overshadowing",
+   "ensombrecimiento diagnóstico",
+   "eclipse diagnóstico"
+  ],
+  "tipo": "concepto",
+  "familia": "Coexistencias y fronteras",
+  "anio": 1982,
+  "anio_nota": "Reiss, Levitan y Szyszko ponen nombre al fenómeno y lo demuestran con dos experimentos",
+  "obra": "Reiss, Levitan y Szyszko (1982), «Emotional disturbance and mental retardation: diagnostic overshadowing», American Journal of Mental Deficiency",
+  "figuras": [
+   "Steven Reiss"
+  ],
+  "definicion": "Tendencia a atribuir síntomas nuevos a un diagnóstico que la persona ya tiene, de modo que otros problemas (dolor, enfermedad física, ansiedad, depresión, TDAH) pasan inadvertidos. La etiqueta previa «tapa» lo demás. Se describió primero en personas con discapacidad intelectual.",
+  "usos": [
+   "D",
+   "E"
+  ],
+  "controversia": "Sin controversia sobre su existencia. Se discute cuánto pesa frente a la dificultad real de evaluar a personas con poca comunicación verbal, y cómo evitarlo sin caer en el error opuesto: multiplicar diagnósticos.",
+  "contexto": "A comienzos de los años ochenta se sospechaba que los problemas emocionales de las personas con discapacidad intelectual pasaban a menudo inadvertidos. Steven Reiss y sus colegas pensaron que no era porque sufrieran menos, sino porque los profesionales lo leían todo a través de la etiqueta. En 1982 diseñaron un experimento sencillo: varios psicólogos leían el mismo caso de una fobia incapacitante, pero en unas versiones la persona tenía discapacidad intelectual y en otras inteligencia media. Con la etiqueta, la fobia se reconocía menos como problema emocional. Repitieron la prueba con casos de esquizofrenia y de trastorno de personalidad, con resultados parecidos. El fenómeno se ha descrito después en el autismo, en la atención a la salud física y en personas con enfermedad mental grave. Durante años, el propio DSM-IV impidió diagnosticar TDAH a una persona autista: una especie de eclipsamiento por reglamento que el DSM-5 eliminó en 2013.",
+  "ejemplos": [
+   "Un adulto autista sin lenguaje oral empieza a golpearse la cara; el equipo lo atribuye al autismo hasta que un dentista descubre una infección dolorosa.",
+   "A una joven con discapacidad intelectual que deja de dormir y llora a menudo se le dice que «es su forma de ser», y nadie explora una posible depresión.",
+   "Antes de 2013, el DSM-IV obligaba a elegir: un niño autista con síntomas claros de TDAH no podía recibir también ese diagnóstico.",
+   "En el aula se atribuye a la dislexia que un alumno no se concentre; una evaluación más amplia descubre que, además, oye mal.",
+   "En urgencias, el dolor torácico de una persona con diagnóstico de ansiedad se interpreta como otra crisis y se retrasan las pruebas cardíacas."
+  ],
+  "implicaciones": "Cada vez es más habitual que una misma persona reúna varios diagnósticos, y eso hace más probable el eclipsamiento: cuando ya hay un informe de autismo, de TDAH o de discapacidad intelectual, cualquier cambio de conducta tiende a leerse «desde ahí». Para familias y docentes, la lección práctica es registrar los cambios (sueño, apetito, dolor, aislamiento) y pedir que se descarten causas nuevas. Para la sanidad, implica explorar la salud física y emocional con la misma atención que en cualquier otra persona. El concepto equilibra el debate sobre «demasiadas etiquetas»: no todo diagnóstico añadido es inflación; a veces es justo lo que estaba eclipsado. Y al revés, sumar etiquetas sin evaluar tampoco corrige el problema. La pregunta útil es siempre la misma: ¿qué más podría explicar esto?",
+  "sabias": "En el experimento original de 1982, varios psicólogos leyeron el mismo caso de una fobia incapacitante. Cuando se sugería que el paciente tenía discapacidad intelectual, la fobia se consideraba con menos frecuencia un problema emocional.",
+  "piensalo": "Cuando alguien ya tiene una etiqueta, ¿qué nos hace dejar de buscar otras explicaciones: la comodidad, la falta de tiempo o la fuerza del nombre?",
+  "paso": "Si cuidas o enseñas a alguien con un diagnóstico, apunta durante una semana cualquier cambio nuevo (sueño, apetito, dolor) para comentarlo con su profesional.",
+  "frase": "«Eso es por su autismo»",
+  "veredicto": "matiz",
+  "matiz": "Puede serlo, pero no se sabe sin evaluar. Las personas autistas o con discapacidad intelectual también tienen dolor, ansiedad, depresión o TDAH, y atribuirlo todo a la etiqueta previa retrasa la ayuda.",
+  "salto": "de la etiqueta a la explicación de todo",
+  "relacionados": [
+   "discapacidad-intelectual",
+   "diagnostico-diferencial",
+   "coexistencia",
+   "comorbilidad",
+   "infradiagnostico",
+   "audhd"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Reiss, S., Levitan, G. W. y Szyszko, J. (1982). Emotional disturbance and mental retardation: diagnostic overshadowing. American Journal of Mental Deficiency, 86(6), 567–574",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7102729/"
+   },
+   {
+    "titulo": "The Transmitter / Spectrum (2012). New rules allow joint diagnosis of autism, attention deficit. Simons Foundation",
+    "url": "https://www.thetransmitter.org/spectrum/new-rules-allow-joint-diagnosis-of-autism-attention-deficit/"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "configuraciones-multiples",
+  "lema": "Configuraciones múltiples",
+  "variantes": [
+   "configuraciones coexistentes",
+   "excepcionalidad múltiple"
+  ],
+  "tipo": "concepto",
+  "familia": "Coexistencias y fronteras",
+  "anio": 2026,
+  "anio_nota": "el proyecto Neurowokismo fija el término como eje de análisis en su informe del 6 de octubre de 2026",
+  "obra": "Proyecto Neurowokismo, bloque 9: «Configuraciones múltiples y validez de las etiquetas» (2026); término propio del proyecto",
+  "figuras": [
+   "Sally M. Reis",
+   "Susan M. Baum",
+   "Edith Burke"
+  ],
+  "definicion": "Término propio del proyecto Neurowokismo para designar la presencia simultánea de varias condiciones en una persona, como altas capacidades con autismo y TDAH. Propone describir cada componente con su propio criterio y no tratar la combinación como una entidad nueva sin pruebas.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "A",
+   "R"
+  ],
+  "controversia": "Se discute si combinaciones como AuDHD o la excepcionalidad múltiple tienen rasgos propios que justifiquen un nombre, o si basta con describir sus componentes; y cómo identificar altas capacidades cuando otra condición enmascara el rendimiento.",
+  "contexto": "Durante décadas, los manuales y la escuela obligaban a elegir. El DSM-IV no permitía diagnosticar TDAH a una persona autista, y en el aula el alumno solía ser «el de altas capacidades» o «el que tiene dificultades», pero no ambas cosas. El DSM-5, en 2013, abrió la puerta a la coexistencia de autismo y TDAH, y el campo educativo consolidó la doble excepcionalidad: Reis, Baum y Burke propusieron en 2014 una definición operativa. Al mismo tiempo, las comunidades en redes acuñaron etiquetas como AuDHD para nombrar experiencias que no cabían en una sola casilla. Al revisar esta literatura en 2026, el proyecto Neurowokismo encontró casos presentados como «triples» en los que un componente seguía en evaluación, o en los que la alta capacidad dependía de si se medía por el CI total o por índices. De ahí su propuesta: hablar de configuraciones y revisar cada pieza por separado.",
+  "ejemplos": [
+   "Una alumna con CI total de 128, razonamiento fluido de 142, autismo y TDAH es «triple» si la alta capacidad se mide por índices; no lo es si se exige un CI total de 130.",
+   "Un informe escolar enumera «autismo», «TDAH» y «AuDHD» como tres condiciones. Contarlas así duplica: AuDHD nombra la coexistencia de las dos primeras.",
+   "Una familia pide que se reconozcan a la vez las altas capacidades y el TDAH de su hijo, porque cada etiqueta por separado oculta una parte de lo que necesita.",
+   "Una creadora de contenido se presenta como «AuDHD y superdotada»; el proyecto propone preguntar qué componente está diagnosticado, cuál es autoidentificado y cuál sigue en estudio.",
+   "Un equipo de orientación diseña un plan con enriquecimiento para el talento matemático y apoyos de organización para el TDAH, en lugar de elegir uno de los dos."
+  ],
+  "implicaciones": "En España, la LOE modificada por la LOMLOE incluye las altas capacidades y los trastornos de atención o de aprendizaje entre las necesidades específicas de apoyo educativo, y el autismo puede dar lugar a necesidades educativas especiales. Un mismo alumno puede encajar en varias casillas, y cada comunidad autónoma las combina a su manera. El enfoque de configuraciones ayuda a no perder a nadie (el chico brillante cuyo TDAH nadie ve) sin convertir cada combinación en un diagnóstico nuevo. El proyecto subraya que sumar denominaciones no autoriza a sumar prestaciones ni demuestra una entidad clínica distinta; pero la falta de un nombre conjunto tampoco justifica ignorar necesidades. Para docentes y familias, la consecuencia práctica es pedir informes que describan cada componente, cómo se identificó y qué apoyo concreto requiere.",
+  "sabias": "Hasta la llegada del DSM-5 en 2013, el DSM-IV impedía diagnosticar a la vez autismo y TDAH: había que elegir uno. Hoy se reconoce que ambos coexisten con frecuencia.",
+  "piensalo": "Si una persona reúne tres etiquetas, ¿necesita un cuarto nombre para la combinación o una descripción mejor de las tres?",
+  "paso": "Si tienes un informe con varias etiquetas, comprueba para cada una quién la estableció, con qué prueba y si está confirmada o en estudio.",
+  "frase": "«AuDHD es un diagnóstico distinto del autismo y del TDAH»",
+  "veredicto": "mito",
+  "matiz": "Ni el DSM-5 ni la CIE-11 recogen AuDHD como diagnóstico. Es un nombre comunitario para la coexistencia de autismo y TDAH, útil para reconocerse, pero no una tercera condición.",
+  "salto": "de la identidad al diagnóstico",
+  "relacionados": [
+   "doble-excepcionalidad",
+   "audhd",
+   "coexistencia",
+   "altas-capacidades",
+   "validez-uso",
+   "comorbilidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Reis, S. M., Baum, S. M. y Burke, E. (2014). An operational definition of twice-exceptional learners: implications and applications. Gifted Child Quarterly, 58(3), 217–230",
+    "url": "https://journals.sagepub.com/doi/abs/10.1177/0016986214534976"
+   },
+   {
+    "titulo": "The Transmitter / Spectrum (2012). New rules allow joint diagnosis of autism, attention deficit. Simons Foundation",
+    "url": "https://www.thetransmitter.org/spectrum/new-rules-allow-joint-diagnosis-of-autism-attention-deficit/"
+   }
+  ],
+  "estado": "propia",
+  "nucleo": false
+ },
+ {
+  "id": "reificacion",
+  "lema": "Reificación",
+  "variantes": [
+   "cosificación",
+   "hipostatización",
+   "falacia de la concreción mal ubicada"
+  ],
+  "tipo": "concepto",
+  "familia": "Saltos de inferencia",
+  "anio": 2010,
+  "anio_nota": "Steven Hyman publica su análisis del «problema de la reificación» en el diagnóstico de los trastornos mentales",
+  "obra": "Hyman (2010), «The diagnosis of mental disorders: the problem of reification», Annual Review of Clinical Psychology",
+  "figuras": [
+   "Steven E. Hyman",
+   "Alfred North Whitehead",
+   "Stephen Jay Gould"
+  ],
+  "definicion": "Error de tratar una abstracción útil como si fuera una cosa con existencia propia. En salud mental, consiste en tomar una categoría diagnóstica, que es un acuerdo para agrupar síntomas, como si fuera una entidad biológica única que los causa.",
+  "usos": [
+   "I",
+   "D",
+   "R"
+  ],
+  "controversia": "Nadie discute que el riesgo existe; se discute su alcance. Unos creen que categorías como autismo o TDAH captan algo real aunque difuso; otros, que se han reificado convenciones. Llamar «construcción» a algo no lo vuelve irreal.",
+  "contexto": "La palabra tiene una larga historia filosófica. En 1925, Alfred North Whitehead llamó «falacia de la concreción mal ubicada» a confundir lo abstracto con lo concreto, y en 1981 Stephen Jay Gould acusó a parte de la psicometría de convertir un número, el CI, en una cosa dentro de la cabeza. En psiquiatría, el problema llegó de la mano de un éxito. El DSM-III de 1980 introdujo criterios operativos para que dos clínicos coincidieran al diagnosticar, y en buena medida lo consiguió. Pero, como explicó en 2010 Steven Hyman, antiguo director del Instituto Nacional de Salud Mental de Estados Unidos, esas definiciones se fijaron cuando la ciencia de los trastornos estaba en pañales. Con el tiempo, clínicos, investigadores, juristas y pacientes empezaron a tratarlas como enfermedades naturales bien delimitadas. Hyman habló de «anteojeras epistémicas»: un lenguaje común que, sin querer, frena la búsqueda de definiciones más válidas.",
+  "ejemplos": [
+   "Un titular dice «el cerebro TDAH es distinto»; la investigación muestra diferencias medias pequeñas entre grupos, no un órgano reconocible en cada persona diagnosticada.",
+   "Una madre oye que su hijo «tiene un TDAH» como quien tiene una fractura; la psicóloga le explica que el diagnóstico describe un patrón de conducta, no una lesión localizada.",
+   "Un reportaje busca «el gen del autismo»; la genética actual describe muchas variantes comunes de efecto pequeño y algunas raras de efecto mayor, no una causa única.",
+   "Alguien escribe en redes «no soy yo, es mi TDAH»: la etiqueta pasa de describir dificultades a funcionar como un agente con voluntad propia.",
+   "Una administración trata un código diagnóstico como prueba de un mecanismo, cuando solo certifica que se cumplieron unos criterios en un momento dado."
+  ],
+  "implicaciones": "La reificación aparece hoy por dos lados. Uno es el «neuroencanto»: la idea de que cada etiqueta designa un tipo de cerebro que algún día se verá en un escáner. El otro es la reacción contraria, que concluye que si una categoría es una convención, entonces es un invento. Ambos comparten el mismo error: confundir el nombre con la cosa. En la escuela y en la consulta, evitarla significa decir «cumple criterios de» o «tiene dificultades de atención que encajan con un diagnóstico de TDAH», en lugar de hablar como si el diagnóstico explicara por sí solo la conducta. No es una cuestión de cortesía: cambia lo que se investiga, lo que se espera de un tratamiento y cómo se entiende una persona a sí misma.",
+  "sabias": "En 2010, el psiquiatra de Harvard Steven Hyman escribió que el DSM, pensado para crear un lenguaje común, había creado también «anteojeras epistémicas» que frenan el avance hacia diagnósticos válidos.",
+  "piensalo": "¿Puede una categoría ser útil y real para dar apoyos aunque no corresponda a una sola causa en el cerebro?",
+  "paso": "Esta semana, cuando oigas «es su TDAH» o «es su autismo», prueba a reformularlo como «tiene dificultades de… que encajan con…» y observa qué cambia.",
+  "frase": "«Lo han visto en el escáner: tiene un cerebro TDAH»",
+  "veredicto": "mito",
+  "matiz": "No hay prueba de neuroimagen que permita diagnosticar TDAH a una persona concreta. Los estudios hallan diferencias medias pequeñas entre grupos, con gran solapamiento entre personas con y sin diagnóstico.",
+  "salto": "de la etiqueta al mecanismo",
+  "relacionados": [
+   "categoria-diagnostica",
+   "dsm-iii",
+   "validez-constructo",
+   "neuroencanto",
+   "efecto-bucle",
+   "biomarcador"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Hyman, S. E. (2010). The diagnosis of mental disorders: the problem of reification. Annual Review of Clinical Psychology, 6, 155–179",
+    "url": "https://doi.org/10.1146/annurev.clinpsy.3.022806.091532"
+   },
+   {
+    "titulo": "Stanford Encyclopedia of Philosophy. Alfred North Whitehead (entrada sobre la «falacia de la concreción mal ubicada», 1925)",
+    "url": "https://plato.stanford.edu/entries/whitehead/"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "efecto-bucle",
+  "lema": "Efecto bucle (tipos interactivos)",
+  "variantes": [
+   "looping effect",
+   "clases interactivas",
+   "tipos humanos interactivos",
+   "efecto de retroalimentación de las clasificaciones"
+  ],
+  "tipo": "concepto",
+  "familia": "Saltos de inferencia",
+  "anio": 1995,
+  "anio_nota": "Ian Hacking publica «The looping effects of human kinds» en un volumen colectivo sobre cognición causal",
+  "obra": "Hacking (1995), «The looping effects of human kinds», en Sperber, Premack y Premack (eds.), Causal Cognition: A Multidisciplinary Debate, Clarendon Press",
+  "figuras": [
+   "Ian Hacking"
+  ],
+  "definicion": "Idea del filósofo Ian Hacking: las clasificaciones de personas no son pasivas. Cuando alguien conoce la etiqueta que se le aplica, cambia cómo se entiende y se comporta, y esos cambios obligan a revisar la propia categoría. Por eso habla de «tipos interactivos».",
+  "usos": [
+   "I",
+   "D",
+   "R"
+  ],
+  "controversia": "Se discute cuánto pesa el bucle frente a factores biológicos estables y si sirve para explicar el aumento actual de diagnósticos. Hacking lo presentó como una dinámica, no como prueba de que una condición sea inventada.",
+  "contexto": "Ian Hacking (1936–2023) fue un filósofo canadiense interesado en cómo nacen las clases de personas. En «Making up people» (1986) y en «The looping effects of human kinds» (1995) contrastó dos tipos de clasificación. Un elemento químico no sabe que se llama así; una persona clasificada como «superdotada», «autista» o «con personalidad múltiple», sí. Esa conciencia altera sus relatos, sus instituciones y sus conductas, y los expertos tienen que ajustar después la definición. Hacking estudió casos concretos, como el auge del trastorno de personalidad múltiple en Norteamérica a finales del siglo XX o la epidemia de «viajeros locos» en la Francia de finales del XIX. Su propuesta, nacida en plena discusión sobre el construccionismo social, buscaba un término medio: las clasificaciones humanas son reales y tienen efectos, pero se mueven con las personas a las que nombran.",
+  "ejemplos": [
+   "Un adolescente ve vídeos sobre TDAH, reinterpreta su historia escolar con esa clave y llega a consulta con un relato ya organizado según los criterios.",
+   "Las comunidades autistas que reivindicaron su identidad desde los años noventa cambiaron cómo se habla del autismo, y esos cambios han llegado a la investigación y a la clínica.",
+   "En 2022, un estudio halló que 52 de los 100 vídeos más populares sobre TDAH en TikTok eran engañosos: terreno fértil para bucles entre etiqueta y relato.",
+   "Un profesor sabe que un alumno «es de altas capacidades» y le propone retos; el alumno empieza a verse distinto, y eso cambia cómo responde en clase.",
+   "Un servicio crea una unidad específica para una etiqueta; su existencia cambia quién busca esa etiqueta y, con el tiempo, el perfil de quienes la reciben."
+  ],
+  "implicaciones": "El efecto bucle ayuda a entender la era de las redes sociales sin caer en el desprecio. Cuando miles de personas comparten experiencias bajo una etiqueta, nacen comunidades, vocabulario y también expectativas que moldean cómo se ve cada cual. Eso no prueba que los diagnósticos sean falsos ni que la identidad sea un capricho: muestra que la categoría y las personas se influyen mutuamente. Para la clínica implica escuchar el relato de quien consulta sabiendo que puede llegar ya «formateado», y evaluar igualmente. Para la investigación, que las muestras de hoy no son las de hace treinta años. Para cualquiera, la pregunta útil es doble: qué aprendes de ti con esta etiqueta y qué dejas de ver si te miras solo a través de ella.",
+  "sabias": "En 1887, el médico Philippe Tissié publicó en Burdeos el caso de Albert Dadas, que emprendía viajes compulsivos o «fugas». Siguió una avalancha de casos en Francia; hacia 1909 el diagnóstico se había disuelto. Hacking lo analizó en «Mad Travelers».",
+  "piensalo": "Si una etiqueta cambia cómo te ves y te comportas, ¿eso la hace menos real o más importante de manejar con cuidado?",
+  "paso": "Revisa los cinco últimos vídeos sobre salud mental que te ha mostrado una red social. ¿Cuántos describen rasgos que tendría casi cualquiera?",
+  "frase": "«Desde que se habla tanto en redes, todo el mundo dice que tiene TDAH»",
+  "veredicto": "matiz",
+  "matiz": "Las redes influyen en cómo la gente se interpreta, y circula mucha información engañosa. Pero el aumento de diagnósticos puede reflejar también que se detecta más a adultos y mujeres antes ignorados. «Todo el mundo» es exageración.",
+  "salto": "del aumento de diagnósticos a «es una moda»",
+  "relacionados": [
+   "ian-hacking",
+   "redes-sociales",
+   "autoadscripcion",
+   "autodiagnostico",
+   "reificacion",
+   "estigma"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Hacking, I. (1995). The looping effects of human kinds. En D. Sperber, D. Premack y A. J. Premack (eds.), Causal Cognition: A Multidisciplinary Debate. Oxford: Clarendon Press",
+    "url": "https://academic.oup.com/book/26284/chapter-abstract/194529638"
+   },
+   {
+    "titulo": "Borch-Jacobsen, M. (1999). What made Albert run? (reseña de Mad Travelers, de Ian Hacking). London Review of Books, 21(11)",
+    "url": "https://www.lrb.co.uk/v21/n11/mikkel-borch-jacobsen/what-made-albert-run"
+   },
+   {
+    "titulo": "Yeung, A., Ng, E. y Abi-Jaoude, E. (2022). TikTok and attention-deficit/hyperactivity disorder: a cross-sectional study of social media content quality. Canadian Journal of Psychiatry, 67(12), 899–906",
+    "url": "https://doi.org/10.1177/07067437221082854"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "inferencia-ecologica",
+  "lema": "Falacia ecológica (del grupo al individuo)",
+  "variantes": [
+   "falacia ecológica",
+   "inferencia ecológica",
+   "error del grupo al individuo",
+   "ecological fallacy"
+  ],
+  "tipo": "concepto",
+  "familia": "Saltos de inferencia",
+  "anio": 1950,
+  "anio_nota": "W. S. Robinson demuestra que las correlaciones entre grupos no valen para los individuos; Hanan Selvin bautizó el error en 1958",
+  "obra": "Robinson (1950), «Ecological correlations and the behavior of individuals», American Sociological Review",
+  "figuras": [
+   "William S. Robinson",
+   "Hanan C. Selvin"
+  ],
+  "definicion": "Error de atribuir a cada individuo lo que solo se ha observado en datos agregados de grupos. Que un grupo tenga de media una característica no permite concluir que cada miembro la tenga, ni que la relación entre variables sea la misma dentro de cada persona.",
+  "usos": [
+   "I",
+   "D",
+   "E"
+  ],
+  "controversia": "Sin controversia sobre el error lógico. Se discute cuánto afecta a la psicología y la psiquiatría, donde casi todo el conocimiento procede de medias de grupo y se aplica después a personas concretas.",
+  "contexto": "En 1950, el sociólogo William S. Robinson usó el censo estadounidense de 1930 para hacer una demostración incómoda. Por estados, cuanta más población nacida en el extranjero, menos analfabetismo: una correlación de −0,53. Pero al mirar a las personas, los nacidos fuera tenían algo más de analfabetismo que los nativos: +0,12. Los inmigrantes tendían a instalarse en estados con más alfabetización. Robinson concluyó que las correlaciones entre grupos no pueden sustituir a las individuales, y en 1958 Hanan Selvin bautizó el error como «falacia ecológica». La idea pasó a la epidemiología y, más tarde, a la psicología. En 2018, Fisher, Medaglia y Jeronimus mostraron en PNAS que, en seis estudios con medidas repetidas, la variabilidad dentro de cada persona era de dos a cuatro veces mayor que la observada entre personas del grupo. Lo que vale de media no siempre describe a nadie en particular.",
+  "ejemplos": [
+   "«Los niños con TDAH tienen el núcleo accumbens más pequeño» es una media de grupo; no permite saber cómo es el cerebro de un niño concreto ni diagnosticarle.",
+   "Si un estudio concluye que, de media, las chicas autistas camuflan más que los chicos, eso no permite suponer que una chica concreta camufla ni descartar el autismo en un chico.",
+   "Que una comunidad autónoma registre más alumnado con TDAH no prueba que allí se diagnostique de más: puede haber mejores servicios o criterios de registro distintos.",
+   "Un tratamiento mejora de media los síntomas en un ensayo; en una persona concreta puede funcionar mucho, poco o nada, y solo el seguimiento lo dirá.",
+   "En redes se lee «los TDAH son creativos»; aunque un estudio encontrara una media algo más alta, no diría nada fiable sobre la creatividad de una persona."
+  ],
+  "implicaciones": "Este salto está en el centro de muchos malentendidos sobre neurodiversidad. La investigación compara grupos; la consulta y el aula atienden a personas. Cuando un titular afirma que «el cerebro autista» o «el cerebro TDAH» es de una manera, casi siempre traduce una diferencia media, a menudo pequeña, en una propiedad de cada individuo. Ocurre también al revés: un dato regional, como más diagnósticos en un sitio, se convierte en sospecha sobre una familia concreta. En España, donde los registros escolares y sanitarios varían entre comunidades autónomas, conviene leer esas cifras como pistas sobre sistemas, no como veredictos sobre personas. Para la evaluación individual sirven otras herramientas: la historia del desarrollo, la observación en varios contextos, las pruebas normalizadas y la información de quien convive con la persona.",
+  "sabias": "En el ejemplo clásico de Robinson, los estados con más inmigrantes tenían menos analfabetismo (r = −0,53), pero entre personas los inmigrantes tenían algo más (r = +0,12). El mismo censo daba relaciones de signo contrario según el nivel.",
+  "piensalo": "Cuando lees que «las personas con X son así», ¿se refiere a una media, a la mayoría o a todas? ¿Lo dice el estudio o el titular?",
+  "paso": "Busca un titular sobre «el cerebro» de algún diagnóstico y localiza el estudio. Comprueba si habla de medias de grupo y cuánto se solapan.",
+  "frase": "«Los estudios dicen que los TDAH tienen el cerebro más pequeño; el de mi hijo también lo será»",
+  "veredicto": "mito",
+  "matiz": "Las diferencias de volumen halladas son medias pequeñas (d entre −0,10 y −0,19 en el megaanálisis ENIGMA de 2017), con gran solapamiento. No permiten predecir cómo es el cerebro de un niño concreto.",
+  "salto": "del grupo al individuo",
+  "relacionados": [
+   "tamano-efecto",
+   "neuroimagen",
+   "prevalencia",
+   "heterogeneidad",
+   "correlacion-causa",
+   "diferencias-autonomicas"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Subramanian, S. V., Jones, K., Kaddour, A. y Krieger, N. (2009). Revisiting Robinson: the perils of individualistic and ecologic fallacy. International Journal of Epidemiology, 38(2), 342–360",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2663721/"
+   },
+   {
+    "titulo": "Fisher, A. J., Medaglia, J. D. y Jeronimus, B. F. (2018). Lack of group-to-individual generalizability is a threat to human subjects research. PNAS, 115(27), E6106–E6115",
+    "url": "https://doi.org/10.1073/pnas.1711978115"
+   },
+   {
+    "titulo": "Hoogman, M. et al. (2017). Subcortical brain volume differences in participants with attention deficit hyperactivity disorder in children and adults: a cross-sectional mega-analysis. The Lancet Psychiatry, 4(4), 310–319",
+    "url": "https://doi.org/10.1016/S2215-0366(17)30049-4"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "efecto-edad-relativa",
+  "lema": "Efecto de la edad relativa",
+  "variantes": [
+   "relative age effect",
+   "RAE",
+   "efecto del mes de nacimiento"
+  ],
+  "tipo": "concepto",
+  "familia": "Saltos de inferencia",
+  "anio": 1985,
+  "anio_nota": "Roger y Paula Barnsley y Gus Thompson ponen nombre al efecto al estudiar las fechas de nacimiento de jugadores de hockey",
+  "obra": "Barnsley, Barnsley y Thompson (1985), «Hockey success and birthdate: the relative age effect», CAHPER Journal (PHE Canada)",
+  "figuras": [
+   "Roger H. Barnsley",
+   "Paula E. Barnsley",
+   "Angus H. Thompson",
+   "Richard L. Morrow"
+  ],
+  "definicion": "Diferencia de resultados entre los niños mayores y los más pequeños de un mismo curso escolar, que pueden llevarse casi un año. En el TDAH, los nacidos justo antes de la fecha de corte reciben más diagnósticos y más medicación que sus compañeros mayores.",
+  "usos": [
+   "I",
+   "D",
+   "E"
+  ],
+  "controversia": "El efecto está bien establecido; se discute qué significa. ¿Se confunde inmadurez con TDAH en los pequeños o se infradiagnostica a los mayores? Un metaanálisis de 2023 no halló que los diagnósticos de los pequeños se pierdan más después.",
+  "contexto": "El efecto se describió primero en el deporte. A mediados de los ochenta, Roger y Paula Barnsley y Gus Thompson observaron que en las ligas canadienses de hockey abundaban los jugadores nacidos en los primeros meses del año: en las categorías de formación, unos meses de más dan ventajas físicas que se traducen en selección y entrenamiento extra. Pronto se buscó el mismo patrón en la escuela, en las notas y en los diagnósticos de dificultades de aprendizaje. En el TDAH, el estudio más citado llegó en 2012: con casi 940.000 niños de la Columbia Británica (Canadá), halló que los nacidos en diciembre, los más pequeños de su curso, recibían más diagnósticos y más medicación que los nacidos en enero. Revisiones posteriores, con estudios de muchos países, lo han confirmado. El efecto pone el foco en un factor ajeno al cerebro de cada niño: el calendario administrativo.",
+  "ejemplos": [
+   "En España se entra en 1.º de Primaria en el año natural en que se cumplen seis años: quien nace el 31 de diciembre comparte aula con quien nació casi un año antes.",
+   "Una tutora compara a un niño de diciembre con la media de su clase y lo ve inquieto; una buena evaluación lo compara con niños de su misma edad.",
+   "Un metaanálisis publicado en 2024 halló el efecto en las valoraciones de síntomas hechas por docentes, pero no en las de los padres.",
+   "En las ligas juveniles canadienses de hockey, los jugadores tenían entre 3,5 y 5 veces más probabilidades de haber nacido en enero que en diciembre.",
+   "Una familia teme que su hija de diciembre sea etiquetada por comparación; puede pedir que la evaluación tenga en cuenta su edad exacta y no solo su curso."
+  ],
+  "implicaciones": "España es un caso de libro: la escolarización se organiza por año natural, de modo que los nacidos en diciembre son siempre los más pequeños de su clase. En los primeros cursos, once meses son una eternidad en atención, lenguaje y autocontrol. Esto no significa que todos sus diagnósticos sean errores ni que el TDAH sea un invento escolar; significa que comparar a un niño con compañeros mayores sesga la mirada. La recomendación práctica para docentes y equipos de orientación es sencilla: valorar conductas con normas de la edad real, recoger información de varios contextos (casa, aula, ocio) y revisar con el tiempo. Para la investigación, el efecto recuerda que el contexto institucional también entra en las cifras de prevalencia.",
+  "sabias": "En la Columbia Británica (Canadá), las niñas nacidas en diciembre tenían un 70 % más de probabilidades de recibir un diagnóstico de TDAH que las nacidas en enero; en los niños, la diferencia era del 30 %.",
+  "piensalo": "Si la fecha de nacimiento cambia la probabilidad de un diagnóstico, ¿qué otros factores ajenos a la persona podrían influir sin que los veamos?",
+  "paso": "Si tienes hijos o alumnos pequeños, mira su mes de nacimiento y calcula cuántos meses les separan del mayor de la clase.",
+  "frase": "«Los niños nacidos en diciembre tienen más TDAH»",
+  "veredicto": "matiz",
+  "matiz": "Reciben más diagnósticos; no está claro que tengan más TDAH. Puede haber inmadurez confundida con síntomas o infradiagnóstico en los mayores. Sus diagnósticos no se retiran más con los años (Gosling y colaboradores, 2023).",
+  "salto": "de la asociación a la causa",
+  "relacionados": [
+   "tdah",
+   "sobrediagnostico",
+   "medicalizacion",
+   "escalas-valoracion",
+   "umbral",
+   "infradiagnostico"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Morrow, R. L. et al. (2012). Influence of relative age on diagnosis and treatment of attention-deficit/hyperactivity disorder in children. CMAJ, 184(7), 755–762",
+    "url": "https://doi.org/10.1503/cmaj.111619"
+   },
+   {
+    "titulo": "Frisira, E., Holland, J. y Sayal, K. (2025). Systematic review and meta-analysis: relative age in attention-deficit/hyperactivity disorder and autism spectrum disorder. European Child & Adolescent Psychiatry, 34(2), 381–401",
+    "url": "https://doi.org/10.1007/s00787-024-02459-x"
+   },
+   {
+    "titulo": "Barnsley, R. H., Barnsley, P. E. y Thompson, A. H. (1985). Hockey success and birthdate: the relative age effect. CAHPER Journal, 51(8). PHE Canada",
+    "url": "https://phecanada.ca/professional-learning/journal/hockey-success-and-birthdate-relative-age-effect"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "sobrediagnostico",
+  "lema": "Sobrediagnóstico",
+  "variantes": [
+   "overdiagnosis",
+   "sobrediagnosis",
+   "diagnóstico excesivo"
+  ],
+  "tipo": "concepto",
+  "familia": "Saltos de inferencia",
+  "anio": 2010,
+  "anio_nota": "Welch y Black sistematizan el concepto de sobrediagnóstico a partir de la detección precoz del cáncer",
+  "obra": "Welch y Black (2010), «Overdiagnosis in cancer», Journal of the National Cancer Institute",
+  "figuras": [
+   "H. Gilbert Welch",
+   "William C. Black",
+   "Luise Kazda"
+  ],
+  "definicion": "Diagnóstico de un problema que cumple criterios, pero cuya identificación no beneficia a la persona o le causa más daños que ventajas. No equivale a un error diagnóstico: la persona sobrediagnosticada puede cumplir los criterios, pero la etiqueta no le ayuda.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "A"
+  ],
+  "controversia": "En el TDAH infantil hay indicios de sobrediagnóstico en casos leves (Kazda, 2021), pero también de casos sin detectar. Se discute cuál pesa más en cada contexto y cómo medir los beneficios y daños de diagnosticar.",
+  "contexto": "El concepto nació en la medicina del cáncer. Con las mamografías, el PSA y las ecografías se empezaron a detectar tumores que nunca habrían dado síntomas ni causado la muerte. En 2010, H. Gilbert Welch y William Black estimaron, a partir de ensayos, que una parte notable de algunos cánceres detectados por cribado eran sobrediagnósticos. El caso más llamativo llegó poco después de Corea del Sur, donde el cribado de tiroides multiplicó los diagnósticos sin cambiar la mortalidad. Desde 2002, la revista BMJ venía alertando contra el «exceso de medicina». El concepto saltó luego a la salud mental, donde es más difícil de medir porque no hay una lesión que observar. En 2021, una revisión de Luise Kazda y su equipo reunió 334 estudios sobre TDAH en niños y adolescentes y encontró indicios de sobrediagnóstico y sobretratamiento, sobre todo en casos leves, junto con grandes lagunas de evidencia.",
+  "ejemplos": [
+   "Un niño con inatención leve recibe diagnóstico de TDAH y tratamiento sin que antes se hayan probado ajustes en el aula; puede cumplir criterios y, aun así, no beneficiarse.",
+   "Un adulto con despistes propios del estrés laboral sale de una consulta rápida con una etiqueta que no cambia nada en su vida y le preocupa más.",
+   "Un cribado aplicado sin seguimiento señala «riesgo» de autismo en muchos niños; si no llega una evaluación posterior, el aviso puede generar más angustia que ayuda.",
+   "En 2021, una revisión de 334 estudios sobre TDAH encontró que solo 5 evaluaban los beneficios y daños de diagnosticar los casos más leves.",
+   "Un periodista confunde sobrediagnóstico con «diagnósticos falsos»; el concepto se refiere a etiquetas que no aportan beneficio, aunque los criterios se cumplan."
+  ],
+  "implicaciones": "Hablar de sobrediagnóstico no es negar el TDAH ni el autismo: es preguntar si, en cada caso, poner el nombre mejora la vida de la persona. En España, donde muchos apoyos escolares dependen de un informe, existe la tentación de diagnosticar para acceder a recursos, igual que el riesgo contrario de no detectar. El proyecto Neurowokismo insiste en pesar ambos errores por igual. Para la sanidad, implica cuidar los casos limítrofes: observar, reevaluar y decidir el tratamiento caso a caso. Para la escuela, ofrecer ajustes sin exigir siempre una etiqueta. Para las familias, preguntar qué cambiará con el diagnóstico. Si la respuesta es «nada», conviene hablarlo con calma con el profesional; si es «mucho», el diagnóstico probablemente esté cumpliendo su función.",
+  "sabias": "En Corea del Sur, tras extenderse el cribado con ecografía, los diagnósticos de cáncer de tiroides se multiplicaron por 15 desde 1993, mientras la mortalidad se mantenía estable. Es el ejemplo de manual de sobrediagnóstico.",
+  "piensalo": "¿Qué tendría que cambiar en la vida de alguien para que un diagnóstico merezca la pena? ¿Quién debería decidirlo?",
+  "paso": "Si alguien de tu entorno espera un diagnóstico, ayúdale a apuntar qué espera que cambie con él: apoyos, comprensión, tratamiento o nada concreto.",
+  "frase": "«Ahora se diagnostica TDAH a cualquiera»",
+  "veredicto": "matiz",
+  "matiz": "Hay indicios de sobrediagnóstico en casos leves de TDAH infantil, pero la misma revisión halló un «reservorio» de casos sin detectar. «A cualquiera» es falso; «a veces, sin beneficio claro», plausible.",
+  "salto": "del aumento de diagnósticos a «es una moda»",
+  "relacionados": [
+   "infradiagnostico",
+   "errores-simetricos",
+   "inflacion-diagnostica",
+   "umbral",
+   "prevalencia",
+   "efecto-edad-relativa"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Welch, H. G. y Black, W. C. (2010). Overdiagnosis in cancer. Journal of the National Cancer Institute, 102(9), 605–613",
+    "url": "https://doi.org/10.1093/jnci/djq099"
+   },
+   {
+    "titulo": "Kazda, L. et al. (2021). Overdiagnosis of attention-deficit/hyperactivity disorder in children and adolescents: a systematic scoping review. JAMA Network Open, 4(4), e215335",
+    "url": "https://doi.org/10.1001/jamanetworkopen.2021.5335"
+   },
+   {
+    "titulo": "Ahn, H. S., Kim, H. J. y Welch, H. G. (2014). Korea's thyroid-cancer «epidemic»: screening and overdiagnosis. The New England Journal of Medicine, 371(19), 1765–1767",
+    "url": "https://doi.org/10.1056/NEJMp1409841"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "infradiagnostico",
+  "lema": "Infradiagnóstico",
+  "variantes": [
+   "underdiagnosis",
+   "subdiagnóstico",
+   "casos no detectados"
+  ],
+  "tipo": "concepto",
+  "familia": "Saltos de inferencia",
+  "anio": 2017,
+  "anio_nota": "un metaanálisis estima que la proporción real de chicos y chicas autistas se acerca a 3:1, no a 4:1, y apunta a un sesgo diagnóstico",
+  "obra": "Loomes, Hull y Mandy (2017), «What is the male-to-female ratio in autism spectrum disorder? A systematic review and meta-analysis», Journal of the American Academy of Child and Adolescent Psychiatry",
+  "figuras": [
+   "Rachel Loomes",
+   "Laura Hull",
+   "William Mandy"
+  ],
+  "definicion": "Situación en la que personas que cumplen criterios de una condición, y se beneficiarían de identificarla, no reciben el diagnóstico. Afecta de forma desigual según sexo, edad, nivel socioeconómico, origen o lugar de residencia.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "A"
+  ],
+  "controversia": "Se discute su magnitud y a quién afecta más. Unos atribuyen el aumento reciente de diagnósticos en mujeres y adultos a la corrección del infradiagnóstico; otros temen que se sobrecorrija. Ambos errores pueden coexistir en un mismo sistema.",
+  "contexto": "Durante gran parte del siglo XX, el autismo y la hiperactividad se describieron sobre todo en niños varones. Los criterios, las escalas y los casos de referencia se construyeron con ellos, y la imagen pública se consolidó: el autista era un niño; el hiperactivo, un chico que no paraba quieto. En las últimas décadas, clínicos y personas afectadas empezaron a señalar perfiles que quedaban fuera de esa imagen: niñas con intereses intensos socialmente aceptados, adultos con TDAH de predominio inatento, personas con buena capacidad verbal que compensaban sus dificultades. En 2017, Rachel Loomes, Laura Hull y William Mandy analizaron 54 estudios con casi 14 millones de participantes y concluyeron que, cuando se busca activamente en la población, la proporción de chicos y chicas autistas se acerca a 3:1, frente al 4:1 habitual. Lo interpretaron como un sesgo diagnóstico de género. El concepto es la otra cara del sobrediagnóstico.",
+  "ejemplos": [
+   "Una mujer de 38 años recibe el diagnóstico de autismo tras años de tratamientos por ansiedad y depresión que no explicaban del todo sus dificultades.",
+   "Una alumna inatenta y tranquila, que saca buenas notas a base de mucho esfuerzo, nunca es derivada porque no molesta en clase.",
+   "En una zona con pocos especialistas, una familia espera más de un año para una evaluación del neurodesarrollo, y mientras tanto el colegio no activa apoyos.",
+   "Un adolescente con discapacidad intelectual y conductas autolesivas no es evaluado de autismo porque todo se atribuye a su discapacidad.",
+   "Un estudio que solo cuenta a quienes ya tienen diagnóstico infraestima la prevalencia; los que buscan activamente en la población encuentran proporcionalmente más chicas."
+  ],
+  "implicaciones": "El infradiagnóstico tiende a afectar a quienes no encajan en el estereotipo: mujeres, adultos, personas con discapacidad intelectual o con dificultades para acceder a la sanidad pública. Sus costes son reales: años de explicaciones equivocadas, apoyos escolares que no llegan, tratamientos que no encajan. Corregirlo no consiste en diagnosticar más a ciegas, sino en evaluar mejor: formar a docentes y profesionales en presentaciones menos típicas, reducir listas de espera y usar instrumentos validados en mujeres y adultos. El concepto es imprescindible para leer cualquier debate sobre «epidemias»: un aumento de diagnósticos puede reflejar que antes se detectaba poco. Y la pregunta justa para un sistema sanitario o educativo no es solo «¿hay demasiados?», sino también «¿están todos los que deberían estar?».",
+  "sabias": "En el metaanálisis de Loomes y colaboradores (2017), los estudios que buscaban casos activamente en la población hallaron 3,25 chicos por cada chica autista; los que solo contaban diagnósticos previos, 4,56.",
+  "piensalo": "Si una persona pasa años sin diagnóstico, ¿qué ha perdido? ¿Y qué podría haber ganado al no tenerlo?",
+  "paso": "Pregunta en tu centro educativo o de salud cuánto tarda una evaluación del neurodesarrollo y quién puede solicitarla.",
+  "frase": "«Las niñas casi nunca son autistas»",
+  "veredicto": "mito",
+  "matiz": "El autismo se diagnostica más en chicos, pero la proporción real parece cercana a 3:1, no 4:1, y hay indicios de que muchas chicas que cumplen criterios no reciben diagnóstico.",
+  "salto": "de la falta de diagnóstico a la falta de condición",
+  "relacionados": [
+   "sobrediagnostico",
+   "brecha-genero",
+   "camuflaje",
+   "errores-simetricos",
+   "tdah-adulto",
+   "eclipsamiento-diagnostico"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Loomes, R., Hull, L. y Mandy, W. P. L. (2017). What is the male-to-female ratio in autism spectrum disorder? A systematic review and meta-analysis. Journal of the American Academy of Child and Adolescent Psychiatry, 56(6), 466–474",
+    "url": "https://doi.org/10.1016/j.jaac.2017.03.013"
+   },
+   {
+    "titulo": "Kazda, L. et al. (2021). Overdiagnosis of attention-deficit/hyperactivity disorder in children and adolescents: a systematic scoping review. JAMA Network Open, 4(4), e215335",
+    "url": "https://doi.org/10.1001/jamanetworkopen.2021.5335"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "inflacion-diagnostica",
+  "lema": "Inflación diagnóstica",
+  "variantes": [
+   "diagnostic inflation",
+   "expansión diagnóstica"
+  ],
+  "tipo": "concepto",
+  "familia": "Saltos de inferencia",
+  "anio": 2012,
+  "anio_nota": "Batstra y Frances publican «Diagnostic inflation: causes and a suggested cure», en vísperas del DSM-5",
+  "obra": "Batstra y Frances (2012), «Diagnostic inflation: causes and a suggested cure», The Journal of Nervous and Mental Disease",
+  "figuras": [
+   "Allen Frances",
+   "Laura Batstra"
+  ],
+  "definicion": "Aumento sostenido de diagnósticos que no se explica por un aumento real de los problemas, sino por criterios más laxos, umbrales más bajos, nuevas categorías o presiones comerciales, institucionales y culturales. Es una hipótesis sobre causas, no una cifra que se mida directamente.",
+  "usos": [
+   "I",
+   "D",
+   "A"
+  ],
+  "controversia": "Se discute qué parte del aumento de diagnósticos de TDAH o autismo es inflación y qué parte es mejor detección de casos antes invisibles. Los datos de tendencias, por sí solos, no permiten distinguirlas.",
+  "contexto": "La expresión ganó fuerza en los años previos al DSM-5, publicado en mayo de 2013. Su principal impulsor, el psiquiatra Allen Frances, había dirigido el grupo de trabajo que elaboró el DSM-IV en 1994 y se convirtió en crítico de la nueva edición. En 2012, junto con la investigadora neerlandesa Laura Batstra, escribió que en treinta años se había producido una inflación diagnóstica llamativa, acompañada de un aumento del uso de psicofármacos, y que el DSM-5 proponía otra gran expansión. Como remedio sugerían combinar atención escalonada y diagnóstico escalonado: en los casos leves, observar y ofrecer apoyos de bajo riesgo antes de etiquetar. En 2013, en el libro «Saving Normal», Frances culpó sobre todo a la promoción farmacéutica y admitió que su equipo no previó lo que llamó «falsas epidemias» infantiles. Su tesis ha sido muy influyente y también muy discutida, en especial por quienes subrayan el infradiagnóstico.",
+  "ejemplos": [
+   "En 2012, Batstra y Frances propusieron un «diagnóstico escalonado»: ante casos leves, esperar y ofrecer apoyos de bajo riesgo antes de poner una etiqueta.",
+   "Un titular anuncia que los diagnósticos de autismo se han multiplicado; hablar de inflación exige comprobar antes si cambiaron los criterios, los servicios o la búsqueda activa.",
+   "Un colegio registra más alumnos con TDAH que hace unos años; parte puede ser inflación y parte, detección de chicas e inatentos antes ignorados.",
+   "Un debate televisivo usa «inflación» como sinónimo de «moda»; el concepto original apunta a criterios y presiones del sistema, no a familias que «se inventan» diagnósticos.",
+   "Cuando un manual baja un umbral o fusiona categorías, los investigadores comparan la prevalencia antes y después para estimar cuánto cambio se debe solo a las nuevas reglas."
+  ],
+  "implicaciones": "En España, como en otros países, el debate público sobre TDAH y autismo oscila entre «epidemia» y «moda». El concepto de inflación diagnóstica sirve si se usa con precisión: no basta con que suban las cifras; hay que mostrar que suben por razones ajenas a las necesidades reales. Eso exige datos sobre los criterios aplicados, quién deriva, qué incentivos hay y qué ocurre después con las personas diagnosticadas. El proyecto Neurowokismo advierte que no encontró pruebas de que más inclusión produzca necesariamente más error clínico. Para la escuela y la sanidad, la lección práctica es vigilar los casos limítrofes y los diagnósticos usados solo como llave de recursos, sin olvidar que muchas personas siguen esperando una evaluación.",
+  "sabias": "Allen Frances, que había dirigido el grupo de trabajo del DSM-IV, escribió en 2013 que su equipo no previó tres «falsas epidemias» infantiles: autismo, TDAH y trastorno bipolar infantil. Es su opinión, muy discutida, sobre todo en el caso del autismo.",
+  "piensalo": "Si mañana se bajara un umbral diagnóstico y aparecieran miles de casos nuevos, ¿cómo sabrías si es inflación o justicia para quien no tenía nombre?",
+  "paso": "Busca una noticia sobre «aumento de diagnósticos» y comprueba si menciona cambios de criterios, de servicios o de métodos de recuento.",
+  "frase": "«Si hay más diagnósticos, es que hay una epidemia»",
+  "veredicto": "mito",
+  "matiz": "Un aumento de diagnósticos puede deberse a criterios más amplios, más servicios, mejor detección de grupos olvidados o más conciencia social. Las cifras solas no distinguen inflación, corrección del infradiagnóstico ni epidemia real.",
+  "salto": "del aumento de diagnósticos a «es una epidemia»",
+  "relacionados": [
+   "allen-frances",
+   "dsm-5",
+   "deriva-conceptual",
+   "sobrediagnostico",
+   "prevalencia",
+   "incentivos"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Batstra, L. y Frances, A. (2012). Diagnostic inflation: causes and a suggested cure. The Journal of Nervous and Mental Disease, 200(6), 474–479",
+    "url": "https://doi.org/10.1097/NMD.0b013e318257c4a2"
+   },
+   {
+    "titulo": "Kirkus Reviews (2013). Reseña de Frances, A., Saving Normal: An Insider's Revolt Against Out-of-Control Psychiatric Diagnosis, DSM-5, Big Pharma, and the Medicalization of Ordinary Life. William Morrow",
+    "url": "https://kirkusreviews.com/book-reviews/allen-frances/saving-normal"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "medicalizacion",
+  "lema": "Medicalización",
+  "variantes": [
+   "medicalization",
+   "medicalización de la vida cotidiana",
+   "desmedicalización (proceso inverso)"
+  ],
+  "tipo": "concepto",
+  "familia": "Saltos de inferencia",
+  "anio": 1975,
+  "anio_nota": "Peter Conrad publica su estudio sobre la «hiperquinesia» como caso de medicalización de la conducta",
+  "obra": "Conrad (1975), «The discovery of hyperkinesis: notes on the medicalization of deviant behavior», Social Problems",
+  "figuras": [
+   "Peter Conrad"
+  ],
+  "definicion": "Proceso por el que problemas antes entendidos como morales, educativos o sociales pasan a definirse y tratarse en términos médicos. Es una descripción, no un juicio: puede aliviar culpas y abrir tratamientos, o convertir variaciones normales en enfermedad.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "R"
+  ],
+  "controversia": "Se discute cuándo es un avance y cuándo un exceso. Las críticas al TDAH como «medicalización de la infancia» chocan con quienes señalan que el diagnóstico alivia sufrimiento y culpa. Ambas cosas pueden ser ciertas a la vez.",
+  "contexto": "En los años setenta, la sociología de la salud empezó a preguntarse por qué cada vez más aspectos de la vida pasaban por la consulta. En 1975, el sociólogo estadounidense Peter Conrad eligió un caso concreto: la «hiperquinesia», antecesora del actual TDAH. Analizó cómo los fármacos estimulantes, la investigación clínica y los intereses de la industria habían convertido la inquietud infantil en un asunto médico, y qué formas de control social traía consigo ese cambio. Su análisis no negaba las dificultades de esos niños; describía un cambio de marco: lo que antes se veía como mala conducta pasaba a verse como enfermedad, con lo que eso implica para la culpa y la responsabilidad. El concepto se aplicó después a muchos otros ámbitos, desde la tristeza hasta el envejecimiento. También existe el camino inverso, la desmedicalización. Conrad amplió su análisis en «The Medicalization of Society» (2007).",
+  "ejemplos": [
+   "Una familia que durante años oyó que su hijo era «maleducado» siente alivio al saber que tiene TDAH: la medicalización cambia la culpa por una explicación.",
+   "Un niño inquieto, sin problemas en casa ni en el recreo, es derivado al pediatra porque no aguanta seis horas sentado: ¿problema médico o escolar?",
+   "Un anuncio presenta la tristeza tras una ruptura como un trastorno que requiere tratamiento; los críticos ven ahí medicalización de una experiencia normal.",
+   "Una trabajadora necesita un informe médico para obtener ajustes que podrían concederse sin diagnóstico, como pausas o un puesto con menos ruido.",
+   "Un claustro debate si la respuesta a la inquietud en clase pasa por derivar a más alumnos o por cambiar ritmos, recreos y tamaño de los grupos."
+  ],
+  "implicaciones": "La medicalización está en el centro del debate español sobre el TDAH y la escuela: unos ven en el aumento de diagnósticos y de medicación una respuesta médica a problemas educativos; otros, un reconocimiento tardío de dificultades reales. El concepto permite discutir sin insultos. La pregunta no es si algo es «médico» o «social», sino qué gana y qué pierde cada persona al enmarcarlo de una u otra forma. Medicalizar puede abrir tratamientos eficaces, apoyos y derechos; también puede desplazar soluciones educativas o sociales y dejar la responsabilidad solo en el individuo. Para familias y docentes, es útil preguntar qué otras respuestas, además de la clínica, se han probado. Para los profesionales, explicar qué aporta el diagnóstico en cada caso concreto.",
+  "sabias": "La medicalización tiene marcha atrás. En diciembre de 1973, la junta directiva de la Asociación Americana de Psiquiatría votó retirar la homosexualidad del DSM. Es uno de los casos más claros de desmedicalización.",
+  "piensalo": "¿Qué cambia para un niño inquieto si su problema se llama «mala conducta», «inmadurez», «TDAH» o «escuela poco flexible»?",
+  "paso": "Pregunta a alguien mayor de tu familia cómo se hablaba en su escuela de los niños que «no paraban quietos» y qué se hacía con ellos.",
+  "frase": "«Antes eran niños movidos; ahora todo se medica»",
+  "veredicto": "matiz",
+  "matiz": "El uso de diagnósticos y fármacos ha crecido, y en casos leves el beneficio puede ser dudoso. Pero «movido» también ocultaba dificultades reales, y no todo diagnóstico implica medicación.",
+  "salto": "del problema del contexto al problema del individuo",
+  "relacionados": [
+   "psicoestimulantes",
+   "sobrediagnostico",
+   "modelo-social",
+   "efecto-edad-relativa",
+   "inflacion-diagnostica",
+   "dsm"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Conrad, P. (1975). The discovery of hyperkinesis: notes on the medicalization of deviant behavior. Social Problems, 23(1), 12–21",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11662312/"
+   },
+   {
+    "titulo": "Drescher, J. (2015). Out of DSM: depathologizing homosexuality. Behavioral Sciences, 5(4), 565–575",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4695779/"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "deriva-conceptual",
+  "lema": "Deriva conceptual (concept creep)",
+  "variantes": [
+   "concept creep",
+   "expansión conceptual",
+   "deslizamiento conceptual"
+  ],
+  "tipo": "concepto",
+  "familia": "Saltos de inferencia",
+  "anio": 2016,
+  "anio_nota": "Nick Haslam publica el artículo que acuña la expresión «concept creep»",
+  "obra": "Haslam (2016), «Concept creep: Psychology's expanding concepts of harm and pathology», Psychological Inquiry",
+  "figuras": [
+   "Nick Haslam"
+  ],
+  "definicion": "Ampliación progresiva del significado de conceptos psicológicos ligados al daño y a la patología. Puede ser vertical, cuando el concepto abarca versiones más leves del fenómeno, u horizontal, cuando se aplica a fenómenos o contextos nuevos. Haslam la estudió en abuso, acoso, trauma, trastorno mental, adicción y prejuicio.",
+  "usos": [
+   "I",
+   "D",
+   "R"
+  ],
+  "controversia": "Haslam la vincula a una mayor sensibilidad hacia el daño. Se discute si es sobre todo progreso moral, que visibiliza sufrimientos ignorados, o un riesgo de patologizar la vida corriente y fomentar una sensación de fragilidad.",
+  "contexto": "Nick Haslam, psicólogo de la Universidad de Melbourne, observó que varias palabras clave de la psicología habían cambiado de tamaño. «Abuso» designaba en origen la violencia física o sexual; con el tiempo incorporó el maltrato emocional y la negligencia. «Acoso» pasó del patio del colegio al lugar de trabajo, y «trauma» se aplicó a experiencias cada vez menos extremas. En 2016 reunió estos casos en un artículo de Psychological Inquiry y los explicó sobre todo por una creciente sensibilidad hacia el daño, ligada a una agenda moral liberal. Su propuesta tuvo eco inmediato fuera de la academia, en debates universitarios y en la prensa, a menudo simplificada como crítica a la «hipersensibilidad». Haslam, sin embargo, describió consecuencias mixtas: la expansión puede tener «efectos civilizadores» y, a la vez, patologizar la experiencia corriente. Hoy el concepto se aplica a los diagnósticos del neurodesarrollo y a palabras como «trauma» o «neurodivergente» en redes.",
+  "ejemplos": [
+   "En redes, alguien llama «trauma» a un examen difícil y otra persona responde que esa palabra designa algo más grave: una discusión sobre expansión vertical.",
+   "Que rasgos leves y comunes, como olvidar las llaves, se presenten como señales de TDAH es un ejemplo de expansión vertical del concepto.",
+   "Un centro educativo amplía su protocolo de acoso para incluir el ciberacoso: una expansión horizontal que protege a alumnos antes desatendidos.",
+   "Un foro debate si «neurodivergente» debe incluir solo condiciones del neurodesarrollo o también ansiedad, depresión o rasgos de personalidad.",
+   "Una columna acusa a una generación de «hipersensible»; Haslam recordaría que la expansión de conceptos también ha permitido ver daños reales."
+  ],
+  "implicaciones": "La deriva conceptual ayuda a entender por qué palabras como TDAH, autismo, trauma o neurodivergente se usan hoy con significados muy distintos según quién hable. En la consulta, el aula o las redes, una misma palabra puede designar un trastorno con criterios clínicos o una vivencia cotidiana. Eso tiene ventajas: más personas se atreven a pedir ayuda. También riesgos: si todo es trauma, se pierde precisión para quienes viven lo peor, y si cualquier despiste es TDAH, la etiqueta deja de orientar apoyos. El concepto no dice qué ampliaciones son buenas o malas; obliga a preguntar en cada caso si el nuevo uso añade comprensión o solo ruido. Es una herramienta para mirar el lenguaje, no un arma para desacreditar a quien sufre.",
+  "sabias": "Haslam no presentó la deriva conceptual solo como un problema. Escribió que puede tener «efectos civilizadores», porque sensibiliza ante el daño y el sufrimiento, y que reconocer más problemas como trastornos favorece el tratamiento frente al abandono.",
+  "piensalo": "Cuando una palabra clínica pasa a la vida diaria, ¿quién gana comprensión y quién pierde precisión?",
+  "paso": "Durante tres días, anota cuántas veces oyes «trauma», «TOC», «TDAH» o «ansiedad» para algo cotidiano. ¿Qué querían decir en realidad?",
+  "frase": "«Ahora todo es trauma»",
+  "veredicto": "matiz",
+  "matiz": "Algunos conceptos psicológicos se han ampliado, y Haslam lo documentó. Pero «todo» es exagerado, y parte de esa ampliación ha permitido reconocer daños que antes se ignoraban.",
+  "salto": "de la palabra cotidiana al diagnóstico",
+  "relacionados": [
+   "inflacion-diagnostica",
+   "umbral",
+   "modelo-dimensional",
+   "neurodivergente",
+   "redes-sociales",
+   "medicalizacion"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Haslam, N. (2016). Concept creep: Psychology's expanding concepts of harm and pathology. Psychological Inquiry, 27(1), 1–17",
+    "url": "https://tandfonline.com/doi/full/10.1080/1047840X.2016.1082418"
+   },
+   {
+    "titulo": "Haslam, N. (2016). Concept creep (PDF del artículo). Psychological Inquiry, 27(1), 1–17",
+    "url": "https://www.gwern.net/doc/sociology/2016-haslam.pdf"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "efecto-expectativa",
+  "lema": "Efecto de la etiqueta y de la expectativa",
+  "variantes": [
+   "efecto Pigmalión",
+   "profecía autocumplida",
+   "efecto de las expectativas del docente",
+   "efecto de etiquetado"
+  ],
+  "tipo": "concepto",
+  "familia": "Saltos de inferencia",
+  "anio": 1966,
+  "anio_nota": "Rosenthal y Jacobson publican el primer informe del experimento escolar; el libro «Pygmalion in the Classroom» llegó en 1968",
+  "obra": "Rosenthal y Jacobson (1966), «Teachers' expectancies: determinants of pupils' IQ gains», Psychological Reports",
+  "figuras": [
+   "Robert Rosenthal",
+   "Lenore Jacobson",
+   "Lee Jussim"
+  ],
+  "definicion": "Influencia de las expectativas asociadas a una etiqueta sobre cómo se trata a una persona y, a veces, sobre cómo responde ella. Puede ser negativa (estigma) o positiva (efecto Pigmalión). La evidencia indica que existe, pero que suele ser pequeña.",
+  "usos": [
+   "I",
+   "D",
+   "E",
+   "R"
+  ],
+  "controversia": "El estudio de Rosenthal recibió críticas por problemas de medida. Las revisiones posteriores concluyen que los efectos existen pero son pequeños, se acumulan poco y pueden ser mayores en grupos estigmatizados.",
+  "contexto": "En 1964, el psicólogo Robert Rosenthal y la directora escolar Lenore Jacobson hicieron un experimento en una escuela de California. Dijeron a los docentes que un test había identificado a ciertos alumnos que iban a «despegar» intelectualmente; en realidad, los habían elegido al azar. Al final del periodo, esos alumnos mostraron mejoras mayores. Publicaron los primeros resultados en 1966 y el libro «Pygmalion in the Classroom» en 1968. El trabajo encajaba con la teoría sociológica del etiquetado, que en esos años sostenía que nombrar a alguien como desviado puede empujarle a serlo. Las críticas metodológicas llegaron pronto y las réplicas dieron resultados desiguales. En 2005, Lee Jussim y Kent Harber revisaron 35 años de estudios: las profecías autocumplidas en el aula existen, pero suelen ser pequeñas, y las expectativas de los docentes a menudo predicen bien porque se basan en información real sobre el alumno.",
+  "ejemplos": [
+   "Una profesora lee «TDAH» en el expediente y puede vigilar más a ese alumno y sancionarle antes; o, si está bien informada, anticiparse con apoyos útiles.",
+   "Un niño identificado como de altas capacidades recibe retos y elogios; si después fracasa en algo, puede sentir que la etiqueta le exige no fallar nunca.",
+   "Una adolescente autista oye a menudo «no podrás vivir sola»; su familia decide revisar esas frases y proponerle tareas de autonomía graduadas.",
+   "La tutora agrupa por niveles y los alumnos del grupo «bajo» reciben menos preguntas abiertas; la diferencia inicial puede mantenerse por el trato, no solo por la capacidad.",
+   "Un adulto recién diagnosticado decide no contarlo en el trabajo por miedo a que sus compañeros reinterpreten cada error como «cosa de su TDAH»."
+  ],
+  "implicaciones": "En la escuela española, los informes de necesidades específicas de apoyo educativo circulan entre docentes y especialistas, y cada etiqueta llega cargada de expectativas. Saberlo permite usarlas mejor: una etiqueta puede abrir apoyos y comprensión, o cerrar posibilidades si se lee como pronóstico. La evidencia invita a la prudencia en ambas direcciones. Ni las etiquetas condenan de por vida ni las expectativas son inocuas: su efecto medio es pequeño, pero puede pesar más en alumnos que ya cargan con un estigma. En redes, el debate se repite con la identidad: hay quien teme que la etiqueta «encasille» y quien la vive como una liberación. Para familias y docentes, una pauta útil es hablar de lo que el niño necesita y puede hacer, no solo de lo que el diagnóstico predice.",
+  "sabias": "En un experimento de 1992 con 68 parejas de niños, a algunos se les dijo que su compañero tenía un problema de conducta. Esa expectativa empeoró la interacción, igual que lo hacía que el compañero tuviera de verdad un diagnóstico de hiperactividad.",
+  "piensalo": "¿Qué esperas de alguien cuando oyes su diagnóstico antes que su nombre? ¿Has comprobado esa expectativa?",
+  "paso": "Esta semana, antes de mencionar el diagnóstico de alguien, cuenta primero algo que hace bien o que le interesa.",
+  "frase": "«Ponerle una etiqueta le va a marcar de por vida»",
+  "veredicto": "matiz",
+  "matiz": "Las expectativas influyen, pero sus efectos medios son pequeños y se acumulan poco (Jussim y Harber, 2005). Una etiqueta bien explicada también puede abrir apoyos y reducir la culpa.",
+  "salto": "de la etiqueta al destino",
+  "relacionados": [
+   "estigma",
+   "efecto-bucle",
+   "lenguaje-identidad",
+   "evaluacion-psicopedagogica",
+   "altas-capacidades",
+   "neae"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Rosenthal, R. y Jacobson, L. (1966). Teachers' expectancies: determinants of pupils' IQ gains. Psychological Reports, 19(1), 115–118",
+    "url": "https://doi.org/10.2466/pr0.1966.19.1.115"
+   },
+   {
+    "titulo": "Jussim, L. y Harber, K. D. (2005). Teacher expectations and self-fulfilling prophecies: knowns and unknowns, resolved and unresolved controversies. Personality and Social Psychology Review, 9(2), 131–155",
+    "url": "https://doi.org/10.1207/s15327957pspr0902_3"
+   },
+   {
+    "titulo": "Harris, M. J., Milich, R., Corbitt, E. M., Hoover, D. W. y Brady, M. (1992). Self-fulfilling effects of stigmatizing information on children's social interactions. Journal of Personality and Social Psychology, 63(1), 41–50",
+    "url": "https://doi.org/10.1037//0022-3514.63.1.41"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "correlacion-causa",
+  "lema": "Correlación no es causa",
+  "variantes": [
+   "correlation is not causation",
+   "cum hoc ergo propter hoc",
+   "post hoc ergo propter hoc",
+   "confundir asociación con causalidad"
+  ],
+  "tipo": "concepto",
+  "familia": "Saltos de inferencia",
+  "anio": 1965,
+  "anio_nota": "Austin Bradford Hill propone sus consideraciones para pasar de una asociación a una inferencia causal",
+  "obra": "Hill (1965), «The environment and disease: association or causation?», Proceedings of the Royal Society of Medicine",
+  "figuras": [
+   "Austin Bradford Hill",
+   "Franz H. Messerli"
+  ],
+  "definicion": "Principio según el cual que dos cosas varíen juntas no demuestra que una cause la otra. La relación puede deberse al azar, a una tercera variable, a la dirección inversa o a cómo se seleccionó la muestra. Establecer causas exige diseños y argumentos adicionales.",
+  "usos": [
+   "I",
+   "D"
+  ],
+  "controversia": "Sin controversia sobre el principio. Se discute cuándo hay pruebas suficientes para afirmar causalidad sin ensayos aleatorios, como ocurrió con el tabaco, y cómo evitar que el lema sirva para despachar cualquier asociación incómoda.",
+  "contexto": "A mediados del siglo XX, la epidemiología se enfrentó a una pregunta de vida o muerte: el tabaco se asociaba con el cáncer de pulmón, pero no se podía asignar a la gente a fumar al azar. ¿Cuándo una asociación justifica hablar de causa? En 1965, el estadístico británico Austin Bradford Hill propuso un conjunto de consideraciones: la fuerza de la asociación, su consistencia, la secuencia temporal, la relación dosis-respuesta o la plausibilidad, entre otras. No eran una lista de casillas, sino una guía para razonar. El problema se ha vuelto cotidiano con los macrodatos y los titulares científicos. En el terreno del neurodesarrollo, el ejemplo más dañino fue la supuesta relación entre la vacuna triple vírica y el autismo: el artículo de 1998 que la sugirió fue retirado en 2010, y estudios con cientos de miles de niños no han encontrado esa asociación.",
+  "ejemplos": [
+   "Un estudio halla que los niños con TDAH pasan más horas ante pantallas; puede que las pantallas empeoren la atención, que la inatención lleve a las pantallas, o ambas cosas.",
+   "Un titular asegura que una dieta «mejora el autismo» a partir de una encuesta; sin grupo de comparación ni seguimiento, no puede saberse qué causó qué.",
+   "Una familia nota que los primeros signos de autismo aparecieron poco después de una vacuna; ambas cosas suelen coincidir en los mismos meses de la infancia.",
+   "Un estudio de neuroimagen encuentra diferencias entre grupos; sin seguimiento, no se sabe si son causa, consecuencia del trastorno o efecto de la medicación o del entorno.",
+   "Alguien observa que los alumnos con diagnóstico sacan peores notas y culpa a la etiqueta; las dificultades previas podrían explicar ambas cosas."
+  ],
+  "implicaciones": "Casi todos los debates sobre neurodiversidad tienen una correlación en el centro: pantallas y atención, edad relativa y diagnóstico, redes y autodiagnóstico, genes y autismo. Distinguir asociación de causa evita dos errores opuestos: creer cualquier titular y despreciar cualquier dato. Ante una noticia de salud, conviene preguntar qué tipo de estudio hay detrás: un ensayo aleatorio, una cohorte que sigue a las personas durante años o una encuesta en un solo momento. También importa en la escuela y la consulta: que un alumno con TDAH mejore tras un cambio no prueba que el cambio lo haya causado, porque los síntomas fluctúan. Y en las familias, ayuda a no cargar con culpas sin fundamento. La pregunta mínima ante cualquier relación es: ¿qué otra cosa podría explicarla?",
+  "sabias": "En 2012, el médico Franz Messerli publicó en The New England Journal of Medicine que, en 23 países, el consumo de chocolate por habitante se correlacionaba con los premios Nobel por habitante (r = 0,79). Era un ejercicio medio en broma.",
+  "piensalo": "Piensa en algo que crees que causa otra cosa porque siempre lo ves junto. ¿Qué tercera variable podría estar detrás de ambas?",
+  "paso": "Elige una noticia de salud de esta semana y averigua si el estudio era un experimento, un seguimiento o una encuesta puntual.",
+  "frase": "«Las vacunas causan autismo»",
+  "veredicto": "mito",
+  "matiz": "El artículo de 1998 que lo sugirió fue retirado en 2010. Una cohorte danesa de 657.461 niños (2019) no encontró mayor riesgo de autismo tras la vacuna triple vírica.",
+  "salto": "de la asociación a la causa",
+  "relacionados": [
+   "inferencia-ecologica",
+   "tamano-efecto",
+   "neuroencanto",
+   "heredabilidad",
+   "efecto-edad-relativa",
+   "neuroimagen"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Hill, A. B. (1965). The environment and disease: association or causation? Proceedings of the Royal Society of Medicine, 58(5), 295–300",
+    "url": "https://doi.org/10.1177/003591576505800503"
+   },
+   {
+    "titulo": "Hviid, A., Hansen, J. V., Frisch, M. y Melbye, M. (2019). Measles, mumps, rubella vaccination and autism: a nationwide cohort study. Annals of Internal Medicine, 170(8), 513–520",
+    "url": "https://doi.org/10.7326/M18-2101"
+   },
+   {
+    "titulo": "Messerli, F. H. (2012). Chocolate consumption, cognitive function, and Nobel laureates. The New England Journal of Medicine, 367(16), 1562–1564",
+    "url": "https://doi.org/10.1056/NEJMon1211064"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ },
+ {
+  "id": "tamano-efecto",
+  "lema": "Tamaño del efecto",
+  "variantes": [
+   "effect size",
+   "d de Cohen",
+   "magnitud del efecto"
+  ],
+  "tipo": "concepto",
+  "familia": "Saltos de inferencia",
+  "anio": 1969,
+  "anio_nota": "Jacob Cohen publica la primera edición de su manual de potencia estadística, con convenciones para efectos pequeños, medianos y grandes (2.ª edición, 1988)",
+  "obra": "Cohen (1969; 2.ª ed. 1988), «Statistical Power Analysis for the Behavioral Sciences», Lawrence Erlbaum (2.ª ed.)",
+  "figuras": [
+   "Jacob Cohen"
+  ],
+  "definicion": "Medida de cuánto difieren dos grupos o de lo fuerte que es una relación, con independencia de que el resultado sea «estadísticamente significativo». La d de Cohen expresa la diferencia entre medias en desviaciones típicas: 0,2 se considera pequeña; 0,5, mediana, y 0,8, grande.",
+  "usos": [
+   "I",
+   "D"
+  ],
+  "controversia": "Los umbrales de Cohen se usan como reglas fijas, aunque él los llamó arbitrarios. Se discute cómo interpretar efectos pequeños: pueden ser irrelevantes para un individuo y, a la vez, importantes a escala de población.",
+  "contexto": "En 1962, el psicólogo estadounidense Jacob Cohen revisó los estudios publicados en una revista de psicología y concluyó que muchos tenían poca potencia estadística: muestras demasiado pequeñas para detectar efectos realistas. Para planificarlos mejor hacía falta pensar en magnitudes, y no solo en si un resultado era «significativo». En su manual de 1969, revisado en 1988, propuso valores orientativos para efectos pequeños, medianos y grandes, advirtiendo que eran arbitrarios y que podían malinterpretarse. Durante décadas, la psicología siguió pendiente sobre todo del valor p, hasta que la crisis de replicación de los años 2010 devolvió protagonismo a las magnitudes y a los intervalos de confianza. En neurociencia, consorcios como ENIGMA, con miles de participantes, mostraron que algunas diferencias cerebrales asociadas al TDAH eran reales, pero pequeñas. Saber cuánto, y no solo si, cambió la manera de leer esos hallazgos.",
+  "ejemplos": [
+   "En el megaanálisis ENIGMA de 2017, la amígdala de las personas con TDAH era algo menor, con d = −0,19: una diferencia real entre grupos, pero con gran solapamiento entre personas.",
+   "Un ensayo con miles de participantes encuentra una mejora «significativa» de síntomas, pero de d = 0,1; para decidir, importa más el tamaño que el valor p.",
+   "Una orientadora lee que un programa escolar tiene «efecto mediano» y se pregunta si esa mejora media compensa el tiempo que restará a otras actividades.",
+   "Un titular afirma que un factor «duplica el riesgo» de autismo; si el riesgo inicial es muy bajo, el aumento absoluto puede ser mínimo.",
+   "Un estudio sobre diferencias entre chicos y chicas en atención informa del tamaño del efecto y su intervalo de confianza, para que se vea cuánto se solapan."
+  ],
+  "implicaciones": "El tamaño del efecto es una de las mejores defensas contra los titulares exagerados. Cuando leas que «el cerebro autista es distinto» o que una terapia «funciona», la pregunta clave es cuánto. Una diferencia pequeña entre grupos puede ser real y relevante para la investigación, pero inútil para diagnosticar a una persona: es una de las razones por las que no existe un escáner que detecte el TDAH. En la escuela y la sanidad, también sirve para valorar intervenciones: un programa con un efecto medio pequeño puede valer la pena si es barato y seguro, y no compensar si consume muchos recursos. Buscar este dato en una noticia o un informe es sencillo: la d, la diferencia de medias, el riesgo absoluto o el intervalo de confianza. Si no aparece, desconfía un poco.",
+  "sabias": "El propio Jacob Cohen advirtió, en el manual donde las propuso, que sus etiquetas de efecto «pequeño», «mediano» y «grande» eran arbitrarias y corrían el riesgo de malinterpretarse.",
+  "piensalo": "Si un efecto es pequeño de media pero grande para algunas personas, ¿cómo debería contarse en una noticia?",
+  "paso": "En la próxima noticia sobre un estudio, comprueba si da el tamaño del efecto o solo dice «significativo». Si falta, anótalo.",
+  "frase": "«Es estadísticamente significativo, así que la diferencia es importante»",
+  "veredicto": "mito",
+  "matiz": "La significación indica que un resultado así sería poco probable si no hubiera ningún efecto; no dice cuánto importa. Con muestras grandes, diferencias minúsculas salen significativas; la magnitud la mide el tamaño del efecto.",
+  "salto": "del grupo al individuo",
+  "relacionados": [
+   "neuroimagen",
+   "enigma",
+   "inferencia-ecologica",
+   "sensibilidad-especificidad",
+   "biomarcador",
+   "correlacion-causa"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Cohen, J. (1988). Statistical Power Analysis for the Behavioral Sciences (2.ª ed.). Hillsdale (NJ): Lawrence Erlbaum Associates",
+    "url": "https://utstat.toronto.edu/brunner/oldclass/378f16/readings/CohenPower.pdf"
+   },
+   {
+    "titulo": "Cohen, J. (1962). The statistical power of abnormal-social psychological research: a review. Journal of Abnormal and Social Psychology, 65, 145–153",
+    "url": "https://doi.org/10.1037/h0045186"
+   },
+   {
+    "titulo": "Hoogman, M. et al. (2017). Subcortical brain volume differences in participants with attention deficit hyperactivity disorder in children and adults: a cross-sectional mega-analysis. The Lancet Psychiatry, 4(4), 310–319",
+    "url": "https://doi.org/10.1016/S2215-0366(17)30049-4"
+   }
+  ],
+  "estado": "verificada",
+  "nucleo": true
+ }
+]
