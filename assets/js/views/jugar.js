@@ -1,6 +1,6 @@
 // Jugar: cinco juegos para poner a prueba lo aprendido. Cada partida suma en tu cuaderno.
 // Solo juegan las fichas aptas (ctx.juego): las dudosas se quedan en el banquillo, no sería justo.
-import { h, USOS, CODIGOS, VEREDICTOS, anio, shuffle, storage, corta, cabeza, recuadro, marcaVeredicto, famTag, norm, plural } from '../lib.js';
+import { h, USOS, CODIGOS, VEREDICTOS, anio, shuffle, storage, corta, cabeza, recuadro, marcaVeredicto, famTag, norm, plural, poner } from '../lib.js';
 import * as cuaderno from '../cuaderno.js';
 import { pasoMinimo } from '../metodo.js';
 
@@ -131,7 +131,7 @@ function siguienteBtn(texto, alPulsar) {
 }
 
 function vacio(el, texto) {
-  el.replaceChildren(recuadro('aclaracion', 'Aún no hay fichas suficientes', h('p', { style: { margin: '0 0 8px' } }, texto),
+  poner(el, recuadro('aclaracion', 'Aún no hay fichas suficientes', h('p', { style: { margin: '0 0 8px' } }, texto),
     h('p', { style: { margin: 0 } }, h('a', { class: 'btn small', href: '#/jugar' }, 'Ver los otros juegos'))));
 }
 
@@ -173,7 +173,7 @@ function final(el, api, { puntos, total, totalCuaderno = total, racha = false, f
     pasoCaja.querySelector('input')?.focus();
   } }, 'Convertirlo en mi paso mínimo');
 
-  el.replaceChildren(
+  poner(el, 
     h('section', { class: 'card jg-final' },
       titulo,
       h('p', { class: 'jg-msg' }, msg),
@@ -309,7 +309,7 @@ function juegoEtiqueta(el, ctx, api) {
     }
     api.teclas(e => { const n = parseInt(e.key, 10); if (n >= 1 && n <= botones.length && !botones[0].disabled) { e.preventDefault(); elegir(n - 1); } });
     const clue = h('div', { class: 'clue jg-clue', tabindex: '-1' }, tapar(t.definicion, t));
-    el.replaceChildren(marcador(i, rondas.length, puntos),
+    poner(el, marcador(i, rondas.length, puntos),
       h('p', { class: 'jg-pregunta', id: 'jg-q' }, persona ? '¿Quién es?' : '¿Qué etiqueta es?'),
       clue,
       h('p', { class: 'small muted jg-pista' }, famTag(t.familia), h('span', { class: 'jg-atajo' }, ' · También con las teclas 1 a 4.')),
@@ -353,7 +353,7 @@ function juegoHistoria(el, ctx, api) {
         resuelto ? null : h('span', { class: 'jg-asa', 'aria-hidden': 'true', title: 'Arrastra para mover' }, '⠿'),
         h('span', { class: 'pos' }, k + 1),
         h('span', { class: 'name' }, t.lema, resuelto
-          ? ((t.anioNota || !ok) ? h('small', null, [t.anioNota, ok ? '' : `va en el puesto ${correcto.indexOf(t) + 1}`].filter(Boolean).join(' · ')) : null)
+          ? ((t.anioNota || !ok) ? h('small', null, ok ? null : h('b', null, `Va en el puesto ${correcto.indexOf(t) + 1}. `), t.anioNota || null) : null)
           : h('small', null, t.familia)),
         resuelto ? h('span', { class: 'jg-anio' }, anio(t.anio)) : [
           h('button', { type: 'button', 'aria-label': `Subir ${t.lema}`, disabled: k === 0, onclick: () => mover(k, k - 1, true) }, '↑'),
@@ -373,7 +373,7 @@ function juegoHistoria(el, ctx, api) {
           sugerencia: 'preguntar a alguien mayor cómo se nombraba esto en su época' } });
       })
       : h('button', { class: 'btn primary', type: 'button', onclick: comprobar }, 'Comprobar'));
-    el.replaceChildren(
+    poner(el, 
       h('div', { class: 'game-top' }, h('span', null, `Ronda ${ronda + 1} de ${RONDAS}`), h('div', { class: 'progress', 'aria-hidden': 'true' }, h('i', { style: { width: `${100 * ronda / RONDAS}%` } })), h('span', null, plural(puntos, 'punto', 'puntos'))),
       h('p', { class: 'jg-pregunta', id: 'jg-q' }, resuelto ? 'Así quedaba la historia' : 'Ordena del más antiguo (arriba) al más reciente (abajo)'),
       resuelto ? null : h('p', { class: 'small muted', style: { margin: 0 } }, 'Arrastra desde el asa ⠿ o usa las flechas. Cuenta el año que fija cada ficha; lo verás al comprobar.'),
@@ -544,7 +544,7 @@ function juegoUsos(el, ctx, api) {
     }
     api.teclas(e => { const c = e.key.toUpperCase(); if (CODIGOS.includes(c) && !botones[0].disabled) { e.preventDefault(); elegir(c); } });
     const clue = h('div', { class: 'clue jg-clue', tabindex: '-1' }, s.txt);
-    el.replaceChildren(marcador(i, rondas.length, puntos),
+    poner(el, marcador(i, rondas.length, puntos),
       h('p', { class: 'jg-pregunta' }, 'La situación'),
       clue,
       h('p', { class: 'jg-pregunta', id: 'jg-q' }, '¿En qué uso está trabajando la etiqueta?', h('span', { class: 'small muted jg-atajo' }, ' También con las teclas I, D, E, A y R.')),
@@ -643,7 +643,7 @@ function juegoMito(el, ctx, api) {
     }
     api.teclas(e => { const n = parseInt(e.key, 10); if (n >= 1 && n <= 3 && !botones[0].disabled) { e.preventDefault(); elegir(OPS[n - 1]); } });
     const clue = h('blockquote', { class: 'clue jg-clue jg-frase', tabindex: '-1' }, `«${sinComillas(x.frase)}»`);
-    el.replaceChildren(marcador(i, rondas.length, puntos),
+    poner(el, marcador(i, rondas.length, puntos),
       h('p', { class: 'jg-pregunta' }, 'Se oye a menudo', x.t ? h('span', { class: 'small muted' }, ` · sobre ${x.t.lema}`) : null),
       clue,
       h('p', { class: 'jg-pregunta', id: 'jg-q' }, '¿Qué dice la evidencia?', h('span', { class: 'small muted jg-atajo' }, ' También con las teclas 1, 2 y 3.')),
@@ -713,7 +713,7 @@ function juegoAntes(el, ctx, api) {
       if (e.key === 'ArrowRight') { e.preventDefault(); responder(false); }
     });
     const foco = h('b', { class: 'jg-lema foco', tabindex: '-1' }, b.lema);
-    el.replaceChildren(
+    poner(el, 
       h('div', { class: 'game-top' }, h('span', null, `Racha: ${racha}`), h('div', { class: 'progress', 'aria-hidden': 'true' }, h('i', { style: { width: `${Math.min(100, racha * 10)}%` } })), h('span', null, 'Meta: 10')),
       h('div', { class: 'comparar jg-pareja' },
         h('div', null, h('p', { class: 'small muted', style: { margin: 0 } }, 'Esta es de…'), h('b', { class: 'jg-lema' }, a.lema), h('div', { class: 'jg-anio-big' }, anio(a.anio))),

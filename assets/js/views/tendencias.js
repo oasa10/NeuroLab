@@ -104,8 +104,11 @@ export function render(root, ctx) {
     svg.append('text').attr('x', 0).attr('y', 11).attr('class', 'lbl').style('fill', 'var(--muted)').text(s.unidad ? `En ${s.unidad}` : '');
     svg.append('g').attr('class', 'grid').selectAll('line').data(y.ticks(4)).join('line').attr('x1', M.l).attr('x2', W - M.r).attr('y1', d => y(d)).attr('y2', d => y(d));
     svg.append('g').attr('class', 'axis').attr('transform', `translate(${M.l},0)`).call(d3.axisLeft(y).ticks(4).tickFormat(corto).tickSize(0).tickPadding(6)).call(g => g.select('.domain').remove());
-    const nTicks = Math.min(P.length, movil ? 4 : 8);
-    svg.append('g').attr('class', 'axis').attr('transform', `translate(0,${H - M.b})`).call(d3.axisBottom(x).ticks(nTicks).tickFormat(d3.format('d')).tickSizeOuter(0));
+    // eje de años: los años con dato si caben; si no, unos pocos años redondos
+    const ejeX = d3.axisBottom(x).tickFormat(d3.format('d')).tickSizeOuter(0);
+    const anchoMin = P.reduce((m, p, i) => (i ? Math.min(m, x(p[0]) - x(P[i - 1][0])) : m), Infinity);
+    if (P.length <= 12 && anchoMin >= 34) ejeX.tickValues(P.map(p => p[0])); else ejeX.ticks(Math.min(P.length, movil ? 4 : 8));
+    svg.append('g').attr('class', 'axis').attr('transform', `translate(0,${H - M.b})`).call(ejeX);
     const linea = d3.line().x(p => x(p[0])).y(p => y(p[1]));
     svg.append('path').attr('d', linea(P)).style('fill', 'none').style('stroke', color).attr('stroke-width', 2.5).attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round');
     svg.append('g').selectAll('circle').data(P).join('circle').attr('cx', p => x(p[0])).attr('cy', p => y(p[1])).attr('r', P.length > 30 ? 2 : 3.5)
