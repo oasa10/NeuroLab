@@ -1,0 +1,980 @@
+[
+ {
+  "anio": 1798,
+  "mes": null,
+  "titulo": "Crichton publica su Inquiry (hito de prueba)",
+  "texto": "Texto de prueba del hito «Crichton publica su Inquiry». Se sustituirá por el real.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "altas-capacidades"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba",
+   "url": "https://example.org"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1902,
+  "mes": 4,
+  "titulo": "Still en The Lancet (hito de prueba)",
+  "texto": "Texto de prueba del hito «Still en The Lancet». Se sustituirá por el real.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "harvey-blume",
+   "prevalencia"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba",
+   "url": "https://example.org"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1911,
+  "mes": null,
+  "titulo": "Bleuler y el autismo (hito de prueba)",
+  "texto": "Texto de prueba del hito «Bleuler y el autismo». Se sustituirá por el real.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [],
+  "fuente": {
+   "titulo": "Fuente de prueba",
+   "url": "https://example.org"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1925,
+  "mes": null,
+  "titulo": "Sukhareva (hito de prueba)",
+  "texto": "Texto de prueba del hito «Sukhareva». Se sustituirá por el real.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "neuroencanto",
+   "inflacion-diagnostica",
+   "transdiagnostico"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba",
+   "url": "https://example.org"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1943,
+  "mes": 4,
+  "titulo": "Kanner (hito de prueba)",
+  "texto": "Texto de prueba del hito «Kanner». Se sustituirá por el real.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "harvey-blume",
+   "poligenia",
+   "modelo-gagne"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba",
+   "url": "https://example.org"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1944,
+  "mes": null,
+  "titulo": "Asperger (hito de prueba)",
+  "texto": "Texto de prueba del hito «Asperger». Se sustituirá por el real.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "modelo-gagne"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba",
+   "url": "https://example.org"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1980,
+  "mes": null,
+  "titulo": "DSM-III (hito de prueba)",
+  "texto": "Texto de prueba del hito «DSM-III». Se sustituirá por el real.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "dsm-5-tr",
+   "prevalencia",
+   "sobreexcitabilidad"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba",
+   "url": "https://example.org"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1981,
+  "mes": 2,
+  "titulo": "Wing (hito de prueba)",
+  "texto": "Texto de prueba del hito «Wing». Se sustituirá por el real.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [],
+  "fuente": {
+   "titulo": "Fuente de prueba",
+   "url": "https://example.org"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1990,
+  "mes": 10,
+  "titulo": "LOGSE (hito de prueba)",
+  "texto": "Texto de prueba del hito «LOGSE». Se sustituirá por el real.",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [
+   "validez-constructo",
+   "neurodivergente"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba",
+   "url": "https://example.org"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1994,
+  "mes": 5,
+  "titulo": "DSM-IV (hito de prueba)",
+  "texto": "Texto de prueba del hito «DSM-IV». Se sustituirá por el real.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "enigma",
+   "teoria-mente",
+   "poligenia"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba",
+   "url": "https://example.org"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1998,
+  "mes": null,
+  "titulo": "Neurodiversidad (hito de prueba)",
+  "texto": "Texto de prueba del hito «Neurodiversidad». Se sustituirá por el real.",
+  "tipo": "movimiento",
+  "ambito": "internacional",
+  "terminos": [
+   "superdotacion",
+   "evaluacion-psicopedagogica",
+   "autismo-profundo"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba",
+   "url": "https://example.org"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2006,
+  "mes": 5,
+  "titulo": "LOE (hito de prueba)",
+  "texto": "Texto de prueba del hito «LOE». Se sustituirá por el real.",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [],
+  "fuente": {
+   "titulo": "Fuente de prueba",
+   "url": "https://example.org"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2013,
+  "mes": 5,
+  "titulo": "DSM-5 (hito de prueba)",
+  "texto": "Texto de prueba del hito «DSM-5». Se sustituirá por el real.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "temple-grandin"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba",
+   "url": "https://example.org"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2019,
+  "mes": 5,
+  "titulo": "CIE-11 aprobada (hito de prueba)",
+  "texto": "Texto de prueba del hito «CIE-11 aprobada». Se sustituirá por el real.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "neuroencanto"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba",
+   "url": "https://example.org"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2020,
+  "mes": 12,
+  "titulo": "LOMLOE (hito de prueba)",
+  "texto": "Texto de prueba del hito «LOMLOE». Se sustituirá por el real.",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [
+   "monotropismo",
+   "cpt",
+   "neuroimagen"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba",
+   "url": "https://example.org"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2022,
+  "mes": 1,
+  "titulo": "CIE-11 en vigor (hito de prueba)",
+  "texto": "Texto de prueba del hito «CIE-11 en vigor». Se sustituirá por el real.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "psicoestimulantes",
+   "inflacion-diagnostica"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba",
+   "url": "https://example.org"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1994,
+  "mes": 5,
+  "titulo": "Hito de prueba 17",
+  "texto": "Texto de prueba del hito 17, de tipo clasificacion, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "clasificacion",
+  "ambito": "españa",
+  "terminos": [
+   "agotamiento-autista"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 17",
+   "url": "https://example.org/h"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 1975,
+  "mes": 2,
+  "titulo": "Hito de prueba 18",
+  "texto": "Texto de prueba del hito 18, de tipo sociedad, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "sociedad",
+  "ambito": "españa",
+  "terminos": [
+   "neurodivergente"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 18",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1902,
+  "mes": 8,
+  "titulo": "Hito de prueba 19",
+  "texto": "Texto de prueba del hito 19, de tipo clasificacion, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "autismo",
+   "dua",
+   "cribado"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 19",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1929,
+  "mes": null,
+  "titulo": "Hito de prueba 20",
+  "texto": "Texto de prueba del hito 20, de tipo clasificacion, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "tourette",
+   "modelo-dimensional",
+   "estrategia-tea"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 20",
+   "url": "https://example.org/h"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 1990,
+  "mes": null,
+  "titulo": "Hito de prueba 21",
+  "texto": "Texto de prueba del hito 21, de tipo movimiento, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "movimiento",
+  "ambito": "españa",
+  "terminos": [
+   "fiabilidad"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 21",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1907,
+  "mes": 2,
+  "titulo": "Hito de prueba 22",
+  "texto": "Texto de prueba del hito 22, de tipo clasificacion, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [],
+  "fuente": {
+   "titulo": "Fuente de prueba 22",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2002,
+  "mes": null,
+  "titulo": "Hito de prueba 23",
+  "texto": "Texto de prueba del hito 23, de tipo movimiento, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "movimiento",
+  "ambito": "españa",
+  "terminos": [
+   "umbral"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 23",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1971,
+  "mes": null,
+  "titulo": "Hito de prueba 24",
+  "texto": "Texto de prueba del hito 24, de tipo movimiento, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "movimiento",
+  "ambito": "españa",
+  "terminos": [
+   "lorna-wing",
+   "neuroimagen",
+   "tdl"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 24",
+   "url": "https://example.org/h"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 1974,
+  "mes": 7,
+  "titulo": "Hito de prueba 25",
+  "texto": "Texto de prueba del hito 25, de tipo movimiento, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "movimiento",
+  "ambito": "españa",
+  "terminos": [
+   "monotropismo"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 25",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1914,
+  "mes": 5,
+  "titulo": "Hito de prueba 26",
+  "texto": "Texto de prueba del hito 26, de tipo sociedad, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "sociedad",
+  "ambito": "internacional",
+  "terminos": [
+   "dsm-5",
+   "entrenamiento-padres"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 26",
+   "url": "https://example.org/h"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 1972,
+  "mes": 7,
+  "titulo": "Hito de prueba 27",
+  "texto": "Texto de prueba del hito 27, de tipo clasificacion, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "clasificacion",
+  "ambito": "españa",
+  "terminos": [
+   "hitop"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 27",
+   "url": "https://example.org/h"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 1990,
+  "mes": 6,
+  "titulo": "Hito de prueba 28",
+  "texto": "Texto de prueba del hito 28, de tipo ley, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [
+   "movimiento-neurodiversidad",
+   "allen-frances"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 28",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1993,
+  "mes": null,
+  "titulo": "Hito de prueba 29",
+  "texto": "Texto de prueba del hito 29, de tipo clasificacion, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "clasificacion",
+  "ambito": "españa",
+  "terminos": [
+   "tamano-efecto",
+   "hans-asperger"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 29",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1996,
+  "mes": null,
+  "titulo": "Hito de prueba 30",
+  "texto": "Texto de prueba del hito 30, de tipo sociedad, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "sociedad",
+  "ambito": "españa",
+  "terminos": [
+   "diagnostico-diferencial",
+   "nada-sobre-nosotros"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 30",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1999,
+  "mes": null,
+  "titulo": "Hito de prueba 31",
+  "texto": "Texto de prueba del hito 31, de tipo movimiento, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "movimiento",
+  "ambito": "españa",
+  "terminos": [],
+  "fuente": {
+   "titulo": "Fuente de prueba 31",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1972,
+  "mes": 5,
+  "titulo": "Hito de prueba 32",
+  "texto": "Texto de prueba del hito 32, de tipo ciencia, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "neurodivergente"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 32",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1985,
+  "mes": 11,
+  "titulo": "Hito de prueba 33",
+  "texto": "Texto de prueba del hito 33, de tipo ley, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [],
+  "fuente": {
+   "titulo": "Fuente de prueba 33",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2005,
+  "mes": null,
+  "titulo": "Hito de prueba 34",
+  "texto": "Texto de prueba del hito 34, de tipo movimiento, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "movimiento",
+  "ambito": "internacional",
+  "terminos": [
+   "comorbilidad",
+   "presentaciones-tdah",
+   "lomloe"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 34",
+   "url": "https://example.org/h"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 1998,
+  "mes": null,
+  "titulo": "Hito de prueba 35",
+  "texto": "Texto de prueba del hito 35, de tipo ley, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "ley",
+  "ambito": "internacional",
+  "terminos": [],
+  "fuente": {
+   "titulo": "Fuente de prueba 35",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1997,
+  "mes": null,
+  "titulo": "Hito de prueba 36",
+  "texto": "Texto de prueba del hito 36, de tipo movimiento, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "movimiento",
+  "ambito": "internacional",
+  "terminos": [
+   "ajustes-razonables",
+   "tdah-adulto"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 36",
+   "url": "https://example.org/h"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 2003,
+  "mes": 5,
+  "titulo": "Hito de prueba 37",
+  "texto": "Texto de prueba del hito 37, de tipo ley, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "ley",
+  "ambito": "internacional",
+  "terminos": [
+   "uta-frith",
+   "dua"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 37",
+   "url": "https://example.org/h"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 2011,
+  "mes": null,
+  "titulo": "Hito de prueba 38",
+  "texto": "Texto de prueba del hito 38, de tipo sociedad, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "sociedad",
+  "ambito": "internacional",
+  "terminos": [
+   "doble-excepcionalidad",
+   "eclipsamiento-diagnostico",
+   "dsm-iii"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 38",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1877,
+  "mes": 9,
+  "titulo": "Hito de prueba 39",
+  "texto": "Texto de prueba del hito 39, de tipo ley, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "ley",
+  "ambito": "internacional",
+  "terminos": [
+   "validez-uso"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 39",
+   "url": "https://example.org/h"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 1987,
+  "mes": 5,
+  "titulo": "Hito de prueba 40",
+  "texto": "Texto de prueba del hito 40, de tipo sociedad, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "sociedad",
+  "ambito": "internacional",
+  "terminos": [
+   "infradiagnostico",
+   "cribado"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 40",
+   "url": "https://example.org/h"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 1943,
+  "mes": null,
+  "titulo": "Hito de prueba 41",
+  "texto": "Texto de prueba del hito 41, de tipo ciencia, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "coherencia-central"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 41",
+   "url": "https://example.org/h"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 1950,
+  "mes": 3,
+  "titulo": "Hito de prueba 42",
+  "texto": "Texto de prueba del hito 42, de tipo clasificacion, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "deriva-conceptual",
+   "categoria-diagnostica"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 42",
+   "url": "https://example.org/h"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 2004,
+  "mes": null,
+  "titulo": "Hito de prueba 43",
+  "texto": "Texto de prueba del hito 43, de tipo sociedad, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "sociedad",
+  "ambito": "internacional",
+  "terminos": [
+   "tamano-efecto"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 43",
+   "url": "https://example.org/h"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 2008,
+  "mes": null,
+  "titulo": "Hito de prueba 44",
+  "texto": "Texto de prueba del hito 44, de tipo clasificacion, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [
+   "discapacidad-intelectual"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 44",
+   "url": "https://example.org/h"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 2022,
+  "mes": null,
+  "titulo": "Hito de prueba 45",
+  "texto": "Texto de prueba del hito 45, de tipo movimiento, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "movimiento",
+  "ambito": "españa",
+  "terminos": [
+   "biomarcador",
+   "sensibilidad-especificidad",
+   "neurotipico"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 45",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1925,
+  "mes": null,
+  "titulo": "Hito de prueba 46",
+  "texto": "Texto de prueba del hito 46, de tipo sociedad, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "sociedad",
+  "ambito": "internacional",
+  "terminos": [
+   "stimming",
+   "dsm",
+   "rdoc"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 46",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1947,
+  "mes": null,
+  "titulo": "Hito de prueba 47",
+  "texto": "Texto de prueba del hito 47, de tipo clasificacion, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [],
+  "fuente": {
+   "titulo": "Fuente de prueba 47",
+   "url": "https://example.org/h"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 1969,
+  "mes": null,
+  "titulo": "Hito de prueba 48",
+  "texto": "Texto de prueba del hito 48, de tipo ciencia, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [
+   "neuroimagen",
+   "enigma"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 48",
+   "url": "https://example.org/h"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 1961,
+  "mes": null,
+  "titulo": "Hito de prueba 49",
+  "texto": "Texto de prueba del hito 49, de tipo ciencia, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [],
+  "fuente": {
+   "titulo": "Fuente de prueba 49",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2023,
+  "mes": 2,
+  "titulo": "Hito de prueba 50",
+  "texto": "Texto de prueba del hito 50, de tipo ley, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [
+   "umbral"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 50",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1991,
+  "mes": 7,
+  "titulo": "Hito de prueba 51",
+  "texto": "Texto de prueba del hito 51, de tipo sociedad, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "sociedad",
+  "ambito": "internacional",
+  "terminos": [],
+  "fuente": {
+   "titulo": "Fuente de prueba 51",
+   "url": "https://example.org/h"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 1961,
+  "mes": null,
+  "titulo": "Hito de prueba 52",
+  "texto": "Texto de prueba del hito 52, de tipo ley, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [
+   "cpt",
+   "lorna-wing",
+   "cie-11"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 52",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1998,
+  "mes": null,
+  "titulo": "Hito de prueba 53",
+  "texto": "Texto de prueba del hito 53, de tipo sociedad, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "sociedad",
+  "ambito": "internacional",
+  "terminos": [
+   "teoria-mente"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 53",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1928,
+  "mes": null,
+  "titulo": "Hito de prueba 54",
+  "texto": "Texto de prueba del hito 54, de tipo movimiento, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "movimiento",
+  "ambito": "internacional",
+  "terminos": [],
+  "fuente": {
+   "titulo": "Fuente de prueba 54",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1901,
+  "mes": 7,
+  "titulo": "Hito de prueba 55",
+  "texto": "Texto de prueba del hito 55, de tipo sociedad, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "sociedad",
+  "ambito": "internacional",
+  "terminos": [],
+  "fuente": {
+   "titulo": "Fuente de prueba 55",
+   "url": "https://example.org/h"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 1976,
+  "mes": 10,
+  "titulo": "Hito de prueba 56",
+  "texto": "Texto de prueba del hito 56, de tipo clasificacion, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "clasificacion",
+  "ambito": "internacional",
+  "terminos": [],
+  "fuente": {
+   "titulo": "Fuente de prueba 56",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1921,
+  "mes": 1,
+  "titulo": "Hito de prueba 57",
+  "texto": "Texto de prueba del hito 57, de tipo ley, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "ley",
+  "ambito": "internacional",
+  "terminos": [],
+  "fuente": {
+   "titulo": "Fuente de prueba 57",
+   "url": "https://example.org/h"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 2001,
+  "mes": null,
+  "titulo": "Hito de prueba 58",
+  "texto": "Texto de prueba del hito 58, de tipo ley, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "ley",
+  "ambito": "internacional",
+  "terminos": [
+   "discapacidad-intelectual",
+   "criterio-diagnostico"
+  ],
+  "fuente": {
+   "titulo": "Fuente de prueba 58",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 2013,
+  "mes": null,
+  "titulo": "Hito de prueba 59",
+  "texto": "Texto de prueba del hito 59, de tipo movimiento, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "movimiento",
+  "ambito": "internacional",
+  "terminos": [],
+  "fuente": {
+   "titulo": "Fuente de prueba 59",
+   "url": "https://example.org/h"
+  },
+  "estado": "verificada"
+ },
+ {
+  "anio": 1967,
+  "mes": 2,
+  "titulo": "Hito de prueba 60",
+  "texto": "Texto de prueba del hito 60, de tipo ciencia, con algo más de longitud para ver cómo se reparte en dos líneas.",
+  "tipo": "ciencia",
+  "ambito": "internacional",
+  "terminos": [],
+  "fuente": {
+   "titulo": "Fuente de prueba 60",
+   "url": "https://example.org/h"
+  },
+  "estado": "probable"
+ },
+ {
+  "anio": 2001,
+  "titulo": "Hito sin fuente (no debe publicarse)",
+  "texto": "x",
+  "tipo": "ley",
+  "ambito": "españa",
+  "terminos": [],
+  "fuente": {}
+ }
+]
