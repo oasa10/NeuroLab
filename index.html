@@ -1,1 +1,78 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>NeuroLab</title></head><body style="font-family:system-ui;max-width:40rem;margin:4rem auto;padding:0 1rem"><h1>NeuroLab</h1><p>En construcción.</p></body></html>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NeuroLab · Consulta, juega y aprende sobre neurodiversidad, diagnósticos y etiquetas</title>
+  <meta name="description" content="TDAH, autismo, altas capacidades, dislexia, neurodiversidad… Una misma etiqueta sirve para investigar, diagnosticar, educar, acceder a apoyos o reconocerse, y cada uso necesita su propia prueba. Fichas verificadas, viajes en el tiempo, mapas, juegos y retos para pensar.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#FBFAF6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#11171C" media="(prefers-color-scheme: dark)">
+  <meta property="og:title" content="NeuroLab · Consulta, juega y aprende sobre neurodiversidad, diagnósticos y etiquetas">
+  <meta property="og:description" content="Cambia el uso, cambia la prueba. Fichas, viajes en el tiempo, mapas, juegos y retos para pensar con las etiquetas del neurodesarrollo.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/img/icono.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/icono-180.png">
+  <meta property="og:image" content="https://oasa10.github.io/NeuroLab/assets/img/neurolab-tarjeta.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="NeuroLab: una etiqueta y cinco puntos. Cambia el uso, cambia la prueba.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preload" href="assets/fonts/inter-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/fraunces-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/neurolab.css">
+  <script>
+    // Tema elegido por quien visita (solo en su navegador)
+    try { var t = localStorage.getItem('neurolab:tema'); if (t === '"light"' || t === '"dark"') document.documentElement.dataset.theme = JSON.parse(t); } catch (e) {}
+  </script>
+  <script src="assets/vendor/d3-7.9.0.min.js" defer></script>
+  <script type="module" src="assets/js/main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#app">Saltar al contenido</a>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="#/" aria-label="NeuroLab, inicio"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><path class="lleno" fill-rule="evenodd" d="M2.5 20 9.6 11h11.2a2.2 2.2 0 0 1 2.2 2.2v13.6a2.2 2.2 0 0 1-2.2 2.2H9.6ZM8.1 20a2.1 2.1 0 1 0 4.2 0a2.1 2.1 0 1 0-4.2 0Z"/><g class="puntos"><circle cx="28.70" cy="9.30" r="2.3" style="--i:0;--c:var(--v-I)"/><circle cx="33.40" cy="14.00" r="2.3" style="--i:1;--c:var(--v-D)"/><circle cx="35.20" cy="20.00" r="2.3" style="--i:2;--c:var(--v-E)"/><circle cx="33.40" cy="26.00" r="2.3" style="--i:3;--c:var(--v-A)"/><circle cx="28.70" cy="30.70" r="2.3" style="--i:4;--c:var(--v-R)"/></g></svg><span>Neuro<b>Lab</b></span></a>
+      <a class="inicio-btn" href="#/" title="Volver a la página de inicio">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5.5 9v11h4.5v-6h4v6h4.5V9"/></svg>
+        <span>Inicio</span>
+      </a>
+      <nav class="nav" aria-label="Secciones">
+        <div class="grupo g1" role="group" aria-label="Nivel 1: enterarte">
+          <span class="glabel" aria-hidden="true">Enterarte</span>
+          <a href="#/explorar">Explorar</a>
+          <a href="#/viajar">Viajar</a>
+          <a href="#/visualizar">Visualizar</a>
+        </div>
+        <div class="grupo g2" role="group" aria-label="Nivel 2: implicarte">
+          <span class="glabel" aria-hidden="true">Implicarte</span>
+          <a href="#/aprender">Aprender</a>
+          <a href="#/jugar">Jugar</a>
+          <a href="#/pensar">Pensar y aplicar</a>
+        </div>
+      </nav>
+      <a class="cuaderno-btn" href="#/cuaderno" title="Tu cuaderno: lo que llevas recorrido en los cuatro ejes">
+        <span class="mini-ejes" aria-hidden="true"><i style="--c:var(--e-ser)"></i><i style="--c:var(--e-saber)"></i><i style="--c:var(--e-hacer)"></i><i style="--c:var(--e-crear)"></i></span>
+        <span>Tu cuaderno</span>
+      </a>
+      <button class="theme-btn" id="tema" type="button" aria-label="Cambiar entre modo claro y oscuro" title="Modo claro u oscuro">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </div>
+  </header>
+  <main id="app" tabindex="-1">
+    <div class="wrap loading">Cargando NeuroLab…</div>
+  </main>
+  <footer class="foot">
+    <div class="wrap">
+      <span><b>NeuroLab</b> · Consulta, juega y aprende sobre neurodiversidad, diagnósticos y etiquetas · 2026</span>
+      <span class="aviso-pie"><span class="luz" aria-hidden="true"></span>No diagnostica ni sustituye a profesionales. ¿Lo pasas muy mal? <a href="tel:024"><b>024</b></a> (gratis, 24 h) · Emergencias <a href="tel:112"><b>112</b></a> · <a href="#/conocer/ayuda">Dónde pedir ayuda</a></span>
+      <span><a href="#/conocer">Conocer NeuroLab</a> · Datos y textos: <a href="https://creativecommons.org/licenses/by/4.0/deed.es" rel="license">CC BY 4.0</a> · Código: MIT · Sin cookies ni rastreo</span>
+      <button class="tema-pie" type="button"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg> Modo claro u oscuro</button>
+    </div>
+  </footer>
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+  <div class="tip" id="tip" role="tooltip" aria-hidden="true"></div>
+  <noscript><div class="wrap"><p>NeuroLab necesita JavaScript para funcionar. Los datos están también en <a href="data/csv/terminos.csv">terminos.csv</a>.</p></div></noscript>
+</body>
+</html>
