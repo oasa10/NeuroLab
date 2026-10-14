@@ -1,0 +1,4022 @@
+[
+  {
+    "id": "tdah",
+    "palabra": "TDAH",
+    "resumen": "El nombre TDAH es de 1987; lo que nombra, no.",
+    "termino": "tdah",
+    "etiqueta": "tdah",
+    "uso": "A",
+    "riesgo": false,
+    "historia_humana": "Marcos pierde el hilo en las tareas largas, y en casa ven lo mismo desde que era pequeño. En vez de quedarse con «es vago», su tutora y su familia piden una evaluación. Si ese patrón viene de lejos y le estorba, tiene nombre. A eso se le llama TDAH.",
+    "corto": {
+      "pregunta": "¿Que el nombre TDAH sea de 1987 quiere decir que antes no existía?",
+      "accion": "Hoy, cuando oigas «el TDAH es una moda», pregunta qué ha crecido: los casos o la forma de buscarlos."
+    },
+    "choque": {
+      "frase": "«El TDAH es un invento moderno.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Nerea tiene TDAH y pide más tiempo en la prueba de acceso a la universidad. ¿Se lo das?",
+      "opciones": [
+        {
+          "id": "doy",
+          "t": "Se lo doy"
+        },
+        {
+          "id": "niego",
+          "t": "No se lo doy"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "El nombre **TDAH** es de 1987: lo adoptó el DSM-III-R, la revisión del manual de diagnóstico de la psiquiatría estadounidense. Pero hay descripciones parecidas desde hace más de un siglo.",
+      "fuente": "Spitzer, R. L., Davies, M. y Barkley, R. A. (1990). The DSM-III-R field trial of disruptive behavior disorders. Journal of the American Academy of Child and Adolescent Psychiatry, 29(5)",
+      "url": "https://doi.org/10.1097/00004583-199009000-00003",
+      "busca": "**Para acceder** a un apoyo, la prueba es una regla clara y revisable, no sospechar de quien la usa. Que el nombre sea nuevo no hace falso lo que nombra.",
+      "saltos": [
+        {
+          "t": "Hay más diagnósticos, así que es una moda",
+          "p": "Los diagnósticos pueden crecer por mejor detección, criterios más amplios o presión escolar. Contar más no prueba que sea un invento."
+        },
+        {
+          "t": "Si el nombre es nuevo, el problema también",
+          "p": "El nombre es de 1987, pero hay descripciones parecidas desde hace más de un siglo. Un nombre nuevo puede ordenar algo viejo."
+        },
+        {
+          "t": "No salté: pedí la regla",
+          "p": "Bien visto. Para dar más tiempo no hace falta sospechar de Nerea: hace falta una regla clara que diga quién lo recibe y cómo se revisa."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "En 1902, el pediatra George Still describió a niños sin déficit intelectual con…",
+          "o": [
+            "un «defecto del control moral»",
+            "un «daño cerebral mínimo»",
+            "un «déficit de atención»"
+          ],
+          "ok": 0,
+          "por": "Se cita como punto de partida científico del TDAH, aunque su lenguaje moralizante hoy chirría. El «daño cerebral mínimo» se buscó después."
+        },
+        {
+          "p": "¿Qué edición del manual DSM le dio al TDAH el nombre que usamos hoy?",
+          "o": [
+            "El DSM-II, en 1968",
+            "El DSM-5, en 2013",
+            "El DSM-III-R, en 1987"
+          ],
+          "ok": 2,
+          "por": "El DSM-II hablaba de «reacción hipercinética de la infancia». El DSM-III-R adoptó «trastorno por déficit de atención con hiperactividad»."
+        },
+        {
+          "p": "¿Qué cambió el DSM-5 en 2013?",
+          "o": [
+            "Lo borró del manual",
+            "Lo pasó al neurodesarrollo y subió la edad de inicio a los 12 años",
+            "Lo dejó solo para niños"
+          ],
+          "ok": 1,
+          "por": "Lo trasladó al capítulo del neurodesarrollo, retrasó la edad de inicio de los 7 a los 12 años y permitió diagnosticarlo junto al autismo."
+        }
+      ],
+      "sabias": "En 1846, el médico Heinrich Hoffmann escribió para su hijo la historia de «Felipe el inquieto». Hay psiquiatras que la ven como un retrato temprano de la hiperactividad; era un cuento, no un diagnóstico."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Fuente pública contra vídeo",
+          "t": "Lee qué dice sobre el TDAH una fuente sanitaria pública y compáralo con el último vídeo que viste. ¿Qué criterios faltan en el vídeo?",
+          "historia": "comparar una fuente sanitaria pública con el último vídeo que viste sobre el TDAH"
+        },
+        {
+          "corta": "Preguntar qué ha crecido",
+          "t": "La próxima vez que oigas «el TDAH es una moda», pregunta qué ha crecido: los casos o la forma de buscarlos.",
+          "historia": "preguntar qué ha crecido cuando oigas que el TDAH es una moda"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa qué criterios faltaban en el vídeo o qué te respondieron."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no te parecía que el TDAH fuera un invento.",
+        "convence": "Entraste pensando que el TDAH era una moda.",
+        "igual": "Entraste sin darle mucha importancia a si el TDAH es nuevo o no."
+      },
+      "hice": {
+        "doy": "Cuando te tocó decidir, le diste el tiempo extra.",
+        "niego": "Cuando te tocó decidir, se lo negaste.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que el nombre es nuevo y lo que nombra no, que cada uso pide su prueba, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "autismo"
+    },
+    "saber_mas": "**Etiqueta:** TDAH. **Uso de hoy:** A, acceder. Para repartir un apoyo hacen falta reglas de elegibilidad claras, razones para repartir así y una vía para revisar las decisiones. **Veredicto de la ficha:** mito. **Obra que fija el nombre:** DSM-III-R (1987); el DSM-5 (2013) lo pasa al neurodesarrollo. **Figuras:** George Frederic Still, Russell Barkley y Heinrich Hoffmann. **Se conecta con:** TDAH en adultos, funciones ejecutivas y efecto de la edad relativa. **Fuentes de la ficha:** Spitzer, Davies y Barkley (1990); Willcutt (2012); Catalá-López y otros (2012). **Nota:** en España, un metaanálisis de 2012 estimó un 6,8 % en niños y adolescentes."
+  },
+  {
+    "id": "autismo",
+    "palabra": "Autismo",
+    "resumen": "Hay más diagnósticos de autismo; eso no prueba que haya más autismo.",
+    "termino": "autismo",
+    "etiqueta": "autismo",
+    "uso": "I",
+    "riesgo": false,
+    "historia_humana": "Andrés tiene 45 años y siempre se ha sentido fuera de sitio en las reuniones del trabajo. Tras una evaluación, recibe el diagnóstico y dice que por fin entiende su historia. No todo cambia, pero ya sabe qué ajustes pedir. A eso se le llama autismo.",
+    "corto": {
+      "pregunta": "¿Más diagnósticos de autismo quiere decir que hay más personas autistas?",
+      "accion": "Antes de compartir una cifra de autismo, mira qué población, qué edad y qué método usa."
+    },
+    "choque": {
+      "frase": "«Hay una epidemia de autismo.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Te llega un titular: «Los casos de autismo no paran de subir: es una epidemia». ¿Lo compartes?",
+      "opciones": [
+        {
+          "id": "comparto",
+          "t": "Lo comparto"
+        },
+        {
+          "id": "miro",
+          "t": "Primero miro cómo se cuenta"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "En EE. UU., la red de vigilancia de los CDC pasó de identificar autismo en 1 de cada 150 niños de 8 años (datos de 2000) a 1 de cada 31 (datos de 2022).",
+      "fuente": "CDC (2025). Data and Statistics on Autism Spectrum Disorder. Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/autism/data-research/index.html",
+      "busca": "**Para investigar**, una cifra tiene que ser fiable y medir lo mismo al comparar. Si cambian los criterios, la detección y los servicios, que suba no prueba una epidemia.",
+      "saltos": [
+        {
+          "t": "Más casos, luego una epidemia",
+          "p": "Identificar más no equivale a que haya más. Los criterios se ampliaron, hay más detección y más servicios."
+        },
+        {
+          "t": "Algo tiene que estar causándolo",
+          "p": "El estudio que culpó a la vacuna triple vírica fue retractado en 2010, y la OMS recuerda que esa vacuna no causa autismo."
+        },
+        {
+          "t": "No salté: miré cómo se cuenta",
+          "p": "Bien visto. Antes de comparar dos cifras, mira qué población, qué edad y qué método usa cada una."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿Quién usó la palabra «autismo» en 1911, y para qué?",
+          "o": [
+            "Leo Kanner, para once niños",
+            "Eugen Bleuler, para un síntoma de la esquizofrenia",
+            "Lorna Wing, para hablar de espectro"
+          ],
+          "ok": 1,
+          "por": "Bleuler nombraba así el repliegue hacia el mundo interior. La palabra tardó tres décadas en pasar a describir a niños y niñas."
+        },
+        {
+          "p": "En 2013, el DSM-5 fusionó cuatro diagnósticos en uno. ¿Cuál era uno de ellos?",
+          "o": [
+            "El síndrome de Asperger",
+            "El TDAH",
+            "La dislexia"
+          ],
+          "ok": 0,
+          "por": "Juntó trastorno autista, Asperger, trastorno desintegrativo infantil y trastorno generalizado del desarrollo no especificado, en una categoría con dos dominios."
+        },
+        {
+          "p": "La cifra de los CDC con datos de 2022, 1 de cada 31, ¿qué mide?",
+          "o": [
+            "Todas las personas autistas del país",
+            "Los bebés autistas que nacen cada año",
+            "Casos identificados en registros, a los 8 años, en 16 zonas"
+          ],
+          "ok": 2,
+          "por": "Revisa registros sanitarios y educativos. Mide casos identificados, no un recuento de toda la población."
+        }
+      ],
+      "sabias": "La OMS estima que en 2021 alrededor de una de cada 127 personas tenía autismo, con capacidades y necesidades que varían y pueden cambiar con el tiempo."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Mirar cómo se cuenta",
+          "t": "Busca la cifra más reciente de autismo de la OMS o de los CDC. Fíjate en qué población, edad y método usa antes de compararla con otra.",
+          "historia": "mirar población, edad y método antes de comparar dos cifras de autismo"
+        },
+        {
+          "corta": "Cambiar «epidemia» por una pregunta",
+          "t": "La próxima vez que leas «epidemia de autismo», pregunta: ¿hay más casos o los buscamos mejor?",
+          "historia": "preguntar si hay más casos o si los buscamos mejor"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa qué cifra miraste y qué cambió al saber cómo se contó."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: hablar de epidemia te sonaba mal.",
+        "convence": "Entraste pensando que hay una epidemia de autismo.",
+        "igual": "Entraste sin darle mucha importancia a las cifras de autismo."
+      },
+      "hice": {
+        "comparto": "Cuando te tocó decidir, compartiste el titular.",
+        "miro": "Cuando te tocó decidir, paraste a mirar cómo se contaba.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que identificar más no es lo mismo que haber más, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "dislexia"
+    },
+    "saber_mas": "**Etiqueta:** autismo. **Uso de hoy:** I, investigar. Para describir y comparar grupos hacen falta fiabilidad y validez; no hace falta acertar con cada persona. **Veredicto de la ficha:** matiz. **Obra que lo fija:** DSM-5 (2013), un solo espectro con dos dominios y niveles según el apoyo necesario. **Figuras:** Grunya Sukhareva, Leo Kanner, Hans Asperger, Lorna Wing y Uta Frith. **Se conecta con:** síndrome de Asperger, autismo profundo, camuflaje y lenguaje de identidad. **Fuentes de la ficha:** APA, cambios del DSM-IV-TR al DSM-5 (2013); OMS, nota descriptiva sobre autismo (2025); CDC, datos y estadísticas (2025)."
+  },
+  {
+    "id": "dislexia",
+    "palabra": "Dislexia",
+    "resumen": "La dislexia no está en los ojos: está en unir sonidos y letras.",
+    "termino": "dislexia",
+    "etiqueta": "dislexia",
+    "uso": "E",
+    "riesgo": false,
+    "historia_humana": "Lucía está en 3.º de primaria y lee muy despacio y con errores, aunque va a refuerzo en clase. La orientadora estudia cómo maneja los sonidos, su fluidez y lo que entiende. Su dificultad está en unir sonidos y letras. A eso se le llama dislexia.",
+    "corto": {
+      "pregunta": "¿Ver las letras al revés es tener dislexia?",
+      "accion": "Hoy, si oyes leer a alguien que está aprendiendo, fíjate en la velocidad y no solo en los errores."
+    },
+    "choque": {
+      "frase": "«La dislexia es ver las letras al revés.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Lucía, de 3.º de primaria, lee muy despacio aunque va a refuerzo. Aún no tiene informe. ¿Le das apoyo ya?",
+      "opciones": [
+        {
+          "id": "ya",
+          "t": "Le doy apoyo ya"
+        },
+        {
+          "id": "espero",
+          "t": "Espero al informe"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "La dislexia se explica sobre todo por dificultades **fonológicas**: relacionar sonidos y letras. Se nota en una lectura lenta o imprecisa, no en la vista. Confundir letras es frecuente en cualquier aprendiz.",
+      "fuente": "Peterson, R. L. y Pennington, B. F. (2012). Developmental dyslexia. The Lancet, 379(9830)",
+      "url": "https://doi.org/10.1016/S0140-6736(12)60198-6",
+      "busca": "**Para educar**, la prueba es que el apoyo sea útil, proporcionado y revisable. Muchas veces basta con describir la necesidad: lee despacio y le cuesta unir sonidos y letras.",
+      "saltos": [
+        {
+          "t": "Confunde la b y la d: es dislexia",
+          "p": "Confundir o invertir letras es frecuente en cualquier aprendiz. No define la dislexia."
+        },
+        {
+          "t": "Sin informe, no hay apoyo",
+          "p": "Si se exige un informe para cualquier apoyo, quien lee mal sin informe se queda fuera. La necesidad ya se ve en clase."
+        },
+        {
+          "t": "No salté: miré la velocidad",
+          "p": "Bien visto. En español, la dislexia se nota a menudo más en la lentitud que en los errores al leer."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿Quién acuñó la palabra «dislexia», en 1887?",
+          "o": [
+            "W. Pringle Morgan, un médico inglés",
+            "Rudolf Berlin, un oftalmólogo",
+            "James Hinshelwood, un maestro"
+          ],
+          "ok": 1,
+          "por": "Berlin describió adultos que no podían leer sin tener un problema de visión. Morgan y Hinshelwood llegaron después."
+        },
+        {
+          "p": "¿Cómo llamó W. Pringle Morgan, en 1896, lo que le pasaba a Percy, de 14 años?",
+          "o": [
+            "Ceguera verbal congénita",
+            "Pereza lectora",
+            "Defecto del control moral"
+          ],
+          "ok": 0,
+          "por": "Percy era despierto y capaz, pero no conseguía aprender a leer. Su caso salió en el British Medical Journal."
+        },
+        {
+          "p": "En español, ¿cómo se nota a menudo la dislexia?",
+          "o": [
+            "Se ven las letras al revés",
+            "Hace falta graduarse la vista",
+            "Se lee con lentitud"
+          ],
+          "ok": 2,
+          "por": "El español tiene una ortografía bastante transparente, así que se nota más la lentitud que los errores."
+        }
+      ],
+      "sabias": "La dislexia se ha descrito en todas las culturas estudiadas, aunque su expresión cambia con la ortografía de cada lengua. Y tiene un componente familiar importante."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Escuchar la velocidad",
+          "t": "Escucha leer en voz alta a alguien que esté aprendiendo y fíjate en la velocidad, no solo en los errores: en español, la lentitud dice mucho.",
+          "historia": "fijarte en la velocidad, y no solo en los errores, cuando escuches leer a alguien que aprende"
+        },
+        {
+          "corta": "Corregir el mito",
+          "t": "Si oyes «la dislexia es ver las letras al revés», explica en una frase qué es: una dificultad para unir sonidos y letras.",
+          "historia": "explicar en una frase qué es la dislexia cuando oigas lo de las letras al revés"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa qué notaste al fijarte en la velocidad o al explicar el mito."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no te parecía que la dislexia fuera eso.",
+        "convence": "Entraste pensando que la dislexia es ver las letras al revés.",
+        "igual": "Entraste sin darle mucha importancia a cómo se aprende a leer."
+      },
+      "hice": {
+        "ya": "Cuando te tocó decidir, le diste apoyo sin esperar al informe.",
+        "espero": "Cuando te tocó decidir, esperaste al informe.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que la dislexia está en los sonidos y las letras, no en la vista, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "trastornos-neurodesarrollo"
+    },
+    "saber_mas": "**Etiqueta:** dislexia. **Uso de hoy:** E, educar. El apoyo tiene que ser útil, proporcionado y revisable; muchas veces basta con describir la necesidad, sin diagnóstico. **Veredicto de la ficha:** mito. **Primer uso:** 1887, el oftalmólogo Rudolf Berlin. **Figuras:** Rudolf Berlin, W. Pringle Morgan y James Hinshelwood. **En el DSM-5:** trastorno específico del aprendizaje con dificultad en la lectura. **Se conecta con:** discalculia, TDL, umbral y evaluación psicopedagógica. **Fuentes de la ficha:** Peterson y Pennington (2012), *The Lancet*; Morgan (1896), *British Medical Journal*; Universidad de Oxford, historia de la dislexia."
+  },
+  {
+    "id": "trastornos-neurodesarrollo",
+    "palabra": "Trastornos del neurodesarrollo",
+    "resumen": "«Neurodesarrollo» dice cuándo empieza algo, no que se vea en un escáner.",
+    "termino": "trastornos-neurodesarrollo",
+    "etiqueta": "trastornos-neurodesarrollo",
+    "uso": "D",
+    "riesgo": false,
+    "historia_humana": "La familia de Hugo recibe un informe clínico que dice «trastorno del neurodesarrollo», y su madre pregunta: «¿Cuál?». El nombre general orienta, pero el apoyo que Hugo necesita depende de su perfil concreto. Es un paraguas para condiciones que empiezan pronto. A eso se le llama trastornos del neurodesarrollo.",
+    "corto": {
+      "pregunta": "¿Un trastorno del neurodesarrollo se confirma con un escáner del cerebro?",
+      "accion": "Si lees «trastorno del neurodesarrollo», busca si dice cuál y qué necesidades concretas describe."
+    },
+    "choque": {
+      "frase": "«Si es del neurodesarrollo, se tiene que ver en el cerebro.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Un vídeo dice: «Si es del neurodesarrollo, un escáner lo demuestra». ¿Lo compartes?",
+      "opciones": [
+        {
+          "id": "comparto",
+          "t": "Lo comparto"
+        },
+        {
+          "id": "pregunto",
+          "t": "Antes pregunto cómo se diagnostica"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "En 2013, el DSM-5 creó el capítulo de **trastornos del neurodesarrollo**: los agrupa por su inicio en el desarrollo y su curso, no por una causa común. Hoy ningún escáner individual los confirma.",
+      "fuente": "American Psychiatric Association (2013). Highlights of changes from DSM-IV-TR to DSM-5. APA",
+      "url": "https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM_Changes_from_DSM-IV-TR_-to_DSM-5.pdf",
+      "busca": "**Para diagnosticar** hacen falta criterios claros y una evaluación que descarte otras explicaciones. Aquí la prueba es la historia del desarrollo, la conducta y el funcionamiento, no una imagen del cerebro.",
+      "saltos": [
+        {
+          "t": "Si es «neuro», sale en un escáner",
+          "p": "El salto va de la etiqueta al mecanismo. El prefijo «neuro» suena a escáner, pero estos diagnósticos se hacen por historia, conducta y funcionamiento."
+        },
+        {
+          "t": "Mismo capítulo, misma causa",
+          "p": "Es una agrupación por inicio y curso, no por una causa común. Se discute si comparten algo biológico o solo empezar pronto."
+        },
+        {
+          "t": "No salté: pregunté cuál",
+          "p": "Bien visto. «Trastorno del neurodesarrollo» es un paraguas: el apoyo depende del perfil concreto."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "Antes de 2013, ¿con qué criterio juntaba el DSM-IV estos trastornos en un capítulo?",
+          "o": [
+            "La edad a la que solían diagnosticarse",
+            "Una causa cerebral común",
+            "Un análisis de sangre"
+          ],
+          "ok": 0,
+          "por": "Era el capítulo de trastornos «de inicio en la infancia, la niñez o la adolescencia». El DSM-5 eliminó ese cajón."
+        },
+        {
+          "p": "¿Qué permitió el DSM-5 que antes no se podía?",
+          "o": [
+            "Diagnosticar con un escáner",
+            "Diagnosticar autismo y TDAH a la vez",
+            "Diagnosticar solo a menores de 18 años"
+          ],
+          "ok": 1,
+          "por": "Además, el TDAH dejó de clasificarse junto a los trastornos de conducta y el autismo se unificó en un espectro."
+        },
+        {
+          "p": "¿Dónde pone la CIE-11, la clasificación de la OMS, el síndrome de Tourette?",
+          "o": [
+            "Solo en neurodesarrollo",
+            "Fuera de la clasificación",
+            "En el sistema nervioso, listado también junto al neurodesarrollo"
+          ],
+          "ok": 2,
+          "por": "El DSM-5 lo deja en neurodesarrollo y la CIE-11 lo codifica en el sistema nervioso. Un mismo diagnóstico, dos estanterías."
+        }
+      ],
+      "sabias": "Detrás del cambio de 2013 había estudios genéticos con riesgos compartidos entre diagnósticos, coexistencias muy frecuentes y una constatación: estas condiciones no terminan a los 18 años."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Preguntar cuál",
+          "t": "Busca un informe o una web que use «trastorno del neurodesarrollo» y comprueba si dice cuál y qué necesidades concretas describe.",
+          "historia": "comprobar si un texto dice qué trastorno del neurodesarrollo nombra y qué necesidades describe"
+        },
+        {
+          "corta": "Separar nombre y prueba",
+          "t": "Cuando oigas algo con «neuro», pregunta en qué se basa de verdad: ¿en una imagen del cerebro o en la historia y la conducta?",
+          "historia": "preguntar en qué se basa algo cuando oigas el prefijo «neuro»"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa si el texto decía cuál y qué necesidades describía."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no te cuadraba lo del cerebro.",
+        "convence": "Entraste pensando que, si es del neurodesarrollo, se tiene que ver en el cerebro.",
+        "igual": "Entraste sin darle mucha importancia a la palabra «neurodesarrollo»."
+      },
+      "hice": {
+        "comparto": "Cuando te tocó decidir, compartiste el vídeo.",
+        "pregunto": "Cuando te tocó decidir, paraste a preguntar cómo se diagnostica.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que «neurodesarrollo» dice cuándo empieza algo, no qué se ve en un escáner, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "sindrome-asperger"
+    },
+    "saber_mas": "**Etiqueta:** trastornos del neurodesarrollo. **Uso de hoy:** D, diagnosticar. Hacen falta criterios claros, evaluación diferencial y validación para esa población y esa finalidad. **Veredicto de la ficha:** mito. **Obra que lo fija:** DSM-5 (2013); la CIE-11 adopta un bloque equivalente. **Qué incluye:** discapacidad intelectual, trastornos de la comunicación, autismo, TDAH, trastornos específicos del aprendizaje y trastornos motores. **Se conecta con:** TDAH, autismo, discapacidad intelectual y coexistencia. **Fuentes de la ficha:** APA, cambios del DSM-IV-TR al DSM-5 (2013); OMS, manual clínico de la CIE-11 (2024); Tebartz van Elst y otros (2025)."
+  },
+  {
+    "id": "sindrome-asperger",
+    "palabra": "Síndrome de Asperger",
+    "resumen": "Asperger ya no es diagnóstico, pero mucha gente se reconoce en él.",
+    "termino": "sindrome-asperger",
+    "etiqueta": "sindrome-asperger",
+    "uso": "R",
+    "riesgo": false,
+    "historia_humana": "Óscar recibió un informe de Asperger en 2005 y lo conserva. Hoy, una evaluación nueva lo llamaría trastorno del espectro autista, pero él prefiere decir «soy Asperger», porque así se reconoció durante años. Es un nombre con historia propia. A eso se le llama síndrome de Asperger.",
+    "corto": {
+      "pregunta": "Si alguien habla con fluidez y saca buenas notas, ¿quiere decir que no tiene dificultades?",
+      "accion": "Antes de corregir cómo se nombra alguien, pregúntale qué palabra prefiere."
+    },
+    "choque": {
+      "frase": "«El Asperger es un autismo leve.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Tu amigo Iker dice: «Soy Asperger». Alguien le suelta: «Eso ya no existe». ¿Qué haces?",
+      "opciones": [
+        {
+          "id": "respeto",
+          "t": "Respeto cómo se nombra Iker"
+        },
+        {
+          "id": "corrijo",
+          "t": "Lo corrijo: ahora se dice autismo"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "En 1981, Lorna Wing rescató en inglés la obra de Hans Asperger y propuso el nombre **síndrome de Asperger**. Hoy, el DSM-5 y la CIE-11 lo integran en el espectro autista.",
+      "fuente": "Wing, L. (1981). Asperger's syndrome: a clinical account. Psychological Medicine, 11(1)",
+      "url": "https://doi.org/10.1017/s0033291700053332",
+      "busca": "**Para reconocerse**, la prueba es claridad y respeto: Iker puede llamarse así. Pero «soy Asperger» no sustituye una evaluación, y la palabra «leve» puede esconder necesidades importantes.",
+      "saltos": [
+        {
+          "t": "Habla bien y saca buenas notas: es leve",
+          "p": "«Leve» puede ocultar ansiedad, agotamiento o aislamiento. Por eso el DSM-5 gradúa según el apoyo necesario, no según el lenguaje o el CI."
+        },
+        {
+          "t": "Si no está en el manual, no vale",
+          "p": "Para trámites vale el diagnóstico vigente, pero muchas personas siguen usando «Asperger» como identidad. Son usos distintos con pruebas distintas."
+        },
+        {
+          "t": "No salté: separé nombre y persona",
+          "p": "Bien visto. Quien se identifica con la palabra no está avalando el pasado de Hans Asperger. Discutir un nombre no es juzgar a nadie."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿Quién propuso, en 1981, el nombre «síndrome de Asperger»?",
+          "o": [
+            "Hans Asperger",
+            "Leo Kanner",
+            "Lorna Wing"
+          ],
+          "ok": 2,
+          "por": "Wing rescató la obra de Asperger, que apenas había circulado fuera de Austria, y propuso agruparla con el autismo infantil."
+        },
+        {
+          "p": "¿Qué manual lo convirtió en diagnóstico oficial en 1994?",
+          "o": [
+            "El DSM-IV",
+            "El DSM-5",
+            "La CIE-11"
+          ],
+          "ok": 0,
+          "por": "El DSM-IV lo incorporó, igual que la CIE-10. El DSM-5 (2013) y la CIE-11 lo integraron en el espectro autista."
+        },
+        {
+          "p": "En 2018, ¿qué documentó con archivos el historiador Herwig Czech?",
+          "o": [
+            "Que Asperger inventó el autismo",
+            "Que Asperger se acomodó al régimen nazi",
+            "Que Asperger nunca publicó"
+          ],
+          "ok": 1,
+          "por": "Por eso se discute el nombre. Pero la validez de una categoría y la biografía de quien le da nombre son preguntas distintas."
+        }
+      ],
+      "sabias": "Hans Asperger usó la expresión «psicópatas autistas» en 1938, años antes del famoso artículo de Leo Kanner de 1943. Su estudio de 1944 solo tuvo eco internacional en los años ochenta."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Mirar los documentos",
+          "t": "Lee el resumen del artículo de Herwig Czech (2018), de acceso abierto, y anota qué tipo de documentos usa para revisar la imagen de Asperger.",
+          "historia": "anotar qué documentos usa Czech para revisar la historia de Asperger"
+        },
+        {
+          "corta": "Mirar por qué se conserva",
+          "t": "Busca una asociación española que mantenga «Asperger» en su nombre y lee por qué lo conserva.",
+          "historia": "buscar por qué una asociación española conserva «Asperger» en su nombre"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa qué documentos encontraste o qué razones daba la asociación."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: «leve» no te parecía la palabra.",
+        "convence": "Entraste pensando que el Asperger es un autismo leve.",
+        "igual": "Entraste sin darle mucha importancia a la palabra «Asperger»."
+      },
+      "hice": {
+        "respeto": "Cuando te tocó decidir, respetaste cómo se nombra Iker.",
+        "corrijo": "Cuando te tocó decidir, lo corregiste.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que una palabra puede servir para reconocerse aunque ya no sirva para un trámite, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "altas-capacidades"
+    },
+    "saber_mas": "**Etiqueta:** síndrome de Asperger. **Uso de hoy:** R, reconocerse. Pide claridad y respeto; no necesita una prueba clínica, pero tampoco la sustituye. **Veredicto de la ficha:** mito. **Obra que lo fija:** Lorna Wing, «Asperger's syndrome: a clinical account» (1981). **Hoy:** el DSM-5 y la CIE-11 lo integran en el trastorno del espectro autista. **Figuras:** Hans Asperger, Lorna Wing, Herwig Czech y Edith Sheffer. **Se conecta con:** autismo, Lorna Wing y lenguaje de identidad. **Fuentes de la ficha:** Wing (1981), *Psychological Medicine*; Czech (2018), *Molecular Autism*; Sheffer (2018), *Asperger's Children*."
+  },
+  {
+    "id": "altas-capacidades",
+    "palabra": "Altas capacidades",
+    "resumen": "Tener altas capacidades no quita necesidades: la ley obliga a atenderlas.",
+    "termino": "altas-capacidades",
+    "etiqueta": "altas-capacidades",
+    "uso": "A",
+    "riesgo": false,
+    "historia_humana": "Alba está en 4.º de primaria, termina las tareas en minutos y pide más retos. El orientador hace una evaluación psicopedagógica y propone enriquecimiento curricular. No es un diagnóstico clínico, sino una forma de ajustar la escuela a lo que ella necesita. A eso se le llama altas capacidades.",
+    "corto": {
+      "pregunta": "Si alguien saca buenas notas, ¿ya no necesita ningún apoyo?",
+      "accion": "Busca el protocolo de altas capacidades de tu comunidad y anota qué criterio usa."
+    },
+    "choque": {
+      "frase": "«Los niños con altas capacidades no necesitan ayuda: ya se apañan solos.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Hay plazas para un programa de enriquecimiento. Alba tiene altas capacidades y ya saca buenas notas. ¿Le das plaza?",
+      "opciones": [
+        {
+          "id": "plaza",
+          "t": "Le doy plaza"
+        },
+        {
+          "id": "otro",
+          "t": "Se la doy a quien va peor"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "La ley obliga a las administraciones a identificar al **alumnado con altas capacidades** y a valorar pronto sus necesidades (LOE, artículo 76). Es una categoría de apoyo educativo, no un diagnóstico clínico.",
+      "fuente": "Jefatura del Estado (2006). Ley Orgánica 2/2006, de 3 de mayo, de Educación (texto consolidado). Boletín Oficial del Estado",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899",
+      "busca": "**Para acceder** a un programa, la prueba es una regla clara: qué criterio se usa, por qué se reparte así y cómo se revisa. Sacar buenas notas no quita la necesidad de retos.",
+      "saltos": [
+        {
+          "t": "Si saca buenas notas, no necesita nada",
+          "p": "La investigación no muestra una regla única: hay trayectorias muy diversas, y algunos alumnos necesitan retos, ajustes o apoyo emocional."
+        },
+        {
+          "t": "Hay más identificados, así que es una moda",
+          "p": "El salto va del aumento de identificaciones a «es una moda». Pesan los cribados, los protocolos y los recursos de cada comunidad."
+        },
+        {
+          "t": "No salté: miré el criterio",
+          "p": "Bien visto. Antes de repartir plazas, pregunta qué criterio se usa: CI, aptitudes, creatividad o rendimiento."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "En el curso 2023-24, ¿cuántos alumnos con altas capacidades contó el Ministerio de Educación?",
+          "o": [
+            "Unos 5.800",
+            "58.540",
+            "Medio millón"
+          ],
+          "ok": 1,
+          "por": "Con una brecha: 38.073 chicos y 20.467 chicas. Casi dos a uno, un dato que invita a preguntarse si se mira igual a todos."
+        },
+        {
+          "p": "Dentro de las «otras» categorías de apoyo, ¿cuánto pesan las altas capacidades en Andalucía y en Cataluña?",
+          "o": [
+            "Un 28 % y un 1,6 %",
+            "Lo mismo en las dos",
+            "Un 1,6 % y un 28 %"
+          ],
+          "ok": 0,
+          "por": "Es improbable que la capacidad del alumnado varíe tanto: pesan los cribados, los protocolos y los recursos."
+        },
+        {
+          "p": "Desde 2003, ¿cuántas veces se puede adelantar curso en la enseñanza básica por altas capacidades?",
+          "o": [
+            "Ninguna",
+            "Una vez",
+            "Hasta tres veces"
+          ],
+          "ok": 2,
+          "por": "El Real Decreto 943/2003 lo permite hasta tres veces en la básica y una en las posobligatorias, con conformidad de la familia."
+        }
+      ],
+      "sabias": "En 1921, Lewis Terman empezó en California a seguir de por vida a 1.528 escolares con un CI muy alto. Durante décadas, «superdotado» significó, sobre todo, un número alto."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Leer el protocolo",
+          "t": "Busca en la web de tu consejería de Educación el protocolo de altas capacidades y anota qué criterios usa: ¿CI, aptitudes, creatividad, rendimiento?",
+          "historia": "anotar qué criterios usa el protocolo de altas capacidades de tu comunidad"
+        },
+        {
+          "corta": "Cambiar «moda» por «criterio»",
+          "t": "Si oyes que las altas capacidades «están de moda», pregunta qué criterio se usa y quién lo decide.",
+          "historia": "preguntar qué criterio se usa cuando oigas que las altas capacidades están de moda"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa qué criterios encontraste y si te parecen claros."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no te parecía que se apañaran solos.",
+        "convence": "Entraste pensando que, con altas capacidades, no hace falta ayuda.",
+        "igual": "Entraste sin darle mucha importancia a las altas capacidades."
+      },
+      "hice": {
+        "plaza": "Cuando te tocó decidir, le diste plaza a Alba.",
+        "otro": "Cuando te tocó decidir, diste la plaza a quien iba peor.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que la ley obliga a atender a este alumnado y que el acceso pide una regla clara, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "tdl"
+    },
+    "saber_mas": "**Etiqueta:** altas capacidades. **Uso de hoy:** A, acceder. Hacen falta reglas de elegibilidad claras, razones para repartir así y una vía para revisar las decisiones. **Veredicto de la ficha:** mito. **Obra que la fija:** Ley Orgánica de Educación (2006), artículos 76 y 77. **No es:** un diagnóstico clínico ni una enfermedad. **Figuras:** Lewis M. Terman, Joseph S. Renzulli y Françoys Gagné. **Se conecta con:** doble excepcionalidad y disincronía. **Fuentes de la ficha:** BOE, LOE (texto consolidado); Ministerio de Educación, estadística del alumnado con apoyo educativo (2023-24); Comunidad de Madrid, alta capacidad intelectual."
+  },
+  {
+    "id": "tdl",
+    "palabra": "TDL",
+    "resumen": "Muchos niños que tardan en hablar se ponen al día; no todos.",
+    "termino": "tdl",
+    "etiqueta": "tdl",
+    "uso": "E",
+    "riesgo": false,
+    "historia_humana": "Rubén tiene cinco años. Entiende mal las instrucciones de dos pasos y construye frases muy simples. Antes de nada, la logopeda descarta que oiga mal. Su dificultad con el lenguaje persiste y no la explica otra condición conocida. A eso se le llama trastorno del desarrollo del lenguaje.",
+    "corto": {
+      "pregunta": "Si alguien no sigue una explicación, ¿es siempre porque no presta atención?",
+      "accion": "Hoy, cuando expliques algo, da una instrucción cada vez y fíjate si cambia la respuesta."
+    },
+    "choque": {
+      "frase": "«Ya hablará: cada niño tiene su ritmo.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Carla parece despistada en clase: no sigue los enunciados largos. ¿Qué haces primero?",
+      "opciones": [
+        {
+          "id": "atencion",
+          "t": "Le pido que atienda más"
+        },
+        {
+          "id": "cortas",
+          "t": "Le doy frases más cortas"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "En 2016 y 2017, el proyecto CATALISE reunió a 57 especialistas de varios países y profesiones. Por consenso, recomendaron un solo nombre: **trastorno del desarrollo del lenguaje**.",
+      "fuente": "Bishop, D. V. M. et al. (2017). Phase 2 of CATALISE: a multinational and multidisciplinary Delphi consensus study of problems with language development: Terminology. Journal of Child Psychology and Psychiatry, 58(10)",
+      "url": "https://doi.org/10.1111/jcpp.12721",
+      "busca": "**Para educar** no hace falta esperar a un nombre: basta con describir la necesidad y probar un apoyo útil y revisable, como frases más cortas. Esperar sin observar también es una decisión.",
+      "saltos": [
+        {
+          "t": "Ya hablará, cada uno a su ritmo",
+          "p": "Muchos niños que tardan en hablar se ponen al día, pero no todos. Si sigue al empezar la escuela y afecta al aprendizaje, merece una evaluación."
+        },
+        {
+          "t": "Está despistada o no le interesa",
+          "p": "El TDL se confunde con timidez, mala conducta o falta de interés. A veces no es que no atienda: es que no entiende los enunciados largos."
+        },
+        {
+          "t": "No salté: probé con frases cortas",
+          "p": "Bien visto. Reformular con frases cortas puede cambiar los resultados, y es un apoyo que no espera a ningún informe."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "Antes de 2017, ¿qué exigía el «específico» de «trastorno específico del lenguaje»?",
+          "o": [
+            "Una inteligencia no verbal normal",
+            "Un informe médico",
+            "Tener más de diez años"
+          ],
+          "ok": 0,
+          "por": "Eso dejaba sin servicios a muchos niños con puntuaciones algo más bajas. El DSM-5 ya había quitado esa exigencia."
+        },
+        {
+          "p": "En un estudio en Surrey (Inglaterra), ¿cuántos niños de 4 y 5 años tenían un trastorno del lenguaje sin causa conocida?",
+          "o": [
+            "Uno de cada mil",
+            "Un 7,6 %: unos dos por clase de 30",
+            "La mitad"
+          ],
+          "ok": 1,
+          "por": "Fue el primer estudio poblacional británico sobre el tema. Es frecuente, pero poco conocido fuera de la logopedia."
+        },
+        {
+          "p": "¿Qué ley española nombra los «trastornos del desarrollo del lenguaje y la comunicación»?",
+          "o": [
+            "La Constitución",
+            "La Ley de Sanidad",
+            "La LOMLOE"
+          ],
+          "ok": 2,
+          "por": "Los nombra entre el alumnado con necesidad específica de apoyo educativo, lo que ayuda a reconocerlos en la escuela."
+        }
+      ],
+      "sabias": "El TDL tuvo muchos nombres: afasia del desarrollo, disfasia, retraso del lenguaje, trastorno específico del lenguaje. Tanta etiqueta distinta confundía a las familias y dificultaba pedir recursos."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Una instrucción cada vez",
+          "t": "Esta semana, cuando expliques algo a un niño o a un adolescente, prueba a dar una instrucción cada vez y observa si cambia su respuesta.",
+          "historia": "dar una instrucción cada vez y observar si cambia la respuesta"
+        },
+        {
+          "corta": "Repetir en corto",
+          "t": "La próxima vez que alguien no te siga, repite lo mismo en frases más cortas antes de pensar que no atiende.",
+          "historia": "repetir en frases cortas antes de pensar que alguien no atiende"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa si cambió algo al decir las cosas de una en una."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: esperar sin más no te convencía.",
+        "convence": "Entraste pensando que cada niño tiene su ritmo y que ya hablará.",
+        "igual": "Entraste sin darle mucha importancia a cuándo se aprende a hablar."
+      },
+      "hice": {
+        "atencion": "Cuando te tocó decidir, le pediste que atendiera más.",
+        "cortas": "Cuando te tocó decidir, le diste frases más cortas.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que esperar sin observar también es una decisión, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "discapacidad-intelectual"
+    },
+    "saber_mas": "**Etiqueta:** TDL. **Uso de hoy:** E, educar. El apoyo tiene que ser útil, proporcionado y revisable; muchas veces basta con describir la necesidad. **Veredicto de la ficha:** matiz. **Obra que lo fija:** Bishop y otros, consenso CATALISE (2017). **Antes se llamaba:** trastorno específico del lenguaje (TEL), disfasia o retraso del lenguaje. **Figuras:** Dorothy Bishop y Courtenay Norbury. **Se conecta con:** dislexia, LOMLOE, umbral y coexistencia. **Fuentes de la ficha:** Bishop y otros (2017); Norbury y otros (2016); Eurydice, apoyo educativo en España."
+  },
+  {
+    "id": "discapacidad-intelectual",
+    "palabra": "Discapacidad intelectual",
+    "resumen": "Un CI aislado no es un diagnóstico: cuenta también la vida diaria.",
+    "termino": "discapacidad-intelectual",
+    "etiqueta": "discapacidad-intelectual",
+    "uso": "D",
+    "riesgo": true,
+    "historia_humana": "Iván estudia 2.º de ESO. Su instituto adapta los textos a lectura fácil para que trabaje la misma unidad que sus compañeros. Desde pequeño necesita apoyo en lo conceptual y en lo práctico, y con ese apoyo aprende. A eso se le llama discapacidad intelectual.",
+    "corto": {
+      "pregunta": "¿Basta una puntuación de CI para saber lo que alguien necesita?",
+      "accion": "Busca un texto en lectura fácil de una administración y compáralo con el original."
+    },
+    "choque": {
+      "frase": "«Con un CI por debajo de 70 ya está diagnosticado.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "A tu primo Samuel le han hecho un test y ha sacado un CI de 68. Su familia te pregunta si eso ya es un diagnóstico. Piénsalo con calma. ¿Qué dices?",
+      "opciones": [
+        {
+          "id": "basta",
+          "t": "Que sí: la cifra basta"
+        },
+        {
+          "id": "falta",
+          "t": "Que falta ver su día a día"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "El DSM-5 (2013) cambió «retraso mental» por **discapacidad intelectual**. Gradúa la gravedad por el funcionamiento adaptativo, es decir, las habilidades conceptuales, sociales y prácticas de la vida diaria, y no por la puntuación.",
+      "fuente": "American Psychiatric Association (2013). Highlights of changes from DSM-IV-TR to DSM-5. APA",
+      "url": "https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM_Changes_from_DSM-IV-TR_-to_DSM-5.pdf",
+      "busca": "**Para diagnosticar** hacen falta criterios claros y una evaluación completa: funcionamiento intelectual, conducta adaptativa y origen durante el desarrollo. Una cifra aislada no constituye un diagnóstico.",
+      "saltos": [
+        {
+          "t": "La cifra basta para diagnosticar",
+          "p": "El salto va de la puntuación a la persona. El DSM-5 exige también limitaciones en la conducta adaptativa."
+        },
+        {
+          "t": "Con esa cifra ya no aprenderá más",
+          "p": "El CI sirve para describir y orientar apoyos, pero no predice por sí solo lo que alguien puede aprender con los apoyos adecuados."
+        },
+        {
+          "t": "No salté: pedí ver su día a día",
+          "p": "Bien visto. La gravedad se define por el funcionamiento en la vida diaria y por el apoyo que la persona necesita."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿Qué expresión retiró la Ley Rosa de varias leyes federales de EE. UU. en 2010?",
+          "o": [
+            "«Discapacidad»",
+            "«Retraso mental»",
+            "«Diversidad»"
+          ],
+          "ok": 1,
+          "por": "Después, el DSM-5 adoptó «discapacidad intelectual» en 2013, y la CIE-11 habla de trastornos del desarrollo intelectual."
+        },
+        {
+          "p": "Según la asociación estadounidense AAIDD, ¿antes de qué edad se originan sus limitaciones?",
+          "o": [
+            "Antes de los 22 años",
+            "Antes de los 3 años",
+            "A cualquier edad"
+          ],
+          "ok": 0,
+          "por": "La AAIDD la define por limitaciones intelectuales y adaptativas que se originan antes de los 22 años."
+        },
+        {
+          "p": "Un informe dice «discapacidad intelectual moderada». ¿Qué describe «moderada»?",
+          "o": [
+            "Solo el CI",
+            "La edad a la que empezó",
+            "El apoyo que necesita en comunicación, autonomía y vida social"
+          ],
+          "ok": 2,
+          "por": "La gravedad describe el apoyo que la persona necesita, no solo una puntuación."
+        }
+      ],
+      "sabias": "Hasta febrero de 2024, el artículo 49 de la Constitución hablaba de «disminuidos físicos, sensoriales y psíquicos». La reforma, publicada en el BOE el 17 de febrero de 2024, dice «personas con discapacidad»."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Comparar la lectura fácil",
+          "t": "Busca un documento en «lectura fácil» de alguna administración y compáralo con el original: ¿qué se ha simplificado y qué se ha mantenido?",
+          "historia": "comparar un documento en lectura fácil con su original"
+        },
+        {
+          "corta": "Parar el insulto",
+          "t": "Si oyes «retrasado» como insulto, explica en una frase que fue una palabra clínica que acabó convertida en desprecio.",
+          "historia": "explicar de dónde viene la palabra cuando la oigas como insulto"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa qué se mantenía en la lectura fácil o cómo reaccionaron."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: una cifra no te parecía suficiente.",
+        "convence": "Entraste pensando que un CI por debajo de 70 ya es un diagnóstico.",
+        "igual": "Entraste sin darle mucha importancia a lo que mide un CI."
+      },
+      "hice": {
+        "basta": "Cuando te tocó decidir, dijiste que la cifra bastaba.",
+        "falta": "Cuando te tocó decidir, dijiste que faltaba ver su día a día.",
+        "tiempo": "Cuando te tocó decidir, preferiste no responder todavía."
+      },
+      "ahora": "Ahora sabes que un CI aislado no es un diagnóstico, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "tourette"
+    },
+    "saber_mas": "**Etiqueta:** discapacidad intelectual. **Uso de hoy:** D, diagnosticar. Criterios claros, evaluación diferencial y validación para esa población y esa finalidad. **Veredicto de la ficha:** mito. **Obra que la fija:** DSM-5 (2013), que sustituye «retraso mental» y gradúa la gravedad por el funcionamiento adaptativo. **Figura:** Alfred Binet. **Se conecta con:** certificado de discapacidad, modelo social y autismo profundo. **Fuentes de la ficha:** APA, cambios del DSM-IV-TR al DSM-5 (2013); AAIDD, criterios de definición; INAP, reforma del artículo 49 de la Constitución (2024)."
+  },
+  {
+    "id": "tourette",
+    "palabra": "Tourette y tics",
+    "resumen": "La mayoría de las personas con Tourette no dice tacos: parpadea o carraspea.",
+    "termino": "tourette",
+    "etiqueta": "tourette",
+    "uso": "E",
+    "riesgo": false,
+    "historia_humana": "Ainhoa parpadea, mueve los hombros y carraspea desde pequeña, y sus tics empeoran cuando está cansada. Hace los exámenes en un aula aparte para estar tranquila y no preocuparse por molestar. Tiene varios tics motores y uno vocal desde hace años. A eso se le llama síndrome de Tourette.",
+    "corto": {
+      "pregunta": "¿Tener Tourette es decir tacos sin parar?",
+      "accion": "Si ves a alguien con tics, sigue como si nada: no lo mires dos veces ni le pidas que pare."
+    },
+    "choque": {
+      "frase": "«Tener Tourette es decir tacos sin parar.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "En clase, Pablo parpadea y carraspea a menudo. Un compañero se queja. Eres quien da la clase: ¿qué haces?",
+      "opciones": [
+        {
+          "id": "rino",
+          "t": "Le pido a Pablo que lo controle"
+        },
+        {
+          "id": "sigo",
+          "t": "Sigo la clase sin reñirle"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "En una base internacional de 597 pacientes con Tourette, la **coprolalia**, decir palabras malsonantes sin querer, apareció a lo largo de la vida solo en el 19 % de los varones y el 15 % de las mujeres.",
+      "fuente": "Freeman, R. D. et al. (2009). Coprophenomena in Tourette syndrome. Developmental Medicine and Child Neurology, 51(3)",
+      "url": "https://doi.org/10.1111/j.1469-8749.2008.03135.x",
+      "busca": "**Para educar**, la prueba es si el apoyo ayuda de verdad: explicar, no castigar y no pedir que «lo controle» cuesta casi nada. Contener un tic cuesta esfuerzo y no lo hace desaparecer.",
+      "saltos": [
+        {
+          "t": "Tourette es decir tacos",
+          "p": "La mayoría no tiene coprolalia. Los tics más comunes son parpadeos, muecas, carraspeos o sonidos simples."
+        },
+        {
+          "t": "Si quisiera, lo controlaría",
+          "p": "Contener los tics cuesta esfuerzo y no los hace desaparecer. Además, suelen empeorar con el estrés o el cansancio."
+        },
+        {
+          "t": "No salté: seguí sin reñirle",
+          "p": "Bien visto. Para muchas personas con tics, el principal problema no son los tics, sino las miradas."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿Cuántos casos reunió Georges Gilles de la Tourette en su estudio de 1885?",
+          "o": [
+            "Uno",
+            "Nueve",
+            "Cien"
+          ],
+          "ok": 1,
+          "por": "Entre ellos estaba la marquesa de Dampierre, descrita por Itard en 1825. Charcot dio a la enfermedad el nombre de su discípulo."
+        },
+        {
+          "p": "¿Qué exige el síndrome de Tourette?",
+          "o": [
+            "Varios tics motores y al menos uno vocal durante más de un año, desde antes de los 18",
+            "Decir palabrotas",
+            "Un solo tic durante una semana"
+          ],
+          "ok": 0,
+          "por": "Los tics suelen fluctuar, empeorar con el estrés o el cansancio y, a menudo, atenuarse al final de la adolescencia."
+        },
+        {
+          "p": "Durante la pandemia se difundieron en redes vídeos de «Tourette». ¿Qué reto plantean?",
+          "o": [
+            "Que el Tourette se contagia",
+            "Ninguno",
+            "Distinguir el Tourette de los tics funcionales de aparición brusca"
+          ],
+          "ok": 2,
+          "por": "Los tics funcionales piden otro abordaje. El reto es distinguirlos sin poner en duda a quien tiene tics desde la infancia."
+        }
+      ],
+      "sabias": "Durante buena parte del siglo XX, los tics se interpretaron a menudo en clave psicológica. Los estudios con fármacos y con familias los devolvieron al terreno neurológico, con un fuerte componente hereditario."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Escuchar en primera persona",
+          "t": "Busca un relato en primera persona de alguien con Tourette, en un libro, una entrevista o una charla, y anota qué le ayuda y qué le molesta de los demás.",
+          "historia": "anotar qué le ayuda y qué le molesta a alguien con Tourette, contado por esa persona"
+        },
+        {
+          "corta": "No mirar dos veces",
+          "t": "Si ves a alguien con tics, sigue como si nada: no lo mires dos veces ni le pidas que pare.",
+          "historia": "seguir como si nada cuando veas a alguien con tics"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa qué te contó ese relato o cómo te salió seguir como si nada."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no te parecía que Tourette fuera eso.",
+        "convence": "Entraste pensando que tener Tourette es decir tacos sin parar.",
+        "igual": "Entraste sin darle mucha importancia a los tics."
+      },
+      "hice": {
+        "rino": "Cuando te tocó decidir, le pediste que lo controlara.",
+        "sigo": "Cuando te tocó decidir, seguiste la clase sin reñirle.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que la mayoría de los tics son parpadeos o carraspeos y que lo que más pesa son las miradas, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "tdc"
+    },
+    "saber_mas": "**Etiqueta:** Tourette y tics. **Uso de hoy:** E, educar. El apoyo tiene que ser útil, proporcionado y revisable; muchas veces basta con describir la necesidad. **Veredicto de la ficha:** mito. **Obra que lo fija:** Gilles de la Tourette (1885), estudio de nueve casos. **Dónde se clasifica:** el DSM-5 lo pone en el neurodesarrollo; la CIE-11, en el sistema nervioso, con un listado cruzado. **Figuras:** Georges Gilles de la Tourette, Jean-Martin Charcot y Jean-Marc Gaspard Itard. **Se conecta con:** estigma, TDAH y coexistencia. **Fuentes de la ficha:** Teive y otros (2008); Freeman y otros (2009); Frey, Black y Malaty (2022)."
+  },
+  {
+    "id": "tdc",
+    "palabra": "TDC (dispraxia)",
+    "resumen": "Ser patoso a veces es normal; cuando persiste y estorba, tiene nombre.",
+    "termino": "tdc",
+    "etiqueta": "tdc",
+    "uso": "D",
+    "riesgo": true,
+    "historia_humana": "Nico está en 4.º de ESO y escribir a mano le agota y le ralentiza. Desde pequeño le costó abrocharse, montar en bici y atrapar una pelota. Ahora hace los exámenes escritos con ordenador. A eso se le llama trastorno del desarrollo de la coordinación.",
+    "corto": {
+      "pregunta": "¿Toda torpeza se pasa con la edad?",
+      "accion": "Si ayudas a alguien con algo manual, divídelo en pasos y valora el avance, no solo el resultado."
+    },
+    "choque": {
+      "frase": "«Es patoso, ya se le pasará.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Tu hermano Leo, de siete años, tarda muchísimo en vestirse, evita la pelota y su letra casi no se lee. En casa dicen «es patoso». Tómate tu tiempo. ¿Propones consultarlo con la pediatra?",
+      "opciones": [
+        {
+          "id": "consulto",
+          "t": "Propongo consultarlo"
+        },
+        {
+          "id": "espero",
+          "t": "Espero: ya se le pasará"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "Las recomendaciones internacionales de 2019 aconsejan **evaluar** el TDC y ofrecer intervención. Fueron las primeras en incluir a adolescentes y adultos: la dificultad puede continuar en la vida adulta.",
+      "fuente": "Blank, R. et al. (2019). International clinical practice recommendations on the definition, diagnosis, assessment, intervention, and psychosocial aspects of developmental coordination disorder. Developmental Medicine and Child Neurology, 61(3)",
+      "url": "https://doi.org/10.1111/dmcn.14132",
+      "busca": "**Para diagnosticar** hay que distinguir el TDC de la torpeza normal y de otras condiciones: criterios claros y una evaluación que descarte otras causas. «Es patoso» no es una evaluación.",
+      "saltos": [
+        {
+          "t": "Es torpe, se le pasará",
+          "p": "La torpeza ocasional es normal y muchos niños mejoran con práctica. En el TDC la dificultad persiste e interfiere en la vida diaria."
+        },
+        {
+          "t": "Es solo una nota baja en educación física",
+          "p": "Sus efectos alcanzan la escritura, la autonomía, el deporte, la autoestima y la participación social."
+        },
+        {
+          "t": "No salté: pregunté a quien sabe",
+          "p": "Bien visto. Consultar no es poner una etiqueta: es dejar que alguien con criterios mire el conjunto."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "Antes de su nombre actual, ¿cómo se llamó al TDC, entre otras cosas?",
+          "o": [
+            "«Síndrome del niño torpe»",
+            "«Síndrome del niño vago»",
+            "«Ceguera motora»"
+          ],
+          "ok": 0,
+          "por": "Convivieron muchos nombres, como dispraxia del desarrollo o disfunción perceptivo-motora, cada uno con su escuela."
+        },
+        {
+          "p": "¿Dónde se acordó, en 1994, usar «trastorno del desarrollo de la coordinación» como nombre común?",
+          "o": [
+            "En Viena",
+            "En Madrid",
+            "En London (Ontario, Canadá)"
+          ],
+          "ok": 2,
+          "por": "Lo acordó un panel internacional. Ese consenso dio legitimidad al problema como cuestión de salud, y no solo de «falta de maña»."
+        },
+        {
+          "p": "¿A cuántos escolares se calcula que afecta el TDC?",
+          "o": [
+            "Al 0,1 %",
+            "Al 5-6 %, con más chicos que chicas",
+            "A la mitad"
+          ],
+          "ok": 1,
+          "por": "Es frecuente, pero poco conocido fuera de la terapia ocupacional y la fisioterapia."
+        }
+      ],
+      "sabias": "El nombre «dispraxia», muy usado en el Reino Unido, convive con TDC. Por eso conviene aclarar a qué se refiere cada informe."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Mirar el parque",
+          "t": "Observa en un parque cómo varía la coordinación entre niños de la misma edad y piensa qué ajustes harían falta para que todos pudieran jugar.",
+          "historia": "pensar qué ajustes harían falta para que todos los niños de un parque pudieran jugar"
+        },
+        {
+          "corta": "Dividir en pasos",
+          "t": "La próxima vez que alguien te pida ayuda con algo manual, divídelo en pasos y celebra el avance, no solo el resultado.",
+          "historia": "dividir en pasos una tarea manual y celebrar el avance"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa qué ajustes se te ocurrieron o cómo fue dividir en pasos."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: «es patoso» no te parecía una respuesta.",
+        "convence": "Entraste pensando que ser patoso se pasa con el tiempo.",
+        "igual": "Entraste sin darle mucha importancia a la torpeza."
+      },
+      "hice": {
+        "consulto": "Cuando te tocó decidir, propusiste consultarlo.",
+        "espero": "Cuando te tocó decidir, preferiste esperar.",
+        "tiempo": "Cuando te tocó decidir, lo dejaste para más tarde."
+      },
+      "ahora": "Ahora sabes que hay torpezas que no se pasan solas y que piden una evaluación con criterios, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "discalculia"
+    },
+    "saber_mas": "**Etiqueta:** TDC (dispraxia). **Uso de hoy:** D, diagnosticar. Criterios claros, evaluación diferencial y validación para esa población y esa finalidad. **Veredicto de la ficha:** matiz. **Obra que lo fija:** consenso internacional de London, Ontario (1994); recomendaciones europeas de 2012 y 2019. **Figuras:** Helene Polatajko, Rainer Blank y Amanda Kirby. **Se conecta con:** coexistencia, TDAH, dislexia y adaptaciones curriculares. **Fuentes de la ficha:** Blank y otros (2019); CanChild, Universidad McMaster; SAGE Encyclopedia (2017)."
+  },
+  {
+    "id": "discalculia",
+    "palabra": "Discalculia",
+    "resumen": "Hay una dificultad con los números que no depende del esfuerzo.",
+    "termino": "discalculia",
+    "etiqueta": "discalculia",
+    "uso": "E",
+    "riesgo": false,
+    "historia_humana": "Marta evita repartir la cuenta en las cenas y se agobia con los horarios y los porcentajes. De pequeña seguía contando con los dedos cuando los demás ya no, aunque se esforzaba. Ahora sabe que lo que le pasa con los números tiene nombre. A eso se le llama discalculia.",
+    "corto": {
+      "pregunta": "¿A quien le cuestan mucho los números es que no se esfuerza?",
+      "accion": "Pregunta a alguien cómo calcula una propina y fíjate en cuántas estrategias distintas hay."
+    },
+    "choque": {
+      "frase": "«Es que no es de ciencias.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Dani, de 4.º, sigue contando con los dedos para sumar 7 + 5. Dicen que «no es de ciencias». ¿Qué haces?",
+      "opciones": [
+        {
+          "id": "dejo",
+          "t": "Lo dejo estar"
+        },
+        {
+          "id": "recta",
+          "t": "Pruebo con una recta numérica"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "En 1996, un estudio con 3.029 escolares israelíes encontró **discalculia** en el 6,5 %, una cifra parecida a la de la dislexia. Y afectaba a chicos y chicas en proporciones parecidas.",
+      "fuente": "Gross-Tsur, V., Manor, O. y Shalev, R. S. (1996). Developmental dyscalculia: prevalence and demographic features. Developmental Medicine and Child Neurology, 38(1)",
+      "url": "https://doi.org/10.1111/j.1469-8749.1996.tb15029.x",
+      "busca": "**Para educar**, la prueba es un apoyo útil y revisable: dar sentido a la cantidad antes de memorizar. Discalculia, ansiedad matemática y enseñanza deficiente piden respuestas distintas.",
+      "saltos": [
+        {
+          "t": "No es de ciencias: no se esfuerza",
+          "p": "Existe una dificultad específica y persistente con los números que no depende del esfuerzo. Confundirla con falta de interés retrasa el apoyo."
+        },
+        {
+          "t": "Suspende mates: tiene discalculia",
+          "p": "Tomar cualquier suspenso por discalculia también es un error. Puede ser ansiedad matemática o una enseñanza que no llegó."
+        },
+        {
+          "t": "No salté: probé con material",
+          "p": "Bien visto. Las rectas numéricas y el material manipulativo ayudan a que la cantidad tenga sentido, con informe o sin él."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿Cómo se llamaron las dificultades con los números descritas primero en adultos con lesiones cerebrales?",
+          "o": [
+            "Acalculia",
+            "Dislexia",
+            "Discalculia"
+          ],
+          "ok": 0,
+          "por": "En 1974, Ladislav Kosc propuso hablar de «discalculia del desarrollo», presente desde la infancia y distinta del simple bajo rendimiento."
+        },
+        {
+          "p": "Según una explicación, ¿por qué la discalculia ha quedado a la sombra de la dislexia?",
+          "o": [
+            "Porque es muy rara",
+            "Porque solo afecta a chicos",
+            "Porque está bien visto decir «soy de letras»"
+          ],
+          "ok": 2,
+          "por": "Decimos sin apuro «soy malísimo con los números», y casi nadie dice «soy malísimo leyendo»."
+        },
+        {
+          "p": "¿Qué hipótesis propusieron la psicología cognitiva y la neuroimagen?",
+          "o": [
+            "Que es pereza",
+            "Una dificultad de base para captar cuántos elementos tiene un conjunto",
+            "Un problema de vista"
+          ],
+          "ok": 1,
+          "por": "Esa dificultad con la numerosidad repercutiría en toda la aritmética escolar. Se sigue discutiendo si hay una ruta o varias."
+        }
+      ],
+      "sabias": "La discalculia entra en los «trastornos de aprendizaje» que la LOMLOE incluye entre las necesidades de apoyo educativo, pero se identifica mucho menos que la dislexia."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Preguntar estrategias",
+          "t": "Pregunta a alguien de tu entorno cómo calcula una propina o un descuento, y fíjate en cuántas estrategias distintas hay para el mismo problema.",
+          "historia": "preguntar cómo calcula alguien una propina y contar cuántas estrategias distintas hay"
+        },
+        {
+          "corta": "Cambiar la frase",
+          "t": "La próxima vez que oigas «no es de ciencias», pregunta qué le cuesta exactamente y qué apoyo se ha probado.",
+          "historia": "preguntar qué le cuesta exactamente a alguien cuando oigas que no es de ciencias"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa cuántas estrategias encontraste o qué te respondieron."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: «no es de ciencias» te sonaba a excusa.",
+        "convence": "Entraste pensando que, si cuestan los números, es que no se es de ciencias.",
+        "igual": "Entraste sin darle mucha importancia a las matemáticas."
+      },
+      "hice": {
+        "dejo": "Cuando te tocó decidir, lo dejaste estar.",
+        "recta": "Cuando te tocó decidir, probaste con una recta numérica.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que hay una dificultad con los números que no depende del esfuerzo, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "camuflaje"
+    },
+    "saber_mas": "**Etiqueta:** discalculia. **Uso de hoy:** E, educar. El apoyo tiene que ser útil, proporcionado y revisable; muchas veces basta con describir la necesidad. **Veredicto de la ficha:** matiz. **Obra que la fija:** Ladislav Kosc, «Developmental dyscalculia» (1974). **En el DSM-5:** trastorno específico del aprendizaje con dificultad matemática. **Figuras:** Ladislav Kosc y Brian Butterworth. **Se conecta con:** dislexia, umbral y coexistencia. **Fuentes de la ficha:** Butterworth, Varma y Laurillard (2011), *Science*; Gross-Tsur, Manor y Shalev (1996); Santos y otros (2022)."
+  },
+  {
+    "id": "camuflaje",
+    "palabra": "Camuflaje social",
+    "resumen": "«No lo parece» no descarta nada, y «lo camufla» no prueba nada.",
+    "termino": "camuflaje",
+    "etiqueta": "autismo",
+    "uso": "D",
+    "riesgo": true,
+    "historia_humana": "Javier ensaya mentalmente las conversaciones de la reunión semanal y prepara frases hechas para la pausa del café. Nadie nota nada, pero llega a casa agotado. Es autista y se esfuerza cada día por parecer como los demás. A eso se le llama camuflaje social.",
+    "corto": {
+      "pregunta": "Si alguien no parece autista en una charla corta, ¿quiere decir que no lo es?",
+      "accion": "Pregunta a alguien cercano cómo se siente después de una fiesta o del recreo, no solo durante."
+    },
+    "choque": {
+      "frase": "«Las mujeres autistas camuflan, por eso no se las diagnostica.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Tu amiga Clara cree que es autista. Tras una cita breve, le dicen que «no lo parece». Piénsalo con calma. ¿Qué le dices?",
+      "opciones": [
+        {
+          "id": "descarta",
+          "t": "Que entonces no lo es"
+        },
+        {
+          "id": "esfuerzo",
+          "t": "Que cuente lo que le cuesta encajar"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "En 2017, Laura Hull y su equipo recogieron los relatos de 92 adultos autistas y propusieron un modelo del **camuflaje** en tres fases: motivos, técnicas y consecuencias.",
+      "fuente": "Hull, L. et al. (2017). «Putting on my best normal»: social camouflaging in adults with autism spectrum conditions. Journal of Autism and Developmental Disorders, 47(8), 2519-2534",
+      "url": "https://doi.org/10.1007/s10803-017-3166-5",
+      "busca": "**Para diagnosticar**, ni «no lo parece» descarta nada ni «lo camufla» prueba nada. Hacen falta criterios claros y preguntar por el esfuerzo y su coste, no solo por lo que se ve.",
+      "saltos": [
+        {
+          "t": "No lo parece, así que no lo es",
+          "p": "Que alguien no lo parezca en una entrevista breve o en clase no descarta dificultades. Es el riesgo del falso negativo."
+        },
+        {
+          "t": "Si no lo parece, es que lo camufla",
+          "p": "Con ese argumento, ningún dato podría contradecir el diagnóstico. Es el riesgo del falso positivo."
+        },
+        {
+          "t": "No salté: pregunté por el esfuerzo",
+          "p": "Bien visto. Preguntar cuánto cuesta encajar, y no solo lo que se ve, ayuda sin convertir el camuflaje en prueba automática."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿Qué cuestionario de 25 ítems se publicó en 2019 para medir el camuflaje?",
+          "o": [
+            "El DSM-5",
+            "Un test de CI",
+            "El CAT-Q"
+          ],
+          "ok": 2,
+          "por": "Lo publicaron Hull y sus colegas. Los cuestionarios dependen de lo que cada persona cuenta de sí misma, y eso también se discute."
+        },
+        {
+          "p": "¿Cómo midieron el camuflaje Meng-Chuan Lai y su equipo en 2017?",
+          "o": [
+            "Como la distancia entre lo que se ve en una evaluación y los rasgos medidos por otras vías",
+            "Con un escáner",
+            "Preguntando al profesorado"
+          ],
+          "ok": 0,
+          "por": "Con esa medida, las mujeres puntuaron de media bastante más que los hombres, aunque con mucha variación en ambos grupos."
+        },
+        {
+          "p": "De media, las mujeres autistas camuflan más. ¿Qué dice eso de una mujer concreta?",
+          "o": [
+            "Que camufla seguro",
+            "Nada por sí solo: hay mucha variación",
+            "Que no es autista"
+          ],
+          "ok": 1,
+          "por": "El salto va del grupo al individuo. Hay mucha variación, y también hombres que camuflan."
+        }
+      ],
+      "sabias": "Antes de que lo estudiara la investigación, el camuflaje se describió en relatos autobiográficos, sobre todo de mujeres diagnosticadas de adultas: copiar gestos, preparar guiones, ocultar intereses."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Preguntar por el después",
+          "t": "Si eres docente o familiar, pregunta esta semana a un chico o una chica cómo se siente después del recreo o de una fiesta, no solo durante.",
+          "historia": "preguntar a alguien cómo se siente después del recreo o de una fiesta, no solo durante"
+        },
+        {
+          "corta": "Pedir el dato que falta",
+          "t": "Si un vídeo dice «si no lo parece, es que lo camufla», pregúntate qué dato podría demostrar lo contrario.",
+          "historia": "preguntarte qué dato podría demostrar lo contrario cuando un vídeo lo explique todo con el camuflaje"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa qué te contaron del después o qué dato echaste en falta."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no te parecía tan sencillo.",
+        "convence": "Entraste pensando que a las mujeres autistas no se las diagnostica porque camuflan.",
+        "igual": "Entraste sin darle mucha importancia al camuflaje."
+      },
+      "hice": {
+        "descarta": "Cuando te tocó decidir, le dijiste que entonces no lo era.",
+        "esfuerzo": "Cuando te tocó decidir, la animaste a contar lo que le cuesta encajar.",
+        "tiempo": "Cuando te tocó decidir, preferiste pensarlo más."
+      },
+      "ahora": "Ahora sabes que «no lo parece» no descarta nada y que «lo camufla» no prueba nada, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "lomloe"
+    },
+    "saber_mas": "**Etiqueta:** autismo. **Término:** camuflaje social (*masking*). **Uso de hoy:** D, diagnosticar. Criterios claros, evaluación diferencial y validación para esa población y esa finalidad. **Veredicto de la ficha:** matiz. **Obra que lo fija:** Hull y otros, «Putting on my best normal» (2017). **Figuras:** Laura Hull, Meng-Chuan Lai y William Mandy. **Se conecta con:** autismo, brecha de género e infradiagnóstico. **Fuentes de la ficha:** Hull y otros (2017); Lai y otros (2017); Fombonne (2020)."
+  },
+  {
+    "id": "lomloe",
+    "palabra": "LOMLOE",
+    "resumen": "La LOMLOE no cierra la educación especial; el debate real es de recursos.",
+    "termino": "lomloe",
+    "etiqueta": "tdl",
+    "uso": "A",
+    "riesgo": false,
+    "historia_humana": "La orientadora de Inés, que tiene un trastorno del desarrollo del lenguaje, escribe su informe con la definición vigente: describe las barreras que encuentra en clase para entender y participar, no solo su diagnóstico. Esa definición sale de la ley educativa de 2020. A eso se le llama LOMLOE.",
+    "corto": {
+      "pregunta": "¿La Ley Celaá cierra los centros de educación especial?",
+      "accion": "Lee la disposición adicional cuarta de la LOMLOE en el BOE y compárala con lo que has oído."
+    },
+    "choque": {
+      "frase": "«La Ley Celaá cierra los centros de educación especial.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Te llega un audio: «La Ley Celaá cierra los centros de educación especial». ¿Se lo reenvías a una familia preocupada?",
+      "opciones": [
+        {
+          "id": "reenvio",
+          "t": "Se lo reenvío"
+        },
+        {
+          "id": "leo",
+          "t": "Antes leo la ley"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "La disposición adicional cuarta de la LOMLOE pide un plan para que, en diez años, los centros ordinarios tengan recursos para el alumnado con discapacidad. Y **mantiene** los centros de educación especial.",
+      "fuente": "Jefatura del Estado (2020). Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación. Boletín Oficial del Estado, 340",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-17264",
+      "busca": "**Para acceder** a un centro o a un apoyo, la prueba es una regla clara y una vía para revisarla. Aquí la regla está escrita: basta con leerla antes de asustarse o de prometer.",
+      "saltos": [
+        {
+          "t": "Si hay tanto ruido, algo cerrarán",
+          "p": "El texto prevé que esos centros sigan escolarizando a quien requiera atención muy especializada y actúen como centros de referencia y apoyo."
+        },
+        {
+          "t": "Si la ley lo dice, la inclusión ya está hecha",
+          "p": "Una ley fija objetivos, pero su aplicación depende de presupuestos y de las comunidades. El CERMI criticó que el plan no tuviera partida propia."
+        },
+        {
+          "t": "No salté: leí la disposición",
+          "p": "Bien visto. La disposición adicional cuarta ocupa pocas líneas. Leerla cuesta menos que reenviar el audio."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿Qué hace la LOMLOE con la LOE de 2006?",
+          "o": [
+            "La deroga entera",
+            "La modifica",
+            "No tiene relación con ella"
+          ],
+          "ok": 1,
+          "por": "No la sustituye: la ley vigente sigue siendo la Ley Orgánica 2/2006, de Educación, con los cambios de finales de 2020."
+        },
+        {
+          "p": "¿Cómo define la LOMLOE las necesidades educativas especiales?",
+          "o": [
+            "Por las barreras de acceso y participación",
+            "Solo por el diagnóstico",
+            "Por el CI"
+          ],
+          "ok": 0,
+          "por": "Es un lenguaje cercano al modelo social: un informe describe las barreras, no solo el diagnóstico."
+        },
+        {
+          "p": "¿Qué incluyó la LOMLOE, en su artículo 71, entre las necesidades específicas de apoyo educativo?",
+          "o": [
+            "Nada nuevo",
+            "Solo las altas capacidades",
+            "Los trastornos de atención o de aprendizaje y la vulnerabilidad socioeducativa"
+          ],
+          "ok": 2,
+          "por": "Se suman a las necesidades especiales y las altas capacidades. La ley nombra también los trastornos del desarrollo del lenguaje y la comunicación."
+        }
+      ],
+      "sabias": "España ha cambiado varias veces de ley educativa general desde la Transición, casi siempre al compás de los cambios de Gobierno. La LOMLOE se tramitó en plena pandemia."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Leer la disposición",
+          "t": "Abre la LOMLOE en el BOE y lee su disposición adicional cuarta, que ocupa pocas líneas. Compárala con lo que has oído decir sobre ella.",
+          "historia": "leer la disposición adicional cuarta de la LOMLOE y compararla con lo que se dice"
+        },
+        {
+          "corta": "Preguntar por los recursos",
+          "t": "Si oyes que una ley ya garantiza la inclusión, pregunta con qué recursos y quién lo comprobará.",
+          "historia": "preguntar con qué recursos se cumple una ley cuando oigas que ya lo garantiza todo"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa qué decía de verdad la disposición o qué te respondieron."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no te creías que cerraran esos centros.",
+        "convence": "Entraste pensando que la Ley Celaá cierra los centros de educación especial.",
+        "igual": "Entraste sin darle mucha importancia a las leyes educativas."
+      },
+      "hice": {
+        "reenvio": "Cuando te tocó decidir, reenviaste el audio.",
+        "leo": "Cuando te tocó decidir, fuiste antes a leer la ley.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que la ley mantiene esos centros y que el debate real es de recursos, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "coexistencia"
+    },
+    "saber_mas": "**Etiqueta:** TDL; la ley nombra los trastornos del desarrollo del lenguaje y la comunicación. **Término:** LOMLOE. **Uso de hoy:** A, acceder. Hacen falta reglas de elegibilidad claras, razones para repartir así y una vía para revisar las decisiones. **Veredicto de la ficha:** mito. **Obra:** Ley Orgánica 3/2020, de 29 de diciembre, que modifica la LOE. **Figura:** Isabel Celaá. **Se conecta con:** apoyo educativo, Diseño universal de aprendizaje y educación inclusiva. **Fuentes de la ficha:** BOE, Ley Orgánica 3/2020; Maldita.es, qué dice la ley sobre la educación especial (2020)."
+  },
+  {
+    "id": "coexistencia",
+    "palabra": "Coexistencia",
+    "resumen": "Dos condiciones juntas no son una suma ni una entidad nueva.",
+    "termino": "coexistencia",
+    "etiqueta": "trastornos-neurodesarrollo",
+    "uso": "I",
+    "riesgo": false,
+    "historia_humana": "La familia de Leire prefiere decir «es autista y tiene TDAH» a «tiene comorbilidades». En su informe, las dos condiciones aparecen juntas, y la orientadora mira qué necesita Leire y qué explica cada una, sin sumarlas sin más. A eso se le llama coexistencia.",
+    "corto": {
+      "pregunta": "¿Tener dos diagnósticos a la vez es tener el doble de problemas?",
+      "accion": "Fíjate hoy en qué palabras se usan para hablar de varios diagnósticos a la vez y anótalas."
+    },
+    "choque": {
+      "frase": "«Tener dos diagnósticos es tener el doble de problemas.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Un estudio ve que la dislexia y el TDAH aparecen juntos a menudo. El titular dice: «Son lo mismo». ¿Lo compartes?",
+      "opciones": [
+        {
+          "id": "comparto",
+          "t": "Lo comparto"
+        },
+        {
+          "id": "miro",
+          "t": "Primero miro qué se comparó"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "En 2001, el equipo de Bonnie Kaplan evaluó con criterios rigurosos a 179 escolares para siete trastornos del desarrollo. **La mitad** cumplía criterios de al menos dos.",
+      "fuente": "Kaplan, B. J., Dewey, D. M., Crawford, S. G. y Wilson, B. N. (2001). The term comorbidity is of questionable value in reference to developmental disorders: data and theory. Journal of Learning Disabilities, 34(6), 555-565",
+      "url": "https://doi.org/10.1177/002221940103400608",
+      "busca": "**Para investigar**, que dos condiciones aparezcan juntas es un dato. Afirmar que interactúan o que son una entidad nueva pide más: comparadores adecuados, idealmente cuatro grupos.",
+      "saltos": [
+        {
+          "t": "Aparecen juntas: son lo mismo",
+          "p": "El salto va de la coexistencia a una entidad nueva. Que dos cosas aparezcan juntas no prueba que formen una tercera."
+        },
+        {
+          "t": "Dos diagnósticos, el doble de problemas",
+          "p": "Coexistir no equivale a sumar: las dificultades pueden solaparse o interactuar de formas distintas."
+        },
+        {
+          "t": "No salté: miré qué se comparó",
+          "p": "Bien visto. Para afirmar que interactúan hacen falta cuatro grupos: ninguna condición, una, la otra y ambas. Dos grupos no bastan."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "Según Kaplan y su equipo, ¿qué presupone la palabra «comorbilidad»?",
+          "o": [
+            "Que las condiciones tienen causas independientes",
+            "Que no existen",
+            "Que una cura la otra"
+          ],
+          "ok": 0,
+          "por": "Por eso propusieron otra mirada: quizá las categorías separadas no existen así en la vida real."
+        },
+        {
+          "p": "En autismo, un metaanálisis de 2019 estimó un 28 % de un diagnóstico coocurrente. ¿Cuál?",
+          "o": [
+            "Dislexia",
+            "TDAH",
+            "Discalculia"
+          ],
+          "ok": 1,
+          "por": "Estimó también un 20 % de ansiedad y un 11 % de depresión. Son cifras de grupo, no de cada persona."
+        },
+        {
+          "p": "Ante un niño con dislexia y TDAH, ¿cuál es la pregunta útil?",
+          "o": [
+            "Cuántos diagnósticos tiene",
+            "Cuál es el de verdad",
+            "Qué necesita y qué parte de sus dificultades explica cada uno"
+          ],
+          "ok": 2,
+          "por": "Reconocer que coexisten evita que una lo explique todo y tape la otra."
+        }
+      ],
+      "sabias": "Desde 2001, la literatura alterna «comorbilidad» con «coocurrencia» y «condiciones coexistentes». El proyecto del que nace NeuroLab adopta «coexistencia» como término de trabajo."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Escuchar las palabras",
+          "t": "Esta semana, fíjate en cómo se habla de varios diagnósticos a la vez en un programa, un aula o una consulta. Anota qué palabras se usan.",
+          "historia": "anotar qué palabras se usan para hablar de varios diagnósticos a la vez"
+        },
+        {
+          "corta": "Pedir los cuatro grupos",
+          "t": "Si lees que dos condiciones «interactúan», busca si el estudio comparó cuatro grupos: ninguna, una, la otra y ambas.",
+          "historia": "buscar si un estudio comparó cuatro grupos antes de creer que dos condiciones interactúan"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa qué palabras anotaste o qué grupos comparaba el estudio."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no te parecía una simple suma.",
+        "convence": "Entraste pensando que dos diagnósticos son el doble de problemas.",
+        "igual": "Entraste sin darle mucha importancia a tener más de un diagnóstico."
+      },
+      "hice": {
+        "comparto": "Cuando te tocó decidir, compartiste el titular.",
+        "miro": "Cuando te tocó decidir, paraste a mirar qué se había comparado.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que aparecer juntas no es sumarse ni fundirse, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "doble-excepcionalidad"
+    },
+    "saber_mas": "**Etiqueta:** trastornos del neurodesarrollo. **Término:** coexistencia, frente a comorbilidad. **Uso de hoy:** I, investigar. Fiabilidad y validez para describir y comparar grupos; no necesita acertar con cada persona. **Veredicto de la ficha:** matiz. **Obra que lo fija:** Kaplan, Dewey, Crawford y Wilson (2001). **Figura:** Bonnie J. Kaplan. **Cuatro preguntas distintas:** si coexisten, si interactúan, si forman una entidad nueva y si nombrarlas juntas ayuda. **Se conecta con:** comorbilidad, doble excepcionalidad y heterogeneidad. **Fuentes de la ficha:** Kaplan y otros (2001); Lai y otros (2019), *The Lancet Psychiatry*."
+  },
+  {
+    "id": "doble-excepcionalidad",
+    "palabra": "Doble excepcionalidad",
+    "resumen": "Se puede tener dislexia y altas capacidades a la vez.",
+    "termino": "doble-excepcionalidad",
+    "etiqueta": "altas-capacidades",
+    "uso": "E",
+    "riesgo": false,
+    "historia_humana": "Gonzalo usa palabras que sorprenden a sus profesores, pero lee muy despacio, y hay quien le llama vago. La evaluación muestra altas capacidades y dislexia a la vez: necesita retos y adaptaciones al mismo tiempo. A eso se le llama doble excepcionalidad.",
+    "corto": {
+      "pregunta": "¿Alguien con dislexia puede tener altas capacidades?",
+      "accion": "Revisa un informe escolar y comprueba si recoge fortalezas además de dificultades."
+    },
+    "choque": {
+      "frase": "«Si tiene dislexia, no puede tener altas capacidades.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Gonzalo tiene un vocabulario brillante, pero lee muy despacio. ¿Qué le ofreces: retos o apoyo con la lectura?",
+      "opciones": [
+        {
+          "id": "lectura",
+          "t": "Primero, apoyo con la lectura"
+        },
+        {
+          "id": "ambos",
+          "t": "Retos y apoyo a la vez"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "En 2014, Sally Reis, Susan Baum y Edith Burke propusieron una definición operativa de **doble excepcionalidad**: altas capacidades y una dificultad en la misma persona, con potencial, rendimiento, necesidades y servicios.",
+      "fuente": "Reis, S. M., Baum, S. M. y Burke, E. (2014). An operational definition of twice-exceptional learners: Implications and applications. Gifted Child Quarterly, 58(3), 217-230",
+      "url": "https://journals.sagepub.com/doi/10.1177/0016986214534976",
+      "busca": "**Para educar**, la prueba es un apoyo útil para las dos cosas: retos para la capacidad y ajustes para la dificultad. Nombrar la combinación sirve si ayuda a coordinarlos.",
+      "saltos": [
+        {
+          "t": "Si lee tan mal, no puede ser tan capaz",
+          "p": "Capacidad y dificultad pueden coexistir, y una puede tapar a la otra: la gran capacidad oculta la dislexia, o la dislexia oculta la capacidad."
+        },
+        {
+          "t": "Dos etiquetas forman una categoría nueva",
+          "p": "El salto va de la coexistencia a una entidad nueva. Sumar etiquetas no crea por sí solo una entidad ni derechos acumulables."
+        },
+        {
+          "t": "No salté: pedí las dos cosas",
+          "p": "Bien visto. Retos y adaptaciones a la vez, con un informe que recoja por separado la capacidad, la dificultad y las necesidades."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿En qué año aparece ya «twice-exceptional» en un artículo de James Gallagher?",
+          "o": [
+            "1988",
+            "1950",
+            "2020"
+          ],
+          "ok": 0,
+          "por": "En los años ochenta, la educación especial y la del alumnado dotado empezaron a fijarse en estudiantes que eran las dos cosas."
+        },
+        {
+          "p": "¿Qué recordó en 2015 la oficina federal de educación especial de EE. UU. a los estados?",
+          "o": [
+            "Que «2e» es un diagnóstico",
+            "Que una alta capacidad no excluye apoyos por discapacidad",
+            "Que hay que elegir una sola etiqueta"
+          ],
+          "ok": 1,
+          "por": "Lo tuvo que recordar por escrito, en el memorando OSEP 15-08."
+        },
+        {
+          "p": "En España, ¿cómo registra la escuela la doble excepcionalidad?",
+          "o": [
+            "Como categoría propia",
+            "Como diagnóstico clínico",
+            "Altas capacidades y, por separado, otras necesidades"
+          ],
+          "ok": 2,
+          "por": "No es una categoría propia, y algún registro autonómico anota solo la necesidad «dominante», lo que puede ocultar combinaciones."
+        }
+      ],
+      "sabias": "Después llegó el término «3e», con usos no siempre equivalentes: en algunos textos, la tercera excepcionalidad es cultural, no un diagnóstico más."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Buscar las fortalezas",
+          "t": "Si eres docente o familiar, revisa un informe escolar y comprueba si recoge fortalezas además de dificultades. Si no, pregunta por ellas.",
+          "historia": "comprobar si un informe escolar recoge fortalezas además de dificultades"
+        },
+        {
+          "corta": "Preguntar por las dos",
+          "t": "Si oyes «es listo, pero vago», pregunta qué le cuesta y qué se le da bien: las dos cosas.",
+          "historia": "preguntar qué le cuesta y qué se le da bien a alguien cuando oigas que es listo pero vago"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa si encontraste fortalezas en el informe o qué te contestaron."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no veías por qué no podían ir juntas.",
+        "convence": "Entraste pensando que con dislexia no se pueden tener altas capacidades.",
+        "igual": "Entraste sin darle mucha importancia a cómo se combinan capacidad y dificultad."
+      },
+      "hice": {
+        "lectura": "Cuando te tocó decidir, empezaste por la lectura.",
+        "ambos": "Cuando te tocó decidir, ofreciste retos y apoyo a la vez.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que capacidad y dificultad pueden ir juntas y taparse una a otra, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "certificado-discapacidad"
+    },
+    "saber_mas": "**Etiqueta:** altas capacidades. **Término:** doble excepcionalidad (2e). **Uso de hoy:** E, educar. El apoyo tiene que ser útil, proporcionado y revisable; muchas veces basta con describir la necesidad. **Veredicto de la ficha:** mito. **Obra que la fija:** Reis, Baum y Burke (2014). **No es:** un diagnóstico clínico ni, en España, una categoría administrativa propia. **Figuras:** Sally M. Reis, Susan M. Baum, Edith Burke y James J. Gallagher. **Se conecta con:** coexistencia y dislexia. **Fuentes de la ficha:** Reis, Baum y Burke (2014); OSEP Memo 15-08 (2015); Wikipedia, «Twice exceptional»."
+  },
+  {
+    "id": "certificado-discapacidad",
+    "palabra": "Certificado de discapacidad",
+    "resumen": "El certificado de discapacidad no lo da el diagnóstico: lo da una valoración.",
+    "termino": "certificado-discapacidad",
+    "etiqueta": "discapacidad-intelectual",
+    "uso": "A",
+    "riesgo": true,
+    "historia_humana": "La familia de Pol pide el certificado de discapacidad para él, que es autista. Pensaban que el diagnóstico bastaba, pero el equipo valora sus limitaciones, su participación y su entorno, y de ahí sale un porcentaje. A eso se le llama certificado de discapacidad.",
+    "corto": {
+      "pregunta": "¿Con un diagnóstico ya tienes el certificado de discapacidad?",
+      "accion": "Busca cuánto tarda en tu comunidad la valoración de discapacidad y qué documentos pide."
+    },
+    "choque": {
+      "frase": "«Si tienes un diagnóstico de autismo, ya tienes el certificado de discapacidad.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Raúl, de 19 años, tiene discapacidad intelectual y quiere entrar en un programa de empleo con apoyo. Su familia duda si pedir la valoración de discapacidad. Piénsalo con calma. ¿Qué le aconsejas?",
+      "opciones": [
+        {
+          "id": "pedir",
+          "t": "Pedir la valoración"
+        },
+        {
+          "id": "informe",
+          "t": "Llevar solo el informe médico"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "Desde abril de 2023, el grado de discapacidad sale de una **valoración** con baremos de deficiencias, actividad, participación y contexto. Un mismo diagnóstico puede dar grados muy distintos.",
+      "fuente": "Gobierno de España (2022). Real Decreto 888/2022, de 18 de octubre, procedimiento para el reconocimiento, declaración y calificación del grado de discapacidad. Boletín Oficial del Estado",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-17105",
+      "busca": "**Para acceder** a un derecho, la prueba es una regla clara, unas razones para repartir así y una vía para revisar. Aquí decide el baremo, no la etiqueta.",
+      "saltos": [
+        {
+          "t": "Con el diagnóstico ya está",
+          "p": "El salto va del grupo al individuo. Un mismo diagnóstico puede dar grados muy distintos, o no llegar al 33 %, según cómo afecte a cada persona."
+        },
+        {
+          "t": "Dependencia y discapacidad son lo mismo",
+          "p": "Son valoraciones distintas, con leyes y finalidades diferentes. La Ley 4/2026 crea una equivalencia práctica, no las iguala."
+        },
+        {
+          "t": "No salté: pregunté por la valoración",
+          "p": "Bien visto. El certificado no explica por qué alguien tiene dificultades: reconoce derechos tras valorar su situación."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿Desde qué grado tiene alguien la consideración legal de persona con discapacidad?",
+          "o": [
+            "10 %",
+            "33 %",
+            "50 %"
+          ],
+          "ok": 1,
+          "por": "Lo fija el texto refundido de 2013, que reúne la normativa española de discapacidad y la adapta a la Convención de la ONU."
+        },
+        {
+          "p": "¿Desde cuándo rige el baremo del Real Decreto 888/2022?",
+          "o": [
+            "Desde el 20 de abril de 2023",
+            "Desde 1999",
+            "Desde siempre"
+          ],
+          "ok": 0,
+          "por": "Sustituyó al de 1999, vigente más de dos décadas, y adoptó el modelo de la Clasificación Internacional del Funcionamiento de la OMS."
+        },
+        {
+          "p": "¿A qué asimila la Ley 4/2026 el grado I de dependencia?",
+          "o": [
+            "A nada",
+            "A un 65 % de discapacidad",
+            "A un 33 %, solo donde una norma lo prevea"
+          ],
+          "ok": 2,
+          "por": "Desde el 23 de octubre de 2026 y nunca en lo fiscal. Los grados II y III, a un 65 %. Es una equivalencia práctica, no una igualdad."
+        }
+      ],
+      "sabias": "El certificado se pensó como llave administrativa: abre derechos laborales, fiscales, educativos o de transporte. Por eso no hay que confundirlo con el diagnóstico, la necesidad educativa ni la dependencia."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Mirar el trámite",
+          "t": "Busca en la web de servicios sociales de tu comunidad cuánto tarda la valoración de discapacidad y qué documentación pide.",
+          "historia": "buscar cuánto tarda la valoración de discapacidad en tu comunidad"
+        },
+        {
+          "corta": "Separar tres palabras",
+          "t": "Si un titular mezcla diagnóstico, discapacidad y dependencia, escribe en una línea qué es cada cosa.",
+          "historia": "separar diagnóstico, discapacidad y dependencia cuando un titular las mezcle"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa cuánto tardaba la valoración o qué diferencias encontraste."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no te parecía tan automático.",
+        "convence": "Entraste pensando que con el diagnóstico ya tienes el certificado.",
+        "igual": "Entraste sin darle mucha importancia a los certificados."
+      },
+      "hice": {
+        "pedir": "Cuando te tocó decidir, aconsejaste pedir la valoración.",
+        "informe": "Cuando te tocó decidir, aconsejaste llevar solo el informe médico.",
+        "tiempo": "Cuando te tocó decidir, preferiste informarte antes."
+      },
+      "ahora": "Ahora sabes que el certificado lo decide una valoración y no la etiqueta, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "lorna-wing"
+    },
+    "saber_mas": "**Etiqueta:** discapacidad intelectual. **Término:** certificado de discapacidad. **Uso de hoy:** A, acceder. Reglas de elegibilidad claras, razones para repartir así y una vía para revisar las decisiones. **Veredicto de la ficha:** mito. **Obra:** Real Decreto 888/2022; el umbral del 33 % está en el Real Decreto Legislativo 1/2013, artículo 4.2. **No es:** un diagnóstico ni un informe clínico. **Se conecta con:** modelo social, umbral, autismo y TDAH. **Fuentes de la ficha:** BOE, Real Decreto 888/2022; BOE, Real Decreto Legislativo 1/2013; BOE, Ley 4/2026."
+  },
+  {
+    "id": "lorna-wing",
+    "palabra": "Lorna Wing",
+    "resumen": "Wing vio el autismo como los colores de la luz, no como una escala.",
+    "termino": "lorna-wing",
+    "etiqueta": "sindrome-asperger",
+    "uso": "I",
+    "riesgo": false,
+    "historia_humana": "En una formación, Pilar, profesora de primaria, oye que el autismo no va de «leve» a «grave»: es como los colores de la luz, perfiles que se funden entre sí. Lo propuso una psiquiatra británica en los años ochenta. A eso se le llama el espectro de Lorna Wing.",
+    "corto": {
+      "pregunta": "¿Tener algún rasgo autista quiere decir que todos somos un poco autistas?",
+      "accion": "Compara los dos dominios del autismo en el DSM-5 con la tríada de Wing."
+    },
+    "choque": {
+      "frase": "«Ahora todo el mundo es un poco autista.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Un estudio dice que los rasgos autistas están muy repartidos. Tu amigo concluye: «Todos somos un poco autistas». ¿Coincides?",
+      "opciones": [
+        {
+          "id": "si",
+          "t": "Sí: todos un poco"
+        },
+        {
+          "id": "no",
+          "t": "No: un rasgo no es un diagnóstico"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "En 1979, Lorna Wing y Judith Gould estudiaron a los niños de un distrito de Londres. Encontraron dificultades sociales que no encajaban en el autismo clásico, pero compartían muchos rasgos con él: la **tríada**.",
+      "fuente": "Wing, L. y Gould, J. (1979). Severe impairments of social interaction and associated abnormalities in children: epidemiology and classification. Journal of Autism and Developmental Disorders, 9(1), 11–29",
+      "url": "https://doi.org/10.1007/BF01531288",
+      "busca": "**Para investigar**, medir rasgos repartidos por toda la población sirve para describir grupos. Pero un dato de grupo no dice si una persona concreta es autista: eso pide otra prueba.",
+      "saltos": [
+        {
+          "t": "Rasgos repartidos: todos somos autistas",
+          "p": "Wing creía que los rasgos están muy repartidos, pero el diagnóstico exige dificultades persistentes con impacto real. Tener algún rasgo no es ser autista."
+        },
+        {
+          "t": "Hay más diagnósticos: es una epidemia",
+          "p": "El salto va del aumento de diagnósticos a «es una epidemia». Ampliar los criterios hizo visibles a personas que antes quedaban fuera."
+        },
+        {
+          "t": "No salté: separé grupo y persona",
+          "p": "Bien visto. Un dato de grupo describe la población; para una persona concreta hace falta otra prueba."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿Qué tres áreas reunía la «tríada» de Wing y Gould?",
+          "o": [
+            "Lectura, escritura y cálculo",
+            "Interacción, comunicación e imaginación social",
+            "Atención, memoria y movimiento"
+          ],
+          "ok": 1,
+          "por": "En 2013, el DSM-5 la redujo a dos dominios: comunicación social y patrones restringidos."
+        },
+        {
+          "p": "¿Con qué comparaba Wing el espectro autista?",
+          "o": [
+            "Con una escala de leve a grave",
+            "Con una escalera",
+            "Con el espectro de la luz"
+          ],
+          "ok": 2,
+          "por": "Muchos autismos que se funden entre sí, no una escala de leve a grave."
+        },
+        {
+          "p": "¿Qué entrevista diagnóstica creó Wing con Judith Gould?",
+          "o": [
+            "La DISCO",
+            "El test de CI",
+            "El CAT-Q"
+          ],
+          "ok": 0,
+          "por": "Se usa en clínica e investigación para recoger la historia del desarrollo de una persona."
+        }
+      ],
+      "sabias": "A Lorna Wing le gustaba repetir que «la naturaleza nunca traza una línea sin emborronarla»: los rasgos autistas no se reparten limpiamente entre quien los tiene y quien no."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Comparar tríada y DSM-5",
+          "t": "Lee los dos dominios del autismo en el DSM-5 y compáralos con la tríada de Wing. ¿Qué se fusionó y qué se añadió, como lo sensorial?",
+          "historia": "comparar los dos dominios del DSM-5 con la tríada de Wing"
+        },
+        {
+          "corta": "Separar rasgo y dificultad",
+          "t": "Si alguien dice «todos somos un poco autistas», pregunta qué diferencia hay entre tener un rasgo y tener dificultades que pesan cada día.",
+          "historia": "preguntar qué diferencia hay entre un rasgo y una dificultad que pesa cada día"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa qué se fusionó en el DSM-5 o qué te respondieron."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no todo el mundo te parecía autista.",
+        "convence": "Entraste pensando que ahora todo el mundo es un poco autista.",
+        "igual": "Entraste sin darle mucha importancia a dónde empieza el autismo."
+      },
+      "hice": {
+        "si": "Cuando te tocó decidir, le diste la razón.",
+        "no": "Cuando te tocó decidir, separaste rasgo y diagnóstico.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que los rasgos pueden estar repartidos sin que todos seamos autistas, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "evaluacion-psicopedagogica"
+    },
+    "saber_mas": "**Etiqueta:** síndrome de Asperger. **Término:** Lorna Wing. **Uso de hoy:** I, investigar. Fiabilidad y validez para describir y comparar grupos; no necesita acertar con cada persona. **Veredicto de la ficha:** matiz. **Obra:** «Asperger's syndrome: a clinical account» (1981), que popularizó el nombre; con Judith Gould, el estudio de Londres de 1979. **Figuras:** Lorna Wing, Judith Gould y John Wing. **Se conecta con:** autismo, síndrome de Asperger y prevalencia. **Fuentes de la ficha:** Wing (1981); Wing y Gould (1979); obituario en *Psychiatric Bulletin* (2015)."
+  },
+  {
+    "id": "evaluacion-psicopedagogica",
+    "palabra": "Evaluación psicopedagógica",
+    "resumen": "El informe del orientador orienta apoyos; no es un diagnóstico clínico.",
+    "termino": "evaluacion-psicopedagogica",
+    "etiqueta": "dislexia",
+    "uso": "E",
+    "riesgo": false,
+    "historia_humana": "La orientadora del instituto observa a Álex en clase, habla con su familia y con su tutor y le pasa algunas pruebas de lectura. Con todo eso propone un plan de apoyo, sin poner ningún diagnóstico médico. A eso se le llama evaluación psicopedagógica.",
+    "corto": {
+      "pregunta": "¿El informe del orientador es un diagnóstico?",
+      "accion": "Pregunta en tu centro quién hace la evaluación psicopedagógica y cuánto se tarda."
+    },
+    "choque": {
+      "frase": "«El informe del orientador es un diagnóstico.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "La familia de Álex trae al colegio un informe privado de dislexia. ¿El colegio debe aceptarlo tal cual?",
+      "opciones": [
+        {
+          "id": "acepta",
+          "t": "Sí, tal cual"
+        },
+        {
+          "id": "valora",
+          "t": "Lo tiene en cuenta y hace su valoración"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "Una orden de 1996 reguló la **evaluación psicopedagógica**: recoger y valorar información del alumno y de su contexto escolar y familiar para decidir apoyos. No es un diagnóstico clínico.",
+      "fuente": "Ministerio de Educación y Ciencia (1996). Orden de 14 de febrero de 1996 sobre el procedimiento para la evaluación psicopedagógica y el dictamen de escolarización. Boletín Oficial del Estado, 47",
+      "url": "https://www.boe.es/eli/es/o/1996/02/14/(3)",
+      "busca": "**Para educar**, la prueba es identificar necesidades en contexto y orientar apoyos útiles y revisables. Un informe clínico puede ayudar, pero educar no es diagnosticar: cada documento tiene su uso.",
+      "saltos": [
+        {
+          "t": "Lo dice el informe del cole: es un diagnóstico",
+          "p": "La evaluación psicopedagógica valora necesidades educativas en contexto. No confirma ni descarta un diagnóstico médico."
+        },
+        {
+          "t": "Con el informe privado no hace falta más",
+          "p": "El equipo lo tiene en cuenta, pero hace su propia valoración de las necesidades escolares. Son dos usos distintos."
+        },
+        {
+          "t": "No salté: pregunté para qué sirve cada uno",
+          "p": "Bien visto. El informe clínico y la evaluación escolar se complementan, pero responden a preguntas distintas."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿Quién hace la evaluación psicopedagógica?",
+          "o": [
+            "El pediatra",
+            "Los servicios de orientación educativa",
+            "La familia"
+          ],
+          "ok": 1,
+          "por": "Los equipos de orientación educativa y psicopedagógica y los departamentos de orientación. Pueden tener en cuenta informes sanitarios."
+        },
+        {
+          "p": "Según el Real Decreto 696/1995, ¿antes de qué medida es obligatoria?",
+          "o": [
+            "Antes de una adaptación curricular significativa",
+            "Antes de cualquier examen",
+            "Antes de cambiar de curso"
+          ],
+          "ok": 0,
+          "por": "El informe es la base de la medida, no un simple trámite."
+        },
+        {
+          "p": "¿Qué cambio de fondo buscaba la evaluación psicopedagógica?",
+          "o": [
+            "Clasificar mejor al niño",
+            "Hacer más rápidos los diagnósticos",
+            "Entender cómo interactúan el alumno, la escuela y la familia"
+          ],
+          "ok": 2,
+          "por": "Por eso mira también el aula: en una buena evaluación psicopedagógica, el aula también pasa examen."
+        }
+      ],
+      "sabias": "Como las competencias educativas están traspasadas, los procedimientos, los nombres de los documentos y los plazos de la evaluación cambian de una comunidad autónoma a otra."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Preguntar en el centro",
+          "t": "Pregunta en tu centro quién hace la evaluación psicopedagógica, cuánto se tarda y si la familia recibe el informe.",
+          "historia": "preguntar en tu centro quién hace la evaluación psicopedagógica y cuánto se tarda"
+        },
+        {
+          "corta": "Preguntar para qué sirve",
+          "t": "Si oyes «lo dice el informe del colegio», pregunta para qué sirve ese documento: ¿para decidir apoyos o para un diagnóstico médico?",
+          "historia": "preguntar para qué sirve un informe cuando alguien lo use como prueba de todo"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa qué te contaron en el centro o para qué servía el informe."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no te parecía lo mismo.",
+        "convence": "Entraste pensando que el informe del orientador es un diagnóstico.",
+        "igual": "Entraste sin darle mucha importancia a los informes del colegio."
+      },
+      "hice": {
+        "acepta": "Cuando te tocó decidir, aceptaste el informe tal cual.",
+        "valora": "Cuando te tocó decidir, lo tuviste en cuenta y pediste la valoración del colegio.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que la evaluación del colegio orienta apoyos y no diagnostica, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "efecto-edad-relativa"
+    },
+    "saber_mas": "**Etiqueta:** dislexia; la evaluación estudia, por ejemplo, las dificultades graves de lectura. **Término:** evaluación psicopedagógica. **Uso de hoy:** E, educar. Que oriente apoyos útiles, proporcionados y revisables. **Veredicto de la ficha:** mito. **Obra:** Orden de 14 de febrero de 1996, hoy derogada; cada comunidad tiene su propia norma. **Se conecta con:** adaptaciones curriculares, apoyo educativo y diferencias autonómicas. **Fuentes de la ficha:** BOE, Orden de 14 de febrero de 1996; BOE, Real Decreto 696/1995; Eurydice, necesidades educativas especiales en España."
+  },
+  {
+    "id": "efecto-edad-relativa",
+    "palabra": "Efecto de la edad relativa",
+    "resumen": "Los nacidos en diciembre reciben más diagnósticos; no está claro que tengan más TDAH.",
+    "termino": "efecto-edad-relativa",
+    "etiqueta": "tdah",
+    "uso": "D",
+    "riesgo": false,
+    "historia_humana": "Vera nació el 30 de diciembre y es la más pequeña de su clase de 1.º. Su tutora la ve más inquieta que la media. Su familia pide que la comparen con niñas de su edad, no con su curso. A eso se le llama efecto de la edad relativa.",
+    "corto": {
+      "pregunta": "¿Nacer en diciembre hace que un niño tenga más TDAH?",
+      "accion": "Calcula cuántos meses te separan del mayor de tu clase y piensa qué cambia eso."
+    },
+    "choque": {
+      "frase": "«Los niños nacidos en diciembre tienen más TDAH.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "En una clase de 1.º, el más inquieto es Bruno, nacido el 28 de diciembre. ¿Con quién lo comparas?",
+      "opciones": [
+        {
+          "id": "clase",
+          "t": "Con la media de su clase"
+        },
+        {
+          "id": "edad",
+          "t": "Con niños de su misma edad"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "Con casi 940.000 escolares de la Columbia Británica (Canadá), los nacidos en diciembre recibían más diagnósticos de TDAH que los de enero: un **30 % más** los niños y un **70 % más** las niñas.",
+      "fuente": "Morrow, R. L. et al. (2012). Influence of relative age on diagnosis and treatment of attention-deficit/hyperactivity disorder in children. CMAJ, 184(7), 755–762",
+      "url": "https://doi.org/10.1503/cmaj.111619",
+      "busca": "**Para diagnosticar** hacen falta criterios claros y comparar con lo esperable para la edad real, no para el curso. Si no, el calendario se cuela en la evaluación.",
+      "saltos": [
+        {
+          "t": "Nacer en diciembre causa TDAH",
+          "p": "El salto va de la asociación a la causa. Reciben más diagnósticos; no está claro que tengan más TDAH."
+        },
+        {
+          "t": "Entonces todos esos diagnósticos son errores",
+          "p": "Tampoco. El efecto no dice que el TDAH sea un invento escolar, sino que comparar con compañeros mayores sesga la mirada."
+        },
+        {
+          "t": "No salté: lo comparé con su edad",
+          "p": "Bien visto. Una buena evaluación compara con niños de la misma edad y recoge información de casa, del aula y del ocio."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿Dónde se describió primero el efecto de la edad relativa, en 1985?",
+          "o": [
+            "En las ligas canadienses de hockey",
+            "En las notas de matemáticas",
+            "En los hospitales"
+          ],
+          "ok": 0,
+          "por": "Abundaban los jugadores nacidos a principios de año: unos meses de más daban ventajas físicas, selección y entrenamiento extra."
+        },
+        {
+          "p": "En España, ¿cuándo se entra en 1.º de primaria?",
+          "o": [
+            "Al cumplir seis años, sea el mes que sea",
+            "En el año natural en que se cumplen seis años",
+            "Cuando lo decide la familia"
+          ],
+          "ok": 1,
+          "por": "Quien nace el 31 de diciembre comparte aula con quien nació casi un año antes."
+        },
+        {
+          "p": "Un metaanálisis de 2024 halló el efecto en las valoraciones de síntomas. ¿En las de quién?",
+          "o": [
+            "En las de los padres",
+            "En ninguna",
+            "En las de los docentes, no en las de los padres"
+          ],
+          "ok": 2,
+          "por": "Por eso conviene recoger información de varios contextos, como casa, aula y ocio, y revisar con el tiempo."
+        }
+      ],
+      "sabias": "Un metaanálisis de 2023 no halló que los diagnósticos de los más pequeños de la clase se retiren con los años más que los de sus compañeros mayores."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Contar los meses",
+          "t": "Mira tu mes de nacimiento y calcula cuántos meses te separan del mayor de tu clase. Piensa qué cambia eso en primero de primaria.",
+          "historia": "calcular cuántos meses te separan del mayor de tu clase"
+        },
+        {
+          "corta": "Pedir la edad exacta",
+          "t": "Si oyes comparar a un niño con su clase, pregunta cuántos meses de diferencia tiene con los demás.",
+          "historia": "preguntar por la diferencia de meses cuando oigas comparar a un niño con su clase"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa cuántos meses salían y si eso cambia cómo ves las comparaciones."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no te parecía que el mes importara.",
+        "convence": "Entraste pensando que nacer en diciembre da más TDAH.",
+        "igual": "Entraste sin darle mucha importancia al mes de nacimiento."
+      },
+      "hice": {
+        "clase": "Cuando te tocó decidir, lo comparaste con su clase.",
+        "edad": "Cuando te tocó decidir, lo comparaste con niños de su edad.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que el calendario también entra en las cifras, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "adaptaciones-curriculares"
+    },
+    "saber_mas": "**Etiqueta:** TDAH. **Término:** efecto de la edad relativa. **Uso de hoy:** D, diagnosticar. Criterios claros, evaluación diferencial y validación para esa población y esa finalidad. **Veredicto de la ficha:** matiz. **Obra que lo fija:** Barnsley, Barnsley y Thompson, «Hockey success and birthdate» (1985). **Figuras:** Roger H. Barnsley, Paula E. Barnsley, Angus H. Thompson y Richard L. Morrow. **Se conecta con:** TDAH, sobrediagnóstico, infradiagnóstico y umbral. **Fuentes de la ficha:** Morrow y otros (2012), *CMAJ*; Frisira, Holland y Sayal (2025); Barnsley y otros (1985)."
+  },
+  {
+    "id": "adaptaciones-curriculares",
+    "palabra": "Adaptaciones curriculares",
+    "resumen": "Una adaptación de acceso cambia el medio, no el reto.",
+    "termino": "adaptaciones-curriculares",
+    "etiqueta": "tdc",
+    "uso": "A",
+    "riesgo": false,
+    "historia_humana": "Samira es ciega y estudia 1.º de bachillerato. Tiene los materiales en braille y algo más de tiempo en los exámenes, pero aprende los mismos contenidos que su clase y se la califica con los mismos criterios. A eso se le llama adaptación curricular de acceso.",
+    "corto": {
+      "pregunta": "¿Hacer un examen con ordenador es regalar el aprobado?",
+      "accion": "Si oyes hablar de una adaptación, pregunta qué objetivo persigue y cuándo se revisará."
+    },
+    "choque": {
+      "frase": "«Hacerle una adaptación es regalarle el aprobado.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Mateo tiene TDC y escribir a mano le agota. Pide hacer los exámenes con ordenador. ¿Se lo permites?",
+      "opciones": [
+        {
+          "id": "si",
+          "t": "Sí, con ordenador"
+        },
+        {
+          "id": "no",
+          "t": "No: sería injusto para el resto"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "El Real Decreto 696/1995 reguló las adaptaciones curriculares, incluidas las significativas. Hoy, las **de acceso** cambian los medios, no los contenidos; las significativas cambian objetivos o criterios de evaluación.",
+      "fuente": "Gobierno de España (1995). Real Decreto 696/1995, de 28 de abril, de ordenación de la educación de los alumnos con necesidades educativas especiales. Boletín Oficial del Estado, 131",
+      "url": "https://www.boe.es/eli/es/rd/1995/04/28/696",
+      "busca": "**Para acceder** a una adaptación, la prueba es una regla clara: qué objetivo persigue, por qué se da y cuándo se revisa. Un ordenador cambia el medio, no lo que se evalúa.",
+      "saltos": [
+        {
+          "t": "Adaptar es regalar el aprobado",
+          "p": "Las adaptaciones de acceso no cambian los objetivos. Bien diseñadas, ajustan el reto en lugar de eliminarlo."
+        },
+        {
+          "t": "Con el diagnóstico, la adaptación es automática",
+          "p": "El salto va del diagnóstico a la medida automática. La medida depende de la evaluación educativa y del contexto del alumno."
+        },
+        {
+          "t": "No salté: pregunté qué cambia",
+          "p": "Bien visto. Preguntar si cambia el medio o el contenido, y cuándo se revisa, ayuda a saber si es justa."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "Un alumno ciego hace los exámenes en braille y con más tiempo. ¿Qué adaptación es?",
+          "o": [
+            "De acceso: mismos contenidos y criterios",
+            "Significativa: otros objetivos",
+            "Flexibilización"
+          ],
+          "ok": 0,
+          "por": "Cambian los medios, no lo que se aprende ni cómo se califica."
+        },
+        {
+          "p": "¿Qué exige una adaptación curricular significativa antes de aplicarse?",
+          "o": [
+            "Un certificado de discapacidad",
+            "Una evaluación psicopedagógica previa",
+            "Nada"
+          ],
+          "ok": 1,
+          "por": "Toca elementos que el currículo fija como obligatorios, así que el informe es su base, no un trámite."
+        },
+        {
+          "p": "Según el Real Decreto 943/2003, ¿qué hace falta para que un alumno superdotado adelante curso?",
+          "o": [
+            "Solo sacar buenas notas",
+            "Que lo pida el alumno",
+            "Consentimiento escrito de la familia y que lo ordinario no baste"
+          ],
+          "ok": 2,
+          "por": "Después, cada comunidad autónoma desarrolló sus propios procedimientos y requisitos."
+        }
+      ],
+      "sabias": "Negar medidas por miedo a «etiquetar» también tiene un coste: deja necesidades reales sin respuesta. Y una flexibilización precipitada puede situar a un niño en un grupo donde no encaja."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Preguntar qué ayuda",
+          "t": "Si conoces a alguien con adaptaciones, pregúntale con respeto qué le ayuda de verdad y qué le parece un simple trámite.",
+          "historia": "preguntar con respeto a alguien con adaptaciones qué le ayuda de verdad"
+        },
+        {
+          "corta": "Pedir objetivo y fecha",
+          "t": "Si oyes hablar de una adaptación, pregunta qué objetivo persigue y cuándo se revisará.",
+          "historia": "preguntar qué objetivo persigue una adaptación y cuándo se revisará"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa qué te contaron que ayuda de verdad o qué objetivo tenía la medida."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: adaptar no te parecía regalar nada.",
+        "convence": "Entraste pensando que una adaptación es regalar el aprobado.",
+        "igual": "Entraste sin darle mucha importancia a las adaptaciones."
+      },
+      "hice": {
+        "si": "Cuando te tocó decidir, le dejaste usar el ordenador.",
+        "no": "Cuando te tocó decidir, se lo negaste por justicia con el resto.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que una adaptación de acceso cambia el medio y no el reto, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "estigma"
+    },
+    "saber_mas": "**Etiqueta:** TDC; un ordenador en los exámenes es una adaptación de acceso. **Término:** adaptaciones curriculares y flexibilización. **Uso de hoy:** A, acceder. Reglas de elegibilidad claras, razones para repartir así y una vía para revisar las decisiones. **Veredicto de la ficha:** mito. **Obra:** Real Decreto 696/1995 y Real Decreto 943/2003. **Se conecta con:** evaluación psicopedagógica, altas capacidades, Diseño universal de aprendizaje y ajustes razonables. **Fuentes de la ficha:** BOE, Real Decreto 696/1995; BOE, Real Decreto 943/2003."
+  },
+  {
+    "id": "estigma",
+    "palabra": "Estigma",
+    "resumen": "El estigma no está en la etiqueta, sino en cómo se usa.",
+    "termino": "estigma",
+    "etiqueta": "tourette",
+    "uso": "R",
+    "riesgo": true,
+    "historia_humana": "Fernando no cuenta en el colegio que su hija Noa tiene TDAH. Teme que la vean como «la conflictiva» de la clase. La etiqueta podría traerle apoyos, pero a él le pesa más el prejuicio de los demás. A eso se le llama estigma.",
+    "corto": {
+      "pregunta": "¿Ponerle nombre a una dificultad es siempre estigmatizar?",
+      "accion": "Esta semana, anota cuántas veces oyes un diagnóstico usado como broma o insulto."
+    },
+    "choque": {
+      "frase": "«Poner una etiqueta estigmatiza al niño.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Tienes tics desde pequeño. Tu tutora te propone explicar a la clase qué son. Nadie te obliga. Tómate tu tiempo. ¿Lo cuentas?",
+      "opciones": [
+        {
+          "id": "cuento",
+          "t": "Lo cuento a la clase"
+        },
+        {
+          "id": "guardo",
+          "t": "Prefiero no contarlo"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "Según Link y Phelan (2001), hay **estigma** cuando se juntan etiquetado, estereotipo, separación entre «nosotros» y «ellos», pérdida de estatus y discriminación. Y solo ocurre donde hay poder para imponerlos.",
+      "fuente": "Link, B. G. y Phelan, J. C. (2001). Conceptualizing stigma. Annual Review of Sociology, 27, 363-385",
+      "url": "https://montefioreeinstein.org/documents/Original-Article-Conceptulalizing-Stigma.pdf",
+      "busca": "**Para reconocerse**, la prueba es claridad y respeto: tú decides qué contar, a quién y cuándo. El estigma no está en la palabra, sino en cómo la usan las personas y las instituciones.",
+      "saltos": [
+        {
+          "t": "Si lo cuento, me etiquetarán",
+          "p": "Puede pasar, pero no nombrarlo también tiene costes: explicaciones peores, como «vago» o «maleducado», y menos apoyos."
+        },
+        {
+          "t": "Si no lo cuento, es que me avergüenzo",
+          "p": "Decidir qué contar, a quién y cuándo es tuyo, como ya describía Goffman. Contar no es obligatorio, y callar no es avergonzarse."
+        },
+        {
+          "t": "No salté: lo pensé con calma",
+          "p": "Bien visto. El contacto directo con quien vive una condición es una vía habitual contra el estigma, pero contarlo es decisión tuya."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿Quién publicó en 1963 el libro «Estigma»?",
+          "o": [
+            "Bruce Link",
+            "Erving Goffman",
+            "Graham Thornicroft"
+          ],
+          "ok": 1,
+          "por": "Un libro sobre cómo gestionan su identidad las personas a las que la sociedad desacredita."
+        },
+        {
+          "p": "Una estudiante deja de pedir adaptaciones porque cree que pedirlas es «aprovecharse». ¿Cómo se llama eso?",
+          "o": [
+            "Autoestigma",
+            "Camuflaje",
+            "Modestia"
+          ],
+          "ok": 0,
+          "por": "Es el estigma interiorizado: la persona se aplica a sí misma el prejuicio de los demás."
+        },
+        {
+          "p": "¿Qué incluye entre sus principios la Estrategia de Salud Mental 2022-2026 del Sistema Nacional de Salud?",
+          "o": [
+            "Prohibir los diagnósticos",
+            "Nada sobre el estigma",
+            "La lucha contra el estigma"
+          ],
+          "ok": 2,
+          "por": "En 2022, una comisión de *The Lancet* dedicó un informe de más de cuarenta páginas a acabar con el estigma y la discriminación en salud mental."
+        }
+      ],
+      "sabias": "Goffman distinguió entre quien lleva una marca visible y quien puede ocultarla, y describió las estrategias para «pasar» por normal. Decidir qué contar ya formaba parte de su análisis."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Contar las bromas",
+          "t": "Durante una semana, anota cuántas veces oyes palabras diagnósticas usadas como broma o insulto, como «qué TOC tienes» o «estás autista».",
+          "historia": "anotar cuántas veces oyes diagnósticos usados como broma o insulto"
+        },
+        {
+          "corta": "Cuidar la confianza",
+          "t": "Si alguien te cuenta su diagnóstico, agradécele la confianza, pregúntale qué le ayuda y no se lo cuentes a nadie más.",
+          "historia": "agradecer la confianza si alguien te cuenta su diagnóstico y guardarlo para ti"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa cuántas bromas anotaste o cómo respondiste a la confianza."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no te parecía que nombrar fuera estigmatizar.",
+        "convence": "Entraste pensando que poner una etiqueta estigmatiza.",
+        "igual": "Entraste sin darle mucha importancia al estigma."
+      },
+      "hice": {
+        "cuento": "Cuando te tocó decidir, elegiste contarlo a la clase.",
+        "guardo": "Cuando te tocó decidir, preferiste guardarlo para ti.",
+        "tiempo": "Cuando te tocó decidir, te diste más tiempo."
+      },
+      "ahora": "Ahora sabes que el estigma depende de cómo se usa la etiqueta y que contar es decisión tuya, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "umbral"
+    },
+    "saber_mas": "**Etiqueta:** Tourette y tics; para muchas personas con tics, lo que más pesa son las miradas. **Término:** estigma. **Uso de hoy:** R, reconocerse. Pide claridad y respeto; no necesita una prueba clínica, pero tampoco la sustituye. **Veredicto de la ficha:** matiz. **Obra:** Erving Goffman, *Estigma* (1963). **Figuras:** Erving Goffman, Bruce Link, Jo Phelan y Graham Thornicroft. **Se conecta con:** lenguaje de identidad, camuflaje, modelo social y redes sociales. **Fuentes de la ficha:** Link y Phelan (2001); Thornicroft y otros (2022), *The Lancet*; Ministerio de Sanidad, Estrategia de Salud Mental 2022-2026."
+  },
+  {
+    "id": "umbral",
+    "palabra": "Umbral",
+    "resumen": "Un umbral es una decisión razonada sobre un continuo, no una frontera natural.",
+    "termino": "umbral",
+    "etiqueta": "discalculia",
+    "uso": "I",
+    "riesgo": false,
+    "historia_humana": "En el colegio de Lola, toda la clase hace una prueba de cálculo con un corte bajo, para no dejar escapar a nadie. Lola queda por debajo, pero una evaluación posterior descarta que necesite apoyo. Ese corte era una decisión. A eso se le llama umbral.",
+    "corto": {
+      "pregunta": "¿Hay una línea natural entre tener una dificultad y no tenerla?",
+      "accion": "Cuando leas una cifra de casos, busca qué punto de corte se usó."
+    },
+    "choque": {
+      "frase": "«O lo tienes o no lo tienes: no hay término medio.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Un estudio baja un punto el corte de una prueba de cálculo, y un titular dice: «Se dispara la discalculia». ¿Lo compartes?",
+      "opciones": [
+        {
+          "id": "comparto",
+          "t": "Lo comparto"
+        },
+        {
+          "id": "miro",
+          "t": "Primero miro el corte"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "En 2013, el DSM-5 movió varios cortes del TDAH: cinco síntomas en vez de seis desde los 17 años, e inicio antes de los 12 en vez de los 7. Cada cambio mueve cuántos quedan dentro.",
+      "fuente": "SAMHSA (2016). DSM-5 Changes: Implications for Child Serious Emotional Disturbance, tabla 7: comparación DSM-IV y DSM-5 del TDAH. NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK519712/table/ch3.t3/",
+      "busca": "**Para investigar** y comparar cifras, hay que saber qué corte se usó. Un umbral es una elección razonada que debe justificarse por su finalidad: cribar, diagnosticar o repartir un recurso.",
+      "saltos": [
+        {
+          "t": "Más casos: hay más discalculia",
+          "p": "Si se baja un punto el corte de una escala, la proporción de «casos» puede subir sin que haya cambiado nadie."
+        },
+        {
+          "t": "El corte marca una frontera natural",
+          "p": "El salto va del punto de corte a la frontera natural. Las dificultades varían de forma gradual; el corte es una decisión."
+        },
+        {
+          "t": "No salté: busqué el corte",
+          "p": "Bien visto. Si una cifra no dice qué corte usó, no se puede comparar con otras."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿Qué manual tradujo los diagnósticos a recuentos de síntomas, en 1980?",
+          "o": [
+            "El DSM-III",
+            "El DSM-5",
+            "La CIE-11"
+          ],
+          "ok": 0,
+          "por": "Con él se consolidaron los puntos de corte en psiquiatría."
+        },
+        {
+          "p": "¿Qué añadió el DSM-IV (1994) de forma sistemática a sus criterios?",
+          "o": [
+            "Un análisis de sangre",
+            "El malestar o deterioro clínicamente significativo",
+            "Una edad máxima"
+          ],
+          "ok": 1,
+          "por": "Un umbral de impacto en la vida, no solo de número de síntomas."
+        },
+        {
+          "p": "En un cribado, ¿por qué se suele fijar un corte bajo?",
+          "o": [
+            "Para ahorrar",
+            "Para diagnosticar más deprisa",
+            "Para no dejar escapar casos, aunque haya falsos positivos"
+          ],
+          "ok": 2,
+          "por": "Una evaluación posterior descarta los falsos positivos. Cada finalidad acepta errores distintos."
+        }
+      ],
+      "sabias": "En España conviven umbrales muy distintos: criterios clínicos, cortes de cribado en la escuela, baremos de altas capacidades que cambian entre comunidades y el 33 % de discapacidad que abre derechos."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Buscar el corte",
+          "t": "Cuando leas una cifra de casos, busca qué punto de corte se usó. Si no aparece, anota que esa cifra no se puede comparar con otras.",
+          "historia": "buscar el punto de corte detrás de la próxima cifra de casos que leas"
+        },
+        {
+          "corta": "Tres preguntas al umbral",
+          "t": "Ante cualquier umbral, haz tres preguntas: ¿para qué decisión se fijó?, ¿con qué pruebas? y ¿qué errores acepta?",
+          "historia": "hacer tres preguntas al próximo umbral que veas: para qué, con qué pruebas y qué errores acepta"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa si encontraste el corte o qué respondían tus tres preguntas."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no te parecía tan blanco o negro.",
+        "convence": "Entraste pensando que o lo tienes o no lo tienes.",
+        "igual": "Entraste sin darle mucha importancia a dónde se pone la línea."
+      },
+      "hice": {
+        "comparto": "Cuando te tocó decidir, compartiste el titular.",
+        "miro": "Cuando te tocó decidir, fuiste a buscar el corte.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que un umbral es una decisión razonada y no una frontera natural, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "stimming"
+    },
+    "saber_mas": "**Etiqueta:** discalculia; se discute dónde fijar su umbral y con qué baremos. **Término:** umbral diagnóstico (punto de corte). **Uso de hoy:** I, investigar. Fiabilidad y validez para describir y comparar grupos; no necesita acertar con cada persona. **Veredicto de la ficha:** matiz. **Obra:** DSM-5 (2013) y sus cambios en el TDAH, resumidos por SAMHSA (2016). **Se conecta con:** criterio diagnóstico, cribado, prevalencia y DSM-5. **Fuentes de la ficha:** SAMHSA (2016); Surís, Holliday y North (2016)."
+  },
+  {
+    "id": "stimming",
+    "palabra": "Stimming",
+    "resumen": "Muchos movimientos repetitivos ayudan a regularse; solo piden intervenir si hacen daño.",
+    "termino": "stimming",
+    "etiqueta": "autismo",
+    "uso": "E",
+    "riesgo": false,
+    "historia_humana": "Los padres de Aitor corregían siempre su aleteo de manos. Un día se dan cuenta de que aparece cuando está contento y dejan de corregirlo; solo intervendrían si hubiera riesgo. Para Aitor, que es autista, es una forma de expresarse. A eso se le llama stimming.",
+    "corto": {
+      "pregunta": "¿Moverse sin parar significa que alguien no está atendiendo?",
+      "accion": "Hoy, fíjate en los pequeños movimientos repetitivos que haces tú al esperar o al pensar."
+    },
+    "choque": {
+      "frase": "«Hay que enseñarle a estarse quieto.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Vigilas un examen. Diego, que es autista, aprieta una pelota blanda y un compañero protesta. ¿Qué haces?",
+      "opciones": [
+        {
+          "id": "guarda",
+          "t": "Le pido que la guarde"
+        },
+        {
+          "id": "sigue",
+          "t": "Le dejo seguir"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "En 2019, Kapp y su equipo entrevistaron a 32 adultos autistas. Describieron el **stimming** como una forma de regularse, contaron que la gente lo mira mal y rechazaron los tratamientos que buscan eliminarlo.",
+      "fuente": "Kapp, S. K., Steward, R., Crane, L. y otros (2019). 'People should be allowed to do what they like': Autistic adults' views and experiences of stimming. Autism, 23(7), 1782-1792",
+      "url": "https://doi.org/10.1177/1362361319829628",
+      "busca": "**Para educar**, la prueba es si el ajuste ayuda: ¿el movimiento molesta, hace daño o solo se sale de lo habitual? Permitir un objeto en la mano cuesta poco y puede ayudar a concentrarse.",
+      "saltos": [
+        {
+          "t": "Si se mueve, no está atendiendo",
+          "p": "A muchas personas el movimiento les ayuda a concentrarse o a calmarse. Suprimir un stim inofensivo puede quitarles una forma de regularse."
+        },
+        {
+          "t": "Es raro, hay que corregirlo",
+          "p": "Nadie se escandaliza porque alguien juegue con el boli, pero sí si aletea. Intervenir tiene sentido si hay lesiones o impide participar."
+        },
+        {
+          "t": "No salté: miré si molestaba",
+          "p": "Bien visto. La pregunta útil es qué función cumple el movimiento, antes de decidir si es un problema."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿De qué expresión inglesa viene «stimming»?",
+          "o": [
+            "*Self-stimulation*",
+            "*Stimulus test*",
+            "*Stem cells*"
+          ],
+          "ok": 0,
+          "por": "La popularizaron adultos autistas en internet y el movimiento de la neurodiversidad: una herramienta para calmarse, concentrarse o expresar alegría."
+        },
+        {
+          "p": "¿Qué recoge el DSM-5 (2013) entre los rasgos que definen el autismo?",
+          "o": [
+            "Hablar poco",
+            "Movimientos motores estereotipados o repetitivos",
+            "Tener buena memoria"
+          ],
+          "ok": 1,
+          "por": "La misma conducta es criterio al diagnosticar, motivo de ajuste al educar y rasgo compartido al reconocerse."
+        },
+        {
+          "p": "Según la Asociación Estadounidense de Psiquiatría, ¿quién hace stimming?",
+          "o": [
+            "Solo las personas autistas",
+            "Nadie: es un mito",
+            "También personas sin autismo, como al mover el pie"
+          ],
+          "ok": 2,
+          "por": "Morderse las uñas, enrollarse el pelo o tamborilear con los dedos son formas habituales."
+        }
+      ],
+      "sabias": "Durante buena parte del siglo XX, los movimientos repetitivos se describieron sobre todo como síntomas que había que reducir, y algunos programas conductuales se marcaron como objetivo suprimirlos."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Fijarte en tus movimientos",
+          "t": "Durante un día, fíjate en los pequeños movimientos repetitivos que haces tú, o la gente de tu alrededor, al esperar, pensar o ponerte nervioso.",
+          "historia": "fijarte en los pequeños movimientos repetitivos que haces al esperar o al pensar"
+        },
+        {
+          "corta": "Preguntar la función",
+          "t": "Si ves que alguien corrige un movimiento repetitivo, pregunta: ¿molesta, hace daño o solo es distinto?",
+          "historia": "preguntar si un movimiento molesta, hace daño o solo es distinto antes de corregirlo"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa qué movimientos descubriste en ti o en los demás."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: estarse quieto no te parecía la solución.",
+        "convence": "Entraste pensando que hay que enseñar a estarse quieto.",
+        "igual": "Entraste sin darle mucha importancia a los movimientos repetitivos."
+      },
+      "hice": {
+        "guarda": "Cuando te tocó decidir, le pediste que la guardara.",
+        "sigue": "Cuando te tocó decidir, le dejaste seguir.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que muchos movimientos repetitivos ayudan a regularse y que solo piden intervenir si hacen daño, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "tdah-adulto"
+    },
+    "saber_mas": "**Etiqueta:** autismo. **Término:** autoestimulación (*stimming*). **Uso de hoy:** E, educar. El apoyo tiene que ser útil, proporcionado y revisable; muchas veces basta con describir la necesidad. **Veredicto de la ficha:** matiz. **Obra:** Kapp, Steward, Crane y otros (2019), revista *Autism*. **Figuras:** Steven K. Kapp, Elizabeth Pellicano y Ginny Russell. **Se conecta con:** autismo, neurodiversidad, camuflaje y ajustes razonables. **Fuentes de la ficha:** Kapp y otros (2019); Asociación Estadounidense de Psiquiatría, «Understanding Stimming» (2020)."
+  },
+  {
+    "id": "tdah-adulto",
+    "palabra": "TDAH en adultos",
+    "resumen": "En muchas personas el TDAH cambia con la edad; en otras, persiste.",
+    "termino": "tdah-adulto",
+    "etiqueta": "tdah",
+    "uso": "R",
+    "riesgo": true,
+    "historia_humana": "Elena tiene 38 años y ha cambiado muchas veces de trabajo entre olvidos y ansiedad. En consulta reconstruyen su infancia con sus boletines escolares y con entrevistas a su madre y a su hermano. Sus dificultades vienen de lejos. A eso se le llama TDAH en la edad adulta.",
+    "corto": {
+      "pregunta": "¿El TDAH desaparece siempre al hacerse adulto?",
+      "accion": "Si te lo preguntas, busca tus boletines escolares antiguos: lo que escribían tus profesores también cuenta."
+    },
+    "choque": {
+      "frase": "«El TDAH se cura al crecer.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Tienes 20 años y te reconoces en muchos vídeos sobre TDAH adulto. Tómate tu tiempo. ¿Qué haces?",
+      "opciones": [
+        {
+          "id": "claro",
+          "t": "Lo tengo claro: es TDAH"
+        },
+        {
+          "id": "cita",
+          "t": "Pido cita para una evaluación"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "Un metaanálisis de 2021 estimó que el 2,58 % de los adultos tiene un **TDAH que viene de la infancia**, y el 6,76 %, síntomas sin exigir ese inicio. La distancia entre ambas cifras resume el debate.",
+      "fuente": "Song, P. et al. (2021). The prevalence of adult attention-deficit hyperactivity disorder: a global systematic review and meta-analysis. Journal of Global Health, 11",
+      "url": "https://doi.org/10.7189/jogh.11.04009",
+      "busca": "**Para reconocerse**, verte en esos vídeos es un punto de partida válido. Pero reconocerse no sustituye una evaluación: esa pide la historia de tu infancia contada por varias fuentes.",
+      "saltos": [
+        {
+          "t": "Me veo en los vídeos, así que lo tengo",
+          "p": "El salto va de la identidad al diagnóstico. Reconocerse es un punto de partida; la evaluación profesional es la que decide."
+        },
+        {
+          "t": "De niño nadie lo vio, así que no puede ser",
+          "p": "El TDAH adulto empieza en la infancia, aunque entonces nadie lo detectara. Muchas mujeres compensaron durante décadas a base de esfuerzo y ansiedad."
+        },
+        {
+          "t": "No salté: pedí cita",
+          "p": "Bien visto. Hay que distinguirlo de la ansiedad, la falta de sueño o una depresión, y eso lo hace una evaluación."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "En 1976, ¿qué planteó el estudio de Paul Wender y su equipo?",
+          "o": [
+            "Que la hiperactividad era un invento",
+            "Que la «disfunción cerebral mínima» podía seguir en adultos",
+            "Que se curaba con deporte"
+          ],
+          "ok": 1,
+          "por": "Hasta entonces se pensaba que era un problema infantil que desaparecía con la pubertad."
+        },
+        {
+          "p": "¿Qué cambió el DSM-5 (2013) para los adultos?",
+          "o": [
+            "Añadió ejemplos adultos y bajó el umbral a cinco síntomas desde los 17 años",
+            "Prohibió diagnosticar a adultos",
+            "Nada"
+          ],
+          "ok": 0,
+          "por": "Además, situó el inicio de los síntomas antes de los 12 años."
+        },
+        {
+          "p": "En Dunedin (Nueva Zelanda), ¿qué halló un seguimiento de 1.037 personas hasta los 38 años?",
+          "o": [
+            "Que el TDAH desaparece siempre",
+            "Que nadie tenía TDAH",
+            "Que el 90 % de los adultos con TDAH no lo había tenido de niño"
+          ],
+          "ok": 2,
+          "por": "Abrió un debate todavía vivo, y los autores pidieron replicarlo antes de sacar conclusiones."
+        }
+      ],
+      "sabias": "En la adultez, la hiperactividad suele vivirse como inquietud interna. Pesan más la desorganización, la impulsividad y las dificultades en el trabajo, los estudios, la conducción o la pareja."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Buscar los boletines",
+          "t": "Si te preguntas por el TDAH adulto, busca tus boletines o informes escolares antiguos: lo que escribían tus profesores es información valiosa para cualquier evaluación.",
+          "historia": "buscar tus boletines escolares antiguos y leer lo que escribían tus profesores"
+        },
+        {
+          "corta": "Vídeo contra criterio",
+          "t": "Elige un vídeo sobre TDAH adulto y compáralo con lo que pide el criterio: un patrón persistente, desde la infancia y con impacto en varios ámbitos.",
+          "historia": "comparar un vídeo sobre TDAH adulto con lo que pide el criterio"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa qué encontraste en los boletines o qué le faltaba al vídeo."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no te parecía que se curara sin más.",
+        "convence": "Entraste pensando que el TDAH se cura al crecer.",
+        "igual": "Entraste sin darle mucha importancia al TDAH en adultos."
+      },
+      "hice": {
+        "claro": "Cuando te tocó decidir, lo diste por hecho.",
+        "cita": "Cuando te tocó decidir, pediste cita para una evaluación.",
+        "tiempo": "Cuando te tocó decidir, preferiste pensarlo más."
+      },
+      "ahora": "Ahora sabes que en algunas personas persiste y que reconocerse es un punto de partida, no una evaluación, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "grunya-sukhareva"
+    },
+    "saber_mas": "**Etiqueta:** TDAH. **Término:** TDAH en la edad adulta. **Uso de hoy:** R, reconocerse. Pide claridad y respeto; no necesita una prueba clínica, pero tampoco la sustituye. **Veredicto de la ficha:** matiz. **Obra:** DSM-5 (2013), con ejemplos y umbral específicos para adultos. **Figuras:** Paul Wender, Terrie Moffitt y Russell Barkley. **Se conecta con:** TDAH, diagnóstico diferencial, autodiagnóstico, redes sociales y umbral. **Fuentes de la ficha:** Song y otros (2021); Moffitt y otros (2015); Wood, Reimherr, Wender y Johnson (1976)."
+  },
+  {
+    "id": "grunya-sukhareva",
+    "palabra": "Grunya Sukhareva",
+    "resumen": "En 1925, Sukhareva ya había descrito rasgos autistas, antes que Kanner y Asperger.",
+    "termino": "grunya-sukhareva",
+    "etiqueta": "autismo",
+    "uso": "I",
+    "riesgo": false,
+    "historia_humana": "Carmen, de 3.º de ESO, prepara un trabajo sobre científicas olvidadas. Encuentra a una psiquiatra que en 1925, en Moscú, describió a seis niños con rasgos autistas, casi veinte años antes que Kanner. Casi nadie la cita. A eso se le llama el caso de Grunya Sukhareva.",
+    "corto": {
+      "pregunta": "¿El autismo lo descubrieron Kanner y Asperger?",
+      "accion": "Busca en un libro o una web sobre autismo si mencionan a Grunya Sukhareva."
+    },
+    "choque": {
+      "frase": "«El autismo lo descubrieron Kanner y Asperger.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Preparas un trabajo de clase sobre la historia del autismo. ¿Por quién empiezas?",
+      "opciones": [
+        {
+          "id": "kanner",
+          "t": "Por Kanner, en 1943"
+        },
+        {
+          "id": "busco",
+          "t": "Busco si hubo alguien antes"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "En 1925, la psiquiatra infantil soviética **Grunya Sukhareva** describió a seis niños con rasgos que hoy encajarían en el espectro autista. Kanner publicó en 1943, y Asperger, en 1944.",
+      "fuente": "Manouilenko, I. y Bejerot, S. (2015). Sukhareva: Prior to Asperger and Kanner. Nordic Journal of Psychiatry, 69(6), 479–482",
+      "url": "https://doi.org/10.3109/08039488.2015.1005022",
+      "busca": "**Para investigar** la historia de una etiqueta, hay que buscar todas las descripciones, no solo las más citadas. Que varias personas, en sitios distintos, vieran patrones parecidos refuerza que hay algo estable que describir.",
+      "saltos": [
+        {
+          "t": "Si no sale en el libro, no existió",
+          "p": "Su obra apenas circuló fuera del ruso y el alemán. Sula Wolff la tradujo al inglés en 1996."
+        },
+        {
+          "t": "Kanner la copió",
+          "p": "Kanner citó en 1949 un artículo suyo, pero no hay pruebas de que se inspirara en ella en 1943."
+        },
+        {
+          "t": "No salté: busqué antes de Kanner",
+          "p": "Bien visto. La historia tiene más protagonistas de los que suelen citarse. Y la palabra «autismo» es de Bleuler, de 1911."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿Qué rasgo destacó Sukhareva en 1925 que el DSM-5 no incorporó hasta 2013?",
+          "o": [
+            "Las alteraciones sensoriales",
+            "La buena memoria",
+            "La estatura"
+          ],
+          "ok": 0,
+          "por": "Comparar su descripción con el DSM-5 muestra que algunos rasgos se observaban mucho antes de entrar en los criterios."
+        },
+        {
+          "p": "¿Qué publicó Sukhareva en 1927?",
+          "o": [
+            "Una novela",
+            "Un estudio dedicado a cinco niñas",
+            "Un manual de diagnóstico"
+          ],
+          "ok": 1,
+          "por": "No prueba que el autismo en chicas estuviera infradiagnosticado, pero sí que no es un hallazgo de las redes sociales."
+        },
+        {
+          "p": "Según se debate, ¿qué pudo influir en que Sukhareva quedara olvidada?",
+          "o": [
+            "Que no publicó nada",
+            "Que se equivocó",
+            "El idioma y ser mujer, judía y soviética"
+          ],
+          "ok": 2,
+          "por": "Su caso sirve para hablar de cómo el idioma, el género y la geopolítica deciden quién entra en la historia de la ciencia."
+        }
+      ],
+      "sabias": "En 1921, Sukhareva fundó en Moscú una escuela terapéutica para niños con problemas psiquiátricos. Entre 1938 y 1969 dirigió la clínica infantil del Instituto de Psiquiatría de la URSS."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Buscar al «descubridor»",
+          "t": "Abre un libro de texto o una web sobre autismo y busca a quién presenta como su «descubridor». Comprueba si menciona a Sukhareva.",
+          "historia": "comprobar si un libro o una web sobre autismo menciona a Sukhareva"
+        },
+        {
+          "corta": "Preguntar quién faltó",
+          "t": "La próxima vez que leas quién «descubrió» algo, pregúntate quién lo describió antes y en qué idioma.",
+          "historia": "preguntarte quién lo describió antes cuando leas quién descubrió algo"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa si aparecía Sukhareva o a quién encontraste antes."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no te parecía tan sencillo.",
+        "convence": "Entraste pensando que el autismo lo descubrieron Kanner y Asperger.",
+        "igual": "Entraste sin darle mucha importancia a quién lo describió primero."
+      },
+      "hice": {
+        "kanner": "Cuando te tocó decidir, empezaste por Kanner.",
+        "busco": "Cuando te tocó decidir, buscaste si hubo alguien antes.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que en 1925 ya había una descripción muy parecida, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "modelo-social"
+    },
+    "saber_mas": "**Etiqueta:** autismo. **Término:** Grunya Sukhareva (1891-1981). **Uso de hoy:** I, investigar. Fiabilidad y validez para describir y comparar grupos; no necesita acertar con cada persona. **Veredicto de la ficha:** mito. **Obra:** estudio sobre las psicopatías esquizoides en la infancia (en ruso, 1925; en alemán, 1926). **Figuras:** Grunya Sukhareva, Sula Wolff e Irina Manouilenko. **Se conecta con:** autismo, Leo Kanner, Hans Asperger, brecha de género y Eugen Bleuler. **Fuentes de la ficha:** Manouilenko y Bejerot (2015); Pozzi y otros (2024); Posar y Visconti (2017)."
+  },
+  {
+    "id": "modelo-social",
+    "palabra": "Modelo social",
+    "resumen": "Muchas barreras se pueden quitar, aunque no todo dependa del entorno.",
+    "termino": "modelo-social",
+    "etiqueta": "discapacidad-intelectual",
+    "uso": "R",
+    "riesgo": true,
+    "historia_humana": "En el colegio de Unai, que es sordo, no se preguntan qué le pasa a él. Revisan qué barreras de comunicación hay en el aula y las reducen. Cambian el entorno, no a Unai. A eso se le llama modelo social de la discapacidad.",
+    "corto": {
+      "pregunta": "¿La discapacidad está solo en la persona o también en las barreras?",
+      "accion": "Anota hoy tres barreras de tu calle o de tu instituto que no habías visto."
+    },
+    "choque": {
+      "frase": "«La discapacidad es solo un problema de la sociedad.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Irene usa silla de ruedas. Hoy no ha podido votar: su colegio electoral solo tiene escaleras. Piénsalo con calma. ¿Dónde está la discapacidad?",
+      "opciones": [
+        {
+          "id": "escalera",
+          "t": "En la escalera"
+        },
+        {
+          "id": "irene",
+          "t": "En Irene"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "En 1976, la organización británica UPIAS, formada por personas con discapacidad física, situó la raíz del problema en cómo se organiza la sociedad y en sus barreras. En 1983, Mike Oliver le dio forma de **modelo social**.",
+      "fuente": "Institute on Community Integration, University of Minnesota (s. f.). Social Model of Disability. Impact, 38(2)",
+      "url": "https://publications.ici.umn.edu/impact/38-2/social-model-of-disability",
+      "busca": "**Para reconocerse**, el modelo social da un lenguaje claro y respetuoso: muchas personas con discapacidad se entienden por las barreras que encuentran. Pero no borra los apoyos que cada una necesita.",
+      "saltos": [
+        {
+          "t": "La discapacidad está en Irene",
+          "p": "El modelo social distingue la deficiencia de la discapacidad, que surge cuando la sociedad levanta barreras. Una rampa cambia lo que Irene puede hacer."
+        },
+        {
+          "t": "Todo es culpa de la sociedad",
+          "p": "Las barreras explican buena parte de la exclusión, pero el propio debate académico reconoce que el dolor o la fatiga persisten en cualquier entorno."
+        },
+        {
+          "t": "No salté: miré las dos cosas",
+          "p": "Bien visto. El contexto importa mucho, pero no lo explica todo. Quitar barreras y dar apoyos van juntos."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿Quién escribió en 1976 «Fundamental Principles of Disability»?",
+          "o": [
+            "La ONU",
+            "UPIAS, una organización británica de personas con discapacidad física",
+            "Un hospital"
+          ],
+          "ok": 1,
+          "por": "Lo escribieron las propias personas con discapacidad, organizadas contra la segregación."
+        },
+        {
+          "p": "¿Qué tratado internacional de 2006 lleva la huella del modelo social?",
+          "o": [
+            "La Convención de la ONU sobre los derechos de las personas con discapacidad",
+            "El DSM-5",
+            "La LOMLOE"
+          ],
+          "ok": 0,
+          "por": "Consagra los «ajustes razonables» y entiende la discapacidad como la interacción entre la persona y las barreras del entorno."
+        },
+        {
+          "p": "¿Qué se le critica al modelo social?",
+          "o": [
+            "Que inventó las rampas",
+            "Que es demasiado médico",
+            "Que deja en segundo plano el dolor, la fatiga o algunas limitaciones"
+          ],
+          "ok": 2,
+          "por": "También que atiende poco a otras desigualdades, como la raza, la clase o el género."
+        }
+      ],
+      "sabias": "A finales de los noventa, la neurodiversidad tomó prestado el modelo social para hablar de diferencias neurológicas. De ahí nacen muchos debates actuales sobre autismo y TDAH."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Buscar tres barreras",
+          "t": "Recorre tu calle o tu instituto imaginando que vas en silla de ruedas o que no oyes bien. Anota tres barreras que no habías visto.",
+          "historia": "anotar tres barreras de tu calle o de tu instituto que no habías visto"
+        },
+        {
+          "corta": "Separar entorno y persona",
+          "t": "Piensa en algo que te cuesta: ¿qué parte desaparecería si cambiara el entorno y qué parte seguiría ahí?",
+          "historia": "separar qué parte de algo que te cuesta depende del entorno"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa qué barreras anotaste o qué parte dependía del entorno."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no te parecía solo cosa de la sociedad.",
+        "convence": "Entraste pensando que la discapacidad es solo un problema de la sociedad.",
+        "igual": "Entraste sin darle mucha importancia a las barreras."
+      },
+      "hice": {
+        "escalera": "Cuando te tocó decidir, viste la discapacidad en la escalera.",
+        "irene": "Cuando te tocó decidir, la viste en Irene.",
+        "tiempo": "Cuando te tocó decidir, preferiste pensarlo más."
+      },
+      "ahora": "Ahora sabes que muchas barreras se pueden quitar, aunque no todo dependa del entorno, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "autismo-profundo"
+    },
+    "saber_mas": "**Etiqueta:** discapacidad intelectual. **Término:** modelo social de la discapacidad. **Uso de hoy:** R, reconocerse. Pide claridad y respeto; no necesita una prueba clínica, pero tampoco la sustituye. **Veredicto de la ficha:** matiz. **Obra:** Mike Oliver, *Social Work with Disabled People* (1983); antecedente: UPIAS (1976). **Figuras:** Mike Oliver y Tom Shakespeare. **Se conecta con:** Convención de la ONU, ajustes razonables, neurodiversidad y certificado de discapacidad. **Fuentes de la ficha:** Universidad de Minnesota, revista *Impact*; Disability News Service (2019)."
+  },
+  {
+    "id": "autismo-profundo",
+    "palabra": "Autismo profundo",
+    "resumen": "Un término para planificar apoyos, no para medir el valor de nadie.",
+    "termino": "autismo-profundo",
+    "etiqueta": "autismo",
+    "uso": "A",
+    "riesgo": true,
+    "historia_humana": "Rocío explica en una reunión del barrio que su hijo Pau, de 15 años, no habla y necesita supervisión constante. Le cuesta que no lo confundan con el autismo de las series. Para nombrar esas necesidades se propuso un término nuevo. A eso se le llama autismo profundo.",
+    "corto": {
+      "pregunta": "¿Hablar de autismo profundo es volver a los grados de antes?",
+      "accion": "Cuando leas sobre «las personas autistas», mira si incluyen a quienes necesitan apoyo continuo."
+    },
+    "choque": {
+      "frase": "«Hablar de autismo profundo es volver a los grados de antes.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Tu ayuntamiento reparte plazas de respiro para familias. Lucas, de 15 años, es autista, no habla y necesita supervisión constante. Piénsalo con calma. ¿Su familia debería tener prioridad?",
+      "opciones": [
+        {
+          "id": "prioridad",
+          "t": "Sí, con prioridad"
+        },
+        {
+          "id": "igual",
+          "t": "Igual que cualquier familia con diagnóstico"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "En 2021, la Comisión Lancet propuso «**autismo profundo**» como designación administrativa para quienes necesitan acceso a un adulto las 24 horas. Estimó que eran entre el 18 % y el 48 % de las personas autistas.",
+      "fuente": "Lord, C. et al. (2021). The Lancet Commission on the future of care and clinical research in autism. The Lancet, 399(10321)",
+      "url": "https://doi.org/10.1016/S0140-6736(21)01541-5",
+      "busca": "**Para acceder** a plazas y apoyos, la prueba es una regla clara sobre quién los necesita, por qué se reparte así y cómo se revisa. Contar solo diagnósticos no dice cuánta ayuda hace falta.",
+      "saltos": [
+        {
+          "t": "Es volver a los grados de antes",
+          "p": "La Comisión lo plantea para planificar apoyos, no como diagnóstico ni como jerarquía de valor. Sus efectos todavía están por estudiar."
+        },
+        {
+          "t": "El autismo es lo que sale en las series",
+          "p": "El salto va de la parte más visible del espectro a todo el espectro. Muchas personas autistas no pueden contarlo con sus palabras."
+        },
+        {
+          "t": "No salté: pregunté por la necesidad",
+          "p": "Bien visto. Para planificar, una administración necesita saber cuántas personas requieren apoyo continuo, no solo cuántas tienen diagnóstico."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿Qué es el «autismo profundo», según la Comisión Lancet?",
+          "o": [
+            "Un diagnóstico nuevo del DSM",
+            "Una designación administrativa para planificar apoyos",
+            "Un grado oficial en España"
+          ],
+          "ok": 1,
+          "por": "No es un diagnóstico formal. En España abren derechos el diagnóstico, el grado de discapacidad y, en su caso, el de dependencia."
+        },
+        {
+          "p": "Al aplicar una definición a datos de los CDC, ¿qué parte de los niños autistas de 8 años tenía autismo profundo?",
+          "o": [
+            "El 26,7 %",
+            "El 2 %",
+            "El 90 %"
+          ],
+          "ok": 0,
+          "por": "Con datos de 20.135 niños, de 2000 a 2016. Eran con más frecuencia niñas y de familias con menos recursos."
+        },
+        {
+          "p": "¿Por qué critica el término parte del activismo autista?",
+          "o": [
+            "Porque es demasiado largo",
+            "Porque viene de Estados Unidos",
+            "Porque teme que divida la comunidad y reabra los «grados»"
+          ],
+          "ok": 2,
+          "por": "Muchas familias responden que, sin un nombre propio, estas necesidades desaparecen de la investigación y de las políticas."
+        }
+      ],
+      "sabias": "La Comisión Lancet que propuso el término reunió a más de treinta autores de varios continentes. Busca hacer visibles a estas personas, aunque hay quien teme que reavive el «alto» y «bajo» funcionamiento."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Mirar a quién incluye",
+          "t": "La próxima vez que leas una noticia sobre «las personas autistas», comprueba si incluye a quienes no usan lenguaje oral o necesitan apoyo continuo.",
+          "historia": "comprobar si una noticia sobre personas autistas incluye a quienes necesitan apoyo continuo"
+        },
+        {
+          "corta": "Preguntar por la muestra",
+          "t": "Si lees un estudio sobre autismo, busca quién participó: ¿podían responder cuestionarios todas las personas?",
+          "historia": "buscar quién participó en el próximo estudio sobre autismo que leas"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa si la noticia incluía a todos o quién faltaba en la muestra."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no te parecía volver atrás.",
+        "convence": "Entraste pensando que hablar de autismo profundo es volver a los grados.",
+        "igual": "Entraste sin darle mucha importancia a cómo se nombran las necesidades."
+      },
+      "hice": {
+        "prioridad": "Cuando te tocó decidir, le diste prioridad a su familia.",
+        "igual": "Cuando te tocó decidir, la trataste igual que a cualquier familia con diagnóstico.",
+        "tiempo": "Cuando te tocó decidir, preferiste pensarlo más."
+      },
+      "ahora": "Ahora sabes que el término busca planificar apoyos y no medir el valor de nadie, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "disincronia"
+    },
+    "saber_mas": "**Etiqueta:** autismo. **Término:** autismo profundo. **Uso de hoy:** A, acceder. Reglas de elegibilidad claras, razones para repartir así y una vía para revisar las decisiones. **Veredicto de la ficha:** matiz. **Obra:** Lord y otros, Comisión Lancet sobre el futuro de la atención y la investigación en autismo (2021). **No es:** un diagnóstico formal ni una categoría oficial en España. **Figuras:** Catherine Lord y Alison Singer. **Se conecta con:** heterogeneidad, discapacidad intelectual, neurodiversidad y certificado de discapacidad. **Fuentes de la ficha:** Lord y otros (2021); King's College London (2021); Hughes y otros (2023)."
+  },
+  {
+    "id": "disincronia",
+    "palabra": "Disincronía",
+    "resumen": "Ir a distintos ritmos es posible; no es una regla de las altas capacidades.",
+    "termino": "disincronia",
+    "etiqueta": "altas-capacidades",
+    "uso": "R",
+    "riesgo": false,
+    "historia_humana": "Los padres de Julia no entendían por qué su hija, de diez años, conecta mejor con los adultos que con sus compañeros de clase. Leen sobre el desarrollo desigual de algunos niños con altas capacidades y encuentran un nombre para lo que viven. A eso se le llama disincronía.",
+    "corto": {
+      "pregunta": "¿Ser muy listo de pequeño quiere decir ser inmaduro?",
+      "accion": "Si oyes «es listo, pero inmaduro», prueba a decir «va a distintos ritmos en distintas cosas»."
+    },
+    "choque": {
+      "frase": "«Los niños con altas capacidades son inmaduros emocionalmente.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Tu hermana de seis años lee novelas juveniles, pero llora si pierde jugando. Tu tío dice: «Es inmadura». ¿Qué piensas?",
+      "opciones": [
+        {
+          "id": "inmadura",
+          "t": "Que tiene razón"
+        },
+        {
+          "id": "ritmos",
+          "t": "Que va a distintos ritmos"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "Una tesis de Quebec de 1992, uno de los pocos estudios que pusieron a prueba la **disincronía social**, no halló diferencias significativas entre niños superdotados y un grupo control en su relación con los padres.",
+      "fuente": "Baribeau, S. (1992). Étude exploratoire de la dyssynchronie sociale des enfants surdoués par rapport à leurs parents. Mémoire de maîtrise, Université du Québec à Trois-Rivières",
+      "url": "https://depot-e.uqtr.ca/10616/1/eprint10616.pdf",
+      "busca": "**Para reconocerse**, la disincronía da un nombre a ir a distintos ritmos, sin reproches. Pero no es un diagnóstico ni una regla, y no debe tapar otras necesidades, como ansiedad o TDAH.",
+      "saltos": [
+        {
+          "t": "Va adelantada, así que debería ser madura",
+          "p": "Una niña puede razonar como una de nueve años y manejar las emociones como una de seis. No es un defecto, sino un ritmo."
+        },
+        {
+          "t": "Todos los superdotados son inmaduros",
+          "p": "El salto va del grupo al individuo. La disincronía describe un desfase posible en algunos niños, no una ley."
+        },
+        {
+          "t": "No salté: vi dos ritmos",
+          "p": "Bien visto. Atender las dos edades a la vez, sin reprochar nada, es lo que propone el concepto."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿Quién describió la disincronía en 1979?",
+          "o": [
+            "Lewis Terman",
+            "Jean-Charles Terrassier",
+            "Joseph Renzulli"
+          ],
+          "ok": 1,
+          "por": "Lo hizo tras examinar a más de 300 niños precoces o superdotados en Francia."
+        },
+        {
+          "p": "¿Qué dos tipos de disincronía distinguía Terrassier?",
+          "o": [
+            "Interna y social",
+            "Buena y mala",
+            "Leve y grave"
+          ],
+          "ok": 0,
+          "por": "Interna, entre lo intelectual, lo emocional o lo psicomotor; social, respecto a la escuela, los compañeros o la familia."
+        },
+        {
+          "p": "¿Cómo definió el Columbus Group la superdotación, en una idea emparentada?",
+          "o": [
+            "Como un CI alto",
+            "Como una enfermedad",
+            "Como «desarrollo asincrónico»"
+          ],
+          "ok": 2,
+          "por": "Combinó ideas de Hollingworth, Terrassier y Dąbrowski."
+        }
+      ],
+      "sabias": "En 1971, Terrassier fundó en Francia una asociación para niños superdotados, en una escuela que entonces desconfiaba de las etiquetas de excelencia."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Tus propios ritmos",
+          "t": "Piensa en ti de pequeño: anota una cosa en la que ibas «por delante» y otra en la que ibas a tu edad. Sin juzgarte.",
+          "historia": "anotar en qué ibas por delante y en qué ibas a tu edad de pequeño"
+        },
+        {
+          "corta": "Cambiar «inmaduro»",
+          "t": "Si oyes «es muy listo, pero inmaduro», prueba a decir: «va a distintos ritmos en distintas cosas».",
+          "historia": "cambiar «listo pero inmaduro» por «va a distintos ritmos»"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa qué ritmos encontraste en ti o cómo sonó la frase nueva."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no te parecía justo llamarlos inmaduros.",
+        "convence": "Entraste pensando que los niños con altas capacidades son inmaduros.",
+        "igual": "Entraste sin darle mucha importancia a los ritmos de cada uno."
+      },
+      "hice": {
+        "inmadura": "Cuando te tocó decidir, le diste la razón a tu tío.",
+        "ritmos": "Cuando te tocó decidir, viste que iba a distintos ritmos.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que ir a distintos ritmos es posible y no es una regla, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "funciones-ejecutivas"
+    },
+    "saber_mas": "**Etiqueta:** altas capacidades. **Término:** disincronía. **Uso de hoy:** R, reconocerse. Pide claridad y respeto; no necesita una prueba clínica, pero tampoco la sustituye. **Veredicto de la ficha:** mito. **Obra:** Jean-Charles Terrassier (1979), desarrollada en *Les enfants surdoués ou la précocité embarrassante*. **No es:** un diagnóstico. **Se conecta con:** sobreexcitabilidad, adaptaciones curriculares y superdotación. **Fuentes de la ficha:** Baribeau (1992), Universidad de Quebec en Trois-Rivières; Silverman (2007), *Duke Gifted Letter*."
+  },
+  {
+    "id": "funciones-ejecutivas",
+    "palabra": "Funciones ejecutivas",
+    "resumen": "Una diferencia de grupo no explica cada caso de TDAH.",
+    "termino": "funciones-ejecutivas",
+    "etiqueta": "tdah",
+    "uso": "I",
+    "riesgo": false,
+    "historia_humana": "Begoña tiene TDAH y usa alarmas, listas y un calendario compartido. No cambia cómo planifica su cabeza, pero reduce lo que depende de ella: frenar, recordar y cambiar de plan. Esos procesos mentales tienen nombre. A eso se le llama funciones ejecutivas.",
+    "corto": {
+      "pregunta": "¿El TDAH es solo un fallo de las funciones ejecutivas?",
+      "accion": "Durante un día, anota qué ayudas externas usas: alarmas, listas o notas."
+    },
+    "choque": {
+      "frase": "«El TDAH es, en el fondo, un déficit de funciones ejecutivas.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Un vídeo dice: «El TDAH es un fallo de tus funciones ejecutivas: entrena con esta app». ¿Lo compartes?",
+      "opciones": [
+        {
+          "id": "comparto",
+          "t": "Lo comparto"
+        },
+        {
+          "id": "miro",
+          "t": "Primero miro qué dicen los estudios"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "Un metaanálisis de 2005 halló en el TDAH debilidades ejecutivas de tamaño **moderado**, que no eran necesarias ni suficientes para explicar todos los casos. Muchas personas con TDAH no muestran ese déficit.",
+      "fuente": "Willcutt, E. G. et al. (2005). Validity of the executive function theory of attention-deficit/hyperactivity disorder: a meta-analytic review. Biological Psychiatry, 57(11)",
+      "url": "https://doi.org/10.1016/j.biopsych.2005.02.006",
+      "busca": "**Para investigar**, una diferencia de promedio entre grupos es un dato valioso. Pero no dice que cada persona del grupo la tenga, ni que sea la causa del trastorno.",
+      "saltos": [
+        {
+          "t": "Si hay déficit, es la causa del TDAH",
+          "p": "El salto va de la etiqueta al mecanismo. Una puntuación baja en una prueba no es «la causa» de un trastorno ni un diagnóstico por sí misma."
+        },
+        {
+          "t": "Si mejoro en la app, mejoro en la vida",
+          "p": "Mejorar en el juego no garantiza mejorar en la vida diaria. Conviene buscar estudios independientes."
+        },
+        {
+          "t": "No salté: miré los estudios",
+          "p": "Bien visto. El grupo con TDAH rinde peor en promedio, pero hay mucha variación de una persona a otra."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿Qué tres funciones separó el estudio de Miyake (2000) con 137 universitarios?",
+          "o": [
+            "Leer, escribir y contar",
+            "Cambiar de tarea, actualizar información e inhibir respuestas",
+            "Ver, oír y tocar"
+          ],
+          "ok": 1,
+          "por": "Estaban moderadamente relacionadas, pero eran separables. De ahí el nombre del modelo: «unidad y diversidad»."
+        },
+        {
+          "p": "¿De dónde nace la idea de funciones ejecutivas?",
+          "o": [
+            "De pacientes con lesiones frontales que no lograban planificar su día",
+            "De los tests de inteligencia",
+            "De las redes sociales"
+          ],
+          "ok": 0,
+          "por": "Conservaban buenas puntuaciones en los tests de inteligencia, pero no conseguían cambiar de estrategia ni frenar impulsos."
+        },
+        {
+          "p": "En 1997, ¿qué propuso Russell Barkley como núcleo del TDAH?",
+          "o": [
+            "Que era un mito",
+            "Un problema de vista",
+            "Un déficit de inhibición conductual"
+          ],
+          "ok": 2,
+          "por": "Fue muy influyente, aunque él mismo advertía que faltaba mucha investigación para comprobarlo."
+        }
+      ],
+      "sabias": "Según una revisión de referencia, el estrés, la falta de sueño, la soledad o la falta de ejercicio empeoran las funciones ejecutivas. Alguien agotado puede parecer desorganizado sin tener un trastorno."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Contar tus ayudas",
+          "t": "Durante un día, anota qué ayudas externas usas: alarmas, listas, notas. Todas son apoyos ejecutivos, y casi nadie prescinde de ellos.",
+          "historia": "anotar qué ayudas externas usas durante un día"
+        },
+        {
+          "corta": "Buscar el estudio",
+          "t": "Si una app promete «entrenar tu cerebro», busca si hay estudios independientes que midan mejoras fuera del juego.",
+          "historia": "buscar estudios independientes antes de creer a una app que promete entrenar tu cerebro"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa cuántas ayudas usabas o qué estudios encontraste."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no te parecía tan simple.",
+        "convence": "Entraste pensando que el TDAH es, en el fondo, un déficit de funciones ejecutivas.",
+        "igual": "Entraste sin darle mucha importancia a las funciones ejecutivas."
+      },
+      "hice": {
+        "comparto": "Cuando te tocó decidir, compartiste el vídeo.",
+        "miro": "Cuando te tocó decidir, paraste a mirar qué dicen los estudios.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que una diferencia de grupo no explica cada caso, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "lenguaje-identidad"
+    },
+    "saber_mas": "**Etiqueta:** TDAH. **Término:** funciones ejecutivas. **Uso de hoy:** I, investigar. Fiabilidad y validez para describir y comparar grupos; no necesita acertar con cada persona. **Veredicto de la ficha:** matiz. **Obra:** Miyake y otros, modelo de «unidad y diversidad» (2000). **Figuras:** Akira Miyake, Naomi Friedman, Adele Diamond y Russell Barkley. **Se conecta con:** Russell Barkley, tamaño del efecto e inferencia ecológica. **Fuentes de la ficha:** Miyake y otros (2000); Diamond (2013); Willcutt y otros (2005)."
+  },
+  {
+    "id": "lenguaje-identidad",
+    "palabra": "Lenguaje de identidad",
+    "resumen": "No hay una forma correcta para todos: lo sólido es preguntar.",
+    "termino": "lenguaje-identidad",
+    "etiqueta": "autismo",
+    "uso": "R",
+    "riesgo": false,
+    "historia_humana": "El orientador de Nora escribe «alumna con TEA» en el informe. Pero cuando habla con ella dice «Nora es autista», porque así se lo ha pedido ella. Usa cada forma en su sitio. A eso se le llama lenguaje de identidad primero.",
+    "corto": {
+      "pregunta": "¿Hay que decir siempre «persona con autismo»?",
+      "accion": "La próxima vez, pregunta a la persona cómo prefiere que la nombres y usa su respuesta."
+    },
+    "choque": {
+      "frase": "«Hay que decir siempre “persona con autismo”.»",
+      "opciones": [
+        {
+          "id": "indigna",
+          "e": "😠",
+          "t": "Me indigna"
+        },
+        {
+          "id": "convence",
+          "e": "🤝",
+          "t": "Me convence"
+        },
+        {
+          "id": "igual",
+          "e": "😐",
+          "t": "Me da igual"
+        }
+      ]
+    },
+    "reflejo": {
+      "situacion": "Una compañera nueva te dice: «Soy autista». Tú siempre has oído que se dice «persona con autismo». ¿Qué haces?",
+      "opciones": [
+        {
+          "id": "corrijo",
+          "t": "La corrijo con respeto"
+        },
+        {
+          "id": "uso",
+          "t": "Uso su palabra: autista"
+        }
+      ]
+    },
+    "giro": {
+      "hecho": "En 2016, una encuesta británica a 3.470 personas mostró que **ningún término** gustaba a todos: muchos adultos autistas aceptaban «autista», y casi la mitad de los profesionales prefería «persona con autismo».",
+      "fuente": "Kenny, L. et al. (2016). Which terms should be used to describe autism? Perspectives from the UK autism community. Autism, 20(4), 442-462",
+      "url": "https://doi.org/10.1177/1362361315588200",
+      "busca": "**Para reconocerse**, la prueba es claridad y respeto: decide quien habla de sí. No hay una forma correcta para todo, así que lo más sólido es preguntar y usar la palabra que cada persona elige.",
+      "saltos": [
+        {
+          "t": "Siempre «persona con», que es lo correcto",
+          "p": "No hay consenso. Muchos adultos autistas prefieren «autista», y la ley española usa «personas con discapacidad». Depende del contexto y de cada persona."
+        },
+        {
+          "t": "Si vale para el autismo, vale para todo",
+          "p": "En una encuesta británica de 2026, el 77 % de los adultos con TDAH prefería «persona con TDAH». Lo que vale para una etiqueta no se traslada sin más."
+        },
+        {
+          "t": "No salté: usé su palabra",
+          "p": "Bien visto. Respetar cómo se nombra alguien, sin convertirlo en un examen de pureza lingüística, es lo más sólido."
+        }
+      ]
+    },
+    "peldano": {
+      "preguntas": [
+        {
+          "p": "¿De dónde surgió el lenguaje de «persona primero»?",
+          "o": [
+            "Del movimiento de las personas con discapacidad, en los años setenta y ochenta",
+            "De internet",
+            "De la Constitución de 1978"
+          ],
+          "ok": 0,
+          "por": "Buscaba dejar de reducir a la gente a su condición: no «los deficientes», sino «personas con discapacidad»."
+        },
+        {
+          "p": "En los noventa, ¿por qué lo cuestionaron activistas autistas como Jim Sinclair?",
+          "o": [
+            "Porque era muy largo",
+            "Porque presenta el autismo como un añadido que se lleva encima",
+            "Porque lo pedía la ley"
+          ],
+          "ok": 1,
+          "por": "Si no se puede separar a la persona del autismo, decir «persona con autismo» lo presenta casi como una enfermedad."
+        },
+        {
+          "p": "En 2017, ¿qué mostró Morton Ann Gernsbacher en la literatura científica?",
+          "o": [
+            "Que nadie usaba «persona con»",
+            "Que solo se usaba con adultos",
+            "Que «persona con» se usaba más con las discapacidades más estigmatizadas"
+          ],
+          "ok": 2,
+          "por": "Por eso se discute si el lenguaje de persona primero reduce el estigma o, usado así, lo subraya."
+        }
+      ],
+      "sabias": "Una guía para investigadores propone decir «intereses focalizados» en lugar de «intereses especiales», y «mayor probabilidad de autismo» en lugar de «riesgo de autismo»."
+    },
+    "mision": {
+      "opciones": [
+        {
+          "corta": "Preguntar cómo nombrar",
+          "t": "La próxima vez que hables de alguien con un diagnóstico, pregúntale cómo prefiere que lo nombres y usa su respuesta.",
+          "historia": "preguntar a alguien cómo prefiere que lo nombres y usar su respuesta"
+        },
+        {
+          "corta": "Mirar las palabras de la ley",
+          "t": "Lee el nuevo artículo 49 de la Constitución en el BOE y fíjate en qué palabras usa para nombrar a las personas.",
+          "historia": "leer el artículo 49 de la Constitución y fijarte en cómo nombra a las personas"
+        }
+      ],
+      "retorno": "el día de la vuelta, piensa qué te respondieron o qué palabras usaba la ley."
+    },
+    "historia": {
+      "pensaba": {
+        "indigna": "Entraste con la frase atravesada: no te parecía que hubiera una sola forma.",
+        "convence": "Entraste pensando que hay que decir siempre «persona con autismo».",
+        "igual": "Entraste sin darle mucha importancia a cómo se nombra a la gente."
+      },
+      "hice": {
+        "corrijo": "Cuando te tocó decidir, la corregiste.",
+        "uso": "Cuando te tocó decidir, usaste su palabra.",
+        "tiempo": "Cuando te tocó decidir, se te fue el tiempo."
+      },
+      "ahora": "Ahora sabes que no hay una forma correcta para todos y que lo sólido es preguntar, y vas a {mision}."
+    },
+    "vuelta": {
+      "siguiente": "tdah"
+    },
+    "saber_mas": "**Etiqueta:** autismo. **Término:** lenguaje de identidad primero y de persona primero. **Uso de hoy:** R, reconocerse. Pide claridad y respeto; no necesita una prueba clínica, pero tampoco la sustituye. **Veredicto de la ficha:** mito. **Obra:** Kenny y otros, «Which terms should be used to describe autism?» (2016). **Figuras:** Lorcan Kenny, Elizabeth Pellicano, Jim Sinclair y Morton Ann Gernsbacher. **Se conecta con:** estigma, autoadscripción y modelo social. **Fuentes de la ficha:** Kenny y otros (2016); Gernsbacher (2017); BOE, reforma del artículo 49 de la Constitución (2024)."
+  }
+]

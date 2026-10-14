@@ -1,6 +1,6 @@
 # Episodio en siete tiempos · motor común
 
-Motor sin dependencias y sin servidor que usan las webs del proyecto (BrainBox, PostLab, NeuroLab…). Funciona también dentro de un HTML de doble clic. Todo se guarda solo en el dispositivo (`localStorage`, claves `<sitio>:cuaderno` y `<sitio>:ajustes-episodio`).
+Motor sin dependencias y sin servidor que usan las webs del proyecto (BrainBox, PostLab, NeuroLab…). Funciona también dentro de un HTML de doble clic. Todo se guarda solo en el dispositivo (`localStorage`, claves `<sitio>:episodios` —o `cfg.clave`— y `<sitio>:ajustes-episodio`). La clave del cuaderno del episodio va aparte de la del cuaderno de la web; si encuentra datos del episodio en la antigua `<sitio>:cuaderno`, los copia una vez a la nueva sin borrar nada.
 
 ## Uso
 

@@ -5,7 +5,8 @@
      ep.portada(el); ep.abrir(el, id[, { grupo: true }]); ep.vuelta(el, idMision); ep.lista(el); ep.cuaderno(el);
    Opcional, la pregunta de llegada (Método 1.2, apartado 3.4): con cfg.llegada, quien llega «con la cabeza a mil»
    recibe una versión corta del episodio (ep.corto: una pregunta y una acción pequeña).
-   El formato de cada episodio está en LEEME.md. Todo se guarda solo en el dispositivo (localStorage). */
+   El formato de cada episodio está en LEEME.md. Todo se guarda solo en el dispositivo (localStorage), en la clave
+   «sitio:episodios» (o cfg.clave), separada del cuaderno de la web. */
 (function () {
   'use strict';
 
@@ -114,7 +115,20 @@
     const C = Object.assign({ nombre: 'Episodio', porDentro: false, grupo: true, demo: false, unoAlDia: true, minutos: 7 }, cfg);
     const EP = C.episodios || [];
     const POR_ID = {}; EP.forEach(e => { POR_ID[e.id] = e; });
-    const datos = almacen(C.sitio + ':cuaderno', { v: 1, palabras: {}, misiones: [], retornos: [], historias: [], racha: 0, nuevos: {} });
+    // El cuaderno del episodio va en su propia clave (sitio:episodios), aparte del cuaderno de la web.
+    // Antes iba en sitio:cuaderno, que en PostLab y NeuroLab es también la clave del cuaderno de la web:
+    // si ahí hay datos del episodio y la clave nueva está vacía, se copian una vez (sin borrar nada).
+    const CAMPOS = ['palabras', 'misiones', 'retornos', 'historias', 'racha', 'nuevos'];
+    const CLAVE = C.clave || (C.sitio + ':episodios');
+    try {
+      const viejo = JSON.parse(localStorage.getItem(C.sitio + ':cuaderno'));
+      if (CLAVE !== C.sitio + ':cuaderno' && localStorage.getItem(CLAVE) === null && viejo && typeof viejo === 'object' && viejo.palabras && typeof viejo.palabras === 'object') {
+        const nuevo = { v: 1 };
+        CAMPOS.forEach(k => { if (viejo[k] !== undefined) nuevo[k] = viejo[k]; });
+        localStorage.setItem(CLAVE, JSON.stringify(nuevo));
+      }
+    } catch (e) { /* sin almacenamiento: el episodio funciona igual */ }
+    const datos = almacen(CLAVE, { v: 1, palabras: {}, misiones: [], retornos: [], historias: [], racha: 0, nuevos: {} });
     const ajustes = almacen(C.sitio + ':ajustes-episodio', { sonido: true, reloj: true, dentro: !!C.porDentroInicial, grupo: false, demo: !!C.demoInicial });
     let prefs = ajustes.leer();
     const guardarPrefs = () => ajustes.guardar(prefs);
