@@ -320,3 +320,52 @@ export function poner(el, ...kids) {
 
 // El logo: una etiqueta (lo que se nombra) y cinco puntos (los cinco usos de IDEAR, cada uno con su prueba)
 export const LOGO = '<svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><path class="lleno" fill-rule="evenodd" d="M2.5 20 9.6 11h11.2a2.2 2.2 0 0 1 2.2 2.2v13.6a2.2 2.2 0 0 1-2.2 2.2H9.6ZM8.1 20a2.1 2.1 0 1 0 4.2 0a2.1 2.1 0 1 0-4.2 0Z"/><g class="puntos"><circle cx="28.70" cy="9.30" r="2.3" style="--i:0;--c:var(--v-I)"/><circle cx="33.40" cy="14.00" r="2.3" style="--i:1;--c:var(--v-D)"/><circle cx="35.20" cy="20.00" r="2.3" style="--i:2;--c:var(--v-E)"/><circle cx="33.40" cy="26.00" r="2.3" style="--i:3;--c:var(--v-A)"/><circle cx="28.70" cy="30.70" r="2.3" style="--i:4;--c:var(--v-R)"/></g></svg>';
+
+// Cinco imágenes, una por uso (L13): un dibujo por clase de trabajo de la etiqueta, no uno por ficha
+const DIBUJOS = {
+  I: '<circle cx="20" cy="20" r="12"/><path d="M29 29l11 11"/><circle cx="15" cy="23" r="2.4" fill="currentColor" stroke="none"/><circle cx="20" cy="16" r="2.4" fill="currentColor" stroke="none"/><circle cx="25" cy="23" r="2.4" fill="currentColor" stroke="none"/>',
+  D: '<circle cx="18" cy="15" r="6"/><path d="M6 39c0-7.5 5.4-12.5 12-12.5S30 31.5 30 39"/><path d="M38 12v13"/><path d="M31.5 18.5h13"/>',
+  E: '<path d="M24 13c-5-3.6-11.5-3.8-17-1.6v25c5.5-2.2 12-2 17 1.6c5-3.6 11.5-3.8 17-1.6v-25c-5.5-2.2-12-2-17 1.6z"/><path d="M24 13v25"/>',
+  A: '<circle cx="15" cy="24" r="7.5"/><path d="M22.5 24H41"/><path d="M35 24v7"/><path d="M40.5 24v5"/>',
+  R: '<circle cx="24" cy="15" r="5.5" fill="currentColor" stroke="none"/><path d="M14.5 37c0-6 4.2-10 9.5-10s9.5 4 9.5 10"/><circle cx="9.5" cy="20" r="4"/><circle cx="38.5" cy="20" r="4"/><path d="M3 36c0-5 2.8-8.2 6.5-8.2M45 36c0-5-2.8-8.2-6.5-8.2"/>',
+};
+export function imgUso(c, { grande = false } = {}) {
+  if (!DIBUJOS[c]) return null;
+  return h('span', { class: `vimg${grande ? ' grande' : ''}`, style: { '--c': `var(--v-${c})` }, 'aria-hidden': 'true',
+    html: `<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" focusable="false">${DIBUJOS[c]}</svg>` });
+}
+
+// Escuchar (L9): lee un texto con la voz del dispositivo, en trozos cortos para que no se corte en el móvil
+export const HAY_VOZ = typeof window !== 'undefined' && 'speechSynthesis' in window && typeof SpeechSynthesisUtterance !== 'undefined';
+let alParar = null;
+export function pararVoz() {
+  if (HAY_VOZ) { try { speechSynthesis.cancel(); } catch (e) { /* nada */ } }
+  const f = alParar; alParar = null; if (f) f();
+}
+export function leerEnVoz(texto, alFin) {
+  if (!HAY_VOZ) return;
+  pararVoz();
+  const limpio = String(texto).replace(/\*\*?|_/g, '').replace(/\s+/g, ' ').trim();
+  const trozos = limpio.match(/[^.!?¿¡…]{1,220}[.!?…»]*|.{1,220}/g) || [];
+  const voces = speechSynthesis.getVoices().filter(v => /^es(-|_)ES/i.test(v.lang));
+  alParar = alFin || null;
+  trozos.forEach((t, i) => {
+    const u = new SpeechSynthesisUtterance(t.trim());
+    u.lang = 'es-ES'; if (voces.length) u.voice = voces[0];
+    if (i === trozos.length - 1) u.onend = () => { const f = alParar; alParar = null; if (f) f(); };
+    speechSynthesis.speak(u);
+  });
+}
+// Botón «Escuchar» que lee lo que devuelva texto(); vuelve a pulsarse para parar
+export function botonEscuchar(texto, etiqueta = 'Escuchar') {
+  if (!HAY_VOZ) return null;
+  const b = h('button', { class: 'btn small escuchar', type: 'button', 'aria-pressed': 'false' });
+  const pon = on => { b.setAttribute('aria-pressed', String(on)); b.replaceChildren(h('span', { 'aria-hidden': 'true' }, on ? '■ ' : '🔊 '), on ? 'Parar' : etiqueta); };
+  pon(false);
+  b.addEventListener('click', () => {
+    if (b.getAttribute('aria-pressed') === 'true') { pararVoz(); return; }
+    pon(true);
+    leerEnVoz(texto(), () => pon(false));
+  });
+  return b;
+}

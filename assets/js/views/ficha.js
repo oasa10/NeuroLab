@@ -1,11 +1,19 @@
-import { h, USOS, CODIGOS, ESTADOS, TIPOS, VEREDICTOS, FASES, URL_BASE, REPO, anio, idear, famTag, famColor, marcaEstado, marcaVeredicto, recuadro, parrafos, inline, toggles, tip, tipTerm } from '../lib.js';
+import { h, poner, USOS, CODIGOS, ESTADOS, TIPOS, VEREDICTOS, FASES, URL_BASE, REPO, anio, idear, famTag, famColor, marcaEstado, marcaVeredicto, recuadro, parrafos, inline, toggles, tip, tipTerm, imgUso, botonEscuchar } from '../lib.js';
 import * as cuaderno from '../cuaderno.js';
 import { pasoMinimo } from '../metodo.js';
+import { deTermino } from '../episodio.js';
+import { POR_ID } from '../etiquetas.js';
 
 export { URL_BASE };
+// Autoría para «Cómo citar»: el origen es el Método BrainBox, que no se explica aquí
+export const AUTORIA = 'Salazar, Osman (2026)';
+// Una historia humana (L14): de los cinco ejemplos, el primero que empieza por una persona
+const HUMANOS = 'tutora|tutor|madre|padre|familia|alumna|alumno|maestra|maestro|profesora|profesor|orientadora|orientador|psicóloga|psicólogo|psiquiatra|pediatra|neuropediatra|médica|médico|persona|trabajadora|trabajador|opositora|opositor|estudiante|adolescente|niña|niño|chica|chico|joven|mujer|hombre|adulta|adulto|abuela|abuelo|hermana|hermano|empleada|empleado|investigadora|investigador|periodista|docente|logopeda|enfermera|enfermero|asesora|asesor|jueza|juez|vecina|vecino|paciente|alguien|pareja|activista|usuaria|usuario|terapeuta|educadora|educador|directora|director';
+const CON_PERSONA = new RegExp(`^(?:En [^,]{1,40}, )?(?:Una?|El|La|Alguien)\\b(?:\\s+\\S+){0,2}?\\s*\\b(${HUMANOS})\\b`, 'i');
+const textoEjemplo = e => (typeof e === 'string' ? e : `${e.titulo}: ${e.texto}`);
 export const EMOCIONES = [['curiosidad', 'Curiosidad'], ['alivio', 'Alivio'], ['inquietud', 'Inquietud'], ['rechazo', 'Rechazo'], ['confusion', 'Confusión'], ['indiferencia', 'Indiferencia']];
 
-export function render(root, ctx, parts) {
+export function render(root, ctx, parts, q) {
   const t = ctx.byId.get(parts[0]);
   if (!t) {
     document.title = 'Término no encontrado · NeuroLab';
@@ -56,15 +64,29 @@ export function render(root, ctx, parts) {
       .map(([id, l]) => h('button', { type: 'button', onclick: () => document.getElementById(id)?.scrollIntoView({ behavior: suave(), block: 'start' }) }, l)));
   const conLinea = t.anio !== null && t.anio >= 1790;
   const linea = conLinea ? h('figure', { class: 'mini-tl' }) : null;
+  // Primero una persona, después la definición (L14)
+  const historia = h('div');
+  let ejemploArriba = null;
+  const art = h('article');
+  // Escuchar la ficha (L9): lo que se ve, de arriba abajo, sin los datos de la tabla
+  const escuchar = botonEscuchar(() => [...art.querySelectorAll('h1, .historia-humana p, .nucleo, #s-porque .prosa, #s-paraque li, #s-ahora .prosa, #s-debate > p')]
+    .map(n => n.innerText.trim()).filter(Boolean).join('. ').replace(/\.\s*\./g, '.'), 'Escuchar la ficha');
+  const tras = q && q.get('tras') === 'episodio';
+  const etiqueta = POR_ID.get(t.id);
 
   root.append(
     h('nav', { class: 'crumbs', 'aria-label': 'Ruta' }, h('a', { href: '#/explorar' }, 'Explorar'), ' › ', h('a', { href: `#/explorar?familia=${encodeURIComponent(t.familia)}` }, t.familia)),
     h('div', { class: 'ficha' },
-      h('article', null,
+      poner(art,
+        tras ? recuadro('recuerda', 'Episodio terminado', `Esta es la ficha completa de «${t.lema}»: lo que hay detrás de la etiqueta, con sus fuentes. Tu misión y tu historia están en `, h('a', { href: '#/cuaderno' }, 'tu cuaderno'), '.') : null,
         h('p', { class: 'nivel' }, 'Nivel 1 · Enterarte'),
-        h('h1', null, t.lema),
+        h('div', { class: 'ficha-titulo' },
+          h('h1', null, t.lema),
+          t.usos.length ? h('div', { class: 'ficha-imgs', title: 'Para qué se usa: ' + t.usos.map(u => USOS[u].nombre.toLowerCase()).join(', ') }, t.usos.map(u => imgUso(u))) : null),
         t.variantes.length ? h('p', { class: 'vars' }, 'También: ', t.variantes.join(' · ')) : null,
-        h('div', { class: 'chips' }, idear(t.usos, { grande: true }), marcaEstado(t.estado)),
+        h('div', { class: 'chips' }, idear(t.usos, { grande: true }), marcaEstado(t.estado), escuchar),
+        etiqueta ? h('p', { class: 'small', style: { margin: '10px 0 0' } }, h('a', { href: `#/etiqueta/${encodeURIComponent(t.id)}` }, `${etiqueta.corto}, por su uso: qué prueba pide cada uno y quién la rodea →`)) : null,
+        historia,
         t.definicion ? h('p', { class: 'nucleo', style: { '--c': famColor(t.familia) || 'var(--accent)' } }, t.definicion) : null,
         indice,
         t.estado === 'dudosa' ? recuadro('atencion', 'Ficha dudosa', 'Las fuentes se contradicen o no hemos encontrado una que confirme el año o la obra. Tómala con cautela: por eso no sale en los juegos.') : null,
@@ -105,8 +127,17 @@ export function render(root, ctx, parts) {
           h('p', { class: 'small', style: { margin: 0 } }, 'Esta ficha explica un término; no sirve para diagnosticar a nadie. Si te preocupa algo de ti o de alguien cercano, háblalo con un profesional. ', h('a', { href: '#/conocer/ayuda' }, 'Dónde pedir ayuda'), '.')),
         h('div', { class: 'card' },
           h('h2', null, 'Cómo citar esta ficha'),
-          h('p', { class: 'cite' }, `«${t.lema}». En NeuroLab. Consulta, juega y aprende sobre neurodiversidad, diagnósticos y etiquetas (2026). ${url} [consulta: ${hoy}].`)))),
+          h('p', { class: 'cite' }, `${AUTORIA}. «${t.lema}». En NeuroLab. Consulta, juega y aprende sobre neurodiversidad, diagnósticos y etiquetas. Con el Método BrainBox. ${url} [consulta: ${hoy}].`)))),
   );
+
+  const ponHistoria = (texto, ep) => {
+    if (!historia.isConnected || historia.firstChild) return;
+    historia.replaceChildren(h('aside', { class: 'historia-humana', style: { '--c': `var(--v-${(ep && ep.uso) || t.usos[0] || 'E'})` } },
+      h('b', { class: 'ct' }, 'Una historia'),
+      h('p', null, inline(texto)),
+      ep && !tras ? h('a', { class: 'btn small', href: `#/episodio/${encodeURIComponent(ep.id)}` }, '▶ Vívelo en un episodio de siete minutos') : null));
+  };
+  const historiaEp = deTermino(ctx, t.id).catch(() => null);
 
   if (linea) lineaTiempo(linea, t, conexiones);
 
@@ -120,12 +151,20 @@ export function render(root, ctx, parts) {
       return;
     }
     sec.porque.replaceChildren(tituloPorque, h('div', { class: 'prosa' }, parrafos(c.contexto)));
+    // La historia de arriba: la del episodio, si la palabra tiene; si no, el primer ejemplo con una persona (no en las fichas de personas)
+    historiaEp.then(ep => {
+      if (ep && ep.historia_humana) ponHistoria(ep.historia_humana, ep);
+    });
+    if (!persona && c.ejemplos?.length) {
+      ejemploArriba = c.ejemplos.find(e => CON_PERSONA.test(textoEjemplo(e))) || null;
+      historiaEp.then(ep => { if (!(ep && ep.historia_humana) && ejemploArriba) ponHistoria(textoEjemplo(ejemploArriba), null); });
+    }
     if (c.ejemplos?.length) {
       sec.paraque.hidden = false;
       const n = c.ejemplos.length;
       sec.paraque.replaceChildren(h('h2', null, h('span', { class: 'q' }, '¿Para qué?'), n === 5 ? 'Cinco ejemplos' : `${['', 'Un ejemplo', 'Dos ejemplos', 'Tres ejemplos', 'Cuatro ejemplos'][n] || n + ' ejemplos'}`),
         h('ol', { class: 'ejemplos' }, c.ejemplos.map(e => {
-          const txt = typeof e === 'string' ? e : `${e.titulo}: ${e.texto}`;
+          const txt = textoEjemplo(e);
           const m = /^([^:.]{3,60}):\s+(.+)$/s.exec(txt);
           return h('li', null, h('div', null, m ? [h('b', null, inline(m[1])), h('span', null, inline(m[2]))] : h('span', null, inline(txt))));
         })));
@@ -136,9 +175,9 @@ export function render(root, ctx, parts) {
     }
     if (c.sabias_que) sec.sabias.replaceChildren(recuadro('sabias', null, inline(c.sabias_que)));
     sec.piensa.replaceChildren(...piensa(t, c));
-    if (c.paso) sec.paso.replaceChildren(h('section', { class: 'bloque-q', id: 's-paso' }, h('h2', null, h('span', { class: 'q' }, 'Fuera de la pantalla'), 'Un paso pequeño'),
+    if (c.paso) sec.paso.replaceChildren(h('section', { class: 'bloque-q', id: 's-paso' }, h('h2', null, h('span', { class: 'q' }, 'Fuera de la pantalla'), 'Una acción mínima'),
       recuadro('recuerda', 'Esta semana, si quieres', inline(c.paso)),
-      h('details', null, h('summary', null, 'Convertirlo en tu paso mínimo'), pasoMinimo({ sugerencia: c.paso.replace(/\.$/, ''), titulo: 'Tu paso mínimo', origen: t.id }))));
+      h('details', null, h('summary', null, 'Convertirla en tu acción mínima'), pasoMinimo({ sugerencia: c.paso.replace(/\.$/, ''), titulo: 'Tu acción mínima', origen: t.id }))));
   }).catch(() => { sec.porque.replaceChildren(h('p', { class: 'muted' }, 'No se ha podido cargar el resto de la ficha. Prueba a recargar la página.')); sec.piensa.replaceChildren(...piensa(t, null)); });
 }
 

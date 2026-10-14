@@ -1,6 +1,6 @@
 // NeuroLab: carga los datos, gestiona las rutas (#/...) y el tema.
 import Fuse from '../vendor/fuse-7.5.0.esm.min.js';
-import { h, storage, tip } from './lib.js';
+import { h, storage, tip, pararVoz } from './lib.js';
 import * as cuaderno from './cuaderno.js';
 
 const VISTAS = {
@@ -14,12 +14,16 @@ const VISTAS = {
   pensar: () => import('./views/pensar.js'),
   cuaderno: () => import('./views/cuaderno.js'),
   conocer: () => import('./views/acerca.js'),
+  etiqueta: () => import('./views/etiqueta.js'),
+  episodio: () => import('./views/episodio.js'),
+  vuelta: () => import('./views/episodio.js'),
+  clase: () => import('./views/episodio.js'),
 };
 // Nivel 1: enterarte. Nivel 2: implicarte.
-const NIVEL = { explorar: 1, termino: 1, viajar: 1, visualizar: 1, aprender: 2, jugar: 2, pensar: 2, cuaderno: 2 };
-const NAV = { termino: 'explorar' };
+const NIVEL = { explorar: 1, etiqueta: 1, termino: 1, viajar: 1, visualizar: 1, aprender: 2, jugar: 2, pensar: 2, cuaderno: 2 };
+const NAV = { termino: 'explorar', etiqueta: 'explorar', vuelta: 'cuaderno' };
 // Direcciones antiguas
-const ALIAS = { cronologia: 'viajar', mapa: 'visualizar/mapa', tendencias: 'visualizar/tendencias', acerca: 'conocer', ayuda: 'conocer/ayuda' };
+const ALIAS = { cronologia: 'viajar', mapa: 'visualizar/mapa', tendencias: 'visualizar/tendencias', acerca: 'conocer', ayuda: 'conocer/ayuda', etiquetas: 'explorar' };
 
 const app = document.getElementById('app');
 let ctx = null, actual = null, primera = true;
@@ -45,7 +49,7 @@ async function cargar() {
   let contenidoMap = null;
   return { terms, byId, rels, hitos, aprender, series, vecinos, fuse, cronologico, juego: t => t.estado !== 'dudosa' && t.juego,
     contenido: () => contenidoMap ? Promise.resolve(contenidoMap) : contenido().then(m => (contenidoMap = m)),
-    pensar: perezoso('data/pensar.json') };
+    pensar: perezoso('data/pensar.json'), episodios: perezoso('data/episodios.json') };
 }
 
 function leerRuta() {
@@ -74,6 +78,7 @@ async function ir() {
   }
   document.body.dataset.nivel = NIVEL[nombre] || 0;
   tip.hide();
+  pararVoz();
   if (actual?.destroy) { try { actual.destroy(); } catch (e) { /* nada */ } }
   actual = null;
   const cargarVista = VISTAS[nombre];
@@ -82,7 +87,7 @@ async function ir() {
   if (!cargarVista) { noEncontrado(root); return; }
   try {
     const mod = await cargarVista();
-    actual = (await mod.render(root, ctx, parts.slice(1), q)) || null;
+    actual = (await mod.render(root, ctx, parts.slice(1), q, nombre)) || null;
   } catch (e) {
     console.error(e);
     root.replaceChildren(h('div', { class: 'empty' }, h('h1', null, 'Algo ha fallado'), h('p', null, 'No se ha podido mostrar esta página. Prueba a recargarla.')));

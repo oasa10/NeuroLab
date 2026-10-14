@@ -41,7 +41,7 @@ export const PELDANOS = {
   ser: [
     { n: 'Automático', d: 'Lo que te sale sin pensarlo: primero sientes, luego actúas y, por último, piensas.', ok: () => true, pista: 'Di cómo llegas hoy en la página de inicio o haz tu primer termómetro.' },
     { n: 'Notar', d: 'Has puesto nombre a lo que sientes ante un tema.', ok: c => c.sap.sentir >= 1 || c.llegadas.length >= 1, pista: 'Completa un termómetro de sentir, actuar y pensar en Pensar y aplicar.' },
-    { n: 'Separar', d: 'Distingues lo que sientes, lo que te sale hacer y lo que piensas.', ok: c => entradas(c, 'sap') >= 1, pista: 'Completa tres termómetros con temas distintos.' },
+    { n: 'Separar', d: 'Distingues lo que sientes, cómo te sale actuar y lo que piensas.', ok: c => entradas(c, 'sap') >= 1, pista: 'Completa tres termómetros con temas distintos.' },
     { n: 'Entrenar', d: 'Practicas pensar antes de actuar, con calma.', ok: c => entradas(c, 'sap') >= 3, pista: 'Resuelve tres situaciones en modo reto, con el reloj en marcha.' },
     { n: 'Reto', d: 'Lo pones a prueba bajo presión, cuando toca actuar primero.', ok: c => entradas(c, 'sap') >= 3 && Object.keys(c.situaciones).length >= 3 && c.sap.modos.reto, pista: '¡Arriba del todo! Úsalo la próxima vez que una conversación se caliente.' },
   ],
@@ -55,8 +55,8 @@ export const PELDANOS = {
   hacer: [
     { n: 'Aptitud', d: 'Tienes lo que hace falta para empezar: curiosidad y un rato.', ok: () => true, pista: 'Termina cualquier juego.' },
     { n: 'Habilidad', d: 'Sabes ejecutar los pasos: has terminado un juego.', ok: c => veces(c) >= 1, pista: 'Saca un 80 % en un juego, o una racha de 8 en «¿Antes o después?».' },
-    { n: 'Destreza', d: 'Lo haces de forma fluida: buenas marcas sin pensarlo demasiado.', ok: c => veces(c) >= 1 && juegosCon(c, .8) >= 1, pista: 'Caza un salto en el mundo real, resuelve tres situaciones y prepara un paso mínimo.' },
-    { n: 'Competencia', d: 'Lo llevas al entorno real: titulares, conversaciones, decisiones.', ok: c => juegosCon(c, .8) >= 1 && entradas(c, 'caza') >= 1 && Object.keys(c.situaciones).length >= 3 && entradas(c, 'amv') >= 1, pista: 'Vuelve a tu cuaderno y cuenta qué pasó con tu paso mínimo (el retorno).' },
+    { n: 'Destreza', d: 'Lo haces de forma fluida: buenas marcas sin pensarlo demasiado.', ok: c => veces(c) >= 1 && juegosCon(c, .8) >= 1, pista: 'Caza un salto en el mundo real, resuelve tres situaciones y prepara una acción mínima.' },
+    { n: 'Competencia', d: 'Lo llevas al entorno real: titulares, conversaciones, decisiones.', ok: c => juegosCon(c, .8) >= 1 && entradas(c, 'caza') >= 1 && Object.keys(c.situaciones).length >= 3 && entradas(c, 'amv') >= 1, pista: 'Vuelve a tu cuaderno y cuenta qué pasó con tu acción mínima (el retorno).' },
     { n: 'Experiencia cultivada', d: 'Aprendes de tu práctica revisada y la ajustas.', ok: c => entradas(c, 'caza') >= 1 && entradas(c, 'amv') >= 1 && c.entradas.some(e => e.revision), pista: '¡Arriba del todo! Enséñale a alguien a preguntar «¿para qué?».' },
   ],
   crear: [
@@ -93,7 +93,7 @@ export const INSIGNIAS = [
   { id: 'ciclo', n: 'Ciclos, no personas', d: 'Convierte una etiqueta en un ciclo.', ico: '↺', eje: 'crear', ok: c => entradas(c, 'ciclo') >= 1 },
   { id: 'narrador', n: 'Narrador', d: 'Escribe tu relato.', ico: '📖', eje: 'crear', ok: c => !!c.relato.texto },
   { id: 'antesdespues', n: 'Antes y después', d: 'Vuelve a responder «Lo que creo» y compara.', ico: '⇄', eje: 'crear', ok: c => !!c.creencias.despues },
-  { id: 'paso', n: 'Primer paso', d: 'Prepara tu paso mínimo, con día y forma de comprobarlo.', ico: '👣', eje: 'hacer', ok: c => entradas(c, 'amv') >= 1 },
+  { id: 'paso', n: 'Primer paso', d: 'Prepara tu acción mínima, con día y forma de comprobarlo.', ico: '👣', eje: 'hacer', ok: c => entradas(c, 'amv') >= 1 },
   { id: 'revision', n: 'Segunda mirada', d: 'Vuelve a una entrada de tu cuaderno y cuenta qué pasó.', ico: '↻', eje: 'hacer', ok: c => c.entradas.some(e => e.revision) },
 ];
 

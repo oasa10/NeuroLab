@@ -1,6 +1,6 @@
 // Jugar: cinco juegos para poner a prueba lo aprendido. Cada partida suma en tu cuaderno.
 // Solo juegan las fichas aptas (ctx.juego): las dudosas se quedan en el banquillo, no sería justo.
-import { h, USOS, CODIGOS, VEREDICTOS, anio, shuffle, storage, corta, cabeza, recuadro, marcaVeredicto, famTag, norm, plural, poner } from '../lib.js';
+import { h, USOS, CODIGOS, VEREDICTOS, anio, shuffle, storage, corta, cabeza, recuadro, marcaVeredicto, famTag, norm, plural, poner, imgUso } from '../lib.js';
 import * as cuaderno from '../cuaderno.js';
 import { pasoMinimo } from '../metodo.js';
 
@@ -17,7 +17,7 @@ const JUEGOS = {
   },
   usos: {
     titulo: '¿Para qué se usa?', eje: 'hacer', rondas: '10 rondas',
-    texto: 'Una situación concreta y cinco usos: ¿la etiqueta está investigando, diagnosticando, educando, abriendo un acceso o ayudando a reconocerse?',
+    texto: 'Una situación concreta y cinco usos, cada uno con su imagen: ¿la etiqueta está investigando, diagnosticando, educando, abriendo un acceso o ayudando a reconocerse?',
     entrena: 'aplicar IDEAR a casos reales. Con 8 de 10, insignia «Manos a IDEAR».', f: juegoUsos,
   },
   mito: {
@@ -152,7 +152,7 @@ function mensajeRacha(n) {
   return 'Racha de cero. Tranquilidad: la historia de estas etiquetas es tan enrevesada que hasta los manuales diagnósticos se revisan una y otra vez.';
 }
 
-// Pantalla final: puntuación, mensaje amable, fallos con sus fichas, repetir y un paso fuera de la pantalla
+// Pantalla final: puntuación, mensaje amable, fallos con sus fichas, repetir y una acción fuera de la pantalla
 function final(el, api, { puntos, total, totalCuaderno = total, racha = false, fallos = [], paso, otra }) {
   const clave = api.clave;
   cuaderno.juego(clave, puntos, totalCuaderno);
@@ -167,10 +167,10 @@ function final(el, api, { puntos, total, totalCuaderno = total, racha = false, f
   const pasoCaja = h('div');
   const abrirPaso = h('button', { class: 'btn small', type: 'button', 'aria-expanded': 'false', onclick: () => {
     if (pasoCaja.childElementCount) { pasoCaja.replaceChildren(); abrirPaso.setAttribute('aria-expanded', 'false'); return; }
-    pasoCaja.append(pasoMinimo({ sugerencia: paso.sugerencia, titulo: 'Tu paso mínimo', origen: `jugar:${clave}` }));
+    pasoCaja.append(pasoMinimo({ sugerencia: paso.sugerencia, titulo: 'Tu acción mínima', origen: `jugar:${clave}` }));
     abrirPaso.setAttribute('aria-expanded', 'true');
     pasoCaja.querySelector('input')?.focus();
-  } }, 'Convertirlo en mi paso mínimo');
+  } }, 'Convertirlo en mi acción mínima');
 
   poner(el,
     h('section', { class: 'card jg-final' },
@@ -181,7 +181,7 @@ function final(el, api, { puntos, total, totalCuaderno = total, racha = false, f
     h('section', { class: 'jg-repaso' },
       h('h3', null, fallos.length ? 'Para repasar' : 'Nada que repasar'),
       fallos.length ? h('ul', { class: 'jg-fallos' }, fallos) : h('p', { class: 'muted' }, 'Ni un fallo. Si quieres más, cambia de juego: cada uno mira las etiquetas desde un sitio distinto.')),
-    recuadro('piensa', 'Un paso fuera de la pantalla', h('p', { style: { margin: '0 0 8px' } }, paso.texto), h('div', { class: 'btns' }, abrirPaso), pasoCaja));
+    recuadro('piensa', 'Una acción fuera de la pantalla', h('p', { style: { margin: '0 0 8px' } }, paso.texto), h('div', { class: 'btns' }, abrirPaso), pasoCaja));
   api.teclas(null);
   api.anunciar(`${racha ? `Fin de la partida. Racha de ${puntos}.` : `Resultado: ${puntos} de ${total}.`} ${msg}`);
   titulo.focus({ preventScroll: true });
@@ -533,7 +533,7 @@ function juegoUsos(el, ctx, api) {
     const fb = h('div', { class: 'jg-fb', 'aria-live': 'polite' });
     const sig = h('div', { class: 'btns jg-sig' });
     const botones = CODIGOS.map(c => h('button', { class: 'vbtn jg-uso', type: 'button', 'data-v': c, onclick: () => elegir(c) },
-      h('span', { class: 'jg-letra', 'aria-hidden': 'true' }, c), h('span', null, h('b', null, USOS[c].nombre), h('small', null, USOS[c].para))));
+      imgUso(c), h('span', { class: 'jg-letra', 'aria-hidden': 'true' }, c), h('span', null, h('b', null, USOS[c].nombre), h('small', null, USOS[c].para))));
     function elegir(c) {
       if (botones[0].disabled) return;
       const ok = c === s.u, U = USOS[s.u];

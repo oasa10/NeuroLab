@@ -2,6 +2,7 @@ import { h, poner, cabeza, recuadro, descargar, fecha, plural, corta, toggles, U
 import * as cuaderno from '../cuaderno.js';
 import { EJES, ORDEN_EJES, PELDANOS, INSIGNIAS } from '../cuaderno.js';
 import { RUTAS, preguntaEntrada, semaforo, REV } from '../metodo.js';
+import { obtener } from '../episodio.js';
 
 // Las emociones de las fichas vienen de ficha.js. Se cargan aparte para que, si esa vista fallara,
 // el cuaderno siga funcionando (las reacciones se mostrarían con su clave).
@@ -26,7 +27,7 @@ const TIPOS = {
   seis: { uno: 'Seis preguntas', varios: 'Laboratorio de las seis preguntas', eje: 'saber', ir: '#/pensar/laboratorio' },
   caza: { uno: 'Caza', varios: 'Saltos cazados', eje: 'hacer', ir: '#/pensar/caza' },
   ciclo: { uno: 'Ciclo', varios: 'De la etiqueta al ciclo', eje: 'crear', ir: '#/pensar/ciclo' },
-  amv: { uno: 'Paso mínimo', varios: 'Pasos mínimos', eje: 'hacer', ir: '#/pensar/paso' },
+  amv: { uno: 'Acción mínima', varios: 'Acciones mínimas', eje: 'hacer', ir: '#/pensar/paso' },
 };
 const ORDEN_TIPOS = ['amv', 'sap', 'seis', 'caza', 'ciclo'];
 const COLOR_RUTA = { A: '#2E9E5B', B: '#3B6CC4', C: '#D89614' };
@@ -46,10 +47,16 @@ function resumen(e, conTitulo = false) {
 export function render(root, ctx) {
   document.title = 'Tu cuaderno · NeuroLab';
   const cuerpo = h('div');
+  // Tus episodios (L17): etiquetas, misiones, vueltas e historias. La racha se pausa, no se pierde
+  const episodios = h('div', { class: 'ep-cuaderno' });
   root.append(
-    cabeza(2, 'Tu cuaderno', 'Aquí queda lo que haces en NeuroLab, ordenado en cuatro ejes: lo que sientes y te sale hacer, lo que sabes, lo que haces y lo que crees. Vive solo en este navegador: nadie más lo ve, ni siquiera quien hizo NeuroLab.'),
+    cabeza(2, 'Tu cuaderno', 'Aquí queda lo que haces en NeuroLab: tus episodios, con sus misiones y tus historias, y tus cuatro ejes: lo que sientes y cómo te sale actuar, lo que sabes, lo que haces y lo que crees. Vive solo en este navegador: nadie más lo ve, ni siquiera quien hizo NeuroLab.'),
+    h('section', { id: 'episodios' }, h('h2', null, 'Tus episodios'), episodios),
     cuerpo,
   );
+  obtener(ctx).then(E => E.cuaderno(episodios, {
+    alVolver: id => { location.hash = `#/vuelta/${encodeURIComponent(id)}`; },
+    alAbrir: id => { location.hash = `#/episodio/${encodeURIComponent(id)}`; } })).catch(() => {});
   let P = null, filtro = null, abierto = null, confirmar = null, borrarTodo = false, aviso = '';
   ctx.pensar().then(p => { P = p; pintar(); }).catch(() => {});
   emocionesListas.then(() => pintar());
@@ -72,10 +79,10 @@ export function render(root, ctx) {
         h('p', { style: { margin: '0 0 6px' } }, h('b', null, 'Hacer. '), 'Otra escalera, de la aptitud a la experiencia cultivada. Ojo: actuar no es hacer. Actuar es lo que sale solo; hacer es lo que eliges, practicas y revisas.'),
         h('p', { style: { margin: 0 } }, h('b', null, 'Creer y crear. '), 'La historia que te cuentas sobre las etiquetas y sobre ti. Se revisa reencuadrando, recontextualizando y resignificando, hasta escribir una más informada. Saber y relato son los pedales: nunca se quitan.')),
       llegadas(c),
-      h('h2', null, 'Pasos mínimos pendientes de retorno ', pendientes.length ? h('span', { class: 'muted', style: { fontSize: '1rem' } }, `${pendientes.length}`) : null),
+      h('h2', null, 'Acciones mínimas pendientes de retorno ', pendientes.length ? h('span', { class: 'muted', style: { fontSize: '1rem' } }, `${pendientes.length}`) : null),
       pendientes.length ? h('div', null, h('p', { class: 'muted small' }, 'Lo que te propusiste hacer fuera de la pantalla. Cuando lo hayas hecho (o no), cuenta qué pasó: es el retorno, y es donde más se aprende.'),
         h('div', { class: 'entradas' }, pendientes.map(e => nota(e, true))))
-        : h('p', { class: 'muted' }, c.entradas.some(e => e.tipo === 'amv') ? 'Ninguno pendiente: has contado qué pasó con todos tus pasos.' : 'Aún no tienes pasos mínimos. ',
+        : h('p', { class: 'muted' }, c.entradas.some(e => e.tipo === 'amv') ? 'Ninguna pendiente: has contado qué pasó con todas tus acciones.' : 'Aún no tienes acciones mínimas. ',
           c.entradas.some(e => e.tipo === 'amv') ? null : h('a', { href: '#/pensar/paso' }, 'Prepara uno: tres minutos'), c.entradas.some(e => e.tipo === 'amv') ? null : '.'),
       insignias(c),
       entradas(propias),
@@ -126,7 +133,7 @@ export function render(root, ctx) {
     const n = k => semana.filter(x => x === k).length;
     const hoy = mapa.get(dias[13]);
     let lectura = null;
-    if (n('C') >= 2) lectura = [`Esta semana has llegado ${n('C') >= 4 ? 'muchas' : 'varias'} veces con la cabeza a mil: quizá convenga menos lectura y un paso pequeño.`, [['#/pensar/paso', 'Elegir un solo paso'], ['#/pensar/termometro', 'Tomarme la temperatura']], 'C'];
+    if (n('C') >= 2) lectura = [`Esta semana has llegado ${n('C') >= 4 ? 'muchas' : 'varias'} veces con la cabeza a mil: quizá convenga menos lectura y una acción pequeña.`, [['#/pensar/paso', 'Elegir un solo paso'], ['#/pensar/termometro', 'Tomarme la temperatura']], 'C'];
     else if (n('B') >= 2) lectura = ['Esta semana ha habido varios días con poca energía. Lo pequeño cuenta: una ficha al azar o un juego de dos minutos bastan, y no hace falta más.', [['#/azar', 'Una ficha al azar'], ['#/jugar/mito', 'Un juego de dos minutos']], 'B'];
     else if (n('A') >= 3) lectura = ['Esta semana has llegado casi siempre con calma y con ganas: buen momento para algo a fondo. Y para cuidar el ritmo, que las ganas también se gastan.', [['#/pensar/laboratorio', 'Analizar una etiqueta'], ['#/pensar/relato', 'Escribir tu relato']], 'A'];
     else if (semana.length) lectura = ['Días distintos, rutas distintas: es lo normal. La ruta se elige cada día, según cómo llegas.', [], null];
@@ -175,7 +182,7 @@ export function render(root, ctx) {
         tipos.length > 1 ? toggles([['todas', 'Todas'], ...tipos.map(t => [t, `${TIPOS[t].varios} (${propias.filter(e => e.tipo === t).length})`])], { valor: filtro || 'todas', alCambiar: v => { filtro = v && v !== 'todas' ? v : null; pintar(); } }) : null,
         vis.map(t => h('div', { class: 'grupo-entradas' }, h('h3', { class: 'sub-h' }, TIPOS[t].varios, ' ', h('a', { class: 'small', href: TIPOS[t].ir }, 'hacer otra →')),
           h('div', { class: 'entradas' }, propias.filter(e => e.tipo === t).map(e => nota(e)))))]
-        : h('p', { class: 'muted' }, 'Aún no hay entradas. Las crean las actividades de ', h('a', { href: '#/pensar' }, 'Pensar y aplicar'), ': termómetros, análisis, cazas, ciclos y pasos mínimos.'));
+        : h('p', { class: 'muted' }, 'Aún no hay entradas. Las crean las actividades de ', h('a', { href: '#/pensar' }, 'Pensar y aplicar'), ': termómetros, análisis, cazas, ciclos y acciones mínimas.'));
   }
 
   function nota(e, compacta = false) {

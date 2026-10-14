@@ -1,5 +1,5 @@
 // El método que sostiene NeuroLab por dentro: la pregunta de entrada, las tres rutas, el semáforo,
-// el recorrido de cinco pasos, el paso mínimo con su retorno y las tres preguntas transversales.
+// el recorrido de cinco pasos, la acción mínima con su retorno y las tres preguntas transversales.
 // No diagnostica ni etiqueta a nadie: lee situaciones, no personas.
 import { h, recuadro } from './lib.js';
 import * as cuaderno from './cuaderno.js';
@@ -17,12 +17,12 @@ export const RUTAS = {
   B: {
     estado: 'Desconectados', opcion: 'Sin mucha energía', como: 'Me cuesta conectar o no sé por dónde empezar.',
     ruta: 'Ruta de apoyo', idea: 'Cuando cuesta arrancar, lo que ayuda es algo pequeño y concreto. Dos minutos cuentan. No hace falta entenderlo todo hoy.',
-    sug: [['#/azar', 'Una ficha al azar'], ['#/jugar/mito', '¿Mito, matiz o cierto? (dos minutos)'], ['#/pensar/paso', 'Elige un paso mínimo']],
+    sug: [['#/azar', 'Una ficha al azar'], ['#/jugar/mito', '¿Mito, matiz o cierto? (dos minutos)'], ['#/pensar/paso', 'Elige una acción mínima']],
   },
   C: {
     estado: 'Desbordados', opcion: 'Con la cabeza a mil', como: 'Le doy muchas vueltas, me preocupa algo concreto o he leído demasiado.',
-    ruta: 'Ruta de gestión', idea: 'Cuando lo que sabes o lo que te cuentas pesa más que lo que sientes y lo que puedes hacer, más información no ayuda. Para, nota qué sientes, elige una sola pregunta y un paso pequeño.',
-    sug: [['#/pensar/termometro', 'Tómate la temperatura'], ['#/pensar/paso', 'Elige un solo paso'], ['#/conocer/ayuda', 'Dónde pedir ayuda']],
+    ruta: 'Ruta de gestión', idea: 'Cuando lo que sabes o lo que te cuentas pesa más que lo que sientes y lo que puedes hacer, más información no ayuda. Para, nota qué sientes, elige una sola pregunta y una acción pequeña.',
+    sug: [['#/pensar/termometro', 'Tómate la temperatura'], ['#/pensar/paso', 'Elige una sola acción'], ['#/conocer/ayuda', 'Dónde pedir ayuda']],
   },
 };
 
@@ -66,9 +66,9 @@ export function preguntaEntrada({ titulo = PREGUNTA, alElegir, compacta = false 
 
 // El recorrido de cinco pasos que siguen las actividades de Pensar y aplicar
 export const RECORRIDO = [
-  { n: 'Situar', d: '¿Qué está pasando y cómo llego? Lo que siento, lo que me sale hacer y lo que pienso.' },
+  { n: 'Situar', d: '¿Qué está pasando y cómo llego? ¿Qué siento, cómo me sale actuar y qué pienso?' },
   { n: 'Comprender y elegir', d: '¿Qué sé de verdad y qué supongo? Elijo una sola pregunta.' },
-  { n: 'Preparar', d: 'Un paso mínimo, con día y forma de comprobarlo.' },
+  { n: 'Preparar', d: 'Una acción mínima, con día y forma de comprobarlo.' },
   { n: 'Hacer y observar', d: 'Lo hago fuera de la pantalla y miro qué pasa.' },
   { n: 'Revisar y decidir', d: '¿Qué cambió fuera de mi explicación? Sigo, ajusto o paro.' },
 ];
@@ -87,9 +87,9 @@ export function transversales() {
     TRANSVERSALES.map(t => h('li', null, h('b', null, t.n, ': '), t.p))));
 }
 
-// El paso mínimo viable: «Haré ___, el día ___, durante ___, y comprobaré ___». Y su retorno.
+// La acción mínima viable: «Haré ___, el día ___, durante ___, y comprobaré ___». Y su retorno.
 export const REV = '¿Qué cambiará fuera de mi explicación si esto funciona?';
-export function pasoMinimo({ sugerencia = '', titulo = 'Tu paso mínimo', origen = '', alGuardar } = {}) {
+export function pasoMinimo({ sugerencia = '', titulo = 'Tu acción mínima', origen = '', alGuardar } = {}) {
   const campo = (ph, ancho) => h('input', { type: 'text', placeholder: ph, style: { width: ancho }, 'aria-label': ph });
   const hare = campo(sugerencia ? 'lo que harás' : 'lo que harás (algo pequeño)', '16em');
   if (sugerencia) hare.value = sugerencia;

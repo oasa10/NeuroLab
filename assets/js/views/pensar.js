@@ -76,7 +76,7 @@ function reloj(texto) {
   return { i, el: h('div', { class: 'reloj' }, h('div', { class: 'barra', role: 'timer', 'aria-label': 'Tiempo restante' }, i), h('p', { class: 'small muted', style: { margin: '4px 0 0' } }, texto)) };
 }
 
-// Cierre de cada actividad: lo que sube en el cuaderno, cómo vas y un enlace al paso mínimo
+// Cierre de cada actividad: lo que sube en el cuaderno, cómo vas y un enlace a la acción mínima
 function cierre(a, { sube = a.sube, nota, sugerencia, origen = a.id, sinPaso = false } = {}) {
   const c = cuaderno.leer();
   const ejes = Object.entries(sube).filter(([, n]) => n);
@@ -87,7 +87,7 @@ function cierre(a, { sube = a.sube, nota, sugerencia, origen = a.id, sinPaso = f
       [...new Set([...a.ejes, ...ejes.map(([e]) => e)])].map(e => { const p = cuaderno.peldano(e, c); return `${EJES[e].nombre}, ${p >= 0 ? PELDANOS[e][p].n.toLowerCase() : 'sin empezar'}`; }).join(' · '), '.'),
     nota ? h('p', { class: 'small', style: { margin: '6px 0 0' } }, nota) : null,
     h('div', { class: 'btns', style: { marginTop: '12px' } },
-      sinPaso ? null : h('a', { class: 'btn primary', href: pasoHref(sugerencia, origen) }, 'Convertirlo en un paso mínimo →'),
+      sinPaso ? null : h('a', { class: 'btn primary', href: pasoHref(sugerencia, origen) }, 'Convertirlo en una acción mínima →'),
       h('a', { class: 'btn', href: '#/cuaderno' }, 'Ver mi cuaderno'), h('a', { class: 'btn', href: '#/pensar' }, 'Otra actividad')));
 }
 function otras(P, k) {
@@ -497,7 +497,7 @@ function caza(root, ctx, P, q, a) {
       h('div', { class: 'btns' }, guardar), aviso);
     refrescar(); pintarSalto();
     const k = nEntradas(cuaderno.leer(), 'caza');
-    if (msg && k) form.append(cierre(a, { nota: k >= 3 ? null : `Una caza, tres situaciones y un paso mínimo te llevan a «${PELDANOS.hacer[3].n}» en Hacer.`, sugerencia: 'Preguntar «¿qué falta para cruzar el salto?» la próxima vez que oiga una conclusión rápida', origen: 'caza' }));
+    if (msg && k) form.append(cierre(a, { nota: k >= 3 ? null : `Una caza, tres situaciones y una acción mínima te llevan a «${PELDANOS.hacer[3].n}» en Hacer.`, sugerencia: 'Preguntar «¿qué falta para cruzar el salto?» la próxima vez que oiga una conclusión rápida', origen: 'caza' }));
   }
   estado(); pintar();
 }
@@ -760,7 +760,7 @@ function relato(root, ctx, P, q, a) {
   pintar();
 }
 
-// ── 7. Tu paso mínimo y tu retorno (Hacer y Creer y crear) ──
+// ── 7. Tu acción mínima y tu retorno (Hacer y Creer y crear) ──
 function paso(root, ctx, P, q, a) {
   const S0 = P.paso.sugerencias;
   const origen = q.get('o') || '';
@@ -775,25 +775,25 @@ function paso(root, ctx, P, q, a) {
     const sugs = S0[ruta] || S0.ninguna;
     const r = ruta ? metodo.RUTAS[ruta] : null;
     poner(cuerpo,
-      h('div', { class: 'panel ancho' }, pasos(['Cómo llegas', 'Elige un paso', 'Hazlo fuera', 'Cuenta qué pasó'], etapa),
+      h('div', { class: 'panel ancho' }, pasos(['Cómo llegas', 'Elige una acción', 'Hazla fuera', 'Cuenta qué pasó'], etapa),
         !ruta || cambiarRuta ? metodo.preguntaEntrada({ compacta: true, titulo: 'Antes de elegir: ¿cómo llegas hoy?', alElegir: () => { cambiarRuta = false; pintar(); } })
           : h('p', { class: 'ruta-hoy-linea', style: { '--oc': COLOR_RUTA[ruta] } }, h('span', { class: 'punto', 'aria-hidden': 'true' }), 'Hoy llegas ', h('b', null, r.opcion.toLowerCase()), ` (${r.ruta.toLowerCase()}). `,
             h('button', { class: 'linkbtn', type: 'button', onclick: () => { cambiarRuta = true; pintar(); } }, 'Cambiar')),
-        h('h2', null, 'Elige un paso pequeño'),
+        h('h2', null, 'Elige una acción pequeña'),
         h('p', { class: 'muted' }, r ? `Ideas para hoy, pensadas para la ${r.ruta.toLowerCase()}. ${ruta === 'C' ? 'Uno solo, y que no consista en leer más.' : ruta === 'B' ? 'Que quepa en cinco minutos.' : 'Algo que pongas a prueba fuera de aquí.'}` : 'Algunas ideas. Cuando digas cómo llegas, se ajustarán a tu día.',
           ' Pulsa una para usarla o escribe la tuya.'),
         h('div', { class: 'chips sugs' }, sugs.map(s => h('button', { class: 'chip', type: 'button', 'aria-pressed': String(sugerencia === minus(s)), onclick: () => { sugerencia = minus(s); msg = ''; pintar(); document.querySelector('.amv input')?.focus({ preventScroll: true }); } }, s))),
         msg ? h('p', { class: 'feedback ok', role: 'status' }, msg, ' ', h('a', { href: '#/cuaderno' }, 'Verlo en tu cuaderno'), '.') : null,
-        metodo.pasoMinimo({ sugerencia, titulo: 'Tu paso mínimo', origen: origen || (ruta ? `ruta ${ruta}` : 'pensar'), alGuardar: () => {
+        metodo.pasoMinimo({ sugerencia, titulo: 'Tu acción mínima', origen: origen || (ruta ? `ruta ${ruta}` : 'pensar'), alGuardar: () => {
           sugerencia = ''; msg = 'Anotado. Ahora toca lo importante: hacerlo fuera de la pantalla. Cuando lo hayas hecho, vuelve aquí y cuenta qué pasó.'; pintar();
         } }),
-        recuadro('piensa', 'Por qué tan pequeño', 'Un paso mínimo antes que diez lecturas. Lo pequeño se hace, y lo que se hace se puede revisar. Si sale bien, das el siguiente; si no, has aprendido algo barato.'),
+        recuadro('piensa', 'Por qué tan pequeña', 'Una acción mínima antes que diez lecturas. Lo pequeño se hace, y lo que se hace se puede revisar. Si sale bien, das el siguiente; si no, has aprendido algo barato.'),
         metodo.transversales()),
       h('h2', null, 'Pendientes de retorno ', h('span', { class: 'muted', style: { fontSize: '1rem' } }, pend.length ? `${pend.length}` : '')),
       pend.length ? h('div', { class: 'entradas' }, pend.map(e => tarjetaPaso(e))) : h('p', { class: 'muted' }, amv.length ? 'Ninguno: has vuelto a contar qué pasó con todos tus pasos. Bien hecho.' : 'Aún no has guardado ningún paso. Cuando guardes uno, aparecerá aquí hasta que cuentes qué pasó.'),
       hechos.length ? h('section', null, h('h2', null, 'Con retorno'), h('div', { class: 'entradas' }, hechos.map(e => tarjetaPaso(e)))) : null,
       cierre(a, { sinPaso: true, nota: hechos.length ? `Has contado qué pasó en ${plural(hechos.length, 'paso', 'pasos')}: eso es lo que convierte la práctica en experiencia (y la insignia «${insignia('revision').n}»).`
-        : `Guardar un paso te da la insignia «${insignia('paso').n}». Contar qué pasó, «${insignia('revision').n}»: ahí está el último peldaño del eje Hacer.` }));
+        : `Guardar una acción te da la insignia «${insignia('paso').n}». Contar qué pasó, «${insignia('revision').n}»: ahí está el último peldaño del eje Hacer.` }));
   }
 
   function tarjetaPaso(e) {
@@ -802,7 +802,7 @@ function paso(root, ctx, P, q, a) {
     const ta = h('textarea', { 'aria-label': '¿Qué cambió fuera de tu explicación?', placeholder: 'Lo que hiciste, lo que viste y lo que cambió fuera de lo que te cuentas. Si no lo hiciste, también vale: ¿qué lo impidió?' });
     const dec = toggles(P.paso.decisiones, { valor: null });
     return h('article', { class: 'cu-nota' },
-      h('div', { class: 'meta' }, h('span', { class: 'chip chip-e', 'data-eje': 'hacer' }, 'Paso mínimo'), h('span', { class: 'muted small' }, fecha(e.fecha))),
+      h('div', { class: 'meta' }, h('span', { class: 'chip chip-e', 'data-eje': 'hacer' }, 'Acción mínima'), h('span', { class: 'muted small' }, fecha(e.fecha))),
       h('h3', null, `Haré ${minus(d.hare || e.titulo)}`),
       h('p', { class: 'small', style: { margin: '0 0 6px' } }, [d.dia && `El día ${d.dia}`, d.durante && `durante ${d.durante}`, d.comprobare && `y comprobaré ${d.comprobare}`].filter(Boolean).join(', ') || null),
       d.rev ? h('p', { class: 'small muted', style: { margin: '0 0 6px' } }, h('b', null, 'Qué cambiaría fuera: '), d.rev) : null,

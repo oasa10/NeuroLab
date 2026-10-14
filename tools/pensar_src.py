@@ -3,7 +3,7 @@
 Uso: python3 tools/pensar_src.py
 
 Las actividades usan también lib.SEIS (las seis preguntas), lib.SALTOS (los saltos de inferencia),
-lib.USOS (IDEAR) y metodo.js (rutas, recorrido, paso mínimo y transversales): aquí solo va el texto propio.
+lib.USOS (IDEAR) y metodo.js (rutas, recorrido, acción mínima y transversales): aquí solo va el texto propio.
 Los «termino» son id de la lista maestra; si una ficha no existe, la actividad no enlaza y sigue funcionando.
 """
 import json, os
@@ -12,7 +12,7 @@ R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Las siete actividades. «sube» = puntos que cada una suma en el cuaderno (lo que pasa a cuaderno.entrada)
 actividades = [
   {"id": "termometro", "n": "El termómetro", "ejes": ["ser", "saber"], "min": 5, "sube": {"ser": 6, "saber": 2},
-   "d": "Elige un término o una situación y sepáralo en tres: qué sientes, qué te sale hacer y qué piensas cuando te paras."},
+   "d": "Elige un término o una situación y sepáralo en tres: qué sientes, cómo te sale actuar y qué piensas cuando te paras."},
   {"id": "laboratorio", "n": "Laboratorio de las seis preguntas", "ejes": ["saber", "hacer"], "min": 10, "sube": {"saber": 6, "hacer": 4},
    "d": "Una etiqueta, un uso y seis preguntas. Después comparas tus respuestas con las de NeuroLab."},
   {"id": "caza", "n": "Cazadores de saltos", "ejes": ["hacer", "saber"], "min": 10, "sube": {"hacer": 6, "saber": 3},
@@ -23,8 +23,8 @@ actividades = [
    "d": "Convierte una frase-etiqueta («es que es TDAH») en un ciclo que se puede cambiar: situación, lo que siente, lo que hace, consecuencia y qué lo cambia."},
   {"id": "relato", "n": "Tu relato", "ejes": ["crear", "ser"], "min": 15, "sube": {"crear": 6},
    "d": "Escribe lo que crees sobre los diagnósticos de hoy, reencuádralo, añade lo que faltaba y cuéntalo de nuevo. Al final, compara tu antes y tu después."},
-  {"id": "paso", "n": "Tu paso mínimo y tu retorno", "ejes": ["hacer", "crear"], "min": 3, "sube": {"hacer": 6, "crear": 2},
-   "d": "Un paso pequeño fuera de la pantalla, con día y forma de comprobarlo. Y la vuelta: ¿qué cambió fuera de tu explicación?"},
+  {"id": "paso", "n": "Tu acción mínima y tu retorno", "ejes": ["hacer", "crear"], "min": 3, "sube": {"hacer": 6, "crear": 2},
+   "d": "Una acción pequeña fuera de la pantalla, con día y forma de comprobarlo. Y la vuelta: ¿qué cambió fuera de tu explicación?"},
 ]
 
 # Qué actividades convienen más según cómo llegas hoy (metodo.RUTAS)
@@ -40,7 +40,7 @@ recorrido = {
   "pasos": [
     "La tutora dice que Leo, de 7 años, «no para quieto» en clase. Su madre nota inquietud (siente), le sale buscar «síntomas de TDAH» a medianoche (actúa) y, cuando se para, piensa que quizá se está adelantando (piensa).",
     "¿Qué sabe de verdad? Que Leo se mueve en clase. No sabe cuándo, ni con qué tareas, ni si pasa también en casa. Elige una sola pregunta: ¿en qué momentos le pasa?",
-    "Su paso mínimo: «Haré una tutoría con su profesora, el jueves, durante media hora, y comprobaré si apuntamos tres momentos concretos».",
+    "Su acción mínima: «Haré una tutoría con su profesora, el jueves, durante media hora, y comprobaré si apuntamos tres momentos concretos».",
     "Va a la tutoría. Resulta que pasa sobre todo en la última hora y con las tareas largas. Lo observan dos semanas.",
     "Algo ha cambiado fuera de la explicación: ya no lee foros de madrugada y en clase prueban pausas cortas. Lo revisarán en un mes y, si sigue costando, lo hablarán con su pediatra.",
   ],
@@ -70,8 +70,8 @@ termometro = {
   ],
   "lecturas": {
     "sentir": {"t": "Va delante lo que sientes", "pista": "Es lo más habitual: primero sentimos. No es un fallo, es información. La pista: antes de decidir nada, ponle nombre a lo que sientes y dale un minuto. Nombrarlo ya es empezar a separarlo de lo que haces."},
-    "actuar": {"t": "Va delante lo que te sale hacer", "pista": "El impulso de hacer algo ya (buscar, contestar, compartir) empuja más que lo demás. La pista: mete una pausa entre el impulso y el gesto. Diez segundos o una pregunta («¿para qué lo haría?») bastan para que decidas tú y no el reflejo."},
-    "pensar": {"t": "Va delante lo que piensas", "pista": "Has llegado a pensar con bastante claridad. La pista: que pensar no se convierta en dar vueltas. Elige una sola pregunta y un paso pequeño, y deja el resto para otro día."},
+    "actuar": {"t": "Va delante cómo te sale actuar", "pista": "El impulso de hacer algo ya (buscar, contestar, compartir) empuja más que lo demás. La pista: mete una pausa entre el impulso y el gesto. Diez segundos o una pregunta («¿para qué lo haría?») bastan para que decidas tú y no el reflejo."},
+    "pensar": {"t": "Va delante lo que piensas", "pista": "Has llegado a pensar con bastante claridad. La pista: que pensar no se convierta en dar vueltas. Elige una sola pregunta y una acción pequeña, y deja el resto para otro día."},
     "empate": {"t": "Van a la par", "pista": "Ninguno se impone claramente. La pista: fíjate en cuál te ha costado más rellenar; suele ser el que menos atiendes."},
   },
 }
@@ -221,14 +221,14 @@ situaciones = [
    "escena": "Son las dos de la mañana. Marta lleva desde la cena leyendo foros porque la tutora le ha dicho que Leo, su hijo de 7 años, «no para quieto». Te escribe por WhatsApp:",
    "dialogo": [["Marta", "Lo he leído todo. Es TDAH clarísimo: tiene nueve de los diez síntomas. Mañana pido que le den medicación."]],
    "pregunta": "¿Qué le contestas?",
-   "ruta": "C", "ruta_t": "Marta llega con la cabeza a mil. En la ruta de gestión, más información no ayuda: primero parar y nombrar lo que siente; después, una sola pregunta y un paso pequeño.",
+   "ruta": "C", "ruta_t": "Marta llega con la cabeza a mil. En la ruta de gestión, más información no ayuda: primero parar y nombrar lo que siente; después, una sola pregunta y una acción pequeña.",
    "opciones": [
      {"t": "«Si lo tienes tan claro, cuanto antes mejor.»", "ok": False,
       "fb": "Das por buenos dos saltos a la vez: del rasgo al diagnóstico (moverse en clase no es tener TDAH) y del diagnóstico al tratamiento (un tratamiento pide una evaluación y valorar beneficios, daños y alternativas con su pediatra)."},
      {"t": "«Eso del TDAH es una moda. Leo es un niño, y los niños se mueven.»", "ok": False,
       "fb": "Quieres tranquilizarla, pero caes en el otro error: dejar fuera a quien quizá necesite apoyo. Y das otro salto: que haya más diagnósticos no demuestra que sobren."},
      {"t": "«Se nota que estás agotada. Esta noche no hace falta decidir nada. ¿Qué te dijo exactamente la tutora? Mañana podrías pedirle una tutoría y, si sigues preocupada, hablarlo con su pediatra.»", "ok": True,
-      "fb": "Primero, lo que siente; luego, una sola pregunta concreta y un paso pequeño con personas que conocen a Leo. No niegas la preocupación ni confirmas el diagnóstico: llevas la decisión a quien puede evaluar."},
+      "fb": "Primero, lo que siente; luego, una sola pregunta concreta y una acción pequeña con personas que conocen a Leo. No niegas la preocupación ni confirmas el diagnóstico: llevas la decisión a quien puede evaluar."},
      {"t": "Le mandas cinco artículos más para que se informe bien.", "ok": False,
       "fb": "Con buena intención, pero a las dos de la mañana y con la cabeza a mil, más lectura suele dar más angustia, no más claridad. Lo que ayuda ahora es parar, no acumular."},
    ]},

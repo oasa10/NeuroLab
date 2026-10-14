@@ -1,45 +1,84 @@
-import { h, poner, USOS, CODIGOS, FAMILIAS, FAM_CORTA, famVar, tip, tipTerm, famColor, anio, recuadro, dialogo, inline, LOGO, SALTOS } from '../lib.js';
+import { h, poner, USOS, CODIGOS, FAMILIAS, FAM_CORTA, famVar, tip, tipTerm, famColor, anio, recuadro, dialogo, inline, LOGO, SALTOS, storage, imgUso } from '../lib.js';
+import { obtener } from '../episodio.js';
 import * as cuaderno from '../cuaderno.js';
 import { EJES, ORDEN_EJES, PELDANOS } from '../cuaderno.js';
-import { preguntaEntrada, semaforo } from '../metodo.js';
+import { semaforo } from '../metodo.js';
+
+export const PROMESA = ['Una etiqueta no pide lo mismo en la consulta, en el aula o en una ayuda.', 'NeuroLab te enseña qué pide cada uso.'];
 
 export function render(root, ctx) {
-  document.title = 'NeuroLab · Consulta, juega y aprende sobre neurodiversidad, diagnósticos y etiquetas';
+  document.title = 'NeuroLab · Qué pide cada uso de una etiqueta';
   const { terms, hitos, rels } = ctx;
   const fiables = terms.filter(t => t.estado === 'verificada' || t.estado === 'probable').length;
   const cuenta = c => terms.filter(t => t.usos.includes(c)).length;
 
-  const q = h('input', { type: 'search', name: 'q', placeholder: 'Busca una etiqueta, una persona o una idea', 'aria-label': 'Buscar en NeuroLab', autocomplete: 'off' });
+  const q = h('input', { type: 'search', name: 'q', placeholder: 'Busca una etiqueta, una persona o una idea', 'aria-label': 'Buscar en NeuroLab', autocomplete: 'off', enterkeyhint: 'search' });
   const form = h('form', { class: 'search-big', role: 'search', onsubmit: e => { e.preventDefault(); location.hash = `#/explorar?q=${encodeURIComponent(q.value.trim())}`; } }, q);
 
   const art = h('div', { class: 'hero-art' });
   const dato = h('div');
+  const puerta = h('div', { class: 'puerta' }, h('p', { class: 'muted small' }, 'Cargando el episodio de hoy…'));
   const c = cuaderno.leer();
   const salto = SALTOS[Math.floor(Math.random() * SALTOS.length)];
+  const suave = () => (matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth');
+  const todo = h('section', { id: 'todo', class: 'todo', tabindex: '-1' },
+    h('h2', null, 'Todo lo que hay en NeuroLab'),
+    h('p', { class: 'lead' }, `${terms.length} fichas sobre TDAH, autismo, altas capacidades, dislexia y las demás etiquetas del neurodesarrollo, con su historia, sus fuentes y lo que significan hoy. Ordenadas por etiqueta: eliges una, eliges para qué se usa y ves qué prueba pide.`),
+    form,
+    h('div', { class: 'btns', style: { marginTop: '14px' } },
+      h('a', { class: 'btn primary', href: '#/explorar' }, 'Explorar por etiqueta'),
+      h('a', { class: 'btn', href: '#/azar' }, '🎲 Una ficha al azar'),
+      h('a', { class: 'btn', href: '#/aprender' }, 'Aprender en diez paradas')),
+    h('div', { class: 'stats' },
+      h('div', { class: 'stat' }, h('b', null, terms.length), h('span', null, 'fichas')),
+      h('div', { class: 'stat' }, h('b', null, hitos.length), h('span', null, 'hitos')),
+      h('div', { class: 'stat' }, h('b', null, rels.length), h('span', null, 'conexiones')),
+      h('div', { class: 'stat' }, h('b', null, fiables), h('span', null, 'fichas verificadas o probables'))));
+
+  // El reto (L8): «¿Para qué se usa?», con su marcador y el peldaño del saber a la vista
+  const m = storage('mejor:usos');
+  const mejor = m && typeof m === 'object' && Number.isFinite(m.p) ? `${m.p}/${m.t || 10}` : (Number.isFinite(m) ? `${m}/10` : null);
+  const pSaber = cuaderno.peldano('saber', c);
+  const reto = h('article', { class: 'card reto' },
+    h('p', { class: 'eyebrow' }, 'El reto'),
+    h('h3', null, '¿Para qué se usa?'),
+    h('p', null, 'Diez situaciones reales. En cada una, la etiqueta hace un trabajo distinto: ¿cuál?'),
+    h('div', { class: 'reto-imgs', 'aria-hidden': 'true' }, CODIGOS.map(k => imgUso(k))),
+    h('dl', { class: 'marcador' },
+      h('div', null, h('dt', null, 'Tu mejor marca'), h('dd', null, mejor || 'Sin jugar')),
+      h('div', null, h('dt', null, 'Tu peldaño'), h('dd', null, PELDANOS.saber[Math.max(pSaber, 0)].n))),
+    h('a', { class: 'btn primary', href: '#/jugar/usos' }, mejor ? 'Superar mi marca' : 'Jugar el reto'));
+
   root.append(
     h('section', { class: 'hero' },
       h('div', null,
-        h('p', { class: 'eyebrow' }, 'Cambia el uso, cambia la prueba'),
         h('h1', { class: 'marca', html: `${LOGO}<span>Neuro<b>Lab</b></span>` }),
-        h('p', { class: 'sub' }, 'Consulta, juega y aprende sobre neurodiversidad, diagnósticos y etiquetas'),
-        h('p', { class: 'lead' }, `TDAH, autismo, altas capacidades, dislexia, neurodiversidad… Cada vez oímos más estas palabras, y cada vez discutimos más sobre ellas. NeuroLab reúne ${terms.length} términos con su historia, sus fuentes y lo que significan hoy, para que entiendas una idea sencilla y poderosa: la misma etiqueta sirve para cosas distintas, y cada uso necesita su propia prueba.`),
-        form,
-        h('div', { class: 'btns', style: { marginTop: '14px' } },
-          h('a', { class: 'btn primary', href: '#/explorar' }, 'Explorar los términos'),
-          h('a', { class: 'btn', href: '#/azar' }, '🎲 Un término al azar'),
-          h('a', { class: 'btn', href: '#/aprender' }, 'Aprender en diez paradas')),
-        h('div', { class: 'stats' },
-          h('div', { class: 'stat' }, h('b', null, terms.length), h('span', null, 'términos')),
-          h('div', { class: 'stat' }, h('b', null, hitos.length), h('span', null, 'hitos')),
-          h('div', { class: 'stat' }, h('b', null, rels.length), h('span', null, 'conexiones')),
-          h('div', { class: 'stat' }, h('b', null, fiables), h('span', null, 'fichas verificadas o probables')))),
+        h('p', { class: 'promesa' }, PROMESA[0], h('br'), h('b', null, PROMESA[1])),
+        h('p', { class: 'firma' }, 'Cambia el uso, cambia la prueba'),
+        puerta,
+        h('p', { class: 'small', style: { marginTop: '14px' } },
+          h('a', { href: '#todo', onclick: e => { e.preventDefault(); todo.scrollIntoView({ behavior: suave(), block: 'start' }); todo.focus({ preventScroll: true }); } }, 'Ver todo lo que hay en NeuroLab ↓'))),
       art),
-    preguntaEntrada(),
+    h('section', { class: 'tres' },
+      reto,
+      h('article', { class: 'card' },
+        h('p', { class: 'eyebrow' }, 'Para qué te sirve'),
+        h('ul', { class: 'sirve' },
+          h('li', null, h('b', null, 'Preparar una reunión'), ' con el centro o con la consulta, sabiendo qué se decide y con qué prueba.'),
+          h('li', null, h('b', null, 'Ver un vídeo'), ' sin dar el salto de «es una moda» o «es para siempre».'),
+          h('li', null, h('b', null, 'Preparar una clase'), ' con fichas verificadas y datos abiertos.')),
+        h('p', { class: 'small', style: { margin: '10px 0 0' } }, h('a', { href: '#/conocer' }, 'Qué es NeuroLab y qué no es →'))),
+      h('article', { class: 'card clases' },
+        h('p', { class: 'eyebrow' }, 'Para clases y grupos'),
+        h('h3', null, 'Una etiqueta, en grupo'),
+        h('p', null, 'Elige una etiqueta y un uso, proyecta su episodio y que el grupo vote en el Choque y en el Reflejo, sin nombres. La ficha te hace de guion.'),
+        h('a', { class: 'btn', href: '#/clase' }, 'Abrir el modo clase'))),
+    todo,
     h('section', null,
       h('h2', null, 'Una etiqueta, cinco trabajos'),
       h('p', { class: 'lead' }, 'Una etiqueta no es una cosa: es una herramienta. La misma palabra puede estar haciendo cinco trabajos distintos, y lo que la justifica en uno no la justifica automáticamente en otro. Se recuerdan con un verbo: IDEAR.'),
       h('div', { class: 'ucards' }, CODIGOS.map(k => h('a', { class: 'ucard', 'data-v': k, href: `#/explorar?uso=${k}` },
-        h('span', { class: 'letra', 'aria-hidden': 'true' }, k), h('b', null, USOS[k].nombre), h('span', null, USOS[k].para),
+        imgUso(k), h('span', { class: 'letra', 'aria-hidden': 'true' }, k), h('b', null, USOS[k].nombre), h('span', null, USOS[k].para),
         h('span', { class: 'n' }, `${cuenta(k)} términos circulan aquí`)))),
       recuadro('recuerda', 'Cambia el uso, cambia la prueba',
         'Para investigar basta con describir bien a un grupo. Para diagnosticar hace falta acertar con una persona. Para educar, que el apoyo sirva. Para acceder a un derecho, reglas claras y revisables. Para reconocerse, claridad y respeto. ',
@@ -61,7 +100,7 @@ export function render(root, ctx) {
           h('div', { class: 'tiles' },
             tile('#/aprender', '◎', 'Aprender', 'Una ruta de diez paradas, los cinco usos, las seis preguntas, los saltos y los dos errores.'),
             tile('#/jugar', '★', 'Jugar', 'Cinco juegos para poner a prueba lo aprendido, con marcas que superar.'),
-            tile('#/pensar', '✎', 'Pensar y aplicar', 'Siete actividades para pensar con calma, cazar saltos y dar un paso pequeño fuera de la pantalla.'))))),
+            tile('#/pensar', '✎', 'Pensar y aplicar', 'Siete actividades para pensar con calma, cazar saltos y elegir una acción mínima fuera de la pantalla.'))))),
     h('section', null,
       h('h2', null, 'La idea en una conversación'),
       dialogo([
@@ -98,6 +137,13 @@ export function render(root, ctx) {
       h('p', { class: 'muted' }, 'Hablar de diagnósticos remueve. Si en algún momento algo te pesa, aquí está la salida.'),
       semaforo()),
   );
+  // Una sola puerta (L5): el episodio del día; la pregunta de llegada va dentro
+  obtener(ctx).then(E => {
+    if (!puerta.isConnected) return;
+    E.portada(puerta, { boton: 'Empieza el episodio de hoy',
+      alAbrir: id => { location.hash = `#/episodio/${encodeURIComponent(id)}`; },
+      alVolver: id => { location.hash = `#/vuelta/${encodeURIComponent(id)}`; } });
+  }).catch(e => { console.error(e); poner(puerta, h('a', { class: 'btn primary', href: '#/explorar' }, 'Explorar por etiqueta')); });
   ctx.contenido().then(m => {
     const con = terms.filter(t => m.get(t.id)?.sabias_que && t.estado !== 'dudosa');
     const otro = () => {

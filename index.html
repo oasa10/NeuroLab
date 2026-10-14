@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NeuroLab · Consulta, juega y aprende sobre neurodiversidad, diagnósticos y etiquetas</title>
-  <meta name="description" content="TDAH, autismo, altas capacidades, dislexia, neurodiversidad… Una misma etiqueta sirve para investigar, diagnosticar, educar, acceder a apoyos o reconocerse, y cada uso necesita su propia prueba. Fichas verificadas, viajes en el tiempo, mapas, juegos y retos para pensar.">
+  <title>NeuroLab · Qué pide cada uso de una etiqueta</title>
+  <meta name="description" content="Una etiqueta no pide lo mismo en la consulta, en el aula o en una ayuda. NeuroLab te enseña qué pide cada uso: un episodio de siete minutos al día y 129 fichas con sus fuentes sobre TDAH, autismo, altas capacidades, dislexia y las demás etiquetas del neurodesarrollo.">
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#FBFAF6" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#11171C" media="(prefers-color-scheme: dark)">
-  <meta property="og:title" content="NeuroLab · Consulta, juega y aprende sobre neurodiversidad, diagnósticos y etiquetas">
-  <meta property="og:description" content="Cambia el uso, cambia la prueba. Fichas, viajes en el tiempo, mapas, juegos y retos para pensar con las etiquetas del neurodesarrollo.">
+  <meta property="og:title" content="NeuroLab · Qué pide cada uso de una etiqueta">
+  <meta property="og:description" content="Una etiqueta no pide lo mismo en la consulta, en el aula o en una ayuda. NeuroLab te enseña qué pide cada uso. Cambia el uso, cambia la prueba.">
   <meta property="og:type" content="website">
   <link rel="icon" href="assets/img/icono.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/img/icono-180.png">
@@ -20,12 +20,14 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="preload" href="assets/fonts/inter-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/fraunces-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/vendor/episodio/episodio.css">
   <link rel="stylesheet" href="assets/css/neurolab.css">
   <script>
     // Tema elegido por quien visita (solo en su navegador)
     try { var t = localStorage.getItem('neurolab:tema'); if (t === '"light"' || t === '"dark"') document.documentElement.dataset.theme = JSON.parse(t); } catch (e) {}
   </script>
   <script src="assets/vendor/d3-7.9.0.min.js" defer></script>
+  <script src="assets/vendor/episodio/episodio.js" defer></script>
   <script type="module" src="assets/js/main.js"></script>
 </head>
 <body>
@@ -65,9 +67,9 @@
   </main>
   <footer class="foot">
     <div class="wrap">
-      <span><b>NeuroLab</b> · Consulta, juega y aprende sobre neurodiversidad, diagnósticos y etiquetas · 2026</span>
+      <span><b>NeuroLab 2.1</b> · Consulta, juega y aprende sobre neurodiversidad, diagnósticos y etiquetas · 2026</span>
       <span class="aviso-pie"><span class="luz" aria-hidden="true"></span>No diagnostica ni sustituye a profesionales. ¿Lo pasas muy mal? <a href="tel:024"><b>024</b></a> (gratis, 24 h) · Emergencias <a href="tel:112"><b>112</b></a> · <a href="#/conocer/ayuda">Dónde pedir ayuda</a></span>
-      <span><a href="#/conocer">Conocer NeuroLab</a> · Datos y textos: <a href="https://creativecommons.org/licenses/by/4.0/deed.es" rel="license">CC BY 4.0</a> · Código: MIT · Sin cookies ni rastreo</span>
+      <span><a href="#/conocer">Conocer NeuroLab</a> · <a href="#/clase">Para clases y grupos</a> · Datos y textos: <a href="https://creativecommons.org/licenses/by/4.0/deed.es" rel="license">CC BY 4.0</a> · Código: MIT · Sin cookies ni rastreo</span>
       <button class="tema-pie" type="button"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg> Modo claro u oscuro</button>
     </div>
   </footer>
