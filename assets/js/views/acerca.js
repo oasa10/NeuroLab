@@ -172,7 +172,7 @@ function ayuda(root) {
       h('li', null, h('b', null, 'Emergencias: '), tel('112'), '.'),
       h('li', null, h('b', null, 'Línea 024, de atención a la conducta suicida: '), tel('024'), '. Gratuita, confidencial y disponible las 24 horas, todos los días.'),
       h('li', null, h('b', null, 'Teléfono de la Esperanza: '), tel('717 003 717'), ', para hablar cuando lo estás pasando mal.'),
-      h('li', null, h('b', null, 'Fundación ANAR, para niños, niñas y adolescentes: '), tel('900 20 20 10'), '.')),
+      h('li', null, h('b', null, 'Fundación ANAR, para niños, niñas y adolescentes: '), tel('900 20 20 10'), '. Gratuito, confidencial y las 24 horas.')),
     h('h2', null, 'Si te preocupa algo de ti o de alguien cercano'),
     h('ul', null,
       h('li', null, h('b', null, 'Tu centro de salud. '), 'El médico o la médica de familia, o el pediatra si es un niño o una niña, es la puerta de entrada a una evaluación y, si hace falta, a salud mental o a neurología.'),

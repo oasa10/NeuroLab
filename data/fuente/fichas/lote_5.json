@@ -256,9 +256,13 @@
    {
     "titulo": "Wikipedia (consulta 2026). Kassiane Asasumasu (apoyo)",
     "url": "https://en.wikipedia.org/wiki/Kassiane_Asasumasu"
+   },
+   {
+    "titulo": "National Autistic Society (consulta 2026). The neurodiversity movement",
+    "url": "https://www.autism.org.uk/advice-and-guidance/identity/the-neurodiversity-movement"
    }
   ],
-  "estado": "probable",
+  "estado": "verificada",
   "nucleo": false
  },
  {
@@ -608,8 +612,8 @@
   "tipo": "concepto",
   "familia": "Identidad y comunidad",
   "anio": 1979,
-  "anio_nota": "Tajfel y Turner publicaron la teoría de la identidad social, el marco con el que hoy se estudia la identificación con etiquetas como autismo o TDAH",
-  "obra": "Tajfel, H. y Turner, J. C. (1979). «An integrative theory of intergroup conflict», en W. G. Austin y S. Worchel (eds.), The Social Psychology of Intergroup Relations. Brooks/Cole",
+  "anio_nota": "Tajfel y Turner publicaron su texto de referencia sobre la teoría de la identidad social, el marco con el que hoy se estudia la identificación con etiquetas como autismo o TDAH",
+  "obra": "Tajfel, H. y Turner, J. C. (1979). «An integrative theory of intergroup conflict», en W. G. Austin y S. Worchel (eds.), The Social Psychology of Intergroup Relations (pp. 33-47). Brooks/Cole",
   "figuras": [
    "Henri Tajfel",
    "John Turner",
@@ -657,9 +661,17 @@
    {
     "titulo": "Wikipedia (consulta 2026). Social identity theory (apoyo para Tajfel y Turner, 1979)",
     "url": "https://en.wikipedia.org/wiki/Social_identity_theory"
+   },
+   {
+    "titulo": "Scandroglio, B., López Martínez, J. S. y San José Sebastián, M. C. (2008). La Teoría de la Identidad Social: una síntesis crítica de sus fundamentos, evidencias y controversias. Psicothema, 20(1), 80-89",
+    "url": "https://www.psicothema.com/pdf/3432.pdf"
+   },
+   {
+    "titulo": "Jetten, J. (2025). Social Identity. Open Encyclopedia of Cognitive Science. MIT Press",
+    "url": "https://doi.org/10.21428/e2759450.d85def4e"
    }
   ],
-  "estado": "probable",
+  "estado": "verificada",
   "nucleo": false
  },
  {

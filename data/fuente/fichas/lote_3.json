@@ -145,8 +145,8 @@
   "tipo": "concepto",
   "familia": "Altas capacidades y excepcionalidades",
   "anio": 1998,
-  "anio_nota": "Año que suele asignarse a la tipología de Castelló y Batlle sobre superdotación y talentos; la guía oficial de Castilla y León la fecha también en 1986, así que el año exacto queda por confirmar.",
-  "obra": "Modelo de Castelló y Batlle para identificar superdotación y talentos, recogido en guías autonómicas como la de altas capacidades de Castilla y León (2025)",
+  "anio_nota": "Castelló y Batlle publicaron en la revista Faisca (n.º 6) su protocolo para identificar al alumnado superdotado y talentoso, que distingue talentos simples y complejos.",
+  "obra": "Castelló, A. y Batlle, C. (1998). «Aspectos teóricos e instrumentales en la identificación del alumno superdotado y talentoso. Propuesta de un protocolo». Faisca, 6, 26-66; recogido en guías autonómicas como la de altas capacidades de Castilla y León (2025)",
   "figuras": [
    "A. Castelló",
    "C. Batlle",
@@ -189,9 +189,17 @@
    {
     "titulo": "Gagné, F. (2008). El desarrollo del talento: sobre el eslabón más débil. Revista Española de Pedagogía, 66(240), 221-240",
     "url": "https://dialnet.unirioja.es/descarga/articulo/2663014.pdf"
+   },
+   {
+    "titulo": "Castelló, A. y Batlle, C. (1998). Aspectos teóricos e instrumentales en la identificación del alumno superdotado y talentoso. Propuesta de un protocolo. Faisca, 6, 26-66",
+    "url": "https://ddd.uab.cat/pub/artpub/1998/110478/faisca_a1998v6p26.pdf"
+   },
+   {
+    "titulo": "Lázaro-Tortosa, F. R., Marco-Arenas, M. y Sánchez-López, M. C. (2021). Identificación del talento musical en escolares de la Comunidad Autónoma de la Región de Murcia en España. Revista Electrónica Educare, 25(3)",
+    "url": "https://doi.org/10.15359/ree.25-3.17"
    }
   ],
-  "estado": "probable",
+  "estado": "verificada",
   "nucleo": false
  },
  {

@@ -968,9 +968,13 @@
    {
     "titulo": "Temple Grandin. Web oficial (biografía)",
     "url": "https://www.templegrandin.com/"
+   },
+   {
+    "titulo": "The Autism History Project (Ellen Herman, University of Oregon). Temple Grandin and Margaret M. Scariano, Emergence: Labeled Autistic, 1986",
+    "url": "https://blogs.uoregon.edu/autismhistoryproject/?p=1438"
    }
   ],
-  "estado": "probable",
+  "estado": "verificada",
   "nucleo": false
  },
  {
